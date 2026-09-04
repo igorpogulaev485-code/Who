@@ -74,6 +74,8 @@
 
 - [Аэлендор](world/factions/aelendor.md)
 - [Теневая Долина](world/factions/tenevaya-dolina.md)
+- [Тёмные леса вечной тени](world/factions/temnye-lesa.md)
+- [Орден пламенеющей стали](world/factions/orden-plameneyushchey-stali.md)
 - [Дом Вандерли](world/factions/dom-vanderli.md)
 - [Культ Лолс](world/factions/kult-lols.md)
 - [Хвост Скорпиона](world/factions/khvost-skorpiona.md)
@@ -90,7 +92,8 @@
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
-- [Капитан Тандил](world/npcs/tandil.md)
+- [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
+- [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
 
 ## Партия
@@ -105,7 +108,8 @@
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
 - [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
-- [Канон-лок раунд 2](campaign/plot/canon-lock-2026-09-04-round2.md)
+- [Сообщения игрокам: Страж + глашатай](campaign/sessions/player-briefs-silver-guard-and-herald.md)
+- [Награды за Страж](campaign/party/rewards-silver-guard.md)
 - [Кандидаты 4 Разломов](campaign/plot/rift-candidates.md)
 - [Вопросы мастеру](campaign/plot/canon-questions-for-gm.md)
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md) *(арка Кеши закрыта — мёртв)*
