@@ -42,6 +42,7 @@
 
 ## Локации
 
+- [Карта мира](world/locations/world-map.md) → [`assets/maps/world-map-echo-dawn.jpg`](assets/maps/world-map-echo-dawn.jpg)
 - [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
 - [Государства мира](world/locations/states-overview.md)
 - [Сильванор](world/locations/silvanor.md)
