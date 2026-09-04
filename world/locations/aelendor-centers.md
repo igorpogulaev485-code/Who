@@ -9,11 +9,11 @@ share_url: https://chat.qwen.ai/s/7accf046-e937-46ed-9dee-01d6e19f477b
 
 # Региональные центры Аэлендора
 
-Карта: [`aelendor-map.md`](aelendor-map.md) · [`assets/maps/aelendor-map.jpg`](../../assets/maps/aelendor-map.jpg)
+Карты:
+- Аэлендор: [`aelendor-map.md`](aelendor-map.md)
+- Лунные Пики: [`lunnye-piki-map.md`](lunnye-piki-map.md)
 
-Города с баннерами на карте мастера = **канон** (в т.ч. те, что раньше ошибочно числились «идеями Qwen»).
-
-## Города на карте
+## Города на карте Аэлендора
 
 | Название | Роль | Файл |
 |---|---|---|
@@ -24,17 +24,30 @@ share_url: https://chat.qwen.ai/s/7accf046-e937-46ed-9dee-01d6e19f477b
 | **Элиандор** | Центр–восток | [`eliandor.md`](eliandor.md) |
 | **Вратный град** | ЮЗ | [`vratnyy-grad.md`](vratnyy-grad.md) |
 | **Хранитель пик** | Южный рубеж | [`khranitel-pik.md`](khranitel-pik.md) |
-| **Серебряный предел** | ЮВ рубеж (=? Серебряный Страж) | [`serebryanyy-predel.md`](serebryanyy-predel.md) |
+| **Серебряный предел** | ЮВ рубеж у Ордена (**≠** Серебряный Страж) | [`serebryanyy-predel.md`](serebryanyy-predel.md) |
 
-## Другие места кампании (не все на обзорной карте)
+## Провинция Лунные Пики
+
+| Название | Роль | Файл |
+|---|---|---|
+| **Серебряный Страж** | Северный аванпост (вернули во 2-й арке) | [`serebryanyy-strazh.md`](serebryanyy-strazh.md) |
+| **Камнеград** | Восток провинции; сожжён | [`kamnegrad.md`](kamnegrad.md) |
+| **Лунный овраг** | Южнее Лунного моста | [`lunnyy-ovrag.md`](lunnyy-ovrag.md) |
+| **Белый шип** | Западная крепость | [`belyy-ship.md`](belyy-ship.md) |
+| **Туманный клык** | Западный форпост / перевал | [`tumannyy-klyk.md`](tumannyy-klyk.md) |
+| **Тихий брод** | Переправа на оси З↔В | [`tikhiy-brod.md`](tikhiy-brod.md) |
+| **Серебряный Ручей** | СЗ у побережья | [`serebryanyy-ruchey.md`](serebryanyy-ruchey.md) |
+| **Звёздная Поляна** | Дорога к Камнеграду | [`zvezdnaya-polyana.md`](zvezdnaya-polyana.md) |
+| **Рассветный путь** | Лагерь СВ от моста | [`rassvetnyy-put.md`](rassvetnyy-put.md) |
+| **Чаша Шепотов** | Долина/лес севернее моста | [`chasha-shepotov.md`](chasha-shepotov.md) |
+| **Поле павших героев** | ЮВ монумент | [`pole-pavshikh-geroev.md`](pole-pavshikh-geroev.md) |
+
+## Другие места кампании
 
 | Название | Что это | Файл |
 |---|---|---|
-| **Камнеград** | Дварфийский город в горе; **сожжён** авангардом Хребта | [`kamnegrad.md`](kamnegrad.md) |
 | **Лесоверье** | Эльфийская магическая школа | [`lesoverye.md`](lesoverye.md) |
 | **Красный луг** | Город на путях | [`krasnyy-lug.md`](krasnyy-lug.md) |
 | **Мёртвый город** | Карман времени Кардиана | [`mertvyy-gorod.md`](mertvyy-gorod.md) |
-| **Лунный Овраг** | Деревня | [`lunnyy-ovrag.md`](lunnyy-ovrag.md) |
 
-Архив раннего чата: [`drafts/imports/qwen-aelendor-regional-centers.md`](../../drafts/imports/qwen-aelendor-regional-centers.md).  
-Старый черновик «идеи Qwen» устарел там, где имена совпали с картой.
+Архив: [`drafts/imports/qwen-aelendor-regional-centers.md`](../../drafts/imports/qwen-aelendor-regional-centers.md).
