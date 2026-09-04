@@ -94,6 +94,7 @@
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
+- [Вопросы мастеру → фиксация канона](campaign/plot/canon-questions-for-gm.md)
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md)
 
 ## Книги для игроков
