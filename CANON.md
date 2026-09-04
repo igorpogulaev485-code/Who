@@ -17,17 +17,33 @@
 - [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
 - [Архив: региональные центры Аэлендора](drafts/imports/qwen-aelendor-regional-centers.md)
 - [Архив: визуализация Камнеграда](drafts/imports/qwen-kamnegrad-viz.md)
+- [Архив: глашатай о драконе](drafts/imports/qwen-herald-dragon.md)
+- [Архив: 3 арка — внутрь Разлома](drafts/imports/qwen-ark3-vnutri-razloma.md)
+- [Архив: историческая энциклопедия](drafts/imports/qwen-istoricheskaya-entsiklopediya.md)
+- [Архив: подготовка Лунный Овраг / 2 арка](drafts/imports/qwen-prep-lunnyy-ovrag.md)
+- [Архив: мерч](drafts/imports/qwen-merch.md)
+- [Архив: бэкстори ПК](drafts/imports/qwen-pc-backstories.md)
+- [Архив: мир через страны](drafts/imports/qwen-world-through-countries.md)
+- [Архив: сет артефактов драконов](drafts/imports/qwen-dragon-artifacts-set.md)
+- [Архив: артефакты божественной силы](drafts/imports/qwen-divine-power-artifacts.md)
+- [Архив: вознаграждение за веру](drafts/imports/qwen-reward-for-faith.md)
+- [Архив: древние драконы](drafts/imports/qwen-ancient-dragons.md)
+- [Архив: Кузница Фиалки](drafts/imports/qwen-kuznitsa-fialki.md)
 
 ## Мир — лор
 
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md)
+- [Сет божественной силы](world/lore/artefacts-divine-set.md)
+- [Сет артефактов Драконов](world/lore/artefacts-dragon-set.md)
+- [Девять древних драконов](world/lore/ancient-dragons.md)
 - Черновик: [дебафы за 3 артефакта](drafts/kardian-debuffs-3-artifacts.md)
 - [Харенгоны](world/lore/harengons.md)
 
 ## Локации
 
 - [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
+- [Государства мира](world/locations/states-overview.md)
 - [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)
@@ -77,12 +93,25 @@
 - [Открытые нити](campaign/plot/open-threads.md)
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md)
 
+## Книги для игроков
+
+- [Оглавление](world/player-books/README.md)
+- [Зеркало Памяти (индекс/изучено)](world/player-books/zerkalo-pamyati.md)
+
 ## Сессии
 
 - [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
 - [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
 
+## Сюжет / арки
+
+- [Пять арок кампании](campaign/plot/arcs.md)
+
 ## Подготовка (ещё не сыграно)
+
+- [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md)
+
+- [Вирра / Гонд — награда за веру](campaign/prep/virra-gond-faith-reward.md)
 
 - [Контакт с Драконьим Хребтом](campaign/prep/next-dragonborn-contact.md)
 - [Бой 1 — авангард](rules/encounters/01-dragonborn-vanguard.md)

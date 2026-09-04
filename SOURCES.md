@@ -34,6 +34,19 @@ tags: [meta]
 | 2026-09-04 | `drafts/imports/qwen-kamnegrad-viz.md` | https://chat.qwen.ai/s/cc01bf22-9c4c-46b7-ae3b-692054f7f740 |
 | 2026-09-04 | `drafts/imports/qwen-herald-dragon.md` | https://chat.qwen.ai/s/2b02c58b-6a41-4e24-a88b-2ad5ba71d8ba |
 
+| 2026-09-04 | `drafts/imports/qwen-kuznitsa-fialki.md` | https://chat.qwen.ai/s/cdff2e5b-cb6e-41ac-a6d9-bf29ca8c25f0 |
+| 2026-09-04 | `drafts/imports/qwen-ancient-dragons.md` | https://chat.qwen.ai/s/9f32df91-63cb-445d-8b56-2352ff8a4eea |
+| 2026-09-04 | `drafts/imports/qwen-reward-for-faith.md` | https://chat.qwen.ai/s/e772460a-1277-4f34-bf13-b566f2c87b55 |
+| 2026-09-04 | `drafts/imports/qwen-divine-power-artifacts.md` | https://chat.qwen.ai/s/0bb53fd7-08fd-4899-8e48-04ddfb11661e |
+| 2026-09-04 | `drafts/imports/qwen-dragon-artifacts-set.md` | https://chat.qwen.ai/s/f3bb86f1-9be5-45a0-959c-3d70c4a26c91 |
+| 2026-09-04 | `drafts/imports/qwen-world-through-countries.md` | https://chat.qwen.ai/s/bbc06d92-d1a6-4357-8902-73817e82b29a |
+| 2026-09-04 | `drafts/imports/qwen-pc-backstories.md` | https://chat.qwen.ai/s/62e1a8b6-f00e-45e6-b7fa-fc9b3c1d93f1 |
+| 2026-09-04 | `drafts/imports/qwen-merch.md` | https://chat.qwen.ai/s/17133024-8ea7-414b-b72e-458d8b3c8b25 |
+| 2026-09-04 | `drafts/imports/qwen-prep-lunnyy-ovrag.md` | https://chat.qwen.ai/s/8660b524-2fcf-42c8-b65e-35fea6309c8a |
+| 2026-09-04 | `drafts/imports/qwen-istoricheskaya-entsiklopediya.md` | https://chat.qwen.ai/s/c83ea575-6b67-413c-b93e-f8ac297c873c |
+| 2026-09-04 | `drafts/imports/qwen-ark3-vnutri-razloma.md` | https://chat.qwen.ai/s/1594818c-09f3-4713-957c-4a0402e2714b |
+| 2026-09-04 | `world/player-books/` (Telegraph) | https://telegra.ph/Traktat-o-Flore-Planov-i-Predelov-12-08 + Зеркало Памяти + Энциклопедия драконов |
+
 ## Ожидается
 
 Следующие шаринг-ссылки по хронологии.
