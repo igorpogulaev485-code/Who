@@ -20,6 +20,7 @@
 
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md)
+- Черновик: [дебафы за 3 артефакта](drafts/kardian-debuffs-3-artifacts.md)
 - [Харенгоны](world/lore/harengons.md)
 
 ## Локации
