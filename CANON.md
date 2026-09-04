@@ -7,6 +7,7 @@
 - [Источники](SOURCES.md)
 - [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
+- [Архив: Розалия](drafts/imports/qwen-rozaliya.md)
 
 ## Мир — лор
 
@@ -18,7 +19,12 @@
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)
 - [Розалия](world/locations/rozaliya.md)
+  - [НПС](world/locations/rozaliya/npcs.md)
+  - [Суда](world/locations/rozaliya/ships.md)
+  - [Военные квесты](world/locations/rozaliya/military-quests.md)
+  - [Детали локаций](world/locations/rozaliya/locations-detail.md)
 - [Мёртвый город](world/locations/mertvyy-gorod.md)
+- [Храм Лолс](world/locations/khram-lols.md)
 - [Пять верных столиц](world/locations/five-capitals.md)
 
 ## Фракции
@@ -46,6 +52,7 @@
 
 - [Хронология](campaign/plot/timeline.md)
 - [Открытые нити](campaign/plot/open-threads.md)
+- Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md)
 
 ## Сессии
 
