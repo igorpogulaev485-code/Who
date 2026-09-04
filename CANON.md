@@ -13,6 +13,7 @@
 - [Архив: генерация картинок](drafts/imports/qwen-dark-fantasy-scorpion-symbol.md)
 - [Архив: бой с авангардом драконорождённых](drafts/imports/qwen-dragonborn-vanguard-fight.md)
 - [Архив: ваншот Первого Разлома](drafts/imports/qwen-oneshot-first-razlom.md)
+- [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
 
 ## Мир — лор
 
@@ -31,6 +32,10 @@
   - [Детали локаций](world/locations/rozaliya/locations-detail.md)
 - [Мёртвый город](world/locations/mertvyy-gorod.md)
 - [Храм Лолс](world/locations/khram-lols.md)
+  - [Структура «Паутина Судьбы»](world/locations/khram-lols/structure-web-of-fate.md)
+  - [Зал 6 статуй](world/locations/khram-lols/hall-six-statues.md)
+  - [Наказания](world/locations/khram-lols/punishments.md)
+  - [10 туннелей-загадок](world/locations/khram-lols/ten-tunnels-riddles.md)
 - [Пять верных столиц](world/locations/five-capitals.md)
 
 ## Фракции

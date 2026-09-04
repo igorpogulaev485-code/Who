@@ -28,6 +28,7 @@ tags: [meta]
 | 2026-09-04 | `drafts/imports/qwen-dark-fantasy-scorpion-symbol.md` | https://chat.qwen.ai/s/067ad043-7c33-4e4f-ab59-a0f350e8cd6d |
 | 2026-09-04 | `drafts/imports/qwen-dragonborn-vanguard-fight.md` | https://chat.qwen.ai/s/3f7290fd-6406-4c98-a7e3-b9afdca7848f |
 | 2026-09-04 | `drafts/imports/qwen-oneshot-first-razlom.md` | https://chat.qwen.ai/s/08e1b30b-f738-431e-8436-61fc38d4b3e3 |
+| 2026-09-04 | `drafts/imports/qwen-khram-lols.md` | https://chat.qwen.ai/s/77436d3e-667a-4877-8d57-0f851e9fc280 |
 
 ## Ожидается
 
