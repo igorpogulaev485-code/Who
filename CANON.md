@@ -11,6 +11,7 @@
 - [Архив: сессии → книга/комикс](drafts/imports/qwen-sessions-to-book.md)
 - [Архив: промпты Хвост/клинок](drafts/imports/qwen-prompts-scorpion-kardian.md)
 - [Архив: генерация картинок](drafts/imports/qwen-dark-fantasy-scorpion-symbol.md)
+- [Архив: бой с авангардом драконорождённых](drafts/imports/qwen-dragonborn-vanguard-fight.md)
 
 ## Мир — лор
 
@@ -38,6 +39,7 @@
 - [Дом Вандерли](world/factions/dom-vanderli.md)
 - [Культ Лолс](world/factions/kult-lols.md)
 - [Хвост Скорпиона](world/factions/khvost-skorpiona.md)
+- [Империя Драконьего Хребта](world/factions/imperiya-drakonyego-khrebta.md)
 
 ## NPC
 
@@ -64,6 +66,12 @@
 
 - [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
 - [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
+
+## Подготовка (ещё не сыграно)
+
+- [Контакт с Драконьим Хребтом](campaign/prep/next-dragonborn-contact.md)
+- [Бой 1 — авангард](rules/encounters/01-dragonborn-vanguard.md)
+- [Бой 2 — ритуал / спасение](rules/encounters/02-bone-ritual-rescue.md)
 
 ## Визуальные промпты
 
