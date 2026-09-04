@@ -14,6 +14,7 @@
 - [Архив: бой с авангардом драконорождённых](drafts/imports/qwen-dragonborn-vanguard-fight.md)
 - [Архив: ваншот Первого Разлома](drafts/imports/qwen-oneshot-first-razlom.md)
 - [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
+- [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
 
 ## Мир — лор
 

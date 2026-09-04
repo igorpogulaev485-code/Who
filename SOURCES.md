@@ -29,6 +29,7 @@ tags: [meta]
 | 2026-09-04 | `drafts/imports/qwen-dragonborn-vanguard-fight.md` | https://chat.qwen.ai/s/3f7290fd-6406-4c98-a7e3-b9afdca7848f |
 | 2026-09-04 | `drafts/imports/qwen-oneshot-first-razlom.md` | https://chat.qwen.ai/s/08e1b30b-f738-431e-8436-61fc38d4b3e3 |
 | 2026-09-04 | `drafts/imports/qwen-khram-lols.md` | https://chat.qwen.ai/s/77436d3e-667a-4877-8d57-0f851e9fc280 |
+| 2026-09-04 | `drafts/imports/qwen-kardian-artifacts-debuffs.md` | https://chat.qwen.ai/s/990659a6-170d-45ab-9e34-123b38249eb3 |
 
 ## Ожидается
 
