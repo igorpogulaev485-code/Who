@@ -5,7 +5,8 @@
 ## Мета
 
 - [Источники](SOURCES.md)
-- [Архив чата](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
+- [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
+- [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
 
 ## Мир — лор
 
@@ -35,6 +36,7 @@
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
 - [Пиппин](world/npcs/pippin.md)
+- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md)
 
 ## Партия
 

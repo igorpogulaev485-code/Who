@@ -21,6 +21,7 @@ tags: [meta]
 | Дата импорта | Файл | Откуда |
 |---|---|---|
 | 2026-09-04 | `drafts/imports/qwen-2026-01-15-past-sessions-world.md` | https://chat.qwen.ai/s/d390b8fc-1a69-478a-8947-0595306a6f3a |
+| 2026-09-04 | `drafts/imports/qwen-innokentiy-bal.md` | https://chat.qwen.ai/s/33eb794e-fa71-4b59-b9e2-d740e170e939 |
 
 ## Ожидается
 
