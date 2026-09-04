@@ -1,6 +1,7 @@
 ---
 title: Государства мира (обзор)
-status: canon-partial
+status: canon
+note: "Принято в канон мастером 2026-09-04. Сильванор vs Сильванарион — уточнить по карте (столица vs государство / диалекты)."
 tags: [geography, states]
 source: gm
 share_url: https://chat.qwen.ai/s/bbc06d92-d1a6-4357-8902-73817e82b29a

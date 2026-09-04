@@ -94,8 +94,9 @@
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
-- [Вопросы мастеру → фиксация канона](campaign/plot/canon-questions-for-gm.md)
-- Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md)
+- [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
+- [Вопросы мастеру (отвечено)](campaign/plot/canon-questions-for-gm.md)
+- Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md) *(арка Кеши закрыта — мёртв)*
 
 ## Книги для игроков
 

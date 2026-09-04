@@ -30,10 +30,12 @@ region: Аэлендор / союз гномов?
 Промпты: [`assets/prompts/kamnegrad.md`](../../assets/prompts/kamnegrad.md)  
 Архив: [`drafts/imports/qwen-kamnegrad-viz.md`](../../drafts/imports/qwen-kamnegrad-viz.md)
 
-## Арка дракона (prep)
+## Что случилось (канон)
 
-При уходе из города — глашатай о драконе за стенами; мотив яиц пауков / возможное драконье яйцо.
+1. Герои выполнили много квестов, ушли, **прошли мимо** дракона у стен; сохранили себе **2 драконьих яйца**.  
+2. Позже вернулись по другому квесту → внутри города **3 дракона авангарда** Империи Драконьего Хребта → бой → город **сожжён почти до основания** (последняя сессия).  
+3. Часть авангарда **ищет героев**.
 
-- Prep: [`campaign/prep/kamnegrad-dragon.md`](../../campaign/prep/kamnegrad-dragon.md)
-- Энкаунтер: [`rules/encounters/03-ashrime-rift-white-dragon.md`](../../rules/encounters/03-ashrime-rift-white-dragon.md)
-- Архив: [`drafts/imports/qwen-herald-dragon.md`](../../drafts/imports/qwen-herald-dragon.md)
+Исход для партии и восстановление города — открыто.
+
+Prep глашатая/энкаунтера у стен: [`campaign/prep/kamnegrad-dragon.md`](../../campaign/prep/kamnegrad-dragon.md) (частично устарел относительно сожжения).

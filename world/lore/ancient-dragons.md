@@ -1,6 +1,6 @@
 ---
 title: Девять древних драконов
-status: canon-partial
+status: canon
 tags: [dragons, lore]
 source: gm
 share_url: https://chat.qwen.ai/s/9f32df91-63cb-445d-8b56-2352ff8a4eea
