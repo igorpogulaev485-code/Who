@@ -44,6 +44,7 @@
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
 - [Пиппин](world/npcs/pippin.md)
+- [Капитан Тандил](world/npcs/tandil.md)
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md)
 
 ## Партия
