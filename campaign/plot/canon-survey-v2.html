@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опросник канона v2 — Эхо рассвета</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.4rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  select, textarea, input[type=text] {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  .note { margin-top: 8px; display: none; }
+  .note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опросник канона v2</h1>
+  <p class="lead">Только то, что ещё дырявое или могло всплыть после карт и книг. Под каждым вопросом — что уже лежит в репо, чтобы вспомнить. В конце — «Скопировать» → вставь в чат Cursor.</p>
+  <div class="locked"><b>Уже зафиксировано (не спрашиваю снова):</b> партия в Лунном мосту, конец 2 арки; выбор Лес Хранителей / Разлом; Маэстро убит; у демонов кинжал+медальон+маска; Страж вернули; Камнеград сожжён 3 драконами; 2 яйца у героев; Кеша мёртв, кольцо у Грока; Лассо Гонда у Вирры; Элессар I = король; Филлер → Кавил; книги игроков (открытые главы) = жёсткий канон; Серебряный Страж ≠ Серебряный предел.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Что вспомнил по ходу / что важно на ближайшие 1–3 сессии / что я упустил.</p>
+    <textarea id="freeform" rows="8" placeholder="Любые факты, имена, локации Разломов, награды, судьба Пиппина…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+
+<div class="footer">
+  <div class="footer-inner">
+    <button class="secondary" type="button" id="btnClear">Сброс</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано — вставь в чат Cursor</div>
+
+<script>
+const SECTIONS = [
+  { title: "1. Награда Хельма", hint: "Грок / божественный сет", questions: [
+    { id: "helm_reward", label: "Что за награда Хельма?",
+      ctx: "Контекст:\n• Грок — паладин Хельма, секира «Кровавая Эшонай» = Секира Правосудия (уже канон).\n• В архиве (февраль): герои шли в Розалию; ты писал, что в месте силы Хельма бог обещал Гроку 2-й артефакт из сета из 5.\n• Qwen сначала предложил «Щит Непреклонного Предела» — ты отверг (двуручка + щит).\n• Потом вариант: «Пояс Непреклонной Стойкости» (+ браслеты / плащ / корона в сете).\n• Side 7b: храм Хельма в Лунном мосту очищен; Грок получил возможность говорить с богом — это было, но предмет не выдан.\n• Лассо Гонда Вирре — уже выдано отдельно (не Хельм).",
+      options: [
+        ["belt_rosalia", "Пояс Непреклонной Стойкости (вариант из архива) — ещё не выдан, ждёт Розалию / святилище"],
+        ["belt_done", "Пояс уже выдан / учтён (уточню в заметке)"],
+        ["other_item", "Другой предмет — опишу в заметке"],
+        ["talk_only", "Награда была только разговор с богом (side 7b), отдельного предмета нет"],
+        ["redesign", "Старый замысел устарел — придумаем заново позже"],
+        ["forget_ok", "Не помню / пока не важно для 3 арки"],
+        ["other", "Другое"],
+      ]},
+    { id: "helm_where", label: "Где должна сработать награда?",
+      ctx: "Раньше якорь — святилище/место силы в Розалии. Розалия всё ещё держится под осадой; партия сейчас в Лунном мосту.",
+      options: [
+        ["rozalia_later", "В Розалии, когда доберёмся"],
+        ["already_missed", "Окно упущено — нужно закрыть иначе"],
+        ["lunnyy_most", "Можно закрыть в Лунном мосту / через связь с богом"],
+        ["not_needed", "Не нужно"],
+        ["other", "Другое"],
+      ]},
+  ]},
+
+  { title: "2. Пиппин", hint: "Нить Разлома у Лунного оврага", questions: [
+    { id: "pippin_fate", label: "Что делаем с Пиппином?",
+      ctx: "Контекст из сессий 4–5 (сводки):\n• Ребёнок в Лунном овраге; его сны «питали» Разлом (как антенна).\n• Сессия 4: исчезновение Маэстро; слухи — Пиппин в коме.\n• Сессия 5: герои спасли Пиппина лобовым боем; он разочарован («Вы не слушали… просто бьёте»), отказался сотрудничать; сны всё ещё кормили Разлом.\n• Маэстро и дочь временно запечатали Разлом у оврага и сказали, что вмешательство было ошибкой.\n• В опроснике v1 ты написал: «не помню».",
+      options: [
+        ["keep_as_was", "Оставить как в сессиях 4–5 (жив, обижен, связь со снами)"],
+        ["dead_or_gone", "Уже мёртв / исчез / нить закрыта за кадром"],
+        ["rewrite", "Переписать роль (опишу в заметке)"],
+        ["drop", "Выкинуть из канона — больше не использовать"],
+        ["soft_park", "Парковать: не трогать, пока сам не вспомню"],
+        ["other", "Другое"],
+      ]},
+  ]},
+
+  { title: "3. Разломы на карте", hint: "7 всего; 1 = Лунный мост", questions: [
+    { id: "rift_count", label: "Сколько Разломов сейчас «живые» / открытые?",
+      ctx: "В лоре: Завеса, Аэлендор — хранитель; известно семь Разломов. Один пробудился в Лунном мосту при убийстве Люмиэля.\nТы говорил: открыт в Лунном мосту и ещё в 4 местах (итого 5 активных?). На картах мира / Аэлендора / Лунных Пиков точки Разлома не подписаны.",
+      options: [
+        ["five_active", "1 в Лунном мосту + 4 других = 5 активных"],
+        ["seven_all", "Все 7 как-то активны / нестабильны"],
+        ["only_moon", "Пока сюжетно важен только Лунный мост; остальные — фон"],
+        ["will_list", "Перечислю места в заметке / свободном тексте"],
+        ["invent_later", "Места ещё не придумал — оставь дыру"],
+        ["other", "Другое"],
+      ]},
+    { id: "rift_guess_ok", label: "Можно ли мне предложить 4 места из известных локаций?",
+      ctx: "Кандидаты из карт/лора (не канон, просто чтобы вспомнить):\nПоле павших героев · Камнеград/горы · Белый шип · Розалия/Теневая Долина · Серебряный предел · Лес Хранителей · Мёртвый город · Гирмхельм/льды.",
+      options: [
+        ["yes_propose", "Да, предложи варианты — я отмечу"],
+        ["no_i_list", "Нет, я сам перечислю в тексте"],
+        ["later", "Позже"],
+        ["other", "Другое"],
+      ]},
+  ]},
+
+  { title: "4. Три «мирских» артефакта Кардиана", hint: "Доспехи / меч / сапоги", questions: [
+    { id: "kardian_worldly", label: "Где остальные три?",
+      ctx: "Шестёрка (гл. 44 книг, канон):\nМаска знаний · Кинжал души · Доспехи смерти · Меч разрушений · Сапоги покрова · Медальон призыва.\nУ демонов: маска, кинжал, медальон.\nСтарая пометка в файлах (может врать):\n• Доспехи — во льдах\n• Сапоги — Империя Звёздной Пыли\n• Меч — Драконья империя",
+      options: [
+        ["old_ok", "Старые локации верны (льды / Звёздная Пыль / Драконий Хребет)"],
+        ["partial", "Частично верны — поправлю в заметке"],
+        ["rewrite", "Все три переписать — опишу"],
+        ["unknown_ok", "Пока неизвестно партии и мне — оставь «где-то на плане»"],
+        ["other", "Другое"],
+      ]},
+  ]},
+
+  { title: "5. Лес Хранителей и карта", hint: "Путь к Элессару I", questions: [
+    { id: "forest_where", label: "Где Лес Хранителей относительно карт?",
+      ctx: "Партия выбирает: идти к Элессару I в Лес Хранителей ИЛИ в Разлом.\nНа карте Лунных Пиков есть «Чаша Шепотов» (лес/долина севернее моста) — это НЕ подписано как Лес Хранителей.\nВ лоре драконов Сильфия Вечный Ветер связана с Лесом Хранителей.\nНа карте Аэлендора отдельной подписи «Лес Хранителей» тоже нет (или мелко).",
+      options: [
+        ["chasha", "Чаша Шепотов ≈ вход / часть Леса Хранителей"],
+        ["nearby_offmap", "Рядом с Лунными Пиками, но за краем этой карты"],
+        ["far_aelendor", "Далеко по Аэлендору (не рядом с мостом)"],
+        ["will_mark", "Отмечу / кину карту позже"],
+        ["unknown", "Пока не фиксируем географию"],
+        ["other", "Другое"],
+      ]},
+    { id: "elessar_brief", label: "Что Элессар / Филлер ждут от партии в первую очередь?",
+      ctx: "Канон: ложный Константин мёртв; Элессар I (брат Люмиэля) в Лесу; Кавил = старший адъютант; Филлер уже дал Кавилу приказ — не дать воскресить Кардиана, артефакты уничтожить.",
+      options: [
+        ["destroy_arts", "В первую очередь артефакты / анти-Кардиан"],
+        ["rift_first", "Закрыть / войти в Разлом"],
+        ["war_front", "Военный фронт (Розалия / союз с Хребтом)"],
+        ["player_choice", "Пусть решают сами — оба пути ок"],
+        ["other", "Другое"],
+      ]},
+  ]},
+
+  { title: "6. Яйца и Камнеград", hint: "Последствия для 3 арки", questions: [
+    { id: "eggs_type", label: "Какие 2 яйца у партии?",
+      ctx: "Спасли до сожжения Камнеграда; авангард Хребта ищет героев.\nПо энциклопедии: яйцо растёт только в «своём» биоме; уносить можно, но рост встаёт, пока нет условий.",
+      options: [
+        ["chromatic_known", "Знаю цвет/вид — напишу в заметке"],
+        ["unknown_party", "Партия не знает вид; я тоже пока не решил"],
+        ["ridge_clutch", "Это кладка именно драконов Хребта / авангарда"],
+        ["ancient_hook", "Зацепка к древним / Договору"],
+        ["other", "Другое"],
+      ]},
+    { id: "kamnegrad_fallout", label: "Главный след сожжения Камнеграда сейчас?",
+      ctx: "3 дракона авангарда сожгли город; часть авангарда ищет героев; часть воюет со Звёздной Пылью. Временный союз Хребта с Аэлендором всё ещё «на бумаге».",
+      options: [
+        ["hunt_party", "Охота на партию — горячая нить"],
+        ["background", "Фон; не давить сразу"],
+        ["diplomacy", "Дипломатия с Хребтом / оправдание яиц"],
+        ["other", "Другое"],
+      ]},
+  ]},
+
+  { title: "7. Имена и мелочи", hint: "Чтобы не плодить фантомов", questions: [
+    { id: "bagal", label: "«Багал» в старых логах",
+      ctx: "Встречался как аасимар-колдун/адъютант. Ты в v1: «кажется, это Балтан, опечатка». В партии есть Балтан (лист LSS).",
+      options: [
+        ["is_baltan", "Да, Багал = опечатка Балтана"],
+        ["separate", "Отдельный персонаж (опишу)"],
+        ["drop", "Выкинуть упоминания"],
+        ["other", "Другое"],
+      ]},
+    { id: "maestro_rez", label: "Воскрешение Маэстро",
+      ctx: "Убит демонами в Лунном мосту после того, как Грок отдал ему 3 артефакта. Хук 3 арки: партия может искать способ воскресить. Артефакты у демонов в Разломе.",
+      options: [
+        ["rift_path", "Ключ в Разломе / через артефакты"],
+        ["forest_path", "Знание у Элессара / Хранителей"],
+        ["both_ok", "Оба пути могут вести"],
+        ["hard_no", "Воскресить нельзя / не надо"],
+        ["later", "Решу механику позже"],
+        ["other", "Другое"],
+      ]},
+    { id: "white_spike", label: "Белый шип на карте Лунных Пиков",
+      ctx: "Белая крепость на западе карты провинции. В оглавлении Зеркала Памяти есть гл. 41 «Падение Белого Шипа» — ещё НЕ открыта игрокам. В кампании деталей почти нет.",
+      options: [
+        ["intact", "Стоит, нейтрален / свой"],
+        ["fallen_backstory", "Уже пал в прошлом (как в будущей главе)"],
+        ["plot_later", "Заготовка на потом — не трогать"],
+        ["other", "Другое"],
+      ]},
+  ]},
+
+  { title: "8. Ближайший стол", hint: "Чтобы prep не гадал", questions: [
+    { id: "next_session", label: "Куда партия скорее пойдёт следующей сессией?",
+      ctx: "Сейчас физически: Лунный мост (приют «Колыбель Рассвета» и пр. из prep 3 арки). Выбор озвучен: Лес Хранителей vs Разлом.",
+      options: [
+        ["forest", "Лес Хранителей / Элессар"],
+        ["rift", "В Разлом"],
+        ["local_hooks", "Сначала хуки в городе (Маэстро, кузница, Страж)"],
+        ["player_decide", "Пусть решат за столом — готовь оба"],
+        ["other", "Другое"],
+      ]},
+  ]},
+];
+
+const KEY = "echo-dawn-canon-survey-v2";
+
+function $(id) { return document.getElementById(id); }
+
+function build() {
+  const root = $("sections");
+  root.innerHTML = "";
+  SECTIONS.forEach((sec, si) => {
+    const el = document.createElement("section");
+    el.innerHTML = `<h2>${sec.title}</h2><p class="hint">${sec.hint || ""}</p>`;
+    sec.questions.forEach((q) => {
+      const wrap = document.createElement("div");
+      wrap.className = "q";
+      wrap.dataset.id = q.id;
+      const opts = q.options.map(([v, t]) => `<option value="${v}">${t}</option>`).join("");
+      wrap.innerHTML = `
+        <label class="title">${q.label}</label>
+        <div class="ctx">${q.ctx || ""}</div>
+        <select data-id="${q.id}">
+          <option value="">— выбери —</option>
+          ${opts}
+        </select>
+        <textarea class="note" data-note="${q.id}" rows="3" placeholder="Заметка к этому пункту (если «другое» / уточнение)"></textarea>
+      `;
+      el.appendChild(wrap);
+    });
+    root.appendChild(el);
+  });
+  root.querySelectorAll("select").forEach((sel) => {
+    sel.addEventListener("change", () => {
+      const note = root.querySelector(`textarea[data-note="${sel.dataset.id}"]`);
+      if (note) note.classList.toggle("show", !!sel.value);
+      save(); updateProgress();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach((t) => t.addEventListener("input", save));
+  $("freeform").addEventListener("input", save);
+}
+
+function allQuestions() {
+  return SECTIONS.flatMap((s) => s.questions);
+}
+
+function updateProgress() {
+  const qs = allQuestions();
+  let n = 0;
+  qs.forEach((q) => {
+    const sel = document.querySelector(`select[data-id="${q.id}"]`);
+    if (sel && sel.value) n++;
+  });
+  $("count").textContent = `${n} / ${qs.length}`;
+  $("bar").style.width = `${(n / qs.length) * 100}%`;
+}
+
+function collect() {
+  const data = { version: 2, freeform: $("freeform").value.trim(), answers: {} };
+  allQuestions().forEach((q) => {
+    const sel = document.querySelector(`select[data-id="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    data.answers[q.id] = {
+      label: q.label,
+      value: sel ? sel.value : "",
+      text: sel && sel.value ? sel.options[sel.selectedIndex].text : "",
+      note: note ? note.value.trim() : "",
+    };
+  });
+  return data;
+}
+
+function save() {
+  localStorage.setItem(KEY, JSON.stringify(collect()));
+}
+
+function load() {
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    if (data.freeform) $("freeform").value = data.freeform;
+    Object.entries(data.answers || {}).forEach(([id, a]) => {
+      const sel = document.querySelector(`select[data-id="${id}"]`);
+      const note = document.querySelector(`textarea[data-note="${id}"]`);
+      if (sel && a.value) {
+        sel.value = a.value;
+        if (note) { note.value = a.note || ""; note.classList.add("show"); }
+      }
+    });
+  } catch (e) {}
+}
+
+function format(data) {
+  let out = "=== Опросник канона v2 (ответы мастера) ===\n\n";
+  SECTIONS.forEach((sec) => {
+    out += `## ${sec.title}\n`;
+    sec.questions.forEach((q) => {
+      const a = data.answers[q.id] || {};
+      out += `- ${q.label}: ${a.text || "—"}`;
+      if (a.note) out += `\n  заметка: ${a.note}`;
+      out += "\n";
+    });
+    out += "\n";
+  });
+  if (data.freeform) out += `## Свободный текст\n${data.freeform}\n`;
+  return out;
+}
+
+$("btnCopy").onclick = async () => {
+  const data = collect();
+  const text = format(data);
+  $("out").textContent = text;
+  $("out").classList.add("show");
+  try {
+    await navigator.clipboard.writeText(text);
+    const t = $("toast");
+    t.style.display = "block";
+    setTimeout(() => { t.style.display = "none"; }, 2000);
+  } catch (e) {
+    alert("Скопируй текст вручную из блока ниже");
+  }
+};
+
+$("btnClear").onclick = () => {
+  if (!confirm("Сбросить ответы на этом устройстве?")) return;
+  localStorage.removeItem(KEY);
+  location.reload();
+};
+
+build();
+load();
+updateProgress();
+</script>
+</body>
+</html>
