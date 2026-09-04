@@ -19,7 +19,7 @@ sheet: assets/character-sheets/virra.pdf
 
 ## Заметки
 
-Сильные ноги / прыжок зайцегона; Лассо Гонда; Солнечный молот; КД 26 со щитом.
+**Лассо Гонда** — выданная награда за обращение. КД 26: латы 18 + архетип 2 + щит 4 + артефакты; мастер контрит сейвами. Артефактов Кардиана больше нет у партии.
 
 Лист игрока: [`assets/character-sheets/virra.pdf`](../../../assets/character-sheets/virra.pdf)  
 Текст извлечения: [`assets/character-sheets/virra.txt`](../../../assets/character-sheets/virra.txt)
