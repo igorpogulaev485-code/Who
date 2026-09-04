@@ -9,6 +9,7 @@
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
 - [Архив: Розалия](drafts/imports/qwen-rozaliya.md)
 - [Архив: сессии → книга/комикс](drafts/imports/qwen-sessions-to-book.md)
+- [Архив: промпты Хвост/клинок](drafts/imports/qwen-prompts-scorpion-kardian.md)
 
 ## Мир — лор
 
@@ -35,6 +36,7 @@
 - [Теневая Долина](world/factions/tenevaya-dolina.md)
 - [Дом Вандерли](world/factions/dom-vanderli.md)
 - [Культ Лолс](world/factions/kult-lols.md)
+- [Хвост Скорпиона](world/factions/khvost-skorpiona.md)
 
 ## NPC
 
@@ -61,6 +63,11 @@
 
 - [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
 - [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
+
+## Визуальные промпты
+
+- [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md)
+- [Ритуальный клинок Кардиана](assets/prompts/kardian-ritual-dagger.md)
 - [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
 - [03 — Разлом](campaign/sessions/03-razlom.md)
 - [04 — Колыбель Рассвета](campaign/sessions/04-kolybel-rassveta.md)

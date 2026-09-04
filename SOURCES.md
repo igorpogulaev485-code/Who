@@ -24,6 +24,7 @@ tags: [meta]
 | 2026-09-04 | `drafts/imports/qwen-innokentiy-bal.md` | https://chat.qwen.ai/s/33eb794e-fa71-4b59-b9e2-d740e170e939 |
 | 2026-09-04 | `drafts/imports/qwen-rozaliya.md` | https://chat.qwen.ai/s/7dbaaf99-83c5-418b-a9d8-66cd6b8a7e8b |
 | 2026-09-04 | `drafts/imports/qwen-sessions-to-book.md` | https://chat.qwen.ai/s/04d87f35-dfff-404f-b9ae-27a0f1b7cbf2 |
+| 2026-09-04 | `drafts/imports/qwen-prompts-scorpion-kardian.md` | https://chat.qwen.ai/s/6fa2499e-8123-44d0-8c93-f97fef6ce313 |
 
 ## Ожидается
 
