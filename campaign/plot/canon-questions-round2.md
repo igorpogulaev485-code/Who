@@ -7,10 +7,12 @@ created: 2026-09-04
 
 # Опросник канона v2
 
-Мобильная форма: [`canon-survey-v2.html`](canon-survey-v2.html)  
-После push открой через preview (удобно на телефоне):
+**На iPhone / Safari:** https://litter.catbox.moe/iavr3q.html  
 
-https://htmlpreview.github.io/?https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/echo-dawn-world-scaffold-1da1/campaign/plot/canon-survey-v2.html
+Заполни → «Скопировать ответы» → вставь в чат Cursor. Ссылка ~72 ч.
+
+Файл в репо: [`canon-survey-v2.html`](canon-survey-v2.html)  
+(Репо приватный — GitHub raw / htmlpreview не работают без доступа.)
 
 Или ответь прямо здесь / вставь вывод кнопки «Скопировать ответы».
 

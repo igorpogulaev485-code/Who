@@ -17,11 +17,13 @@ updated: 2026-09-04
 
 ## Раунд 2 — открыто (с контекстом)
 
-Форма с подсказками под каждым пунктом: [`canon-survey-v2.html`](canon-survey-v2.html)  
-Текст тех же вопросов: [`canon-questions-round2.md`](canon-questions-round2.md)
+**На iPhone:** открой в **Safari** (не внутри Cursor):  
+https://litter.catbox.moe/iavr3q.html  
 
-Preview на телефоне (после push):
+Заполни → «Скопировать ответы» → вставь в чат. Ссылка временная (~72 ч).
 
-https://htmlpreview.github.io/?https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/echo-dawn-world-scaffold-1da1/campaign/plot/canon-survey-v2.html
+Файл в репо: [`canon-survey-v2.html`](canon-survey-v2.html) · текст: [`canon-questions-round2.md`](canon-questions-round2.md)
+
+> Репо приватный — raw.githubusercontent / htmlpreview / jsDelivr **не открываются** без логина. Поэтому публичный mirror через litterbox.
 
 Темы: награда Хельма · Пиппин · 4 Разлома · 3 мирских артефакта · Лес Хранителей vs Чаша Шепотов · яйца · Багал · воскрешение Маэстро · Белый шип · куда идти следующей сессией.
