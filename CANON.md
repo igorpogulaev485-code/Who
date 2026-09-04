@@ -107,7 +107,10 @@
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
+- [Арка 3: меню маршрутов + живой мир](campaign/plot/arc3-routes-living-world.md) *(draft)*
+- [Гипотетический коридор арок 3–5](campaign/plot/arc-roadmap-hypothesis.md) *(draft)*
 - [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
+- [Канон-лок раунд 2](campaign/plot/canon-lock-2026-09-04-round2.md)
 - [Сообщения игрокам: Страж + глашатай](campaign/sessions/player-briefs-silver-guard-and-herald.md)
 - [Награды за Страж](campaign/party/rewards-silver-guard.md)
 - [Кандидаты 4 Разломов](campaign/plot/rift-candidates.md)
