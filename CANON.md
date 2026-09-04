@@ -15,6 +15,7 @@
 - [Архив: ваншот Первого Разлома](drafts/imports/qwen-oneshot-first-razlom.md)
 - [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
 - [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
+- [Архив: региональные центры Аэлендора](drafts/imports/qwen-aelendor-regional-centers.md)
 
 ## Мир — лор
 
@@ -25,6 +26,8 @@
 
 ## Локации
 
+- [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
+- [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)
 - [Розалия](world/locations/rozaliya.md)
@@ -33,6 +36,8 @@
   - [Военные квесты](world/locations/rozaliya/military-quests.md)
   - [Детали локаций](world/locations/rozaliya/locations-detail.md)
 - [Мёртвый город](world/locations/mertvyy-gorod.md)
+- [Лесоверье](world/locations/lesoverye.md)
+- [Красный луг](world/locations/krasnyy-lug.md)
 - [Храм Лолс](world/locations/khram-lols.md)
   - [Структура «Паутина Судьбы»](world/locations/khram-lols/structure-web-of-fate.md)
   - [Зал 6 статуй](world/locations/khram-lols/hall-six-statues.md)
