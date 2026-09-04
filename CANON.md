@@ -36,6 +36,7 @@
   - [Суда](world/locations/rozaliya/ships.md)
   - [Военные квесты](world/locations/rozaliya/military-quests.md)
   - [Детали локаций](world/locations/rozaliya/locations-detail.md)
+- [Камнеград](world/locations/kamnegrad.md)
 - [Мёртвый город](world/locations/mertvyy-gorod.md)
 - [Лесоверье](world/locations/lesoverye.md)
 - [Красный луг](world/locations/krasnyy-lug.md)
@@ -92,6 +93,7 @@
 
 - [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md) → [картинка](assets/images/scorpion-tail-mark.png)
 - [Ритуальный клинок Кардиана](assets/prompts/kardian-ritual-dagger.md) → [картинка](assets/images/kardian-ritual-dagger.png)
+- [Камнеград](assets/prompts/kamnegrad.md) → 4 кадра в `assets/images/kamnegrad-*.png`
 - [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
 - [03 — Разлом](campaign/sessions/03-razlom.md)
 - [04 — Колыбель Рассвета](campaign/sessions/04-kolybel-rassveta.md)

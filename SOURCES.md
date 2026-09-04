@@ -31,6 +31,7 @@ tags: [meta]
 | 2026-09-04 | `drafts/imports/qwen-khram-lols.md` | https://chat.qwen.ai/s/77436d3e-667a-4877-8d57-0f851e9fc280 |
 | 2026-09-04 | `drafts/imports/qwen-kardian-artifacts-debuffs.md` | https://chat.qwen.ai/s/990659a6-170d-45ab-9e34-123b38249eb3 |
 | 2026-09-04 | `drafts/imports/qwen-aelendor-regional-centers.md` | https://chat.qwen.ai/s/7accf046-e937-46ed-9dee-01d6e19f477b |
+| 2026-09-04 | `drafts/imports/qwen-kamnegrad-viz.md` | https://chat.qwen.ai/s/cc01bf22-9c4c-46b7-ae3b-692054f7f740 |
 
 ## Ожидается
 
