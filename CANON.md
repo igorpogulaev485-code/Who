@@ -108,8 +108,9 @@
 
 ## Книги для игроков
 
-- [Оглавление](world/player-books/README.md)
-- [Зеркало Памяти (индекс/изучено)](world/player-books/zerkalo-pamyati.md)
+- [Оглавление + правило «открытая глава = канон»](world/player-books/README.md)
+- [Зеркало Памяти — 17 открытых глав](world/player-books/zerkalo-pamyati.md)
+- [Артефакты Кардиана](world/lore/artefacts-kardian.md) ← гл. 44 «Артефакты Падения»
 
 ## Сессии
 
