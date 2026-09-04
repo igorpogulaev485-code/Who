@@ -19,7 +19,8 @@ sheet: assets/character-sheets/drannik.pdf
 
 ## Заметки
 
-На листе имя «Дранник (ДЛЯ УРОВНЯ)» — возможно рабочая копия. Ранее был в плену (сессии 1–8).
+На листе имя «Дранник (ДЛЯ УРОВНЯ)» — возможно рабочая копия. Ранее был в плену (сессии 1–8).  
+Хранитель **зелёного драконьего яйца** (спрятано в приюте / Кузнице Фиалки вместе с синим Вирры).
 
 Лист игрока: [`assets/character-sheets/drannik.pdf`](../../../assets/character-sheets/drannik.pdf)  
 Текст извлечения: [`assets/character-sheets/drannik.txt`](../../../assets/character-sheets/drannik.txt)

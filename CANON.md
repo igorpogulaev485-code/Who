@@ -54,6 +54,7 @@
 - [Камнеград](world/locations/kamnegrad.md)
 - [Белый шип](world/locations/belyy-ship.md) · [Туманный клык](world/locations/tumannyy-klyk.md) · [Тихий брод](world/locations/tikhiy-brod.md)
 - [Чаша Шепотов](world/locations/chasha-shepotov.md) · [Поле павших героев](world/locations/pole-pavshikh-geroev.md)
+- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор)
 - [Розалия](world/locations/rozaliya.md)
   - [НПС](world/locations/rozaliya/npcs.md)
   - [Суда](world/locations/rozaliya/ships.md)
@@ -80,16 +81,17 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
+- [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
+- [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
 - [Элессар I](world/npcs/elessar-i.md) — истинный король
 - [Филлер](world/npcs/filler.md)
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
-- [Пиппин](world/npcs/pippin.md) — неразрешён
 - [Капитан Тандил](world/npcs/tandil.md)
-- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв
+- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
 
 ## Партия
 
@@ -103,8 +105,9 @@
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
 - [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
-- [Вопросы мастеру (раунд 1 — отвечено)](campaign/plot/canon-questions-for-gm.md)
-- [Опросник v2 с контекстом](campaign/plot/canon-questions-round2.md) · [`canon-survey-v2.html`](campaign/plot/canon-survey-v2.html)
+- [Канон-лок раунд 2](campaign/plot/canon-lock-2026-09-04-round2.md)
+- [Кандидаты 4 Разломов](campaign/plot/rift-candidates.md)
+- [Вопросы мастеру](campaign/plot/canon-questions-for-gm.md)
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md) *(арка Кеши закрыта — мёртв)*
 
 ## Книги для игроков

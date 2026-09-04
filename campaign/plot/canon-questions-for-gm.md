@@ -1,6 +1,6 @@
 ---
 title: Вопросы мастеру для фиксации канона
-status: partial
+status: answered-round2
 tags: [canon, questions]
 created: 2026-09-04
 updated: 2026-09-04
@@ -10,20 +10,12 @@ updated: 2026-09-04
 
 ## Раунд 1 — отвечено
 
-Ответы: [`canon-lock-2026-09-04.md`](canon-lock-2026-09-04.md)  
-Форма: [`canon-survey.html`](canon-survey.html)
+[`canon-lock-2026-09-04.md`](canon-lock-2026-09-04.md) · [`canon-survey.html`](canon-survey.html)
 
-Дополнительно после раунда 1: третий артефакт = **маска**; открытые главы книг = жёсткий канон.
+## Раунд 2 — отвечено
 
-## Раунд 2 — открыто (с контекстом)
+[`canon-lock-2026-09-04-round2.md`](canon-lock-2026-09-04-round2.md) · форма [`canon-survey-v2.html`](canon-survey-v2.html)
 
-**На iPhone:** открой в **Safari** (не внутри Cursor):  
-https://litter.catbox.moe/iavr3q.html  
+### Ещё ждём отметку
 
-Заполни → «Скопировать ответы» → вставь в чат. Ссылка временная (~72 ч).
-
-Файл в репо: [`canon-survey-v2.html`](canon-survey-v2.html) · текст: [`canon-questions-round2.md`](canon-questions-round2.md)
-
-> Репо приватный — raw.githubusercontent / htmlpreview / jsDelivr **не открываются** без логина. Поэтому публичный mirror через litterbox.
-
-Темы: награда Хельма · Пиппин · 4 Разлома · 3 мирских артефакта · Лес Хранителей vs Чаша Шепотов · яйца · Багал · воскрешение Маэстро · Белый шип · куда идти следующей сессией.
+**4 государства с Разломами** — предложения: [`rift-candidates.md`](rift-candidates.md) (мастер отметил: предложи → он выберет; в разных государствах).
