@@ -86,10 +86,12 @@
 ## Партия
 
 - [Состав](campaign/party/roster.md)
+- [Бэкстори (заготовка)](campaign/party/backstories.md)
 
 ## Сюжет
 
 - [Хронология](campaign/plot/timeline.md)
+- [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md)
 
@@ -103,16 +105,12 @@
 - [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
 - [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
 
-## Сюжет / арки
-
-- [Пять арок кампании](campaign/plot/arcs.md)
-
 ## Подготовка (ещё не сыграно)
 
 - [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md)
-
 - [Вирра / Гонд — награда за веру](campaign/prep/virra-gond-faith-reward.md)
-
+- [Битва за Лунный Овраг — механика](campaign/prep/bitva-za-lunnyy-ovrag.md)
+- [Кузница Фиалки](world/locations/lunnyy-most/kuznitsa-fialki.md)
 - [Контакт с Драконьим Хребтом](campaign/prep/next-dragonborn-contact.md)
 - [Бой 1 — авангард](rules/encounters/01-dragonborn-vanguard.md)
 - [Бой 2 — ритуал / спасение](rules/encounters/02-bone-ritual-rescue.md)
