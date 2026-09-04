@@ -16,6 +16,7 @@
 - [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
 - [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
 - [Архив: региональные центры Аэлендора](drafts/imports/qwen-aelendor-regional-centers.md)
+- [Архив: визуализация Камнеграда](drafts/imports/qwen-kamnegrad-viz.md)
 
 ## Мир — лор
 
