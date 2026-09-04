@@ -74,14 +74,16 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md)
-- [Константин III](world/npcs/konstantin-iii.md)
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами
+- [Константин III / ложная корона](world/npcs/konstantin-iii.md)
+- [Элессар I](world/npcs/elessar-i.md) — истинный король
+- [Филлер](world/npcs/filler.md)
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
-- [Пиппин](world/npcs/pippin.md)
+- [Пиппин](world/npcs/pippin.md) — неразрешён
 - [Капитан Тандил](world/npcs/tandil.md)
-- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md)
+- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв
 
 ## Партия
 
