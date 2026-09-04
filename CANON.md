@@ -8,11 +8,13 @@
 - [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
 - [Архив: Розалия](drafts/imports/qwen-rozaliya.md)
+- [Архив: сессии → книга/комикс](drafts/imports/qwen-sessions-to-book.md)
 
 ## Мир — лор
 
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md)
+- [Харенгоны](world/lore/harengons.md)
 
 ## Локации
 
@@ -56,7 +58,8 @@
 
 ## Сессии
 
-- [01 — Вход в Лунный Мост](campaign/sessions/01-lunnyy-most-start.md)
+- [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
+- [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
 - [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
 - [03 — Разлом](campaign/sessions/03-razlom.md)
 - [04 — Колыбель Рассвета](campaign/sessions/04-kolybel-rassveta.md)
