@@ -6,6 +6,8 @@ tags: [meta]
 
 # Источники и правила канона
 
+Полный рабочий скил для агентов: [`.cursor/skills/echo-dawn-canon/SKILL.md`](.cursor/skills/echo-dawn-canon/SKILL.md).
+
 ## Как читаем импорты из Qwen
 
 1. Ссылки `/s/...` — только **вход**. Полный текст сразу копируется в `drafts/imports/`.

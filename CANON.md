@@ -4,6 +4,7 @@
 
 ## Мета
 
+- [Скил агента: канон репо](.cursor/skills/echo-dawn-canon/SKILL.md) · [`AGENTS.md`](AGENTS.md)
 - [Источники](SOURCES.md)
 - [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
