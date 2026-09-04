@@ -12,6 +12,7 @@
 - [Архив: промпты Хвост/клинок](drafts/imports/qwen-prompts-scorpion-kardian.md)
 - [Архив: генерация картинок](drafts/imports/qwen-dark-fantasy-scorpion-symbol.md)
 - [Архив: бой с авангардом драконорождённых](drafts/imports/qwen-dragonborn-vanguard-fight.md)
+- [Архив: ваншот Первого Разлома](drafts/imports/qwen-oneshot-first-razlom.md)
 
 ## Мир — лор
 
@@ -72,6 +73,7 @@
 - [Контакт с Драконьим Хребтом](campaign/prep/next-dragonborn-contact.md)
 - [Бой 1 — авангард](rules/encounters/01-dragonborn-vanguard.md)
 - [Бой 2 — ритуал / спасение](rules/encounters/02-bone-ritual-rescue.md)
+- [Ваншот — Первый Разлом](campaign/prep/oneshot-first-razlom.md)
 
 ## Визуальные промпты
 
