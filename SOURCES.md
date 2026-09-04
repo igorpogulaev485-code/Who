@@ -25,6 +25,7 @@ tags: [meta]
 | 2026-09-04 | `drafts/imports/qwen-rozaliya.md` | https://chat.qwen.ai/s/7dbaaf99-83c5-418b-a9d8-66cd6b8a7e8b |
 | 2026-09-04 | `drafts/imports/qwen-sessions-to-book.md` | https://chat.qwen.ai/s/04d87f35-dfff-404f-b9ae-27a0f1b7cbf2 |
 | 2026-09-04 | `drafts/imports/qwen-prompts-scorpion-kardian.md` | https://chat.qwen.ai/s/6fa2499e-8123-44d0-8c93-f97fef6ce313 |
+| 2026-09-04 | `drafts/imports/qwen-dark-fantasy-scorpion-symbol.md` | https://chat.qwen.ai/s/067ad043-7c33-4e4f-ab59-a0f350e8cd6d |
 
 ## Ожидается
 

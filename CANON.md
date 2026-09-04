@@ -10,6 +10,7 @@
 - [Архив: Розалия](drafts/imports/qwen-rozaliya.md)
 - [Архив: сессии → книга/комикс](drafts/imports/qwen-sessions-to-book.md)
 - [Архив: промпты Хвост/клинок](drafts/imports/qwen-prompts-scorpion-kardian.md)
+- [Архив: генерация картинок](drafts/imports/qwen-dark-fantasy-scorpion-symbol.md)
 
 ## Мир — лор
 
@@ -66,8 +67,8 @@
 
 ## Визуальные промпты
 
-- [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md)
-- [Ритуальный клинок Кардиана](assets/prompts/kardian-ritual-dagger.md)
+- [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md) → [картинка](assets/images/scorpion-tail-mark.png)
+- [Ритуальный клинок Кардиана](assets/prompts/kardian-ritual-dagger.md) → [картинка](assets/images/kardian-ritual-dagger.png)
 - [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
 - [03 — Разлом](campaign/sessions/03-razlom.md)
 - [04 — Колыбель Рассвета](campaign/sessions/04-kolybel-rassveta.md)
