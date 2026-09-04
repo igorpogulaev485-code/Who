@@ -10,7 +10,10 @@ source: gm-lock-round2 + player-briefs
 ## Решение партии (сейчас)
 
 Оба пути ок (готовить оба): **Лес Хранителей** / **Разлом**.  
-Гипотетический маршрут арок 3–5: [`arc-roadmap-hypothesis.md`](arc-roadmap-hypothesis.md).
+Меню маршрутов арки 3 (A–T) + часы живого мира: [`arc3-routes-living-world.md`](arc3-routes-living-world.md).  
+Общий коридор арок 3–5: [`arc-roadmap-hypothesis.md`](arc-roadmap-hypothesis.md).
+
+**Принцип:** мир двигается сам (Орден, Разлом, Хребет, Долина, дочь Маэстро…), даже если партия сидит в таверне.
 
 ## Разлом
 
