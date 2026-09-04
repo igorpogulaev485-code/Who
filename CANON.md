@@ -88,6 +88,8 @@
 - [Бой 1 — авангард](rules/encounters/01-dragonborn-vanguard.md)
 - [Бой 2 — ритуал / спасение](rules/encounters/02-bone-ritual-rescue.md)
 - [Ваншот — Первый Разлом](campaign/prep/oneshot-first-razlom.md)
+- [Камнеград — дракон / глашатай](campaign/prep/kamnegrad-dragon.md)
+- [Бой 3 — Разлом Седого Пепла](rules/encounters/03-ashrime-rift-white-dragon.md)
 
 ## Визуальные промпты
 

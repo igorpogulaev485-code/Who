@@ -29,3 +29,11 @@ region: Аэлендор / союз гномов?
 
 Промпты: [`assets/prompts/kamnegrad.md`](../../assets/prompts/kamnegrad.md)  
 Архив: [`drafts/imports/qwen-kamnegrad-viz.md`](../../drafts/imports/qwen-kamnegrad-viz.md)
+
+## Арка дракона (prep)
+
+При уходе из города — глашатай о драконе за стенами; мотив яиц пауков / возможное драконье яйцо.
+
+- Prep: [`campaign/prep/kamnegrad-dragon.md`](../../campaign/prep/kamnegrad-dragon.md)
+- Энкаунтер: [`rules/encounters/03-ashrime-rift-white-dragon.md`](../../rules/encounters/03-ashrime-rift-white-dragon.md)
+- Архив: [`drafts/imports/qwen-herald-dragon.md`](../../drafts/imports/qwen-herald-dragon.md)
