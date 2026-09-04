@@ -2,13 +2,12 @@
 title: Бэкстори персонажей игроков
 status: stub
 tags: [party, backstory]
-source: gm
-share_url: https://chat.qwen.ai/s/62e1a8b6-f00e-45e6-b7fa-fc9b3c1d93f1
 ---
 
 # Бэкстори персонажей
 
-Мастер открыл ветку, чтобы описать персонажей игроков и встроить их в лор. На момент шаринга — только вводная; подробностей ещё нет.
+Актуальный состав и статы — [`roster.md`](roster.md) и [`characters/`](characters/).
 
-Архив: [`drafts/imports/qwen-pc-backstories.md`](../../drafts/imports/qwen-pc-backstories.md)  
-Состав: [`roster.md`](roster.md)
+Отдельная Qwen-ветка на бэкстори пока содержит только вводную: [`drafts/imports/qwen-pc-backstories.md`](../../drafts/imports/qwen-pc-backstories.md).
+
+**Нужно от мастера:** краткие истории / кто с начала, кого поднимали, кто новый (Эларион, Плач звезды и др.).

@@ -85,8 +85,9 @@
 
 ## Партия
 
-- [Состав](campaign/party/roster.md)
+- [Состав (актуальные листы)](campaign/party/roster.md)
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
+- [Листы PDF](assets/character-sheets/README.md)
 
 ## Сюжет
 
