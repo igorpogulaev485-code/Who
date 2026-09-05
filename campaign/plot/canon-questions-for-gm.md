@@ -18,7 +18,8 @@ updated: 2026-09-04
 
 ## Раунд 3 — сверка Telegram «повествование» (открыто)
 
-[`canon-questions-telegram-reconcile.md`](canon-questions-telegram-reconcile.md) · форма [`canon-survey-v3-telegram.html`](canon-survey-v3-telegram.html)
+[`canon-questions-telegram-reconcile.md`](canon-questions-telegram-reconcile.md) · форма [`canon-survey-v3-telegram.html`](canon-survey-v3-telegram.html)  
+**Safari / приватный репо:** https://litter.catbox.moe/oe1533.html (~72 ч)
 
 ### Ещё открыто (мелочь)
 

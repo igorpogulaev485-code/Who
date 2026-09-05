@@ -7,7 +7,11 @@ created: 2026-09-05
 
 # Опросник: TG ↔ канон
 
-HTML: [`canon-survey-v3-telegram.html`](canon-survey-v3-telegram.html)  
+**Приватный репо:** GitHub raw / htmlpreview **не открыть**. Используй временный публичный mirror (Safari ok):
+
+👉 **https://litter.catbox.moe/oe1533.html** (~72 ч)
+
+Локально в репо: [`canon-survey-v3-telegram.html`](canon-survey-v3-telegram.html) (можно скачать и открыть файл).  
 Заполни → «Скопировать ответы» → вставь в чат.
 
 **Уже зафиксировано тобой (не переспрашиваю):**
