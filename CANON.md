@@ -56,7 +56,8 @@
 - [Камнеград](world/locations/kamnegrad.md)
 - [Белый шип](world/locations/belyy-ship.md) · [Туманный клык](world/locations/tumannyy-klyk.md) · [Тихий брод](world/locations/tikhiy-brod.md)
 - [Чаша Шепотов](world/locations/chasha-shepotov.md) · [Поле павших героев](world/locations/pole-pavshikh-geroev.md)
-- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор)
+- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор; столица Сильвания / Древо Мира)
+- [Элдеринская гавань](world/locations/elderinskaya-gavan.md) (отдельное государство; ≠ Ульфгард)
 - [Розалия](world/locations/rozaliya.md)
   - [НПС](world/locations/rozaliya/npcs.md)
   - [Суда](world/locations/rozaliya/ships.md)
@@ -85,17 +86,20 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
-- [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; кольцо призыва у партии
+- [Марин](world/npcs/marin.md) — бастард Маэстро; в Лунном Мосту; ищет воскрешение отца
+- [Морвин](world/npcs/morvin.md) — травница; дом + линия Пиппина
+- [Пиппин](world/npcs/pippin.md) — свидетель → амнезия → предатель Разлома → убит
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
-- [Константин III / ложная корона](world/npcs/konstantin-iii.md)
-- [Элессар I](world/npcs/elessar-i.md) — истинный король
-- [Филлер](world/npcs/filler.md)
+- [Константин III / ложная корона](world/npcs/konstantin-iii.md) — адъютант-маска; снят до Стража; убит
+- [Элессар I](world/npcs/elessar-i.md) — истинный король (брат Люмиэля)
+- [Филлер](world/npcs/filler.md) — глава ордена адъютантов; руководитель Кавила
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
-- [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
+- [Велиан Полутень](world/npcs/velian.md) — 5 ходов; ушёл в Разлом
+- [Невил](world/npcs/nevil.md) — важный ПК; сейчас на свадебном путешествии
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
 
 ## Партия
@@ -110,6 +114,7 @@
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
 - [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
+- [Канон-лок TG↔канон v3 (2026-09-05)](campaign/plot/canon-lock-2026-09-05-telegram-v3.md)
 - [Сообщения игрокам: Страж + глашатай](campaign/sessions/player-briefs-silver-guard-and-herald.md)
 - [Награды за Страж](campaign/party/rewards-silver-guard.md)
 - [Кандидаты 4 Разломов](campaign/plot/rift-candidates.md)
