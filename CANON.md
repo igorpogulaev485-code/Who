@@ -115,11 +115,13 @@
 - [Канон-лок гос-тень + Лунный Мост](campaign/plot/canon-lock-2026-09-05-aelendor-shadow-state.md) — Теневой Совет, контрразведка, порталы; Лунный Мост = релицентр без банд
 - [Канон-лок банды + трибунал](campaign/plot/canon-lock-2026-09-05-aelendor-gangs-tribunal.md) — F1–F3; банкиры без кресла; Верховный трибунал с креслом
 - [Верховный трибунал](world/factions/verkhovnyy-tribunal.md) · [Чёрная Просека](world/factions/chernaya-proseka.md) · [Паутина Росы](world/factions/pautina-rosy.md) · [Пепельный Договор](world/factions/pepelnyy-dogovor.md)
-- [Столпы Мира](world/locations/stolpy-mira.md) — 4 точки на рубежах Аэлендора
+- [Столпы Мира](world/locations/stolpy-mira.md) — **4** на рубежах Аэлендора (не 5; Сильфия/Древо ≠ Столп)
+- [Хранители Граней](world/factions/khraniteli-graney.md) — живой мировой орден
 - [Канон-лок религия + Разлом (быт)](campaign/plot/canon-lock-2026-09-05-aelendor-religion.md)
 - [Канон-лок витрина пантеона](campaign/plot/canon-lock-2026-09-05-aelendor-pantheon.md) — Кореллон…Аэрдри + Лолс
 - [Канон-лок быт Лунного Моста](campaign/plot/canon-lock-2026-09-05-lunnyy-most-atmosphere.md) — Разлом внутри, фронтовой быт
 - [Канон-лок идентичность Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) — гордость, эпохи Разлома, Лес Хранителей, Столпы
+- [Канон-лок Хранители Граней](campaign/plot/canon-lock-2026-09-05-khraniteli-graney.md) — живы, мировые; 4 Столпа по книге
 - [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)

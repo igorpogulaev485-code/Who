@@ -16,6 +16,7 @@
 
 ## Прочие фракции
 
+- [Хранители Граней](khraniteli-graney.md) — мировой орден (жив; не Аэлендор)
 - [Дом Вандерли](dom-vanderli.md)
 - [Культ Лолс](kult-lols.md)
 - [Верховный трибунал](verkhovnyy-tribunal.md)
