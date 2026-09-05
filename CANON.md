@@ -115,6 +115,7 @@
 - [Канон-лок гос-тень + Лунный Мост](campaign/plot/canon-lock-2026-09-05-aelendor-shadow-state.md) — Теневой Совет, контрразведка, порталы; Лунный Мост = релицентр без банд
 - [Канон-лок банды + трибунал](campaign/plot/canon-lock-2026-09-05-aelendor-gangs-tribunal.md) — F1–F3; банкиры без кресла; Верховный трибунал с креслом
 - [Верховный трибунал](world/factions/verkhovnyy-tribunal.md) · [Чёрная Просека](world/factions/chernaya-proseka.md) · [Паутина Росы](world/factions/pautina-rosy.md) · [Пепельный Договор](world/factions/pepelnyy-dogovor.md)
+- [Портрет Аэлендора — сводка понимания](drafts/aelendor-portrait-synthesis.md) *(living; история/религия/Разлом — что есть и дыры)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
