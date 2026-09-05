@@ -130,6 +130,7 @@
 - [Канон-лок армия](campaign/plot/canon-lock-2026-09-05-aelendor-army.md) — кадры, гарнизоны, сильные маги; ополчение вторично
 - [Канон-лок флот](campaign/plot/canon-lock-2026-09-05-aelendor-fleet.md) — слабый военный; много торгового трафика в Розалию
 - [Канон-лок экономика](campaign/plot/canon-lock-2026-09-05-aelendor-economy.md) — валюта D&D; кристаллы Камнеграда; торговля через Розалию
+- [Канон-лок гражданство](campaign/plot/canon-lock-2026-09-05-aelendor-citizenship.md) — гражданин или гость; спрос закона равный
 - [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
