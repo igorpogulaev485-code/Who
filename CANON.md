@@ -34,7 +34,7 @@
 
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
 - [Вход в Разлом: два плана](campaign/plot/canon-lock-2026-09-05-razlom-entry.md)
-- [Дом Владыки — идентичность](campaign/plot/canon-lock-2026-09-05-demon-plane-identity.md) · [досье](world/factions/dom-vladyki.md)
+- [Дом Владыки — идентичность](campaign/plot/canon-lock-2026-09-05-demon-plane-identity.md) · [Осмодей / раскол](campaign/plot/canon-lock-2026-09-05-demon-plane-osmodey.md) · [досье](world/factions/dom-vladyki.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md)
 - [Сет божественной силы](world/lore/artefacts-divine-set.md)
 - [Сет артефактов Драконов](world/lore/artefacts-dragon-set.md)
