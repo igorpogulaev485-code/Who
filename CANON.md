@@ -118,6 +118,7 @@
 - [Столпы Мира](world/locations/stolpy-mira.md) — 4 точки на рубежах Аэлендора
 - [Канон-лок религия + Разлом (быт)](campaign/plot/canon-lock-2026-09-05-aelendor-religion.md)
 - [Канон-лок витрина пантеона](campaign/plot/canon-lock-2026-09-05-aelendor-pantheon.md) — Кореллон…Аэрдри + Лолс
+- [Канон-лок быт Лунного Моста](campaign/plot/canon-lock-2026-09-05-lunnyy-most-atmosphere.md) — Разлом внутри, фронтовой быт
 - [Канон-лок идентичность Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) — гордость, эпохи Разлома, Лес Хранителей, Столпы
 - [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
