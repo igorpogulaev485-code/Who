@@ -17,9 +17,11 @@ tags: [faction, planar, razlom]
 
 - **Асмодей** ≈ официальный Asmodeus + правки под Эхо.  
 - Демоны и дьяволы **объединены**.  
-- **9 кругов на одной карте**; переход = **ворота** (визуально разные), не вертикальный провал слоёв.  
-- Лок: [`canon-lock-2026-09-05-demon-plane-cosmology.md`](../../campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md)  
-- Фон DnD: [`drafts/asmodeus-official-dnd-brief.md`](../../drafts/asmodeus-official-dnd-brief.md)
+- **9 кругов на одной карте**; переход = **ворота**.  
+- Имена кругов и лордов = **канон DnD** + лёгкая рихтовка.  
+- Локи: [космология](../../campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка](../../campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md)  
+- Таблица: [`dom-vladyki-nine-circles.md`](../../world/locations/dom-vladyki-nine-circles.md)  
+- Фон DnD: [`asmodeus-official-dnd-brief.md`](../../drafts/asmodeus-official-dnd-brief.md)
 
 ## Власть
 
@@ -33,8 +35,7 @@ tags: [faction, planar, razlom]
 
 ## Открыто
 
-- Имена/лорды **девяти кругов** (официал vs наши)  
-- Визуал ворот; биомы за каждыми  
+- Визуал ворот; расположение на карте vs Разлом  
 - Каталог рас/монстров; артефакты Кардиана; срез арки 3  
 
 Чеклист: [`drafts/dom-vladyki-planar-checklist.md`](../../drafts/dom-vladyki-planar-checklist.md)
