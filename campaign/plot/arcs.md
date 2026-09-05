@@ -22,3 +22,5 @@ source: gm-lock-2026-09-04
 - Ложный Константин мёртв; вскрыт план с **Элессаром I**.
 
 Архив prep: [`drafts/imports/qwen-ark3-vnutri-razloma.md`](../../drafts/imports/qwen-ark3-vnutri-razloma.md)
+
+Пакеты основных квестов (prep): [`campaign/prep/arcs/`](../prep/arcs/README.md) · скил [`echo-dawn-quest-main`](../../.cursor/skills/echo-dawn-quest-main/SKILL.md).

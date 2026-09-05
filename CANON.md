@@ -4,9 +4,9 @@
 
 ## Мета
 
-- [Скил: канон репо](.cursor/skills/echo-dawn-canon/SKILL.md) · [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочные квесты](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [`AGENTS.md`](AGENTS.md)
+- [Скил: канон репо](.cursor/skills/echo-dawn-canon/SKILL.md) · [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочные квесты](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные квесты](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [`AGENTS.md`](AGENTS.md)
 - [Источники](SOURCES.md)
-- [Playbook локации](templates/location-playbook.md) · [побочка](templates/quest-side.md) · [эталон Камнеграда](examples/locations/kamnegrad-klinkerov.pdf)
+- [Playbook локации](templates/location-playbook.md) · [побочка](templates/quest-side.md) · [основной квест](templates/quest-main.md) · [сводка основных арки](templates/quest-mains-overview.md) · [эталон Камнеграда](examples/locations/kamnegrad-klinkerov.pdf)
 - [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
 - [Архив: Розалия](drafts/imports/qwen-rozaliya.md)

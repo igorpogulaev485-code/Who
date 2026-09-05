@@ -6,7 +6,8 @@ tags: [meta]
 
 # Источники и правила канона
 
-Полный рабочий скил для агентов: [`.cursor/skills/echo-dawn-canon/SKILL.md`](.cursor/skills/echo-dawn-canon/SKILL.md).
+Полный рабочий скил для агентов: [`.cursor/skills/echo-dawn-canon/SKILL.md`](.cursor/skills/echo-dawn-canon/SKILL.md).  
+Скилы контента: [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочки](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные арки](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [`AGENTS.md`](AGENTS.md).
 
 ## Как читаем импорты из Qwen
 
