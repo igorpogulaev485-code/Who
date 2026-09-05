@@ -1,6 +1,6 @@
 # Канон — индекс
 
-Живой оглавление. Обновлено после импорта первого шаринга Qwen (сессии 1–8 + side).
+Живой оглавление. Обновлено 2026-09-05: граница прошлого (арка 3 без сессий) + досье Аэлендора и фронтов войны.
 
 ## Мета
 
@@ -72,14 +72,17 @@
 
 ## Фракции
 
-- [Аэлендор](world/factions/aelendor.md)
+- [Аэлендор](world/factions/aelendor.md) — полное досье королевства
 - [Теневая Долина](world/factions/tenevaya-dolina.md)
 - [Тёмные леса вечной тени](world/factions/temnye-lesa.md)
 - [Орден пламенеющей стали](world/factions/orden-plameneyushchey-stali.md)
+- [Империя Звёздной Пыли](world/factions/imperiya-zvezdnoy-pyli.md)
+- [Империя Драконьего Хребта](world/factions/imperiya-drakonyego-khrebta.md)
+- [Хостия](world/factions/khostiya.md)
 - [Дом Вандерли](world/factions/dom-vanderli.md)
 - [Культ Лолс](world/factions/kult-lols.md)
 - [Хвост Скорпиона](world/factions/khvost-skorpiona.md)
-- [Империя Драконьего Хребта](world/factions/imperiya-drakonyego-khrebta.md)
+- Черновик наполнения Аэлендора: [drafts/aelendor-country-expansion.md](drafts/aelendor-country-expansion.md)
 
 ## NPC
 
@@ -104,6 +107,8 @@
 
 ## Сюжет
 
+- [Граница прошлого и будущего](campaign/plot/past-present-boundary.md) — арки 1–2 = прошлое; арка 3 ещё без сессий
+- [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
