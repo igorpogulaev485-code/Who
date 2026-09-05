@@ -127,6 +127,7 @@
 - [Канон-лок народности](campaign/plot/canon-lock-2026-09-05-aelendor-peoples.md) — эльфы/полуэльфы ядро; без орков/гоблинов как населения
 - [Канон-лок языки](campaign/plot/canon-lock-2026-09-05-aelendor-languages.md) — эльфийский 1°, общий 2°
 - [Канон-лок двор](campaign/plot/canon-lock-2026-09-05-aelendor-court.md) — правительственный двор; офиц. короля нет
+- [Канон-лок армия](campaign/plot/canon-lock-2026-09-05-aelendor-army.md) — кадры, гарнизоны, сильные маги; ополчение вторично
 - [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
