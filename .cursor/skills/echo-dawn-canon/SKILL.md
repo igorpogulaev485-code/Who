@@ -200,7 +200,7 @@ source: gm-lock | player-briefs | telegra | qwen-archive
 2. Всегда последний вариант: **«Другое / уточню в заметке»** (+ поле заметки).  
 3. Группировать по блокам (A/B/C…), нумеровать стабильными id.  
 4. Дублировать: markdown в чате **и** HTML-форма в `campaign/plot/` (как `canon-survey-v2.html`).  
-5. Репо **приватный**: raw GitHub / htmlpreview часто **404** — для Safari нужен временный публичный mirror.  
+5. Репо **приватный**: raw GitHub / htmlpreview часто **404**. Для Safari — залить самодостаточный HTML на временный публичный mirror (**litterbox.catbox.moe**, ~72 ч) и дать ссылку в чате + в md опросника.  
 6. После ответа: `canon-lock-*.md` + правки карточек + `open-threads`/`timeline`. Не оставлять канон только в чате.
 
 Образцы: `canon-survey-v2.html` · `canon-questions-round2.md` · сверка TG: `canon-survey-v3-telegram.html` · `canon-questions-telegram-reconcile.md`.
