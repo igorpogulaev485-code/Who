@@ -28,10 +28,13 @@ tags: [faction, planar, razlom]
 - Асмодей правит всеми; вассалы с городами/замками; междоусобица.  
 - Лок: [`canon-lock-2026-09-05-demon-plane-asmodey.md`](../../campaign/plot/canon-lock-2026-09-05-demon-plane-asmodey.md)
 
-## Обитатели (контур)
+## Обитатели
 
-- Демонические расы (тифлинги…) + смертные анклавы.  
-- Референс: [`drafts/dnd-fiendish-races-ref.md`](../../drafts/dnd-fiendish-races-ref.md)
+- База = **официальный** бестиарий/иерархия Девяти Адов; жизнь максимально полная.  
+- Доработка Эха: **тифлинги**, смертные поселенцы/анклавы, прочие закрепившиеся.  
+- Лок: [`canon-lock-2026-09-05-demon-plane-inhabitants.md`](../../campaign/plot/canon-lock-2026-09-05-demon-plane-inhabitants.md)  
+- Витрина: [`dom-vladyki-inhabitants.md`](../../world/locations/dom-vladyki-inhabitants.md)  
+- Старый референс рас: [`dnd-fiendish-races-ref.md`](../../drafts/dnd-fiendish-races-ref.md)
 
 ## Связь с Разломом (материк)
 
@@ -53,7 +56,7 @@ tags: [faction, planar, razlom]
 ## Открыто
 
 - Точные ландмарки спящих узлов внутри государств  
-- Каталог рас/монстров (витрина)  
-- Артефакты Кардиана; срез арки 3  
+- Статус тифлингов / крупные анклавы поселенцев  
+- Артефакты Кардиана; срез арки 3; города-якоря  
 
 Чеклист: [`drafts/dom-vladyki-planar-checklist.md`](../../drafts/dom-vladyki-planar-checklist.md)
