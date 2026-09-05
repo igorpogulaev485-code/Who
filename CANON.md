@@ -121,7 +121,7 @@
 - [Канон-лок витрина пантеона](campaign/plot/canon-lock-2026-09-05-aelendor-pantheon.md) — Кореллон…Аэрдри + Лолс
 - [Канон-лок быт Лунного Моста](campaign/plot/canon-lock-2026-09-05-lunnyy-most-atmosphere.md) — Разлом внутри, фронтовой быт
 - [Канон-лок идентичность Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) — гордость, эпохи Разлома, Лес Хранителей, Столпы
-- [Канон-лок Хранители Граней](campaign/plot/canon-lock-2026-09-05-khraniteli-graney.md) — живы, мировые; 4 Столпа по книге
+- [Канон-лок Хранители Граней](campaign/plot/canon-lock-2026-09-05-khraniteli-graney.md) — живы; Обитель у Зеркала в Лунном Мосту (до Разлома); **строго 4** Столпа, Древо ≠ Столп
 - [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
