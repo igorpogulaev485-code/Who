@@ -123,7 +123,8 @@
 - [Канон-лок идентичность Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) — гордость, эпохи Разлома, Лес Хранителей, Столпы
 - [Канон-лок Хранители Граней](campaign/plot/canon-lock-2026-09-05-khraniteli-graney.md) — живы; Обитель у Зеркала в Лунном Мосту (до Разлома); **строго 4** Столпа, Древо ≠ Столп
 - [Канон-лок вид каст](campaign/plot/canon-lock-2026-09-05-aelendor-caste-look.md) — форма между кастами; регалии внутри; облики 6 каст
-- [Канон-лок праздники](campaign/plot/canon-lock-2026-09-05-aelendor-festivals.md) — полный набор (лунный цикл, Договор, 8 регулярных + Сияние)
+- [Канон-лок праздники](campaign/plot/canon-lock-2026-09-05-aelendor-festivals.md) — полный набор
+- [Канон-лок народности](campaign/plot/canon-lock-2026-09-05-aelendor-peoples.md) — эльфы/полуэльфы ядро; без орков/гоблинов как населения
 - [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
