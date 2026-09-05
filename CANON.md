@@ -109,6 +109,7 @@
 
 - [Граница прошлого и будущего](campaign/plot/past-present-boundary.md) — арки 1–2 = прошлое; арка 3 ещё без сессий
 - [Канон-лок опрос Аэлендор r1](campaign/plot/canon-lock-2026-09-05-aelendor-r1.md) — Элессар скрыт; Розалия в осаде; Хребет/Звёздная Пыль/Лолс
+- [Канон-лок опрос Аэлендор r2](campaign/plot/canon-lock-2026-09-05-aelendor-r2.md) — советы вместо короля; касты; Хостия в разделе; 3 дракона ч/з/к
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
