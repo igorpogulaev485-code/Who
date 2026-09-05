@@ -14,7 +14,9 @@
    Паспорт = канон `world/locations/states/` · сводка [`states-overview.md`](world/locations/states-overview.md) · стол по запросу `campaign/prep/states/` · шаблоны [`state.md`](templates/state.md) / [`state-table.md`](templates/state-table.md)
 6. **Артефакты:** [`.cursor/skills/echo-dawn-artifact/SKILL.md`](.cursor/skills/echo-dawn-artifact/SKILL.md)  
    Лок: [`skill-lock-artifact-v1.md`](campaign/plot/skill-lock-artifact-v1.md) · шаблоны [`artifact.md`](templates/artifact.md) / [`artifact-set.md`](templates/artifact-set.md) · реестр [`world/artifacts/roster.md`](world/artifacts/roster.md) · сеты/карточки в `world/artifacts/`
+7. **Главы книг:** [`.cursor/skills/echo-dawn-book-chapter/SKILL.md`](.cursor/skills/echo-dawn-book-chapter/SKILL.md)  
+   Лок: [`skill-lock-book-chapter-v1.md`](campaign/plot/skill-lock-book-chapter-v1.md) · шаблоны [`book-chapter.md`](templates/book-chapter.md) / [`book-codex.md`](templates/book-codex.md) · книги в `world/player-books/<book>/` · GM: `world/player-books/gm-codex/`
 
-Оркестратор и узкий скил **глав книг** — в работе.
+Оркестратор — в работе.
 
 Оглавление: [`CANON.md`](CANON.md) · источники: [`SOURCES.md`](SOURCES.md).

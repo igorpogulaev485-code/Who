@@ -78,7 +78,7 @@ world/artifacts/              # карточки предметов, сеты, r
 world/locations/              # места + *-map.md + states/ (паспорта стран)
 world/factions/               # не-государства (культы, дома); страны → states/
 world/npcs/                   # NPC
-world/player-books/           # книги игроков + chapters/
+world/player-books/           # книги игроков: <book>/chapters/ + gm-codex/ (+ legacy chapters/)
 campaign/plot/                # timeline, arcs, open-threads, surveys, locks
 campaign/party/               # roster, rewards, characters/
 campaign/sessions/            # сессии + player-briefs
@@ -132,9 +132,12 @@ source: gm-lock | player-briefs | telegra | qwen-archive
 ## 7. Книги игроков
 
 - Оглавление + правило: `world/player-books/README.md`
-- Зеркало Памяти — открытые главы: `world/player-books/zerkalo-pamyati.md`
+- Скил: [`echo-dawn-book-chapter`](../echo-dawn-book-chapter/SKILL.md)
+- Папки книг: `world/player-books/<book>/chapters/` · GM: `gm-codex/`
+- Зеркало Памяти — открытые главы (legacy-индекс): `world/player-books/zerkalo-pamyati.md`
 - Текст открытой главы = **жёсткий канон** (писал мастер).  
 - Пункт оглавления **без** ссылки «Вы изучили…» — ещё не канон / не открыт.
+- Изучение за столом = партия **тратит время**.
 
 Не переписывать текст открытых глав без просьбы мастера.
 

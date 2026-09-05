@@ -1,11 +1,13 @@
 ---
 title: Опрос — скил глав книг v1
-status: open
+status: answered
 tags: [skill, book, survey]
 created: 2026-09-05
 ---
 
 # Опросник: скил `echo-dawn-book-chapter`
+
+**Ответы залочены:** [`skill-lock-book-chapter-v1.md`](skill-lock-book-chapter-v1.md) · скил: [`.cursor/skills/echo-dawn-book-chapter/SKILL.md`](../../.cursor/skills/echo-dawn-book-chapter/SKILL.md).
 
 **Приватный репо:** GitHub raw / htmlpreview **не открыть**. Временный публичный mirror (Safari ok):
 
