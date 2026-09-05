@@ -68,8 +68,8 @@ date: 2026-09-05
 
 ## Согласование с кампанией (2026-09-05) — залочено
 
-См. [`canon-lock-2026-09-05-demon-plane-cosmology.md`](../campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md):
+См. [`canon-lock-2026-09-05-demon-plane-cosmology.md`](../campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [`canon-lock-2026-09-05-demon-plane-nine-circles.md`](../campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md) · [таблица](../world/locations/dom-vladyki-nine-circles.md):
 
 - Асмодей **почти как в книгах** + правки под Эхо.  
 - Демоны/дьяволы **объединены**.  
-- 9 кругов на **единой карте** через **ворота**, без вертикального провала слоёв.
+- 9 кругов на **единой карте** через **ворота**; имена/лорды = **канон DnD** + лёгкая рихтовка.
