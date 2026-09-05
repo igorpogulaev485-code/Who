@@ -1,8 +1,7 @@
 ---
 title: Черновик — 3 федеральные банды + банкиры/судьи
-status: draft
-tags: [draft, aelendor, gangs, needs-gm-ok]
-date: 2026-09-05
+status: superseded
+note: Утверждено мастером → см. canon-lock-2026-09-05-aelendor-gangs-tribunal.md
 ---
 
 # ЧЕРНОВИК — на экран мастеру

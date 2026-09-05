@@ -113,7 +113,8 @@
 - [Канон-лок опрос Аэлендор r3](campaign/plot/canon-lock-2026-09-05-aelendor-r3.md) — Хостия З/ЮЗ; всадники; драконий сет в храмах Лолс; кольцо из Розалии у Грока
 - [Канон-лок Синклит Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-synklit.md) — Председатель = Филлер; 8 отраслей + 8 регионов; касты; адъютанты в зале
 - [Канон-лок гос-тень + Лунный Мост](campaign/plot/canon-lock-2026-09-05-aelendor-shadow-state.md) — Теневой Совет, контрразведка, порталы; Лунный Мост = релицентр без банд
-- Черновик (ждёт ок): [3 федеральные банды + банкиры/судьи](drafts/aelendor-federal-gangs-and-institutions.md)
+- [Канон-лок банды + трибунал](campaign/plot/canon-lock-2026-09-05-aelendor-gangs-tribunal.md) — F1–F3; банкиры без кресла; Верховный трибунал с креслом
+- [Верховный трибунал](world/factions/verkhovnyy-tribunal.md) · [Чёрная Просека](world/factions/chernaya-proseka.md) · [Паутина Росы](world/factions/pautina-rosy.md) · [Пепельный Договор](world/factions/pepelnyy-dogovor.md)
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
