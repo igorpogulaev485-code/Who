@@ -4,9 +4,9 @@
 
 ## Мета
 
-- [Скил: канон репо](.cursor/skills/echo-dawn-canon/SKILL.md) · [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочные квесты](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные квесты](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [государства](.cursor/skills/echo-dawn-state/SKILL.md) · [`AGENTS.md`](AGENTS.md)
+- [Скил: канон репо](.cursor/skills/echo-dawn-canon/SKILL.md) · [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочные квесты](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные квесты](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [государства](.cursor/skills/echo-dawn-state/SKILL.md) · [артефакты](.cursor/skills/echo-dawn-artifact/SKILL.md) · [`AGENTS.md`](AGENTS.md)
 - [Источники](SOURCES.md)
-- [Playbook локации](templates/location-playbook.md) · [побочка](templates/quest-side.md) · [основной квест](templates/quest-main.md) · [сводка основных арки](templates/quest-mains-overview.md) · [паспорт страны](templates/state.md) · [стол страны](templates/state-table.md) · [эталон Камнеграда](examples/locations/kamnegrad-klinkerov.pdf)
+- [Playbook локации](templates/location-playbook.md) · [побочка](templates/quest-side.md) · [основной квест](templates/quest-main.md) · [сводка основных арки](templates/quest-mains-overview.md) · [паспорт страны](templates/state.md) · [стол страны](templates/state-table.md) · [артефакт](templates/artifact.md) · [сет артефактов](templates/artifact-set.md) · [эталон Камнеграда](examples/locations/kamnegrad-klinkerov.pdf)
 - [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
 - [Архив: Розалия](drafts/imports/qwen-rozaliya.md)
@@ -38,6 +38,8 @@
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md)
 - [Сет божественной силы](world/lore/artefacts-divine-set.md)
 - [Сет артефактов Драконов](world/lore/artefacts-dragon-set.md)
+- [Реестр артефактов (партия + мир)](world/artifacts/roster.md) · [индекс `world/artifacts/`](world/artifacts/README.md)
+- [Лок скила артефактов v1](campaign/plot/skill-lock-artifact-v1.md)
 - [Девять древних драконов](world/lore/ancient-dragons.md)
 - Черновик: [дебафы за 3 артефакта](drafts/kardian-debuffs-3-artifacts.md)
 - [Харенгоны](world/lore/harengons.md)

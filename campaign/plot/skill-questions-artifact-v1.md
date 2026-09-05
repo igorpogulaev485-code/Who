@@ -1,15 +1,17 @@
 ---
 title: Опрос — скил артефактов v1
-status: open
+status: answered
 tags: [skill, artifact, survey]
 created: 2026-09-05
 ---
 
 # Опросник: скил `echo-dawn-artifact`
 
+**Ответы залочены:** [`skill-lock-artifact-v1.md`](skill-lock-artifact-v1.md) · скил: [`.cursor/skills/echo-dawn-artifact/SKILL.md`](../../.cursor/skills/echo-dawn-artifact/SKILL.md).
+
 **Приватный репо:** GitHub raw / htmlpreview **не открыть**. Используй временный публичный mirror (Safari ok):
 
-👉 **MIRROR_URL** (~72 ч)
+👉 **https://litter.catbox.moe/jtp53d.html** (~72 ч)
 
 Локально в репо: [`skill-survey-artifact-v1.html`](skill-survey-artifact-v1.html)  
 Заполни → «Скопировать ответы» → вставь в чат.

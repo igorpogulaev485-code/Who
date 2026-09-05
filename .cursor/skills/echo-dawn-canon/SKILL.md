@@ -73,7 +73,8 @@ description: >
 
 ```
 CANON.md, SOURCES.md          # индекс и правила
-world/lore/                   # Разлом, артефакты, драконы…
+world/lore/                   # Разлом, артефакты (legacy-сводки), драконы…
+world/artifacts/              # карточки предметов, сеты, roster владения
 world/locations/              # места + *-map.md + states/ (паспорта стран)
 world/factions/               # не-государства (культы, дома); страны → states/
 world/npcs/                   # NPC
@@ -247,6 +248,8 @@ source: gm-lock | player-briefs | telegra | qwen-archive
 | Что сейчас у партии / войны | `campaign/plot/open-threads.md` |
 | Когда что было | `campaign/plot/timeline.md` |
 | Артефакты Кардиана | `world/lore/artefacts-kardian.md` |
+| Реестр артефактов | `world/artifacts/roster.md` |
+| Скил артефактов | `.cursor/skills/echo-dawn-artifact/SKILL.md` |
 | Разломы | `world/lore/razlom-i-zavesa.md` |
 | Карты | `world/locations/*-map.md` |
 | Книги | `world/player-books/README.md` |

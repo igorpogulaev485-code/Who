@@ -12,7 +12,9 @@
    Шаблоны: [`templates/quest-main.md`](templates/quest-main.md) · [`templates/quest-mains-overview.md`](templates/quest-mains-overview.md) · пакет в `campaign/prep/arcs/<arc-slug>/`
 5. **Государства (страны):** [`.cursor/skills/echo-dawn-state/SKILL.md`](.cursor/skills/echo-dawn-state/SKILL.md)  
    Паспорт = канон `world/locations/states/` · сводка [`states-overview.md`](world/locations/states-overview.md) · стол по запросу `campaign/prep/states/` · шаблоны [`state.md`](templates/state.md) / [`state-table.md`](templates/state-table.md)
+6. **Артефакты:** [`.cursor/skills/echo-dawn-artifact/SKILL.md`](.cursor/skills/echo-dawn-artifact/SKILL.md)  
+   Лок: [`skill-lock-artifact-v1.md`](campaign/plot/skill-lock-artifact-v1.md) · шаблоны [`artifact.md`](templates/artifact.md) / [`artifact-set.md`](templates/artifact-set.md) · реестр [`world/artifacts/roster.md`](world/artifacts/roster.md) · сеты/карточки в `world/artifacts/`
 
-Оркестратор и остальные узкие скилы — в работе (арты, главы…).
+Оркестратор и узкий скил **глав книг** — в работе.
 
 Оглавление: [`CANON.md`](CANON.md) · источники: [`SOURCES.md`](SOURCES.md).

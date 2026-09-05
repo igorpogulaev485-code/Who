@@ -29,7 +29,14 @@ player_book: world/player-books/chapters/Artefakty-Padeniya--Sozdanie-shesti-pre
 
 ## Цена ношения
 
+Лестница **2…6** обязательна (лок скила артефактов). Другие сеты тоже могут иметь дебафы.
+
 | Кол-во | Статус | Эффект |
 |---:|---|---|
 | 2 | канон | Плохо спится |
-| 3+ | черновик | [`drafts/kardian-debuffs-3-artifacts.md`](../../drafts/kardian-debuffs-3-artifacts.md) |
+| 3 | черновик | [`drafts/kardian-debuffs-3-artifacts.md`](../../drafts/kardian-debuffs-3-artifacts.md) |
+| 4 | TBD | спросить мастера |
+| 5 | TBD | спросить мастера |
+| 6 | TBD | спросить мастера |
+
+Реестр владения: [`world/artifacts/roster.md`](../artifacts/roster.md).

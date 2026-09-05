@@ -31,8 +31,11 @@ source: gm-lock-round2 + player-briefs + survey-v3
 
 ## Инвентарь / уточнить у мастера
 
+Реестр: [`world/artifacts/roster.md`](../../world/artifacts/roster.md).
+
 - **Артефакты боссов Оврага** — у героев; кто что (и что утеряно) — спросить мастера.  
-- **7 very rare** за Страж — распределение: [`rewards-silver-guard.md`](../party/rewards-silver-guard.md).
+- **7 very rare** за Страж — распределение: [`rewards-silver-guard.md`](../party/rewards-silver-guard.md).  
+- **Дебафы Кардиана 3 / 4 / 5 / 6** — залочить эффекты (2 = канон).
 
 ## Невил
 
