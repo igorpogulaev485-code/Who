@@ -132,6 +132,8 @@
 - [Канон-лок экономика](campaign/plot/canon-lock-2026-09-05-aelendor-economy.md) — валюта D&D; кристаллы Камнеграда; торговля через Розалию
 - [Канон-лок гражданство](campaign/plot/canon-lock-2026-09-05-aelendor-citizenship.md) — гражданин или гость; спрос закона равный
 - [Канон-лок образование](campaign/plot/canon-lock-2026-09-05-aelendor-education.md) — школы везде; Лесоверье = Великая академия
+- [Канон-лок вход в Разлом](campaign/plot/canon-lock-2026-09-05-razlom-entry.md) — два плана; волна; направление магией Аэлендора
+- [Бриф Кардиан+Разлом](drafts/kardian-razlom-brief.md)
 - [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
