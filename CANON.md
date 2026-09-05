@@ -35,7 +35,7 @@
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
 - [Вход в Разлом: два плана](campaign/plot/canon-lock-2026-09-05-razlom-entry.md)
 - [Разломы → круги Дома](campaign/plot/canon-lock-2026-09-05-razlom-to-circles.md)
-- [Дом Владыки — идентичность](campaign/plot/canon-lock-2026-09-05-demon-plane-identity.md) · [Асмодей / раскол](campaign/plot/canon-lock-2026-09-05-demon-plane-asmodey.md) · [космология / 9 кругов](campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка лордов](campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md) · [таблица кругов](world/locations/dom-vladyki-nine-circles.md) · [досье](world/factions/dom-vladyki.md)
+- [Дом Владыки — идентичность](campaign/plot/canon-lock-2026-09-05-demon-plane-identity.md) · [Асмодей / раскол](campaign/plot/canon-lock-2026-09-05-demon-plane-asmodey.md) · [космология / 9 кругов](campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка лордов](campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md) · [ворота](campaign/plot/canon-lock-2026-09-05-demon-plane-gates.md) · [таблица кругов](world/locations/dom-vladyki-nine-circles.md) · [досье](world/factions/dom-vladyki.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md)
 - [Сет божественной силы](world/lore/artefacts-divine-set.md)
 - [Сет артефактов Драконов](world/lore/artefacts-dragon-set.md)

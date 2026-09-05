@@ -17,10 +17,10 @@ tags: [faction, planar, razlom]
 
 - **Асмодей** ≈ официальный Asmodeus + правки под Эхо.  
 - Демоны и дьяволы **объединены**.  
-- **9 кругов на одной карте**; переход = **ворота**.  
+- **9 кругов на одной карте**; переход = **ворота** (визуал залочен).  
 - Имена кругов и лордов = **канон DnD** + лёгкая рихтовка.  
-- Локи: [космология](../../campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка](../../campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md)  
-- Таблица: [`dom-vladyki-nine-circles.md`](../../world/locations/dom-vladyki-nine-circles.md)  
+- Локи: [космология](../../campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка](../../campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md) · [ворота](../../campaign/plot/canon-lock-2026-09-05-demon-plane-gates.md)  
+- Таблица кругов: [`dom-vladyki-nine-circles.md`](../../world/locations/dom-vladyki-nine-circles.md)  
 - Фон DnD: [`asmodeus-official-dnd-brief.md`](../../drafts/asmodeus-official-dnd-brief.md)
 
 ## Власть
@@ -53,7 +53,7 @@ tags: [faction, planar, razlom]
 ## Открыто
 
 - Точные ландмарки спящих узлов внутри государств  
-- Визуал девяти ворот на карте плана  
-- Каталог рас/монстров; артефакты Кардиана; срез арки 3  
+- Каталог рас/монстров (витрина)  
+- Артефакты Кардиана; срез арки 3  
 
 Чеклист: [`drafts/dom-vladyki-planar-checklist.md`](../../drafts/dom-vladyki-planar-checklist.md)
