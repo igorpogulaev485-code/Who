@@ -1,17 +1,20 @@
 ---
 title: Государства мира (обзор)
 status: canon
-tags: [geography, states]
+tags: [geography, states, overview]
 source: gm + world-map
 share_url: https://chat.qwen.ai/s/bbc06d92-d1a6-4357-8902-73817e82b29a
 map: assets/maps/world-map-echo-dawn.jpg
 ---
 
-# Государства мира
+# Государства мира — сводка
 
-Карта: [`world-map.md`](world-map.md) · [`assets/maps/world-map-echo-dawn.jpg`](../../assets/maps/world-map-echo-dawn.jpg)
+Карта: [`world-map.md`](world-map.md) · [`assets/maps/world-map-echo-dawn.jpg`](../../assets/maps/world-map-echo-dawn.jpg)  
+Скил паспортов: [`.cursor/skills/echo-dawn-state/SKILL.md`](../../.cursor/skills/echo-dawn-state/SKILL.md)  
+Паспорта: [`states/`](states/README.md) · шаблон: [`templates/state.md`](../../templates/state.md)  
+Приоритет фактов: **мастер → карта → книги → Qwen**.
 
-Ниже — слова мастера из ветки «Мир через страны» + сверка с картой.  
+Ниже — сводка (W1-контур из ветки «Мир через страны» + карта). Полный паспорт — файл в `states/`, волнами.  
 **Сильванор** = столица Аэлендора (не отдельное государство на карте).  
 **Сильванарион** ≠ **Сильванион** (два разных государства).
 

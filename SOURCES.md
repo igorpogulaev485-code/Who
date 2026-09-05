@@ -7,7 +7,16 @@ tags: [meta]
 # Источники и правила канона
 
 Полный рабочий скил для агентов: [`.cursor/skills/echo-dawn-canon/SKILL.md`](.cursor/skills/echo-dawn-canon/SKILL.md).  
-Скилы контента: [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочки](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные арки](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [`AGENTS.md`](AGENTS.md).
+Скилы контента: [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочки](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные арки](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [государства](.cursor/skills/echo-dawn-state/SKILL.md) · [`AGENTS.md`](AGENTS.md).
+
+## Приоритет фактов (география / государства)
+
+1. Слова мастера  
+2. Карта  
+3. Открытые главы книг игроков (Telegraph)  
+4. Архив Qwen — только события, не советы  
+
+Имена столиц/земель из открытых глав книг сразу идут в канон паспорта страны.
 
 ## Как читаем импорты из Qwen
 

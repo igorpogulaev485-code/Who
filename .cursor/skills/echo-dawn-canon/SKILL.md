@@ -57,12 +57,15 @@ description: >
 
 ## 2. Иерархия канона (строже сверху)
 
-1. **Слова мастера Игоря** в этом чате / канон-локах / сообщениях игрокам  
-2. **Сообщения игрокам** (`campaign/sessions/player-briefs-*.md`) — то, что партия знает  
-3. **Открытые главы книг игроков** (Telegraph: фраза-ссылка «Вы изучили эту главу») → `world/player-books/`  
-4. Карточки со `status: canon` в `world/`, `campaign/`  
-5. Архив Qwen в `drafts/imports/` — **только события**, не советы «что сделать»  
-6. `status: prep` / `proposal` / `canon-partial` / `unresolved` — не выдавать за стол как факт без пометки
+1. **Слова мастера** в этом чате / канон-локах / сообщениях игрокам  
+2. **Карта** (файлы в `assets/maps/` + `world/locations/*-map.md`) — для географии и государств  
+3. **Сообщения игрокам** (`campaign/sessions/player-briefs-*.md`) — то, что партия знает  
+4. **Открытые главы книг игроков** (Telegraph: фраза-ссылка «Вы изучили эту главу») → `world/player-books/`  
+5. Карточки со `status: canon` в `world/`, `campaign/`  
+6. Архив Qwen в `drafts/imports/` — **только события**, не советы «что сделать»  
+7. `status: prep` / `proposal` / `canon-partial` / `unresolved` — не выдавать за стол как факт без пометки
+
+Для государств см. также [`echo-dawn-state`](../echo-dawn-state/SKILL.md): мастер → карта → книги → Qwen.
 
 При конфликте: правим канон-файлы; **архив не переписываем**.
 
@@ -71,8 +74,8 @@ description: >
 ```
 CANON.md, SOURCES.md          # индекс и правила
 world/lore/                   # Разлом, артефакты, драконы…
-world/locations/              # места + *-map.md
-world/factions/               # государства/силы
+world/locations/              # места + *-map.md + states/ (паспорта стран)
+world/factions/               # не-государства (культы, дома); страны → states/
 world/npcs/                   # NPC
 world/player-books/           # книги игроков + chapters/
 campaign/plot/                # timeline, arcs, open-threads, surveys, locks
