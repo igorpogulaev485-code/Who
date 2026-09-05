@@ -18,4 +18,6 @@
 
 - [Дом Вандерли](dom-vanderli.md)
 - [Культ Лолс](kult-lols.md)
-- [Хвост Скорпиона](khvost-skorpiona.md)
+- [Верховный трибунал](verkhovnyy-tribunal.md)
+- [Чёрная Просека](chernaya-proseka.md) · [Паутина Росы](pautina-rosy.md) · [Пепельный Договор](pepelnyy-dogovor.md) — федеральные банды
+- [Хвост Скорпиона](khvost-skorpiona.md) — уничтожена (Лунный Мост)
