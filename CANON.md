@@ -115,8 +115,10 @@
 - [Канон-лок гос-тень + Лунный Мост](campaign/plot/canon-lock-2026-09-05-aelendor-shadow-state.md) — Теневой Совет, контрразведка, порталы; Лунный Мост = релицентр без банд
 - [Канон-лок банды + трибунал](campaign/plot/canon-lock-2026-09-05-aelendor-gangs-tribunal.md) — F1–F3; банкиры без кресла; Верховный трибунал с креслом
 - [Верховный трибунал](world/factions/verkhovnyy-tribunal.md) · [Чёрная Просека](world/factions/chernaya-proseka.md) · [Паутина Росы](world/factions/pautina-rosy.md) · [Пепельный Договор](world/factions/pepelnyy-dogovor.md)
-- [Канон-лок религия + Разлом (быт)](campaign/plot/canon-lock-2026-09-05-aelendor-religion.md) — эльфийский пантеон высших; жрецы успокаивают; маги — барьеры; Столпы живые
-- [Портрет Аэлендора — сводка понимания](drafts/aelendor-portrait-synthesis.md) *(living)*
+- [Столпы Мира](world/locations/stolpy-mira.md) — 4 точки на рубежах Аэлендора
+- [Канон-лок религия + Разлом (быт)](campaign/plot/canon-lock-2026-09-05-aelendor-religion.md)
+- [Канон-лок идентичность Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) — гордость, эпохи Разлома, Лес Хранителей, Столпы
+- [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
 - [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
