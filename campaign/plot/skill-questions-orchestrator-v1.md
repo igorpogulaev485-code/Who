@@ -1,11 +1,13 @@
 ---
 title: Опрос — скил оркестратора v1
-status: open
+status: answered
 tags: [skill, orchestrator, survey]
 created: 2026-09-05
 ---
 
 # Опросник: скил `echo-dawn-orchestrator`
+
+**Ответы залочены:** [`skill-lock-orchestrator-v1.md`](skill-lock-orchestrator-v1.md) · скил: [`.cursor/skills/echo-dawn-orchestrator/SKILL.md`](../../.cursor/skills/echo-dawn-orchestrator/SKILL.md).
 
 **Приватный репо:** raw/htmlpreview **не открыть**. Mirror (Safari ok):
 

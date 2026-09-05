@@ -7,7 +7,7 @@ tags: [meta]
 # Источники и правила канона
 
 Полный рабочий скил для агентов: [`.cursor/skills/echo-dawn-canon/SKILL.md`](.cursor/skills/echo-dawn-canon/SKILL.md).  
-Скилы контента: [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочки](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные арки](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [государства](.cursor/skills/echo-dawn-state/SKILL.md) · [артефакты](.cursor/skills/echo-dawn-artifact/SKILL.md) · [главы книг](.cursor/skills/echo-dawn-book-chapter/SKILL.md) · [`AGENTS.md`](AGENTS.md).
+Скилы контента: [оркестратор](.cursor/skills/echo-dawn-orchestrator/SKILL.md) · [локации](.cursor/skills/echo-dawn-location/SKILL.md) · [побочки](.cursor/skills/echo-dawn-quest-side/SKILL.md) · [основные арки](.cursor/skills/echo-dawn-quest-main/SKILL.md) · [государства](.cursor/skills/echo-dawn-state/SKILL.md) · [артефакты](.cursor/skills/echo-dawn-artifact/SKILL.md) · [главы книг](.cursor/skills/echo-dawn-book-chapter/SKILL.md) · [`AGENTS.md`](AGENTS.md).
 
 ## Приоритет фактов (география / государства)
 
