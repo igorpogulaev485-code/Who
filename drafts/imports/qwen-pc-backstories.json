@@ -1,0 +1,319 @@
+{
+  "success": true,
+  "request_id": "21b87856-64d3-44ee-ac43-28be01301dd9",
+  "data": {
+    "id": "62e1a8b6-f00e-45e6-b7fa-fc9b3c1d93f1",
+    "user_id": "shared-2ffd54e2-068c-4208-b614-870fbb0218b6",
+    "title": "Player Characters Backstory",
+    "chat": {
+      "history": {
+        "messages": {
+          "8958c00e-ee60-4ee6-abb0-fbaa6680e080": {
+            "id": "8958c00e-ee60-4ee6-abb0-fbaa6680e080",
+            "role": "user",
+            "content": "В этой ветке я хочу описать персонажей игроков, которые играют у меня в компании, чтобы мы встроили их в лор ",
+            "models": [
+              "qwen3.6-plus"
+            ],
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "edited": false,
+            "error": null,
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              }
+            },
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": true,
+              "thinking_mode": "Auto",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "parentId": null,
+            "turn_id": null,
+            "childrenIds": [
+              "8cd7f732-da3d-4b89-80ed-9b03794f6e35"
+            ],
+            "files": [],
+            "timestamp": 1779875913
+          },
+          "8cd7f732-da3d-4b89-80ed-9b03794f6e35": {
+            "role": "assistant",
+            "content": "",
+            "reasoning_content": null,
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "model": "qwen3.6-plus",
+            "modelName": "Qwen3.6-Plus",
+            "modelIdx": 0,
+            "id": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+            "parentId": "8958c00e-ee60-4ee6-abb0-fbaa6680e080",
+            "childrenIds": [],
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": true,
+              "thinking_mode": "Auto",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "content_list": [
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Shaping the narrative framework of a D&D world",
+                      "Воспринимаю запрос с энтузиазмом и готовностью.",
+                      "Создаю вселенную, в которой каждый герой — отголосок рассвета.",
+                      "Embrace the vision of deepening your world through character-driven narrative threads",
+                      "Внедрять персонажей в лор мира с глубокой интеграцией.",
+                      "Создаю глубокий, живой мир, вплетая каждый элемент в ткань «Эха Рассвета»."
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "I am weaving together the essence of the players' characters into the fabric of Echo of Dawn, aligning their origins, motivations, and abilities with the world's lore and tensions.  \nEach character is being positioned not just as an individual but as a thread in a larger tapestry of destiny and conflict.  \nTheir stories are taking form through subtle echoes of ancient prophecies, hidden scars, and unspoken bonds.",
+                      "Я стремлюсь интегрировать каждого персонажа в глубокую, живую ткань мира «Эха Рассвета», оживляя его историю через детали, которые вы предоставите.  \nКаждая черта характера, прошлое, мотивация и связь с миром станут нитями, сплетающимися в общую, невероятную сагу.  \nС радостью помогу вам раскрыть их место в этом мире, где каждая душа — часть вечного отклика рассвета.",
+                      "Я обновляю мир, наполняя его тайнами, связями и смыслом, чтобы каждый персонаж мог стать частью великой истории.  \nПогружаясь в души героев, я выявляю их стремления, страхи и тайны, превращая их судьбы в нить, переплетающуюся с судьбой мира.  \nКаждый выбор, каждое символическое орудие, каждая узы с фракциями — всё это звенья в цепи, что ведёт к новому утру.",
+                      "I am crafting a collaborative space where each character becomes a living thread in the fabric of the realm, woven with personal history, hidden ties, and echoes of destiny.  \nBy inviting you to share intimate details through a thoughtful guide, I ensure every element—be it heritage, secret, or longing—finds its place in the unfolding saga of Эхо Рассвета.  \nWith gentle guidance, I stand ready to shape these threads into meaningful connections, quests, and resonances that breathe life into your campaign.",
+                      "Я формирую живую, выразительную связь между героями и их вселенной, опираясь на ключевые черты личности, мотивации и тайны.  \nКаждый элемент — от символики до связей — становится частью единого художественного замысла.  \nМоя цель — сделать каждую историю героев неотделимой от судьбы самого мира.",
+                      "Я нахожу отголоски прошлого в каждом персонаже, локации и событии, связывая их с фракциями, пророчествами и забытыми договорами.  \nКаждый герой — не просто фигура, а ключ к новым сюжетным нитям, чья судьба отражается в легендах, страхах и надеждах мира.  \nЯ строю взаимосвязи между персонажами, намечая скрытые крючки, которые могут раскрыться в нужный момент, как шепот эха из тьмы."
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+                "usage": {
+                  "input_tokens": 96,
+                  "output_tokens": 1215,
+                  "characters": 0,
+                  "total_tokens": 1311,
+                  "input_tokens_details": {
+                    "text_tokens": 96
+                  },
+                  "output_tokens_details": {
+                    "reasoning_tokens": 1208,
+                    "text_tokens": 1215
+                  }
+                },
+                "timestamp": 1779875937
+              },
+              {
+                "content": "Отличная идея! Вплетение персонажей игроков в лор «Эха Рассвета» — один из самых мощных инструментов для создания живой, отзывчивой кампании. Чтобы интеграция получилась органичной и дала тебе как Мастеру готовые крючки, а игрокам — ощущение, что их герои действительно часть этого мира, давай собирать информацию по единой структуре.\n\n📝 **Шаблон описания персонажа (заполняй по желанию, можно кратко):**\n1. **Имя, раса, класс, предыстория** (официальная или кастомная)\n2. **Ядро характера** (2–3 фразы: что им движет, во что верит, чего боится, как принимает решения)\n3. **Цель и цена** (чего хочет достичь? что готов отдать/нарушить ради этого?)\n4. **Тайна или незавершённое дело** (скрывает ли что-то? с кем связан договор/кровь/долг? какое событие оставило внутренний шрам?)\n5. **Визуальный/символический якорь** (артефакт, шрам, тату, семейный знак, прозвище, ритуал, привычка, которая выдает его в толпе)\n6. **Связи с миром** (родной регион, фракция/культ/гильдия, наставник, враг, место силы, которое считает «своим» или «запретным»)\n7. **Ожидания игрока** (какие темы/сцены/конфликты он хочет видеть? чего точно хочет избежать? какой тон игры ему близок?)\n8. **Готовые зацепки (если есть)** (уже придуманные NPC, локации, предметы, пророчества или сны, которые игрок хочет вписать в сюжет)\n\n🔮 **Как я буду вплетать их в лор «Эха Рассвета»:**\n- Найду точки пересечения с существующими фракциями, артефактами, пророчествами и историческими пластами мира\n- Создам «личные эхо» — отголоски забытых договоров, сны предков, метки древних сил, которые станут мягкими квестовыми нитями\n- Пропишу, как мир реагирует на героя: легенды, суеверия, репутация, страхи или надежды, которые окружают его имя\n- Предложу 1–2 скрытых крючка на сессию вперёд, которые можно активировать органично, когда группа приблизится к нужной точке\n- Выстрою перекрёстные связи между персонажами, если игроки этого хотят (общие учителя, параллельные судьбы, неосознанные договоры и т.д.)\n\nМожешь начать с одного персонажа — я сразу покажу, как он «зазвучит» в мире, и дам готовые лор-вставки для твоей кампании. Или скидывай всех сразу, и мы выстроим сеть связей. Жду описания! 🌅✨",
+                "phase": "answer",
+                "status": "finished",
+                "extra": null,
+                "role": "assistant",
+                "response_id": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+                "usage": {
+                  "input_tokens": 96,
+                  "output_tokens": 1905,
+                  "characters": 0,
+                  "total_tokens": 2001,
+                  "input_tokens_details": {
+                    "text_tokens": 96
+                  },
+                  "output_tokens_details": {
+                    "reasoning_tokens": 1208,
+                    "text_tokens": 1905
+                  }
+                },
+                "timestamp": 1779875948
+              }
+            ],
+            "is_stop": false,
+            "edited": false,
+            "error": null,
+            "meta": {},
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              },
+              "endTime": 1779875949.3380535
+            },
+            "feedbackId": null,
+            "turn_id": null,
+            "annotation": null,
+            "done": true,
+            "info": null,
+            "timestamp": 1779875913
+          }
+        },
+        "currentId": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+        "currentResponseIds": [
+          "8cd7f732-da3d-4b89-80ed-9b03794f6e35"
+        ],
+        "pagination": null
+      },
+      "models": [
+        "qwen3.6-plus"
+      ],
+      "messages": [
+        {
+          "id": "8958c00e-ee60-4ee6-abb0-fbaa6680e080",
+          "role": "user",
+          "content": "В этой ветке я хочу описать персонажей игроков, которые играют у меня в компании, чтобы мы встроили их в лор ",
+          "models": [
+            "qwen3.6-plus"
+          ],
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "edited": false,
+          "error": null,
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            }
+          },
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": true,
+            "thinking_mode": "Auto",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "parentId": null,
+          "turn_id": null,
+          "childrenIds": [
+            "8cd7f732-da3d-4b89-80ed-9b03794f6e35"
+          ],
+          "files": [],
+          "timestamp": 1779875913
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "model": "qwen3.6-plus",
+          "modelName": "Qwen3.6-Plus",
+          "modelIdx": 0,
+          "id": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+          "parentId": "8958c00e-ee60-4ee6-abb0-fbaa6680e080",
+          "childrenIds": [],
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": true,
+            "thinking_mode": "Auto",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "content_list": [
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Shaping the narrative framework of a D&D world",
+                    "Воспринимаю запрос с энтузиазмом и готовностью.",
+                    "Создаю вселенную, в которой каждый герой — отголосок рассвета.",
+                    "Embrace the vision of deepening your world through character-driven narrative threads",
+                    "Внедрять персонажей в лор мира с глубокой интеграцией.",
+                    "Создаю глубокий, живой мир, вплетая каждый элемент в ткань «Эха Рассвета»."
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "I am weaving together the essence of the players' characters into the fabric of Echo of Dawn, aligning their origins, motivations, and abilities with the world's lore and tensions.  \nEach character is being positioned not just as an individual but as a thread in a larger tapestry of destiny and conflict.  \nTheir stories are taking form through subtle echoes of ancient prophecies, hidden scars, and unspoken bonds.",
+                    "Я стремлюсь интегрировать каждого персонажа в глубокую, живую ткань мира «Эха Рассвета», оживляя его историю через детали, которые вы предоставите.  \nКаждая черта характера, прошлое, мотивация и связь с миром станут нитями, сплетающимися в общую, невероятную сагу.  \nС радостью помогу вам раскрыть их место в этом мире, где каждая душа — часть вечного отклика рассвета.",
+                    "Я обновляю мир, наполняя его тайнами, связями и смыслом, чтобы каждый персонаж мог стать частью великой истории.  \nПогружаясь в души героев, я выявляю их стремления, страхи и тайны, превращая их судьбы в нить, переплетающуюся с судьбой мира.  \nКаждый выбор, каждое символическое орудие, каждая узы с фракциями — всё это звенья в цепи, что ведёт к новому утру.",
+                    "I am crafting a collaborative space where each character becomes a living thread in the fabric of the realm, woven with personal history, hidden ties, and echoes of destiny.  \nBy inviting you to share intimate details through a thoughtful guide, I ensure every element—be it heritage, secret, or longing—finds its place in the unfolding saga of Эхо Рассвета.  \nWith gentle guidance, I stand ready to shape these threads into meaningful connections, quests, and resonances that breathe life into your campaign.",
+                    "Я формирую живую, выразительную связь между героями и их вселенной, опираясь на ключевые черты личности, мотивации и тайны.  \nКаждый элемент — от символики до связей — становится частью единого художественного замысла.  \nМоя цель — сделать каждую историю героев неотделимой от судьбы самого мира.",
+                    "Я нахожу отголоски прошлого в каждом персонаже, локации и событии, связывая их с фракциями, пророчествами и забытыми договорами.  \nКаждый герой — не просто фигура, а ключ к новым сюжетным нитям, чья судьба отражается в легендах, страхах и надеждах мира.  \nЯ строю взаимосвязи между персонажами, намечая скрытые крючки, которые могут раскрыться в нужный момент, как шепот эха из тьмы."
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+              "usage": {
+                "input_tokens": 96,
+                "output_tokens": 1215,
+                "characters": 0,
+                "total_tokens": 1311,
+                "input_tokens_details": {
+                  "text_tokens": 96
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 1208,
+                  "text_tokens": 1215
+                }
+              },
+              "timestamp": 1779875937
+            },
+            {
+              "content": "Отличная идея! Вплетение персонажей игроков в лор «Эха Рассвета» — один из самых мощных инструментов для создания живой, отзывчивой кампании. Чтобы интеграция получилась органичной и дала тебе как Мастеру готовые крючки, а игрокам — ощущение, что их герои действительно часть этого мира, давай собирать информацию по единой структуре.\n\n📝 **Шаблон описания персонажа (заполняй по желанию, можно кратко):**\n1. **Имя, раса, класс, предыстория** (официальная или кастомная)\n2. **Ядро характера** (2–3 фразы: что им движет, во что верит, чего боится, как принимает решения)\n3. **Цель и цена** (чего хочет достичь? что готов отдать/нарушить ради этого?)\n4. **Тайна или незавершённое дело** (скрывает ли что-то? с кем связан договор/кровь/долг? какое событие оставило внутренний шрам?)\n5. **Визуальный/символический якорь** (артефакт, шрам, тату, семейный знак, прозвище, ритуал, привычка, которая выдает его в толпе)\n6. **Связи с миром** (родной регион, фракция/культ/гильдия, наставник, враг, место силы, которое считает «своим» или «запретным»)\n7. **Ожидания игрока** (какие темы/сцены/конфликты он хочет видеть? чего точно хочет избежать? какой тон игры ему близок?)\n8. **Готовые зацепки (если есть)** (уже придуманные NPC, локации, предметы, пророчества или сны, которые игрок хочет вписать в сюжет)\n\n🔮 **Как я буду вплетать их в лор «Эха Рассвета»:**\n- Найду точки пересечения с существующими фракциями, артефактами, пророчествами и историческими пластами мира\n- Создам «личные эхо» — отголоски забытых договоров, сны предков, метки древних сил, которые станут мягкими квестовыми нитями\n- Пропишу, как мир реагирует на героя: легенды, суеверия, репутация, страхи или надежды, которые окружают его имя\n- Предложу 1–2 скрытых крючка на сессию вперёд, которые можно активировать органично, когда группа приблизится к нужной точке\n- Выстрою перекрёстные связи между персонажами, если игроки этого хотят (общие учителя, параллельные судьбы, неосознанные договоры и т.д.)\n\nМожешь начать с одного персонажа — я сразу покажу, как он «зазвучит» в мире, и дам готовые лор-вставки для твоей кампании. Или скидывай всех сразу, и мы выстроим сеть связей. Жду описания! 🌅✨",
+              "phase": "answer",
+              "status": "finished",
+              "extra": null,
+              "role": "assistant",
+              "response_id": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+              "usage": {
+                "input_tokens": 96,
+                "output_tokens": 1905,
+                "characters": 0,
+                "total_tokens": 2001,
+                "input_tokens_details": {
+                  "text_tokens": 96
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 1208,
+                  "text_tokens": 1905
+                }
+              },
+              "timestamp": 1779875948
+            }
+          ],
+          "is_stop": false,
+          "edited": false,
+          "error": null,
+          "meta": {},
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            },
+            "endTime": 1779875949.3380535
+          },
+          "feedbackId": null,
+          "turn_id": null,
+          "annotation": null,
+          "done": true,
+          "info": null,
+          "timestamp": 1779875913
+        }
+      ]
+    },
+    "updated_at": 1788544621,
+    "created_at": 1779875912,
+    "share_id": null,
+    "archived": false,
+    "pinned": false,
+    "meta": {},
+    "folder_id": null,
+    "currentResponseIds": [
+      "8cd7f732-da3d-4b89-80ed-9b03794f6e35"
+    ],
+    "currentId": "8cd7f732-da3d-4b89-80ed-9b03794f6e35",
+    "chat_type": null,
+    "models": null,
+    "project_id": null
+  }
+}

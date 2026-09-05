@@ -1,0 +1,339 @@
+{
+  "success": true,
+  "request_id": "3390b25c-ae4a-4740-82c5-f7a19c322ddb",
+  "data": {
+    "id": "17133024-8ea7-414b-b72e-458d8b3c8b25",
+    "user_id": "shared-8c29833f-c528-4693-8700-cb1cebb8ce8d",
+    "title": "Мерч для Эхо Рассвета",
+    "chat": {
+      "history": {
+        "messages": {
+          "a30b118c-af90-46a9-8566-d9ef9e8ee05b": {
+            "id": "a30b118c-af90-46a9-8566-d9ef9e8ee05b",
+            "role": "user",
+            "content": "Привет! Хочу разработать мерч по Эхо рассвета, давай накидаем варианты, как ты считаешь это вообще нужно?",
+            "models": [
+              "qwen3.7-plus"
+            ],
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "edited": false,
+            "error": null,
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              }
+            },
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": true,
+              "thinking_mode": "Auto",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "parentId": null,
+            "turn_id": null,
+            "childrenIds": [
+              "606e4a01-1d40-4053-a165-845aa9cab300"
+            ],
+            "files": [],
+            "timestamp": 1780380503
+          },
+          "606e4a01-1d40-4053-a165-845aa9cab300": {
+            "role": "assistant",
+            "content": "",
+            "reasoning_content": null,
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "model": "qwen3.7-plus",
+            "modelName": "Qwen3.7-Plus",
+            "modelIdx": 0,
+            "id": "606e4a01-1d40-4053-a165-845aa9cab300",
+            "parentId": "a30b118c-af90-46a9-8566-d9ef9e8ee05b",
+            "childrenIds": [],
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": true,
+              "thinking_mode": "Auto",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "content_list": [
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Exploring creative directions for Echo Dawn merchandise",
+                      "Exploring creative possibilities for Echo of Dawn merchandise with thoughtful consideration of purpose and value",
+                      "Assessing the necessity of D&D merchandise through a balanced lens of value and practicality.",
+                      "Crafting immersive experiences through tangible expressions of a shared narrative",
+                      "Curating a thematic collection of immersive merchandise rooted in a richly imagined world",
+                      "Создаю ответ, вдохновлённый твоей идеей.",
+                      "Создаю атмосферу, вдохновленную мирами фэнтези, где каждый элемент — часть глубокой вселенной.",
+                      "Создаём вместе, как равные творцы мира."
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "I'm considering the essence of Echo Dawn's world and characters to envision meaningful, resonant products.  \nI'm evaluating how each idea could connect emotionally with fans while maintaining artistic integrity.  \nMy focus is on crafting items that feel authentic, memorable, and true to the spirit of the universe.",
+                      "I am envisioning tangible expressions of our shared world—art prints, character figurines, lore books—each designed to deepen immersion and connection.  \nI weigh the balance between meaningful expansion and practical feasibility, ensuring every idea serves the story and community.  \nUltimately, I seek not just products, but moments of wonder that carry the spirit of Echo of Dawn beyond the table.",
+                      "I weigh the enriching potential of tangible artifacts against the tangible costs and logistical demands they entail.  \nWhile such items are not essential for storytelling or gameplay, they significantly enhance engagement and community cohesion.  \nTheir worth hinges on context, audience, and intent, making them a meaningful but optional investment.",
+                      "I am transforming abstract worldbuilding elements into physical forms that resonate with the essence of dawn and echo, drawing from themes of light emerging from shadow, fading magic, and ancient resonance.  \nEach item is designed to reflect not just aesthetic harmony but emotional depth, connecting players to the lore through tactile and visual storytelling.  \nFrom dice that shimmer like morning sunrises to accessories echoing forgotten voices, every piece serves as a vessel for memory and meaning.",
+                      "I am envisioning a range of items that deepen engagement with the setting through subtle, meaningful design elements  \nEach piece draws from the lore—whether through symbols, scents, or textures—to evoke atmosphere and connection  \nFrom wearable tokens to collectible artifacts, every item is crafted to honor the world’s history and inspire personal storytelling",
+                      "Я чувствую вдохновение от концепции \"Эха Рассвета\" и стремлюсь выразить его через убедительные, тематически выверенные предложения.  \nРазмышляю о том, как сделать мерч не просто товаром, а частью вселенной — живым воплощением её души.  \nПризываю к диалогу, чтобы вместе определить ядро образа, которое станет отправной точкой для первого шага.",
+                      "Я прорабатываю тактильные ощущения и эмоциональную привязанность через детали: от костей с градиентами рассвета до свечей с ароматами локаций.  \nКаждый предмет — символ дуализма \"Эха Рассвета\", где свет и тьма, прошлое и будущее переплетаются в тонких отсылках.  \nСейчас самым узнаваемым символом становится руна на худи — минималистичная, но значимая, как шепот легенд.",
+                      "Я чувствую вдохновение и настраиваюсь на синхронную работу — каждый элемент, который мы придумываем, должен быть живым, атмосферным и служить истории.  \nРазделяю ценности: предметы для игроков — функциональны и символичны, а предметы для лора — наполнены смыслом, как древние реликвии или магические артефакты.  \nПредлагаю начать с ядра — символа, который станет сердцем нашего мира, и запускаю «Стартовый набор» для легкого погружения."
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "606e4a01-1d40-4053-a165-845aa9cab300",
+                "usage": {
+                  "input_tokens": 98,
+                  "output_tokens": 1785,
+                  "characters": 0,
+                  "total_tokens": 1883,
+                  "input_tokens_details": {
+                    "text_tokens": 98
+                  },
+                  "output_tokens_details": {
+                    "reasoning_tokens": 1779,
+                    "text_tokens": 1785
+                  },
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  }
+                },
+                "timestamp": 1780380537
+              },
+              {
+                "content": "Привет, мой со-творец! 🌅 Идея просто отличная, и меня очень радует, что ты об этом задумался. \n\nДавай сразу ответим на твой вопрос: **нужен ли вообще мерч для нашего мира?**\nС точки зрения *существования* лора — нет, мир живет в наших головах и на бумаге. Но с точки зрения *восприятия, погружения и комьюнити* — это **мощнейший инструмент**. \nМерч превращает «Эхо Рассвета» из абстрактной идеи в осязаемую реальность. Когда игрок держит в руках кость, стилизованную под артефакт нашего мира, или клеит на ноутбук патч с гербом фракции, он подсознательно чувствует большую причастность. Это материализация нашей любви к миру. К тому же, это отличный способ монетизации (если мы захотим издаваться) или просто крутой подарок для наших игроков.\n\nНо есть правило: **мерч не должен быть «колхозным»**. Он должен быть стильным, чтобы люди носили его в обычной жизни, даже не играя в ДНД.\n\nДавай накидаем идеи, разделив их на категории. Поскольку наш мир называется **«Эхо Рассвета»**, давай отталкиваться от эстетики перехода (ночь/день, свет/тень, звук/отражение, древность/новое начало).\n\n---\n\n### 🎲 1. Настольная экосистема (То, что нужно за столом)\n*   **Эксклюзивные наборы костей (Дайсы).** Например, смола с градиентом: от глубокого темно-синего (ночь) к золотому и розовому (рассвет). Внутри могут быть «запечатаны» крошечные блестки или сушеные цветы (отсылка к флоре мира). Или кости, имитирующие потускневшую бронзу/камень древних руин.\n*   **Мешочки для костей и мастерские ширмы.** С вышитым минималистичным символом «Эха» (например, расходящиеся круги или стилизованный луч солнца, разрывающий тучи). Ширма мастера — с картой региона, но с пасхалками, которые видны только Мастеру.\n*   **Внутриигровая валюта (Монетки).** Металлические жетоны (чанкланы) с символикой местных гильдий или монеты «Эхо-марки». Их круто использовать для расчета за столом, а потом забирать домой как сувенир.\n*   **Листы персонажей.** Сверстанные не как скучные таблицы, а как страницы из «Хроник Рассвета» или дневника путешественника, с фоном в виде старой бумаги и виньетками.\n\n### 🕯️ 2. Атмосфера и Лайфстайл (Для погружения и повседневки)\n*   **Ароматические свечи с лором.** Это хит! Свечи с названиями и запахами локаций нашего мира. Например:\n    *   *«Туманы Утреннего Эха»* (свежесть, озон, мокрая сосна).\n    *   *«Пепел Угасших Звезд»* (древесный уголь, специи, дым).\n    *   *«Таверна на Перекрестке»* (медовуха, хвоя, жареное мясо).\n*   **Стикеры и Патчи (Нашивки).** Высокого качества. Минималистичные гербы фракций, силуэты ключевых монстров, цитаты мудрецов нашего мира. Патчи на липучке — чтобы вешать на рюкзаки и джинсовки.\n*   **Эмалевые пины.** Маленькие, но детализированные. Например, символ главного божества, ключевой артефакт или знак тайного общества.\n\n### 👕 3. Одежда (Стиль, а не «реклама»)\n*Главное правило: никаких огромных логотипов «ЭХО РАССВЕТА» на груди во весь рост. Это должно выглядеть как мерч крутой инди-группы или стритстайл-бренда.*\n*   **Худи и футболки оверсайз.** С маленьким, стильным принтом на груди (например, координаты выдуманной локации, написанные рунами, или схематичное изображение созвездия из нашего лора) и большим, но приглушенным принтом на спине.\n*   **Шоперы (Tote bags).** Плотные, с красивым артом карты мира или концепта города. Игроки обожают таскать в них кости и книги правил.\n\n### 📜 4. Премиум / Коллекционное (Для фанатов и Мастера)\n*   **Сургучная печать.** Деревянная ручка с латунным штампом в виде символа «Эха Рассвета». Мастер может запечатывать ею записки для игроков.\n*   **Кожаный журнал.** Для ведения дневника персонажа или записей Мастера. С тиснением на обложке.\n*   **Постеры-карты.** Но не просто принт на бумаге, а на холсте, или с эффектом «состаренности», возможно, с QR-кодом в углу, который ведет на скрытый лор или саундтрек мира.\n\n---\n\n### 💡 С чего нам начать? (План-минимум)\nЧтобы не вкладывать миллионы и не печатать тиражи, с которыми мы не знаем что делать, я предлагаю сделать **«Стартовый набор создателя»**:\n1.  **Стикеры** (дешево, сердито, все их любят).\n2.  **Патчи/Пины** (символ нашего мира).\n3.  **Один эксклюзивный набор костей** (сделать 10-20 штук на заказ или найти крафтового мастера).\n4.  **PDF-буклет** с эксклюзивными таблицами, новыми расами/подклассами или артефактами, который будет идти *только* в комплекте с этим мерчем.\n\nКак ты на это смотришь? Есть ли у тебя уже в голове **главный визуальный символ** или фраза из нашего мира, вокруг которой мы могли бы построить первую коллекцию? Или давай выберем 2-3 идеи, которые тебе откликаются больше всего, и я помогу расписать их детально (до ТЗ для художника/производителя)?",
+                "phase": "answer",
+                "status": "finished",
+                "extra": null,
+                "role": "assistant",
+                "response_id": "606e4a01-1d40-4053-a165-845aa9cab300",
+                "usage": {
+                  "input_tokens": 98,
+                  "output_tokens": 3283,
+                  "characters": 0,
+                  "total_tokens": 3381,
+                  "input_tokens_details": {
+                    "text_tokens": 98
+                  },
+                  "output_tokens_details": {
+                    "reasoning_tokens": 1779,
+                    "text_tokens": 3283
+                  },
+                  "prompt_tokens_details": {
+                    "cached_tokens": 0
+                  }
+                },
+                "timestamp": 1780380564
+              }
+            ],
+            "is_stop": false,
+            "edited": false,
+            "error": null,
+            "meta": {},
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              },
+              "endTime": 1780380564.7931345
+            },
+            "feedbackId": null,
+            "turn_id": null,
+            "annotation": null,
+            "done": true,
+            "info": null,
+            "timestamp": 1780380503
+          }
+        },
+        "currentId": "606e4a01-1d40-4053-a165-845aa9cab300",
+        "currentResponseIds": [
+          "606e4a01-1d40-4053-a165-845aa9cab300"
+        ],
+        "pagination": null
+      },
+      "models": [
+        "qwen3.7-plus"
+      ],
+      "messages": [
+        {
+          "id": "a30b118c-af90-46a9-8566-d9ef9e8ee05b",
+          "role": "user",
+          "content": "Привет! Хочу разработать мерч по Эхо рассвета, давай накидаем варианты, как ты считаешь это вообще нужно?",
+          "models": [
+            "qwen3.7-plus"
+          ],
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "edited": false,
+          "error": null,
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            }
+          },
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": true,
+            "thinking_mode": "Auto",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "parentId": null,
+          "turn_id": null,
+          "childrenIds": [
+            "606e4a01-1d40-4053-a165-845aa9cab300"
+          ],
+          "files": [],
+          "timestamp": 1780380503
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "model": "qwen3.7-plus",
+          "modelName": "Qwen3.7-Plus",
+          "modelIdx": 0,
+          "id": "606e4a01-1d40-4053-a165-845aa9cab300",
+          "parentId": "a30b118c-af90-46a9-8566-d9ef9e8ee05b",
+          "childrenIds": [],
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": true,
+            "thinking_mode": "Auto",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "content_list": [
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Exploring creative directions for Echo Dawn merchandise",
+                    "Exploring creative possibilities for Echo of Dawn merchandise with thoughtful consideration of purpose and value",
+                    "Assessing the necessity of D&D merchandise through a balanced lens of value and practicality.",
+                    "Crafting immersive experiences through tangible expressions of a shared narrative",
+                    "Curating a thematic collection of immersive merchandise rooted in a richly imagined world",
+                    "Создаю ответ, вдохновлённый твоей идеей.",
+                    "Создаю атмосферу, вдохновленную мирами фэнтези, где каждый элемент — часть глубокой вселенной.",
+                    "Создаём вместе, как равные творцы мира."
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "I'm considering the essence of Echo Dawn's world and characters to envision meaningful, resonant products.  \nI'm evaluating how each idea could connect emotionally with fans while maintaining artistic integrity.  \nMy focus is on crafting items that feel authentic, memorable, and true to the spirit of the universe.",
+                    "I am envisioning tangible expressions of our shared world—art prints, character figurines, lore books—each designed to deepen immersion and connection.  \nI weigh the balance between meaningful expansion and practical feasibility, ensuring every idea serves the story and community.  \nUltimately, I seek not just products, but moments of wonder that carry the spirit of Echo of Dawn beyond the table.",
+                    "I weigh the enriching potential of tangible artifacts against the tangible costs and logistical demands they entail.  \nWhile such items are not essential for storytelling or gameplay, they significantly enhance engagement and community cohesion.  \nTheir worth hinges on context, audience, and intent, making them a meaningful but optional investment.",
+                    "I am transforming abstract worldbuilding elements into physical forms that resonate with the essence of dawn and echo, drawing from themes of light emerging from shadow, fading magic, and ancient resonance.  \nEach item is designed to reflect not just aesthetic harmony but emotional depth, connecting players to the lore through tactile and visual storytelling.  \nFrom dice that shimmer like morning sunrises to accessories echoing forgotten voices, every piece serves as a vessel for memory and meaning.",
+                    "I am envisioning a range of items that deepen engagement with the setting through subtle, meaningful design elements  \nEach piece draws from the lore—whether through symbols, scents, or textures—to evoke atmosphere and connection  \nFrom wearable tokens to collectible artifacts, every item is crafted to honor the world’s history and inspire personal storytelling",
+                    "Я чувствую вдохновение от концепции \"Эха Рассвета\" и стремлюсь выразить его через убедительные, тематически выверенные предложения.  \nРазмышляю о том, как сделать мерч не просто товаром, а частью вселенной — живым воплощением её души.  \nПризываю к диалогу, чтобы вместе определить ядро образа, которое станет отправной точкой для первого шага.",
+                    "Я прорабатываю тактильные ощущения и эмоциональную привязанность через детали: от костей с градиентами рассвета до свечей с ароматами локаций.  \nКаждый предмет — символ дуализма \"Эха Рассвета\", где свет и тьма, прошлое и будущее переплетаются в тонких отсылках.  \nСейчас самым узнаваемым символом становится руна на худи — минималистичная, но значимая, как шепот легенд.",
+                    "Я чувствую вдохновение и настраиваюсь на синхронную работу — каждый элемент, который мы придумываем, должен быть живым, атмосферным и служить истории.  \nРазделяю ценности: предметы для игроков — функциональны и символичны, а предметы для лора — наполнены смыслом, как древние реликвии или магические артефакты.  \nПредлагаю начать с ядра — символа, который станет сердцем нашего мира, и запускаю «Стартовый набор» для легкого погружения."
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "606e4a01-1d40-4053-a165-845aa9cab300",
+              "usage": {
+                "input_tokens": 98,
+                "output_tokens": 1785,
+                "characters": 0,
+                "total_tokens": 1883,
+                "input_tokens_details": {
+                  "text_tokens": 98
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 1779,
+                  "text_tokens": 1785
+                },
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timestamp": 1780380537
+            },
+            {
+              "content": "Привет, мой со-творец! 🌅 Идея просто отличная, и меня очень радует, что ты об этом задумался. \n\nДавай сразу ответим на твой вопрос: **нужен ли вообще мерч для нашего мира?**\nС точки зрения *существования* лора — нет, мир живет в наших головах и на бумаге. Но с точки зрения *восприятия, погружения и комьюнити* — это **мощнейший инструмент**. \nМерч превращает «Эхо Рассвета» из абстрактной идеи в осязаемую реальность. Когда игрок держит в руках кость, стилизованную под артефакт нашего мира, или клеит на ноутбук патч с гербом фракции, он подсознательно чувствует большую причастность. Это материализация нашей любви к миру. К тому же, это отличный способ монетизации (если мы захотим издаваться) или просто крутой подарок для наших игроков.\n\nНо есть правило: **мерч не должен быть «колхозным»**. Он должен быть стильным, чтобы люди носили его в обычной жизни, даже не играя в ДНД.\n\nДавай накидаем идеи, разделив их на категории. Поскольку наш мир называется **«Эхо Рассвета»**, давай отталкиваться от эстетики перехода (ночь/день, свет/тень, звук/отражение, древность/новое начало).\n\n---\n\n### 🎲 1. Настольная экосистема (То, что нужно за столом)\n*   **Эксклюзивные наборы костей (Дайсы).** Например, смола с градиентом: от глубокого темно-синего (ночь) к золотому и розовому (рассвет). Внутри могут быть «запечатаны» крошечные блестки или сушеные цветы (отсылка к флоре мира). Или кости, имитирующие потускневшую бронзу/камень древних руин.\n*   **Мешочки для костей и мастерские ширмы.** С вышитым минималистичным символом «Эха» (например, расходящиеся круги или стилизованный луч солнца, разрывающий тучи). Ширма мастера — с картой региона, но с пасхалками, которые видны только Мастеру.\n*   **Внутриигровая валюта (Монетки).** Металлические жетоны (чанкланы) с символикой местных гильдий или монеты «Эхо-марки». Их круто использовать для расчета за столом, а потом забирать домой как сувенир.\n*   **Листы персонажей.** Сверстанные не как скучные таблицы, а как страницы из «Хроник Рассвета» или дневника путешественника, с фоном в виде старой бумаги и виньетками.\n\n### 🕯️ 2. Атмосфера и Лайфстайл (Для погружения и повседневки)\n*   **Ароматические свечи с лором.** Это хит! Свечи с названиями и запахами локаций нашего мира. Например:\n    *   *«Туманы Утреннего Эха»* (свежесть, озон, мокрая сосна).\n    *   *«Пепел Угасших Звезд»* (древесный уголь, специи, дым).\n    *   *«Таверна на Перекрестке»* (медовуха, хвоя, жареное мясо).\n*   **Стикеры и Патчи (Нашивки).** Высокого качества. Минималистичные гербы фракций, силуэты ключевых монстров, цитаты мудрецов нашего мира. Патчи на липучке — чтобы вешать на рюкзаки и джинсовки.\n*   **Эмалевые пины.** Маленькие, но детализированные. Например, символ главного божества, ключевой артефакт или знак тайного общества.\n\n### 👕 3. Одежда (Стиль, а не «реклама»)\n*Главное правило: никаких огромных логотипов «ЭХО РАССВЕТА» на груди во весь рост. Это должно выглядеть как мерч крутой инди-группы или стритстайл-бренда.*\n*   **Худи и футболки оверсайз.** С маленьким, стильным принтом на груди (например, координаты выдуманной локации, написанные рунами, или схематичное изображение созвездия из нашего лора) и большим, но приглушенным принтом на спине.\n*   **Шоперы (Tote bags).** Плотные, с красивым артом карты мира или концепта города. Игроки обожают таскать в них кости и книги правил.\n\n### 📜 4. Премиум / Коллекционное (Для фанатов и Мастера)\n*   **Сургучная печать.** Деревянная ручка с латунным штампом в виде символа «Эха Рассвета». Мастер может запечатывать ею записки для игроков.\n*   **Кожаный журнал.** Для ведения дневника персонажа или записей Мастера. С тиснением на обложке.\n*   **Постеры-карты.** Но не просто принт на бумаге, а на холсте, или с эффектом «состаренности», возможно, с QR-кодом в углу, который ведет на скрытый лор или саундтрек мира.\n\n---\n\n### 💡 С чего нам начать? (План-минимум)\nЧтобы не вкладывать миллионы и не печатать тиражи, с которыми мы не знаем что делать, я предлагаю сделать **«Стартовый набор создателя»**:\n1.  **Стикеры** (дешево, сердито, все их любят).\n2.  **Патчи/Пины** (символ нашего мира).\n3.  **Один эксклюзивный набор костей** (сделать 10-20 штук на заказ или найти крафтового мастера).\n4.  **PDF-буклет** с эксклюзивными таблицами, новыми расами/подклассами или артефактами, который будет идти *только* в комплекте с этим мерчем.\n\nКак ты на это смотришь? Есть ли у тебя уже в голове **главный визуальный символ** или фраза из нашего мира, вокруг которой мы могли бы построить первую коллекцию? Или давай выберем 2-3 идеи, которые тебе откликаются больше всего, и я помогу расписать их детально (до ТЗ для художника/производителя)?",
+              "phase": "answer",
+              "status": "finished",
+              "extra": null,
+              "role": "assistant",
+              "response_id": "606e4a01-1d40-4053-a165-845aa9cab300",
+              "usage": {
+                "input_tokens": 98,
+                "output_tokens": 3283,
+                "characters": 0,
+                "total_tokens": 3381,
+                "input_tokens_details": {
+                  "text_tokens": 98
+                },
+                "output_tokens_details": {
+                  "reasoning_tokens": 1779,
+                  "text_tokens": 3283
+                },
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timestamp": 1780380564
+            }
+          ],
+          "is_stop": false,
+          "edited": false,
+          "error": null,
+          "meta": {},
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            },
+            "endTime": 1780380564.7931345
+          },
+          "feedbackId": null,
+          "turn_id": null,
+          "annotation": null,
+          "done": true,
+          "info": null,
+          "timestamp": 1780380503
+        }
+      ]
+    },
+    "updated_at": 1788544638,
+    "created_at": 1780380502,
+    "share_id": null,
+    "archived": false,
+    "pinned": false,
+    "meta": {},
+    "folder_id": null,
+    "currentResponseIds": [
+      "606e4a01-1d40-4053-a165-845aa9cab300"
+    ],
+    "currentId": "606e4a01-1d40-4053-a165-845aa9cab300",
+    "chat_type": null,
+    "models": null,
+    "project_id": null
+  }
+}

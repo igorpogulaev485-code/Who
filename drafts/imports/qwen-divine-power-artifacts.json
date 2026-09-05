@@ -1,0 +1,1563 @@
+{
+  "success": true,
+  "request_id": "d047dae3-7704-4ac9-821d-300f0973d329",
+  "data": {
+    "id": "0bb53fd7-08fd-4899-8e48-04ddfb11661e",
+    "user_id": "shared-7705ecda-ee4c-4efa-86f7-2b813f5c2aa3",
+    "title": "Артефакты Божественной Силы",
+    "chat": {
+      "history": {
+        "messages": {
+          "5ac56f21-14c8-4ffe-ae71-fea4d66a3fda": {
+            "id": "5ac56f21-14c8-4ffe-ae71-fea4d66a3fda",
+            "role": "user",
+            "content": "В этом чате мы будем формировать Артефакты, которые могут найти герои\nНачнем с Секиры Правосудия\n1к12 урон, двуручное тяжелое оружие\nИмеет один заряд, который восстанавливается после продолжительного\n\nЭтот заряд позволяет на 1 минуту сделать все броски секиры с преимуществом и добавляет ещё одну кость 1к12 к урону. Этот урон становится магическим.\n\nя хочу создать сет из 5 артефактов божественного происхождения, секира один из них.\n\nКаждый артефакт по своей структуре могущественный, но когда они получают связку этот эффект дополняется ещё чем-то когда у тебя все 5 артефактов, ты становишься непобедимым фактически богом, так как они дают очень много бафов\n\nПомоги мне создать этот сет, сейчас секира находится у Грока, группа прямо сейчас идёт в Розалию, там есть место силы его бога Хельма, и его бог пообещал ему вознаграждение за его веру. Этим вознаграждением будет ещё один артефакт из этого сета",
+            "models": [
+              "qwen3-max-2026-01-23"
+            ],
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "edited": false,
+            "error": null,
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              }
+            },
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "parentId": null,
+            "turn_id": null,
+            "childrenIds": [
+              "04dfc197-b59b-4177-ac6a-23c3eaf0cc24"
+            ],
+            "files": [],
+            "timestamp": 1770008117
+          },
+          "04dfc197-b59b-4177-ac6a-23c3eaf0cc24": {
+            "role": "assistant",
+            "content": "",
+            "reasoning_content": null,
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "model": "qwen3-max-2026-01-23",
+            "modelName": "Qwen3-Max",
+            "modelIdx": 0,
+            "id": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+            "parentId": "5ac56f21-14c8-4ffe-ae71-fea4d66a3fda",
+            "childrenIds": [
+              "4c4d1aeb-13c4-4b7b-aa4a-65a6ef459673"
+            ],
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "content_list": [
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Создаю сет артефактов для мира Эхо Рассвета",
+                      "Создаю концепцию сета артефактов, отражающую божественную природу.",
+                      "构思一套象征守护者五种美德的套装"
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "Я формирую концепцию божественного артефакта, вдохновляясь культурой и религией Форгленда, где Хельм — покровитель стражей и правосудия.  \nАртефакт должен отражать суть его божественной связи, сочетая символизм и практическую силу.  \nПродолжаю развивать идею, учитывая историю Грока, который носит секиру как знак верности и служения.",
+                      "Каждый артефакт обладает собственной силой, но вместе они раскрывают синергию, превращая владельца в почти божественное существо.  \nЯ сосредоточен на гармонии между доменом Хельма — защитой и порядком — и общим потенциалом сета.  \nМоя цель — выразить величие через единство, где каждый элемент усиливает не только себя, но и целое.",
+                      "我正将每件神器与一种核心品质相联系，使其成为完整的精神体系。  \n从正义之斧到权威之冠，每个元素都承载着守护者的职责与信念。  \n这套设计旨在让玩家在装备中感受到力量与意义的统一。"
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+                "usage": {
+                  "input_tokens": 1015,
+                  "output_tokens": 708,
+                  "total_tokens": 1723,
+                  "output_tokens_details": {
+                    "reasoning_tokens": 700
+                  }
+                },
+                "timestamp": 1770008132
+              },
+              {
+                "content": "Отличная концепция! Создадим сет **«Пять Столпов Бдительности»** — артефакты, дарованные богом Хельмом (или его аналогом в мире *Эхо Рассвета*) избранному стражу. Каждый артефакт воплощает одну из добродетелей верховного защитника. При объединении они пробуждают божественную сущность носителя.\n\n---\n\n### 🔷 Артефакт №1: **Секира Правосудия** (уже у Грока)\n*Двуручное тяжёлое оружие, урон 1к12 рубящий. Требуется СИЛ 15+*\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя его действием, вы на 1 минуту:\n  - Совершаете все атаки Секирой с преимуществом.\n  - Добавляете +1к12 магического урона к каждой успешной атаке.\n  - Игнорируете сопротивление урона цели (но не иммунитет).\n- **Проклятие стража:** Если вы бежите с поля боя, оставив союзников в опасности, теряете все бонусы артефакта до следующего продолжительного отдыха.\n\n---\n\n### 🔷 Артефакт №2: **Щит Непреклонного Предела** (награда в Розалии)\n*Щит. Требуется МУД 13+*\nГерои найдут его в святилище Хельма в Розалии — древнем монастыре-крепости на границе с демоническими землями. Щит выкован из «застывшего заката» — металла, поглотившего последний луч солнца перед Вечной Ночью.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя реакцией при получении урона, вы на 1 минуту:\n  - Получаете сопротивление ко всему урону.\n  - Любая атака, направленная на союзника в пределах 5 футов от вас, перенаправляется на вас (вы можете использовать реакцию для этого).\n  - Совершая провокационную атаку, вы накладываете на цель состояние *испуган* до конца её следующего хода (спасбросок МУД отменяет).\n- **Связь с Секирой:** Если у вас также есть Секира Правосудия, активация заряда Щита также восстанавливает заряд Секиры.\n\n---\n\n### 🔷 Артефакт №3: **Доспехи Бдящей Тени**\n*Полный доспех. Требуется ЛОВ 14+*\nСозданы из чешуи дракона-хранителя, павшего в битве с падшим богом. Доспехи шепчут предупреждения владельцу в моменты опасности.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя действием, вы на 1 час:\n  - Не можете быть застигнуты врасплох.\n  - Получаете преимущество на спасброски от эффектов, требующих зрения или слуха.\n  - Один раз за ход, когда противник в пределах 30 футов совершает атаку с преимуществом, вы можете реакцией отменить это преимущество.\n- **Связь с сетом:** При наличии любого другого артефакта сета вы также получаете иммунитет к состоянию *очарован*.\n\n---\n\n### 🔷 Артефакт №4: **Амулет Прозрения Судьбы**\n*Волшебный предмет (амулет). Требуется ИНТ 15+*\nКамень, вырезанный из сердца павшего пророка. Позволяет видеть нити кармы и вероятностей.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя реакцией при проваленном спасброске или броске атаки, вы перебрасываете его с преимуществом. Эффект длится до конца вашего следующего хода.\n- **Постоянный эффект:** Вы всегда знаете, лжёт ли существо, с которым напрямую общаетесь (если оно не божественного ранга).\n- **Связь с сетом:** При наличии 3+ артефактов сета вы можете использовать заряд Амулета без расхода — 1 раз за короткий отдых.\n\n---\n\n### 🔷 Артефакт №5: **Корона Власти над Пределом**\n*Волшебный предмет (корона/диадема). Требуется ХАР 16+*\nСоздана из слёз первого стража, павшего при защите мира. Корона не даёт власти над людьми — она даёт власть над *границами*: между жизнью и смертью, порядком и хаосом, материей и духом.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя действием, вы на 1 минуту:\n  - Можете действием закрыть «портал» (любой магический проход между планами) в пределах 60 футов.\n  - Один раз за ход, когда союзник в пределах 30 футов должен умереть, вы можете реакцией вместо этого оставить его с 1 хитом.\n  - Все враги в пределах 15 футов должны пройти спасбросок МУД (СЛ 18) или не могут приближаться к вам ближе 15 футов до конца своего хода.\n- **Связь с сетом:** При наличии всех 5 артефактов корона позволяет использовать её заряд как действие, не тратя заряд — 1 раз за короткий отдых.\n\n---\n\n### ⚡ Синергия сета: **Пробуждение Стража Пределов**\nКогда у персонажа собрано **2+ артефакта**:\n- +2 к КД (макс. +5 при 5 артефактах).\n- Сопротивление урону от небожественных источников.\n\n**3+ артефакта**:\n- Вы можете действием наложить *защиту от добра и зла* на себя и одного союзника в пределах 30 футов (без концентрации, длится 1 час).\n\n**4+ артефакта**:\n- Вы получаете иммунитет к эффектам, которые телепортируют вас против вашей воли.\n- Один раз за день вы можете использовать *воскрешение* без компонентов.\n\n**5 артефактов (Пробуждение)**:\n- Вы становитесь **Божественным Стражом** на 1 час (1 раз за месяц):\n  - Иммунитет ко всему урону, кроме урона от божественных существ.\n  - Все атаки наносят дополнительный 4к10 радиантного урона.\n  - Вы можете действием наложить *антимагию* на область 30 футов вокруг себя.\n  - Вы не можете быть изгнаны, скованы или лишены действий.\n  - После окончания эффекта вы падаете без сознания на 24 часа.\n\n---\n\n### 💡 Сюжетная нить для Розалии\nВ святилище Хельма в Розалии Грока ждёт испытание: дух древнего стража предложит ему **выбор** — взять Щит Непреклонного Предела, но взамен должен оставить Секиру на алтаре на 24 часа. Если Грока согласится (докажет, что защита важнее возмездия), бог одобрит его и вернёт Секиру, усиленную (+1 к броскам атаки). Если откажется — получит Щит, но с проклятием: заряд Щита не будет восстанавливать заряд Секиры.\n\nГотов развить любой артефакт или добавить лор для мира *Эхо Рассвета*!",
+                "phase": "answer",
+                "status": "finished",
+                "extra": null,
+                "role": "assistant",
+                "response_id": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+                "usage": {
+                  "input_tokens": 1015,
+                  "output_tokens": 2789,
+                  "total_tokens": 3804,
+                  "output_tokens_details": {
+                    "reasoning_tokens": 700
+                  }
+                },
+                "timestamp": 1770008171
+              }
+            ],
+            "is_stop": false,
+            "edited": false,
+            "error": null,
+            "meta": {},
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              },
+              "endTime": 1770008172.7856333
+            },
+            "feedbackId": null,
+            "turn_id": null,
+            "annotation": null,
+            "done": true,
+            "info": null,
+            "timestamp": 1770008117
+          },
+          "9001f522-7f36-4bc7-811d-df5a4a26c381": {
+            "role": "assistant",
+            "content": "",
+            "reasoning_content": null,
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "model": "qwen3-max-2026-01-23",
+            "modelName": "Qwen3-Max",
+            "modelIdx": 0,
+            "id": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+            "parentId": "4c4d1aeb-13c4-4b7b-aa4a-65a6ef459673",
+            "childrenIds": [
+              "018053ca-55cd-4962-8bcf-698e682b879f"
+            ],
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "content_list": [
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Adjusting the artifact set to align with D&D 5e mechanics",
+                      "Создаю сет артефактов, согласующихся с божественной тематикой Хельма."
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "I am reimagining the artifact set to ensure compatibility with the game's rules, particularly the restriction that shields require one hand.  \nThis means I’m shifting the focus from dual-wielding to balanced combinations, such as pairing a shield with a one-handed weapon or adjusting abilities accordingly.  \nThe goal is to preserve thematic depth while making the set both functional and logically consistent within the system.",
+                      "Я взвешиваю каждую деталь, чтобы гармонировать с идеей стражей и бдительности.  \nКаждый артефакт — не просто предмет, а символ защиты, мудрости и вечного наблюдения.  \nВсе элементы объединяются в единое целое, усиливая силу носителя и его связь с божественным."
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+                "usage": {
+                  "input_tokens": 3137,
+                  "output_tokens": 366,
+                  "total_tokens": 3503,
+                  "output_tokens_details": {
+                    "reasoning_tokens": 358
+                  }
+                },
+                "timestamp": 1770008197
+              },
+              {
+                "content": "Вы правы — механика ДнД не позволяет совмещать двуручное оружие и щит. Переделываю сет так, чтобы все артефакты были совместимы и логично дополняли воина с двуручной секирой.\n\n---\n\n## 🌅 Сет «Пять Столпов Бдительности»  \n*Божественные артефакты Хельма (или его аналога в мире Эхо Рассвета) для избранного Стража Пределов*\n\n---\n\n### 🔷 Артефакт №1: **Секира Правосудия** (уже у Грока)\n*Двуручное тяжёлое оружие, урон 1к12 рубящий. Требуется СИЛ 15+*\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Действием активируете на 1 минуту:\n  - Все атаки Секирой совершаются с преимуществом.\n  - +1к12 магического радиантного урона к каждой успешной атаке.\n  - Игнорируете сопротивление урона цели (но не иммунитет).\n- **Проклятие веры:** Если вы бежите с поля боя, оставив союзников в опасности, теряете все бонусы артефакта до следующего продолжительного отдыха.\n\n---\n\n### 🔷 Артефакт №2: **Пояс Непреклонной Стойкости** (награда в Розалии)\n*Волшебный пояс. Требуется ТЕЛ 16+*\nВыкован из опоясания первого стража Хельма, пропитанного кровью в битве у Врат Предела. В святилище Розалии пояс лежит на каменном пьедестале, охраняемом духом древнего паладина.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Реакцией при получении урона активируете на 1 минуту:\n  - Получаете сопротивление ко всему урону.\n  - Максимальное количество хитов увеличивается на ваш уровень × 5.\n  - Один раз за ход, когда вы должны упасть без сознания от урона, остаётесь с 1 хитом вместо этого.\n- **Связь с Секирой:** Если у вас также есть Секира Правосудия, активация заряда Пояса восстанавливает её заряд.\n\n---\n\n### 🔷 Артефакт №3: **Наручи Бдящего Гнева**\n*Пара наручи/браслетов. Требуется СИЛ 14+*\nВыкованы из оков, которыми Хельм сковал падшего титана. При ударе издают звон, от которого трепещут тени.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Действием активируете на 1 минуту:\n  - После каждой успешной атаки вы можете бонусным действием сделать одну дополнительную атаку этим же оружием.\n  - Если вы наносите критическое попадание, цель должна пройти спасбросок ТЕЛ (СЛ 17) или быть оглушена до конца вашего следующего хода.\n- **Постоянный эффект:** +1 к броскам атаки и урона при атаках оружием.\n\n---\n\n### 🔷 Артефакт №4: **Плащ Непроглядной Тени**\n*Волшебный плащ. Требуется МУД 13+*\nТкань соткана из самой тени, отбрасываемой статуей Хельма в момент заката. Шепчет предупреждения владельцу.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Реакцией при проваленном спасброске активируете на 1 минуту:\n  - Получаете преимущество на все спасброски.\n  - Не можете быть застигнуты врасплох.\n  - Один раз за ход вы можете реакцией отменить преимущество атаки противника против вас или союзника в пределах 10 футов.\n- **Постоянный эффект:** Иммунитет к состоянию *испуган*.\n\n---\n\n### 🔷 Артефакт №5: **Корона Власти над Пределом**\n*Диадема/корона. Требуется ХАР 16+*\nВыкована из слёз первого стража, павшего при защите Врат Мира. Не даёт власти над людьми — даёт власть над *границами*.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Действием активируете на 1 минуту:\n  - Вы и все союзники в пределах 30 футов получаете иммунитет к эффектам изгнания и принудительного телепорта.\n  - Один раз за ход вы можете реакцией наложить *защиту от энергии* (выберите тип) на себя или союзника в пределах 30 футов.\n  - Все враги в пределах 15 футов должны пройти спасбросок МУД (СЛ 19) или не могут использовать реакции до конца своего следующего хода.\n- **Постоянный эффект:** Вы всегда знаете, лжёт ли существо, с которым напрямую общаетесь (если оно не божественного ранга).\n\n---\n\n## ⚡ Синергия сета: **Пробуждение Стража Пределов**\n\n| Количество артефактов | Эффект |\n|----------------------|--------|\n| **2+** | +1 к КД и спасброскам. Сопротивление урону от немагических атак. |\n| **3+** | Вы можете 1/день действием наложить *защиту от добра и зла* на себя и союзников в пределах 15 футов (без концентрации, 1 час). |\n| **4+** | Вы получаете иммунитет к эффектам, лишающим вас действий (оглушение, паралич). Один раз за день можете использовать *воскрешение* без компонентов. |\n| **5 (Пробуждение)** | **1 раз за месяц** вы становитесь **Божественным Стражом** на 1 час:<br>• Иммунитет ко всему урону, кроме урона от божественных существ.<br>• Все атаки наносят +4к10 радиантного урона.<br>• Действием можете наложить *антимагию* на область 30 футов вокруг себя.<br>• Не можете быть изгнаны, скованы или лишены действий.<br>• После окончания — падаете без сознания на 24 часа. |\n\n---\n\n## 💡 Сюжет для Розалии: Испытание Пояса\n\nВ святилище Хельма в Розалии Грока встретит дух древнего стража. Чтобы получить **Пояс Непреклонной Стойкости**, ему предстоит пройти испытание:\n\n> *«Страж не тот, кто наносит удар первым. Страж — тот, кто стоит последним. Оставь своё оружие у алтаря и пройди через Зал Теней без него. Если вернёшься живым — пояс твой. Если падёшь — твоя вера была ложной».*\n\nЕсли Грока пройдёт испытание (докажет, что защита важнее атаки):\n- Получает Пояс с полным эффектом.\n- Секира Правосудия получает постоянный бонус: +1 к броскам атаки.\n\nЕсли откажется или провалит испытание:\n- Пояс всё равно получает, но его заряд **не восстанавливает заряд Секиры** до тех пор, пока Грока не искупит свою гордыню (квест от Хельма).\n\n---\n\nГотов доработать лор любого артефакта или добавить детали для следующего пункта пути группы!",
+                "phase": "answer",
+                "status": "finished",
+                "extra": null,
+                "role": "assistant",
+                "response_id": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+                "usage": {
+                  "input_tokens": 3137,
+                  "output_tokens": 2434,
+                  "total_tokens": 5571,
+                  "output_tokens_details": {
+                    "reasoning_tokens": 358
+                  }
+                },
+                "timestamp": 1770008237
+              }
+            ],
+            "is_stop": false,
+            "edited": false,
+            "error": null,
+            "meta": {},
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              },
+              "endTime": 1770008237.2560084
+            },
+            "feedbackId": null,
+            "turn_id": null,
+            "annotation": null,
+            "done": true,
+            "info": null,
+            "timestamp": 1770008186
+          },
+          "4c4d1aeb-13c4-4b7b-aa4a-65a6ef459673": {
+            "id": "4c4d1aeb-13c4-4b7b-aa4a-65a6ef459673",
+            "role": "user",
+            "content": "Не подходит, щит нельзя носить вместе с секирой, так как она двуручная, переделай",
+            "models": [
+              "qwen3-max-2026-01-23"
+            ],
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "edited": false,
+            "error": null,
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              }
+            },
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "parentId": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+            "turn_id": null,
+            "childrenIds": [
+              "9001f522-7f36-4bc7-811d-df5a4a26c381"
+            ],
+            "files": [],
+            "timestamp": 1770008186
+          },
+          "018053ca-55cd-4962-8bcf-698e682b879f": {
+            "id": "018053ca-55cd-4962-8bcf-698e682b879f",
+            "role": "user",
+            "content": "Сделай промт для визуализации секиры",
+            "models": [
+              "qwen3-max-2026-01-23"
+            ],
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "edited": false,
+            "error": null,
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              }
+            },
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": false,
+              "thinking_mode": "Thinking",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "parentId": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+            "turn_id": null,
+            "childrenIds": [
+              "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517"
+            ],
+            "files": [],
+            "timestamp": 1779256308
+          },
+          "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517": {
+            "role": "assistant",
+            "content": "",
+            "reasoning_content": null,
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "model": "qwen3-max-2026-01-23",
+            "modelName": "Qwen3-Max",
+            "modelIdx": 0,
+            "id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+            "parentId": "018053ca-55cd-4962-8bcf-698e682b879f",
+            "childrenIds": [
+              "994b378a-7178-4304-a6eb-5367ee063a6d"
+            ],
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": false,
+              "thinking_mode": "Thinking",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "content_list": [
+              {
+                "content": "",
+                "phase": null,
+                "status": null,
+                "extra": null,
+                "response_id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+                "usage": {
+                  "input_tokens": 5547,
+                  "output_tokens": 1,
+                  "total_tokens": 5548
+                },
+                "timestamp": 1779256323
+              },
+              {
+                "content": "",
+                "phase": "image_gen_tool",
+                "status": "finished",
+                "extra": {
+                  "display_position": "answer",
+                  "image_list": [
+                    {
+                      "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/image_gen/57c4bbf6-f379-4ea7-9e7c-2f50d7a58517/1779256322.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxNzc5MjU2MzIyIiwicmVzb3VyY2VfY2hhdF9pZCI6Ijc3MDVlY2RhLWVlNGMtNGVmYS04NmY3LTJiODEzZjVjMmFhMyJ9._4SlPd_z4P3EnmYmGy6vkiV4yEC324z13xjSZEE8Hzg"
+                    }
+                  ],
+                  "tool_result": [
+                    {
+                      "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/t2i/7705ecda-ee4c-4efa-86f7-2b813f5c2aa3/1d24ddc2b-5ee7-455d-8fd5-586b5db8e9a7.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxZDI0ZGRjMmItNWVlNy00NTVkLThmZDUtNTg2YjVkYjhlOWE3IiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.nnY2yl04b2-KnIFYgw42P2ONJnPmc8pNU8u6kikiK4c"
+                    }
+                  ]
+                },
+                "role": "function",
+                "name": "image_gen",
+                "function_id": "round_0_call_8ff4ccd12335413a99f7c6c0",
+                "function_call": {
+                  "name": "image_gen",
+                  "arguments": "{\"prompt\": \"A divine battle axe named 'Axe of Justice', inspired by the god Helm from a fantasy D&D setting called 'Echo of Dawn'. The weapon is massive, two-handed, and heavy, with a brutal yet sacred design. Its blade is forged from radiant silver metal etched with glowing runes of vigilance and law, emitting a faint golden light. The haft is made of dark, ancient wood wrapped in iron bands inscribed with protective sigils. At the base of the blade, a single crimson gem pulses slowly like a heartbeat, representing its divine charge. The overall aesthetic blends martial severity with holy grandeur—no ornate flourishes, only solemn power. Background: dim temple chamber with shafts of dawn light, emphasizing the axe’s glow. Highly detailed, realistic fantasy illustration, cinematic lighting.\"}"
+                },
+                "response_id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+                "usage": {}
+              },
+              {
+                "content": "Секира Правосудия визуализирована: массивное двуручное оружие с лезвием из светящегося серебристого металла, испещрённого рунами бдительности, и древком из тёмного дерева с железными бандажами. У основания клинка — пульсирующий багровый камень, символ божественного заряда. Общее впечатление — суровая, но священная мощь, без излишней вычурности.\n\nХочешь создать промт для следующего артефакта — **Пояса Непреклонной Стойкости**?",
+                "phase": "answer",
+                "status": "finished",
+                "extra": null,
+                "role": "assistant",
+                "response_id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+                "usage": {
+                  "input_tokens": 5547,
+                  "output_tokens": 163,
+                  "total_tokens": 5710
+                },
+                "timestamp": 1779256328
+              }
+            ],
+            "is_stop": false,
+            "edited": false,
+            "error": null,
+            "meta": {},
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              },
+              "endTime": 1779256328.2591493
+            },
+            "feedbackId": null,
+            "turn_id": null,
+            "annotation": null,
+            "done": true,
+            "info": null,
+            "timestamp": 1779256308
+          },
+          "994b378a-7178-4304-a6eb-5367ee063a6d": {
+            "id": "994b378a-7178-4304-a6eb-5367ee063a6d",
+            "role": "user",
+            "content": "Она же должна быть двуручная, кажется, что она на картинке получилась под одну руку",
+            "models": [
+              "qwen3-max-2026-01-23"
+            ],
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "edited": false,
+            "error": null,
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              }
+            },
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": false,
+              "thinking_mode": "Thinking",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "parentId": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+            "turn_id": null,
+            "childrenIds": [
+              "15d607af-3aed-4ce8-bdcb-a39bdc797276"
+            ],
+            "files": [],
+            "timestamp": 1779256368
+          },
+          "15d607af-3aed-4ce8-bdcb-a39bdc797276": {
+            "role": "assistant",
+            "content": "",
+            "reasoning_content": null,
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "model": "qwen3-max-2026-01-23",
+            "modelName": "Qwen3-Max",
+            "modelIdx": 0,
+            "id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+            "parentId": "994b378a-7178-4304-a6eb-5367ee063a6d",
+            "childrenIds": [
+              "3883f234-70fe-4663-9ebb-12373cfc7b46"
+            ],
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": false,
+              "thinking_mode": "Thinking",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "content_list": [
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Создаю визуализацию Пояса Непреклонной Стойкости, опираясь на стиль предыдущего описания секиры.",
+                      "Уточняю детали описания артефакта",
+                      "Создаю образ волшебного пояса, соответствующего заданной атмосфере и деталям."
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "Исследую атрибуты и символику, характерные для двуручного оружия, чтобы сохранить художественную целостность.  \nОпределяю ключевые элементы — материал, световые эффекты, структуру — для передачи прочности и непоколебимости.  \nФормирую образ, сочетающий мрачную элегантность и внутреннюю мощь, отражающую суть пояса.",
+                      "Я сосредоточен на точной передаче характеристик пояса, подчеркивая его происхождение из опоясания первого стража и пропитанность кровью.  \nНесмотря на визуальную несоответственность с изображением, акцентирую внимание на том, что оружие — двуручное, но пояс может быть носимым на талии.  \nФормулирую описание так, чтобы сохранить мистическую атмосферу и логическую целостность артефакта.",
+                      "Он тяжёлый, из прочного металла с кожаными вставками, украшен рунами и светящимися узорами, напоминающими багровый камень секиры.  \nЦепи и металлические пластинки придают ему божественный облик, а оттенки серебра, бронзы с красными и золотыми акцентами подчёркивают его могущество.  \nФон — святилище Розалии, каменный пьедестал, вокруг которого словно струится древняя энергия."
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+                "usage": {
+                  "input_tokens": 9182,
+                  "output_tokens": 141,
+                  "characters": 0,
+                  "total_tokens": 9323,
+                  "input_tokens_details": {
+                    "text_tokens": 6162,
+                    "image_tokens": 3020
+                  },
+                  "output_tokens_details": {
+                    "text_tokens": 0,
+                    "reasoning_tokens": 141
+                  },
+                  "image_tokens": 3020,
+                  "cached_tokens": 0
+                },
+                "timestamp": 1779256389
+              },
+              {
+                "content": "",
+                "phase": "image_gen_tool",
+                "status": "finished",
+                "extra": {
+                  "display_position": "answer",
+                  "image_list": [
+                    {
+                      "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/image_gen/15d607af-3aed-4ce8-bdcb-a39bdc797276/1779256414.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxNzc5MjU2NDE0IiwicmVzb3VyY2VfY2hhdF9pZCI6Ijc3MDVlY2RhLWVlNGMtNGVmYS04NmY3LTJiODEzZjVjMmFhMyJ9.PDR6FXoLhGZnmzwee2SoY4ZFK2Wxvu-FvmzILGgcQyA"
+                    }
+                  ],
+                  "tool_result": [
+                    {
+                      "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/t2i/7705ecda-ee4c-4efa-86f7-2b813f5c2aa3/13879b978-b93e-406e-902b-6a6e3b88cf96.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxMzg3OWI5NzgtYjkzZS00MDZlLTkwMmItNmE2ZTNiODhjZjk2IiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.TTvHEKTg6-fALGBbLlfGoj1HtG61Er3c941w9bWvNIY"
+                    }
+                  ]
+                },
+                "role": "function",
+                "name": "image_gen",
+                "function_id": "round_0_1",
+                "function_call": {
+                  "name": "image_gen",
+                  "arguments": "{\"prompt\": \"A magical belt of unyielding resilience, forged from the girdle of the first guardian, imbued with blood of the Battle at the Gates of the Threshold. Heavy, ancient leather strap reinforced with interlocking silver and bronze plates, each etched with glowing golden runes of vigilance. A pulsating crimson gemstone embedded at the buckle, radiating divine energy. The belt lies on a stone pedestal in a dimly lit sanctuary of Helm (Rosalia), with stained glass windows casting blue light, stone pillars, and banners bearing the symbol of the vigilant god. The atmosphere is solemn and sacred, with subtle magical aura around the artifact. The belt's design is functional yet holy — no unnecessary ornamentation, but every detail speaks of divine craftsmanship. Focus on the texture of the leather, the metallic sheen of the plates, and the glowing runes. The crimson gem should pulse with inner light. Background: ancient stone floor, faint mist, and sunlight filtering through broken stained glass.\"}"
+                },
+                "response_id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+                "usage": {}
+              },
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Proceeding to the next phase of artifact creation",
+                      "Proceeding with the next artifact in sequence",
+                      "Proceeding with the bracers design"
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "I am now focusing on crafting the narrative and visual essence of the Belt of Unyielding Resilience, drawing from its thematic roots in endurance and inner fortitude.  \nThe belt’s design reflects ancient craftsmanship fused with celestial energy, symbolizing unwavering resolve through elemental motifs and sacred inscriptions.  \nIts presence evokes both reverence and awe, poised to become a defining relic within the campaign’s lore.",
+                      "I am focusing on the Bracers of the Watchful Wrath, drawing from their origin in the chains of a fallen titan to shape a vivid and evocative image.  \nThe design incorporates bronze and silver elements interwoven with glowing runes that pulse with restrained fury, reflecting their power to ignite wrath upon each strike.  \nI ensure the visual captures both the ancient weight of their forging and the dynamic energy they unleash in combat.",
+                      "I am refining the visual concept for the Bracers of Vigilant Wrath, ensuring their appearance aligns with the established aesthetic of Helm’s sanctuary in Rosalia—ancient stone, weathered metal, and solemn craftsmanship. The bracers are envisioned as forged from the very chains that bound the fallen titan, their surface etched with runes that hum faintly with latent power. Their metallic sheen glimmers under dim light, casting long shadows across the pedestal, while the faint resonance of their bell-like chime lingers in the air after a strike."
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+                "usage": {
+                  "input_tokens": 9182,
+                  "output_tokens": 588,
+                  "characters": 0,
+                  "total_tokens": 9770,
+                  "input_tokens_details": {
+                    "text_tokens": 6162,
+                    "image_tokens": 3020
+                  },
+                  "output_tokens_details": {
+                    "text_tokens": 0,
+                    "reasoning_tokens": 588
+                  },
+                  "image_tokens": 3020,
+                  "cached_tokens": 0
+                },
+                "timestamp": 1779256438
+              }
+            ],
+            "is_stop": true,
+            "edited": false,
+            "error": null,
+            "meta": {},
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              },
+              "endTime": 1779256439.090764
+            },
+            "feedbackId": null,
+            "turn_id": null,
+            "annotation": null,
+            "done": true,
+            "info": null,
+            "timestamp": 1779256368
+          },
+          "3883f234-70fe-4663-9ebb-12373cfc7b46": {
+            "id": "3883f234-70fe-4663-9ebb-12373cfc7b46",
+            "role": "user",
+            "content": "Нет переделай картинку секиры, она должна быть двуручной",
+            "models": [
+              "qwen3-max-2026-01-23"
+            ],
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "edited": false,
+            "error": null,
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              }
+            },
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": false,
+              "thinking_mode": "Thinking",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "parentId": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+            "turn_id": null,
+            "childrenIds": [
+              "435192c3-9833-46fa-85f1-8965e6587cfd"
+            ],
+            "files": [],
+            "timestamp": 1779256441
+          },
+          "435192c3-9833-46fa-85f1-8965e6587cfd": {
+            "role": "assistant",
+            "content": "",
+            "reasoning_content": null,
+            "chat_type": "t2t",
+            "sub_chat_type": "t2t",
+            "model": "qwen3-max-2026-01-23",
+            "modelName": "Qwen3-Max",
+            "modelIdx": 0,
+            "id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+            "parentId": "3883f234-70fe-4663-9ebb-12373cfc7b46",
+            "childrenIds": [],
+            "feature_config": {
+              "thinking_enabled": true,
+              "output_schema": "phase",
+              "instructions": null,
+              "research_mode": "normal",
+              "auto_thinking": false,
+              "thinking_mode": "Thinking",
+              "thinking_format": "summary",
+              "auto_search": true
+            },
+            "content_list": [
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Переработать визуализацию секиры Правосудия для точного отображения двуручного оружия.",
+                      "Refining the description to emphasize the weapon's dual-hand design",
+                      "Уточнить длину древка и его двуручное использование",
+                      "Описывать оружие с акцентом на его двуручную конструкцию"
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "Я анализирую предыдущий образ, выявляя аспекты, которые вводят в заблуждение относительно размера и способа использования.  \nУточняю пропорции лезвия, рукояти и расположение хвата, чтобы подчеркнуть двуручное использование.  \nСоздаю более достоверную композицию, где форма и масштаб оружия соответствуют его функциональному назначению.",
+                      "I am ensuring the depiction aligns with the established mechanics of two-handed weapons by highlighting its extended length and robust construction suited for both hands.  \nI recall that such weapons typically feature longer hafts and require full grip, so I focus on those characteristics to maintain consistency.  \nThe imagery now conveys a formidable, balanced form built for powerful strikes requiring both arms.",
+                      "Я анализирую контекст запроса, чтобы убедиться, что описание оружия отражает его реальные характеристики.  \nСпецификация длинного древка и позы с двумя руками необходима для ясности визуализации.  \nЭто позволяет избежать недоразумений, связанных с интерпретацией размеров и способа ношения.",
+                      "Я сосредоточен на передаче визуальных признаков, указывающих на то, что оружие предназначено для использования обеими руками. Удлинённое древко, рассчитанное на удержание двумя руками, дополнено упором или рукояткой, формально предполагающей двойное хватание. Лезвие широкое, массивное и тяжёлое, характерное для двуручных топоров, подчёркивает его мощь и функциональность в бою."
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+                "usage": {
+                  "input_tokens": 10754,
+                  "output_tokens": 209,
+                  "characters": 0,
+                  "total_tokens": 10963,
+                  "input_tokens_details": {
+                    "text_tokens": 6224,
+                    "image_tokens": 4530
+                  },
+                  "output_tokens_details": {
+                    "text_tokens": 0,
+                    "reasoning_tokens": 209
+                  },
+                  "image_tokens": 4530,
+                  "cached_tokens": 8576
+                },
+                "timestamp": 1779256465
+              },
+              {
+                "content": "",
+                "phase": "image_gen_tool",
+                "status": "finished",
+                "extra": {
+                  "display_position": "answer",
+                  "image_list": [
+                    {
+                      "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/image_gen/435192c3-9833-46fa-85f1-8965e6587cfd/1779256484.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxNzc5MjU2NDg0IiwicmVzb3VyY2VfY2hhdF9pZCI6Ijc3MDVlY2RhLWVlNGMtNGVmYS04NmY3LTJiODEzZjVjMmFhMyJ9.693-qx8FNwcZP_NDAMSlwowPMEhbVm601KLtM7MAa7I"
+                    }
+                  ],
+                  "tool_result": [
+                    {
+                      "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/t2i/7705ecda-ee4c-4efa-86f7-2b813f5c2aa3/1ae6479c9-fcf2-422f-abb0-af51b5d77a0f.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxYWU2NDc5YzktZmNmMi00MjJmLWFiYjAtYWY1MWI1ZDc3YTBmIiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.VdpHVFOYfIdFysFaz18YjdqBRYZLg24bvZIx_Ops7tU"
+                    }
+                  ]
+                },
+                "role": "function",
+                "name": "image_gen",
+                "function_id": "round_0_1",
+                "function_call": {
+                  "name": "image_gen",
+                  "arguments": "{\"prompt\": \"D&D-style 'Axe of Justice', massive two-handed weapon with a long, thick wooden haft designed for dual-handed grip, featuring intricate silver runes of vigilance glowing along the blade, a pulsating crimson gemstone embedded at the base of the blade, heavy iron bindings around the haft, set against a stone altar in a cathedral with stained glass windows and blue banners, realistic fantasy art style, dramatic lighting highlighting the weapon's imposing size and sacred aura, cinematic composition showing the full length of the haft to emphasize two-handed use\"}"
+                },
+                "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+                "usage": {}
+              },
+              {
+                "content": "",
+                "phase": "thinking_summary",
+                "status": "finished",
+                "extra": {
+                  "summary_title": {
+                    "content": [
+                      "Переработать изображение секиры для подчеркнутой двуручности"
+                    ]
+                  },
+                  "summary_thought": {
+                    "content": [
+                      "Я сосредоточен на визуализации оружия с длинным, массивным древком, предназначенным для двух рук, с акцентом на детали, указывающие на двуручное использование — утолщённая часть для второй руки, обмотки, общая композиция, подчёркивающая размер и баланс.  \nВнимание уделяется пропорциям и позе, чтобы исключить амбивалентность между одноручным и двуручным исполнением.  \nЦель — создать образ, где двуручность очевидна даже при мимолётном взгляде."
+                    ]
+                  }
+                },
+                "role": "assistant",
+                "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+                "usage": {
+                  "input_tokens": 10754,
+                  "output_tokens": 389,
+                  "characters": 0,
+                  "total_tokens": 11143,
+                  "input_tokens_details": {
+                    "text_tokens": 6224,
+                    "image_tokens": 4530
+                  },
+                  "output_tokens_details": {
+                    "text_tokens": 3,
+                    "reasoning_tokens": 386
+                  },
+                  "image_tokens": 4530,
+                  "cached_tokens": 8576
+                },
+                "timestamp": 1779256496
+              },
+              {
+                "content": "Отлично! Теперь Секира Правосудия визуально соответствует требованиям:  \n- Длинное древко с двойными упорами для обеих рук  \n- Массивное лезвие с рунами и пульсирующим рубином  \n- Баланс между суровостью и священностью в деталях  \n\nГотов создать промт для **Пояса Непреклонной Стойкости** — он должен сочетаться с сетом и подчеркивать роль стража, который сражается с двуручным оружием. Какие ключевые элементы вы хотели бы включить в описание пояса? Например:  \n- Материал (кожа, металл, магические элементы)  \n- Символика (руны, камни, божественные атрибуты)  \n- Связь с механикой «заряда Предела»  \n\nИли я могу предложить готовый вариант с акцентом на совместимость с секирой?",
+                "phase": "answer",
+                "status": "finished",
+                "extra": null,
+                "role": "assistant",
+                "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+                "usage": {
+                  "input_tokens": 10754,
+                  "output_tokens": 632,
+                  "characters": 0,
+                  "total_tokens": 11386,
+                  "input_tokens_details": {
+                    "text_tokens": 6224,
+                    "image_tokens": 4530
+                  },
+                  "output_tokens_details": {
+                    "text_tokens": 246,
+                    "reasoning_tokens": 386
+                  },
+                  "image_tokens": 4530,
+                  "cached_tokens": 8576
+                },
+                "timestamp": 1779256518
+              }
+            ],
+            "is_stop": false,
+            "edited": false,
+            "error": null,
+            "meta": {},
+            "extra": {
+              "meta": {
+                "subChatType": "t2t"
+              },
+              "endTime": 1779256518.4678211
+            },
+            "feedbackId": null,
+            "turn_id": null,
+            "annotation": null,
+            "done": true,
+            "info": null,
+            "timestamp": 1779256441
+          }
+        },
+        "currentId": "435192c3-9833-46fa-85f1-8965e6587cfd",
+        "currentResponseIds": [
+          "435192c3-9833-46fa-85f1-8965e6587cfd"
+        ],
+        "pagination": null
+      },
+      "models": [
+        "qwen3-max-2026-01-23"
+      ],
+      "messages": [
+        {
+          "id": "5ac56f21-14c8-4ffe-ae71-fea4d66a3fda",
+          "role": "user",
+          "content": "В этом чате мы будем формировать Артефакты, которые могут найти герои\nНачнем с Секиры Правосудия\n1к12 урон, двуручное тяжелое оружие\nИмеет один заряд, который восстанавливается после продолжительного\n\nЭтот заряд позволяет на 1 минуту сделать все броски секиры с преимуществом и добавляет ещё одну кость 1к12 к урону. Этот урон становится магическим.\n\nя хочу создать сет из 5 артефактов божественного происхождения, секира один из них.\n\nКаждый артефакт по своей структуре могущественный, но когда они получают связку этот эффект дополняется ещё чем-то когда у тебя все 5 артефактов, ты становишься непобедимым фактически богом, так как они дают очень много бафов\n\nПомоги мне создать этот сет, сейчас секира находится у Грока, группа прямо сейчас идёт в Розалию, там есть место силы его бога Хельма, и его бог пообещал ему вознаграждение за его веру. Этим вознаграждением будет ещё один артефакт из этого сета",
+          "models": [
+            "qwen3-max-2026-01-23"
+          ],
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "edited": false,
+          "error": null,
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            }
+          },
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "parentId": null,
+          "turn_id": null,
+          "childrenIds": [
+            "04dfc197-b59b-4177-ac6a-23c3eaf0cc24"
+          ],
+          "files": [],
+          "timestamp": 1770008117
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "model": "qwen3-max-2026-01-23",
+          "modelName": "Qwen3-Max",
+          "modelIdx": 0,
+          "id": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+          "parentId": "5ac56f21-14c8-4ffe-ae71-fea4d66a3fda",
+          "childrenIds": [
+            "4c4d1aeb-13c4-4b7b-aa4a-65a6ef459673"
+          ],
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "content_list": [
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Создаю сет артефактов для мира Эхо Рассвета",
+                    "Создаю концепцию сета артефактов, отражающую божественную природу.",
+                    "构思一套象征守护者五种美德的套装"
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "Я формирую концепцию божественного артефакта, вдохновляясь культурой и религией Форгленда, где Хельм — покровитель стражей и правосудия.  \nАртефакт должен отражать суть его божественной связи, сочетая символизм и практическую силу.  \nПродолжаю развивать идею, учитывая историю Грока, который носит секиру как знак верности и служения.",
+                    "Каждый артефакт обладает собственной силой, но вместе они раскрывают синергию, превращая владельца в почти божественное существо.  \nЯ сосредоточен на гармонии между доменом Хельма — защитой и порядком — и общим потенциалом сета.  \nМоя цель — выразить величие через единство, где каждый элемент усиливает не только себя, но и целое.",
+                    "我正将每件神器与一种核心品质相联系，使其成为完整的精神体系。  \n从正义之斧到权威之冠，每个元素都承载着守护者的职责与信念。  \n这套设计旨在让玩家在装备中感受到力量与意义的统一。"
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+              "usage": {
+                "input_tokens": 1015,
+                "output_tokens": 708,
+                "total_tokens": 1723,
+                "output_tokens_details": {
+                  "reasoning_tokens": 700
+                }
+              },
+              "timestamp": 1770008132
+            },
+            {
+              "content": "Отличная концепция! Создадим сет **«Пять Столпов Бдительности»** — артефакты, дарованные богом Хельмом (или его аналогом в мире *Эхо Рассвета*) избранному стражу. Каждый артефакт воплощает одну из добродетелей верховного защитника. При объединении они пробуждают божественную сущность носителя.\n\n---\n\n### 🔷 Артефакт №1: **Секира Правосудия** (уже у Грока)\n*Двуручное тяжёлое оружие, урон 1к12 рубящий. Требуется СИЛ 15+*\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя его действием, вы на 1 минуту:\n  - Совершаете все атаки Секирой с преимуществом.\n  - Добавляете +1к12 магического урона к каждой успешной атаке.\n  - Игнорируете сопротивление урона цели (но не иммунитет).\n- **Проклятие стража:** Если вы бежите с поля боя, оставив союзников в опасности, теряете все бонусы артефакта до следующего продолжительного отдыха.\n\n---\n\n### 🔷 Артефакт №2: **Щит Непреклонного Предела** (награда в Розалии)\n*Щит. Требуется МУД 13+*\nГерои найдут его в святилище Хельма в Розалии — древнем монастыре-крепости на границе с демоническими землями. Щит выкован из «застывшего заката» — металла, поглотившего последний луч солнца перед Вечной Ночью.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя реакцией при получении урона, вы на 1 минуту:\n  - Получаете сопротивление ко всему урону.\n  - Любая атака, направленная на союзника в пределах 5 футов от вас, перенаправляется на вас (вы можете использовать реакцию для этого).\n  - Совершая провокационную атаку, вы накладываете на цель состояние *испуган* до конца её следующего хода (спасбросок МУД отменяет).\n- **Связь с Секирой:** Если у вас также есть Секира Правосудия, активация заряда Щита также восстанавливает заряд Секиры.\n\n---\n\n### 🔷 Артефакт №3: **Доспехи Бдящей Тени**\n*Полный доспех. Требуется ЛОВ 14+*\nСозданы из чешуи дракона-хранителя, павшего в битве с падшим богом. Доспехи шепчут предупреждения владельцу в моменты опасности.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя действием, вы на 1 час:\n  - Не можете быть застигнуты врасплох.\n  - Получаете преимущество на спасброски от эффектов, требующих зрения или слуха.\n  - Один раз за ход, когда противник в пределах 30 футов совершает атаку с преимуществом, вы можете реакцией отменить это преимущество.\n- **Связь с сетом:** При наличии любого другого артефакта сета вы также получаете иммунитет к состоянию *очарован*.\n\n---\n\n### 🔷 Артефакт №4: **Амулет Прозрения Судьбы**\n*Волшебный предмет (амулет). Требуется ИНТ 15+*\nКамень, вырезанный из сердца павшего пророка. Позволяет видеть нити кармы и вероятностей.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя реакцией при проваленном спасброске или броске атаки, вы перебрасываете его с преимуществом. Эффект длится до конца вашего следующего хода.\n- **Постоянный эффект:** Вы всегда знаете, лжёт ли существо, с которым напрямую общаетесь (если оно не божественного ранга).\n- **Связь с сетом:** При наличии 3+ артефактов сета вы можете использовать заряд Амулета без расхода — 1 раз за короткий отдых.\n\n---\n\n### 🔷 Артефакт №5: **Корона Власти над Пределом**\n*Волшебный предмет (корона/диадема). Требуется ХАР 16+*\nСоздана из слёз первого стража, павшего при защите мира. Корона не даёт власти над людьми — она даёт власть над *границами*: между жизнью и смертью, порядком и хаосом, материей и духом.\n\n- **Божественный заряд:** Восстанавливается после продолжительного отдыха. Активируя действием, вы на 1 минуту:\n  - Можете действием закрыть «портал» (любой магический проход между планами) в пределах 60 футов.\n  - Один раз за ход, когда союзник в пределах 30 футов должен умереть, вы можете реакцией вместо этого оставить его с 1 хитом.\n  - Все враги в пределах 15 футов должны пройти спасбросок МУД (СЛ 18) или не могут приближаться к вам ближе 15 футов до конца своего хода.\n- **Связь с сетом:** При наличии всех 5 артефактов корона позволяет использовать её заряд как действие, не тратя заряд — 1 раз за короткий отдых.\n\n---\n\n### ⚡ Синергия сета: **Пробуждение Стража Пределов**\nКогда у персонажа собрано **2+ артефакта**:\n- +2 к КД (макс. +5 при 5 артефактах).\n- Сопротивление урону от небожественных источников.\n\n**3+ артефакта**:\n- Вы можете действием наложить *защиту от добра и зла* на себя и одного союзника в пределах 30 футов (без концентрации, длится 1 час).\n\n**4+ артефакта**:\n- Вы получаете иммунитет к эффектам, которые телепортируют вас против вашей воли.\n- Один раз за день вы можете использовать *воскрешение* без компонентов.\n\n**5 артефактов (Пробуждение)**:\n- Вы становитесь **Божественным Стражом** на 1 час (1 раз за месяц):\n  - Иммунитет ко всему урону, кроме урона от божественных существ.\n  - Все атаки наносят дополнительный 4к10 радиантного урона.\n  - Вы можете действием наложить *антимагию* на область 30 футов вокруг себя.\n  - Вы не можете быть изгнаны, скованы или лишены действий.\n  - После окончания эффекта вы падаете без сознания на 24 часа.\n\n---\n\n### 💡 Сюжетная нить для Розалии\nВ святилище Хельма в Розалии Грока ждёт испытание: дух древнего стража предложит ему **выбор** — взять Щит Непреклонного Предела, но взамен должен оставить Секиру на алтаре на 24 часа. Если Грока согласится (докажет, что защита важнее возмездия), бог одобрит его и вернёт Секиру, усиленную (+1 к броскам атаки). Если откажется — получит Щит, но с проклятием: заряд Щита не будет восстанавливать заряд Секиры.\n\nГотов развить любой артефакт или добавить лор для мира *Эхо Рассвета*!",
+              "phase": "answer",
+              "status": "finished",
+              "extra": null,
+              "role": "assistant",
+              "response_id": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+              "usage": {
+                "input_tokens": 1015,
+                "output_tokens": 2789,
+                "total_tokens": 3804,
+                "output_tokens_details": {
+                  "reasoning_tokens": 700
+                }
+              },
+              "timestamp": 1770008171
+            }
+          ],
+          "is_stop": false,
+          "edited": false,
+          "error": null,
+          "meta": {},
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            },
+            "endTime": 1770008172.7856333
+          },
+          "feedbackId": null,
+          "turn_id": null,
+          "annotation": null,
+          "done": true,
+          "info": null,
+          "timestamp": 1770008117
+        },
+        {
+          "id": "4c4d1aeb-13c4-4b7b-aa4a-65a6ef459673",
+          "role": "user",
+          "content": "Не подходит, щит нельзя носить вместе с секирой, так как она двуручная, переделай",
+          "models": [
+            "qwen3-max-2026-01-23"
+          ],
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "edited": false,
+          "error": null,
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            }
+          },
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "parentId": "04dfc197-b59b-4177-ac6a-23c3eaf0cc24",
+          "turn_id": null,
+          "childrenIds": [
+            "9001f522-7f36-4bc7-811d-df5a4a26c381"
+          ],
+          "files": [],
+          "timestamp": 1770008186
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "model": "qwen3-max-2026-01-23",
+          "modelName": "Qwen3-Max",
+          "modelIdx": 0,
+          "id": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+          "parentId": "4c4d1aeb-13c4-4b7b-aa4a-65a6ef459673",
+          "childrenIds": [
+            "018053ca-55cd-4962-8bcf-698e682b879f"
+          ],
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "content_list": [
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Adjusting the artifact set to align with D&D 5e mechanics",
+                    "Создаю сет артефактов, согласующихся с божественной тематикой Хельма."
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "I am reimagining the artifact set to ensure compatibility with the game's rules, particularly the restriction that shields require one hand.  \nThis means I’m shifting the focus from dual-wielding to balanced combinations, such as pairing a shield with a one-handed weapon or adjusting abilities accordingly.  \nThe goal is to preserve thematic depth while making the set both functional and logically consistent within the system.",
+                    "Я взвешиваю каждую деталь, чтобы гармонировать с идеей стражей и бдительности.  \nКаждый артефакт — не просто предмет, а символ защиты, мудрости и вечного наблюдения.  \nВсе элементы объединяются в единое целое, усиливая силу носителя и его связь с божественным."
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+              "usage": {
+                "input_tokens": 3137,
+                "output_tokens": 366,
+                "total_tokens": 3503,
+                "output_tokens_details": {
+                  "reasoning_tokens": 358
+                }
+              },
+              "timestamp": 1770008197
+            },
+            {
+              "content": "Вы правы — механика ДнД не позволяет совмещать двуручное оружие и щит. Переделываю сет так, чтобы все артефакты были совместимы и логично дополняли воина с двуручной секирой.\n\n---\n\n## 🌅 Сет «Пять Столпов Бдительности»  \n*Божественные артефакты Хельма (или его аналога в мире Эхо Рассвета) для избранного Стража Пределов*\n\n---\n\n### 🔷 Артефакт №1: **Секира Правосудия** (уже у Грока)\n*Двуручное тяжёлое оружие, урон 1к12 рубящий. Требуется СИЛ 15+*\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Действием активируете на 1 минуту:\n  - Все атаки Секирой совершаются с преимуществом.\n  - +1к12 магического радиантного урона к каждой успешной атаке.\n  - Игнорируете сопротивление урона цели (но не иммунитет).\n- **Проклятие веры:** Если вы бежите с поля боя, оставив союзников в опасности, теряете все бонусы артефакта до следующего продолжительного отдыха.\n\n---\n\n### 🔷 Артефакт №2: **Пояс Непреклонной Стойкости** (награда в Розалии)\n*Волшебный пояс. Требуется ТЕЛ 16+*\nВыкован из опоясания первого стража Хельма, пропитанного кровью в битве у Врат Предела. В святилище Розалии пояс лежит на каменном пьедестале, охраняемом духом древнего паладина.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Реакцией при получении урона активируете на 1 минуту:\n  - Получаете сопротивление ко всему урону.\n  - Максимальное количество хитов увеличивается на ваш уровень × 5.\n  - Один раз за ход, когда вы должны упасть без сознания от урона, остаётесь с 1 хитом вместо этого.\n- **Связь с Секирой:** Если у вас также есть Секира Правосудия, активация заряда Пояса восстанавливает её заряд.\n\n---\n\n### 🔷 Артефакт №3: **Наручи Бдящего Гнева**\n*Пара наручи/браслетов. Требуется СИЛ 14+*\nВыкованы из оков, которыми Хельм сковал падшего титана. При ударе издают звон, от которого трепещут тени.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Действием активируете на 1 минуту:\n  - После каждой успешной атаки вы можете бонусным действием сделать одну дополнительную атаку этим же оружием.\n  - Если вы наносите критическое попадание, цель должна пройти спасбросок ТЕЛ (СЛ 17) или быть оглушена до конца вашего следующего хода.\n- **Постоянный эффект:** +1 к броскам атаки и урона при атаках оружием.\n\n---\n\n### 🔷 Артефакт №4: **Плащ Непроглядной Тени**\n*Волшебный плащ. Требуется МУД 13+*\nТкань соткана из самой тени, отбрасываемой статуей Хельма в момент заката. Шепчет предупреждения владельцу.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Реакцией при проваленном спасброске активируете на 1 минуту:\n  - Получаете преимущество на все спасброски.\n  - Не можете быть застигнуты врасплох.\n  - Один раз за ход вы можете реакцией отменить преимущество атаки противника против вас или союзника в пределах 10 футов.\n- **Постоянный эффект:** Иммунитет к состоянию *испуган*.\n\n---\n\n### 🔷 Артефакт №5: **Корона Власти над Пределом**\n*Диадема/корона. Требуется ХАР 16+*\nВыкована из слёз первого стража, павшего при защите Врат Мира. Не даёт власти над людьми — даёт власть над *границами*.\n\n- **Заряд Предела:** Восстанавливается после продолжительного отдыха. Действием активируете на 1 минуту:\n  - Вы и все союзники в пределах 30 футов получаете иммунитет к эффектам изгнания и принудительного телепорта.\n  - Один раз за ход вы можете реакцией наложить *защиту от энергии* (выберите тип) на себя или союзника в пределах 30 футов.\n  - Все враги в пределах 15 футов должны пройти спасбросок МУД (СЛ 19) или не могут использовать реакции до конца своего следующего хода.\n- **Постоянный эффект:** Вы всегда знаете, лжёт ли существо, с которым напрямую общаетесь (если оно не божественного ранга).\n\n---\n\n## ⚡ Синергия сета: **Пробуждение Стража Пределов**\n\n| Количество артефактов | Эффект |\n|----------------------|--------|\n| **2+** | +1 к КД и спасброскам. Сопротивление урону от немагических атак. |\n| **3+** | Вы можете 1/день действием наложить *защиту от добра и зла* на себя и союзников в пределах 15 футов (без концентрации, 1 час). |\n| **4+** | Вы получаете иммунитет к эффектам, лишающим вас действий (оглушение, паралич). Один раз за день можете использовать *воскрешение* без компонентов. |\n| **5 (Пробуждение)** | **1 раз за месяц** вы становитесь **Божественным Стражом** на 1 час:<br>• Иммунитет ко всему урону, кроме урона от божественных существ.<br>• Все атаки наносят +4к10 радиантного урона.<br>• Действием можете наложить *антимагию* на область 30 футов вокруг себя.<br>• Не можете быть изгнаны, скованы или лишены действий.<br>• После окончания — падаете без сознания на 24 часа. |\n\n---\n\n## 💡 Сюжет для Розалии: Испытание Пояса\n\nВ святилище Хельма в Розалии Грока встретит дух древнего стража. Чтобы получить **Пояс Непреклонной Стойкости**, ему предстоит пройти испытание:\n\n> *«Страж не тот, кто наносит удар первым. Страж — тот, кто стоит последним. Оставь своё оружие у алтаря и пройди через Зал Теней без него. Если вернёшься живым — пояс твой. Если падёшь — твоя вера была ложной».*\n\nЕсли Грока пройдёт испытание (докажет, что защита важнее атаки):\n- Получает Пояс с полным эффектом.\n- Секира Правосудия получает постоянный бонус: +1 к броскам атаки.\n\nЕсли откажется или провалит испытание:\n- Пояс всё равно получает, но его заряд **не восстанавливает заряд Секиры** до тех пор, пока Грока не искупит свою гордыню (квест от Хельма).\n\n---\n\nГотов доработать лор любого артефакта или добавить детали для следующего пункта пути группы!",
+              "phase": "answer",
+              "status": "finished",
+              "extra": null,
+              "role": "assistant",
+              "response_id": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+              "usage": {
+                "input_tokens": 3137,
+                "output_tokens": 2434,
+                "total_tokens": 5571,
+                "output_tokens_details": {
+                  "reasoning_tokens": 358
+                }
+              },
+              "timestamp": 1770008237
+            }
+          ],
+          "is_stop": false,
+          "edited": false,
+          "error": null,
+          "meta": {},
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            },
+            "endTime": 1770008237.2560084
+          },
+          "feedbackId": null,
+          "turn_id": null,
+          "annotation": null,
+          "done": true,
+          "info": null,
+          "timestamp": 1770008186
+        },
+        {
+          "id": "018053ca-55cd-4962-8bcf-698e682b879f",
+          "role": "user",
+          "content": "Сделай промт для визуализации секиры",
+          "models": [
+            "qwen3-max-2026-01-23"
+          ],
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "edited": false,
+          "error": null,
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            }
+          },
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": false,
+            "thinking_mode": "Thinking",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "parentId": "9001f522-7f36-4bc7-811d-df5a4a26c381",
+          "turn_id": null,
+          "childrenIds": [
+            "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517"
+          ],
+          "files": [],
+          "timestamp": 1779256308
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "model": "qwen3-max-2026-01-23",
+          "modelName": "Qwen3-Max",
+          "modelIdx": 0,
+          "id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+          "parentId": "018053ca-55cd-4962-8bcf-698e682b879f",
+          "childrenIds": [
+            "994b378a-7178-4304-a6eb-5367ee063a6d"
+          ],
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": false,
+            "thinking_mode": "Thinking",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "content_list": [
+            {
+              "content": "",
+              "phase": null,
+              "status": null,
+              "extra": null,
+              "response_id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+              "usage": {
+                "input_tokens": 5547,
+                "output_tokens": 1,
+                "total_tokens": 5548
+              },
+              "timestamp": 1779256323
+            },
+            {
+              "content": "",
+              "phase": "image_gen_tool",
+              "status": "finished",
+              "extra": {
+                "display_position": "answer",
+                "image_list": [
+                  {
+                    "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/image_gen/57c4bbf6-f379-4ea7-9e7c-2f50d7a58517/1779256322.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxNzc5MjU2MzIyIiwicmVzb3VyY2VfY2hhdF9pZCI6Ijc3MDVlY2RhLWVlNGMtNGVmYS04NmY3LTJiODEzZjVjMmFhMyJ9._4SlPd_z4P3EnmYmGy6vkiV4yEC324z13xjSZEE8Hzg"
+                  }
+                ],
+                "tool_result": [
+                  {
+                    "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/t2i/7705ecda-ee4c-4efa-86f7-2b813f5c2aa3/1d24ddc2b-5ee7-455d-8fd5-586b5db8e9a7.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxZDI0ZGRjMmItNWVlNy00NTVkLThmZDUtNTg2YjVkYjhlOWE3IiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.nnY2yl04b2-KnIFYgw42P2ONJnPmc8pNU8u6kikiK4c"
+                  }
+                ]
+              },
+              "role": "function",
+              "name": "image_gen",
+              "function_id": "round_0_call_8ff4ccd12335413a99f7c6c0",
+              "function_call": {
+                "name": "image_gen",
+                "arguments": "{\"prompt\": \"A divine battle axe named 'Axe of Justice', inspired by the god Helm from a fantasy D&D setting called 'Echo of Dawn'. The weapon is massive, two-handed, and heavy, with a brutal yet sacred design. Its blade is forged from radiant silver metal etched with glowing runes of vigilance and law, emitting a faint golden light. The haft is made of dark, ancient wood wrapped in iron bands inscribed with protective sigils. At the base of the blade, a single crimson gem pulses slowly like a heartbeat, representing its divine charge. The overall aesthetic blends martial severity with holy grandeur—no ornate flourishes, only solemn power. Background: dim temple chamber with shafts of dawn light, emphasizing the axe’s glow. Highly detailed, realistic fantasy illustration, cinematic lighting.\"}"
+              },
+              "response_id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+              "usage": {}
+            },
+            {
+              "content": "Секира Правосудия визуализирована: массивное двуручное оружие с лезвием из светящегося серебристого металла, испещрённого рунами бдительности, и древком из тёмного дерева с железными бандажами. У основания клинка — пульсирующий багровый камень, символ божественного заряда. Общее впечатление — суровая, но священная мощь, без излишней вычурности.\n\nХочешь создать промт для следующего артефакта — **Пояса Непреклонной Стойкости**?",
+              "phase": "answer",
+              "status": "finished",
+              "extra": null,
+              "role": "assistant",
+              "response_id": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+              "usage": {
+                "input_tokens": 5547,
+                "output_tokens": 163,
+                "total_tokens": 5710
+              },
+              "timestamp": 1779256328
+            }
+          ],
+          "is_stop": false,
+          "edited": false,
+          "error": null,
+          "meta": {},
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            },
+            "endTime": 1779256328.2591493
+          },
+          "feedbackId": null,
+          "turn_id": null,
+          "annotation": null,
+          "done": true,
+          "info": null,
+          "timestamp": 1779256308
+        },
+        {
+          "id": "994b378a-7178-4304-a6eb-5367ee063a6d",
+          "role": "user",
+          "content": "Она же должна быть двуручная, кажется, что она на картинке получилась под одну руку",
+          "models": [
+            "qwen3-max-2026-01-23"
+          ],
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "edited": false,
+          "error": null,
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            }
+          },
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": false,
+            "thinking_mode": "Thinking",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "parentId": "57c4bbf6-f379-4ea7-9e7c-2f50d7a58517",
+          "turn_id": null,
+          "childrenIds": [
+            "15d607af-3aed-4ce8-bdcb-a39bdc797276"
+          ],
+          "files": [],
+          "timestamp": 1779256368
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "model": "qwen3-max-2026-01-23",
+          "modelName": "Qwen3-Max",
+          "modelIdx": 0,
+          "id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+          "parentId": "994b378a-7178-4304-a6eb-5367ee063a6d",
+          "childrenIds": [
+            "3883f234-70fe-4663-9ebb-12373cfc7b46"
+          ],
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": false,
+            "thinking_mode": "Thinking",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "content_list": [
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Создаю визуализацию Пояса Непреклонной Стойкости, опираясь на стиль предыдущего описания секиры.",
+                    "Уточняю детали описания артефакта",
+                    "Создаю образ волшебного пояса, соответствующего заданной атмосфере и деталям."
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "Исследую атрибуты и символику, характерные для двуручного оружия, чтобы сохранить художественную целостность.  \nОпределяю ключевые элементы — материал, световые эффекты, структуру — для передачи прочности и непоколебимости.  \nФормирую образ, сочетающий мрачную элегантность и внутреннюю мощь, отражающую суть пояса.",
+                    "Я сосредоточен на точной передаче характеристик пояса, подчеркивая его происхождение из опоясания первого стража и пропитанность кровью.  \nНесмотря на визуальную несоответственность с изображением, акцентирую внимание на том, что оружие — двуручное, но пояс может быть носимым на талии.  \nФормулирую описание так, чтобы сохранить мистическую атмосферу и логическую целостность артефакта.",
+                    "Он тяжёлый, из прочного металла с кожаными вставками, украшен рунами и светящимися узорами, напоминающими багровый камень секиры.  \nЦепи и металлические пластинки придают ему божественный облик, а оттенки серебра, бронзы с красными и золотыми акцентами подчёркивают его могущество.  \nФон — святилище Розалии, каменный пьедестал, вокруг которого словно струится древняя энергия."
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+              "usage": {
+                "input_tokens": 9182,
+                "output_tokens": 141,
+                "characters": 0,
+                "total_tokens": 9323,
+                "input_tokens_details": {
+                  "text_tokens": 6162,
+                  "image_tokens": 3020
+                },
+                "output_tokens_details": {
+                  "text_tokens": 0,
+                  "reasoning_tokens": 141
+                },
+                "image_tokens": 3020,
+                "cached_tokens": 0
+              },
+              "timestamp": 1779256389
+            },
+            {
+              "content": "",
+              "phase": "image_gen_tool",
+              "status": "finished",
+              "extra": {
+                "display_position": "answer",
+                "image_list": [
+                  {
+                    "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/image_gen/15d607af-3aed-4ce8-bdcb-a39bdc797276/1779256414.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxNzc5MjU2NDE0IiwicmVzb3VyY2VfY2hhdF9pZCI6Ijc3MDVlY2RhLWVlNGMtNGVmYS04NmY3LTJiODEzZjVjMmFhMyJ9.PDR6FXoLhGZnmzwee2SoY4ZFK2Wxvu-FvmzILGgcQyA"
+                  }
+                ],
+                "tool_result": [
+                  {
+                    "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/t2i/7705ecda-ee4c-4efa-86f7-2b813f5c2aa3/13879b978-b93e-406e-902b-6a6e3b88cf96.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxMzg3OWI5NzgtYjkzZS00MDZlLTkwMmItNmE2ZTNiODhjZjk2IiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.TTvHEKTg6-fALGBbLlfGoj1HtG61Er3c941w9bWvNIY"
+                  }
+                ]
+              },
+              "role": "function",
+              "name": "image_gen",
+              "function_id": "round_0_1",
+              "function_call": {
+                "name": "image_gen",
+                "arguments": "{\"prompt\": \"A magical belt of unyielding resilience, forged from the girdle of the first guardian, imbued with blood of the Battle at the Gates of the Threshold. Heavy, ancient leather strap reinforced with interlocking silver and bronze plates, each etched with glowing golden runes of vigilance. A pulsating crimson gemstone embedded at the buckle, radiating divine energy. The belt lies on a stone pedestal in a dimly lit sanctuary of Helm (Rosalia), with stained glass windows casting blue light, stone pillars, and banners bearing the symbol of the vigilant god. The atmosphere is solemn and sacred, with subtle magical aura around the artifact. The belt's design is functional yet holy — no unnecessary ornamentation, but every detail speaks of divine craftsmanship. Focus on the texture of the leather, the metallic sheen of the plates, and the glowing runes. The crimson gem should pulse with inner light. Background: ancient stone floor, faint mist, and sunlight filtering through broken stained glass.\"}"
+              },
+              "response_id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+              "usage": {}
+            },
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Proceeding to the next phase of artifact creation",
+                    "Proceeding with the next artifact in sequence",
+                    "Proceeding with the bracers design"
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "I am now focusing on crafting the narrative and visual essence of the Belt of Unyielding Resilience, drawing from its thematic roots in endurance and inner fortitude.  \nThe belt’s design reflects ancient craftsmanship fused with celestial energy, symbolizing unwavering resolve through elemental motifs and sacred inscriptions.  \nIts presence evokes both reverence and awe, poised to become a defining relic within the campaign’s lore.",
+                    "I am focusing on the Bracers of the Watchful Wrath, drawing from their origin in the chains of a fallen titan to shape a vivid and evocative image.  \nThe design incorporates bronze and silver elements interwoven with glowing runes that pulse with restrained fury, reflecting their power to ignite wrath upon each strike.  \nI ensure the visual captures both the ancient weight of their forging and the dynamic energy they unleash in combat.",
+                    "I am refining the visual concept for the Bracers of Vigilant Wrath, ensuring their appearance aligns with the established aesthetic of Helm’s sanctuary in Rosalia—ancient stone, weathered metal, and solemn craftsmanship. The bracers are envisioned as forged from the very chains that bound the fallen titan, their surface etched with runes that hum faintly with latent power. Their metallic sheen glimmers under dim light, casting long shadows across the pedestal, while the faint resonance of their bell-like chime lingers in the air after a strike."
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+              "usage": {
+                "input_tokens": 9182,
+                "output_tokens": 588,
+                "characters": 0,
+                "total_tokens": 9770,
+                "input_tokens_details": {
+                  "text_tokens": 6162,
+                  "image_tokens": 3020
+                },
+                "output_tokens_details": {
+                  "text_tokens": 0,
+                  "reasoning_tokens": 588
+                },
+                "image_tokens": 3020,
+                "cached_tokens": 0
+              },
+              "timestamp": 1779256438
+            }
+          ],
+          "is_stop": true,
+          "edited": false,
+          "error": null,
+          "meta": {},
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            },
+            "endTime": 1779256439.090764
+          },
+          "feedbackId": null,
+          "turn_id": null,
+          "annotation": null,
+          "done": true,
+          "info": null,
+          "timestamp": 1779256368
+        },
+        {
+          "id": "3883f234-70fe-4663-9ebb-12373cfc7b46",
+          "role": "user",
+          "content": "Нет переделай картинку секиры, она должна быть двуручной",
+          "models": [
+            "qwen3-max-2026-01-23"
+          ],
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "edited": false,
+          "error": null,
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            }
+          },
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": false,
+            "thinking_mode": "Thinking",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "parentId": "15d607af-3aed-4ce8-bdcb-a39bdc797276",
+          "turn_id": null,
+          "childrenIds": [
+            "435192c3-9833-46fa-85f1-8965e6587cfd"
+          ],
+          "files": [],
+          "timestamp": 1779256441
+        },
+        {
+          "role": "assistant",
+          "content": "",
+          "reasoning_content": null,
+          "chat_type": "t2t",
+          "sub_chat_type": "t2t",
+          "model": "qwen3-max-2026-01-23",
+          "modelName": "Qwen3-Max",
+          "modelIdx": 0,
+          "id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+          "parentId": "3883f234-70fe-4663-9ebb-12373cfc7b46",
+          "childrenIds": [],
+          "feature_config": {
+            "thinking_enabled": true,
+            "output_schema": "phase",
+            "instructions": null,
+            "research_mode": "normal",
+            "auto_thinking": false,
+            "thinking_mode": "Thinking",
+            "thinking_format": "summary",
+            "auto_search": true
+          },
+          "content_list": [
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Переработать визуализацию секиры Правосудия для точного отображения двуручного оружия.",
+                    "Refining the description to emphasize the weapon's dual-hand design",
+                    "Уточнить длину древка и его двуручное использование",
+                    "Описывать оружие с акцентом на его двуручную конструкцию"
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "Я анализирую предыдущий образ, выявляя аспекты, которые вводят в заблуждение относительно размера и способа использования.  \nУточняю пропорции лезвия, рукояти и расположение хвата, чтобы подчеркнуть двуручное использование.  \nСоздаю более достоверную композицию, где форма и масштаб оружия соответствуют его функциональному назначению.",
+                    "I am ensuring the depiction aligns with the established mechanics of two-handed weapons by highlighting its extended length and robust construction suited for both hands.  \nI recall that such weapons typically feature longer hafts and require full grip, so I focus on those characteristics to maintain consistency.  \nThe imagery now conveys a formidable, balanced form built for powerful strikes requiring both arms.",
+                    "Я анализирую контекст запроса, чтобы убедиться, что описание оружия отражает его реальные характеристики.  \nСпецификация длинного древка и позы с двумя руками необходима для ясности визуализации.  \nЭто позволяет избежать недоразумений, связанных с интерпретацией размеров и способа ношения.",
+                    "Я сосредоточен на передаче визуальных признаков, указывающих на то, что оружие предназначено для использования обеими руками. Удлинённое древко, рассчитанное на удержание двумя руками, дополнено упором или рукояткой, формально предполагающей двойное хватание. Лезвие широкое, массивное и тяжёлое, характерное для двуручных топоров, подчёркивает его мощь и функциональность в бою."
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+              "usage": {
+                "input_tokens": 10754,
+                "output_tokens": 209,
+                "characters": 0,
+                "total_tokens": 10963,
+                "input_tokens_details": {
+                  "text_tokens": 6224,
+                  "image_tokens": 4530
+                },
+                "output_tokens_details": {
+                  "text_tokens": 0,
+                  "reasoning_tokens": 209
+                },
+                "image_tokens": 4530,
+                "cached_tokens": 8576
+              },
+              "timestamp": 1779256465
+            },
+            {
+              "content": "",
+              "phase": "image_gen_tool",
+              "status": "finished",
+              "extra": {
+                "display_position": "answer",
+                "image_list": [
+                  {
+                    "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/image_gen/435192c3-9833-46fa-85f1-8965e6587cfd/1779256484.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxNzc5MjU2NDg0IiwicmVzb3VyY2VfY2hhdF9pZCI6Ijc3MDVlY2RhLWVlNGMtNGVmYS04NmY3LTJiODEzZjVjMmFhMyJ9.693-qx8FNwcZP_NDAMSlwowPMEhbVm601KLtM7MAa7I"
+                  }
+                ],
+                "tool_result": [
+                  {
+                    "image": "https://cdn.qwenlm.ai/output/b6cca27f-4024-4030-8992-f66638ee86c1/t2i/7705ecda-ee4c-4efa-86f7-2b813f5c2aa3/1ae6479c9-fcf2-422f-abb0-af51b5d77a0f.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYjZjY2EyN2YtNDAyNC00MDMwLTg5OTItZjY2NjM4ZWU4NmMxIiwicmVzb3VyY2VfaWQiOiIxYWU2NDc5YzktZmNmMi00MjJmLWFiYjAtYWY1MWI1ZDc3YTBmIiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.VdpHVFOYfIdFysFaz18YjdqBRYZLg24bvZIx_Ops7tU"
+                  }
+                ]
+              },
+              "role": "function",
+              "name": "image_gen",
+              "function_id": "round_0_1",
+              "function_call": {
+                "name": "image_gen",
+                "arguments": "{\"prompt\": \"D&D-style 'Axe of Justice', massive two-handed weapon with a long, thick wooden haft designed for dual-handed grip, featuring intricate silver runes of vigilance glowing along the blade, a pulsating crimson gemstone embedded at the base of the blade, heavy iron bindings around the haft, set against a stone altar in a cathedral with stained glass windows and blue banners, realistic fantasy art style, dramatic lighting highlighting the weapon's imposing size and sacred aura, cinematic composition showing the full length of the haft to emphasize two-handed use\"}"
+              },
+              "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+              "usage": {}
+            },
+            {
+              "content": "",
+              "phase": "thinking_summary",
+              "status": "finished",
+              "extra": {
+                "summary_title": {
+                  "content": [
+                    "Переработать изображение секиры для подчеркнутой двуручности"
+                  ]
+                },
+                "summary_thought": {
+                  "content": [
+                    "Я сосредоточен на визуализации оружия с длинным, массивным древком, предназначенным для двух рук, с акцентом на детали, указывающие на двуручное использование — утолщённая часть для второй руки, обмотки, общая композиция, подчёркивающая размер и баланс.  \nВнимание уделяется пропорциям и позе, чтобы исключить амбивалентность между одноручным и двуручным исполнением.  \nЦель — создать образ, где двуручность очевидна даже при мимолётном взгляде."
+                  ]
+                }
+              },
+              "role": "assistant",
+              "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+              "usage": {
+                "input_tokens": 10754,
+                "output_tokens": 389,
+                "characters": 0,
+                "total_tokens": 11143,
+                "input_tokens_details": {
+                  "text_tokens": 6224,
+                  "image_tokens": 4530
+                },
+                "output_tokens_details": {
+                  "text_tokens": 3,
+                  "reasoning_tokens": 386
+                },
+                "image_tokens": 4530,
+                "cached_tokens": 8576
+              },
+              "timestamp": 1779256496
+            },
+            {
+              "content": "Отлично! Теперь Секира Правосудия визуально соответствует требованиям:  \n- Длинное древко с двойными упорами для обеих рук  \n- Массивное лезвие с рунами и пульсирующим рубином  \n- Баланс между суровостью и священностью в деталях  \n\nГотов создать промт для **Пояса Непреклонной Стойкости** — он должен сочетаться с сетом и подчеркивать роль стража, который сражается с двуручным оружием. Какие ключевые элементы вы хотели бы включить в описание пояса? Например:  \n- Материал (кожа, металл, магические элементы)  \n- Символика (руны, камни, божественные атрибуты)  \n- Связь с механикой «заряда Предела»  \n\nИли я могу предложить готовый вариант с акцентом на совместимость с секирой?",
+              "phase": "answer",
+              "status": "finished",
+              "extra": null,
+              "role": "assistant",
+              "response_id": "435192c3-9833-46fa-85f1-8965e6587cfd",
+              "usage": {
+                "input_tokens": 10754,
+                "output_tokens": 632,
+                "characters": 0,
+                "total_tokens": 11386,
+                "input_tokens_details": {
+                  "text_tokens": 6224,
+                  "image_tokens": 4530
+                },
+                "output_tokens_details": {
+                  "text_tokens": 246,
+                  "reasoning_tokens": 386
+                },
+                "image_tokens": 4530,
+                "cached_tokens": 8576
+              },
+              "timestamp": 1779256518
+            }
+          ],
+          "is_stop": false,
+          "edited": false,
+          "error": null,
+          "meta": {},
+          "extra": {
+            "meta": {
+              "subChatType": "t2t"
+            },
+            "endTime": 1779256518.4678211
+          },
+          "feedbackId": null,
+          "turn_id": null,
+          "annotation": null,
+          "done": true,
+          "info": null,
+          "timestamp": 1779256441
+        }
+      ]
+    },
+    "updated_at": 1788544550,
+    "created_at": 1770008116,
+    "share_id": null,
+    "archived": false,
+    "pinned": false,
+    "meta": {},
+    "folder_id": null,
+    "currentResponseIds": [
+      "435192c3-9833-46fa-85f1-8965e6587cfd"
+    ],
+    "currentId": "435192c3-9833-46fa-85f1-8965e6587cfd",
+    "chat_type": null,
+    "models": null,
+    "project_id": null
+  }
+}
