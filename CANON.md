@@ -4,8 +4,9 @@
 
 ## Мета
 
-- [Скил агента: канон репо](.cursor/skills/echo-dawn-canon/SKILL.md) · [`AGENTS.md`](AGENTS.md)
+- [Скил: канон репо](.cursor/skills/echo-dawn-canon/SKILL.md) · [Скил: локации](.cursor/skills/echo-dawn-location/SKILL.md) · [`AGENTS.md`](AGENTS.md)
 - [Источники](SOURCES.md)
+- [Playbook локации (шаблон)](templates/location-playbook.md) · [эталон Камнеграда](examples/locations/kamnegrad-klinkerov.pdf)
 - [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
 - [Архив: Розалия](drafts/imports/qwen-rozaliya.md)

@@ -1,9 +1,12 @@
 # Агенты: Эхо рассвета
 
-Постоянный скил работы с каноном кампании:
+## Скилы (порядок)
 
-**[`.cursor/skills/echo-dawn-canon/SKILL.md`](.cursor/skills/echo-dawn-canon/SKILL.md)**
+1. **Канон (всегда первым):** [`.cursor/skills/echo-dawn-canon/SKILL.md`](.cursor/skills/echo-dawn-canon/SKILL.md)  
+   Ритуал: ветка → `CANON.md` → `SOURCES.md` → `open-threads` → `timeline`.
+2. **Локации (playbook + docx):** [`.cursor/skills/echo-dawn-location/SKILL.md`](.cursor/skills/echo-dawn-location/SKILL.md)  
+   Шаблон: [`templates/location-playbook.md`](templates/location-playbook.md) · эталон: [`examples/locations/kamnegrad-klinkerov.pdf`](examples/locations/kamnegrad-klinkerov.pdf)
 
-Перед любыми выводами о содержимом репозитория или правках лора — выполнить стартовый ритуал из скила (ветка → `CANON.md` → `SOURCES.md` → `open-threads` → `timeline`).
+Оркестратор и остальные узкие скилы — в работе (квесты, страны, арты, главы…).
 
-Оглавление канона: [`CANON.md`](CANON.md) · правила источников: [`SOURCES.md`](SOURCES.md).
+Оглавление: [`CANON.md`](CANON.md) · источники: [`SOURCES.md`](SOURCES.md).
