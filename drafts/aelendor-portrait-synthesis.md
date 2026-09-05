@@ -57,9 +57,10 @@ date: 2026-09-05
 Лок: [`canon-lock-2026-09-05-aelendor-religion.md`](../../campaign/plot/canon-lock-2026-09-05-aelendor-religion.md)
 
 Витрина + Столпы + быт Моста + Хранители + касты + праздники — залочены.  
-**Сейчас:** общий контур **государственности закрыт** (народности → … → Лесоверье).  
-Дальше по желанию: баннер-города **или** другие воюющие государства.  
-Чеклист: [`aelendor-statehood-checklist.md`](aelendor-statehood-checklist.md)
+Витрина + Столпы + быт Моста + Хранители + касты + праздники + **государственность закрыта**.  
+Skill формирования государств: [`.cursor/skills/form-state/SKILL.md`](../.cursor/skills/form-state/SKILL.md).  
+Дальше (рекомендация): Destination MVP Разлома → Лес Хранителей → Lite воюющих → города → квесты.  
+→ [`next-after-aelendor.md`](next-after-aelendor.md)
 
 ---
 
