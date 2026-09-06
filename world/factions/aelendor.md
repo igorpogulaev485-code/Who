@@ -14,7 +14,7 @@ source: gm-lock + maps + player-briefs + past-present-boundary-2026-09-05
 Карты: [`aelendor-map.md`](../locations/aelendor-map.md) · [`aelendor-centers.md`](../locations/aelendor-centers.md) · [`states-overview.md`](../locations/states-overview.md)  
 Война: [`war-fronts-arc3.md`](../../campaign/plot/war-fronts-arc3.md)  
 Граница прошлого: [`past-present-boundary.md`](../../campaign/plot/past-present-boundary.md)  
-Погружение (черновик, взгляд обывателя): [`aelendor-sense-portrait-citizen.md`](../../drafts/aelendor-sense-portrait-citizen.md) · ракурсы: [`canon-lock-2026-09-06-sense-portrait-angles.md`](../../campaign/plot/canon-lock-2026-09-06-sense-portrait-angles.md)
+Погружение (**лок**, взгляд обывателя): [`aelendor-sense-portrait-citizen.md`](../../drafts/aelendor-sense-portrait-citizen.md) · ракурсы: [`canon-lock-2026-09-06-sense-portrait-angles.md`](../../campaign/plot/canon-lock-2026-09-06-sense-portrait-angles.md) · skills: [`form-state`](../../.cursor/skills/form-state/SKILL.md) · [`form-city`](../../.cursor/skills/form-city/SKILL.md)
 
 ---
 

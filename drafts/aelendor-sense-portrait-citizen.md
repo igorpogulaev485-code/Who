@@ -1,9 +1,10 @@
 ---
 title: Аэлендор — верхнеуровневый образ государства (гражданин + города)
-status: draft-for-lock
+status: locked
 tags: [aelendor, immersion, sense-portrait, citizen-pov]
 date: 2026-09-06
 source: gm-interview-voice
+approved: 2026-09-06
 note: полный лирический тон; без кризиса Разлома/войны; без Леса Хранителей; 8 баннер-городов
 ---
 
