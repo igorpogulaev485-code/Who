@@ -31,10 +31,10 @@ tags: [faction, planar, razlom]
 ## Обитатели
 
 - База = **официальный** бестиарий/иерархия Девяти Адов; жизнь максимально полная.  
-- Доработка Эха: **тифлинги**, смертные поселенцы/анклавы, прочие закрепившиеся.  
-- Лок: [`canon-lock-2026-09-05-demon-plane-inhabitants.md`](../../campaign/plot/canon-lock-2026-09-05-demon-plane-inhabitants.md)  
-- Витрина: [`dom-vladyki-inhabitants.md`](../../world/locations/dom-vladyki-inhabitants.md)  
-- Старый референс рас: [`dnd-fiendish-races-ref.md`](../../drafts/dnd-fiendish-races-ref.md)
+- **Тифлинги:** низ + слегка средний класс; слуги/убежище; **не знать**. Лок: [`canon-lock-2026-09-06-demon-plane-tieflings.md`](../../campaign/plot/canon-lock-2026-09-06-demon-plane-tieflings.md)  
+- Смертные поселенцы/анклавы — контур.  
+- Лок подхода: [`canon-lock-2026-09-05-demon-plane-inhabitants.md`](../../campaign/plot/canon-lock-2026-09-05-demon-plane-inhabitants.md)  
+- Витрина: [`dom-vladyki-inhabitants.md`](../../world/locations/dom-vladyki-inhabitants.md)
 
 ## Связь с Разломом (материк)
 
@@ -56,7 +56,7 @@ tags: [faction, planar, razlom]
 ## Открыто
 
 - Точные ландмарки спящих узлов внутри государств  
-- Статус тифлингов / крупные анклавы поселенцев  
-- Артефакты Кардиана; срез арки 3; города-якоря  
+- Крупные анклавы поселенцев; города-якоря  
+- Артефакты Кардиана; срез арки 3  
 
 Чеклист: [`drafts/dom-vladyki-planar-checklist.md`](../../drafts/dom-vladyki-planar-checklist.md)
