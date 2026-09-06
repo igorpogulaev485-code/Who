@@ -53,10 +53,16 @@ tags: [faction, planar, razlom]
 | **Пепельные земли** (спит) | 7 Маладомини |
 | — | 8–9 без стабильного входа с материка |
 
+## Города
+
+- Подход: **лорные must-have** + **свои города Эха**.  
+- Лок подхода: [`canon-lock-2026-09-06-demon-plane-cities-approach.md`](../../campaign/plot/canon-lock-2026-09-06-demon-plane-cities-approach.md)  
+- Пакет на утверждение: [`drafts/dom-vladyki-cities-package.md`](../../drafts/dom-vladyki-cities-package.md)
+
 ## Открыто
 
-- Точные ландмарки спящих узлов внутри государств  
-- Крупные анклавы поселенцев; города-якоря  
+- Утвердить пакет must-have + имена городов Эха  
+- Точные ландмарки спящих узлов  
 - Артефакты Кардиана; срез арки 3  
 
 Чеклист: [`drafts/dom-vladyki-planar-checklist.md`](../../drafts/dom-vladyki-planar-checklist.md)
