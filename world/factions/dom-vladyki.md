@@ -56,12 +56,13 @@ tags: [faction, planar, razlom]
 ## Города
 
 - Подход: **лорные must-have** + **свои города Эха**.  
-- Лок подхода: [`canon-lock-2026-09-06-demon-plane-cities-approach.md`](../../campaign/plot/canon-lock-2026-09-06-demon-plane-cities-approach.md)  
-- Пакет на утверждение: [`drafts/dom-vladyki-cities-package.md`](../../drafts/dom-vladyki-cities-package.md)
+- Плотность Эха: **~4 города на каждый круг** (~36) — лок.  
+- Лок: [`canon-lock-2026-09-06-demon-plane-cities-approach.md`](../../campaign/plot/canon-lock-2026-09-06-demon-plane-cities-approach.md)  
+- Реестр (наполнение по кругам): [`drafts/dom-vladyki-cities-package.md`](../../drafts/dom-vladyki-cities-package.md)
 
 ## Открыто
 
-- Утвердить пакет must-have + имена городов Эха  
+- Заполнить 4 города Эха на круг 1 (Авернус), затем остальные  
 - Точные ландмарки спящих узлов  
 - Артефакты Кардиана; срез арки 3  
 
