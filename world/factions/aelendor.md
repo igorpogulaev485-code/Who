@@ -13,7 +13,8 @@ source: gm-lock + maps + player-briefs + past-present-boundary-2026-09-05
 
 Карты: [`aelendor-map.md`](../locations/aelendor-map.md) · [`aelendor-centers.md`](../locations/aelendor-centers.md) · [`states-overview.md`](../locations/states-overview.md)  
 Война: [`war-fronts-arc3.md`](../../campaign/plot/war-fronts-arc3.md)  
-Граница прошлого: [`past-present-boundary.md`](../../campaign/plot/past-present-boundary.md)
+Граница прошлого: [`past-present-boundary.md`](../../campaign/plot/past-present-boundary.md)  
+Погружение (черновик): [`aelendor-sense-portrait.md`](../../drafts/aelendor-sense-portrait.md) · ракурсы: [`canon-lock-2026-09-06-sense-portrait-angles.md`](../../campaign/plot/canon-lock-2026-09-06-sense-portrait-angles.md)
 
 ---
 
