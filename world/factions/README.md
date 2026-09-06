@@ -2,11 +2,23 @@
 
 Организации, культы, гильдии, дворы. Цели, методы, лидеры, отношение к партии.
 
-- [Аэлендор](aelendor.md)
-- [Теневая Долина](tenevaya-dolina.md)
-- [Тёмные леса вечной тени](temnye-lesa.md)
-- [Орден пламенеющей стали](orden-plameneyushchey-stali.md)
-- [Империя Драконьего Хребта](imperiya-drakonyego-khrebta.md)
+Фронты войны (старт арки 3): [`../campaign/plot/war-fronts-arc3.md`](../../campaign/plot/war-fronts-arc3.md)
+
+## Государства конфликта
+
+- [Аэлендор](aelendor.md) — оборона; полное досье
+- [Теневая Долина](tenevaya-dolina.md) — агрессор; отрезана
+- [Орден пламенеющей стали](orden-plameneyushchey-stali.md) — ядро вторжения у Сильванора
+- [Империя Звёздной Пыли](imperiya-zvezdnoy-pyli.md) — предатель / враг
+- [Империя Драконьего Хребта](imperiya-drakonyego-khrebta.md) — ситуационный союзник
+- [Тёмные леса вечной тени](temnye-lesa.md) — дипломатия / перемирие
+- [Хостия](khostiya.md) — объявлена Филлером; фронт не подтверждён
+
+## Прочие фракции
+
+- [Хранители Граней](khraniteli-graney.md) — мировой орден (жив; не Аэлендор)
 - [Дом Вандерли](dom-vanderli.md)
 - [Культ Лолс](kult-lols.md)
-- [Хвост Скорпиона](khvost-skorpiona.md)
+- [Верховный трибунал](verkhovnyy-tribunal.md)
+- [Чёрная Просека](chernaya-proseka.md) · [Паутина Росы](pautina-rosy.md) · [Пепельный Договор](pepelnyy-dogovor.md) — федеральные банды
+- [Хвост Скорпиона](khvost-skorpiona.md) — уничтожена (Лунный Мост)

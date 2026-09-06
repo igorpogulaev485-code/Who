@@ -1,6 +1,6 @@
 # Канон — индекс
 
-Живой оглавление. Обновлено после импорта первого шаринга Qwen (сессии 1–8 + side).
+Живой оглавление. Обновлено 2026-09-05: граница прошлого (арка 3 без сессий) + досье Аэлендора и фронтов войны.
 
 ## Мета
 
@@ -33,6 +33,11 @@
 ## Мир — лор
 
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
+- [Вход в Разлом: два плана](campaign/plot/canon-lock-2026-09-05-razlom-entry.md)
+- [Разломы → круги Дома](campaign/plot/canon-lock-2026-09-05-razlom-to-circles.md)
+- [Погружение — ракурсы](campaign/plot/canon-lock-2026-09-06-sense-portrait-angles.md) · [Аэлендор глазами обывателя — **лок**](drafts/aelendor-sense-portrait-citizen.md)
+- Skills: [form-state](.cursor/skills/form-state/SKILL.md) · [form-city](.cursor/skills/form-city/SKILL.md)
+- [Дом Владыки — идентичность](campaign/plot/canon-lock-2026-09-05-demon-plane-identity.md) · [Асмодей / раскол](campaign/plot/canon-lock-2026-09-05-demon-plane-asmodey.md) · [космология / 9 кругов](campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка лордов](campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md) · [ворота](campaign/plot/canon-lock-2026-09-05-demon-plane-gates.md) · [обитатели](campaign/plot/canon-lock-2026-09-05-demon-plane-inhabitants.md) · [тифлинги](campaign/plot/canon-lock-2026-09-06-demon-plane-tieflings.md) · [города — подход](campaign/plot/canon-lock-2026-09-06-demon-plane-cities-approach.md) · [таблица кругов](world/locations/dom-vladyki-nine-circles.md) · [витрина обитателей](world/locations/dom-vladyki-inhabitants.md) · [досье](world/factions/dom-vladyki.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md)
 - [Сет божественной силы](world/lore/artefacts-divine-set.md)
 - [Сет артефактов Драконов](world/lore/artefacts-dragon-set.md)
@@ -72,14 +77,17 @@
 
 ## Фракции
 
-- [Аэлендор](world/factions/aelendor.md)
+- [Аэлендор](world/factions/aelendor.md) — полное досье королевства
 - [Теневая Долина](world/factions/tenevaya-dolina.md)
 - [Тёмные леса вечной тени](world/factions/temnye-lesa.md)
 - [Орден пламенеющей стали](world/factions/orden-plameneyushchey-stali.md)
+- [Империя Звёздной Пыли](world/factions/imperiya-zvezdnoy-pyli.md)
+- [Империя Драконьего Хребта](world/factions/imperiya-drakonyego-khrebta.md)
+- [Хостия](world/factions/khostiya.md)
 - [Дом Вандерли](world/factions/dom-vanderli.md)
 - [Культ Лолс](world/factions/kult-lols.md)
 - [Хвост Скорпиона](world/factions/khvost-skorpiona.md)
-- [Империя Драконьего Хребта](world/factions/imperiya-drakonyego-khrebta.md)
+- Черновик наполнения Аэлендора: [drafts/aelendor-country-expansion.md](drafts/aelendor-country-expansion.md)
 
 ## NPC
 
@@ -104,6 +112,35 @@
 
 ## Сюжет
 
+- [Граница прошлого и будущего](campaign/plot/past-present-boundary.md) — арки 1–2 = прошлое; арка 3 ещё без сессий
+- [Канон-лок опрос Аэлендор r1](campaign/plot/canon-lock-2026-09-05-aelendor-r1.md) — Элессар скрыт; Розалия в осаде; Хребет/Звёздная Пыль/Лолс
+- [Канон-лок опрос Аэлендор r2](campaign/plot/canon-lock-2026-09-05-aelendor-r2.md) — советы вместо короля; касты; Хостия в разделе; 3 дракона ч/з/к
+- [Канон-лок опрос Аэлендор r3](campaign/plot/canon-lock-2026-09-05-aelendor-r3.md) — Хостия З/ЮЗ; всадники; драконий сет в храмах Лолс; кольцо из Розалии у Грока
+- [Канон-лок Синклит Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-synklit.md) — Председатель = Филлер; 8 отраслей + 8 регионов; касты; адъютанты в зале
+- [Канон-лок гос-тень + Лунный Мост](campaign/plot/canon-lock-2026-09-05-aelendor-shadow-state.md) — Теневой Совет, контрразведка, порталы; Лунный Мост = релицентр без банд
+- [Канон-лок банды + трибунал](campaign/plot/canon-lock-2026-09-05-aelendor-gangs-tribunal.md) — F1–F3; банкиры без кресла; Верховный трибунал с креслом
+- [Верховный трибунал](world/factions/verkhovnyy-tribunal.md) · [Чёрная Просека](world/factions/chernaya-proseka.md) · [Паутина Росы](world/factions/pautina-rosy.md) · [Пепельный Договор](world/factions/pepelnyy-dogovor.md)
+- [Столпы Мира](world/locations/stolpy-mira.md) — **4** на рубежах Аэлендора (не 5; Сильфия/Древо ≠ Столп)
+- [Хранители Граней](world/factions/khraniteli-graney.md) — живой мировой орден
+- [Канон-лок религия + Разлом (быт)](campaign/plot/canon-lock-2026-09-05-aelendor-religion.md)
+- [Канон-лок витрина пантеона](campaign/plot/canon-lock-2026-09-05-aelendor-pantheon.md) — Кореллон…Аэрдри + Лолс
+- [Канон-лок быт Лунного Моста](campaign/plot/canon-lock-2026-09-05-lunnyy-most-atmosphere.md) — Разлом внутри, фронтовой быт
+- [Канон-лок идентичность Аэлендора](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) — гордость, эпохи Разлома, Лес Хранителей, Столпы
+- [Канон-лок Хранители Граней](campaign/plot/canon-lock-2026-09-05-khraniteli-graney.md) — живы; Обитель у Зеркала в Лунном Мосту (до Разлома); **строго 4** Столпа, Древо ≠ Столп
+- [Канон-лок вид каст](campaign/plot/canon-lock-2026-09-05-aelendor-caste-look.md) — форма между кастами; регалии внутри; облики 6 каст
+- [Канон-лок праздники](campaign/plot/canon-lock-2026-09-05-aelendor-festivals.md) — полный набор
+- [Канон-лок народности](campaign/plot/canon-lock-2026-09-05-aelendor-peoples.md) — эльфы/полуэльфы ядро; без орков/гоблинов как населения
+- [Канон-лок языки](campaign/plot/canon-lock-2026-09-05-aelendor-languages.md) — эльфийский 1°, общий 2°
+- [Канон-лок двор](campaign/plot/canon-lock-2026-09-05-aelendor-court.md) — правительственный двор; офиц. короля нет
+- [Канон-лок армия](campaign/plot/canon-lock-2026-09-05-aelendor-army.md) — кадры, гарнизоны, сильные маги; ополчение вторично
+- [Канон-лок флот](campaign/plot/canon-lock-2026-09-05-aelendor-fleet.md) — слабый военный; много торгового трафика в Розалию
+- [Канон-лок экономика](campaign/plot/canon-lock-2026-09-05-aelendor-economy.md) — валюта D&D; кристаллы Камнеграда; торговля через Розалию
+- [Канон-лок гражданство](campaign/plot/canon-lock-2026-09-05-aelendor-citizenship.md) — гражданин или гость; спрос закона равный
+- [Канон-лок образование](campaign/plot/canon-lock-2026-09-05-aelendor-education.md) — школы везде; Лесоверье = Великая академия
+- [Канон-лок вход в Разлом](campaign/plot/canon-lock-2026-09-05-razlom-entry.md) — два плана; волна; направление магией Аэлендора
+- [Бриф Кардиан+Разлом](drafts/kardian-razlom-brief.md)
+- [Портрет Аэлендора — сводка](drafts/aelendor-portrait-synthesis.md) *(living)*
+- [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
