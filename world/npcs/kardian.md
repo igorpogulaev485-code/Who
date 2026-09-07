@@ -14,3 +14,5 @@ tags: [npc, antagonist, artifacts]
 
 **Сны для игроков (эмпатия до встречи):** архив Qwen — [`qwen-kardian-essence-dreams.md`](../../drafts/imports/qwen-kardian-essence-dreams.md).  
 Сон 1 «Эхо Пепла»; сон 3 «Цена Знания» (Ледяной Союз). Сон 2 в чате путался — мастер уже отправил отдельно.
+
+**Цена ношения (1–6):** см. [`artefacts-kardian.md`](../lore/artefacts-kardian.md). На 6 в теле носителя воскресает Кардиан.

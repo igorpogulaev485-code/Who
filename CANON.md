@@ -34,11 +34,11 @@
 ## Мир — лор
 
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
-- [Артефакты Кардиана](world/lore/artefacts-kardian.md)
+- [Артефакты Кардиана](world/lore/artefacts-kardian.md) ← шкала ношения 1–6 (канон)
 - [Сет божественной силы](world/lore/artefacts-divine-set.md)
 - [Сет артефактов Драконов](world/lore/artefacts-dragon-set.md)
 - [Девять древних драконов](world/lore/ancient-dragons.md)
-- Черновик: [дебафы за 3 артефакта](drafts/kardian-debuffs-3-artifacts.md)
+- Снято: [старый черновик дебафов на 3](drafts/kardian-debuffs-3-artifacts.md)
 - [Харенгоны](world/lore/harengons.md)
 
 ## Локации
