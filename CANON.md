@@ -130,10 +130,12 @@
 
 ## Подготовка (ещё не сыграно)
 
-- [План оркестратора — квесты арки 3](campaign/prep/orchestrator/arc3-quests-plan.md) *(wait-ok)*
+- [План оркестратора — квесты арки 3](campaign/prep/orchestrator/arc3-quests-plan.md)
+- [Арка 3 — основные квесты (overview)](campaign/prep/arcs/arc-3/mains-overview.md) *(prep)*
+- [Playbook Лунного моста (хаб)](campaign/prep/locations/lunnyy-most/playbook.md) *(prep)*
 - [Опрос приоритетов mq арки 3](campaign/plot/skill-survey-arc3-quests-v1.html)
 - [Агенты / скилы](AGENTS.md)
-- [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md) *(частично устарел — Маэстро мёртв)*
+- [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md) *(stale — Маэстро мёртв; каталог мест)*
 - [Вирра / Гонд — награда за веру](campaign/prep/virra-gond-faith-reward.md)
 - [Битва за Лунный Овраг — механика](campaign/prep/bitva-za-lunnyy-ovrag.md)
 - [Кузница Фиалки](world/locations/lunnyy-most/kuznitsa-fialki.md)
