@@ -130,7 +130,10 @@
 
 ## Подготовка (ещё не сыграно)
 
-- [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md)
+- [План оркестратора — квесты арки 3](campaign/prep/orchestrator/arc3-quests-plan.md) *(wait-ok)*
+- [Опрос приоритетов mq арки 3](campaign/plot/skill-survey-arc3-quests-v1.html)
+- [Агенты / скилы](AGENTS.md)
+- [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md) *(частично устарел — Маэстро мёртв)*
 - [Вирра / Гонд — награда за веру](campaign/prep/virra-gond-faith-reward.md)
 - [Битва за Лунный Овраг — механика](campaign/prep/bitva-za-lunnyy-ovrag.md)
 - [Кузница Фиалки](world/locations/lunnyy-most/kuznitsa-fialki.md)

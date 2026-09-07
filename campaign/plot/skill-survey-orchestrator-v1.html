@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опросник — скил оркестратора v1 — Эхо рассвета</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.4rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  select, textarea, input[type=text] {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опросник — скил оркестратора v1</h1>
+  <p class="lead">Приватный репо: страница самодостаточная. Выпадающие списки → «Скопировать ответы» → вставь в чат Cursor. Mirror: litter.catbox.moe (~72 ч).</p>
+  <div class="locked"><b>Контекст:</b> последний скил базовой волны — <code>echo-dawn-orchestrator</code>. Уже есть: канон, локации, побочки, основные, государства, артефакты, главы книг. Оркестратор должен <b>маршрутизировать</b> работу по ним; узкие «забытые» скилы (сессия, NPC, энкаунтер…) — позже.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Типовые фразы «подготовь сессию», что бесит в менеджерах, приоритеты фронтов, что пропустил.</p>
+    <textarea id="freeform" rows="8" placeholder="Заметки…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+
+<div class="footer">
+  <div class="footer-inner">
+    <button class="secondary" type="button" id="btnClear">Сброс</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано — вставь в чат Cursor</div>
+
+<script>
+const SECTIONS = [
+  { title: "A. Роль", hint: "Кто такой оркестратор", questions: [
+    { id: "a1_role", label: "A1. Главная роль оркестратора?",
+      ctx: "Базовая идея: «управляет всем». Узкие скилы уже умеют писать контент сами.",
+      options: [
+        ["router_only", "Только маршрутизатор: разобрать задачу → вызвать нужные скилы"],
+        ["planner_router", "Планировщик + маршрутизатор: план шагов, потом делегирование"],
+        ["planner_router_writer", "План + маршрут + сам пишет короткие сводки/чеклисты (не полные playbook)"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "a2_when", label: "A2. Когда вызывать оркестратор?",
+      ctx: "Сейчас узкие скилы дергают по прямой просьбе («сделай локацию»).",
+      options: [
+        ["always_first", "Почти всегда первым на любую задачу по кампании"],
+        ["multi_or_vague", "Когда задача составная / неясно какой скил / «подготовь к сессии»"],
+        ["explicit_only", "Только когда явно просят оркестратор / дирижёра"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "a3_vs_canon", label: "A3. Связь с echo-dawn-canon?",
+      ctx: "Canon-скил: ритуал чтения репо + правила канона. Оркестратор не должен дублировать его целиком.",
+      options: [
+        ["canon_then_orch", "Сначала всегда ритуал canon, потом оркестратор"],
+        ["orch_includes_canon", "Оркестратор сам запускает ритуал canon как шаг 0"],
+        ["orch_is_entry", "Оркестратор = новый entrypoint; canon вызывается внутри при правке лора"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+  ]},
+  { title: "B. Маршрутизация", hint: "Как выбирает скилы", questions: [
+    { id: "b1_map", label: "B1. Карта «запрос → скил» в оркестраторе?",
+      ctx: "Семь готовых: canon, location, quest-side, quest-main, state, artifact, book-chapter.",
+      options: [
+        ["hard_table", "Жёсткая таблица в скиле (ключевые слова → скил)"],
+        ["hard_plus_fallback", "Таблица + fallback: неясно → опросник мастеру"],
+        ["always_ask_route", "Всегда коротко спросить мастера какой скил/пакет"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "b2_parallel", label: "B2. Несколько скилов в одной задаче?",
+      ctx: "Пример: «едем в Лес Хранителей» = state + location + mains/side.",
+      options: [
+        ["sequential_plan", "План по порядку (сначала X, потом Y)"],
+        ["parallel_ok", "Можно параллелить независимые куски"],
+        ["one_skill_per_turn", "За один заход только один узкий скил"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "b3_missing_skill", label: "B3. Если нужен скил которого ещё нет (NPC, сессия, энкаунтер)?",
+      ctx: "«Забытые» скилы отложены специально.",
+      options: [
+        ["survey_then_inline", "Короткий опрос → сделать временно внутри оркестратора / ad-hoc"],
+        ["park_and_list", "Парковать: список «нужен скил X», не выдумывать процесс"],
+        ["use_closest", "Ближайший существующий скил (напр. NPC → location registry)"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+  ]},
+  { title: "C. Опросы и канон", hint: "Власть и формат §10", questions: [
+    { id: "c1_surveys", label: "C1. Кто ведёт опросники мастеру?",
+      ctx: "§10 canon: всегда dropdown + litterbox. Узкие скилы уже так делают при дизайне.",
+      options: [
+        ["orch_owns_cross", "Оркестратор ведёт опросы на стыках/приоритетах; узкий скил — на свои решения"],
+        ["orch_all_surveys", "Все опросы мастеру идут через оркестратор"],
+        ["specialists_only", "Опросы только у узких скилов; оркестратор лишь напоминает"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "c2_lock_authority", label: "C2. Кто пишет canon-lock / skill-lock?",
+      ctx: "Сейчас локи пишутся после ответов в том же потоке, что и скил.",
+      options: [
+        ["specialist_writes_lock", "Лок пишет тот скил, чья тема (оркестратор только требует лок)"],
+        ["orch_writes_lock", "Локи пишет оркестратор, специалисты только контент"],
+        ["orch_or_specialist", "Оба ок: оркестратор на кросс-темы, специалист на свои"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "c3_no_invent", label: "C3. Жёсткость «не выдумывать канон»?",
+      ctx: "Живой мир двигается, но факты без слова мастера не фиксировать.",
+      options: [
+        ["strict_survey", "Строго: дырка → опросник, не заполнять канон до ответа"],
+        ["prep_ok_canon_not", "Можно prep/черновик; в canon только после ok/опроса"],
+        ["living_world_soft", "Можно двигать «сейчас» в open-threads осторожно без опроса"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+  ]},
+  { title: "D. Выходы и сессии", hint: "Что оркестратор производит", questions: [
+    { id: "d1_output", label: "D1. Обязательный артефакт оркестратора?",
+      ctx: "Нужен ли файл плана или достаточно чата.",
+      options: [
+        ["plan_file", "Да: campaign/prep/orchestrator/<slug>-plan.md (+ docx по желанию)"],
+        ["chat_checklist", "Чеклист в чате достаточно; файл — по запросу"],
+        ["update_open_threads", "Главный выход — обновить open-threads / prep README"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "d2_session_prep", label: "D2. «Подготовь сессию» — зона оркестратора?",
+      ctx: "Отдельного session-скила ещё нет.",
+      options: [
+        ["orch_session_bundle", "Да: оркестратор собирает пакет (локации/квесты/NPC-якоря) через другие скилы"],
+        ["wait_session_skill", "Нет, ждать отдельный session-скил"],
+        ["light_agenda_only", "Только лёгкая повестка сессии; контент — узкими скилами по запросу"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "d3_recap", label: "D3. Рекап после сессии?",
+      ctx: "Сейчас хроника/briefs вручную.",
+      options: [
+        ["orch_recap_flow", "Оркестратор ведёт поток: рекап → timeline → open-threads → что в canon"],
+        ["defer_recap_skill", "Отложить до session-recap скила"],
+        ["manual_gm", "Рекап только когда мастер пришлёт текст"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+  ]},
+  { title: "E. Приоритеты и антипаттерны", hint: "Как не раздуть", questions: [
+    { id: "e1_priority", label: "E1. Если партия медлит — что оркестратор двигает в первую очередь?",
+      ctx: "Canon §8a: мир живой. Сейчас open-threads: Лес Хранителей / Разлом / война / Марин.",
+      options: [
+        ["ask_gm_front", "Спросить мастера какой фронт двигать"],
+        ["follow_open_threads", "По списку open-threads сверху вниз"],
+        ["party_choice_first", "Сначала готовность к выбору партии, мир — фоном"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "e2_hate", label: "E2. Что бесит в «агенте-менеджере» больше всего?",
+      ctx: "Антипаттерн оркестратора.",
+      options: [
+        ["wall_of_plan", "Простыня плана без дела / без файлов"],
+        ["bypass_skills", "Сам пишет локации/квесты в обход узких скилов"],
+        ["too_many_questions", "Спрашивает всё подряд, даже когда таблица маршрутов ясна"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+    { id: "e3_depth", label: "E3. Глубина первого ответа оркестратора?",
+      ctx: "Баланс скорости и контроля.",
+      options: [
+        ["short_plan_then_go", "Короткий план (5–10 строк) → сразу первый делегированный шаг"],
+        ["plan_wait_ok", "План → ждать ok мастера → потом шаги"],
+        ["survey_first_if_gap", "Если дырка в каноне — сначала опросник, иначе plan+go"],
+        ["other", "Другое / уточню в заметке"],
+      ]},
+  ]},
+];
+
+
+const KEY = "echo-dawn-skill-survey-orchestrator-v1";
+
+function $(id) { return document.getElementById(id); }
+
+function build() {
+  const root = $("sections");
+  root.innerHTML = "";
+  SECTIONS.forEach((sec) => {
+    const el = document.createElement("section");
+    el.innerHTML = `<h2>${sec.title}</h2><p class="hint">${sec.hint || ""}</p>`;
+    sec.questions.forEach((q) => {
+      const wrap = document.createElement("div");
+      wrap.className = "q";
+      wrap.dataset.id = q.id;
+      let opts = `<option value="">— выбери —</option>`;
+      q.options.forEach(([val, label]) => {
+        opts += `<option value="${val}">${label}</option>`;
+      });
+      wrap.innerHTML = `
+        <span class="title">${q.label}</span>
+        <div class="ctx">${q.ctx || ""}</div>
+        <select data-id="${q.id}">${opts}</select>
+        <textarea class="note" data-note="${q.id}" rows="2" placeholder="Заметка (если Другое / уточнение)"></textarea>
+      `;
+      el.appendChild(wrap);
+      const sel = wrap.querySelector("select");
+      const note = wrap.querySelector(".note");
+      sel.addEventListener("change", () => {
+        const v = sel.value;
+        if (v === "other" || v === "later") {
+          note.classList.add("show");
+        }
+        save(); updateProgress();
+      });
+      note.addEventListener("input", () => { save(); });
+    });
+    root.appendChild(el);
+  });
+}
+
+function allQuestions() {
+  const list = [];
+  SECTIONS.forEach((s) => s.questions.forEach((q) => list.push(q)));
+  return list;
+}
+
+function collect() {
+  const answers = {};
+  allQuestions().forEach((q) => {
+    const sel = document.querySelector(`select[data-id="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    const val = sel ? sel.value : "";
+    const opt = (q.options.find(([v]) => v === val) || [val, val])[1];
+    answers[q.id] = { value: val, text: val ? opt : "", note: note ? note.value.trim() : "" };
+    if (val === "other" || val === "later" || (note && note.value.trim())) {
+      note && note.classList.add("show");
+    }
+  });
+  return { answers, freeform: ($("freeform").value || "").trim() };
+}
+
+function save() {
+  localStorage.setItem(KEY, JSON.stringify(collect()));
+}
+
+function updateProgress() {
+  const qs = allQuestions();
+  const data = collect();
+  let n = 0;
+  qs.forEach((q) => { if (data.answers[q.id].value) n++; });
+  $("count").textContent = `${n} / ${qs.length}`;
+  $("bar").style.width = `${(n / qs.length) * 100}%`;
+}
+
+function load() {
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    if (data.freeform) $("freeform").value = data.freeform;
+    Object.entries(data.answers || {}).forEach(([id, a]) => {
+      const sel = document.querySelector(`select[data-id="${id}"]`);
+      const note = document.querySelector(`textarea[data-note="${id}"]`);
+      if (sel && a.value) sel.value = a.value;
+      if (note && a.note) { note.value = a.note; note.classList.add("show"); }
+    });
+  } catch (e) {}
+}
+
+function format(data) {
+  let out = "=== Опросник скил оркестратора v1 (ответы мастера) ===\n\n";
+  SECTIONS.forEach((sec) => {
+    out += `## ${sec.title}\n`;
+    sec.questions.forEach((q) => {
+      const a = data.answers[q.id] || {};
+      out += `- ${q.label}: ${a.text || "—"}`;
+      if (a.note) out += `\n  заметка: ${a.note}`;
+      out += "\n";
+    });
+    out += "\n";
+  });
+  if (data.freeform) out += `## Свободный текст\n${data.freeform}\n`;
+  return out;
+}
+
+$("btnCopy").onclick = async () => {
+  const data = collect();
+  const text = format(data);
+  $("out").textContent = text;
+  $("out").classList.add("show");
+  try {
+    await navigator.clipboard.writeText(text);
+    const t = $("toast");
+    t.style.display = "block";
+    setTimeout(() => { t.style.display = "none"; }, 2000);
+  } catch (e) {
+    alert("Скопируй текст вручную из блока ниже");
+  }
+};
+
+$("btnClear").onclick = () => {
+  if (!confirm("Сбросить ответы на этом устройстве?")) return;
+  localStorage.removeItem(KEY);
+  location.reload();
+};
+
+$("freeform").addEventListener("input", save);
+
+build();
+load();
+updateProgress();
+</script>
+</body>
+</html>
