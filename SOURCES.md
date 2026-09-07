@@ -46,6 +46,7 @@ tags: [meta]
 | 2026-09-04 | `drafts/imports/qwen-prep-lunnyy-ovrag.md` | https://chat.qwen.ai/s/8660b524-2fcf-42c8-b65e-35fea6309c8a |
 | 2026-09-04 | `drafts/imports/qwen-istoricheskaya-entsiklopediya.md` | https://chat.qwen.ai/s/c83ea575-6b67-413c-b93e-f8ac297c873c |
 | 2026-09-04 | `drafts/imports/qwen-ark3-vnutri-razloma.md` | https://chat.qwen.ai/s/1594818c-09f3-4713-957c-4a0402e2714b |
+| 2026-09-07 | `drafts/imports/qwen-kardian-essence-dreams.md` | https://chat.qwen.ai/s/8c9c73d5-c018-490e-ace0-6976eef1c9c9 |
 | 2026-09-04 | `world/player-books/` (Telegraph) | https://telegra.ph/Traktat-o-Flore-Planov-i-Predelov-12-08 + Зеркало Памяти + Энциклопедия драконов |
 | 2026-09-04 | `assets/character-sheets/` + `campaign/party/` | Листы игроков LSS (Вирра, Грок, Балтан, Дранник, Кавил, Плач звезды, Эларион) |
 | 2026-09-04 | `assets/maps/world-map-echo-dawn.jpg` | Карта мира от мастера → `world/locations/world-map.md` |

@@ -15,6 +15,7 @@
 - [Архив: ваншот Первого Разлома](drafts/imports/qwen-oneshot-first-razlom.md)
 - [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
 - [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
+- [Архив: Кардиан — суть и сны для игроков](drafts/imports/qwen-kardian-essence-dreams.md)
 - [Архив: региональные центры Аэлендора](drafts/imports/qwen-aelendor-regional-centers.md)
 - [Архив: визуализация Камнеграда](drafts/imports/qwen-kamnegrad-viz.md)
 - [Архив: глашатай о драконе](drafts/imports/qwen-herald-dragon.md)
