@@ -15,3 +15,5 @@ campaign/prep/arcs/<arc-slug>/
 ```
 
 Канон структуры арок (сюжет): [`campaign/plot/arcs.md`](../plot/arcs.md).
+
+Активный пакет: [`arc-3/mains-overview.md`](arc-3/mains-overview.md).
