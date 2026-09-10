@@ -131,6 +131,8 @@
 ## Подготовка (ещё не сыграно)
 
 - [План оркестратора — квесты арки 3](campaign/prep/orchestrator/arc3-quests-plan.md)
+- [План — бюджет сессий арки 3](campaign/prep/orchestrator/arc3-session-budget-plan.md) *(ждёт ответов)*
+- [Опрос: бюджет сессий арки 3](campaign/plot/skill-survey-arc3-session-budget-v1.html)
 - [Арка 3 — основные квесты (overview)](campaign/prep/arcs/arc-3/mains-overview.md) *(prep)*
 - [Playbook Лунного моста (хаб)](campaign/prep/locations/lunnyy-most/playbook.md) *(prep)*
 - [Опрос приоритетов mq арки 3](campaign/plot/skill-survey-arc3-quests-v1.html)
