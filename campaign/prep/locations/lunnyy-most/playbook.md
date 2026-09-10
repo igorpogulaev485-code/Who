@@ -79,6 +79,7 @@ attitude_axes:
 | mq-03 | Корона в Лесу | Врата Рассвета | нужда короны / Кавил | [`../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md`](../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md) |
 | mq-04 | Велиан пропал | Казармы / край | Тандил | [`../../arcs/arc-3/quests/mq-04-ten-ushla.md`](../../arcs/arc-3/quests/mq-04-ten-ushla.md) |
 | mq-05 | Пепел Маэстро | Верх / пепел шатра / Фиалка | похороны / дневник | [`../../arcs/arc-3/quests/mq-05-pepel-maestro.md`](../../arcs/arc-3/quests/mq-05-pepel-maestro.md) |
+| mq-06 | Три арта на земле | Кавил / гарнизон Хребта (старт охоты) | Филлер·Кавил / гонка | [`../../arcs/arc-3/quests/mq-06-tri-na-zemle.md`](../../arcs/arc-3/quests/mq-06-tri-na-zemle.md) |
 
 ---
 
