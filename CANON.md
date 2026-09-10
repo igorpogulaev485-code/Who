@@ -93,7 +93,8 @@
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
-- [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
+- [Велиан Полутень](world/npcs/velian.md) — жив; план мёртвых, в пути
+- [Лианэя](world/npcs/lianeya.md) — сестра Элариона; армия мёртвых; Доспехи смерти *(secret)*
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
 
 ## Партия
@@ -111,6 +112,7 @@
 - [Гипотетический коридор арок 3–5](campaign/plot/arc-roadmap-hypothesis.md) *(draft)*
 - [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
 - [Канон-лок раунд 2](campaign/plot/canon-lock-2026-09-04-round2.md)
+- [Канон-лок 2026-09-10: Лианэя / Велиан / старт арки 3](campaign/plot/canon-lock-2026-09-10-arc3-start.md)
 - [Сообщения игрокам: Страж + глашатай](campaign/sessions/player-briefs-silver-guard-and-herald.md)
 - [Награды за Страж](campaign/party/rewards-silver-guard.md)
 - [Кандидаты 4 Разломов](campaign/plot/rift-candidates.md)
