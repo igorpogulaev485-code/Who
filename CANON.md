@@ -92,6 +92,7 @@
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
+- [Сильванара](world/npcs/silvanara.md) — мать Люмиэля; слух о престоле
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
 - [Велиан Полутень](world/npcs/velian.md) — жив; план мёртвых, в пути
 - [Лианэя](world/npcs/lianeya.md) — сестра Элариона; армия мёртвых; Доспехи смерти *(secret)*
