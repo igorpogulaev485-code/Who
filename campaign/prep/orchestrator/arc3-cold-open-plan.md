@@ -1,7 +1,7 @@
 ---
 id: orch-arc3-cold-open
 title: "План оркестратора — cold open Лунного моста"
-status: blocked-survey
+status: in-progress
 source: gm-2026-09-10
 ---
 
@@ -9,16 +9,20 @@ source: gm-2026-09-10
 
 ## Цель
 
-Собрать мысли мастера и сделать стол-ready сессию 1 в Лунном мосту (партия в приюте).
+Стол-ready сессия 1: слухи до игры → похороны → поступательный выбор.
 
-## Уже зафиксировано
+## Статус
 
-- Видение Элариона → [`briefs/elarion-vision-lianeya.md`](../briefs/elarion-vision-lianeya.md)  
-- Каталог мест 1–58 → [`locations/lunnyy-most/places-catalog.md`](../locations/lunnyy-most/places-catalog.md)  
-- Партия в приюте; Маэстро мёртв  
+| Шаг | Статус |
+|---|---|
+| Ответы мастера → лок | done — `canon-lock-2026-09-10-cold-open.md` |
+| Пакет слухов игрокам | done — `briefs/arc3-rumors-eve.md` |
+| Каркас сессии 1 | done — `arc3-session-01-cold-open.md` |
+| Текст дневника (book-chapter) | **wait** — когда скажешь «пиши дневник» |
+| Слой 2 слухов на похоронах | ready — могу дописать после ок на слой 1 |
 
-## Жду ответы на вопросы в чате (ниже)
+## Следующее
 
-После ответов: quest-side слухи + сцены S1 в playbook / session brief.
-
-**Жду мысли мастера.**
+1. Ок/правка слухов слоя 1.  
+2. По запросу — глава дневника Маэстро (`echo-dawn-book-chapter`).  
+3. По запросу — 2–3 сцены похорон детально.
