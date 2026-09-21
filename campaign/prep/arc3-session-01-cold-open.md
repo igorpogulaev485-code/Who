@@ -41,7 +41,7 @@ source: gm-lock-2026-09-10-cold-open
 
 - **Детали 1–2 (актуально):** [`arcs/arc-3/quests/mq-01-sessions-1-2-detail.md`](arcs/arc-3/quests/mq-01-sessions-1-2-detail.md)  
 - Spine Разлома: [`arcs/arc-3/quests/mq-01-razlom-spine-20.md`](arcs/arc-3/quests/mq-01-razlom-spine-20.md)  
-- Лок: [`../../campaign/plot/canon-lock-2026-09-10-cold-open.md`](../plot/canon-lock-2026-09-10-cold-open.md)  
+- Лок: [`../plot/canon-lock-2026-09-10-cold-open.md`](../plot/canon-lock-2026-09-10-cold-open.md)  
 - Каталог мест: [`locations/lunnyy-most/places-catalog.md`](locations/lunnyy-most/places-catalog.md)  
 - mq-05: [`arcs/arc-3/quests/mq-05-pepel-maestro.md`](arcs/arc-3/quests/mq-05-pepel-maestro.md)  
 - Playbook: [`locations/lunnyy-most/playbook.md`](locations/lunnyy-most/playbook.md)
