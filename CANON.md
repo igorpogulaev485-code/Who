@@ -115,6 +115,8 @@
 - [Канон-лок раунд 2](campaign/plot/canon-lock-2026-09-04-round2.md)
 - [Канон-лок 2026-09-10: Лианэя / Велиан / старт арки 3](campaign/plot/canon-lock-2026-09-10-arc3-start.md)
 - [Канон-лок cold open](campaign/plot/canon-lock-2026-09-10-cold-open.md)
+- [Дневник Маэстро — оглавление 58 стр. (канон)](campaign/prep/books/dnevnik-maestro/00-toc-v3-blocks.md)
+- [Оглавление дневника для игроков](campaign/prep/books/dnevnik-maestro/toc-telegram.txt)
 - [Слухи накануне (игрокам)](campaign/prep/briefs/arc3-rumors-eve.md)
 - [Сессия 1 cold open](campaign/prep/arc3-session-01-cold-open.md)
 - [Сообщения игрокам: Страж + глашатай](campaign/sessions/player-briefs-silver-guard-and-herald.md)

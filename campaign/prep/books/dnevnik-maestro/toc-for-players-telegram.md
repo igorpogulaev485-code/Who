@@ -1,8 +1,11 @@
 ---
 title: Дневник Келебрима — оглавление (для игроков / Telegram)
-status: prep
-tags: [player-facing, diary, telegram]
+status: canon
+tags: [player-facing, diary, telegram, canon]
 audience: players
+locked: gm-2026-09-21
 ---
 
-См. чистый текст для копирования: [`toc-telegram.txt`](toc-telegram.txt)
+# Оглавление — канон
+
+Структура тома зафиксирована. Чистый текст: [`toc-telegram.txt`](toc-telegram.txt)
