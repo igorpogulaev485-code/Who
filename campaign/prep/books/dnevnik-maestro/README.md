@@ -6,11 +6,12 @@ tags: [book, diary]
 
 # Дневник Маэстро Келебрима
 
-Найденный том (58 стр.) + писчее перо. Не открыт партией.
+58 страниц. Пишем **по одной** в `pages/NN.md`.
 
 | Файл | Содержание |
 |---|---|
-| [`00-toc-and-design.md`](00-toc-and-design.md) | Рамка + оглавление + вопросы мастеру |
-| *(позже)* `pages-…` / `world/player-books/dnevnik-kelebrima/` | Текст порций I–IV |
+| [`00-lock-and-toc-v2.md`](00-lock-and-toc-v2.md) | Лок ответов + оглавление v2 |
+| [`00-toc-and-design.md`](00-toc-and-design.md) | Черновик рамки (частично устарел) |
+| [`pages/01.md`](pages/01.md) | Стр. 1 — Этот том |
 
-Стол: [`../locations/lunnyy-most/funerals-scenes.md`](../locations/lunnyy-most/funerals-scenes.md)
+Дочь: [`../../../world/npcs/firiyessa.md`](../../../world/npcs/firiyessa.md) (**Фириэсса**).
