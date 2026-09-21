@@ -100,4 +100,5 @@ defaults_note: "Опрос приоритетов без ответов → во
 Сборник: `mains-bundle.md` / `mains-bundle.docx` (собрать по запросу).
 
 **Горизонт prep:** каркас каждого направления ≈ **на всю арку (~20 сессий)**; детали — по мере прохождения. Метод: [`prep-method.md`](prep-method.md).  
-Ветка Разлома (spine): [`quests/mq-01-razlom-spine-20.md`](quests/mq-01-razlom-spine-20.md) *(wait-ok)*.
+Ветка Разлома (spine): [`quests/mq-01-razlom-spine-20.md`](quests/mq-01-razlom-spine-20.md) *(ok)*.  
+Детали сессий 1–2: [`quests/mq-01-sessions-1-2-detail.md`](quests/mq-01-sessions-1-2-detail.md).
