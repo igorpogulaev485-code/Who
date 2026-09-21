@@ -41,3 +41,7 @@ source: gm-2026-09-10 + orch draft + gm-corrections
 **Перо Маэстро:** квест-предмет; при чтении дневника может «тянуть» чернила / указывать страницы (seed).
 
 **Имя матери:** **Сильванара** — канон (`world/npcs/silvanara.md`); в слухе игрокам можно называть по имени.
+
+---
+
+Дневник (оглавление, ещё без полного текста): [`../books/dnevnik-maestro/00-toc-and-design.md`](../books/dnevnik-maestro/00-toc-and-design.md)
