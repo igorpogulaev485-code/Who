@@ -88,6 +88,7 @@
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
 - [Элессар I](world/npcs/elessar-i.md) — истинный король
+- [Малфурион (Ярость Бури)](world/npcs/malfurion-yarost-buri.md) — полубог-друид; совет в Лесу (~1 мес.)
 - [Филлер](world/npcs/filler.md)
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
