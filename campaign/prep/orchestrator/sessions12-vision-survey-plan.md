@@ -1,46 +1,45 @@
 ---
 id: orch-sessions12-vision-survey
-title: "План — опрос картин сессий 1–2 (не додумывать)"
-status: wait-ok
-source: gm-feedback-2026-09-22
+title: "План — картины сессий 1–2 → скрипт"
+status: in-progress
+source: gm-survey-vision-v1
 ---
 
-# План — детали сессий 1–2 из картин мастера
+# План — сессии 1–2 по картинам мастера
 
 ## Цель
 
-Ты уже представлял моменты (речи, вход в Разлом). Предыдущий файл был **каркасом** — ошибка: не опросил до «деталей». Сначала забираем твои картины, потом пишем стол.
+Забрать vision-v1 и написать **скрипт** (речи, вход, DC), не каркас.
 
 ## Шаг 0 — canon
 
-- Spine ~20 + 3 якоря = ok  
-- `mq-01-sessions-1-2-detail.md` = **skeleton only** до ответов опроса  
-- Дырка: сенсорика / речи / must-have кадры — только у мастера
+- Лок: `plot/canon-lock-2026-09-22-sessions12-vision.md`  
+- Вход = Купель; проход-пустота; маяк тифлингов  
 
 ## Маршрут
 
-| # | Скил | Зачем | Статус |
-|---|---|---|---|
-| 1 | опрос (orchestrator) | картины 1–2 | **wait-ok** |
-| 2 | echo-dawn-quest-main | переписать детали по ответам | blocked |
-| 3 | location (seed) | порог/прореха по твоей географии | blocked |
+| # | Скил | Статус |
+|---|---|---|
+| 1 | опрос vision-v1 | **done** |
+| 2 | quest-main: скрипт 1–2 | **done** (с `[proposal]`) |
+| 3 | мини-опрос механики/имён | **wait-ok** |
+| 4 | зафиксировать proposal после ответов | blocked |
 
 ## Опросы
 
-- [`../plot/survey-sessions12-vision-v1.md`](../plot/survey-sessions12-vision-v1.md)  
-- HTML: [`../plot/survey-sessions12-vision-v1.html`](../plot/survey-sessions12-vision-v1.html)
+- [x] vision-v1  
+- [ ] mechanics-v1: `plot/survey-sessions12-mechanics-v1.md`
 
-## Файлы после ответов
+## Файлы
 
-- [ ] lock ответов  
-- [ ] переписать `mq-01-sessions-1-2-detail.md` (речи, вход, атмосфера)  
-- [ ] обновить playbook порога под твою прореху  
+- [x] `quests/mq-01-sessions-1-2-detail.md` — скрипт  
+- [x] playbook / funerals / firiyessa / spine пролог / open-threads  
 
-## Не делаем сейчас
+## Не делаем
 
-- Не дописывать «красивые» речи/описания от себя  
-- Не трогать акты 3–20 spine  
+- Акта 3–20 детально  
+- Кардиан в 1–2  
 
 ---
 
-**Жду ответы опроса** (кнопка «Скопировать» или сюда текстом).
+**Жду ok/правки** по proposal (DC, маяк, имена) — мини-опрос.
