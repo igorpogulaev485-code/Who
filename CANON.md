@@ -15,6 +15,7 @@
 - [Архив: ваншот Первого Разлома](drafts/imports/qwen-oneshot-first-razlom.md)
 - [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
 - [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
+- [Архив: Кардиан — суть и сны для игроков](drafts/imports/qwen-kardian-essence-dreams.md)
 - [Архив: региональные центры Аэлендора](drafts/imports/qwen-aelendor-regional-centers.md)
 - [Архив: визуализация Камнеграда](drafts/imports/qwen-kamnegrad-viz.md)
 - [Архив: глашатай о драконе](drafts/imports/qwen-herald-dragon.md)
@@ -33,11 +34,11 @@
 ## Мир — лор
 
 - [Разлом и Завеса](world/lore/razlom-i-zavesa.md)
-- [Артефакты Кардиана](world/lore/artefacts-kardian.md)
+- [Артефакты Кардиана](world/lore/artefacts-kardian.md) ← шкала ношения 1–6 (канон)
 - [Сет божественной силы](world/lore/artefacts-divine-set.md)
 - [Сет артефактов Драконов](world/lore/artefacts-dragon-set.md)
 - [Девять древних драконов](world/lore/ancient-dragons.md)
-- Черновик: [дебафы за 3 артефакта](drafts/kardian-debuffs-3-artifacts.md)
+- Снято: [старый черновик дебафов на 3](drafts/kardian-debuffs-3-artifacts.md)
 - [Харенгоны](world/lore/harengons.md)
 
 ## Локации
@@ -92,6 +93,7 @@
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
+- [Сон Грока №4 — Забытая деревня](campaign/prep/grok-dream-04-forgotten-village.md) ← канон (эмпатия к Кардиану)
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
 - [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
