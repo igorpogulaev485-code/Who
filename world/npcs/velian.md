@@ -18,8 +18,13 @@ source: sessions + player-herald-2026-07-05 + gm-lock-2026-09-22-mq04
 Ушёл в операцию через Купель; маги **открыли не тот поток** → отряд на **плане мёртвых** (не демоны).  
 Цель на месте: ослабление сил врага, уничтожение реликвий, диверсии.
 
-**Отряд:** Велиан + **5** эльфов-плутов (мастера дела). Имена — позже.  
+**Отряд:** Велиан + пятёрка эльфов-плутов:  
+**Сильвен Тихий Шаг** · **Наэра Черноперо** · **Корел Клинок Луны** · **Элисс Пепельная Нить** · **Рэвел Узлослёд**.  
+Карточки: [`../../campaign/prep/arcs/arc-3/quests/mq-04-velian-squad.md`](../../campaign/prep/arcs/arc-3/quests/mq-04-velian-squad.md)
+
 Партия догонит по следу примерно к **6-й сессии пути mq-04**; до того — слабые трудные следы.  
 Встретит партию с **дружбой** (близкие друзья).
 
-Prep: [`../../campaign/prep/arcs/arc-3/quests/mq-04-ten-ushla.md`](../../campaign/prep/arcs/arc-3/quests/mq-04-ten-ushla.md) · spine [`mq-04-dead-spine-20.md`](../../campaign/prep/arcs/arc-3/quests/mq-04-dead-spine-20.md)
+Чёрный вход: **меню жертв** у магов — [`mq-04-passage-sacrifice.md`](../../campaign/prep/arcs/arc-3/quests/mq-04-passage-sacrifice.md).
+
+Prep: [`mq-04-ten-ushla.md`](../../campaign/prep/arcs/arc-3/quests/mq-04-ten-ushla.md) · spine [`mq-04-dead-spine-20.md`](../../campaign/prep/arcs/arc-3/quests/mq-04-dead-spine-20.md)
