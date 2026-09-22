@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос — mq-03 Лес (сессия 2)</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:42rem;margin:1.5rem auto;padding:0 1rem;line-height:1.45}
+  h1{font-size:1.25rem} h2{font-size:1.05rem;margin-top:1.25rem}
+  label{display:block;margin:.6rem 0 .2rem;font-weight:600}
+  select,textarea,button{width:100%;font:inherit;padding:.5rem;box-sizing:border-box}
+  textarea{min-height:4.5rem} .hint{color:#444;font-size:.9rem}
+  #out{margin-top:1rem;padding:.75rem;background:#f4f4f4;white-space:pre-wrap;font-size:.85rem}
+  button{margin-top:1rem;cursor:pointer}
+</style>
+</head>
+<body>
+<h1>mq-03 Лес — дырки сессии 2</h1>
+<p class="hint">Путь залочен: дверь D. «Как раньше»: после ответов — spine ~20 + полный скрипт сессии 2.</p>
+
+<h2>A · Клифф сессии 2</h2>
+<select id="a">
+  <option value="">—</option>
+  <option value="a_order">Зона Ордена (Лес на горизонте)</option>
+  <option value="a_border">Граница Леса (первый тест)</option>
+  <option value="a_village">Первое поселение под кронами (не аудиенция)</option>
+  <option value="a_elessar">До Элессара / аудиенция в сессии 2</option>
+  <option value="a_other">Другое / уточню</option>
+</select>
+
+<h2>B · Темп дороги</h2>
+<select id="b">
+  <option value="">—</option>
+  <option value="b_montage">Монтаж дней + 1–2 узла</option>
+  <option value="b_one_day">Один день: сборы → Врата → первая сцена</option>
+  <option value="b_multi">Несколько полноценных тревел-битов</option>
+  <option value="b_other">Другое / уточню</option>
+</select>
+
+<h2>C · Кто толкает дверь D</h2>
+<select id="c">
+  <option value="">—</option>
+  <option value="c_tandil">Тандил</option>
+  <option value="c_kavil">Кавил / Совет</option>
+  <option value="c_forest">Наблюдатель Леса</option>
+  <option value="c_party">Партия сама</option>
+  <option value="c_mix">Тандил + намёк наблюдателя</option>
+  <option value="c_other">Другое / уточню</option>
+</select>
+
+<h2>D · Орден в сессии 2</h2>
+<select id="d">
+  <option value="">—</option>
+  <option value="d_must">Обязательный узел (обход / диплом / стычка)</option>
+  <option value="d_optional">Опционально / вставка</option>
+  <option value="d_skip_s2">В сессии 2 не трогаем (фон)</option>
+  <option value="d_other">Другое / уточню</option>
+</select>
+
+<h2>E · Первый контакт с Лесом</h2>
+<select id="e">
+  <option value="">—</option>
+  <option value="e_test">Сразу испытание</option>
+  <option value="e_guide">Проводник → поселение, тест позже</option>
+  <option value="e_cold">Холодный досмотр</option>
+  <option value="e_warm">Настороженно-тёплое гостеприимство</option>
+  <option value="e_later">В сессии 2 только силуэт; контакт в с.3</option>
+  <option value="e_other">Другое / уточню</option>
+</select>
+
+<h2>F · Spine</h2>
+<select id="f">
+  <option value="">—</option>
+  <option value="f_full">Полный spine ~20 + скрипт с.2 (как mq-04)</option>
+  <option value="f_s2_spine_light">Скрипт с.2 + лёгкий spine</option>
+  <option value="f_s2_only">Только сессия 2</option>
+  <option value="f_other">Другое / уточню</option>
+</select>
+
+<h2>G · Playbook сейчас</h2>
+<select id="g">
+  <option value="">—</option>
+  <option value="g_none">Без нового playbook</option>
+  <option value="g_road">Seed дороги / Орден</option>
+  <option value="g_border">Seed границы / первого поселения</option>
+  <option value="g_both">И дорога, и граница (seed)</option>
+  <option value="g_other">Другое / уточню</option>
+</select>
+
+<h2>H · Новость дома в клиффе с.2</h2>
+<select id="h">
+  <option value="">—</option>
+  <option value="h_rift">Разлом / низ</option>
+  <option value="h_order">Орден у Сильванора</option>
+  <option value="h_ice">Льды / мёртвые</option>
+  <option value="h_ridge">Хребет / яйца</option>
+  <option value="h_rotate">Крутить d-таблицу</option>
+  <option value="h_other">Другое / уточню</option>
+</select>
+
+<label for="note">Заметка</label>
+<textarea id="note" placeholder="Имена, длина дороги, другое…"></textarea>
+
+<button type="button" id="copy">Скопировать ответы</button>
+<pre id="out"></pre>
+<script>
+const ids=['a','b','c','d','e','f','g','h','note'];
+function lines(){
+  const v=id=>document.getElementById(id).value;
+  return ['survey-mq03-sessions12-holes',
+    ...ids.filter(i=>i!=='note').map(i=>i+'='+(v(i)||'(пусто)')),
+    'note='+(v('note')||'(нет)')
+  ].join('\\n');
+}
+function refresh(){document.getElementById('out').textContent=lines();}
+ids.forEach(id=>document.getElementById(id).addEventListener('input',refresh));
+document.getElementById('copy').onclick=async()=>{
+  refresh();
+  try{await navigator.clipboard.writeText(lines());alert('Скопировано — вставь в чат');}
+  catch(e){alert('Скопируй из блока ниже');}
+};
+refresh();
+</script>
+</body>
+</html>
