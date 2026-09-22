@@ -170,6 +170,6 @@ tags: [quest, main, artefacts, kardian, travel]
 | loc_slug | place | playbook? |
 |---|---|---|
 | lunnyy-most | Кавил / Филлер / гарнизон Хребта | да |
-| (seed) ledyanoy-soyuz | доспехи | позже state/location |
+| (seed) ledyanoy-soyuz | доспехи | [`lager-tumannogo-schita`](../../../locations/lager-tumannogo-schita/) seed |
 | (seed) drakoniy-khrebet | меч | позже |
 | (seed) zvezdnaya-pyl | сапоги | позже |

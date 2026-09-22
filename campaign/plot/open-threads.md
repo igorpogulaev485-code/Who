@@ -66,9 +66,10 @@ source: gm-lock-round2 + player-briefs
 **GM-only:** Орден готовит удар по Элдерину+Лесу — **без намёков** в ранних сессиях пути.  
 Локи: malfurion · wave2 · [`canon-lock-2026-09-22-mq03-wave3.md`](canon-lock-2026-09-22-mq03-wave3.md)
 
-## mq-06 · льды (дверь E) — prep сейчас
+## mq-06 · льды (дверь E)
 
-Следующий путь после A/F/D: **Ледяной Союз / Лианэя / Доспехи**.  
-Лок: [`canon-lock-2026-09-22-next-path-mq06-ice.md`](canon-lock-2026-09-22-next-path-mq06-ice.md)  
-Опрос дырок с.2 (**v2, с контекстом**): [`survey-mq06-sessions12-holes.md`](survey-mq06-sessions12-holes.md) · HTML: [`survey-mq06-sessions12-holes.html`](survey-mq06-sessions12-holes.html) · план: [`../prep/orchestrator/mq06-sessions12-ice-plan.md`](../prep/orchestrator/mq06-sessions12-ice-plan.md)  
+Скрипт с.2 готов: [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e.md)  
+Камень северной линии: [`../prep/locations/lunnyy-most/quests/q-portal-stone-north.md`](../prep/locations/lunnyy-most/quests/q-portal-stone-north.md)  
+Лагерь: [`../prep/locations/lager-tumannogo-schita/`](../prep/locations/lager-tumannogo-schita/)  
+Лок ответов: [`canon-lock-2026-09-22-mq06-ice-holes.md`](canon-lock-2026-09-22-mq06-ice-holes.md)  
 Сессии 2 ещё нет: двери **B**, **C**.

@@ -14,4 +14,6 @@ status: prep
 
 Связанный пакет Маяка: [`../../mayak-dush/quests/index.md`](../../mayak-dush/quests/index.md)
 
-Также в этой папке: [`q-portal-stone.md`](q-portal-stone.md) (дверь D / mq-03).
+Также в этой папке:
+- [`q-portal-stone.md`](q-portal-stone.md) — дверь **D** / mq-03 (Порог)
+- [`q-portal-stone-north.md`](q-portal-stone-north.md) — дверь **E** / mq-06 (Туманный Щит)
