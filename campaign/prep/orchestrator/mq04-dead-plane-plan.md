@@ -39,3 +39,8 @@ mq-04: Разлом → план мёртвых; чёрный проход; ду
 - L1+L2 в dead-plane-BE  
 - Location playbook: 15 мест, 19 НПС, 1к6, якоря, docx  
 - Plan: [`seryy-prichal-playbook-plan.md`](seryy-prichal-playbook-plan.md)
+
+## Не делаем
+
+- Убийство души Кардиана / воскрешение в арке 3  
+- Резня как тон Серого Причала  

@@ -14,12 +14,11 @@ created: 2026-09-22
 ## Осталось выбрать
 
 1. **Пакет эффектов** чёрного прохода: Память (дефолт) / Холод / Слизь / микс  
-2. **Лианэя:** L1 антенна-доспехи / L2 долг воскрешения / L3 соперники / **L1+L2**  
-3. (опц.) Имена пяти эльфов-плутов  
+2. (опц.) Имена пяти эльфов-плутов  
+
+**Лианэя:** L1+L2 залочено.
 
 ## Prep готово
 
-- Spine: `../prep/arcs/arc-3/quests/mq-04-dead-spine-20.md`  
-- Город: `../prep/arcs/arc-3/quests/mq-04-seryy-prichal.md`  
-- Вставки: `../prep/arcs/arc-3/quests/mq-04-random-inserts.md`  
-- Карточка: `../prep/arcs/arc-3/quests/mq-04-ten-ushla.md`  
+- Spine / inserts / карточка mq-04  
+- **Playbook города:** `../prep/locations/seryy-prichal/` (15 мест, docx)  

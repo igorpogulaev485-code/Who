@@ -12,14 +12,17 @@ locks:
   - campaign/plot/canon-lock-2026-09-22-mq04-entry-a.md
   - campaign/plot/canon-lock-2026-09-22-mq04-dead-plane-be.md
 city: quests/mq-04-seryy-prichal.md
+playbook: campaign/prep/locations/seryy-prichal/playbook.md
 random_tables: quests/mq-04-random-inserts.md
 passage_effects_default: "Память"
+lianeya_lock: L1+L2
 ---
 
 # mq-04 — каркас плана мёртвых
 
-Локи: [вход A](../../../../plot/canon-lock-2026-09-22-mq04-entry-a.md) · [B–E](../../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md)  
-Город: [`mq-04-seryy-prichal.md`](mq-04-seryy-prichal.md)  
+Локи: [вход A](../../../../plot/canon-lock-2026-09-22-mq04-entry-a.md) · [B–E](../../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md) (**L1+L2**)  
+**Playbook города (15 мест):** [`../../../locations/seryy-prichal/playbook.md`](../../../locations/seryy-prichal/playbook.md)  
+Seed-кадр: [`mq-04-seryy-prichal.md`](mq-04-seryy-prichal.md)  
 Вставки: [`mq-04-random-inserts.md`](mq-04-random-inserts.md)  
 Карточка: [`mq-04-ten-ushla.md`](mq-04-ten-ushla.md)
 
