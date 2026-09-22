@@ -1,16 +1,17 @@
 ---
 title: "Серый Причал — карта"
 slug: seryy-prichal
-status: prep
-source: gm-request-2026-09-22
+status: locked
 audience: players
+gm_ok: 2026-09-22
 ---
 
 # Карта Серого Причала
 
 ![Серый Причал](map.png)
 
-**Для игроков.** Стиль первой карты + доработка: **стена/вал**, башни, дорога от Ворот Края в пепельную пустошь, рамка. Без спойлеров и без легенды зон.
+**Лок мастера 2026-09-22** — версия для игроков принята.  
+[`../../../plot/canon-lock-2026-09-22-seryy-prichal-map.md`](../../../plot/canon-lock-2026-09-22-seryy-prichal-map.md)
 
 Файлы: [`map.png`](map.png) · [`../../../../assets/maps/seryy-prichal/seryy-prichal-map.png`](../../../../assets/maps/seryy-prichal/seryy-prichal-map.png)
 
