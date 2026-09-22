@@ -16,13 +16,17 @@ status: prep
 
 **Основные** (`mq-*`) — отдельно: `campaign/prep/arcs/<arc>/quests/` · скил `echo-dawn-quest-main`.
 
-## Статус по локациям арки 3
+## Статус по локациям арки 3 (сессия 2 · двери)
 
-| Локация | Якоря side | Полные q-* |
-|---|---|---|
-| Лунный мост | mq + **q-portal-stone** | камень портала — **есть** |
-| Серый Причал | q-prichal-01…03 | **только якоря** (ещё не писались) |
-| Серебряный Порог | q-porog-01…03 | **есть** (2026-09-22) |
+| Дверь / локация | Якоря side | Полные q-* | arc_link |
+|---|---|---|---|
+| **A** · Купель (ворота) | q-kupel-01…02 | [`lunnyy-most/quests/`](../locations/lunnyy-most/quests/) | standalone / soft-arc |
+| **A** · Маяк душ | q-mayak-01…03 | [`mayak-dush/quests/`](../locations/mayak-dush/quests/) | standalone / soft-arc |
+| **D** · Серебряный Порог | q-porog-01…03 | **есть** | soft-arc |
+| **F** · Серый Причал | q-prichal-01…03 | **есть** | standalone / soft-arc |
+| Лунный мост · камень | q-portal-stone | **есть** (вход mq-03) | hard-arc к двери D |
+
+Все side сессии 2 (**кроме** q-portal-stone) **не** двигают основной spine соответствующего mq.
 
 ## За стол
 

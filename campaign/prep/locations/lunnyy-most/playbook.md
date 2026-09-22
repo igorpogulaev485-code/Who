@@ -88,9 +88,14 @@ attitude_axes:
 | mq-02 | Три трофея у демонов | Край Разлома / Фиалка | Филлер·Кавил / охота | [`../../arcs/arc-3/quests/mq-02-tri-trofeya.md`](../../arcs/arc-3/quests/mq-02-tri-trofeya.md) |
 | mq-03 | Корона в Лесу | Элиэлор / порталы | Кавил + камень | [`../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md`](../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md) |
 | q-portal-stone | Украден камень Порога | Зал порталов Элиэлора | Маэрис | [`quests/q-portal-stone.md`](quests/q-portal-stone.md) |
+| q-kupel-01 | фокус в обвале архива | Купель / лазарет | Илвесс | [`quests/q-kupel-01.md`](quests/q-kupel-01.md) |
+| q-kupel-02 | кровь на руне сдерживания | Купель / ступени | Ваэра | [`quests/q-kupel-02.md`](quests/q-kupel-02.md) |
 | mq-04 | Велиан пропал | Казармы / край | Тандил | [`../../arcs/arc-3/quests/mq-04-ten-ushla.md`](../../arcs/arc-3/quests/mq-04-ten-ushla.md) |
 | mq-05 | Пепел Маэстро | Верх / пепел шатра / Фиалка | похороны / дневник | [`../../arcs/arc-3/quests/mq-05-pepel-maestro.md`](../../arcs/arc-3/quests/mq-05-pepel-maestro.md) |
 | mq-06 | Три арта на земле | Кавил / гарнизон Хребта (старт охоты) | Филлер·Кавил / гонка | [`../../arcs/arc-3/quests/mq-06-tri-na-zemle.md`](../../arcs/arc-3/quests/mq-06-tri-na-zemle.md) |
+
+Side Купели (дверь A, ворота): [`quests/index.md`](quests/index.md) · [`quests-bundle-kupel.md`](quests-bundle-kupel.md)  
+Side Маяка (дверь A, план): [`../mayak-dush/quests/index.md`](../mayak-dush/quests/index.md)
 
 ---
 
@@ -130,6 +135,15 @@ attitude_axes:
 ### Кратко
 
 Храм магии/знания. Зеркало уничтожено/заменено раной. Архив частично обрушен (prep). Якорь входа mq-01.
+
+### Якоря side (не spine)
+
+| id | Крючок | Кто |
+|---|---|---|
+| q-kupel-01 | фокус Илвесса в обвале | Илвесс / Нинаэ |
+| q-kupel-02 | кровь на руне | Ваэра |
+
+НПС side: **Илвесс** (обожжённый маг), **Нинаэ** (лекарь), **Торвен** (паломник-вор, transient) — см. quests.
 
 ## Место: Пепел шатра Маэстро
 

@@ -23,7 +23,8 @@ detail_depth: full
 
 Сессия 1: [`mq-01-sessions-1-2-detail.md`](mq-01-sessions-1-2-detail.md).  
 Камень: [`../../../locations/lunnyy-most/quests/q-portal-stone.md`](../../../locations/lunnyy-most/quests/q-portal-stone.md)  
-Храм: [`../../../locations/serebryanyy-porog/playbook.md`](../../../locations/serebryanyy-porog/playbook.md)
+Храм: [`../../../locations/serebryanyy-porog/playbook.md`](../../../locations/serebryanyy-porog/playbook.md)  
+**Side (не spine):** [`../../../locations/serebryanyy-porog/quests/`](../../../locations/serebryanyy-porog/quests/) q-porog-01…03 — опционально в храме.
 
 ## Биты
 

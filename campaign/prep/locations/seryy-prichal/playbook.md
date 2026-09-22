@@ -87,11 +87,13 @@ sites_count: 15
 | id | Крючок | Место | Выдаёт | Файл |
 |---|---|---|---|---|
 | mq-04 | след эльфов / диверсии | 3, 11, 12 | Орвель / Каэлор | [`../../arcs/arc-3/quests/mq-04-ten-ushla.md`](../../arcs/arc-3/quests/mq-04-ten-ushla.md) |
-| q-prichal-01 | стёртое имя на плите | 1 / 15 | Илса / Гретта | *(side — позже)* |
-| q-prichal-02 | фонарь без огонька | 6 | Мелила | side |
-| q-prichal-03 | скупка имён | 14 | Цира / против Нуресс | side |
+| q-prichal-01 | стёртое имя на плите | 1 / 15 | Илса / Гретта | [`quests/q-prichal-01.md`](quests/q-prichal-01.md) |
+| q-prichal-02 | фонарь без огонька | 6 | Мелила | [`quests/q-prichal-02.md`](quests/q-prichal-02.md) |
+| q-prichal-03 | скупка имён | 14 | Цира / против Нуресс | [`quests/q-prichal-03.md`](quests/q-prichal-03.md) |
 | mq-05 | имя Маэстро в архиве? | 3 / 13 | Орвель | mq-05 |
 | mq-01 | питание Разлома со стороны мёртвых | 11 | Каэлор / Велиан | mq-01 |
+
+Сборник побочек: [`quests-bundle.md`](quests-bundle.md) · оглавление [`quests/index.md`](quests/index.md)
 
 ---
 
