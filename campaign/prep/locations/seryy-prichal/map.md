@@ -9,9 +9,11 @@ source: gm-request-2026-09-22
 
 ![Серый Причал](map.png)
 
+**Версия для игроков** — без пометок про план/квест.
+
 Файлы:
-- в playbook-папке: [`map.png`](map.png)
-- архив карт: [`../../../../assets/maps/seryy-prichal/seryy-prichal-map.png`](../../../../assets/maps/seryy-prichal/seryy-prichal-map.png)
+- [`map.png`](map.png)
+- архив: [`../../../../assets/maps/seryy-prichal/seryy-prichal-map.png`](../../../../assets/maps/seryy-prichal/seryy-prichal-map.png)
 
 ## Легенда номеров (= playbook)
 
@@ -33,4 +35,4 @@ source: gm-request-2026-09-22
 | 14 | Переулок Чёрных плащей | Низы (запад) |
 | 15 | Нижний двор Пепла | Низы (под площадью) |
 
-Ориентиры для стола: **север** = Писцы · **юг** = Край · **запад** = Трещина/Плащи · **восток** = вкус/плач/колбы.
+Ориентиры: **север** = Писцы · **юг** = Край · **запад** = Трещина/Плащи · **восток** = вкус/плач/колбы.
