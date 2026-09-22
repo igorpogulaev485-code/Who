@@ -1,136 +1,108 @@
 ---
-title: "Лес Хранителей — промпт ПОЛНОЙ карты (один проход)"
+title: "Лес Хранителей — бриф + промпт карты (сверка с картой мира)"
 status: prep
-wait: gm-ok-on-image
-contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
-passport: world/locations/states/les-khraniteley.md
 date: 2026-09-22
-note: "Промпт дополнен exact-именами и сторонами света соседей. Генерация v8 — с нуля по этому промпту."
+source: gm-answers + world-map-echo-dawn + borders-from-world + passport
+contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
+world_map: assets/maps/world-map-echo-dawn.jpg
+borders_ref: assets/maps/les-khraniteley-borders-from-world.jpg
+contour_ref: assets/maps/les-khraniteley-contour-locked.jpg
+terrain_ref: assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg
 ---
 
-# Промпт → одна полная карта государства
+# Сверка с картой мира (обязательно)
 
-## Reference
+## Где Лес на карте мира
+- **ЮВ материка**, отдельное государство (не Аэлендор, не «Сильванион»).
+- На обводке GM (`borders-from-world`): густой лес + **залив с островами** внутри границ; силуэт ≈ «подкова» вокруг залива.
+- На zoom-контуре (`contour-locked`): **лес = запад+центр кадра**, **залив = восток** — это мастер-силуэт, не перерисовывать.
 
-| # | Файл | Роль |
+Соседи по миру/паспорту (**подписи соседей на карте государства НЕ ставить**):
+
+| Сторона от Леса | Государство на карте мира | Что это значит для геометрии |
 |---|---|---|
-| 1 | `assets/maps/les-khraniteley-contour-locked.jpg` | Жёсткий силуэт: красный пунктир, лес ЗАПАД / залив ВОСТОК, острова, реки, 16:9 |
-| 2 | `assets/maps/les-khraniteley-map-stage1-bg.jpg` | Пергамент снаружи; западные горы только у левого края |
+| **С** | Орден пламенеющей стали | северная кромка = лес/река к Ордену |
+| **З** | Королевство Пепельных земель | запад = горы/пепел → **Пепельный Рубеж только здесь** |
+| **ЮЗ** | Амират (за хребтом) | юго-запад за горами, не рисовать |
+| **СВ** | Элдеринская гавань | коридор гавани → **Восточные Врата** на В/СВ материковом берегу |
+| **В / ЮВ** | Хозяйство Болот скорби | восток за границей = топи (не рисовать); залив не «открытый океан навсегда» |
+| **Ю за заливом** | Империя Драконьего Хребта | юг за водой, не рисовать |
 
-Не использовать старые v2–v7 как reference (учат ошибкам подписей и городов в воде).
-
-## Whitelist подписей (ТОЛЬКО эти строки, буква в букву)
-
-### Заголовок
-`Лес Хранителей`
-
-### Соседи — снаружи пунктира на пергаменте
-
-| Сторона света | Где на кадре | Точная подпись |
-|---|---|---|
-| **Север** | над государством, верх кадра | `Орден` |
-| **Северо-восток** | верх-право, снаружи | `Элдеринская гавань` |
-| **Восток** | право, снаружи | `Болота скорби` |
-| **Юг** | под заливом, низ кадра, снаружи | `Драконий Хребет` |
-| **Запад** | лево, снаружи | `Пепельные земли` |
-| **Юго-запад** | лево-низ за горами, снаружи | `Амират` |
-
-Запрещены любые другие внешние имена (нет «Палевые…», нет выдуманных слов).
-
-### Города / места — ВНУТРИ, только на СУШЕ (иконка + подпись)
-
-| Точная подпись | Где | Иконка |
-|---|---|---|
-| `Силвания` | север–центр леса (столица) | серебряный лист в кольце, самая крупная |
-| `Мировое Древо` | сердце леса | великое древо |
-| `Серебряный Порог` | юг леса / входные тропы | храм-порог |
-| `Северная Заводь` | север у реки на берегу | пристань |
-| `Восточные Врата` | **материковый** берег: где лес слева встречает залив; ноги иконки на земле | каменные ворота |
-| `Пепельный Рубеж` | запад у предгорий | форт |
-
-Запрещено: `Сильвания`, `Сильванор`, `Сильванарион`, любые кривые/смешанные написания.
-
-### Регионы — мягкие подписи только на СУШЕ (опционально)
-
-`Сердце Древа` · `Гостевой Порог` · `Круги Бури` · `Зелёные Топи`
-
-`Зелёные Топи` = **ЮВ материковая топь** (влажная суша у берега залива). Не писать на открытой воде. Не ставить города в залив. Острова залива — только пейзаж (земля+деревья), без столиц/ворот.
+## Жёсткие следствия (где раньше «уезжало»)
+1. **Пепельный Рубеж = ЗАПАД у хребта** (сторона Пепельных земель). **Запрещено** ставить его на юг у залива / к Драконьему Хребту.
+2. **Силвания + Мировое Древо = глубина лесной суши** (центр западной половины). **Не** на берегу залива.
+3. **Восточные Врата = восточный край МАТЕРИКОВОГО леса** (грязь/трава у воды, коридор к Элдеринской гавани). **Не** остров посреди залива, **не** открытая вода.
+4. **Северная Заводь = северный берег залива** (сторона Ордена), пирс на суше.
+5. **Серебряный Порог = запад леса** у гор (гостевой вход), отдельно от Рубежа.
+6. **Снаружи пунктира:** только пергамент + западные горы у левого края. **Ноль** леса/воды/островов снаружи. Лес не должен «вылезать» за северный пунктир.
+7. Острова залива — пейзаж (земля+деревья), без городских иконок.
 
 ---
 
-## Промпт A — русский
+# Решения мастера (лок)
+
+| Тема | Решение |
+|---|---|
+| Процесс | База без текста → точные подписи |
+| Соседи на карте | **Нет** |
+| Регионы | Не обязательны (по умолчанию не подписывать) |
+| Горы снаружи слева | Оставить |
+| Топи | По удобству; без городов в океане |
+
+## Whitelist текста (только это)
+`Лес Хранителей` · `Силвания` · `Мировое Древо` · `Серебряный Порог` · `Северная Заводь` · `Восточные Врата` · `Пепельный Рубеж`
+
+---
+
+# Промпт B — GenerateImage (сверка с миром)
+
+Reference images (must match silhouette):
+1. `assets/maps/les-khraniteley-contour-locked.jpg` — dashed border shape; forest west / bay east
+2. `assets/maps/les-khraniteley-borders-from-world.jpg` — world-map neighbor compass (geometry only)
+3. `assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg` — terrain fill style, parchment outside
 
 ```
-Полная фэнтезийная карта государства, вид сверху, 16:9, государство крупно. Стиль: классическая parchment fantasy cartography, один цельный рисунок.
+Brand-new fantasy parchment state map of Лес Хранителей, 16:9, top-down classic RPG cartography, single clean pass.
 
-ЗАГОЛОВОК (точно): Лес Хранителей
+WORLD-MAP SYNC (critical — do not invent a new country shape):
+This state is the southeast mainland forest kingdom on the world map. Zoom map orientation:
+• WEST + CENTER of the FRAME = dense evergreen FOREST mainland (country heart).
+• EAST of the FRAME = large grey-blue BAY with ~5 small scenic forested islands (earth under trees).
+• Red dashed border silhouette MUST match the contour-locked reference (forest west / bay east). Same outline, same bay bite. Do NOT redraw as Aelendor. Do NOT invent a new blob.
+• Neighbor compass (geometry only, NO neighbor name labels anywhere):
+  North→Orden (forest/river). West→Ash Lands beyond mountains. SW→Amirat beyond ridge.
+  NE→Elderrin Harbor corridor. East/SE→Swamps of Sorrow beyond border. South across bay→Dragon Ridge.
 
-СИЛУЭТ: точно как reference contour-locked — красный пунктир; лес на ЗАПАДЕ; большой залив на ВОСТОКЕ; острова в заливе; реки из леса в залив. Не Аэлендор. Не меняй форму границы.
+HARD CLIP (prevent leaks):
+• ALL forest, rivers, bay water, and islands STRICTLY INSIDE the red dashed border.
+• ZERO trees/terrain spilling north, south, or east outside the dashed line.
+• Outside the dashed border: aged parchment only, PLUS western mountains along the far-left edge (keep those mountains).
+• Do NOT paint neighboring countries’ terrains. Do NOT paint swamp nation or harbor nation.
 
-СНАРУЖИ пунктира: пергамент. Горы только у левого края. Ровно шесть подписей соседей на пергаменте, точно так и только так:
-• СЕВЕР (верх): Орден
-• СЕВЕРО-ВОСТОК (верх-право): Элдеринская гавань
-• ВОСТОК (право): Болота скорби
-• ЮГ (низ, за заливом): Драконий Хребет
-• ЗАПАД (лево): Пепельные земли
-• ЮГО-ЗАПАД (лево-низ): Амират
-Никаких других внешних названий.
+NO TEXT AT ALL (no Cyrillic, no Latin, no junk letters on compass). Labels added later. Compass rose decorative only, no letter glyphs.
 
-ВНУТРИ: рельеф вплотную к пунктиру; лес З/С; залив В/Ю; острова с землёй под кронами; ЮВ — материковые топи (суша), не океан.
+Exactly SIX landmark icons, all ON MAINLAND LAND (never in open bay water, never on bay islands):
 
-ГОРОДА — шесть иконок ТОЛЬКО НА СУШЕ, подписи точно:
-1) Силвания — столица, лист в кольце, север–центр леса
-2) Мировое Древо — великое древо, сердце леса
-3) Серебряный Порог — храм-порог, юг леса
-4) Северная Заводь — пристань на северном берегу реки
-5) Восточные Врата — ворота на материковом берегу (лес слева у залива), НЕ в воде
-6) Пепельный Рубеж — форт на западе у гор
-Мягко на суше: Сердце Древа, Гостевой Порог, Круги Бури, Зелёные Топи (только суша ЮВ).
+1) Силвания — CENTER of the forest mainland (western half of the map, deep in trees): large silver leaf-in-ring capital emblem. NOT on the bay shore.
+2) Мировое Древо — immediately beside the capital, still deep in forest interior: giant sacred tree. NOT on the bay shore.
+3) Серебряный Порог — WEST side of the forest near the mountains: stone temple/threshold gate (guest entrance from the west). Separate from the Ash fort.
+4) Пепельный Рубеж — WESTERN foothills INSIDE the border, CLOSE TO THE MOUNTAIN RIDGE (toward Ash Lands / west). Stone mountain fort. FORBIDDEN: south shore of the bay, east, or Dragon-Ridge side.
+5) Северная Заводь — NORTH shore where forest/river meets the bay (toward Orden): wooden pier on the BANK, feet on land.
+6) Восточные Врата — EASTERN tip of the MAINLAND forest coast facing the bay (corridor toward Elderrin Harbor / NE): stone gate standing on dirt/grass shore at the rightmost edge of continuous forest land. NOT on an ocean island. NOT floating in open water. NOT at the far empty eastern water tip with no mainland.
 
-Подписи не наезжают. Без UI. Компас уместен.
+Bay islands: trees + earth only — no city icons.
+Optional slight marsh tint on southeast mainland fringe only — no swamp cities in water.
 ```
 
 ---
 
-## Промпт B — English (GenerateImage)
+# Подписи после генерации (код)
+Exact whitelist у иконок:
+- Силвания → у листа в центре леса
+- Мировое Древо → у древа рядом
+- Серебряный Порог → запад у гор
+- Пепельный Рубеж → запад у хребта (не юг!)
+- Северная Заводь → северный берег залива на суше
+- Восточные Врата → восточный материковый берег леса
 
-```
-Brand-new complete fantasy parchment state map, 16:9, top-down classic RPG cartography, single coherent pass. State large in frame.
-
-TITLE (exact Cyrillic only): Лес Хранителей
-
-HARD SILHOUETTE: match contour-locked reference exactly — red dashed border; dense evergreen FOREST on the WEST; large grey-blue BAY on the EAST with small forested islands that have visible earth; rivers from forest into bay. Not Aelendor. Do not reshape the border.
-
-OUTSIDE the dashed border: aged parchment only. Western mountains only at the far-left edge. Place EXACTLY these six neighbor labels on outside parchment at these compass positions — and NO other outside names at all:
-• NORTH (top of frame): Орден
-• NORTHEAST (top-right): Элдеринская гавань
-• EAST (right): Болота скорби
-• SOUTH (bottom, beyond the bay): Драконий Хребет
-• WEST (left): Пепельные земли
-• SOUTHWEST (bottom-left beyond mountains): Амират
-Forbidden outside junk names (do not invent any).
-
-INSIDE: terrain flush to the dashed line; forest W/N; bay E/S; islands = earth + trees scenery only (no capital/gate cities on open water). Southeast = contiguous mainland MARSH LAND (Зелёные Топи) beside the bay shore — NOT a label on open ocean.
-
-EXACTLY SIX settlement icons, ALL ON LAND, exact Cyrillic labels (each once, no overlap):
-1) Силвания — CAPITAL, largest, silver leaf-in-ring icon, north-central forest land
-2) Мировое Древо — giant sacred tree, forest heart land
-3) Серебряный Порог — temple/threshold gate, southern forest land
-4) Северная Заводь — pier on northern riverbank land
-5) Восточные Врата — stone gate on MAINLAND forest shore where land meets bay from the west — feet on dirt, NEVER standing in open water, NEVER on the far-right open bay
-6) Пепельный Рубеж — fort in western foothills land
-
-Optional soft land-only region labels (exact): Сердце Древа, Гостевой Порог, Круги Бури, Зелёные Топи (SE mainland marsh only).
-Forbidden spellings: Сильвания, Сильванор, Сильванарион; any garbled Cyrillic; any extra country/city names.
-No overlapping text. Compass rose OK. No UI, no watermark, no Latin replacing Russian names.
-```
-
----
-
-## Генерация
-
-1. Reference: **только** `contour-locked` + `stage1-bg`.  
-2. Aspect **16:9**.  
-3. Промпт B.  
-4. Файл: `assets/maps/les-khraniteley-map-v8.jpg`.  
-5. Ok мастера → `les-khraniteley-map.jpg` + lock.
+Output: `assets/maps/les-khraniteley-map-v10.jpg`
