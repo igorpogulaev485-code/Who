@@ -10,12 +10,16 @@ base_archive: drafts/imports/qwen-ark3-vnutri-razloma.md
 canon_update: "Маэстро мёртв — cold open похищения STALE; 3 якоря/план демонов — база"
 gm_ok: "2026-09-21 — якоря + нарезка 20 ok («Круто, го»)"
 details_next: quests/mq-01-sessions-1-2-detail.md
+random_inserts: quests/mq-01-random-inserts.md
 ---
 
 # Ветка «Разлом / демоны» — структура на арку
 
 Победа направления ≈ победа **арки 3**: напор демонов через Лунный Разлом **сломан** (~14 ур.).  
 Не закрывает все 5 Разломов мира и не убивает Кардиана (это 4–5).
+
+**Случайные вставки (легион):** [`mq-01-random-inserts.md`](mq-01-random-inserts.md)  
+**(стелс / круг 2):** [`mq-02-random-inserts.md`](mq-02-random-inserts.md)
 
 ## База из архива (что берём)
 
