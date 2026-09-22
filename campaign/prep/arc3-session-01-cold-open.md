@@ -1,47 +1,26 @@
 ---
-title: Prep — Арка 3, сессия 1 (Лунный Мост, cold open)
+title: Prep — Арка 3, сессия 1 (общий cold open)
 status: prep
-tags: [prep, arc3, session]
-source: gm-lock-2026-09-10-cold-open
+tags: [prep, arc3, session, shared-start]
+source: gm-lock-funerals-shared-start
 ---
 
-# Сессия 1 — слухи → похороны → выбор
+# Сессия 1 — общий старт всех направлений
+
+Полный скрипт: [`arcs/arc-3/quests/mq-01-sessions-1-2-detail.md`](arcs/arc-3/quests/mq-01-sessions-1-2-detail.md)  
+Лок: [`../plot/canon-lock-2026-09-22-funerals-shared-start.md`](../plot/canon-lock-2026-09-22-funerals-shared-start.md)
 
 ## До стола
 
-1. Выдать игрокам: [`briefs/arc3-rumors-eve.md`](../briefs/arc3-rumors-eve.md) (только блок «Слухи»).  
-2. Напомнить: видение Элариона **уже** в общем знании группы.  
-3. Старт физически: **приют** = Колыбель = Кузница Фиалки.
+1. Слухи: [`briefs/arc3-rumors-eve.md`](briefs/arc3-rumors-eve.md)  
+2. Видение Элариона уже известно  
+3. Старт: Кузница Фиалки  
 
-## Биты сессии (порядок)
+## После похорон
 
-| # | Бит | Где | Цель |
-|---:|---|---|---|
-| 0 | Короткий «утро в приюте» | Кузница Фиалки | яйца/быт 2 мин; не раздувать |
-| 1 | Похороны начинаются | путь наверх / Элиэлор | см. [`locations/lunnyy-most/funerals-scenes.md`](locations/lunnyy-most/funerals-scenes.md) |
-| 2 | Слой 2 слухов | толпа / дорога | макс. 2 из S2 в funerals-scenes |
-| 3 | Опция: дневник | приют | заглушка в funerals-scenes; полный текст — book-chapter |
-| 4 | Дверь дальше | по выбору | таблица дверей в funerals-scenes |
+Дверь → mq-01…06.  
+Сессия 2 Купель/Маяк — **только** дверь Разлом (в том же файле скрипта).
 
-## Инвентарь-якоря
+## Инвентарь
 
-| Предмет | Статус |
-|---|---|
-| Дневник Маэстро | у партии, не прочитан |
-| Писчее перо Маэстро | у партии (обыск сгоревшего шатра) |
-| 2 яйца | в приюте |
-
-## Не делать в сессии 1
-
-- Вывалить Лианэю как «воскресил Кардиан»  
-- Решить mq-01 целиком  
-- Закрыть все направления меню  
-
-## Связанные файлы
-
-- **Детали 1–2 (актуально):** [`arcs/arc-3/quests/mq-01-sessions-1-2-detail.md`](arcs/arc-3/quests/mq-01-sessions-1-2-detail.md)  
-- Spine Разлома: [`arcs/arc-3/quests/mq-01-razlom-spine-20.md`](arcs/arc-3/quests/mq-01-razlom-spine-20.md)  
-- Лок: [`../plot/canon-lock-2026-09-10-cold-open.md`](../plot/canon-lock-2026-09-10-cold-open.md)  
-- Каталог мест: [`locations/lunnyy-most/places-catalog.md`](locations/lunnyy-most/places-catalog.md)  
-- mq-05: [`arcs/arc-3/quests/mq-05-pepel-maestro.md`](arcs/arc-3/quests/mq-05-pepel-maestro.md)  
-- Playbook: [`locations/lunnyy-most/playbook.md`](locations/lunnyy-most/playbook.md)
+Дневник · перо · кольцо связи · яйца в приюте
