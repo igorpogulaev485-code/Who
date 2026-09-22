@@ -15,7 +15,9 @@ version: 2
 **Метод:** как A/F/D — с.2 = **закрепиться**, не финал mq-06.  
 **Канон уже есть:** видение Элариона; Брорр в очаге порта с.1; L1+L2 (Доспехи = антенна Кардиана, он причастен к воскрешению — **не** спойлерить игрокам в с.2 без нужды).
 
-HTML: [`survey-mq06-sessions12-holes.html`](survey-mq06-sessions12-holes.html)
+HTML: [`survey-mq06-sessions12-holes.html`](survey-mq06-sessions12-holes.html)  
+**Safari / сразу ответить (~72 ч):** https://litter.catbox.moe/u1407w.html  
+→ выбрать варианты → «Скопировать ответы» → вставить в чат.
 
 ---
 
