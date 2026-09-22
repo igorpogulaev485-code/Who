@@ -1,146 +1,386 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Опрос mq-06 v2 — льды (контекст)</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опрос mq-06 льды — сессия 2 (дверь E)</title>
 <style>
-  body{font-family:system-ui,sans-serif;max-width:44rem;margin:1.5rem auto;padding:0 1rem;line-height:1.45}
-  h1{font-size:1.3rem} h2{font-size:1.05rem;margin:1.4rem 0 .4rem}
-  .ctx{background:#eef3f8;padding:.75rem 1rem;border-radius:6px;font-size:.92rem;margin:.4rem 0 .6rem;border-left:3px solid #5a7a9a}
-  label{display:block;margin:.5rem 0 .2rem;font-weight:600}
-  select,textarea,button{width:100%;font:inherit;padding:.5rem;box-sizing:border-box}
-  textarea{min-height:5rem} .hint{color:#444;font-size:.9rem}
-  #out{margin-top:1rem;padding:.75rem;background:#eee;white-space:pre-wrap;font-size:.85rem}
-  button{margin-top:1rem;cursor:pointer}
-  .rec{font-size:.85rem;color:#356}
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  .rec { font-size: 0.8rem; color: var(--accent); margin: -4px 0 8px; }
+  select, textarea {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
 </style>
 </head>
 <body>
-<h1>mq-06 льды — опрос v2 (дверь E)</h1>
-<p class="hint">Полный текст: <code>survey-mq06-sessions12-holes.md</code>. Параллель: A→Маяк · F→Причал · D→Порог. С.2 = закрепиться, не финал с Лианэей.</p>
+<main>
+  <h1>Опрос — mq-06 льды · сессия 2 (дверь E)</h1>
+  <p class="lead">Выбери варианты → «Скопировать ответы» → вставь в чат Cursor. Ответы сохраняются на устройстве.</p>
+  <div class="locked"><b>Контекст:</b> сессия 1 (похороны) общая уже есть. Готовы с.2: A (Разлом), F (мёртвые), D (Лес). Берём <b>E → льды / Лианэя / Доспехи</b>. С.2 = закрепиться (как Маяк/Причал/Порог), не финал с Лианэей — если не выберешь иначе.</div>
 
-<h2>A · Клифф сессии 2</h2>
-<div class="ctx">Видение уже дало кадр (легионы, дварфы, Доспехи). Встреча лицом к лицу в с.2 = как Элессар в первый вечер Леса. Обычно нужен «первый берег».</div>
-<p class="rec">Prep-рекомендация: лагерь дварфов или вид армии (± короткий зов для Элариона).</p>
-<select id="a">
-  <option value="">—</option>
-  <option value="a_hub">Только хаб в Мосту; выезд = клифф</option>
-  <option value="a_road_north">Дорога/порт; льды на горизонте</option>
-  <option value="a_brorr_camp">Лагерь дварфов у линии тумана</option>
-  <option value="a_army_sight">Вид армии мёртвых (без диалога)</option>
-  <option value="a_call">Голос/силуэт зовёт только Элариона</option>
-  <option value="a_meet">Встреча с Лианэей в ту же сессию</option>
-  <option value="a_other">Другое / уточню</option>
-</select>
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
 
-<h2>B · Темп дороги на север</h2>
-<div class="ctx">Ледяной Союз = крайний СЗ. Монтаж сжигает календарь (часы Разлома тикают). Брорр из с.1 — готовый проводник/корабль.</div>
-<select id="b">
-  <option value="">—</option>
-  <option value="b_montage">Монтаж дней + 1–2 узла</option>
-  <option value="b_ship">Корабль / река → север</option>
-  <option value="b_road">Сухопутный путь</option>
-  <option value="b_portal">Портал / магия (с ценой)</option>
-  <option value="b_mix">Сборы + монтаж + высадка</option>
-  <option value="b_other">Другое / уточню</option>
-</select>
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Обязательный кадр / запрет (напр. щиты дварфов; голос сестры; не называть Кардиана; не убивать Лианэю; не выдавать Доспехи в с.2).</p>
+    <textarea id="freeform" rows="5" placeholder="note=…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
 
-<h2>C · Кто толкает дверь E</h2>
-<div class="ctx">Эларион = семья/видение. Брорр = фронт дварфов. Кавил = заказ по Доспехам (не дать демонам). Можно смешать.</div>
-<select id="c">
-  <option value="">—</option>
-  <option value="c_elarion">Эларион / видение</option>
-  <option value="c_brorr">Брорр (линия дварфов)</option>
-  <option value="c_kavil">Кавил (охота на Доспехи)</option>
-  <option value="c_mix_personal">Эларион + Брорр</option>
-  <option value="c_mix_order">Кавил + Эларион</option>
-  <option value="c_tandil_ok">Тандил отпускает + любой выше</option>
-  <option value="c_party">Уходят сами</option>
-  <option value="c_other">Другое / уточню</option>
-</select>
-
-<h2>D · Сколько mq-06 открываем в с.2</h2>
-<div class="ctx">Тройка = льды / меч Хребта / сапоги Пыли. С.2 не обязана показывать всю охоту — Эларион тянет на сестру, Кавил любит меню.</div>
-<select id="d">
-  <option value="">—</option>
-  <option value="d_ice_only">Только льды / акт A</option>
-  <option value="d_menu">Меню тройки в хабе → едем во льды</option>
-  <option value="d_ice_plus_hint">Льды + намёк на меч или сапоги</option>
-  <option value="d_other">Другое / уточню</option>
-</select>
-
-<h2>E · Что знает партия про «сестру»</h2>
-<div class="ctx">Видение уже у игрока Элариона. Остальные могут ехать «бить нежить / арт / дварфов». L1+L2 (Кардиан) в с.2 не обязательны.</div>
-<select id="e">
-  <option value="">—</option>
-  <option value="e_private">Тайна Элариона, пока сам не сказал</option>
-  <option value="e_party_soft">Он уже рассказал партии</option>
-  <option value="e_reveal_scene">Раскрытие сценой в с.2</option>
-  <option value="e_dwarves_lady">Дварфы: «Леди Льда»; родство — если раскроет он</option>
-  <option value="e_other">Другое / уточню</option>
-</select>
-
-<h2>F · Бой / давление</h2>
-<div class="ctx">A = выброс у Купели. F = undead при открытии. D = шпионы. Льдам нужен свой «зуб» или ужас без большого CR.</div>
-<select id="f">
-  <option value="">—</option>
-  <option value="f_skirmish">Обязательная стычка с нежитью</option>
-  <option value="f_optional">Бой опционален / вставка</option>
-  <option value="f_social">Социал + ужас, без большого боя</option>
-  <option value="f_setpiece">Одна сетаповая сцена (дозор / прорыв)</option>
-  <option value="f_other">Другое / уточню</option>
-</select>
-
-<h2>G · Глубина prep сейчас</h2>
-<div class="ctx">Как раньше у F/D: часто spine ~20 + полный скрипт с.2. Можно облегчить.</div>
-<select id="g">
-  <option value="">—</option>
-  <option value="g_s2_spine">Скрипт с.2 + spine ~20 акта A (льды)</option>
-  <option value="g_s2_light">Скрипт с.2 + лёгкий каркас с.3–5</option>
-  <option value="g_s2_only">Только скрипт с.2</option>
-  <option value="g_other">Другое / уточню</option>
-</select>
-
-<h2>H · Playbook локации сразу?</h2>
-<div class="ctx">F нуждался в Причале. A обошёлся сценой Маяка. Лагерь дварфов / равнина могут жить скриптом или seed-playbook.</div>
-<select id="h">
-  <option value="">—</option>
-  <option value="h_none">Только скрипт</option>
-  <option value="h_camp">Seed лагеря дварфов</option>
-  <option value="h_plain">Seed равнины / линии фронта</option>
-  <option value="h_both">Лагерь + равнина</option>
-  <option value="h_later">Playbook после с.2</option>
-  <option value="h_other">Другое / уточню</option>
-</select>
-
-<h2>I · Одна новость «дома» в клиффе</h2>
-<div class="ctx">Пока едут на СЗ, мир тикает. Одна громкая новость = цена уезда.</div>
-<select id="i">
-  <option value="">—</option>
-  <option value="i_razlom">Разлом / нижний город</option>
-  <option value="i_orden">Орден у Сильванора</option>
-  <option value="i_ridge">Хребет / яйца / меч</option>
-  <option value="i_firiesse">Фириэсса / дневник</option>
-  <option value="i_star">Слух про сапоги / Пыль</option>
-  <option value="i_pick_later">Выберем при написании</option>
-  <option value="i_other">Другое / уточню</option>
-</select>
-
-<label for="free">Свободно — обязательный кадр / запрет</label>
-<textarea id="free" placeholder="Напр.: щиты дварфов в ряд; голос сестры; запрет назвать Кардиана / убить Лианэю / выдать Доспехи в с.2"></textarea>
-
-<button type="button" id="go">Собрать ответы</button>
-<pre id="out"></pre>
+<div class="footer">
+  <div class="footer-inner">
+    <button type="button" class="secondary" id="btnLitter">Litterbox ответов</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано</div>
 
 <script>
-document.getElementById('go').onclick = () => {
-  const ids = ['a','b','c','d','e','f','g','h','i'];
-  const lines = ['survey-mq06-sessions12-holes'];
-  ids.forEach(id => lines.push(`${id}=${document.getElementById(id).value || '—'}`));
-  lines.push('note=' + (document.getElementById('free').value || '—'));
-  document.getElementById('out').textContent = lines.join('\n');
-};
+const STORAGE = "echo-dawn-mq06-ice-holes-v2";
+const QUESTIONS = [
+  {
+    id: "a",
+    section: "A · Клифф сессии 2",
+    title: "Где заканчивается вечер?",
+    ctx: "Видение Элариона уже дало кадр: легионы, дварфы напротив, Доспехи, зов. Встреча лицом к лицу в с.2 = как Элессар в первый вечер Леса — ядерный узел рано.\nПараллель: A→Маяк, F→Причал, D→Порог.",
+    rec: "Рекомендация: лагерь дварфов или вид армии (± короткий зов).",
+    options: [
+      { v: "a_hub", t: "Только хаб в Мосту; выезд = клифф" },
+      { v: "a_road_north", t: "Дорога/порт; льды на горизонте" },
+      { v: "a_brorr_camp", t: "Лагерь дварфов у линии тумана (аналог Маяка)" },
+      { v: "a_army_sight", t: "Вид армии мёртвых (без диалога)" },
+      { v: "a_call", t: "Голос/силуэт зовёт только Элариона" },
+      { v: "a_meet", t: "Встреча с Лианэей в ту же сессию" },
+      { v: "a_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "b",
+    section: "B · Дорога на север",
+    title: "Как сжимаем путь за столом?",
+    ctx: "Ледяной Союз = крайний СЗ. Монтаж сжигает календарь (часы Разлома тикают сильнее). В с.1 уже есть Брорр — готовый проводник/корабль.",
+    options: [
+      { v: "b_montage", t: "Монтаж дней + 1–2 узла" },
+      { v: "b_ship", t: "Корабль / река → север" },
+      { v: "b_road", t: "Сухопутный путь" },
+      { v: "b_portal", t: "Портал / магия (с ценой)" },
+      { v: "b_mix", t: "Сборы + монтаж + высадка" },
+      { v: "b_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "c",
+    section: "C · Кто толкает дверь E",
+    title: "Чей голос делает выезд?",
+    ctx: "Эларион = видение «иди ко мне». Брорр = фронт дварфов. Кавил = заказ Совета по Доспехам (не дать демонам). Можно смешать.",
+    options: [
+      { v: "c_elarion", t: "Эларион / видение" },
+      { v: "c_brorr", t: "Брорр (линия дварфов)" },
+      { v: "c_kavil", t: "Кавил (охота на Доспехи)" },
+      { v: "c_mix_personal", t: "Эларион + Брорр" },
+      { v: "c_mix_order", t: "Кавил + Эларион" },
+      { v: "c_tandil_ok", t: "Тандил отпускает + любой выше" },
+      { v: "c_party", t: "Уходят сами" },
+      { v: "c_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "d",
+    section: "D · Объём mq-06",
+    title: "Сколько охоты открываем в с.2?",
+    ctx: "mq-06 = тройка: Доспехи (льды) · меч (Хребет) · сапоги (Пыль). С.2 не обязана показывать всё — Эларион тянет на сестру, Кавил любит меню.",
+    options: [
+      { v: "d_ice_only", t: "Только льды / акт A" },
+      { v: "d_menu", t: "Меню тройки в хабе → едем во льды" },
+      { v: "d_ice_plus_hint", t: "Льды + намёк на меч или сапоги" },
+      { v: "d_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "e",
+    section: "E · Знание про сестру",
+    title: "Что знает партия к концу с.2?",
+    ctx: "Видение уже у игрока Элариона. Остальные могут ехать «бить нежить / арт / дварфов». L1+L2 (Кардиан/антенна) в с.2 не обязательны.",
+    options: [
+      { v: "e_private", t: "Тайна Элариона, пока сам не сказал" },
+      { v: "e_party_soft", t: "Он уже рассказал партии" },
+      { v: "e_reveal_scene", t: "Раскрытие сценой в с.2" },
+      { v: "e_dwarves_lady", t: "Дварфы: «Леди Льда»; родство — если раскроет он" },
+      { v: "e_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "f",
+    section: "F · Бой / давление",
+    title: "Нужен ли «зуб» в с.2?",
+    ctx: "A = выброс у Купели. F = undead при открытии. D = шпионы. Льдам — стычка у тумана или ужас без большого CR.",
+    options: [
+      { v: "f_skirmish", t: "Обязательная стычка с нежитью" },
+      { v: "f_optional", t: "Бой опционален / вставка" },
+      { v: "f_social", t: "Социал + ужас, без большого боя" },
+      { v: "f_setpiece", t: "Одна сетаповая сцена (дозор / прорыв)" },
+      { v: "f_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "g",
+    section: "G · Глубина prep",
+    title: "Сколько писать сейчас?",
+    ctx: "Как раньше у F/D: часто spine ~20 акта + полный скрипт с.2. Можно облегчить.",
+    options: [
+      { v: "g_s2_spine", t: "Скрипт с.2 + spine ~20 акта A (льды)" },
+      { v: "g_s2_light", t: "Скрипт с.2 + лёгкий каркас с.3–5" },
+      { v: "g_s2_only", t: "Только скрипт с.2" },
+      { v: "g_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "h",
+    section: "H · Playbook",
+    title: "Нужен ли seed локации сразу?",
+    ctx: "F нуждался в Причале. A обошёлся сценой Маяка. Лагерь дварфов / равнина — скрипт или seed-playbook.",
+    options: [
+      { v: "h_none", t: "Только скрипт" },
+      { v: "h_camp", t: "Seed лагеря дварфов" },
+      { v: "h_plain", t: "Seed равнины / линии фронта" },
+      { v: "h_both", t: "Лагерь + равнина" },
+      { v: "h_later", t: "Playbook после с.2" },
+      { v: "h_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "i",
+    section: "I · Новость дома",
+    title: "Одна громкая новость в клиффе?",
+    ctx: "Пока едут на СЗ, мир тикает. Одна новость = цена уезда (как в живом мире арки 3).",
+    options: [
+      { v: "i_razlom", t: "Разлом / нижний город" },
+      { v: "i_orden", t: "Орден у Сильванора" },
+      { v: "i_ridge", t: "Хребет / яйца / меч" },
+      { v: "i_firiesse", t: "Фириэсса / дневник" },
+      { v: "i_star", t: "Слух про сапоги / Пыль" },
+      { v: "i_pick_later", t: "Выберем при написании" },
+      { v: "i_other", t: "Другое → уточни ниже" }
+    ]
+  }
+];
+
+function bySection(list) {
+  const map = new Map();
+  list.forEach((q) => {
+    if (!map.has(q.section)) map.set(q.section, []);
+    map.get(q.section).push(q);
+  });
+  return map;
+}
+
+function render() {
+  const root = document.getElementById("sections");
+  root.innerHTML = "";
+  bySection(QUESTIONS).forEach((qs, section) => {
+    const sec = document.createElement("section");
+    sec.innerHTML = `<h2>${section}</h2>`;
+    qs.forEach((q) => {
+      const div = document.createElement("div");
+      div.className = "q";
+      const opts = q.options.map((o) => `<option value="${o.v}">${o.t}</option>`).join("");
+      div.innerHTML = `
+        <span class="title">${q.title}</span>
+        <div class="ctx">${q.ctx}</div>
+        ${q.rec ? `<div class="rec">${q.rec}</div>` : ""}
+        <select data-q="${q.id}"><option value="">— выбери —</option>${opts}</select>
+        <textarea class="note" data-note="${q.id}" rows="3" placeholder="Уточнение (если «Другое»)…"></textarea>`;
+      sec.appendChild(div);
+    });
+    root.appendChild(sec);
+  });
+  root.querySelectorAll("select").forEach((sel) => {
+    sel.addEventListener("change", () => {
+      const note = root.querySelector(`textarea[data-note="${sel.dataset.q}"]`);
+      if (note) note.classList.toggle("show", sel.value.endsWith("_other") || sel.value === "other");
+      persist(); updateProgress();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach((t) => t.addEventListener("input", persist));
+  document.getElementById("freeform").addEventListener("input", persist);
+}
+
+function collect() {
+  const lines = ["survey-mq06-sessions12-holes"];
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    const v = sel?.value || "—";
+    lines.push(`${q.id}=${v}`);
+    if (note && note.value.trim()) lines.push(`${q.id}_note=${note.value.trim()}`);
+  });
+  const free = document.getElementById("freeform").value.trim();
+  lines.push("note=" + (free || "—"));
+  return lines.join("\n");
+}
+
+function persist() {
+  const answers = {};
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    answers[q.id] = { v: sel?.value || "", note: note?.value || "" };
+  });
+  localStorage.setItem(STORAGE, JSON.stringify({
+    answers,
+    free: document.getElementById("freeform").value
+  }));
+}
+
+function restore() {
+  try {
+    const raw = localStorage.getItem(STORAGE);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    QUESTIONS.forEach((q) => {
+      const a = data.answers?.[q.id];
+      if (!a) return;
+      const sel = document.querySelector(`select[data-q="${q.id}"]`);
+      const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+      if (sel) sel.value = a.v || "";
+      if (note) {
+        note.value = a.note || "";
+        note.classList.toggle("show", (a.v || "").endsWith("_other"));
+      }
+    });
+    if (data.free) document.getElementById("freeform").value = data.free;
+  } catch (_) {}
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = QUESTIONS.length;
+  let done = 0;
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    if (sel && sel.value) done++;
+  });
+  document.getElementById("count").textContent = `${done} / ${total}`;
+  document.getElementById("bar").style.width = `${(done / total) * 100}%`;
+}
+
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.style.display = "block";
+  setTimeout(() => { t.style.display = "none"; }, 1600);
+}
+
+document.getElementById("btnCopy").addEventListener("click", async () => {
+  const text = collect();
+  const out = document.getElementById("out");
+  out.textContent = text;
+  out.classList.add("show");
+  try {
+    await navigator.clipboard.writeText(text);
+    toast("Скопировано — вставь в чат");
+  } catch (_) {
+    toast("Выдели текст ниже");
+  }
+});
+
+document.getElementById("btnLitter").addEventListener("click", async () => {
+  const text = collect();
+  const blob = new Blob([text], { type: "text/plain" });
+  const fd = new FormData();
+  fd.append("reqtype", "fileupload");
+  fd.append("time", "72h");
+  fd.append("fileToUpload", blob, "mq06-ice-answers.txt");
+  try {
+    const res = await fetch("https://litterbox.catbox.moe/resources/internals/api.php", { method: "POST", body: fd });
+    const url = await res.text();
+    const out = document.getElementById("out");
+    out.textContent = text + "\n\n# litterbox\n" + url;
+    out.classList.add("show");
+    try { await navigator.clipboard.writeText(url); } catch (_) {}
+    toast("Litterbox ответов готов");
+  } catch (_) {
+    toast("Litterbox недоступен — скопируй текст");
+  }
+});
+
+render();
+restore();
+updateProgress();
 </script>
 </body>
 </html>
