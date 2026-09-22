@@ -14,7 +14,8 @@ tags: [npc, antagonist, artifacts]
 
 **Артефакты сейчас:** у партии ничего. Три (**маска, кинжал, медальон**) у демонов в Разломе; три мирских — Ледяной Союз, Звёздная Пыль, Драконий Хребет. См. [`artefacts-kardian.md`](../lore/artefacts-kardian.md).
 
-**Сны для игроков (эмпатия до встречи):** архив Qwen — [`qwen-kardian-essence-dreams.md`](../../drafts/imports/qwen-kardian-essence-dreams.md).  
-Сон 1 «Эхо Пепла»; сон 2 — отправлен мастером отдельно; сон 3 «Цена Знания» (Ледяной Союз); сон 4 «Забытая деревня» — [`grok-dream-04-forgotten-village.md`](../../campaign/prep/grok-dream-04-forgotten-village.md) (герой спас деревню → власть арестовала его).
+**Сны для игроков (эмпатия до встречи):**  
+- Архив Qwen: [`qwen-kardian-essence-dreams.md`](../../drafts/imports/qwen-kardian-essence-dreams.md) — сон 1 «Эхо Пепла»; сон 2 отправлен мастером отдельно; сон 3 «Цена Знания» (Ледяной Союз).  
+- **Сон 4 (канон):** «Забытая деревня» — [`grok-dream-04-forgotten-village.md`](../../campaign/prep/grok-dream-04-forgotten-village.md): спас списанную деревню от демонов/мёртвых; ребёнок убит на глазах матери; месть демону; на рассвете Аэлендор арестовал его и сжёг селение «для сдерживания».
 
 **Цена ношения (1–6):** см. [`artefacts-kardian.md`](../lore/artefacts-kardian.md). На 6 в теле носителя воскресает Кардиан.

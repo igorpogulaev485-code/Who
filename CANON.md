@@ -93,6 +93,7 @@
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
 - [Кардиан](world/npcs/kardian.md)
+- [Сон Грока №4 — Забытая деревня](campaign/prep/grok-dream-04-forgotten-village.md) ← канон (эмпатия к Кардиану)
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
 - [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
