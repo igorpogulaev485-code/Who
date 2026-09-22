@@ -24,7 +24,8 @@ stage1_1_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terr
 | full map v8 | `les-khraniteley-map-v8.jpg` | draft |
 | full map v9 | `les-khraniteley-map-v9.jpg` | draft | бриф без соседей; Рубеж уехал на юг — отвергнут |
 | full map v10 | `les-khraniteley-map-v10.jpg` | draft | промежуточная сверка мира |
-| full map v11 | `les-khraniteley-map-v11.jpg` | **wait-ok** | промпт синхронизирован с картой мира; Рубеж запад; Врата на материковом берегу |
+| full map v11 | `les-khraniteley-map-v11.jpg` | draft | сверка мира; иконки слабые / сухо |
+| full map v12 | `les-khraniteley-map-v12.jpg` | **wait-ok** | крупные иконки городов + атмосфера (туман, тропы, живые постройки) |
 | full map | `les-khraniteley-map.jpg` | pending | после ok → copy/lock |
 
 Промпт: [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md).  

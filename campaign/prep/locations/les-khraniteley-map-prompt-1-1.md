@@ -25,17 +25,17 @@ terrain_ref: assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg
 | **З** | Королевство Пепельных земель | запад = горы/пепел → **Пепельный Рубеж только здесь** |
 | **ЮЗ** | Амират (за хребтом) | юго-запад за горами, не рисовать |
 | **СВ** | Элдеринская гавань | коридор гавани → **Восточные Врата** на В/СВ материковом берегу |
-| **В / ЮВ** | Хозяйство Болот скорби | восток за границей = топи (не рисовать); залив не «открытый океан навсегда» |
+| **В / ЮВ** | Хозяйство Болот скорби | восток за границей = топи (не рисовать) |
 | **Ю за заливом** | Империя Драконьего Хребта | юг за водой, не рисовать |
 
-## Жёсткие следствия (где раньше «уезжало»)
-1. **Пепельный Рубеж = ЗАПАД у хребта** (сторона Пепельных земель). **Запрещено** ставить его на юг у залива / к Драконьему Хребту.
-2. **Силвания + Мировое Древо = глубина лесной суши** (центр западной половины). **Не** на берегу залива.
-3. **Восточные Врата = восточный край НЕПРЕРЫВНОГО материкового леса** (тот же массив суши, что Силвания; правый край зелени у залива; коридор к Элдеринской гавани). **Не** отдельный берег «через залив», **не** остров, **не** открытая вода. На contour-locked справа в основном вода+острова — отдельной восточной суши нет.
-4. **Северная Заводь = северный берег залива** (сторона Ордена), пирс на суше.
-5. **Серебряный Порог = запад леса** у гор (гостевой вход), отдельно от Рубежа.
-6. **Снаружи пунктира:** только пергамент + западные горы у левого края. **Ноль** леса/воды/островов снаружи. Лес не должен «вылезать» за северный пунктир.
-7. Острова залива — пейзаж (земля+деревья), без городских иконок.
+## Жёсткие следствия
+1. **Пепельный Рубеж = ЗАПАД у хребта**. Не юг у залива.
+2. **Силвания + Мировое Древо = глубина лесной суши**. Не на берегу залива.
+3. **Восточные Врата = правый край того же материкового леса** у залива. Не через залив, не остров.
+4. **Северная Заводь = северный берег залива**, пирс на суше — **отдельная** иконка от Врат.
+5. **Серебряный Порог = запад** у гор, отдельно от Рубежа.
+6. Снаружи пунктира: пергамент + западные горы слева. Лес не вылезает за пунктир.
+7. Острова залива — пейзаж без городских иконок.
 
 ---
 
@@ -45,64 +45,64 @@ terrain_ref: assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg
 |---|---|
 | Процесс | База без текста → точные подписи |
 | Соседи на карте | **Нет** |
-| Регионы | Не обязательны (по умолчанию не подписывать) |
+| Регионы | Не обязательны |
 | Горы снаружи слева | Оставить |
 | Топи | По удобству; без городов в океане |
+| Иконки городов | Крупные, читаемые, разные силуэты |
+| Атмосфера | Живая карта: тропы, туман, детали берега, не «сухой» плоский лес |
 
 ## Whitelist текста (только это)
 `Лес Хранителей` · `Силвания` · `Мировое Древо` · `Серебряный Порог` · `Северная Заводь` · `Восточные Врата` · `Пепельный Рубеж`
 
 ---
 
-# Промпт B — GenerateImage (сверка с миром)
+# Промпт B — GenerateImage (атмосфера + крупные иконки)
 
-Reference images (must match silhouette):
-1. `assets/maps/les-khraniteley-contour-locked.jpg` — dashed border shape; forest west / bay east
-2. `assets/maps/les-khraniteley-borders-from-world.jpg` — world-map neighbor compass (geometry only)
-3. `assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg` — terrain fill style, parchment outside
+Reference images:
+1. `assets/maps/les-khraniteley-contour-locked.jpg` — silhouette
+2. `assets/maps/les-khraniteley-borders-from-world.jpg` — neighbor compass (geometry only)
+3. `assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg` — terrain fill + parchment outside
 
 ```
-Brand-new fantasy parchment state map of Лес Хранителей, 16:9, top-down classic RPG cartography, single clean pass.
+Hand-painted fantasy parchment STATE MAP of Лес Хранителей, 16:9, classic RPG cartography, rich atmospheric illustration — NOT a dry flat diagram.
 
-WORLD-MAP SYNC (critical — do not invent a new country shape):
-This state is the southeast mainland forest kingdom on the world map. Zoom map orientation:
-• WEST + CENTER of the FRAME = dense evergreen FOREST mainland (country heart).
-• EAST of the FRAME = large grey-blue BAY with ~5 small scenic forested islands (earth under trees).
-• Red dashed border silhouette MUST match the contour-locked reference (forest west / bay east). Same outline, same bay bite. Do NOT redraw as Aelendor. Do NOT invent a new blob.
-• Neighbor compass (geometry only, NO neighbor name labels anywhere):
-  North→Orden (forest/river). West→Ash Lands beyond mountains. SW→Amirat beyond ridge.
-  NE→Elderrin Harbor corridor. East/SE→Swamps of Sorrow beyond border. South across bay→Dragon Ridge.
+WORLD-MAP SILHOUETTE (critical):
+• Match contour-locked red dashed border exactly: dense FOREST mainland = west+center; grey-blue BAY with ~5 small forested islands = east.
+• Outside dashed border: aged parchment + western mountains on far-left edge only. ZERO forest/water leaking outside. No neighbor countries drawn. No neighbor name labels.
+• Neighbor geometry only: N→Orden, W→Ash Lands, SW→Amirat, NE→Elderrin corridor, E/SE→Swamps beyond border, S across bay→Dragon Ridge.
 
-HARD CLIP (prevent leaks):
-• ALL forest, rivers, bay water, and islands STRICTLY INSIDE the red dashed border.
-• ZERO trees/terrain spilling north, south, or east outside the dashed line.
-• Outside the dashed border: aged parchment only, PLUS western mountains along the far-left edge (keep those mountains).
-• Do NOT paint neighboring countries’ terrains. Do NOT paint swamp nation or harbor nation.
+ATMOSPHERE & DETAIL (make it feel alive — this is mandatory):
+• Varied evergreen canopy: mixed pine heights, mossy clearings, soft mist pockets in hollows, dappled warm light on crowns.
+• Winding silver rivers with tiny fords and fern banks; faint dirt pilgrim paths linking the six landmarks.
+• Bay: layered shoreline ripples, reed beds, a few tiny fishing skiffs near the northern pier, rocky islets with wind-bent trees, gentle foam.
+• Subtle ash dust and warm ochre on western foothills near the mountain fort; cool blue shadow under northern forest.
+• Small wildlife hints only (a deer silhouette in a clearing, distant birds over the bay) — no clutter stickers.
+• Ornate but glyph-free compass rose; soft parchment grain; painterly ink edges. Mood: sacred living forest kingdom, quiet wonder, not empty.
+• Fill ALL interior of the dashed border (forest, river, or bay) — no blank parchment holes inside.
 
-NO TEXT AT ALL (no Cyrillic, no Latin, no digits, no numbered callout badges, no junk letters on compass). Labels added later. Compass rose decorative only, no letter glyphs.
+NO TEXT AT ALL: no Cyrillic, Latin, digits, numbered badges, callout circles, or compass letters. Labels added later.
 
-Exactly SIX landmark icons, all ON MAINLAND LAND (never in open bay water, never on bay islands):
+Exactly SIX LARGE, DISTINCT city/landmark ICONS on mainland land only (icons must be obvious settlement marks, big enough to read at a glance; never on bay islands; never floating in open water):
 
-1) Силвания — CENTER of the forest mainland (western half of the map, deep in trees): large silver leaf-in-ring capital emblem. NOT on the bay shore.
-2) Мировое Древо — immediately beside the capital, still deep in forest interior: giant sacred tree. NOT on the bay shore.
-3) Серебряный Порог — WEST side of the forest near the mountains: stone temple/threshold gate (guest entrance from the west). Separate from the Ash fort.
-4) Пепельный Рубеж — WESTERN foothills INSIDE the border, CLOSE TO THE MOUNTAIN RIDGE (toward Ash Lands / west). Stone mountain fort. FORBIDDEN: south shore of the bay, east, or Dragon-Ridge side.
-5) Северная Заводь — NORTH shore where forest/river meets the bay (toward Orden): wooden pier on the BANK, feet on land.
-6) Восточные Врата — on the SAME continuous western mainland forest as the capital: the RIGHTMOST dirt/grass of that forest where it meets the bay (corridor toward Elderrin Harbor / NE). Stone gate on shore. FORBIDDEN: separate landmass across the bay on the far-right; bay islands; open water; inventing an eastern peninsula that the contour does not have.
+• Силвания — deep CENTER of forest mainland: CAPITAL town cluster — elven wooden halls + silver leaf-in-ring banner above a small plaza clearing. NOT only a tiny seal; show buildings. Not on bay shore.
+• Мировое Древо — immediately beside the capital inland: colossal sacred glowing-canopy world tree with visible roots and a ring of standing stones. Distinct from Silvania.
+• Серебряный Порог — WEST near mountains: grand silver-stone temple threshold gate with lanterns and a guest road. Separate from the ash fort.
+• Пепельный Рубеж — WESTERN foothills INSIDE border against the mountain ridge (toward Ash Lands): stout ash-stained stone keep/fort with watch fire. FORBIDDEN on south bay shore or east.
+• Северная Заводь — NORTH bay shore on land: riverside quay town — wooden pier, boats, low warehouses, smoke from a hearth. Separate icon from Eastern Gates.
+• Восточные Врата — RIGHTMOST edge of the SAME continuous mainland forest where trees meet the bay (NE corridor toward Elderrin): twin stone gate towers on dirt/grass shore with a road inland. FORBIDDEN: far shore across the bay; islands; inventing a separate eastern peninsula.
 
-Bay islands: trees + earth only — no city icons. Do NOT invent a big eastern forest shore across the water — contour-locked has bay+islands on the east inside the border.
-Optional slight marsh tint on southeast mainland fringe only — no swamp cities in water.
+Bay islands = scenery trees+earth only, no city icons.
 ```
 
 ---
 
 # Подписи после генерации (код)
-Exact whitelist у иконок:
-- Силвания → у листа в центре леса
-- Мировое Древо → у древа рядом
-- Серебряный Порог → запад у гор
-- Пепельный Рубеж → запад у хребта (не юг!)
-- Северная Заводь → северный берег залива на суше
-- Восточные Врата → восточный материковый берег леса
+Exact whitelist у каждой иконки (не сливать Заводь и Врата):
+- Силвания → у столичного кластера
+- Мировое Древо → у древа
+- Серебряный Порог → западный храм-порог
+- Пепельный Рубеж → западный форт у хребта
+- Северная Заводь → северный пирс/пристань
+- Восточные Врата → восточные башни на материковом берегу
 
-Output: `assets/maps/les-khraniteley-map-v11.jpg`
+Output: `assets/maps/les-khraniteley-map-v12.jpg`
