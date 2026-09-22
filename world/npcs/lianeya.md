@@ -28,4 +28,4 @@ source: gm-2026-09-10 + player-backstory (Эларион) + earlier lore lock
 ## Prep-заметки
 
 - Тон встречи с Эларионом — отдельный моральный узел (не прописывать исход).  
-- «Злые силы», воскресившие её — пока **seed**; варианты связи с душой Кардиана (L1–L3) — в [`../../campaign/plot/canon-lock-2026-09-22-mq04-dead-plane-be.md`](../../campaign/plot/canon-lock-2026-09-22-mq04-dead-plane-be.md), ждать ok мастера.
+- Воскрешение / связь: лок **L1+L2** — Доспехи смерти = антенна души Кардиана; он причастен к воскрешению (долг). [`../../campaign/plot/canon-lock-2026-09-22-mq04-dead-plane-be.md`](../../campaign/plot/canon-lock-2026-09-22-mq04-dead-plane-be.md).
