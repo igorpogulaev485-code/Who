@@ -86,7 +86,8 @@ attitude_axes:
 |---|---|---|---|---|
 | mq-01 | Разлом жрёт низ | Край Разлома / Дозор | Тандил / сам Разлом | [`../../arcs/arc-3/quests/mq-01-klyk-v-zavese.md`](../../arcs/arc-3/quests/mq-01-klyk-v-zavese.md) |
 | mq-02 | Три трофея у демонов | Край Разлома / Фиалка | Филлер·Кавил / охота | [`../../arcs/arc-3/quests/mq-02-tri-trofeya.md`](../../arcs/arc-3/quests/mq-02-tri-trofeya.md) |
-| mq-03 | Корона в Лесу | Врата Рассвета | нужда короны / Кавил | [`../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md`](../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md) |
+| mq-03 | Корона в Лесу | Элиэлор / порталы | Кавил + камень | [`../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md`](../../arcs/arc-3/quests/mq-03-korona-v-kornyah.md) |
+| q-portal-stone | Украден камень Порога | Зал порталов Элиэлора | Маэрис | [`quests/q-portal-stone.md`](quests/q-portal-stone.md) |
 | mq-04 | Велиан пропал | Казармы / край | Тандил | [`../../arcs/arc-3/quests/mq-04-ten-ushla.md`](../../arcs/arc-3/quests/mq-04-ten-ushla.md) |
 | mq-05 | Пепел Маэстро | Верх / пепел шатра / Фиалка | похороны / дневник | [`../../arcs/arc-3/quests/mq-05-pepel-maestro.md`](../../arcs/arc-3/quests/mq-05-pepel-maestro.md) |
 | mq-06 | Три арта на земле | Кавил / гарнизон Хребта (старт охоты) | Филлер·Кавил / гонка | [`../../arcs/arc-3/quests/mq-06-tri-na-zemle.md`](../../arcs/arc-3/quests/mq-06-tri-na-zemle.md) |

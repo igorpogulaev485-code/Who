@@ -3,26 +3,25 @@ id: mq-03-korona-v-kornyah
 title: "Корона в корнях"
 status: prep
 arc_slug: arc-3
-direction: "Лунный Мост (верхний город, портал Кавила) → храм в Лесу Хранителей → Малфурион / столица / тайный Элессар I"
-size_hint: arc-thread
-priority: high
-window: "пока Элессар ещё в тени Леса и не издал манифест без партии; совет друидов ~1 мес."
-portal_entry: "royal adjutant portal → forest temple (not capital)"
+direction: "Лунный Мост (камень портала) → Храм Серебряного Порога → Силвания / Малфурион / монастырь → Элессар (~с.10)"
+capital: Силвания
+session2: quests/mq-03-sessions-2-door-d.md
+spine: quests/mq-03-forest-spine-20.md
+portal_quest: campaign/prep/locations/lunnyy-most/quests/q-portal-stone.md
+temple: campaign/prep/locations/serebryanyy-porog/playbook.md
 locks:
-  - campaign/plot/canon-lock-2026-09-22-mq03-portal-temple.md
+  - campaign/plot/canon-lock-2026-09-22-mq03-wave3.md
+  - campaign/plot/canon-lock-2026-09-22-mq03-wave2.md
   - campaign/plot/canon-lock-2026-09-22-malfurion-council.md
 rules: dnd-5e-2014
-tags: [quest, main, forest, elessar, malfurion]
+tags: [quest, main, forest, elessar, malfurion, silvania]
 ---
 
 # mq-03 — Корона в корнях
 
 ## Hook (30 сек)
 
-Ложный Константин мёртв. Истинный король **Элессар I** — в Лесу (тайное место). **Малфурион** зовёт совет друидов (~1 мес.). С Лунного моста **Кавил** может открыть **портал** не в столицу, а в **храм** — оттуда три дороги.
-
-Лок портала: [`../../../../plot/canon-lock-2026-09-22-mq03-portal-temple.md`](../../../../plot/canon-lock-2026-09-22-mq03-portal-temple.md)  
-Лок Малфуриона: [`../../../../plot/canon-lock-2026-09-22-malfurion-council.md`](../../../../plot/canon-lock-2026-09-22-malfurion-council.md)
+Камень портала в Лес **украден** шпионами Ордена. Верните — прыжок в **Храм Серебряного Порога**. Оттуда ясно: **Силвания** (столица) или **Малфурион**. Король — долгое расследование (~с.10), часто через монастырь.
 
 ## Направление
 

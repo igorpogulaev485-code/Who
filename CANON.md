@@ -54,7 +54,7 @@
 - [Камнеград](world/locations/kamnegrad.md)
 - [Белый шип](world/locations/belyy-ship.md) · [Туманный клык](world/locations/tumannyy-klyk.md) · [Тихий брод](world/locations/tikhiy-brod.md)
 - [Чаша Шепотов](world/locations/chasha-shepotov.md) · [Поле павших героев](world/locations/pole-pavshikh-geroev.md)
-- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор)
+- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор; столица **Силвания**)
 - [Розалия](world/locations/rozaliya.md)
   - [НПС](world/locations/rozaliya/npcs.md)
   - [Суда](world/locations/rozaliya/ships.md)
