@@ -1,18 +1,22 @@
 ---
 id: mq-01-sessions-1-2-detail
 title: "mq-01 — детали сессий 1–2 (пролог ветки Разлома)"
-status: prep
+status: skeleton-pending-survey
 arc_slug: arc-3
 quest_primary: mq-01-klyk-v-zavese
 spine: mq-01-razlom-spine-20.md
 horizon_note: "Детали только пролога; горизонт ветки = spine ~20"
+survey: campaign/plot/survey-sessions12-vision-v1.md
 rules: dnd-5e-2014
 ---
 
-# Сессии 1–2 — пролог ветки Разлома
+# Сессии 1–2 — пролог (СЕЙЧАС = ОСНОВА)
 
-Каркас: [`mq-01-razlom-spine-20.md`](mq-01-razlom-spine-20.md)  
-База демонов: [`../../../../drafts/imports/qwen-ark3-vnutri-razloma.md`](../../../../drafts/imports/qwen-ark3-vnutri-razloma.md)  
+> **Статус:** это **каркас битов**, не стол. Речи, описания входа, must-have кадры — после опроса мастера:  
+> [`../../../plot/survey-sessions12-vision-v1.md`](../../../plot/survey-sessions12-vision-v1.md)  
+> Не использовать абзацы ниже как «готовые описания» — их ещё нет.
+
+Каркас ветки: [`mq-01-razlom-spine-20.md`](mq-01-razlom-spine-20.md)  
 **Не цель блока:** Алтарь / Филактерий / Око. Цель — **войти в ветку** и **закрепиться у порога**.
 
 ---
