@@ -1,37 +1,31 @@
 ---
 id: orch-mq03-sessions12
-title: "План — mq-03 Лес: сессия 2 + spine (как раньше)"
-status: blocked-survey
+title: "План — mq-03 Лес: сессия 2 + spine"
+status: blocked-survey-wave2
 source: gm-2026-09-22
 ---
 
-# mq-03 после лока пути
+# mq-03
 
-## Цель
+## Залочено (волна 1)
 
-Как A/F: опрос дырок → каркас ~20 + полный скрипт **сессии 2 двери D** → стоп.
-
-## Шаг 0
-
-Лок выбора: [`../../plot/canon-lock-2026-09-22-next-path-mq03.md`](../../plot/canon-lock-2026-09-22-next-path-mq03.md)  
-Карточка: `mq-03-korona-v-kornyah.md` · wiki Лес / Элессар.
+Портал верхнего города (Кавил) → храм в Лесу → вилка Малфурион / столица / тайный Элессар.  
+Орден бьёт Элдерин+Лес скоро (не в с.1–2 у партии). Цена уезда = Разлом без них.  
+Лок: [`../../plot/canon-lock-2026-09-22-mq03-portal-temple.md`](../../plot/canon-lock-2026-09-22-mq03-portal-temple.md)
 
 ## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---:|---|---|---|
-| 1 | опрос A–H | дырки сессии 2 / spine / playbook | **blocked-survey** |
-| 2 | `echo-dawn-quest-main` | spine + `mq-03-sessions-2-door-d.md` | wait |
-| 3 | `echo-dawn-location` | seed playbook если G ≠ none | wait |
-| 4 | wire + стоп | ссылки; снова спросим путь | wait |
+| 1 | опрос волна 2 | храм / портал / клифф / столица / Орден-GM | **blocked** |
+| 2 | `echo-dawn-location` | seed playbook **храма** | wait |
+| 3 | `echo-dawn-quest-main` | spine ~20 + скрипт с.2 двери D | wait |
 
-## Опросы
+## Опрос
 
-**v2 (с контекстом + Малфурион):** [`../../plot/survey-mq03-sessions12-holes.md`](../../plot/survey-mq03-sessions12-holes.md)
+[`../../plot/survey-mq03-wave2.md`](../../plot/survey-mq03-wave2.md)
 
-Лок Малфуриона: [`../../plot/canon-lock-2026-09-22-malfurion-council.md`](../../plot/canon-lock-2026-09-22-malfurion-council.md)
+## Не делаем до ответов волны 2
 
-## Не делаем до ответов
-
-- Писать скрипт/spine «наугад»
-- Аудиенцию Элессара / полный совет без выбора A/I  
+- Полный скрипт / spine «наугад»
+- Имя столицы / тайного Элессара без выбора N/O

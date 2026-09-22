@@ -3,20 +3,25 @@ id: mq-03-korona-v-kornyah
 title: "Корона в корнях"
 status: prep
 arc_slug: arc-3
-direction: "Лунный Мост → ЮВ → Лес Хранителей → аудиенция у Элессара I"
+direction: "Лунный Мост (верхний город, портал Кавила) → храм в Лесу Хранителей → Малфурион / столица / тайный Элессар I"
 size_hint: arc-thread
 priority: high
-window: "пока Элессар ещё в тени Леса и не издал манифест без партии (~4–6 сессий)"
+window: "пока Элессар ещё в тени Леса и не издал манифест без партии; совет друидов ~1 мес."
+portal_entry: "royal adjutant portal → forest temple (not capital)"
+locks:
+  - campaign/plot/canon-lock-2026-09-22-mq03-portal-temple.md
+  - campaign/plot/canon-lock-2026-09-22-malfurion-council.md
 rules: dnd-5e-2014
-tags: [quest, main, forest, elessar]
+tags: [quest, main, forest, elessar, malfurion]
 ---
 
 # mq-03 — Корона в корнях
 
 ## Hook (30 сек)
 
-Ложный Константин мёртв. Истинный король **Элессар I** — в **Лесу Хранителей**. Параллельно: **Малфурион (Ярость Бури)** созвал **совет друидов** (~1 месяц) — видение **Дранника**. Можно гнать корону, природу — или оба, не успев.
+Ложный Константин мёртв. Истинный король **Элессар I** — в Лесу (тайное место). **Малфурион** зовёт совет друидов (~1 мес.). С Лунного моста **Кавил** может открыть **портал** не в столицу, а в **храм** — оттуда три дороги.
 
+Лок портала: [`../../../../plot/canon-lock-2026-09-22-mq03-portal-temple.md`](../../../../plot/canon-lock-2026-09-22-mq03-portal-temple.md)  
 Лок Малфуриона: [`../../../../plot/canon-lock-2026-09-22-malfurion-council.md`](../../../../plot/canon-lock-2026-09-22-malfurion-council.md)
 
 ## Направление

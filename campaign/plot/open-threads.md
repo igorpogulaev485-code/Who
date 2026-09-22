@@ -60,5 +60,8 @@ source: gm-lock-round2 + player-briefs
 
 ## Лес Хранителей
 
-Отдельное государство; **Элессар I** + **Малфурион (Ярость Бури)** / совет друидов (~1 мес.).  
-[`les-khraniteley.md`](../../world/locations/les-khraniteley.md) · [`malfurion-yarost-buri.md`](../../world/npcs/malfurion-yarost-buri.md) · лок: [`canon-lock-2026-09-22-malfurion-council.md`](canon-lock-2026-09-22-malfurion-council.md)
+Отдельное государство; **Элессар I** (тайное место TBD) + **Малфурион** / совет друидов (~1 мес.).  
+Вход партии с моста: **портал верхнего города** (Кавил) → **храм** в Лесу (не столица) → вилка.  
+**GM-only:** Орден готовит удар по **Элдеринской гавани** + Лесу (партия в с.1–2 не знает).  
+Локи: [`canon-lock-2026-09-22-malfurion-council.md`](canon-lock-2026-09-22-malfurion-council.md) · [`canon-lock-2026-09-22-mq03-portal-temple.md`](canon-lock-2026-09-22-mq03-portal-temple.md)  
+[`les-khraniteley.md`](../../world/locations/les-khraniteley.md) · [`malfurion-yarost-buri.md`](../../world/npcs/malfurion-yarost-buri.md)
