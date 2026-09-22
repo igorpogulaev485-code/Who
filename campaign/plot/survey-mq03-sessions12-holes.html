@@ -3,91 +3,106 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Опрос — mq-03 Лес (сессия 2)</title>
+<title>Опрос mq-03 v2 — Лес (контекст)</title>
 <style>
-  body{font-family:system-ui,sans-serif;max-width:42rem;margin:1.5rem auto;padding:0 1rem;line-height:1.45}
-  h1{font-size:1.25rem} h2{font-size:1.05rem;margin-top:1.25rem}
-  label{display:block;margin:.6rem 0 .2rem;font-weight:600}
+  body{font-family:system-ui,sans-serif;max-width:44rem;margin:1.5rem auto;padding:0 1rem;line-height:1.45}
+  h1{font-size:1.3rem} h2{font-size:1.05rem;margin:1.4rem 0 .4rem}
+  .ctx{background:#f6f6f4;padding:.75rem 1rem;border-radius:6px;font-size:.92rem;margin:.4rem 0 .6rem}
+  label{display:block;margin:.5rem 0 .2rem;font-weight:600}
   select,textarea,button{width:100%;font:inherit;padding:.5rem;box-sizing:border-box}
   textarea{min-height:4.5rem} .hint{color:#444;font-size:.9rem}
-  #out{margin-top:1rem;padding:.75rem;background:#f4f4f4;white-space:pre-wrap;font-size:.85rem}
+  #out{margin-top:1rem;padding:.75rem;background:#eee;white-space:pre-wrap;font-size:.85rem}
   button{margin-top:1rem;cursor:pointer}
 </style>
 </head>
 <body>
-<h1>mq-03 Лес — дырки сессии 2</h1>
-<p class="hint">Путь залочен: дверь D. «Как раньше»: после ответов — spine ~20 + полный скрипт сессии 2.</p>
+<h1>mq-03 Лес — опрос v2</h1>
+<p class="hint">Полный текст контекста — в <code>survey-mq03-sessions12-holes.md</code>. Малфурион + совет (~1 мес.) уже в каноне.</p>
 
 <h2>A · Клифф сессии 2</h2>
+<div class="ctx">Как Маяк (A) или Причал (F): закрепиться, не финал mq. Лес далеко; впихнуть Элессара в один вечер = скачок.</div>
 <select id="a">
   <option value="">—</option>
   <option value="a_order">Зона Ордена (Лес на горизонте)</option>
-  <option value="a_border">Граница Леса (первый тест)</option>
-  <option value="a_village">Первое поселение под кронами (не аудиенция)</option>
-  <option value="a_elessar">До Элессара / аудиенция в сессии 2</option>
+  <option value="a_border">Граница Леса — порог (рекомендуемый аналог Маяка)</option>
+  <option value="a_village">Первое поселение под кронами (без аудиенции)</option>
+  <option value="a_elessar">До Элессара / аудиенция в ту же сессию</option>
+  <option value="a_malfurion">До Малфуриона / места совета (без полного совета)</option>
   <option value="a_other">Другое / уточню</option>
 </select>
 
 <h2>B · Темп дороги</h2>
+<div class="ctx">Игровые дни vs экран. Монтаж может сжечь неделю календаря (таймер совета); один день — почти не двигает месяц.</div>
 <select id="b">
   <option value="">—</option>
   <option value="b_montage">Монтаж дней + 1–2 узла</option>
-  <option value="b_one_day">Один день: сборы → Врата → первая сцена</option>
-  <option value="b_multi">Несколько полноценных тревел-битов</option>
+  <option value="b_one_day">Один игровой день выезда</option>
+  <option value="b_few_days">2–4 игровых дня, короткие биты</option>
+  <option value="b_multi">Много полноценных тревел-сцен</option>
   <option value="b_other">Другое / уточню</option>
 </select>
 
 <h2>C · Кто толкает дверь D</h2>
+<div class="ctx">Тандил/Кавил = корона. Наблюдатель = Лес. Дранник = видение Малфуриона. Можно смешать.</div>
 <select id="c">
   <option value="">—</option>
-  <option value="c_tandil">Тандил</option>
-  <option value="c_kavil">Кавил / Совет</option>
+  <option value="c_tandil">Тандил (долг короне)</option>
+  <option value="c_kavil">Кавил / мандат Совета</option>
   <option value="c_forest">Наблюдатель Леса</option>
-  <option value="c_party">Партия сама</option>
-  <option value="c_mix">Тандил + намёк наблюдателя</option>
+  <option value="c_drannik">Толчок от видения Дранника</option>
+  <option value="c_mix_crown">Тандил/Кавил + наблюдатель</option>
+  <option value="c_mix_nature">Дранник + Тандил «король там же»</option>
+  <option value="c_party">Уходят сами</option>
   <option value="c_other">Другое / уточню</option>
 </select>
 
 <h2>D · Орден в сессии 2</h2>
+<div class="ctx">Маршрут через зону Ордена. Может быть «выброс вечера» или только дым на горизонте.</div>
 <select id="d">
   <option value="">—</option>
-  <option value="d_must">Обязательный узел (обход / диплом / стычка)</option>
+  <option value="d_must">Обязательный узел: обход / диплом / стычка</option>
   <option value="d_optional">Опционально / вставка</option>
-  <option value="d_skip_s2">В сессии 2 не трогаем (фон)</option>
+  <option value="d_skip_s2">В с.2 не трогаем (фон)</option>
   <option value="d_other">Другое / уточню</option>
 </select>
 
 <h2>E · Первый контакт с Лесом</h2>
+<div class="ctx">Имеет смысл, если клифф у границы/поселения. Друидам на совет могут открыть иной проход.</div>
 <select id="e">
   <option value="">—</option>
   <option value="e_test">Сразу испытание</option>
   <option value="e_guide">Проводник → поселение, тест позже</option>
   <option value="e_cold">Холодный досмотр</option>
   <option value="e_warm">Настороженно-тёплое гостеприимство</option>
-  <option value="e_later">В сессии 2 только силуэт; контакт в с.3</option>
+  <option value="e_druid_gate">Друидский проход проще, если открыли видение</option>
+  <option value="e_later">В с.2 только силуэт (контакт в с.3)</option>
   <option value="e_other">Другое / уточню</option>
 </select>
 
-<h2>F · Spine</h2>
+<h2>F · Spine сейчас</h2>
+<div class="ctx">У mq-04 было: полный ~20 + скрипт с.2.</div>
 <select id="f">
   <option value="">—</option>
-  <option value="f_full">Полный spine ~20 + скрипт с.2 (как mq-04)</option>
+  <option value="f_full">Полный spine ~20 (корона+совет) + скрипт с.2</option>
   <option value="f_s2_spine_light">Скрипт с.2 + лёгкий spine</option>
   <option value="f_s2_only">Только сессия 2</option>
   <option value="f_other">Другое / уточню</option>
 </select>
 
 <h2>G · Playbook сейчас</h2>
+<div class="ctx">F без Причала был бы дырявым; A обошлась сценой Маяка в скрипте.</div>
 <select id="g">
   <option value="">—</option>
   <option value="g_none">Без нового playbook</option>
   <option value="g_road">Seed дороги / Орден</option>
   <option value="g_border">Seed границы / первого поселения</option>
-  <option value="g_both">И дорога, и граница (seed)</option>
+  <option value="g_council">Seed места совета друидов</option>
+  <option value="g_both">Дорога + граница</option>
   <option value="g_other">Другое / уточню</option>
 </select>
 
-<h2>H · Новость дома в клиффе с.2</h2>
+<h2>H · Новость дома в клиффе</h2>
+<div class="ctx">Одна громкая новость: уезд имеет цену.</div>
 <select id="h">
   <option value="">—</option>
   <option value="h_rift">Разлом / низ</option>
@@ -98,17 +113,29 @@
   <option value="h_other">Другое / уточню</option>
 </select>
 
+<h2>I · Элессар ↔ Малфурион</h2>
+<div class="ctx">Две вводные в одном Лесу. Как ведём весь mq-03, не только с.2.</div>
+<select id="i">
+  <option value="">—</option>
+  <option value="i_parallel">Параллельные цели: корона или совет раньше</option>
+  <option value="i_same_hub">Один хаб: и двор, и путь к Малфуриону</option>
+  <option value="i_druid_first">Сначала совет (~месяц); Элессар второй</option>
+  <option value="i_crown_first">Сначала Элессар; совет фон/дедлайн</option>
+  <option value="i_malfurion_gate">Малфурион решает, пустят ли к королю</option>
+  <option value="i_other">Другое / уточню</option>
+</select>
+
 <label for="note">Заметка</label>
-<textarea id="note" placeholder="Имена, длина дороги, другое…"></textarea>
+<textarea id="note" placeholder="Срок совета, только Дранник видел? имена…"></textarea>
 
 <button type="button" id="copy">Скопировать ответы</button>
 <pre id="out"></pre>
 <script>
-const ids=['a','b','c','d','e','f','g','h','note'];
+const ids=['a','b','c','d','e','f','g','h','i','note'];
 function lines(){
   const v=id=>document.getElementById(id).value;
   return ['survey-mq03-sessions12-holes',
-    ...ids.filter(i=>i!=='note').map(i=>i+'='+(v(i)||'(пусто)')),
+    ...ids.filter(x=>x!=='note').map(x=>x+'='+(v(x)||'(пусто)')),
     'note='+(v('note')||'(нет)')
   ].join('\\n');
 }
@@ -116,7 +143,7 @@ function refresh(){document.getElementById('out').textContent=lines();}
 ids.forEach(id=>document.getElementById(id).addEventListener('input',refresh));
 document.getElementById('copy').onclick=async()=>{
   refresh();
-  try{await navigator.clipboard.writeText(lines());alert('Скопировано — вставь в чат');}
+  try{await navigator.clipboard.writeText(lines());alert('Скопировано');}
   catch(e){alert('Скопируй из блока ниже');}
 };
 refresh();

@@ -27,9 +27,11 @@ source: gm-2026-09-22
 
 ## Опросы
 
-[`../../plot/survey-mq03-sessions12-holes.md`](../../plot/survey-mq03-sessions12-holes.md)
+**v2 (с контекстом + Малфурион):** [`../../plot/survey-mq03-sessions12-holes.md`](../../plot/survey-mq03-sessions12-holes.md)
+
+Лок Малфуриона: [`../../plot/canon-lock-2026-09-22-malfurion-council.md`](../../plot/canon-lock-2026-09-22-malfurion-council.md)
 
 ## Не делаем до ответов
 
 - Писать скрипт/spine «наугад»
-- Аудиенцию Элессара без выбора A  
+- Аудиенцию Элессара / полный совет без выбора A/I  
