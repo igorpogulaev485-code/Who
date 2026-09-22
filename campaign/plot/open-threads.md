@@ -61,7 +61,7 @@ source: gm-lock-round2 + player-briefs
 ## Лес Хранителей
 
 Отдельное государство; **Элессар I** (тайное место TBD) + **Малфурион** / совет друидов (~1 мес.).  
-Вход партии с моста: **портал верхнего города** (Кавил) → **храм** в Лесу (не столица) → вилка.  
-**GM-only:** Орден готовит удар по **Элдеринской гавани** + Лесу (партия в с.1–2 не знает).  
-Локи: [`canon-lock-2026-09-22-malfurion-council.md`](canon-lock-2026-09-22-malfurion-council.md) · [`canon-lock-2026-09-22-mq03-portal-temple.md`](canon-lock-2026-09-22-mq03-portal-temple.md)  
-[`les-khraniteley.md`](../../world/locations/les-khraniteley.md) · [`malfurion-yarost-buri.md`](../../world/npcs/malfurion-yarost-buri.md)
+Вход партии с моста: расследование **камней портала** → **Храм Серебряного Порога** → вилка (столица / Малфурион; король ~с.10 через монастырь).  
+Playbook храма: [`../prep/locations/serebryanyy-porog/playbook.md`](../prep/locations/serebryanyy-porog/playbook.md)  
+**GM-only:** Орден готовит удар по Элдерину + Лесу — **без намёков** партии в первых сессиях пути.  
+Локи: malfurion · portal-temple · [`canon-lock-2026-09-22-mq03-wave2.md`](canon-lock-2026-09-22-mq03-wave2.md)

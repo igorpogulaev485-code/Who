@@ -153,5 +153,6 @@ B: уважение, но часы демонов/Сильванора тика�
 
 | loc_slug | place | playbook? |
 |---|---|---|
-| lunnyy-most | Врата Рассвета / прощание | да |
-| les-khraniteley | аудиенция (seed playbook позже) | якорь в overview |
+| lunnyy-most | верхний город / портал / камни | да |
+| serebryanyy-porog | высадка; подсказки | [`../../../locations/serebryanyy-porog/playbook.md`](../../../locations/serebryanyy-porog/playbook.md) |
+| les-khraniteley | столица (имя TBD) / монастырь / Малфурион | seed |
