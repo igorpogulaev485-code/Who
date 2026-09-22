@@ -1,17 +1,17 @@
 ---
 title: Мини-опрос — механика прохода / маяк / Купель
-status: open
+status: closed
 tags: [survey, arc3, razlom]
 created: 2026-09-22
-note: "После vision-v1: proposal уже в скрипте; здесь только дыры"
+closed: 2026-09-22
+lock: canon-lock-2026-09-22-sessions12-mechanics.md
+note: "Ответы внесены в лок + скрипт"
 ---
 
-# Мини-опрос: докрутка сессии 2
+# Мини-опрос: докрутка сессии 2 — ЗАКРЫТ
 
-Скрипт уже написан с `[proposal]`: [`../prep/arcs/arc-3/quests/mq-01-sessions-1-2-detail.md`](../prep/arcs/arc-3/quests/mq-01-sessions-1-2-detail.md)
-
-Ответь здесь текстом или через HTML: [`survey-sessions12-mechanics-v1.html`](survey-sessions12-mechanics-v1.html)  
-**Safari:** https://litter.catbox.moe/r1klgk.html (~72 ч)
+Ответы → [`canon-lock-2026-09-22-sessions12-mechanics.md`](canon-lock-2026-09-22-sessions12-mechanics.md)  
+Скрипт обновлён: [`../prep/arcs/arc-3/quests/mq-01-sessions-1-2-detail.md`](../prep/arcs/arc-3/quests/mq-01-sessions-1-2-detail.md)
 
 ## 1. Три сейва в проходе
 
