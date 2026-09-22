@@ -65,3 +65,10 @@ source: gm-lock-round2 + player-briefs
 Скрипт с.2: [`../prep/arcs/arc-3/quests/mq-03-sessions-2-door-d.md`](../prep/arcs/arc-3/quests/mq-03-sessions-2-door-d.md)  
 **GM-only:** Орден готовит удар по Элдерину+Лесу — **без намёков** в ранних сессиях пути.  
 Локи: malfurion · wave2 · [`canon-lock-2026-09-22-mq03-wave3.md`](canon-lock-2026-09-22-mq03-wave3.md)
+
+## mq-06 · льды (дверь E) — prep сейчас
+
+Следующий путь после A/F/D: **Ледяной Союз / Лианэя / Доспехи**.  
+Лок: [`canon-lock-2026-09-22-next-path-mq06-ice.md`](canon-lock-2026-09-22-next-path-mq06-ice.md)  
+Опрос дырок с.2: [`survey-mq06-sessions12-holes.md`](survey-mq06-sessions12-holes.md) · план: [`../prep/orchestrator/mq06-sessions12-ice-plan.md`](../prep/orchestrator/mq06-sessions12-ice-plan.md)  
+Сессии 2 ещё нет: двери **B**, **C**.
