@@ -31,7 +31,7 @@ terrain_ref: assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg
 ## Жёсткие следствия (где раньше «уезжало»)
 1. **Пепельный Рубеж = ЗАПАД у хребта** (сторона Пепельных земель). **Запрещено** ставить его на юг у залива / к Драконьему Хребту.
 2. **Силвания + Мировое Древо = глубина лесной суши** (центр западной половины). **Не** на берегу залива.
-3. **Восточные Врата = восточный край МАТЕРИКОВОГО леса** (грязь/трава у воды, коридор к Элдеринской гавани). **Не** остров посреди залива, **не** открытая вода.
+3. **Восточные Врата = восточный край НЕПРЕРЫВНОГО материкового леса** (тот же массив суши, что Силвания; правый край зелени у залива; коридор к Элдеринской гавани). **Не** отдельный берег «через залив», **не** остров, **не** открытая вода. На contour-locked справа в основном вода+острова — отдельной восточной суши нет.
 4. **Северная Заводь = северный берег залива** (сторона Ордена), пирс на суше.
 5. **Серебряный Порог = запад леса** у гор (гостевой вход), отдельно от Рубежа.
 6. **Снаружи пунктира:** только пергамент + западные горы у левого края. **Ноль** леса/воды/островов снаружи. Лес не должен «вылезать» за северный пунктир.
@@ -79,7 +79,7 @@ HARD CLIP (prevent leaks):
 • Outside the dashed border: aged parchment only, PLUS western mountains along the far-left edge (keep those mountains).
 • Do NOT paint neighboring countries’ terrains. Do NOT paint swamp nation or harbor nation.
 
-NO TEXT AT ALL (no Cyrillic, no Latin, no junk letters on compass). Labels added later. Compass rose decorative only, no letter glyphs.
+NO TEXT AT ALL (no Cyrillic, no Latin, no digits, no numbered callout badges, no junk letters on compass). Labels added later. Compass rose decorative only, no letter glyphs.
 
 Exactly SIX landmark icons, all ON MAINLAND LAND (never in open bay water, never on bay islands):
 
@@ -88,9 +88,9 @@ Exactly SIX landmark icons, all ON MAINLAND LAND (never in open bay water, never
 3) Серебряный Порог — WEST side of the forest near the mountains: stone temple/threshold gate (guest entrance from the west). Separate from the Ash fort.
 4) Пепельный Рубеж — WESTERN foothills INSIDE the border, CLOSE TO THE MOUNTAIN RIDGE (toward Ash Lands / west). Stone mountain fort. FORBIDDEN: south shore of the bay, east, or Dragon-Ridge side.
 5) Северная Заводь — NORTH shore where forest/river meets the bay (toward Orden): wooden pier on the BANK, feet on land.
-6) Восточные Врата — EASTERN tip of the MAINLAND forest coast facing the bay (corridor toward Elderrin Harbor / NE): stone gate standing on dirt/grass shore at the rightmost edge of continuous forest land. NOT on an ocean island. NOT floating in open water. NOT at the far empty eastern water tip with no mainland.
+6) Восточные Врата — on the SAME continuous western mainland forest as the capital: the RIGHTMOST dirt/grass of that forest where it meets the bay (corridor toward Elderrin Harbor / NE). Stone gate on shore. FORBIDDEN: separate landmass across the bay on the far-right; bay islands; open water; inventing an eastern peninsula that the contour does not have.
 
-Bay islands: trees + earth only — no city icons.
+Bay islands: trees + earth only — no city icons. Do NOT invent a big eastern forest shore across the water — contour-locked has bay+islands on the east inside the border.
 Optional slight marsh tint on southeast mainland fringe only — no swamp cities in water.
 ```
 
@@ -105,4 +105,4 @@ Exact whitelist у иконок:
 - Северная Заводь → северный берег залива на суше
 - Восточные Врата → восточный материковый берег леса
 
-Output: `assets/maps/les-khraniteley-map-v10.jpg`
+Output: `assets/maps/les-khraniteley-map-v11.jpg`
