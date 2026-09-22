@@ -29,7 +29,7 @@ source: gm-2026-09-22
 ## Опрос
 
 [`../plot/survey-mq04-dead-plane-v1.md`](../plot/survey-mq04-dead-plane-v1.md)  
-HTML + litterbox — в чате  
+HTML в репо; litterbox сейчас недоступен — ответы в чат ок.
 
 ## Не делаем до ответов
 
@@ -38,4 +38,4 @@ HTML + litterbox — в чате
 
 ---
 
-**Жду ответы опроса.**
+**Жду ответы опроса (dropdown или текстом по id).**
