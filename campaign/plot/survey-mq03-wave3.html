@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос mq-03 волна 3</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:42rem;margin:1.5rem auto;padding:0 1rem;line-height:1.45}
+  h1{font-size:1.2rem} h2{font-size:1.05rem;margin:1.2rem 0 .3rem}
+  .ctx{background:#f5f5f2;padding:.65rem .85rem;border-radius:6px;font-size:.9rem}
+  select,textarea,button{width:100%;font:inherit;padding:.5rem;box-sizing:border-box}
+  textarea{min-height:4rem} #out{margin-top:1rem;padding:.75rem;background:#eee;white-space:pre-wrap;font-size:.85rem}
+  button{margin-top:1rem;cursor:pointer}
+</style>
+</head>
+<body>
+<h1>mq-03 · волна 3</h1>
+<p>Храм Серебряного Порога уже в prep. Нужны камни, столица, монастырь.</p>
+
+<h2>R · Кто украл камни?</h2>
+<div class="ctx">Тон детектива сессии 2 до портала.</div>
+<select id="r">
+  <option value="">—</option>
+  <option value="r_cult">Культ / агенты Разлома</option>
+  <option value="r_order">Орден (кража на мосту, без вторжения)</option>
+  <option value="r_thieves">Воры / чёрный рынок</option>
+  <option value="r_inside">Внутренний предатель (хранители/адъютантура)</option>
+  <option value="r_ridge">Агенты Хребта</option>
+  <option value="r_other">Другое / уточню</option>
+</select>
+
+<h2>S · Сколько камней / где искать?</h2>
+<select id="s">
+  <option value="">—</option>
+  <option value="s_one">Один камень</option>
+  <option value="s_pair">Пара камней</option>
+  <option value="s_upper">Весь поиск в верхнем городе</option>
+  <option value="s_split">Верх + другие ярусы</option>
+  <option value="s_mix">Один камень + весь поиск вверху</option>
+  <option value="s_other">Другое / уточню</option>
+</select>
+
+<h2>T · Хранители портала на мосту</h2>
+<select id="t">
+  <option value="">—</option>
+  <option value="t_propose">Предложи 2–3 НПС — утвержу</option>
+  <option value="t_named">Имена в note</option>
+  <option value="t_minimal">Безымянные + 1 лицо</option>
+  <option value="t_other">Другое</option>
+</select>
+
+<h2>U · Имя столицы Леса</h2>
+<div class="ctx">В каноне имени нет.</div>
+<select id="u">
+  <option value="">—</option>
+  <option value="u_propose">Предложи 3 имени</option>
+  <option value="u_gm">Задам в note</option>
+  <option value="u_defer">Пока «сердце Леса» без имени</option>
+  <option value="u_other">Другое</option>
+</select>
+
+<h2>V · Монастырь</h2>
+<select id="v">
+  <option value="">—</option>
+  <option value="v_name_propose">Имя + 5 фактов seed</option>
+  <option value="v_gm">В note</option>
+  <option value="v_later">Только крючок; playbook позже</option>
+  <option value="v_other">Другое</option>
+</select>
+
+<h2>W · Баланс с.2: камни vs храм</h2>
+<select id="w">
+  <option value="">—</option>
+  <option value="w_half_half">Половина / половина</option>
+  <option value="w_stones_heavy">Почти всё — камни; храм = клифф</option>
+  <option value="w_temple_heavy">Камни коротко; долго храм</option>
+  <option value="w_other">Другое</option>
+</select>
+
+<label for="note">Заметка</label>
+<textarea id="note"></textarea>
+<button type="button" id="copy">Скопировать</button>
+<pre id="out"></pre>
+<script>
+const ids=['r','s','t','u','v','w','note'];
+function lines(){const v=id=>document.getElementById(id).value;return ['survey-mq03-wave3',...ids.filter(x=>x!=='note').map(x=>x+'='+(v(x)||'(пусто)')),'note='+(v('note')||'(нет)')].join('\\n');}
+function refresh(){document.getElementById('out').textContent=lines();}
+ids.forEach(id=>document.getElementById(id).addEventListener('input',refresh));
+document.getElementById('copy').onclick=async()=>{refresh();try{await navigator.clipboard.writeText(lines());alert('Ок');}catch(e){alert('Скопируй ниже');}};
+refresh();
+</script>
+</body>
+</html>
