@@ -532,7 +532,7 @@ Insight 14: угроза реальна; она не блефует про пр�
 | B/C | mq-05 + book-chapter / Фириэсса |
 | D | mq-03 дорога |
 | E | mq-06 акт 0 |
-| F | mq-04: spine [`mq-04-dead-spine-20.md`](mq-04-dead-spine-20.md) · город [`mq-04-seryy-prichal.md`](mq-04-seryy-prichal.md) |
+| F | mq-04: жертва [`mq-04-passage-sacrifice.md`](mq-04-passage-sacrifice.md) · отряд [`mq-04-velian-squad.md`](mq-04-velian-squad.md) · playbook Причала |
 
 ---
 

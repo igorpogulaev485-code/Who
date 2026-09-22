@@ -1,7 +1,7 @@
 ---
 id: orch-mq04-dead-plane
 title: "План — mq-04 Велиан / план мёртвых / душа Кардиана"
-status: open-partial
+status: done-core
 source: gm-2026-09-22
 ---
 
@@ -9,38 +9,25 @@ source: gm-2026-09-22
 
 ## Цель
 
-mq-04: Разлом → план мёртвых; чёрный проход; душа Кардиана; Велиан.
-
-## Шаг 0
-
-Локи A + B–E на месте. Серый Причал, spine ~20, random inserts написаны.
+mq-04 ядро: вход, город, spine, вставки, жертва прохода, пятёрка, L1+L2.
 
 ## Маршрут
 
 | # | Статус |
 |---|---|
-| 1 | опрос | **A+B–E залочены** (пакет эффектов + Лианэя — ждут выбор) |
-| 2 | лок | [`../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md`](../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md) |
-| 3 | каркас ~20 | **done** `mq-04-dead-spine-20.md` |
-| 4 | город детально | **done** `mq-04-seryy-prichal.md` |
-| 5 | random events+боев | **done** `mq-04-random-inserts.md` |
-| 6 | имена 5 плутов | wait |
-| 7 | пакет эффектов прохода | wait (дефолт «Память») |
-| 8 | связь Лианэя L1–L3 | **L1+L2 залочено** |
-| 9 | playbook Серый Причал 15 мест | **done** `prep/locations/seryy-prichal/` |
+| A–E локи | done |
+| Серый Причал 15 | done |
+| Жертва прохода | **done** |
+| Пятёрка Велиана | **done** |
+| Side q-prichal-* | later |
 
-## Жду от мастера
+## Файлы
 
-1. `пакет: Память / Холод / Слизь / микс` (дефолт Память)  
-2. (опц.) имена пятёрки плутов  
+- `plot/canon-lock-2026-09-22-mq04-sacrifice-squad.md`  
+- `quests/mq-04-passage-sacrifice.md`  
+- `quests/mq-04-velian-squad.md`  
+- `locations/seryy-prichal/`  
 
-## Сделано
+## Опционально дальше
 
-- L1+L2 в dead-plane-BE  
-- Location playbook: 15 мест, 19 НПС, 1к6, якоря, docx  
-- Plan: [`seryy-prichal-playbook-plan.md`](seryy-prichal-playbook-plan.md)
-
-## Не делаем
-
-- Убийство души Кардиана / воскрешение в арке 3  
-- Резня как тон Серого Причала  
+Полные побочки по якорям Причала; детальный скрипт сессии 2 двери F.

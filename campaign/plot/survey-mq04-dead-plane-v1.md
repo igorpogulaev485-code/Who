@@ -1,24 +1,21 @@
 ---
 title: Опрос — mq-04 план мёртвых / Велиан / душа Кардиана
-status: locked-partial
+status: locked
 tags: [survey, arc3, mq-04, razlom, kardian]
 created: 2026-09-22
 ---
 
-# Опрос: путь Велиана — ответы получены
+# Опрос mq-04 — закрыт
 
-Локи:  
-[`canon-lock-2026-09-22-mq04-entry-a.md`](canon-lock-2026-09-22-mq04-entry-a.md)  
-[`canon-lock-2026-09-22-mq04-dead-plane-be.md`](canon-lock-2026-09-22-mq04-dead-plane-be.md)
+Локи: entry-A · dead-plane-BE (L1+L2) · [`canon-lock-2026-09-22-mq04-sacrifice-squad.md`](canon-lock-2026-09-22-mq04-sacrifice-squad.md)
 
-## Осталось выбрать
+## Залочено дополнительно
 
-1. **Пакет эффектов** чёрного прохода: Память (дефолт) / Холод / Слизь / микс  
-2. (опц.) Имена пяти эльфов-плутов  
+- **Жертва прохода:** каждый ПК выбирает у магов (Память/Кровь/Голос/Тепло/Слизь) → свои дебаффы  
+- **Пятёрка:** Сильвен · Наэра · Корел · Элисс · Рэвел  
 
-**Лианэя:** L1+L2 залочено.
+## Prep
 
-## Prep готово
-
-- Spine / inserts / карточка mq-04  
-- **Playbook города:** `../prep/locations/seryy-prichal/` (15 мест, docx)  
+- Playbook: `../prep/locations/seryy-prichal/`  
+- Жертва: `../prep/arcs/arc-3/quests/mq-04-passage-sacrifice.md`  
+- Отряд: `../prep/arcs/arc-3/quests/mq-04-velian-squad.md`  
