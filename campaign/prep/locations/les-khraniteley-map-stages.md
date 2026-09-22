@@ -2,32 +2,22 @@
 title: "Лес Хранителей — карта: этапы поверх locked-контура"
 status: prep
 contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
+full_map_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md
 stage1_1_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md
 ---
 
 # Этапы карты Леса
 
-База: [`assets/maps/les-khraniteley-contour-locked.jpg`](../../assets/maps/les-khraniteley-contour-locked.jpg) — **не менять силуэт**.
+База контура: [`assets/maps/les-khraniteley-contour-locked.jpg`](../../assets/maps/les-khraniteley-contour-locked.jpg).  
+**Полная карта залочена:** [`assets/maps/les-khraniteley-map-locked.jpg`](../../assets/maps/les-khraniteley-map-locked.jpg).
 
 | Этап | Файл | Статус | Что |
 |---|---|---|---|
-| 0 | `les-khraniteley-contour-locked.jpg` | **locked** | контур без подписей |
-| 1 | `les-khraniteley-map-stage1-bg.jpg` | **wait-ok** | пергамент снаружи |
-| 1.1 | `les-khraniteley-map-stage1-1-terrain-locked.jpg` | **draft / superseded** | старый патч-композит — не править; ждём rebuild |
-| 1.1 prompt | [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md) | ok-enough → gen | полный промпт |
-| full map v2 | `les-khraniteley-map-v2.jpg` | draft | первая генерация |
-| full map v3 | `les-khraniteley-map-v3.jpg` | draft | |
-| full map v4 | `les-khraniteley-map-v4.jpg` | draft | врата ещё в воде — отвергнут |
-| full map v5 | `les-khraniteley-map-v5.jpg` | draft | всё ещё метки в воде |
-| full map v6 | `les-khraniteley-map-v6.jpg` | draft | |
-| full map v7 | `les-khraniteley-map-v7.jpg` | draft |
-| full map v8 | `les-khraniteley-map-v8.jpg` | draft |
-| full map v9 | `les-khraniteley-map-v9.jpg` | draft | бриф без соседей; Рубеж уехал на юг — отвергнут |
-| full map v10 | `les-khraniteley-map-v10.jpg` | draft | промежуточная сверка мира |
-| full map v11 | `les-khraniteley-map-v11.jpg` | draft | сверка мира; иконки слабые / сухо |
-| full map v12 | `les-khraniteley-map-v12.jpg` | **wait-ok** | крупные иконки городов + атмосфера (туман, тропы, живые постройки) |
-| full map | `les-khraniteley-map.jpg` | pending | после ok → copy/lock |
+| 0 | `les-khraniteley-contour-locked.jpg` | **locked** | контур |
+| 1.1 | `les-khraniteley-map-stage1-1-terrain-locked.jpg` | superseded | старый патч |
+| v2–v11 | `les-khraniteley-map-vN.jpg` | draft | промежуточные |
+| v12 | `les-khraniteley-map-v12.jpg` | **approved** | ок мастера 2026-09-22 |
+| full map | `les-khraniteley-map-locked.jpg` / `les-khraniteley-map.jpg` | **locked** | копия v12 |
 
-Промпт: [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md).  
-Черновик генерации: [`../../assets/maps/les-khraniteley-map-v2.jpg`](../../assets/maps/les-khraniteley-map-v2.jpg).  
-Старый патч 1.1: superseded.
+Лок полной карты: [`../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md`](../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md).  
+Промпт: [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md).

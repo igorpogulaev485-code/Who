@@ -1,13 +1,16 @@
 ---
 title: "Лес Хранителей — бриф + промпт карты (сверка с картой мира)"
-status: prep
+status: locked-source
 date: 2026-09-22
 source: gm-answers + world-map-echo-dawn + borders-from-world + passport
 contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
+full_map_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md
 world_map: assets/maps/world-map-echo-dawn.jpg
 borders_ref: assets/maps/les-khraniteley-borders-from-world.jpg
 contour_ref: assets/maps/les-khraniteley-contour-locked.jpg
 terrain_ref: assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg
+approved: assets/maps/les-khraniteley-map-v12.jpg
+note: "GM ok 2026-09-22 — лок полной карты; промпт = источник утверждённой генерации, не патчить locked JPG."
 ---
 
 # Сверка с картой мира (обязательно)
@@ -105,4 +108,5 @@ Exact whitelist у каждой иконки (не сливать Заводь �
 - Северная Заводь → северный пирс/пристань
 - Восточные Врата → восточные башни на материковом берегу
 
-Output: `assets/maps/les-khraniteley-map-v12.jpg`
+Output: `assets/maps/les-khraniteley-map-v12.jpg` → **LOCKED** как `les-khraniteley-map-locked.jpg` / `les-khraniteley-map.jpg`  
+Лок: [`../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md`](../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md)

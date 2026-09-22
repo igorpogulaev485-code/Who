@@ -2,37 +2,41 @@
 title: Карта Леса Хранителей
 status: canon
 tags: [geography, map, les-khraniteley, state]
-source: gm-border-mark-2026-09-22 + contour-lock
-fill_wave: 2
+source: gm-ok-2026-09-22-v12-lock
+fill_wave: 3
 contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
+full_map_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md
 stage1_1_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md
 ---
 
 # Карта Леса Хранителей
 
+## Полная карта государства (LOCKED)
+
+| Файл | Роль |
+|---|---|
+| [`assets/maps/les-khraniteley-map-locked.jpg`](../../assets/maps/les-khraniteley-map-locked.jpg) | **мастер-карта — не перегенерировать** |
+| [`assets/maps/les-khraniteley-map.jpg`](../../assets/maps/les-khraniteley-map.jpg) | канон / рабочая копия (= locked на момент лока) |
+| [`assets/maps/les-khraniteley-map-base-locked.jpg`](../../assets/maps/les-khraniteley-map-base-locked.jpg) | база без текста (hybrid) |
+| [`assets/maps/les-khraniteley-map-v12.jpg`](../../assets/maps/les-khraniteley-map-v12.jpg) | утверждённый черновик |
+
+Лок: [`../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md`](../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md)  
+Ок мастера: 2026-09-22 — «Все топ!!! Лочим!!!»
+
+Дальше: только **копия locked → дополнения** (регионы, соседи по запросу). Силуэт и шесть точек не двигать.
+
 ## Контур (LOCKED)
 
 | Файл | Роль |
 |---|---|
-| [`assets/maps/les-khraniteley-contour-locked.jpg`](../../assets/maps/les-khraniteley-contour-locked.jpg) | **мастер-контур — не перерисовывать** |
-| [`assets/maps/les-khraniteley-contour-only.jpg`](../../assets/maps/les-khraniteley-contour-only.jpg) | рабочая копия контура |
-| [`assets/maps/les-khraniteley-borders-from-world.jpg`](../../assets/maps/les-khraniteley-borders-from-world.jpg) | обводка мастера с карты мира |
+| [`assets/maps/les-khraniteley-contour-locked.jpg`](../../assets/maps/les-khraniteley-contour-locked.jpg) | мастер-контур |
+| [`assets/maps/les-khraniteley-borders-from-world.jpg`](../../assets/maps/les-khraniteley-borders-from-world.jpg) | обводка с карты мира |
 
 Лок: [`../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md`](../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md)
 
-## Этап 1.1 рельеф (LOCKED)
+## Этап 1.1 рельеф (SUPERSEDED)
 
-| Файл | Роль |
-|---|---|
-| [`assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg`](../../assets/maps/les-khraniteley-map-stage1-1-terrain-locked.jpg) | **рельеф + острова + пергамент снаружи — не перезаливать** |
-| [`assets/maps/les-khraniteley-map-stage1-1-terrain.jpg`](../../assets/maps/les-khraniteley-map-stage1-1-terrain.jpg) | рабочая копия для этапа 2+ |
-
-Лок: [`../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md`](../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md)
-
-Дальнейшие правки: **копия locked 1.1 → дополнения** (соседи, регионы, баннеры). Силуэт и заливку рельефа не трогать.
-
-## Полная карта государства
-
-Появится следующим слоем поверх locked 1.1 (`les-khraniteley-map.jpg`).
+Патч-композит superseded — полная карта выше.  
+Файлы: `les-khraniteley-map-stage1-1-terrain-locked.jpg` · лок: [`../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md`](../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md)
 
 Паспорт: [`states/les-khraniteley.md`](states/les-khraniteley.md) · мир: [`world-map.md`](world-map.md)
