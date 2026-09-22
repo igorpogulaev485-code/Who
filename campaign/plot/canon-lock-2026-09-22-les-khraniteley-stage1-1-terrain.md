@@ -1,15 +1,17 @@
 ---
 title: Канон-лок — этап 1.1 рельеф Леса Хранителей
-status: locked
-tags: [canon, map, les-khraniteley, stage1-1]
+status: superseded
+tags: [canon, map, les-khraniteley, stage1-1, superseded]
 date: 2026-09-22
 source: gm-chat-2026-09-22
 contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
+superseded_by: campaign/prep/locations/les-khraniteley-map-prompt-1-1.md
 ---
 
-# Лок — этап 1.1 (рельеф внутри + пергамент снаружи)
+# Лок — этап 1.1 (SUPERSEDED — патч-композит)
 
-Слова мастера (2026-09-22): внутри государства рельеф ок; островам вернуть землю; снаружи сохранить пергамент; **залочить промежуточный результат**.
+Слова мастера (2026-09-22, позже): результат не устраивает; причина — правки уже зафиксированной картинки.  
+Rebuild: единый промпт → одна генерация → [`../prep/locations/les-khraniteley-map-prompt-1-1.md`](../prep/locations/les-khraniteley-map-prompt-1-1.md). Этот lock не патчить.
 
 ## Master-файл этапа (не перезаписывать формой)
 
