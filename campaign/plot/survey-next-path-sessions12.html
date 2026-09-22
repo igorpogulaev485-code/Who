@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос — следующий путь (сессии 1–2)</title>
+<style>
+  body{font-family:system-ui,sans-serif;max-width:40rem;margin:1.5rem auto;padding:0 1rem;line-height:1.45}
+  h1{font-size:1.25rem} label{display:block;margin:.75rem 0 .25rem;font-weight:600}
+  select,textarea,button{width:100%;font:inherit;padding:.5rem;box-sizing:border-box}
+  textarea{min-height:5rem} .hint{color:#444;font-size:.9rem;margin:.25rem 0 0}
+  #out{margin-top:1rem;padding:.75rem;background:#f4f4f4;white-space:pre-wrap;font-size:.85rem}
+  button{margin-top:1rem;cursor:pointer}
+</style>
+</head>
+<body>
+<h1>Следующий путь — скрипт сессии 2</h1>
+<p class="hint">Сессия 1 (похороны) общая. Уже готовы: <b>A</b> фиолетовый (mq-01), <b>F</b> чёрный (mq-04).</p>
+
+<label for="q1">Q1 · Какой путь следующим?</label>
+<select id="q1">
+  <option value="">— выбери —</option>
+  <option value="path_d">D · mq-03 Лес → Элессар (рекомендация)</option>
+  <option value="path_e">E · mq-06 Льды / земная тройка</option>
+  <option value="path_b">B · mq-05 Дневник</option>
+  <option value="path_c">C · mq-05 Фириэсса</option>
+  <option value="path_mq02">mq-02 стелс (круг 2 Разлома, не дверь с похорон)</option>
+  <option value="path_other">Другое / уточню в заметке</option>
+</select>
+
+<label for="q2">Q2 · Глубина?</label>
+<select id="q2">
+  <option value="">— выбери —</option>
+  <option value="depth_s2_only">Только скрипт сессии 2 (+ опрос дырок)</option>
+  <option value="depth_s2_plus_spine">Сессия 2 + каркас ~20 битов</option>
+  <option value="depth_other">Другое / уточню</option>
+</select>
+
+<label for="q3">Q3 · Цепочка?</label>
+<select id="q3">
+  <option value="">— выбери —</option>
+  <option value="chain_one">Один путь → стоп, снова спросим</option>
+  <option value="chain_queue">Очередь 2–3 пути подряд</option>
+  <option value="chain_other">Другое / уточню</option>
+</select>
+
+<label for="note">Заметка</label>
+<textarea id="note" placeholder="Если «другое» или очередь путей…"></textarea>
+
+<button type="button" id="copy">Скопировать ответы</button>
+<pre id="out"></pre>
+
+<script>
+function lines(){
+  const v=id=>document.getElementById(id).value;
+  return [
+    'survey-next-path-sessions12',
+    'q1='+(v('q1')||'(пусто)'),
+    'q2='+(v('q2')||'(пусто)'),
+    'q3='+(v('q3')||'(пусто)'),
+    'note='+(v('note')||'(нет)')
+  ].join('\\n');
+}
+function refresh(){document.getElementById('out').textContent=lines();}
+['q1','q2','q3','note'].forEach(id=>document.getElementById(id).addEventListener('input',refresh));
+document.getElementById('copy').onclick=async()=>{
+  refresh();
+  try{await navigator.clipboard.writeText(lines());alert('Скопировано — вставь в чат');}
+  catch(e){alert('Скопируй вручную из блока ниже');}
+};
+refresh();
+</script>
+</body>
+</html>
