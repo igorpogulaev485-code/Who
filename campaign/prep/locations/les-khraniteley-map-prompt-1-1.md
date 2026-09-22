@@ -1,82 +1,193 @@
 ---
-title: "Лес Хранителей — промпт единой карты (этап 1.1 rebuild)"
+title: "Лес Хранителей — промпт ПОЛНОЙ карты (один проход)"
 status: prep
 wait: gm-ok-on-prompt
 contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
+passport: world/locations/states/les-khraniteley.md
 date: 2026-09-22
-note: "Картинку НЕ генерировать, пока мастер не окнет промпт."
+note: "Картинку НЕ генерировать, пока мастер не окнет промпт. Один промпт = рельеф + регионы + города + соседи + оформление."
 ---
 
-# Промпт → одна верная картинка (без патчей)
+# Промпт → одна полная карта государства
 
 ## Зачем
 
-Предыдущий 1.1 собирался правками уже готового JPG → швы, острова без земли, утечки рельефа наружу.  
-Новый путь: **один промпт + reference (locked contour) → одна цельная карта → ok → lock**.
+Не патчить JPG и не дробить на «сначала рельеф / потом подписи».  
+**Один промпт + reference (locked contour) → одна финальная карта → ok → lock.**
 
-Старый `les-khraniteley-map-stage1-1-terrain-locked.jpg` считать **черновиком**; не патчить. После ok на промпт и генерацию — новый lock.
+Output-файл после ok: `assets/maps/les-khraniteley-map.jpg` (полная).  
+Contour-locked **не** перезаписывать.
 
-## Reference (обязательно приложить)
+## Reference (обязательно)
 
-| # | Файл | Роль в промпте |
+| # | Файл | Роль |
 |---|---|---|
-| 1 | `assets/maps/les-khraniteley-contour-locked.jpg` | **Жёсткий эталон силуэта** — красный пунктир, лес З / залив В, острова, реки, кадр 16:9 |
-| 2 | `assets/maps/les-khraniteley-map-stage1-bg.jpg` | Эталон **пергамента снаружи** (текстура бумаги; западные горы у края — как на этом файле, не размазывать по всему фону) |
-| 3 | *(опц.)* `assets/maps/les-khraniteley-borders-from-world.jpg` | Только если силуэт «плывёт» — напоминание формы с карты мира |
+| 1 | `assets/maps/les-khraniteley-contour-locked.jpg` | Жёсткий силуэт: красный пунктир, лес З / залив В, острова, реки, 16:9 |
+| 2 | `assets/maps/les-khraniteley-map-stage1-bg.jpg` | Пергамент снаружи; западные горы только у левого края |
+| 3 | *(опц.)* эталон стиля подписей с карты Аэлендора / мира — только если нужен «тот же шрифт», **без** копирования чужого силуэта |
 
-Не прикладывать: старый `…-terrain-locked.jpg`, `…-gaps-marked.jpg` — они учат модель неправильным артефактам.
+Не прикладывать старые `…-terrain-locked.jpg` / `…-gaps-marked.jpg`.
 
-## Чеклист проверки промпта (до генерации)
+## Чеклист промпта (до генерации)
 
-- [ ] Силуэт = locked, не Аэлендор, не новая клякса  
+**Силуэт / рельеф**
+- [ ] Силуэт = locked; не Аэлендор  
 - [ ] 16:9, государство крупно  
-- [ ] Снаружи — пергамент (не залитый лес/вода/земля по всему фону)  
-- [ ] Внутри — рельеф **вплотную** к пунктиру (нет полос пергамента внутри)  
-- [ ] Запад/север — лес; восток/юг — залив; острова **с землёй** под кронами  
-- [ ] Реки как на locked  
-- [ ] Без подписей соседей / городов / UI  
-- [ ] Стиль: fantasy cartography на пергаменте (иконки сосен, рябь у берега)
+- [ ] Снаружи — пергамент (+ горы только у З края)  
+- [ ] Внутри — рельеф flush к пунктиру; острова с землёй  
+
+**Финальное оформление**
+- [ ] Заголовок государства на карте  
+- [ ] 8 регионов (зоны / мягкие подписи)  
+- [ ] Города и ключевые места с иконками + кириллические подписи  
+- [ ] Столица Силвания выделена (символ: серебряный лист в кольце)  
+- [ ] Подписи соседей **снаружи** на пергаменте по сторонам света  
+- [ ] Без UI, без водяных знаков, без латиницы вместо русских имён  
 
 ---
 
-## Промпт A — русский (для чтения / правки мастером)
+## Канон для подписей (из паспорта — не выдумывать)
+
+### Заголовок
+**Лес Хранителей**
+
+### Регионы (8) — примерное размещение
+
+| Регион | Где на карте (default) |
+|---|---|
+| **Силвания** | центр–север леса (столичный округ) |
+| **Сердце Древа** | сердцевина леса у Мирового Древа |
+| **Гостевой Порог** | входной сектор у **Серебряного Порога** (часто Ю/ЮЗ леса у троп входа) |
+| **Северная Заводь** | север у реки / северной границы |
+| **Восточные Врата** | восток материка у берега залива / коридор на СВ |
+| **Зелёные Топи** | ЮВ — влажный полог у залива / к Болотам |
+| **Круги Бури** | внутренний лес / друидские круги (не на самом берегу) |
+| **Пепельный Рубеж** | запад у гор / пепельной кромки |
+
+Регионы: **мягкие** подписи или полупрозрачные зоны — не жёсткие админ-границы поверх пунктира государства. Пунктир государства один.
+
+### Города / места (иконка + подпись)
+
+| Место | Роль | Иконка (стиль карты) |
+|---|---|---|
+| **Силвания** | столица | крупная; **серебряный лист в кольце** |
+| **Мировое Древо** | святыня | огромное древо / крона-якорь |
+| **Серебряный Порог** | храм-порог | храм / врата-порог |
+| **Северная Заводь** | речной рубеж | пристань / речной пост |
+| **Восточные Врата** | ворота к гавани | ворота / арка у берега |
+| **Пепельный Рубеж** | горный форпост | форт в предгорьях |
+
+Не путать подпись: **Силвания** (не Сильванор / не Сильванарион).
+
+### Соседи — подписи НА ПЕРГАМЕНТЕ снаружи пунктира
+
+| Сторона | Подпись |
+|---|---|
+| С | Орден пламенеющей стали *(или коротко: Орден)* |
+| З | Пепельные земли |
+| ЮЗ (за горами) | Амират |
+| В / ЮВ | Болота скорби |
+| СВ | Элдеринская гавань |
+| Ю (за заливом, на горизонте пергамента) | Драконий Хребет |
+
+Соседей **не** заливать их рельефом на весь фон — только подпись (+ лёгкий намёк рельефа у края, если не ломает пергамент).
+
+---
+
+## Промпт A — русский (мастер правит здесь)
 
 ```
-Фэнтезийная карта государства «Лес Хранителей», вид сверху, кадр 16:9, государство занимает почти весь кадр.
+Полная фэнтезийная карта государства «Лес Хранителей», вид сверху, кадр 16:9, государство крупно в кадре. Классическая fantasy cartography на пергаменте: единый цельный рисунок за один проход (не коллаж, не швы, не отдельные слои).
 
-ЖЁСТКОЕ ПРАВИЛО СИЛУЭТА: повтори ТОЧНО красный пунктирный контур и композицию с reference «contour-locked». Не меняй форму границы, не сглаживай, не рисуй силуэт Аэлендора, не сдвигай острова и устья рек. Красный пунктир остаётся верхней обводкой государства.
+ЗАГОЛОВОК: крупно и читаемо на пергаменте или над картой — «Лес Хранителей».
 
-СНАРУЖИ красного пунктира: только текстурированный пергамент / старая бумага (как на reference stage1-bg). Не заливай снаружи лесом, водой или землёй. Допустимы лишь западные горы у самого левого края, как на stage1-bg — они не должны расползаться по всему фону.
+ЖЁСТКОЕ ПРАВИЛО СИЛУЭТА: повтори ТОЧНО красный пунктирный контур и композицию с reference contour-locked. Не меняй форму границы, не сглаживай, не рисуй силуэт Аэлендора, не сдвигай острова и устья рек. Красный пунктир — единственная государственная граница на карте.
 
-ВНУТРИ красного пунктира — единый цельный рельеф без дыр пергамента:
-• запад и север: густой хвойный лес (иконки елей), рельеф доходит вплотную до пунктира;
-• западный край у границы: предгорья, согласованные с locked;
-• восток и юг: большой залив серо-голубой воды с лёгкой рябью у берегов; вода доходит вплотную до пунктира (без песчаной «дыры» пергамента между водой и границей);
-• острова в заливе: у каждого видна ЗЕМЛЯ (коричневый/песчаный берег и грунт), а зелёные кроны сидят НА земле, не парят на воде;
-• реки через лес — как на locked, впадают в залив.
+СНАРУЖИ красного пунктира: текстурированный пергамент / старая бумага (как stage1-bg). Не заливай весь фон лесом, водой или землёй. Западные горы — только у самого левого края, как на stage1-bg. На пергаменте снаружи размести аккуратные кириллические подписи соседей:
+• сверху (север): «Орден пламенеющей стали» (или «Орден»);
+• слева (запад): «Пепельные земли»;
+• слева-снизу за горами (юго-запад): «Амират»;
+• справа / справа-снизу (восток–юго-восток): «Болота скорби»;
+• справа-сверху (северо-восток): «Элдеринская гавань»;
+• внизу за заливом на пергаменте (юг): «Драконий Хребет».
 
-Стиль: классическая fantasy cartography на пергаменте, единый проход, без швов, без коллажа, без UI, без текста, без названий соседей и городов.
+ВНУТРИ пунктира — рельеф без дыр пергамента, вплотную к границе:
+• запад и север: густой хвойный лес (иконки елей);
+• западный край: предгорья;
+• восток и юг: большой серо-голубой залив с рябью у берегов; вода до пунктира;
+• острова: у каждого видна ЗЕМЛЯ (грунт и тонкий песчаный берег), кроны НА земле, не парят;
+• реки через лес как на locked, впадают в залив;
+• юго-восток у залива: намёк на топи (Зелёные Топи).
+
+РЕГИОНЫ (мягкие подписи или лёгкие зоны ВНУТРИ государства, без второй жёсткой обводки):
+1) Силвания — центр–север леса (столичный округ);
+2) Сердце Древа — сердцевина леса;
+3) Гостевой Порог — сектор у Серебряного Порога (входные тропы);
+4) Северная Заводь — север у реки / северной границы;
+5) Восточные Врата — восток материкового берега / коридор к гавани;
+6) Зелёные Топи — юго-восток, влажный полог у залива;
+7) Круги Бури — внутренний лес друидских кругов;
+8) Пепельный Рубеж — запад у гор.
+
+ГОРОДА И МЕСТА — иконки + кириллические подписи (читаемый картографический шрифт, не UI):
+• Силвания — СТОЛИЦА: самая крупная метка; символ «серебряный лист в кольце»;
+• Мировое Древо — святыня: иконка великого древа в Сердце Древа;
+• Серебряный Порог — храм-порог / врата в Гостевом Пороге;
+• Северная Заводь — речной пост / пристань на севере;
+• Восточные Врата — ворота у восточного берега;
+• Пепельный Рубеж — горный форпост на западе.
+Имя столицы только «Силвания» (не Сильванор, не Сильванарион).
+
+ОФОРМЛЕНИЕ: единый стиль пергаментной карты; компасная роза уместна; легенда не обязательна. Без кнопок, без водяных знаков, без латиницы вместо русских названий, без списка квестов, без карточек персонажей.
 ```
 
 ---
 
-## Промпт B — English (для GenerateImage / той же модели)
+## Промпт B — English (для GenerateImage)
 
 ```
-Fantasy RPG regional state map, top-down cartography, 16:9, the state fills most of the frame.
+Complete fantasy RPG state map of “Les Khraniteley” (Forest of the Guardians), top-down parchment cartography, 16:9, state large in frame. Single coherent illustration pass — no collage, no seams, no separate pasted layers.
 
-HARD SILHOUETTE LOCK: match EXACTLY the red dashed border shape and layout from the contour-locked reference. Do not reshape, smooth, or redraw the border. Do not use an Aelendor-like silhouette. Keep the same island positions and river mouths. Keep the red dashed line as the top border stroke of the state.
+TITLE: large readable Cyrillic title “Лес Хранителей” on the parchment.
 
-OUTSIDE the red dashed border: only aged parchment / paper texture (like stage1-bg reference). No forest, water, or ground fill outside the border. Western mountains may appear only at the far-left edge as in stage1-bg — do not spread terrain across the whole outside.
+HARD SILHOUETTE LOCK: match EXACTLY the red dashed border and layout from the contour-locked reference. Do not reshape or redraw the border. Not an Aelendor silhouette. Keep island positions and river mouths. The red dashed line is the only state border.
 
-INSIDE the red dashed border — one continuous terrain fill with ZERO parchment holes:
-• west and north: dense evergreen forest (pine icons), terrain flush to the dashed line;
-• western edge: foothills matching the locked reference;
-• east and south: large grey-blue bay with subtle shoreline ripples; water flush to the dashed line (no parchment strip between water and border);
-• bay islands: each has visible EARTH (brown/tan soil and a thin sandy shore) with green tree canopy ON TOP of the land — not floating green blobs on water;
-• rivers through the forest as in the locked reference, emptying into the bay.
+OUTSIDE the dashed border: aged parchment texture (like stage1-bg). Do not flood the outside with forest/water/ground. Western mountains only at the far-left edge as in stage1-bg. Place neat Cyrillic neighbor labels on the outside parchment:
+• north: “Орден пламенеющей стали” (or short “Орден”);
+• west: “Пепельные земли”;
+• southwest beyond mountains: “Амират”;
+• east / southeast: “Болота скорби”;
+• northeast: “Элдеринская гавань”;
+• south beyond the bay on parchment: “Драконий Хребет”.
 
-Style: classic fantasy parchment cartography, single coherent pass, no seams, no collage, no UI, no text, no neighbor or city labels.
+INSIDE the border — continuous terrain flush to the dashed line, zero parchment holes:
+• west/north: dense evergreen forest (pine icons);
+• western edge: foothills;
+• east/south: large grey-blue bay with shoreline ripples; water flush to border;
+• islands: visible EARTH (soil + thin sandy shore) with tree canopy ON land, not floating;
+• rivers as in locked reference into the bay;
+• southeast: wetland hint for “Зелёные Топи”.
+
+REGIONS — soft Cyrillic labels or gentle zones INSIDE the state (no second hard border):
+1) Силвания — north-central forest (capital district);
+2) Сердце Древа — forest heart;
+3) Гостевой Порог — near Silver Threshold entry paths;
+4) Северная Заводь — north river frontier;
+5) Восточные Врата — eastern mainland shore / harbor corridor;
+6) Зелёные Топи — southeast wet canopy by the bay;
+7) Круги Бури — inner druid circles forest;
+8) Пепельный Рубеж — west by the mountains.
+
+SETTLEMENTS — map icons + Cyrillic labels:
+• Силвания — CAPITAL, largest marker, silver leaf-in-ring symbol;
+• Мировое Древо — great tree shrine icon in Сердце Древа;
+• Серебряный Порог — temple/threshold gates in Гостевой Порог;
+• Северная Заводь — river post/pier in the north;
+• Восточные Врата — gates on the eastern shore;
+• Пепельный Рубеж — mountain fort in the west.
+Capital name exactly “Силвания” (not Silvanor / not Silvanarion).
+
+FINISH: classic parchment fantasy map; small compass rose OK; no UI, no watermark, no Latin substituting Russian names, no quest cards, no character panels.
 ```
 
 ---
@@ -85,14 +196,16 @@ Style: classic fantasy parchment cartography, single coherent pass, no seams, no
 
 1. Reference: `contour-locked` + `stage1-bg`.  
 2. Aspect: **16:9**.  
-3. Промпт: **B** (или A, если модель лучше на RU).  
-4. Сохранить как новый файл, например `les-khraniteley-map-stage1-1-terrain-v2.jpg` — **не** перезаписывать contour-locked.  
-5. Мастер смотрит; при ok → новый canon-lock 1.1 на v2 (старый terrain-locked пометить superseded).
+3. Промпт **B** (или A).  
+4. Сохранить: `assets/maps/les-khraniteley-map.jpg` (или `…-map-v2.jpg` при итерации).  
+5. Ok мастера → canon-lock полной карты; contour-locked не трогать.
 
-## Открытые решения для мастера (в промпте уже заложено default)
+## Открытые решения мастера
 
-| Вопрос | Default в промпте | Если иначе — правим промпт до генерации |
+| Вопрос | Default | Альтернатива |
 |---|---|---|
-| Западные горы снаружи | только у левого края, как stage1-bg | «снаружи вообще только пергамент, без гор» |
-| Песчаные пляжи у материкового берега залива | тонкая кромка ок, но не полоса пергамента до пунктира | вода/лес строго flush без пляжа |
-| Число/форма островов | как на contour-locked | — |
+| Короткие имена соседей | полные из таблицы (Орден можно коротко) | везде короткие |
+| Регионы | мягкие подписи | только города, без названий регионов |
+| Западные горы снаружи | как stage1-bg у левого края | чистый пергамент без гор |
+| Компас / легенда | компас да, легенда нет | добавить мини-легенду иконок |
+| Язык подписей | кириллица | — |
