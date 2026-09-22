@@ -10,7 +10,8 @@ note: "После vision-v1: proposal уже в скрипте; здесь то�
 
 Скрипт уже написан с `[proposal]`: [`../prep/arcs/arc-3/quests/mq-01-sessions-1-2-detail.md`](../prep/arcs/arc-3/quests/mq-01-sessions-1-2-detail.md)
 
-Ответь здесь текстом или через HTML: [`survey-sessions12-mechanics-v1.html`](survey-sessions12-mechanics-v1.html)
+Ответь здесь текстом или через HTML: [`survey-sessions12-mechanics-v1.html`](survey-sessions12-mechanics-v1.html)  
+**Safari:** https://litter.catbox.moe/r1klgk.html (~72 ч)
 
 ## 1. Три сейва в проходе
 
