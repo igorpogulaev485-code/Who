@@ -4,7 +4,8 @@ slug: seryy-prichal
 status: prep
 scale: city-small
 region: план мёртвых (за Разломом Лунного моста)
-map_ref: campaign/prep/arcs/arc-3/quests/mq-04-seryy-prichal.md
+map_ref: campaign/prep/locations/seryy-prichal/map.png
+map_doc: campaign/prep/locations/seryy-prichal/map.md
 rules: dnd-5e-2014
 tags: [location, playbook, arc3, mq-04, plane-of-dead]
 attitude_axes:
@@ -19,6 +20,7 @@ sites_count: 15
 # Серый Причал — playbook
 
 > Prep для стола → `playbook.docx`. Небольшой город загробной жизни.  
+> **Карта:** [`map.png`](map.png) · легенда [`map.md`](map.md)  
 > Вход: чёрный поток Купели (mq-04). Канон: [`../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md`](../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md).
 
 ## Паспорт

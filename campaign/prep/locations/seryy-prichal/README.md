@@ -19,6 +19,7 @@ status: prep
 - [`playbook.md`](playbook.md) — ведение  
 - [`playbook.docx`](playbook.docx) — Google Doc  
 - [`npc-registry.md`](npc-registry.md) — имена  
+- [`map.png`](map.png) / [`map.md`](map.md) — **карта города** (15 точек)  
 
 ## Связь
 
