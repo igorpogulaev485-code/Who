@@ -7,9 +7,27 @@ status: prep
 
 | | |
 |---|---|
-| Масштаб | **site** — дипломатический храм-порог |
-| Статус | prep |
-| Лок | `canon-lock-2026-09-22-mq03-wave2.md` |
-| Файлы | `playbook.md` · `npc-registry.md` · `playbook.docx` |
+| Масштаб | **site** — дипломатический храм |
+| Статус | `prep` |
+| Скилы | `echo-dawn-location` + `echo-dawn-quest-side` |
 
-Дальше по запросу: монастырь высокородных; столица Леса (имя TBD); полный side q-porog-*.
+## Файлы
+
+| Файл | |
+|---|---|
+| [`playbook.md`](playbook.md) | ведение (зоны + НПС) |
+| [`map.png`](map.png) / [`map.md`](map.md) | карта 1–5 |
+| [`npc-registry.md`](npc-registry.md) | имена |
+| [`quests/`](quests/) | полные побочки |
+| [`quests-bundle.md`](quests-bundle.md) | сборник side |
+
+## Побочки — как учтено
+
+1. В **playbook** — только **якорь** (id + крючок + кто).  
+2. Полный текст — `quests/q-*.md` скилом **quest-side**.  
+3. Основные арки (`mq-*`) живут в `campaign/prep/arcs/…`, не в side.
+
+## Ещё не
+
+- Playbook **Силвании** / монастыря  
+- docx (нет pandoc в env)  
