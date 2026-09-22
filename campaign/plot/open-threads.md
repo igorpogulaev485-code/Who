@@ -70,5 +70,5 @@ source: gm-lock-round2 + player-briefs
 
 Следующий путь после A/F/D: **Ледяной Союз / Лианэя / Доспехи**.  
 Лок: [`canon-lock-2026-09-22-next-path-mq06-ice.md`](canon-lock-2026-09-22-next-path-mq06-ice.md)  
-Опрос дырок с.2: [`survey-mq06-sessions12-holes.md`](survey-mq06-sessions12-holes.md) · план: [`../prep/orchestrator/mq06-sessions12-ice-plan.md`](../prep/orchestrator/mq06-sessions12-ice-plan.md)  
+Опрос дырок с.2 (**v2, с контекстом**): [`survey-mq06-sessions12-holes.md`](survey-mq06-sessions12-holes.md) · HTML: [`survey-mq06-sessions12-holes.html`](survey-mq06-sessions12-holes.html) · план: [`../prep/orchestrator/mq06-sessions12-ice-plan.md`](../prep/orchestrator/mq06-sessions12-ice-plan.md)  
 Сессии 2 ещё нет: двери **B**, **C**.

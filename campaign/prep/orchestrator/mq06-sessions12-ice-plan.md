@@ -31,7 +31,7 @@ source: gm-2026-09-22 («Дальше пошли во льда»)
 
 ## Опросы
 
-[`../../plot/survey-mq06-sessions12-holes.md`](../../plot/survey-mq06-sessions12-holes.md) · HTML: [`../../plot/survey-mq06-sessions12-holes.html`](../../plot/survey-mq06-sessions12-holes.html)
+[`../../plot/survey-mq06-sessions12-holes.md`](../../plot/survey-mq06-sessions12-holes.md) (**v2**) · HTML: [`../../plot/survey-mq06-sessions12-holes.html`](../../plot/survey-mq06-sessions12-holes.html)
 
 ## Файлы-результаты (после ответов)
 

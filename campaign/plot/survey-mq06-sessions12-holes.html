@@ -3,36 +3,39 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Опрос mq-06 — льды (дверь E)</title>
+<title>Опрос mq-06 v2 — льды (контекст)</title>
 <style>
   body{font-family:system-ui,sans-serif;max-width:44rem;margin:1.5rem auto;padding:0 1rem;line-height:1.45}
   h1{font-size:1.3rem} h2{font-size:1.05rem;margin:1.4rem 0 .4rem}
-  .ctx{background:#f0f4f8;padding:.75rem 1rem;border-radius:6px;font-size:.92rem;margin:.4rem 0 .6rem}
+  .ctx{background:#eef3f8;padding:.75rem 1rem;border-radius:6px;font-size:.92rem;margin:.4rem 0 .6rem;border-left:3px solid #5a7a9a}
   label{display:block;margin:.5rem 0 .2rem;font-weight:600}
   select,textarea,button{width:100%;font:inherit;padding:.5rem;box-sizing:border-box}
-  textarea{min-height:4.5rem} .hint{color:#444;font-size:.9rem}
+  textarea{min-height:5rem} .hint{color:#444;font-size:.9rem}
   #out{margin-top:1rem;padding:.75rem;background:#eee;white-space:pre-wrap;font-size:.85rem}
   button{margin-top:1rem;cursor:pointer}
+  .rec{font-size:.85rem;color:#356}
 </style>
 </head>
 <body>
-<h1>mq-06 льды — опрос сессии 2 (дверь E)</h1>
-<p class="hint">Контекст: <code>survey-mq06-sessions12-holes.md</code>. Сессия 1 общая уже есть. Как A→Маяк, F→Причал, D→Порог.</p>
+<h1>mq-06 льды — опрос v2 (дверь E)</h1>
+<p class="hint">Полный текст: <code>survey-mq06-sessions12-holes.md</code>. Параллель: A→Маяк · F→Причал · D→Порог. С.2 = закрепиться, не финал с Лианэей.</p>
 
 <h2>A · Клифф сессии 2</h2>
-<div class="ctx">Не финал с Лианэей «в лоб», если не выберешь a_meet. Нужен первый берег льдов.</div>
+<div class="ctx">Видение уже дало кадр (легионы, дварфы, Доспехи). Встреча лицом к лицу в с.2 = как Элессар в первый вечер Леса. Обычно нужен «первый берег».</div>
+<p class="rec">Prep-рекомендация: лагерь дварфов или вид армии (± короткий зов для Элариона).</p>
 <select id="a">
   <option value="">—</option>
-  <option value="a_hub">Только хаб в Лунном мосту; выезд = клифф</option>
-  <option value="a_road_north">Дорога/порт на север; льды на горизонте</option>
-  <option value="a_brorr_camp">Лагерь дварфов у линии тумана (рекомендуемый «Маяк»)</option>
+  <option value="a_hub">Только хаб в Мосту; выезд = клифф</option>
+  <option value="a_road_north">Дорога/порт; льды на горизонте</option>
+  <option value="a_brorr_camp">Лагерь дварфов у линии тумана</option>
   <option value="a_army_sight">Вид армии мёртвых (без диалога)</option>
-  <option value="a_call">Голос/силуэт в доспехах зовёт Элариона</option>
+  <option value="a_call">Голос/силуэт зовёт только Элариона</option>
   <option value="a_meet">Встреча с Лианэей в ту же сессию</option>
   <option value="a_other">Другое / уточню</option>
 </select>
 
-<h2>B · Как едем</h2>
+<h2>B · Темп дороги на север</h2>
+<div class="ctx">Ледяной Союз = крайний СЗ. Монтаж сжигает календарь (часы Разлома тикают). Брорр из с.1 — готовый проводник/корабль.</div>
 <select id="b">
   <option value="">—</option>
   <option value="b_montage">Монтаж дней + 1–2 узла</option>
@@ -44,18 +47,21 @@
 </select>
 
 <h2>C · Кто толкает дверь E</h2>
+<div class="ctx">Эларион = семья/видение. Брорр = фронт дварфов. Кавил = заказ по Доспехам (не дать демонам). Можно смешать.</div>
 <select id="c">
   <option value="">—</option>
   <option value="c_elarion">Эларион / видение</option>
-  <option value="c_brorr">Брорр (дварфы держат линию)</option>
-  <option value="c_kavil">Кавил (заказ по Доспехам)</option>
+  <option value="c_brorr">Брорр (линия дварфов)</option>
+  <option value="c_kavil">Кавил (охота на Доспехи)</option>
   <option value="c_mix_personal">Эларион + Брорр</option>
   <option value="c_mix_order">Кавил + Эларион</option>
+  <option value="c_tandil_ok">Тандил отпускает + любой выше</option>
   <option value="c_party">Уходят сами</option>
   <option value="c_other">Другое / уточню</option>
 </select>
 
-<h2>D · Объём mq-06 в с.2</h2>
+<h2>D · Сколько mq-06 открываем в с.2</h2>
+<div class="ctx">Тройка = льды / меч Хребта / сапоги Пыли. С.2 не обязана показывать всю охоту — Эларион тянет на сестру, Кавил любит меню.</div>
 <select id="d">
   <option value="">—</option>
   <option value="d_ice_only">Только льды / акт A</option>
@@ -64,54 +70,75 @@
   <option value="d_other">Другое / уточню</option>
 </select>
 
-<h2>E · Знание партии про «сестру»</h2>
+<h2>E · Что знает партия про «сестру»</h2>
+<div class="ctx">Видение уже у игрока Элариона. Остальные могут ехать «бить нежить / арт / дварфов». L1+L2 (Кардиан) в с.2 не обязательны.</div>
 <select id="e">
   <option value="">—</option>
-  <option value="e_private">Только Эларион (остальным — Леди Льда)</option>
-  <option value="e_party_soft">Партия уже знает от него</option>
+  <option value="e_private">Тайна Элариона, пока сам не сказал</option>
+  <option value="e_party_soft">Он уже рассказал партии</option>
   <option value="e_reveal_scene">Раскрытие сценой в с.2</option>
+  <option value="e_dwarves_lady">Дварфы: «Леди Льда»; родство — если раскроет он</option>
   <option value="e_other">Другое / уточню</option>
 </select>
 
-<h2>F · Бой в с.2</h2>
+<h2>F · Бой / давление</h2>
+<div class="ctx">A = выброс у Купели. F = undead при открытии. D = шпионы. Льдам нужен свой «зуб» или ужас без большого CR.</div>
 <select id="f">
   <option value="">—</option>
   <option value="f_skirmish">Обязательная стычка с нежитью</option>
-  <option value="f_optional">Бой опционален</option>
+  <option value="f_optional">Бой опционален / вставка</option>
   <option value="f_social">Социал + ужас, без большого боя</option>
+  <option value="f_setpiece">Одна сетаповая сцена (дозор / прорыв)</option>
   <option value="f_other">Другое / уточню</option>
 </select>
 
-<h2>G · Глубина prep</h2>
+<h2>G · Глубина prep сейчас</h2>
+<div class="ctx">Как раньше у F/D: часто spine ~20 + полный скрипт с.2. Можно облегчить.</div>
 <select id="g">
   <option value="">—</option>
-  <option value="g_s2_only">Только скрипт сессии 2</option>
-  <option value="g_s2_spine">Сессия 2 + spine ~20 акта A</option>
+  <option value="g_s2_spine">Скрипт с.2 + spine ~20 акта A (льды)</option>
+  <option value="g_s2_light">Скрипт с.2 + лёгкий каркас с.3–5</option>
+  <option value="g_s2_only">Только скрипт с.2</option>
   <option value="g_other">Другое / уточню</option>
 </select>
 
-<h2>H · Новость с другого фронта</h2>
+<h2>H · Playbook локации сразу?</h2>
+<div class="ctx">F нуждался в Причале. A обошёлся сценой Маяка. Лагерь дварфов / равнина могут жить скриптом или seed-playbook.</div>
 <select id="h">
   <option value="">—</option>
-  <option value="h_razlom">Разлом / нижний город</option>
-  <option value="h_orden">Орден у Сильванора</option>
-  <option value="h_ridge">Хребет / яйца</option>
-  <option value="h_firiesse">Фириэсса / дневник</option>
-  <option value="h_pick_later">Выберем при написании</option>
+  <option value="h_none">Только скрипт</option>
+  <option value="h_camp">Seed лагеря дварфов</option>
+  <option value="h_plain">Seed равнины / линии фронта</option>
+  <option value="h_both">Лагерь + равнина</option>
+  <option value="h_later">Playbook после с.2</option>
   <option value="h_other">Другое / уточню</option>
 </select>
 
+<h2>I · Одна новость «дома» в клиффе</h2>
+<div class="ctx">Пока едут на СЗ, мир тикает. Одна громкая новость = цена уезда.</div>
+<select id="i">
+  <option value="">—</option>
+  <option value="i_razlom">Разлом / нижний город</option>
+  <option value="i_orden">Орден у Сильванора</option>
+  <option value="i_ridge">Хребет / яйца / меч</option>
+  <option value="i_firiesse">Фириэсса / дневник</option>
+  <option value="i_star">Слух про сапоги / Пыль</option>
+  <option value="i_pick_later">Выберем при написании</option>
+  <option value="i_other">Другое / уточню</option>
+</select>
+
 <label for="free">Свободно — обязательный кадр / запрет</label>
-<textarea id="free" placeholder="Что обязательно / чего нельзя в с.2 во льдах"></textarea>
+<textarea id="free" placeholder="Напр.: щиты дварфов в ряд; голос сестры; запрет назвать Кардиана / убить Лианэю / выдать Доспехи в с.2"></textarea>
 
 <button type="button" id="go">Собрать ответы</button>
 <pre id="out"></pre>
 
 <script>
 document.getElementById('go').onclick = () => {
-  const ids = ['a','b','c','d','e','f','g','h'];
-  const lines = ids.map(id => `${id}: ${document.getElementById(id).value || '—'}`);
-  lines.push('free: ' + (document.getElementById('free').value || '—'));
+  const ids = ['a','b','c','d','e','f','g','h','i'];
+  const lines = ['survey-mq06-sessions12-holes'];
+  ids.forEach(id => lines.push(`${id}=${document.getElementById(id).value || '—'}`));
+  lines.push('note=' + (document.getElementById('free').value || '—'));
   document.getElementById('out').textContent = lines.join('\n');
 };
 </script>
