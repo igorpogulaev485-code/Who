@@ -6,5 +6,5 @@ title: Карты
 
 - [Карта мира](world-map-echo-dawn.jpg) — [`world/locations/world-map.md`](../../world/locations/world-map.md)
 - [Карта Аэлендора](aelendor-map.jpg) — [`world/locations/aelendor-map.md`](../../world/locations/aelendor-map.md)
-- [Карта Леса Хранителей](les-khraniteley-map.jpg) — [`world/locations/les-khraniteley-map.md`](../../world/locations/les-khraniteley-map.md) · обводка с мира: [les-khraniteley-borders-from-world.jpg](les-khraniteley-borders-from-world.jpg)
+- [Карта Леса Хранителей](les-khraniteley-map.jpg) — [`world/locations/les-khraniteley-map.md`](../../world/locations/les-khraniteley-map.md) · **locked contour:** [les-khraniteley-contour-locked.jpg](les-khraniteley-contour-locked.jpg) · обводка с мира: [les-khraniteley-borders-from-world.jpg](les-khraniteley-borders-from-world.jpg)
 - [Карта Лунных Пиков](lunnye-piki-map.jpg) — [`world/locations/lunnye-piki-map.md`](../../world/locations/lunnye-piki-map.md)
