@@ -151,69 +151,63 @@ Contour-locked **не** перезаписывать.
 
 ---
 
-## Промпт B — English (для GenerateImage)
+## Промпт B — English (для GenerateImage) + правки v3
 
 ```
-Complete fantasy RPG state map of “Les Khraniteley” (Forest of the Guardians), top-down parchment cartography, 16:9, state large in frame. Single coherent illustration pass — no collage, no seams, no separate pasted layers.
+Complete fantasy RPG state map of “Лес Хранителей”, top-down parchment cartography, 16:9, state large in frame. Single coherent pass. Keep the SAME red-dashed silhouette and bay/forest layout as the contour-locked and v2 references — do not reshape the border.
 
-TITLE: large readable Cyrillic title “Лес Хранителей” on the parchment.
+TITLE (exact Cyrillic only): Лес Хранителей
 
-HARD SILHOUETTE LOCK: match EXACTLY the red dashed border and layout from the contour-locked reference. Do not reshape or redraw the border. Not an Aelendor silhouette. Keep island positions and river mouths. The red dashed line is the only state border.
+LABEL QUALITY (critical):
+• Use ONLY the exact Cyrillic strings listed below — do not invent, misspell, merge, or Latinize names.
+• No overlapping text. Leave clear empty parchment/terrain gaps between every label.
+• City labels sit next to their icons (not on top of other labels). Region labels are smaller and placed in empty forest/water areas away from city icons.
+• Neighbor labels only OUTSIDE the red dashed border on parchment, spaced around the perimeter.
+• Prefer fewer, cleaner labels over crowded ones. If space is tight, keep all 6 city labels and drop a region label rather than overlapping.
 
-OUTSIDE the dashed border: aged parchment texture (like stage1-bg). Do not flood the outside with forest/water/ground. Western mountains only at the far-left edge as in stage1-bg. Place neat Cyrillic neighbor labels on the outside parchment:
-• north: “Орден пламенеющей стали” (or short “Орден”);
-• west: “Пепельные земли”;
-• southwest beyond mountains: “Амират”;
-• east / southeast: “Болота скорби”;
-• northeast: “Элдеринская гавань”;
-• south beyond the bay on parchment: “Драконий Хребет”.
+OUTSIDE dashed border — parchment; western mountains only at far-left edge. Neighbor labels EXACTLY:
+• north: Орден
+• west: Пепельные земли
+• southwest: Амират
+• east: Болота скорби
+• northeast: Элдеринская гавань
+• south: Драконий Хребет
 
-INSIDE the border — continuous terrain flush to the dashed line, zero parchment holes:
-• west/north: dense evergreen forest (pine icons);
-• western edge: foothills;
-• east/south: large grey-blue bay with shoreline ripples; water flush to border;
-• islands: visible EARTH (soil + thin sandy shore) with tree canopy ON land, not floating;
-• rivers as in locked reference into the bay;
-• southeast: wetland hint for “Зелёные Топи”.
+INSIDE — terrain flush to border; evergreen forest west/north; grey-blue bay east/south; islands with visible earth + trees; rivers into bay; SE wetlands.
 
-REGIONS — soft Cyrillic labels or gentle zones INSIDE the state (no second hard border):
-1) Силвания — north-central forest (capital district);
-2) Сердце Древа — forest heart;
-3) Гостевой Порог — near Silver Threshold entry paths;
-4) Северная Заводь — north river frontier;
-5) Восточные Врата — eastern mainland shore / harbor corridor;
-6) Зелёные Топи — southeast wet canopy by the bay;
-7) Круги Бури — inner druid circles forest;
-8) Пепельный Рубеж — west by the mountains.
+EXACTLY SIX settlement ICONS (must all be clearly visible, distinct map markers) + exact labels:
+1) Силвания — CAPITAL, largest icon: silver leaf inside a ring; north-central forest
+2) Мировое Древо — giant sacred tree icon; forest heart (near but not overlapping Силвания label)
+3) Серебряный Порог — temple/threshold gate icon; south/entry forest sector
+4) Северная Заводь — river pier/post icon; northern river frontier
+5) Восточные Врата — stone gate icon; eastern mainland shore by the bay
+6) Пепельный Рубеж — mountain fort icon; western foothills
 
-SETTLEMENTS — map icons + Cyrillic labels:
-• Силвания — CAPITAL, largest marker, silver leaf-in-ring symbol;
-• Мировое Древо — great tree shrine icon in Сердце Древа;
-• Серебряный Порог — temple/threshold gates in Гостевой Порог;
-• Северная Заводь — river post/pier in the north;
-• Восточные Врата — gates on the eastern shore;
-• Пепельный Рубеж — mountain fort in the west.
-Capital name exactly “Силвания” (not Silvanor / not Silvanarion).
+SOFT region labels (smaller type, no second border), exact strings only, placed in empty space:
+Силвания (district), Сердце Древа, Гостевой Порог, Северная Заводь, Восточные Врата, Зелёные Топи, Круги Бури, Пепельный Рубеж
+Do not duplicate a city name on top of its icon label — for regions that share a city name, show the city icon+label once and omit the duplicate region word, OR place the region name far from the icon.
 
-FINISH: classic parchment fantasy map; small compass rose OK; no UI, no watermark, no Latin substituting Russian names, no quest cards, no character panels.
+Forbidden wrong names (do not use): Сильванор, Сильванарион, any garbled/mixed Cyrillic, Latin stand-ins.
+
+Finish: parchment fantasy map, small compass rose OK; no UI, no watermark, no quest cards.
 ```
 
 ---
 
-## Как генерировать после ok (не раньше)
+## Как генерировать
 
-1. Reference: `contour-locked` + `stage1-bg`.  
+1. Reference: `contour-locked` + `stage1-bg` + previous `les-khraniteley-map-v2.jpg` (композиция).  
 2. Aspect: **16:9**.  
-3. Промпт **B** (или A).  
-4. Сохранить: `assets/maps/les-khraniteley-map.jpg` (или `…-map-v2.jpg` при итерации).  
-5. Ok мастера → canon-lock полной карты; contour-locked не трогать.
+3. Промпт **B** (блок выше).  
+4. Сохранить: `les-khraniteley-map-v3.jpg`.  
+5. Ok → promote to `les-khraniteley-map.jpg` + lock.
 
 ## Открытые решения мастера
 
 | Вопрос | Default | Альтернатива |
 |---|---|---|
-| Короткие имена соседей | полные из таблицы (Орден можно коротко) | везде короткие |
-| Регионы | мягкие подписи | только города, без названий регионов |
+| Короткие имена соседей | Орден коротко; остальные полные | везде короткие |
+| Регионы | мягкие подписи; без дубля поверх иконки города | только 6 городов, без регионов |
 | Западные горы снаружи | как stage1-bg у левого края | чистый пергамент без гор |
-| Компас / легенда | компас да, легенда нет | добавить мини-легенду иконок |
-| Язык подписей | кириллица | — |
+| Компас / легенда | компас да, легенда нет | мини-легенда иконок |
+| Язык подписей | кириллица exact | — |

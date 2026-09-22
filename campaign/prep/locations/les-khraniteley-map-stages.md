@@ -15,8 +15,9 @@ stage1_1_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terr
 | 1 | `les-khraniteley-map-stage1-bg.jpg` | **wait-ok** | пергамент снаружи |
 | 1.1 | `les-khraniteley-map-stage1-1-terrain-locked.jpg` | **draft / superseded** | старый патч-композит — не править; ждём rebuild |
 | 1.1 prompt | [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md) | ok-enough → gen | полный промпт |
-| full map v2 | `les-khraniteley-map-v2.jpg` | **wait-ok** | первая генерация по полному промпту (16:9) |
-| full map | `les-khraniteley-map.jpg` | pending | после ok мастера → copy/lock |
+| full map v2 | `les-khraniteley-map-v2.jpg` | draft | первая генерация |
+| full map v3 | `les-khraniteley-map-v3.jpg` | **wait-ok** | правки: точные подписи, без наложений, 6 иконок городов |
+| full map | `les-khraniteley-map.jpg` | pending | после ok → copy/lock |
 
 Промпт: [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md).  
 Черновик генерации: [`../../assets/maps/les-khraniteley-map-v2.jpg`](../../assets/maps/les-khraniteley-map-v2.jpg).  
