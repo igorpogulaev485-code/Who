@@ -5,10 +5,18 @@ wait: gm-ok-on-prompt
 contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
 passport: world/locations/states/les-khraniteley.md
 date: 2026-09-22
-note: "Картинку НЕ генерировать, пока мастер не окнет промпт. Один промпт = рельеф + регионы + города + соседи + оформление."
+note: "v2 сгенерирован 2026-09-22 → assets/maps/les-khraniteley-map-v2.jpg; ждёт ok / список правок мастера. Не lock."
 ---
 
 # Промпт → одна полная карта государства
+
+## Статус генерации
+
+| Файл | Статус |
+|---|---|
+| [`../../assets/maps/les-khraniteley-map-v2.jpg`](../../assets/maps/les-khraniteley-map-v2.jpg) | **wait-ok** — первая генерация по промпту B + contour-locked + stage1-bg |
+
+Известные риски модели (проверить глазами): кривая кириллица в подписях; силуэт может чуть уехать от locked; снаружи слишком много гор.
 
 ## Зачем
 
