@@ -27,7 +27,8 @@ Seed-кадр: [`mq-04-seryy-prichal.md`](mq-04-seryy-prichal.md)
 Жертва прохода: [`mq-04-passage-sacrifice.md`](mq-04-passage-sacrifice.md)  
 Отряд: [`mq-04-velian-squad.md`](mq-04-velian-squad.md)  
 Вставки: [`mq-04-random-inserts.md`](mq-04-random-inserts.md)  
-Карточка: [`mq-04-ten-ushla.md`](mq-04-ten-ushla.md)
+Карточка: [`mq-04-ten-ushla.md`](mq-04-ten-ushla.md)  
+**Скрипт сессии 2 (дверь F):** [`mq-04-sessions-2-door-f.md`](mq-04-sessions-2-door-f.md)
 
 ## Отличие от mq-01/02
 
@@ -67,7 +68,7 @@ Seed-кадр: [`mq-04-seryy-prichal.md`](mq-04-seryy-prichal.md)
 | # | Биты | Цель |
 |---:|---|---|
 | **1** | Похороны = общий старт; Тандил: два потока; дверь **F** | выбор |
-| **2** | Купель: социал → **жертвы** → открытие чёрного → выброс → проход → **Серый Причал** | закрепиться |
+| **2** | Купель: социал → **жертвы** → открытие чёрного → выброс → проход → **Серый Причал** — полный скрипт [`mq-04-sessions-2-door-f.md`](mq-04-sessions-2-door-f.md) | закрепиться |
 
 ### Акт A · Причал как хаб (3–5)
 
