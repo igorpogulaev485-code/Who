@@ -16,7 +16,9 @@ stage1_1_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terr
 | 1.1 | `les-khraniteley-map-stage1-1-terrain-locked.jpg` | **draft / superseded** | старый патч-композит — не править; ждём rebuild |
 | 1.1 prompt | [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md) | ok-enough → gen | полный промпт |
 | full map v2 | `les-khraniteley-map-v2.jpg` | draft | первая генерация |
-| full map v3 | `les-khraniteley-map-v3.jpg` | **wait-ok** | правки: точные подписи, без наложений, 6 иконок городов |
+| full map v3 | `les-khraniteley-map-v3.jpg` | draft | |
+| full map v4 | `les-khraniteley-map-v4.jpg` | draft | врата ещё в воде — отвергнут |
+| full map v5 | `les-khraniteley-map-v5.jpg` | **wait-ok** | города/Топи только на суше; Врата на материковом берегу |
 | full map | `les-khraniteley-map.jpg` | pending | после ok → copy/lock |
 
 Промпт: [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md).  

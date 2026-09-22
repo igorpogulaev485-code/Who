@@ -151,63 +151,53 @@ Contour-locked **не** перезаписывать.
 
 ---
 
-## Промпт B — English (для GenerateImage) + правки v3
+## Промпт B — English (GenerateImage) — v5 geography lock
 
 ```
-Complete fantasy RPG state map of “Лес Хранителей”, top-down parchment cartography, 16:9, state large in frame. Single coherent pass. Keep the SAME red-dashed silhouette and bay/forest layout as the contour-locked and v2 references — do not reshape the border.
+Complete fantasy RPG state map “Лес Хранителей”, top-down parchment cartography, 16:9. Keep the SAME red-dashed silhouette as contour-locked (forest WEST / bay EAST). Single coherent pass.
 
-TITLE (exact Cyrillic only): Лес Хранителей
+TITLE exact: Лес Хранителей
 
-LABEL QUALITY (critical):
-• Use ONLY the exact Cyrillic strings listed below — do not invent, misspell, merge, or Latinize names.
-• No overlapping text. Leave clear empty parchment/terrain gaps between every label.
-• City labels sit next to their icons (not on top of other labels). Region labels are smaller and placed in empty forest/water areas away from city icons.
-• Neighbor labels only OUTSIDE the red dashed border on parchment, spaced around the perimeter.
-• Prefer fewer, cleaner labels over crowded ones. If space is tight, keep all 6 city labels and drop a region label rather than overlapping.
+HARD LAND-ONLY RULES (must obey):
+• NO city icons, gates, forts, piers, or important labels standing in open water / bay / ocean.
+• The bay is WATER ONLY except small forested islands with earth — islands are scenery, NOT city sites unless noted.
+• Восточные Врата: place the stone GATE icon on the eastern tip of the MAINLAND FOREST — where the green land meets the bay on the LEFT/west side of the water. The gate stands on dirt/shore. NEVER float the gate in the middle of the bay or on the far right open water.
+• Зелёные Топи: a contiguous MARSHY LAND region in the southeast INSIDE the border — wet green ground / bog connected to the mainland forest, touching the bay shore. Label “Зелёные Топи” only on that LAND. Do NOT write Топи across open ocean. Do NOT turn the whole bay into swamps. Bay islands stay ordinary tree+earth islets without city labels.
+• If unsure where to put Топи: put the label on SE mainland wetland; if still no room, OMIT the Топи label rather than putting it in water.
 
-OUTSIDE dashed border — parchment; western mountains only at far-left edge. Neighbor labels EXACTLY:
-• north: Орден
-• west: Пепельные земли
-• southwest: Амират
-• east: Болота скорби
-• northeast: Элдеринская гавань
-• south: Драконий Хребет
+LABELS: exact Cyrillic only; no overlaps; no duplicate names; no garbled text.
+Neighbors OUTSIDE on parchment: Орден (N), Пепельные земли (W), Амират (SW), Болота скорби (E), Элдеринская гавань (NE), Драконий Хребет (S).
 
-INSIDE — terrain flush to border; evergreen forest west/north; grey-blue bay east/south; islands with visible earth + trees; rivers into bay; SE wetlands.
+SIX settlement icons ALL ON LAND + exact labels (each once):
+1) Силвания — CAPITAL silver leaf-in-ring, north-central forest land
+2) Мировое Древо — giant tree, forest heart land
+3) Серебряный Порог — temple gate, southern forest land (one only)
+4) Северная Заводь — pier on northern riverbank land
+5) Восточные Врата — gate on mainland forest shore at bay (land)
+6) Пепельный Рубеж — fort, western foothills land
 
-EXACTLY SIX settlement ICONS (must all be clearly visible, distinct map markers) + exact labels:
-1) Силвания — CAPITAL, largest icon: silver leaf inside a ring; north-central forest
-2) Мировое Древо — giant sacred tree icon; forest heart (near but not overlapping Силвания label)
-3) Серебряный Порог — temple/threshold gate icon; south/entry forest sector
-4) Северная Заводь — river pier/post icon; northern river frontier
-5) Восточные Врата — stone gate icon; eastern mainland shore by the bay
-6) Пепельный Рубеж — mountain fort icon; western foothills
-
-SOFT region labels (smaller type, no second border), exact strings only, placed in empty space:
-Силвания (district), Сердце Древа, Гостевой Порог, Северная Заводь, Восточные Врата, Зелёные Топи, Круги Бури, Пепельный Рубеж
-Do not duplicate a city name on top of its icon label — for regions that share a city name, show the city icon+label once and omit the duplicate region word, OR place the region name far from the icon.
-
-Forbidden wrong names (do not use): Сильванор, Сильванарион, any garbled/mixed Cyrillic, Latin stand-ins.
-
-Finish: parchment fantasy map, small compass rose OK; no UI, no watermark, no quest cards.
+Soft land-only region labels (optional, smaller, not on water): Сердце Древа, Гостевой Порог, Зелёные Топи, Круги Бури.
+Forbidden: Сильванор; cities/gates/labels in open water; Топи written on ocean.
+Compass OK; no UI.
 ```
 
 ---
 
 ## Как генерировать
 
-1. Reference: `contour-locked` + `stage1-bg` + previous `les-khraniteley-map-v2.jpg` (композиция).  
+1. Reference: `contour-locked` + `stage1-bg` + latest v3/v4.  
 2. Aspect: **16:9**.  
-3. Промпт **B** (блок выше).  
-4. Сохранить: `les-khraniteley-map-v3.jpg`.  
-5. Ok → promote to `les-khraniteley-map.jpg` + lock.
+3. Промпт **B** выше.  
+4. Сохранить: `les-khraniteley-map-v5.jpg`.  
+5. Ok → `les-khraniteley-map.jpg` + lock.
 
 ## Открытые решения мастера
 
 | Вопрос | Default | Альтернатива |
 |---|---|---|
 | Короткие имена соседей | Орден коротко; остальные полные | везде короткие |
-| Регионы | мягкие подписи; без дубля поверх иконки города | только 6 городов, без регионов |
-| Западные горы снаружи | как stage1-bg у левого края | чистый пергамент без гор |
-| Компас / легенда | компас да, легенда нет | мини-легенда иконок |
+| Регионы | мягкие на суше; Топи только суша | без регионов, только 6 городов |
+| Топи | ЮВ материковая топь у берега | метка на одном острове-с-землёй |
+| Западные горы снаружи | как stage1-bg у левого края | чистый пергамент |
+| Компас | да | нет |
 | Язык подписей | кириллица exact | — |
