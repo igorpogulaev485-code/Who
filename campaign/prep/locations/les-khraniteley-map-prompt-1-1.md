@@ -14,7 +14,7 @@ note: "v2 сгенерирован 2026-09-22 → assets/maps/les-khraniteley-ma
 
 | Файл | Статус |
 |---|---|
-| [`../../assets/maps/les-khraniteley-map-v2.jpg`](../../assets/maps/les-khraniteley-map-v2.jpg) | **wait-ok** — первая генерация по промпту B + contour-locked + stage1-bg |
+| [`../../assets/maps/les-khraniteley-map-v7.jpg`](../../assets/maps/les-khraniteley-map-v7.jpg) | **wait-ok** — база без кривых букв + точные кириллические подписи (соседи по сторонам; города на суше; без лишних имён) |
 
 Известные риски модели (проверить глазами): кривая кириллица в подписях; силуэт может чуть уехать от locked; снаружи слишком много гор.
 

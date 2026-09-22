@@ -19,7 +19,8 @@ stage1_1_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terr
 | full map v3 | `les-khraniteley-map-v3.jpg` | draft | |
 | full map v4 | `les-khraniteley-map-v4.jpg` | draft | врата ещё в воде — отвергнут |
 | full map v5 | `les-khraniteley-map-v5.jpg` | draft | всё ещё метки в воде |
-| full map v6 | `les-khraniteley-map-v6.jpg` | **wait-ok** | без городов в воде; Топи без океана; одни Врата на берегу |
+| full map v6 | `les-khraniteley-map-v6.jpg` | draft | |
+| full map v7 | `les-khraniteley-map-v7.jpg` | **wait-ok** | точные подписи поверх clean-base; соседи по сторонам; без лишних имён |
 | full map | `les-khraniteley-map.jpg` | pending | после ok → copy/lock |
 
 Промпт: [`les-khraniteley-map-prompt-1-1.md`](les-khraniteley-map-prompt-1-1.md).  
