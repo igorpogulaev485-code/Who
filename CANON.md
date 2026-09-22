@@ -44,6 +44,7 @@
 
 - [Карта мира](world/locations/world-map.md) → [`assets/maps/world-map-echo-dawn.jpg`](assets/maps/world-map-echo-dawn.jpg)
 - [Карта Аэлендора](world/locations/aelendor-map.md) → [`assets/maps/aelendor-map.jpg`](assets/maps/aelendor-map.jpg)
+- [Карта Леса Хранителей](world/locations/les-khraniteley-map.md) → [`assets/maps/les-khraniteley-map.jpg`](assets/maps/les-khraniteley-map.jpg)
 - [Карта Лунных Пиков](world/locations/lunnye-piki-map.md) → [`assets/maps/lunnye-piki-map.jpg`](assets/maps/lunnye-piki-map.jpg)
 - [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
 - [Государства мира](world/locations/states-overview.md)
@@ -54,7 +55,7 @@
 - [Камнеград](world/locations/kamnegrad.md)
 - [Белый шип](world/locations/belyy-ship.md) · [Туманный клык](world/locations/tumannyy-klyk.md) · [Тихий брод](world/locations/tikhiy-brod.md)
 - [Чаша Шепотов](world/locations/chasha-shepotov.md) · [Поле павших героев](world/locations/pole-pavshikh-geroev.md)
-- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор)
+- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор) → паспорт [`states/les-khraniteley.md`](world/locations/states/les-khraniteley.md) · карта [`les-khraniteley-map.md`](world/locations/les-khraniteley-map.md)
 - [Розалия](world/locations/rozaliya.md)
   - [НПС](world/locations/rozaliya/npcs.md)
   - [Суда](world/locations/rozaliya/ships.md)
