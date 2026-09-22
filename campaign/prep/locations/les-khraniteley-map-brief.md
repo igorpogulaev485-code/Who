@@ -1,9 +1,10 @@
 ---
 title: "Лес Хранителей — бриф карты (лок + атмосфера)"
-status: prep
+status: locked-source
 date: 2026-09-22
-source: gm-answers-2026-09-22 + world-map sync + v12 atmosphere pass
+source: gm-answers-2026-09-22 + world-map sync + v12 lock
 contour_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md
+full_map_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md
 prompt: campaign/prep/locations/les-khraniteley-map-prompt-1-1.md
 ---
 

@@ -23,8 +23,10 @@ map_ref: assets/maps/les-khraniteley-map.jpg
 | Положение | ЮВ материка; северный лес + **залив с островами** в границах государства (обводка мастера) |
 | Соседи | Орден (С); Пепельные земли (З); Амират (ЮЗ за горами); Болота скорби (В/ЮВ); Элдеринская гавань (СВ); юг — залив, за ним Драконий Хребет |
 | Материк / острова | материк + острова **внутри** залива государства |
-| Файл карты | [`les-khraniteley-contour-locked.jpg`](../../assets/maps/les-khraniteley-contour-locked.jpg) (**контур locked**) |
+| Файл карты | [`les-khraniteley-map-locked.jpg`](../../assets/maps/les-khraniteley-map-locked.jpg) (**полная карта locked**) · [`les-khraniteley-map.jpg`](../../assets/maps/les-khraniteley-map.jpg) |
+| Контур | [`les-khraniteley-contour-locked.jpg`](../../assets/maps/les-khraniteley-contour-locked.jpg) |
 | Обводка границ | [`les-khraniteley-borders-from-world.jpg`](../../assets/maps/les-khraniteley-borders-from-world.jpg) |
+| Лок полной карты | [`../../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md`](../../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md) |
 | Лок контура | [`../../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md`](../../../campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md) |
 
 ## Столица и известные города
