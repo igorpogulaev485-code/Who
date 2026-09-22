@@ -18,6 +18,6 @@ stage1_1_lock: campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terr
 | 2 | — | pending | подписи соседей |
 | 3 | — | pending | регионы |
 
-Лок 1.1: [`campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md`](../plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md).
+Лок 1.1: [`campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md`](../../plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md).
 
 После ok мастера следующий этап → копия с locked 1.1, без перерисовки рельефа целиком.
