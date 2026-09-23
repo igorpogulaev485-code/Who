@@ -48,4 +48,4 @@ depends:
 
 ## Дальше
 
-Карта **v7** готова к ревью: [`../../assets/maps/drakoniy-khrebet-map-v7.jpg`](../../assets/maps/drakoniy-khrebet-map-v7.jpg).
+Карта **LOCKED v12c**: [`canon-lock-2026-09-23-mq06-ridge-map.md`](canon-lock-2026-09-23-mq06-ridge-map.md).

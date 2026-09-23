@@ -1,18 +1,21 @@
 ---
 title: "Империя Драконьего Хребта — бриф карты"
-status: prep
+status: locked
 date: 2026-09-23
-source: world-map + gm geometry + cities + names locks
+source: gm-lock-2026-09-23-mq06-ridge-map
 world_map: assets/maps/world-map-echo-dawn.jpg
 borders_ref: assets/maps/drakoniy-khrebet-borders-from-world.jpg
 geometry_lock: campaign/plot/canon-lock-2026-09-23-mq06-ridge-geometry.md
 names_lock: campaign/plot/canon-lock-2026-09-23-mq06-ridge-city-names.md
+map_lock: campaign/plot/canon-lock-2026-09-23-mq06-ridge-map.md
 vibe_refs:
   - assets/maps/ledyanoy-soyuz-map-base-locked.jpg
   - assets/maps/les-khraniteley-map-locked-ref.jpg
 ---
 
 # Бриф карты — Драконий Хребет
+
+**LOCKED v12c.** Лок: [`../../plot/canon-lock-2026-09-23-mq06-ridge-map.md`](../../plot/canon-lock-2026-09-23-mq06-ridge-map.md)
 
 ## Геометрия
 
@@ -41,9 +44,5 @@ vibe_refs:
 
 | | |
 |---|---|
-| v1–v5 | черновики |
-| v6 | вайб ок; геометрия «остров» |
-| v7 | отклонена (подписи + слияние острова) |
-| **v10** | подписи как у Союза; В-остров отделён водой |
-| **v12b** | полуостров: горы → левый край |
-| **v12c** | подписи привязаны к иконкам (ревью) |
+| v1–v11 | черновики / отклонены |
+| **v12c** | **LOCKED** |

@@ -1,22 +1,23 @@
 ---
 title: "Империя Драконьего Хребта — карта государства"
-status: prep
+status: locked
 tags: [map, state, ridge]
-source: gm-locks-2026-09-23-mq06-ridge-geometry + cities + city-names + gm-feedback-v10
+source: gm-lock-2026-09-23-mq06-ridge-map
+map_lock: campaign/plot/canon-lock-2026-09-23-mq06-ridge-map.md
 ---
 
 # Карта — Империя Драконьего Хребта
 
-**Статус:** prep **v12c** на ревью.  
-Полуостров слева + В-остров; подписи v12c притянуты к иконкам (военная цитадель = Пепельный Строй, пик с флагом = Пепельный Гребень).
+**Статус:** **LOCKED v12c** (мастер 2026-09-23).  
+Лок: [`../../campaign/plot/canon-lock-2026-09-23-mq06-ridge-map.md`](../../campaign/plot/canon-lock-2026-09-23-mq06-ridge-map.md)
 
 | Файл | |
 |---|---|
-| Кроп с мира | [`../../assets/maps/drakoniy-khrebet-borders-from-world.jpg`](../../assets/maps/drakoniy-khrebet-borders-from-world.jpg) |
-| World zoom | [`../../assets/maps/drakoniy-khrebet-world-zoom.jpg`](../../assets/maps/drakoniy-khrebet-world-zoom.jpg) |
+| Locked | [`../../assets/maps/drakoniy-khrebet-map-locked.jpg`](../../assets/maps/drakoniy-khrebet-map-locked.jpg) |
+| v12c | [`../../assets/maps/drakoniy-khrebet-map-v12c.jpg`](../../assets/maps/drakoniy-khrebet-map-v12c.jpg) |
+| Рабочая | [`../../assets/maps/drakoniy-khrebet-map.jpg`](../../assets/maps/drakoniy-khrebet-map.jpg) (= locked) |
 | Base | [`../../assets/maps/drakoniy-khrebet-map-v12b-base.jpg`](../../assets/maps/drakoniy-khrebet-map-v12b-base.jpg) |
-| С подписями | [`../../assets/maps/drakoniy-khrebet-map-v12c.jpg`](../../assets/maps/drakoniy-khrebet-map-v12c.jpg) |
-| Рабочая | [`../../assets/maps/drakoniy-khrebet-map.jpg`](../../assets/maps/drakoniy-khrebet-map.jpg) (= v12c) |
+| Кроп с мира | [`../../assets/maps/drakoniy-khrebet-borders-from-world.jpg`](../../assets/maps/drakoniy-khrebet-borders-from-world.jpg) |
 | Бриф | [`../../campaign/prep/locations/drakoniy-khrebet-map-brief.md`](../../campaign/prep/locations/drakoniy-khrebet-map-brief.md) |
 
 Паспорт: [`states/imperiya-drakonyego-khrebta.md`](states/imperiya-drakonyego-khrebta.md)
