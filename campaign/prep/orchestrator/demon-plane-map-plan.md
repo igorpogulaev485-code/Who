@@ -16,8 +16,8 @@ parent: plane-maps-plan.md
 | Геометрия | LOCKED |
 | Имена 9 кругов | **LOCKED · B** [`canon-lock-2026-09-23-demon-plane-circle-names-b.md`](../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md) |
 | Gazetteer | [`../locations/demon-plane-gazetteer.md`](../locations/demon-plane-gazetteer.md) |
-| Бриф компоновки | **next** |
-| Отрисовка | wait |
+| Бриф компоновки | done — кольца [`../locations/demon-plane-map-brief.md`](../locations/demon-plane-map-brief.md) |
+| Отрисовка | **draft v2** — ждём ok [`../locations/demon-plane-map.md`](../locations/demon-plane-map.md) |
 
 ## Whitelist player
 
