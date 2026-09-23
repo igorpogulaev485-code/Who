@@ -19,4 +19,5 @@
 | `funeral-f-ancestors-bridge.png` | Похороны — Мост Предков | то же |
 
 Референсы «до фестиваля»: [`lunnyy-most-festival-ref/`](lunnyy-most-festival-ref/)  
-Промпты похорон: [`../prompts/lunnyy-most-arc3-s1.md`](../prompts/lunnyy-most-arc3-s1.md)
+Промпты похорон: [`../prompts/lunnyy-most-arc3-s1.md`](../prompts/lunnyy-most-arc3-s1.md)  
+Портреты НПС путей: [`npc/`](npc/)
