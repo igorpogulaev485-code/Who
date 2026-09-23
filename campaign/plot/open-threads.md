@@ -86,5 +86,5 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Карта: [`../../world/locations/drakoniy-khrebet-map.md`](../../world/locations/drakoniy-khrebet-map.md).  
 Паспорт Пыли **W1:** [`../../world/locations/states/imperiya-zvezdnoy-pyli.md`](../../world/locations/states/imperiya-zvezdnoy-pyli.md) · локи [`dust-state`](canon-lock-2026-09-23-mq06-dust-state.md) · [`holes`](canon-lock-2026-09-23-mq06-dust-holes.md).  
 Адмирал **Каэлен Вейл** · порт **Звёздный Причал** · с.2: [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md).  
-Карта **v4 на ревью** (8 точек): [`../../assets/maps/zvezdnaya-pyl-map-v4.jpg`](../../assets/maps/zvezdnaya-pyl-map-v4.jpg) · лок [`canon-lock-2026-09-23-mq06-dust-map-points.md`](canon-lock-2026-09-23-mq06-dust-map-points.md).  
+Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
 Сессии 2 ещё нет: двери **B**, **C**.

@@ -1,37 +1,33 @@
 ---
 id: orch-mq06-triad-entry
 title: "План — mq-06: три входа (доспехи / меч / сапоги)"
-status: in-progress
-source: gm-2026-09-23 triad + ridge + dust W1/holes
+status: done-prep
+source: gm-2026-09-23 triad + ridge + dust LOCKED
 ---
 
 # План — вариации входа mq-06
 
 ## Цель
 
-Тройка mq-06: меч готов; Пыль W1 + с.2 сапог готовы; карта Пыли на ревью.
+Тройка mq-06: все три ветки prep к с.2 готовы (льды раньше; меч; сапоги).
 
 ## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
-| 1–3 | state / map / quest | Хребет + с.2 меча | **done** |
+| 1–3 | state / map / quest | Хребет + с.2 меча | **done** LOCKED |
 | 4 | echo-dawn-state | паспорт Пыли W1 | **done** |
-| 4b | survey | добивка holes | **done** |
-| 5 | map | карта Пыли | **v4 wait-ok** (8 точек) |
+| 4b | survey | holes + map-points | **done** |
+| 5 | map | карта Пыли | **done** LOCKED v4 |
 | 6 | quest-main | с.2 сапог | **done** |
 | 7 | — | двери B / C | open |
 
-## Ждём
+## Готово
 
-Ok / правки карты **v4**: [`../../../../assets/maps/zvezdnaya-pyl-map-v4.jpg`](../../../../assets/maps/zvezdnaya-pyl-map-v4.jpg)
-
-## Файлы
-
-- Паспорт: [`states/imperiya-zvezdnoy-pyli.md`](../../../../world/locations/states/imperiya-zvezdnoy-pyli.md)  
-- С.2: [`mq-06-sessions-2-door-e-boots.md`](../arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md)  
+- Хребет: паспорт · карта LOCKED v12c · с.2 меча  
+- Пыль: паспорт · карта **LOCKED v4** · с.2 сапог  
 
 ## Не делаем
 
 - W2 регионов до запроса  
-- Изъятие сапог в с.2  
+- Изъятие артов в с.2  
