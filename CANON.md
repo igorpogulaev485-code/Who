@@ -45,7 +45,7 @@
 - [Карта мира](world/locations/world-map.md) → [`assets/maps/world-map-echo-dawn.jpg`](assets/maps/world-map-echo-dawn.jpg)
 - [Карта Аэлендора](world/locations/aelendor-map.md) → [`assets/maps/aelendor-map.jpg`](assets/maps/aelendor-map.jpg)
 - [Карта Лунных Пиков](world/locations/lunnye-piki-map.md) → [`assets/maps/lunnye-piki-map.jpg`](assets/maps/lunnye-piki-map.jpg)
-- [Карта Ледяного Союза](world/locations/ledyanoy-soyuz-map.md) → [`assets/maps/ledyanoy-soyuz-map.jpg`](assets/maps/ledyanoy-soyuz-map.jpg) *(v1, на ревью)*
+- [Карта Ледяного Союза](world/locations/ledyanoy-soyuz-map.md) → [`assets/maps/ledyanoy-soyuz-map-locked.jpg`](assets/maps/ledyanoy-soyuz-map-locked.jpg) **(LOCKED)**
 - [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
 - [Государства мира](world/locations/states-overview.md)
 - [Ледяной Союз](world/locations/states/ledyanoy-soyuz.md) (столица **Гирмхельм**; Совет старейшин)

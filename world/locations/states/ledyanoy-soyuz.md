@@ -8,13 +8,15 @@ region: "крайний СЗ материка"
 rules: dnd-5e-2014
 tags: [state, dwarves, ice, gnomes]
 source: gm-locks-2026-09-23-mq06-ice-union-w2 + states-overview + five-capitals + player-books
-map_ref: assets/maps/ledyanoy-soyuz-map.jpg
+map_ref: assets/maps/ledyanoy-soyuz-map-locked.jpg
+full_map_lock: campaign/plot/canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md
 ---
 
 # Ледяной Союз
 
 Северное государство ледников и гор. Раньше города дварфов были **самостоятельными полисами**; затем объединились в **Союз**.  
-Карта (v1, на ревью): [`../ledyanoy-soyuz-map.md`](../ledyanoy-soyuz-map.md) · мир: [`../world-map.md`](../world-map.md)  
+Карта государства (**LOCKED**): [`../ledyanoy-soyuz-map.md`](../ledyanoy-soyuz-map.md) · мир: [`../world-map.md`](../world-map.md)  
+Лок карты: [`../../../campaign/plot/canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md`](../../../campaign/plot/canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md)  
 Лок w2: [`../../../campaign/plot/canon-lock-2026-09-23-mq06-ice-union-w2.md`](../../../campaign/plot/canon-lock-2026-09-23-mq06-ice-union-w2.md)
 
 ## На карте
@@ -24,8 +26,10 @@ map_ref: assets/maps/ledyanoy-soyuz-map.jpg
 | Положение | Крайний **СЗ** материка: снег, ледники, горы, фьорды на востоке |
 | Соседи | **Ю** — Сильванарион; **ЮВ** — Теневая Долина; **В** через океан — Ульфгард |
 | Материк / острова | материк; восточное побережье к океану |
-| Файл карты | [`ledyanoy-soyuz-map.jpg`](../../assets/maps/ledyanoy-soyuz-map.jpg) (v1) · base [`ledyanoy-soyuz-map-v1-base.jpg`](../../assets/maps/ledyanoy-soyuz-map-v1-base.jpg) |
+| Файл карты | [`ledyanoy-soyuz-map-locked.jpg`](../../assets/maps/ledyanoy-soyuz-map-locked.jpg) (**LOCKED**) · [`ledyanoy-soyuz-map.jpg`](../../assets/maps/ledyanoy-soyuz-map.jpg) |
+| Base | [`ledyanoy-soyuz-map-base-locked.jpg`](../../assets/maps/ledyanoy-soyuz-map-base-locked.jpg) |
 | Кроп с мира | [`ledyanoy-soyuz-borders-from-world.jpg`](../../assets/maps/ledyanoy-soyuz-borders-from-world.jpg) |
+| Лок карты | [`../../../campaign/plot/canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md`](../../../campaign/plot/canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md) |
 
 ## Столица и известные города
 
