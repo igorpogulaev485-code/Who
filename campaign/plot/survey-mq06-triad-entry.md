@@ -15,7 +15,7 @@ depends:
 Лок `d_ice_only` = про вечер **льдов**, не запрет других стартов.
 
 HTML: [`survey-mq06-triad-entry.html`](survey-mq06-triad-entry.html)  
-**Safari (~72 ч):** *(ссылка после заливки)*
+**Safari (~72 ч):** https://litter.catbox.moe/jhvqkv.html  
 
 План: [`../prep/orchestrator/mq06-triad-entry-plan.md`](../prep/orchestrator/mq06-triad-entry-plan.md)
 
