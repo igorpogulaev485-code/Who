@@ -90,7 +90,8 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь **Милана** — параллель
+- [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса)
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)

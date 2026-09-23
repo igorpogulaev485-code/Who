@@ -348,7 +348,7 @@ Insight 14: про «ищут» — не про партию; про **друг�
 | Дверь | Prep |
 |---|---|
 | **A** | [`mq-01-sessions-1-2-detail.md`](mq-01-sessions-1-2-detail.md) — фиолетовый / Маяк |
-| B/C | mq-05 + book-chapter / Фириэсса |
+| B/C | mq-05 + book-chapter / Милана |
 | D | mq-03 дорога |
 | E | mq-06 акт 0 |
 
