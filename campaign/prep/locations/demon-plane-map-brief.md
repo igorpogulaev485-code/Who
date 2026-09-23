@@ -1,23 +1,19 @@
 ---
 title: "План демонов — бриф обзорной карты"
 status: draft
-version: v1
+version: v3
 date: 2026-09-23
-locks:
-  - ../../plot/canon-lock-2026-09-23-demon-plane-geometry.md
-  - ../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md
-audience: players
 ---
 
-# Бриф — атлас 9 кругов (v1)
+# Бриф — атлас 9 кругов (v3)
 
 ## Компоновка (v3 — правка мастера)
 
 **Не** концентрические кольца.  
-**Вытянутый** атлас (ландшафт): круги = **государства** на плоскости; между соседями — **ворота-проходы**.  
-Порядок глубины: слева/с края входа **1 · Пепельный Порог** → … → **9 · Сердце Затмения**.
+**Вытянутый** атлас (16:9): круги = **государства**; между соседями — **ворота-проходы**.  
+Порядок: слева **1 · Пепельный Порог** → справа **9 · Сердце Затмения**.
 
-v1–v2 (кольца) — discarded по фидбеку.
+v1–v2 (кольца) — discarded.
 
 ## Эстетика
 
@@ -47,5 +43,5 @@ v1–v2 (кольца) — discarded по фидбеку.
 
 ## Выход
 
-`assets/maps/demon-plane/demon-plane-atlas-v1.png`  
-`campaign/prep/locations/demon-plane-map.md`
+- `assets/maps/demon-plane/demon-plane-atlas-v3.png` (= current draft)  
+- `campaign/prep/locations/demon-plane-map.png`
