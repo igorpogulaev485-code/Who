@@ -19,7 +19,7 @@ includes_mq02_wait_ok: true
 - Spine: Маяк→пустошь/Алтарь (с.3–7) → зона душ/Филактерий (8–12) → Око (13–17)
 
 HTML: [`survey-demon-plane-geometry-v1.html`](survey-demon-plane-geometry-v1.html)  
-**Safari (~72 ч):** *(ниже после upload)*
+**Safari (~72 ч):** https://litter.catbox.moe/zfhpie.html
 
 ---
 

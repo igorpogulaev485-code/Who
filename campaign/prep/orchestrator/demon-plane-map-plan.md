@@ -18,6 +18,7 @@ parent: plane-maps-plan.md
 
 - MD: [`../../plot/survey-demon-plane-geometry-v1.md`](../../plot/survey-demon-plane-geometry-v1.md)  
 - HTML: [`../../plot/survey-demon-plane-geometry-v1.html`](../../plot/survey-demon-plane-geometry-v1.html)  
+- Safari: https://litter.catbox.moe/zfhpie.html  
 - Включает mq-02 wait-ok (ворота / каркас / носители / вставки)  
 - **Ждём ответы** → лок → gazetteer → бриф → картинка  
 
