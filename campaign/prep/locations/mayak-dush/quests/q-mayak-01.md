@@ -3,7 +3,7 @@ id: q-mayak-01
 title: "Амулет в клетке"
 status: prep
 loc_slug: mayak-dush
-place: "3 · Ряд клеток"
+place: "3 · Жертвенный ряд"
 size_hint: micro
 priority: medium
 arc_link: standalone
@@ -21,7 +21,7 @@ tags: [quest, side, mayak]
 
 | Поле | Значение |
 |---|---|
-| Место | Ряд клеток |
+| Место | Жертвенный ряд |
 | Выдаёт | **Кеш** |
 | Триггер | разговор в лагере до/после сделки со Сарель |
 

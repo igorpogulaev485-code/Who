@@ -9,7 +9,7 @@ status: prep
 | | |
 |---|---|
 | Масштаб | site · план демонов |
-| Статус | `prep` seed · карта **draft v1** |
+| Статус | `prep` seed · карта **draft v4** |
 | Арка | mq-01 дверь A · сессия 2 |
 | Скил | `echo-dawn-location` (сид) + `echo-dawn-quest-side` |
 
