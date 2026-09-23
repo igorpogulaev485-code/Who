@@ -1,7 +1,7 @@
 ---
 title: "План демонов — обзорная карта"
 status: draft
-version: v8
+version: v9
 audience: players
 locks:
   - ../../plot/canon-lock-2026-09-23-demon-plane-geometry.md
@@ -12,7 +12,7 @@ locks:
 
 ![Атлас](demon-plane-map.png)
 
-**Статус:** draft **v8** — ждём ok.  
+**Статус:** draft **v9** — стиль Эха (как Маяк/Причал) · ждём ok.  
 Государства на одной суше. **Ворота только:** 1→2→3→4→5→6→7→8→9.  
 **Маяка нет** (лок обзора).
 
