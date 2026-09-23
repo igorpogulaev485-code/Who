@@ -1,13 +1,15 @@
 ---
 title: "Маяк душ — бриф карты"
-status: draft
+status: locked
 version: v4
 date: 2026-09-23
 audience: players
-source: gm-2026-09-23 («слабо; маяк иначе; другие точки»)
+source: gm-ok-2026-09-23
 ---
 
-# Бриф карты — Маяк душ (v4)
+# Бриф карты — Маяк душ (v4 · LOCKED)
+
+Лок: [`../../plot/canon-lock-2026-09-23-mayak-dush-map.md`](../../plot/canon-lock-2026-09-23-mayak-dush-map.md)
 
 ## Концепт маяка (не башня)
 
@@ -39,4 +41,6 @@ source: gm-2026-09-23 («слабо; маяк иначе; другие точк�
 
 ## Выход
 
-`assets/maps/mayak-dush/mayak-dush-map-v4.png` → current после ok
+- `assets/maps/mayak-dush/mayak-dush-map-v4.png` (= **LOCKED** current)  
+- `campaign/prep/locations/mayak-dush/map.png`  
+- v1–v3: архив в той же папке / discard v3

@@ -454,7 +454,7 @@ Dex DC **13** → провал **2к8** дробящего.
 
 ### 2.6 — Маяк душ
 
-**Side (не spine):** seed [`../../../locations/mayak-dush/`](../../../locations/mayak-dush/) · q-mayak-01…03. Ворота Купели: q-kupel-01…02 в [`../../../locations/lunnyy-most/quests/`](../../../locations/lunnyy-most/quests/).
+**Side (не spine):** playbook точек [`../../../locations/mayak-dush/playbook.md`](../../../locations/mayak-dush/playbook.md) · карта LOCKED [`../../../locations/mayak-dush/map.md`](../../../locations/mayak-dush/map.md) · q-mayak-01…03. Ворота Купели: q-kupel-01…02 в [`../../../locations/lunnyy-most/quests/`](../../../locations/lunnyy-most/quests/).
 
 **Сказать:**
 
