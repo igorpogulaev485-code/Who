@@ -87,4 +87,5 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Паспорт Пыли **W1:** [`../../world/locations/states/imperiya-zvezdnoy-pyli.md`](../../world/locations/states/imperiya-zvezdnoy-pyli.md) · локи [`dust-state`](canon-lock-2026-09-23-mq06-dust-state.md) · [`holes`](canon-lock-2026-09-23-mq06-dust-holes.md).  
 Адмирал **Каэлен Вейл** · порт **Звёздный Причал** · с.2: [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md).  
 Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
-Сессии 2 ещё нет: дверь **C** (Милана). Дверь **B** (дневник): [`../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md).
+Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
+[`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).

@@ -147,7 +147,7 @@ mq-05: [`mq-05-pepel-maestro.md`](mq-05-pepel-maestro.md)
 
 | Если дальше | Файл |
 |---|---|
-| C · Милана | (скрипт с.2 C — следующий prep) |
+| C · Милана | [`mq-05-sessions-2-door-c.md`](mq-05-sessions-2-door-c.md) |
 | F · чёрный поток | [`mq-04-sessions-2-door-f.md`](mq-04-sessions-2-door-f.md) |
 | E · земля | льды / меч / сапоги |
 | D · Лес | [`mq-03-sessions-2-door-d.md`](mq-03-sessions-2-door-d.md) |

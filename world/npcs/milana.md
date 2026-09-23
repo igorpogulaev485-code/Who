@@ -26,8 +26,8 @@ portrait: assets/images/npc/npc-milana.png
 Маэстро мёртв. **Милана** действует **параллельно**: нить воскрешения / дневник / Разлом.  
 
 **Vision с.1:** партия уже в связи через кольцо; на центральных похоронах **почти заговорит** — прервётся / уйдёт. Хочет с помоста — **не станет**.  
-Дверь **C**: ночь / склады — короткий контакт.  
-Дверь **B**: дневник; «третья стража» — не при свидетелях (предупреждение отца / её).
+Дверь **C**: ночь / склады — полный скрипт [`../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md`](../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
+Дверь **B**: дневник — [`../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md`](../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md).
 
 ## Связи
 
