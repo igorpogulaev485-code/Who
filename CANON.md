@@ -85,8 +85,9 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
-- [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен
+- [Милана](world/npcs/milana.md) — дочь Маэстро; параллельная нить воскрешения (арка 3)
+- [Пиппин](world/npcs/pippin.md) — мёртв (предатель; убила Милана)
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
 - [Элессар I](world/npcs/elessar-i.md) — истинный король
