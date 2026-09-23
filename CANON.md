@@ -83,7 +83,7 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник частично изучен (16, 17, 52–55); дочь — параллель
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
@@ -122,6 +122,8 @@
 - [Оглавление + правило «открытая глава = канон»](world/player-books/README.md)
 - [Зеркало Памяти — 17 открытых глав](world/player-books/zerkalo-pamyati.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md) ← гл. 44 «Артефакты Падения»
+- [Дневник Маэстро — оглавление 58 стр.](campaign/prep/books/dnevnik-maestro/00-toc-v3-blocks.md) · [для игроков](campaign/prep/books/dnevnik-maestro/toc-telegram.txt) · [открыто: 16, 17, 52–55](campaign/prep/books/dnevnik-maestro/handout-open-pages.md)
+
 
 ## Сессии
 
