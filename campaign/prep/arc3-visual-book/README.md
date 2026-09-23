@@ -38,3 +38,6 @@ tags: [gm, runbook, arc3]
 
 Канон: дочь Маэстро = **Милана**.  
 Дневник: страницы **не** пишем — только оглавление в [гл. 9](chapters/09-dver-b.md).
+
+Скил пайплайна (как собирать такую книгу снова):  
+[`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md) · лок [`skill-lock-visual-runbook-v1.md`](../../plot/skill-lock-visual-runbook-v1.md).
