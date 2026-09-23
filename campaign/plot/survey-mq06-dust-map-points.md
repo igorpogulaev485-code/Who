@@ -1,17 +1,20 @@
 ---
 title: Опрос — точки на карте Звёздной Пыли (~7)
-status: survey
+status: answered
 date: 2026-09-23
 source: gm-feedback map-v3 («около 7 точек»)
 depends:
   - canon-lock-2026-09-23-mq06-dust-state.md
   - canon-lock-2026-09-23-mq06-dust-holes.md
+lock: canon-lock-2026-09-23-mq06-dust-map-points.md
 ---
 
 # Опрос — ещё точки на карте Пыли
 
+**Статус: отвечено** → [`canon-lock-2026-09-23-mq06-dust-map-points.md`](canon-lock-2026-09-23-mq06-dust-map-points.md) · карта **v4**.
+
 **v3:** парение — **кайф**, оставляем.  
-**Не хватает:** на карте только 3 подписи; нужно **~7 точек**.
+**Решено:** пакет + **Дозор Раны** (`f_watch`) = 8 точек.
 
 **Уже лок (3 из ~7):**
 

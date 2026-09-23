@@ -53,7 +53,7 @@
 - [Империя Драконьего Хребта](world/locations/states/imperiya-drakonyego-khrebta.md) (столица **Город Пламени**; триумвират + Зариакс)
 - [Карта Хребта](world/locations/drakoniy-khrebet-map.md) → [`assets/maps/drakoniy-khrebet-map-locked.jpg`](assets/maps/drakoniy-khrebet-map-locked.jpg) **(LOCKED v12c)**
 - [Империя Звёздной Пыли](world/locations/states/imperiya-zvezdnoy-pyli.md) (столица **Небесный Форт**; Кайрос; **Каэлен Вейл**; парящая земля)
-- [Карта Пыли](world/locations/zvezdnaya-pyl-map.md) → [`assets/maps/zvezdnaya-pyl-map-v3.jpg`](assets/maps/zvezdnaya-pyl-map-v3.jpg) *(v3 на ревью)*
+- [Карта Пыли](world/locations/zvezdnaya-pyl-map.md) → [`assets/maps/zvezdnaya-pyl-map-v4.jpg`](assets/maps/zvezdnaya-pyl-map-v4.jpg) *(v4 на ревью)*
 - [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)

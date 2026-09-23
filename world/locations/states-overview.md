@@ -49,7 +49,7 @@ map: assets/maps/world-map-echo-dawn.jpg
 
 ### Империя Звёздной Пыли
 Остров СВ; фактически **один** остров, большая часть **парит**; на воде — **Звёздный Причал** → подъём. Столица **Небесный Форт**. Власть: **Вентариус IV** / факт. **Кайрос Вентарий**; адмирал **Каэлен Вейл**. Каста **свежевателей разума** + флот + техномагия/конструкты. **Предала Аэлендор** (сделка с тьмой/Долиной). Сапоги — в **Адмиралтействе** Форта.  
-Паспорт: [`states/imperiya-zvezdnoy-pyli.md`](states/imperiya-zvezdnoy-pyli.md) · карта v3 (ревью): [`zvezdnaya-pyl-map.md`](zvezdnaya-pyl-map.md) · лок: [`dust-state`](../../campaign/plot/canon-lock-2026-09-23-mq06-dust-state.md) · [`holes`](../../campaign/plot/canon-lock-2026-09-23-mq06-dust-holes.md)
+Паспорт: [`states/imperiya-zvezdnoy-pyli.md`](states/imperiya-zvezdnoy-pyli.md) · карта v4 (ревью): [`zvezdnaya-pyl-map.md`](zvezdnaya-pyl-map.md) · лок: [`dust-state`](../../campaign/plot/canon-lock-2026-09-23-mq06-dust-state.md) · [`holes`](../../campaign/plot/canon-lock-2026-09-23-mq06-dust-holes.md) · [`points`](../../campaign/plot/canon-lock-2026-09-23-mq06-dust-map-points.md)
 
 ## Западные острова
 
