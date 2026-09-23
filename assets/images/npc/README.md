@@ -33,5 +33,14 @@
 | `npc-saela.png` | Саэла Троповед | Порог D |
 | `npc-helda.png` | Хельда Щитолом | Туманный Щит E |
 | `npc-lianeya-silhouette.png` | Лианэя (силуэт с.2) | льды E |
+| `npc-saeris.png` | Саэрис Пепельный | Хребет · дипл.двор |
+| `npc-alazar.png` | Алазар Огненное Сердце | триумвират Хребта |
+| `npc-eridan.png` | Эридан Звёздный Зрачок | триумвират / Звёздный Склон |
+| `npc-korvar.png` | Корвар Тяжёлая Лапа | триумвират |
+| `npc-zariax.png` | Зариакс Теневой Клык | оппозиция · Ночная Чешуя |
+| `npc-elessar.png` | Элессар I | Лес Хранителей |
+| `npc-malfurion.png` | Малфурион Ярость Бури | совет друидов |
+| `npc-silvanara.png` | Сильванара | мать Люмиэля / слух трона |
+| `npc-admiral-star-dust.png` | Адмирал флота Пыли *(имя не локнуто)* | сапоги покрова |
 
 План: [`../../../campaign/prep/arc3-npc-visual-plan.md`](../../../campaign/prep/arc3-npc-visual-plan.md)
