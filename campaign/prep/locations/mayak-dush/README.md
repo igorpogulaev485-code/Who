@@ -9,13 +9,14 @@ status: prep
 | | |
 |---|---|
 | Масштаб | site · план демонов |
-| Статус | `prep` seed |
+| Статус | `prep` seed · карта **draft v1** |
 | Арка | mq-01 дверь A · сессия 2 |
 | Скил | `echo-dawn-location` (сид) + `echo-dawn-quest-side` |
 
 ## Файлы
 
 - [`playbook.md`](playbook.md) — сид 5 мест  
+- [`map.md`](map.md) · [`map.png`](map.png) — игрок-карта (draft)  
 - [`npc-registry.md`](npc-registry.md)  
 - [`quests/`](quests/) · [`quests-bundle.md`](quests-bundle.md)
 
