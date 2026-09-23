@@ -1,7 +1,7 @@
 ---
 title: "План демонов — бриф обзорной карты"
 status: draft
-version: v6
+version: v7
 date: 2026-09-23
 ---
 
@@ -9,13 +9,10 @@ date: 2026-09-23
 
 ## Статус
 
-**draft v22** = живопись v9 + свап **5↔6** (Стикс в центре под Кузницей, Ложные Имена снизу к Легионам).
-
-## Цель (если ещё правим)
-
-Ворота на границах — отдельно, без сетки.
+**draft v24** — полная пересборка (v22 patch discarded).  
+Стиль Эха · **5 в центре (Стикс)** · **6 снизу (Ложные Имена)**.
 
 ## Выход
 
-- `assets/maps/demon-plane/demon-plane-atlas-v22.png` (= current)  
+- `assets/maps/demon-plane/demon-plane-atlas-v24.png` (= current)  
 - `campaign/prep/locations/demon-plane-map.png`

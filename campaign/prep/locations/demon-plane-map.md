@@ -1,7 +1,7 @@
 ---
 title: "План демонов — обзорная карта"
 status: draft
-version: v22
+version: v24
 audience: players
 locks:
   - ../../plot/canon-lock-2026-09-23-demon-plane-geometry.md
@@ -12,7 +12,8 @@ locks:
 
 ![Атлас](demon-plane-map.png)
 
-**Статус:** draft **v22** — стиль v9 · **5 и 6 местами** (Стикс в центре, Ложные Имена снизу). Ждём ok.
+**Статус:** draft **v24** — новая сборка (не патч v22).  
+5 · Кровавый Стикс в центре · 6 · Поля Ложных Имён снизу. Ждём ok.
 
 ## Цепь
 

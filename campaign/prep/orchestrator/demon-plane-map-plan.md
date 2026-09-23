@@ -17,7 +17,7 @@ parent: plane-maps-plan.md
 | Имена 9 кругов | **LOCKED · B** [`canon-lock-2026-09-23-demon-plane-circle-names-b.md`](../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md) |
 | Gazetteer | [`../locations/demon-plane-gazetteer.md`](../locations/demon-plane-gazetteer.md) |
 | Бриф компоновки | done — кольца [`../locations/demon-plane-map-brief.md`](../locations/demon-plane-map-brief.md) |
-| Отрисовка | **draft v22** — стиль v9 · 5↔6 свап · ждём ok |
+| Отрисовка | **draft v24** — новая сборка · 5 центр / 6 низ · ждём ok |
 
 ## Whitelist player
 
@@ -25,4 +25,4 @@ parent: plane-maps-plan.md
 
 ## Дальше
 
-Ждём ok на v22 → LOCK.
+Ждём ok на v24 → LOCK.
