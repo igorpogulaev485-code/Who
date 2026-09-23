@@ -84,5 +84,7 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Столица **Город Пламени** (В-остров); **Пепельный Гребень** выше на том же острове; города: Звёздный Склон · Ночная Чешуя · Пепельный Строй · Кость Империи · Храм Первого Пламени · Купеческий Хребет · Нижняя Узда · Угольная Кровь · форт Тяжёлая Лапа.  
 Локи: [`state`](canon-lock-2026-09-23-mq06-ridge-state.md) · [`geometry`](canon-lock-2026-09-23-mq06-ridge-geometry.md) · [`cities`](canon-lock-2026-09-23-mq06-ridge-cities.md) · [`names`](canon-lock-2026-09-23-mq06-ridge-city-names.md) · [`map`](canon-lock-2026-09-23-mq06-ridge-map.md).  
 Карта: [`../../world/locations/drakoniy-khrebet-map.md`](../../world/locations/drakoniy-khrebet-map.md).  
-Паспорт Пыли **W1:** [`../../world/locations/states/imperiya-zvezdnoy-pyli.md`](../../world/locations/states/imperiya-zvezdnoy-pyli.md) · лок [`canon-lock-2026-09-23-mq06-dust-state.md`](canon-lock-2026-09-23-mq06-dust-state.md).  
-**Дальше:** добивка имён + **карта Пыли** · с.2 сапог. Опрос: [`survey-mq06-dust-holes.md`](survey-mq06-dust-holes.md). Сессии 2 ещё нет: двери **B**, **C**.
+Паспорт Пыли **W1:** [`../../world/locations/states/imperiya-zvezdnoy-pyli.md`](../../world/locations/states/imperiya-zvezdnoy-pyli.md) · локи [`dust-state`](canon-lock-2026-09-23-mq06-dust-state.md) · [`holes`](canon-lock-2026-09-23-mq06-dust-holes.md).  
+Адмирал **Каэлен Вейл** · порт **Звёздный Причал** · с.2: [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md).  
+Карта **v2 на ревью:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
+Сессии 2 ещё нет: двери **B**, **C**.

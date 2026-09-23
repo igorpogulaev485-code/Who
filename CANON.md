@@ -52,7 +52,8 @@
 - Prep Гирмхельм: [`campaign/prep/locations/girmhelm/`](campaign/prep/locations/girmhelm/)
 - [Империя Драконьего Хребта](world/locations/states/imperiya-drakonyego-khrebta.md) (столица **Город Пламени**; триумвират + Зариакс)
 - [Карта Хребта](world/locations/drakoniy-khrebet-map.md) → [`assets/maps/drakoniy-khrebet-map-locked.jpg`](assets/maps/drakoniy-khrebet-map-locked.jpg) **(LOCKED v12c)**
-- [Империя Звёздной Пыли](world/locations/states/imperiya-zvezdnoy-pyli.md) (столица **Небесный Форт**; Кайрос; парящая земля)
+- [Империя Звёздной Пыли](world/locations/states/imperiya-zvezdnoy-pyli.md) (столица **Небесный Форт**; Кайрос; **Каэлен Вейл**; парящая земля)
+- [Карта Пыли](world/locations/zvezdnaya-pyl-map.md) → [`assets/maps/zvezdnaya-pyl-map-v2.jpg`](assets/maps/zvezdnaya-pyl-map-v2.jpg) *(v2 на ревью)*
 - [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)
