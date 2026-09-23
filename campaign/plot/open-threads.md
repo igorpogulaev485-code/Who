@@ -72,6 +72,8 @@ source: gm-lock-round2 + player-briefs
 Камень северной линии: [`../prep/locations/lunnyy-most/quests/q-portal-stone-north.md`](../prep/locations/lunnyy-most/quests/q-portal-stone-north.md)  
 Лагерь: [`../prep/locations/lager-tumannogo-schita/`](../prep/locations/lager-tumannogo-schita/)  
 Лок ответов: [`canon-lock-2026-09-22-mq06-ice-holes.md`](canon-lock-2026-09-22-mq06-ice-holes.md)  
-**Дальше:** волна 1 лок [`canon-lock-2026-09-23-mq06-ice-city-ladder.md`](canon-lock-2026-09-23-mq06-ice-city-ladder.md) (Гирмхельм · тан · доска · Лианэя ~с.6 поле боя).  
-**Опрос w2 (Союз + карта):** [`survey-mq06-ice-union-w2.md`](survey-mq06-ice-union-w2.md) · план [`../prep/orchestrator/mq06-ice-city-ladder-plan.md`](../prep/orchestrator/mq06-ice-city-ladder-plan.md)  
+**Дальше:** лок w1+w2 — столица **Гирмхельм**, власть = **Совет старейшин**, фронт **зарождается** у **Старого Разлома**, карта v1 на ревью.  
+Паспорт: [`../../world/locations/states/ledyanoy-soyuz.md`](../../world/locations/states/ledyanoy-soyuz.md) · карта: [`../../world/locations/ledyanoy-soyuz-map.md`](../../world/locations/ledyanoy-soyuz-map.md)  
+Локи: [`canon-lock-2026-09-23-mq06-ice-city-ladder.md`](canon-lock-2026-09-23-mq06-ice-city-ladder.md) · [`canon-lock-2026-09-23-mq06-ice-union-w2.md`](canon-lock-2026-09-23-mq06-ice-union-w2.md)  
+План: [`../prep/orchestrator/mq06-ice-city-ladder-plan.md`](../prep/orchestrator/mq06-ice-city-ladder-plan.md) — жду ок карты + имя воентана → playbook/доска.  
 Сессии 2 ещё нет: двери **B**, **C**.

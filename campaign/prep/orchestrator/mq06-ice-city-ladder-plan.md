@@ -1,49 +1,48 @@
 ---
 id: orch-mq06-ice-city-ladder
 title: "План — mq-06 льды: город Союза + лестница к ~с.6"
-status: blocked-survey
-source: gm-2026-09-23 + lock wave1
+status: wait-ok
+source: gm-2026-09-23 + lock w1 + lock w2
 ---
 
 # План — город Ледяного Союза + лестница к Лианэе
 
 ## Цель
 
-После с.2 (Туманный Щит) → эскорт в **столицу Гирмхельм** → гос.доска квестов → Лианэя ~с.6 на поле боя (+ оффер = выбор партии).
+После с.2 (Туманный Щит) → эскорт в **Гирмхельм** → доска квестов Совета → Лианэя ~с.6 на поле у зарождающегося фронта.
 
 ## Шаг 0 — canon
 
-- Лок волны 1: [`../../plot/canon-lock-2026-09-23-mq06-ice-city-ladder.md`](../../plot/canon-lock-2026-09-23-mq06-ice-city-ladder.md)
-- Дырка: паспорт Ледяного Союза + **карта государства** (мастер явно) → волна 2
+- Лок w1: [`../../plot/canon-lock-2026-09-23-mq06-ice-city-ladder.md`](../../plot/canon-lock-2026-09-23-mq06-ice-city-ladder.md)
+- Лок w2: [`../../plot/canon-lock-2026-09-23-mq06-ice-union-w2.md`](../../plot/canon-lock-2026-09-23-mq06-ice-union-w2.md)
+- Власть: **Совет старейшин** (полисы → Союз); воентан нанимает
+- Фронт: **зарождается** у **Старого Разлома**, ещё не двинулся
+- Карта v1 готова — **ждём ок / правки**
 
-## Маршрут (после волны 2 + ok)
+## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
-| 0 | опрос w2 | Союз + карта + власть/фронт/Разлом | blocked-survey |
-| 1 | echo-dawn-state | паспорт `ledyanoy-soyuz` (W1→W2) | blocked-survey |
-| 2 | карта | state-map Ледяного Союза (как Лес) | blocked-survey |
-| 3 | echo-dawn-location | playbook Гирмхельма | blocked-survey |
-| 4 | echo-dawn-quest-main / side | доска миссий + spine к с.6 | blocked-survey |
+| 0 | опрос w2 | Союз + карта | **done** |
+| 1 | echo-dawn-state | паспорт `ledyanoy-soyuz` | **done** (W2; имена воентана — выбрать) |
+| 2 | карта | state-map v1 | **wait-ok** (ревью) |
+| 3 | echo-dawn-location | playbook Гирмхельма | wait-ok |
+| 4 | quest | доска миссий (после карты) | wait-ok |
 
-## Опросы
+## Файлы
 
-- Волна 1 — **лок**  
-- Волна 2: [`../../plot/survey-mq06-ice-union-w2.md`](../../plot/survey-mq06-ice-union-w2.md) · litterbox в файле
+- [x] паспорт [`../../world/locations/states/ledyanoy-soyuz.md`](../../world/locations/states/ledyanoy-soyuz.md)
+- [x] карта v1 [`../../assets/maps/ledyanoy-soyuz-map-v1.jpg`](../../assets/maps/ledyanoy-soyuz-map-v1.jpg)
+- [ ] лок карты после «лочим»
+- [ ] playbook Гирмхельма
+- [ ] доска 4–6 миссий
 
-## Файлы-результаты (после w2 + ok)
+## Нужно от мастера
 
-- [ ] `canon-lock-*-mq06-ice-union-w2.md`
-- [ ] `world/locations/states/ledyanoy-soyuz.md`
-- [ ] карта `assets/maps/…` + `*-map.md`
-- [ ] playbook Гирмхельма + доска квестов
-
-## Не делаем сейчас
-
-- Playbook / доска до ответов w2  
-- Полный флип-spine «за зло»  
-- Меч/сапоги
+1. Ок / правки **карты v1** и списка **8 регионов**  
+2. Выбор имени **воентана** (Хальгрим / Дунгар / Брига / своё)  
+3. Затем — playbook + доска
 
 ---
 
-**Жду ответы волны 2.**
+**Жду ok по карте и имени воентана.**
