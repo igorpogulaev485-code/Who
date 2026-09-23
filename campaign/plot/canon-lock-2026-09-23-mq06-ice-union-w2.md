@@ -36,9 +36,9 @@ depends: canon-lock-2026-09-23-mq06-ice-city-ladder.md
 |---|---|---|
 | 1 | **Гирмхельм** | Столица; зал Совета старейшин |
 | 2 | **Храм Ледяного Сердца** | Сакрал / Фростара; ~полдня от столицы |
-| 3 | **Камнерог** | Крупный горный полис (З) — *имя proposal* |
-| 4 | **Кузня Мороза** | Крупный кузнечный полис — *имя proposal* |
-| 5 | **Ледопад** | Крупный полис у ледопадов / СВ — *имя proposal* |
+| 3 | **Камнерог** | Крупный горный полис (З) — **канон** |
+| 4 | **Кузня Мороза** | Крупный кузнечный полис — **канон** |
+| 5 | **Ледопад** | Крупный полис у ледопадов / СВ — **канон** |
 | 6 | **Туманный Щит** | Южная кромка; лагерь / эскорт с.2→с.3 |
 | 7 | **Старый Разлом** | **Верхние ледники (С)**; якорь Разлома + сбор нежити (ещё не пошла) |
 | 8 | **Ледники Нориэля** | Северная стена; **Логово Нориэля** |
@@ -51,29 +51,29 @@ depends: canon-lock-2026-09-23-mq06-ice-city-ladder.md
 | | |
 |---|---|
 | Концепт | **ок** («пушка / имба») |
-| Города | +**2–3 крупных** полиса → proposal: Камнерог · Кузня Мороза · Ледопад |
+| Города | +**2–3 крупных** полиса → **канон**: Камнерог · Кузня Мороза · Ледопад |
 | Старый Разлом | только в **верхних ледниках** (не юг); нежить собирается там |
 
-## Предложение имён воентана (k_propose) — выбрать / заменить
+## Воентан (k_propose) — **лок**
 
-1. **Хальгрим Камнебород**  
-2. **Дунгар Седощит**  
-3. **Брига Морозная Кровь**
+**Дунгар Седощит** ([`canon-lock-2026-09-23-dungar-polisy.md`](canon-lock-2026-09-23-dungar-polisy.md)).  
+Отклонены: Хальгрим Камнебород · Брига Морозная Кровь.
 
-## Карта v5 (на ревью, не locked)
+## Карта v5 → **LOCKED** (см. full-map lock)
 
 | Файл | Роль |
 |---|---|
-| [`../../assets/maps/ledyanoy-soyuz-map-v5-base.jpg`](../../assets/maps/ledyanoy-soyuz-map-v5-base.jpg) | база без текста |
-| [`../../assets/maps/ledyanoy-soyuz-map-v5.jpg`](../../assets/maps/ledyanoy-soyuz-map-v5.jpg) | с подписями |
-| [`../../assets/maps/ledyanoy-soyuz-map.jpg`](../../assets/maps/ledyanoy-soyuz-map.jpg) | рабочая (= v5) |
+| [`../../assets/maps/ledyanoy-soyuz-map-v5-base.jpg`](../../assets/maps/ledyanoy-soyuz-map-v5-base.jpg) | база без текста → base-locked |
+| [`../../assets/maps/ledyanoy-soyuz-map-v5.jpg`](../../assets/maps/ledyanoy-soyuz-map-v5.jpg) | с подписями → map-locked |
+| [`../../assets/maps/ledyanoy-soyuz-map.jpg`](../../assets/maps/ledyanoy-soyuz-map.jpg) | рабочая (= locked) |
 | Архив | v1–v4 |
 | Бриф | [`../prep/locations/ledyanoy-soyuz-map-brief.md`](../prep/locations/ledyanoy-soyuz-map-brief.md) |
 | Wiki | [`../../world/locations/ledyanoy-soyuz-map.md`](../../world/locations/ledyanoy-soyuz-map.md) |
+| Лок карты | [`canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md`](canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md) |
 
 Правило подписей v5: **всегда над объектом**. Нежить только у Старого Разлома.
 
-**Жду ок / правки имён городов + воентана** → лок карты → playbook Гирмхельма + доска.
+**Закрыто:** воентан **Дунгар** + полисы канон → playbook Гирмхельма + доска ([`canon-lock-2026-09-23-dungar-polisy.md`](canon-lock-2026-09-23-dungar-polisy.md)).
 
 ## Файлы канона
 

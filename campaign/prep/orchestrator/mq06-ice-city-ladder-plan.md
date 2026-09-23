@@ -1,8 +1,8 @@
 ---
 id: orch-mq06-ice-city-ladder
 title: "План — mq-06 льды: город Союза + лестница к ~с.6"
-status: wait-ok
-source: gm-2026-09-23 + map lock v5
+status: done-core
+source: gm-2026-09-23 + map lock v5 + dungar
 ---
 
 # План — город Ледяного Союза + лестница к Лианэе
@@ -15,20 +15,27 @@ source: gm-2026-09-23 + map lock v5
 
 - [x] Лок w1+w2  
 - [x] Паспорт `ledyanoy-soyuz`  
-- [x] Карта государства **LOCKED** (v5) — [`../../plot/canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md`](../../plot/canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md)
+- [x] Карта государства **LOCKED** (v5)  
+- [x] Воентан **Дунгар Седощит** + полисы канон  
+- [x] Playbook Гирмхельма  
+- [x] Доска q-girm-01…06  
 
-## Дальше (после короткого ok)
+## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
-| 1 | — | выбрать **воентана** + ок имён полисов | wait-ok |
-| 2 | echo-dawn-location | playbook **Гирмхельма** | wait-ok |
-| 3 | quest | доска 4–6 миссий | wait-ok |
+| 1 | — | воентан + полисы | **done** |
+| 2 | echo-dawn-location | playbook Гирмхельма | **done** |
+| 3 | quest-side | доска 6 миссий | **done** |
 
-## Нужно от мастера
+## Файлы
 
-1. Воентан: Хальгрим / Дунгар / Брига / своё  
-2. Полисы Камнерог · Кузня Мороза · Ледопад — ок или переименовать  
-3. Ok → пишем playbook + доску
+- [`../../plot/canon-lock-2026-09-23-dungar-polisy.md`](../../plot/canon-lock-2026-09-23-dungar-polisy.md)  
+- [`../locations/girmhelm/`](../locations/girmhelm/)  
+- Паспорт: [`../../../world/locations/states/ledyanoy-soyuz.md`](../../../world/locations/states/ledyanoy-soyuz.md)
 
-**Жду выбор воентана / имён** (карта уже залочена).
+## Не делаем (пока не спросит)
+
+- Полные playbook Камнерога / Кузни / Ледопада  
+- Скрипты сессий 3–6 по билетам  
+- Table-prep государства целиком  

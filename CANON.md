@@ -48,7 +48,8 @@
 - [Карта Ледяного Союза](world/locations/ledyanoy-soyuz-map.md) → [`assets/maps/ledyanoy-soyuz-map-locked.jpg`](assets/maps/ledyanoy-soyuz-map-locked.jpg) **(LOCKED)**
 - [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
 - [Государства мира](world/locations/states-overview.md)
-- [Ледяной Союз](world/locations/states/ledyanoy-soyuz.md) (столица **Гирмхельм**; Совет старейшин)
+- [Ледяной Союз](world/locations/states/ledyanoy-soyuz.md) (столица **Гирмхельм**; Совет; воентан **Дунгар Седощит**)
+- Prep Гирмхельм: [`campaign/prep/locations/girmhelm/`](campaign/prep/locations/girmhelm/)
 - [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)

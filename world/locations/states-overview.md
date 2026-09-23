@@ -19,8 +19,8 @@ map: assets/maps/world-map-echo-dawn.jpg
 
 ### Ледяной Союз
 Ледники, самый север материка. Дварфы, гномы, ледяные древние существа (+ великаны и прочий лёд D&D). Юг — Сильванарион; ЮВ — Теневая Долина; восток через океан — Ульфгард.  
-**Столица: Гирмхельм.** Власть — **Совет старейшин** (бывшие города-полисы).  
-Паспорт: [`states/ledyanoy-soyuz.md`](states/ledyanoy-soyuz.md) · карта **LOCKED**: [`ledyanoy-soyuz-map.md`](ledyanoy-soyuz-map.md)
+**Столица: Гирмхельм.** Власть — **Совет старейшин** (бывшие города-полисы). Воентан: **Дунгар Седощит**. Полисы: Камнерог · Кузня Мороза · Ледопад.  
+Паспорт: [`states/ledyanoy-soyuz.md`](states/ledyanoy-soyuz.md) · карта **LOCKED**: [`ledyanoy-soyuz-map.md`](ledyanoy-soyuz-map.md) · хаб: [`../../campaign/prep/locations/girmhelm/`](../../campaign/prep/locations/girmhelm/)
 
 ### Ульфгард
 Островное (3 крупных + 3 мелких острова). Дварфы, драконорождённые, калаштары, дженази.
