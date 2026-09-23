@@ -1,5 +1,14 @@
 ---
 title: Опрос — геометрия плана мёртвых (обзорная карта)
+status: answered
+date: 2026-09-23
+source: orch-dead-plane-map
+plan: ../prep/orchestrator/dead-plane-map-plan.md
+lock: canon-lock-2026-09-23-dead-plane-geometry.md
+---
+
+# Опрос — план мёртвых: геометрия
+
 **Статус: отвечено** → [`canon-lock-2026-09-23-dead-plane-geometry.md`](canon-lock-2026-09-23-dead-plane-geometry.md)
 
 ## Сводка ответов
