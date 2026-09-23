@@ -1,15 +1,19 @@
 ---
 title: Опрос — Империя Звёздной Пыли (паспорт + сапоги / с.2)
-status: survey
+status: answered
 date: 2026-09-23
 source: orch-mq06-triad-entry + echo-dawn-state
 depends:
   - canon-lock-2026-09-23-mq06-triad-entry.md
+lock: canon-lock-2026-09-23-mq06-dust-state.md
 ---
 
 # Опрос — Звёздная Пыль (государство → ветка сапог)
 
-**Зачем:** без паспорта империи с.2 «пойти за сапогами» висит в воздухе.  
+**Статус: отвечено** → [`canon-lock-2026-09-23-mq06-dust-state.md`](canon-lock-2026-09-23-mq06-dust-state.md) · паспорт [`../../world/locations/states/imperiya-zvezdnoy-pyli.md`](../../world/locations/states/imperiya-zvezdnoy-pyli.md)  
+Добивка: [`survey-mq06-dust-holes.md`](survey-mq06-dust-holes.md)
+
+**Зачем (архив):** без паспорта империи с.2 «пойти за сапогами» висит в воздухе.  
 Хребет / меч к с.2 **готов** (карта LOCKED v12c + скрипт). Дальше — Пыль.
 
 **Уже лок / hard canon:**

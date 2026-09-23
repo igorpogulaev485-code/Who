@@ -84,4 +84,5 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Столица **Город Пламени** (В-остров); **Пепельный Гребень** выше на том же острове; города: Звёздный Склон · Ночная Чешуя · Пепельный Строй · Кость Империи · Храм Первого Пламени · Купеческий Хребет · Нижняя Узда · Угольная Кровь · форт Тяжёлая Лапа.  
 Локи: [`state`](canon-lock-2026-09-23-mq06-ridge-state.md) · [`geometry`](canon-lock-2026-09-23-mq06-ridge-geometry.md) · [`cities`](canon-lock-2026-09-23-mq06-ridge-cities.md) · [`names`](canon-lock-2026-09-23-mq06-ridge-city-names.md) · [`map`](canon-lock-2026-09-23-mq06-ridge-map.md).  
 Карта: [`../../world/locations/drakoniy-khrebet-map.md`](../../world/locations/drakoniy-khrebet-map.md).  
-**Дальше:** паспорт **Пыли** — опрос [`survey-mq06-dust-state.md`](survey-mq06-dust-state.md). Сессии 2 ещё нет: двери **B**, **C**.
+Паспорт Пыли **W1:** [`../../world/locations/states/imperiya-zvezdnoy-pyli.md`](../../world/locations/states/imperiya-zvezdnoy-pyli.md) · лок [`canon-lock-2026-09-23-mq06-dust-state.md`](canon-lock-2026-09-23-mq06-dust-state.md).  
+**Дальше:** добивка имён + **карта Пыли** · с.2 сапог. Опрос: [`survey-mq06-dust-holes.md`](survey-mq06-dust-holes.md). Сессии 2 ещё нет: двери **B**, **C**.
