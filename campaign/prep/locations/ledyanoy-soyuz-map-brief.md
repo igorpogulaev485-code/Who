@@ -1,34 +1,26 @@
 ---
-title: "Ледяной Союз — бриф карты v1"
+title: "Ледяной Союз — бриф карты"
 status: prep
 date: 2026-09-23
-source: canon-lock-2026-09-23-mq06-ice-union-w2
+source: canon-lock-2026-09-23-mq06-ice-union-w2 + gm-feedback-v2
 world_map: assets/maps/world-map-echo-dawn.jpg
 borders_ref: assets/maps/ledyanoy-soyuz-borders-from-world.jpg
 ---
 
-# Бриф карты — Ледяной Союз v1
+# Бриф карты — Ледяной Союз
 
-## Лок мастера (w2)
+## Лок / правки
 
-- Полная карта сейчас (`e_full_now`)
-- Рельеф: **всё** — ледники + фьорды + плато + южный камень
-- Метки: полный набор; **Старый Разлом** отдельно; фронт **зарождается**, не марш
-- **Нориэль** на карте
-- Соседей не подписывать
+- Концепт v1 — **ок** мастера  
+- v2: **Старый Разлом** только в **верхних ледниках** + сбор нежити там  
+- v2: +3 крупных полиса (имена proposal)
 
-## Whitelist подписей (v1)
+## Whitelist подписей (v2)
 
-`Ледяной Союз` · `Гирмхельм` · `Храм Ледяного Сердца` · `Туманный Щит` · `Старый Разлом` · `Логово Нориэля` · `Восточные Фьорды` · `Южные Проходы` · `Плато Трещин`
-
-## Процесс
-
-1. GenerateImage → base **без текста**  
-2. DejaVu overlay → `ledyanoy-soyuz-map-v1.jpg`  
-3. Ждать ок / правки → locked
+`Ледяной Союз` · `Гирмхельм` · `Храм Ледяного Сердца` · `Камнерог` · `Снеговар` · `Ледопад` · `Туманный Щит` · `Старый Разлом` · `Логово Нориэля` · `Восточные Фьорды` · `Южные Проходы` · `Плато Трещин`
 
 ## Выход
 
-- `assets/maps/ledyanoy-soyuz-map-v1-base.jpg`  
-- `assets/maps/ledyanoy-soyuz-map-v1.jpg`  
-- `assets/maps/ledyanoy-soyuz-map.jpg`
+- `assets/maps/ledyanoy-soyuz-map-v2-base.jpg`  
+- `assets/maps/ledyanoy-soyuz-map-v2.jpg`  
+- `assets/maps/ledyanoy-soyuz-map.jpg` (= v2)
