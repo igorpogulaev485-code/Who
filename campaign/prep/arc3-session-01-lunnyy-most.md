@@ -90,11 +90,17 @@ share_url: https://chat.qwen.ai/s/1594818c-09f3-4713-957c-4a0402e2714b
 
 ## Визуал (общий для всех веток)
 
-Промпты + кадры: [`assets/prompts/lunnyy-most-arc3-s1.md`](../../assets/prompts/lunnyy-most-arc3-s1.md)
+**Референсы города «до фестиваля»** (сессия 1 кампании):  
+[`assets/images/lunnyy-most-festival-ref/`](../../assets/images/lunnyy-most-festival-ref/)
+
+**Кинематографичная серия похорон** (тот же стиль, тон поминок):  
+[`assets/prompts/lunnyy-most-arc3-s1.md`](../../assets/prompts/lunnyy-most-arc3-s1.md)
 
 | Кадр | Файл | Биты сессии |
 |---|---|---|
-| Город в поминки | [`lunnyy-most-mourning-wide.png`](../../assets/images/lunnyy-most-mourning-wide.png) | карта скорби / establishing |
-| Утро в Кузнице | [`lunnyy-most-kuznitsa-dawn.png`](../../assets/images/lunnyy-most-kuznitsa-dawn.png) | 1.0 старт |
-| Центральный помост | [`lunnyy-most-funeral-plaza.png`](../../assets/images/lunnyy-most-funeral-plaza.png) | 1.2 Селенис + Тандил |
-| Низ у Разлома | [`lunnyy-most-rift-barricades.png`](../../assets/images/lunnyy-most-rift-barricades.png) | очаг B |
+| A Establishing | [`funeral-a-city-establishing.png`](../../assets/images/funeral-a-city-establishing.png) | карта скорби |
+| B Район Пришельцев | [`funeral-b-outsiders-procession.png`](../../assets/images/funeral-b-outsiders-procession.png) | процессия / очаг C–D |
+| C Пепел шатра | [`funeral-c-empty-tent-ash.png`](../../assets/images/funeral-c-empty-tent-ash.png) | плацдарм / пустой шатёр |
+| D Верхняя авеню | [`funeral-d-upper-avenue.png`](../../assets/images/funeral-d-upper-avenue.png) | путь к центру |
+| E Центральный помост | [`funeral-e-central-platform.png`](../../assets/images/funeral-e-central-platform.png) | 1.2 Селенис + Тандил |
+| F Мост Предков | [`funeral-f-ancestors-bridge.png`](../../assets/images/funeral-f-ancestors-bridge.png) | очаг E / делегации |
