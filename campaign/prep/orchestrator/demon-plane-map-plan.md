@@ -1,9 +1,10 @@
 ---
 id: orch-demon-plane-map
 title: "План — обзорная карта плана демонов (без отрисовки)"
-status: blocked-survey
+status: in-progress
 source: gm-2026-09-23 («пошли к плану демонов; пока без отрисовок; сначала план»)
 gm_ok_survey_first: "2026-09-23 — начнем с опросника"
+gm_answers: "2026-09-23 — survey answers → geometry lock"
 parent: plane-maps-plan.md
 ---
 
@@ -11,18 +12,22 @@ parent: plane-maps-plan.md
 
 ## Цель
 
-Наметить **как** собрать обзор плана демонов. Это **не** вторая карта Маяка: по масштабу ближе к **миру/государству**.  
-**Сейчас:** опрос геометрии **открыт** — без отрисовки.
+Обзорный **атлас кругов-государств** плана демонов (Разлом = вход с Материала).  
+**Сейчас:** опрос **закрыт** · лок геометрии · gazetteer draft · ждём ok на **имена кругов**.
 
-## Опрос (фаза 2 — идём сейчас)
+## Статус фаз
 
-- MD: [`../../plot/survey-demon-plane-geometry-v1.md`](../../plot/survey-demon-plane-geometry-v1.md)  
-- HTML: [`../../plot/survey-demon-plane-geometry-v1.html`](../../plot/survey-demon-plane-geometry-v1.html)  
-- Safari: https://litter.catbox.moe/zfhpie.html  
-- Включает mq-02 wait-ok (ворота / каркас / носители / вставки)  
-- **Ждём ответы** → лок → gazetteer → бриф → картинка  
+| Фаза | Статус |
+|---:|---|
+| 0 план | done |
+| 2 опрос | **done** → [`canon-lock-2026-09-23-demon-plane-geometry.md`](../../plot/canon-lock-2026-09-23-demon-plane-geometry.md) |
+| 1 gazetteer | **draft** [`../locations/demon-plane-gazetteer.md`](../locations/demon-plane-gazetteer.md) — ok имён |
+| 3 лок имён | wait |
+| 4 бриф + картинка | wait |
 
-*(Gazetteer сдвинут **после** опроса — по ok мастера.)*
+## Ключ лока (коротко)
+
+Круги плана ≈ страны · ворота между ними · Маяк = точка на круге 1 · player = имена кругов + проходы · Филактерий = свой круг · мёртвые не на карте · mq-02 ok.
 
 ## Шаг 0 — что уже есть (не с нуля)
 

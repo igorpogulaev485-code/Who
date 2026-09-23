@@ -110,5 +110,6 @@ defaults_note: "Опрос приоритетов без ответов → во
 **Старт всех направлений:** похороны (сессия 1).  
 Ветка Разлома (spine): [`quests/mq-01-razlom-spine-20.md`](quests/mq-01-razlom-spine-20.md) *(ok)*.  
 Полный скрипт сессий 1 + 2(Разлом): [`quests/mq-01-sessions-1-2-detail.md`](quests/mq-01-sessions-1-2-detail.md).  
-mq-02 стелс / круг 2: [`quests/mq-02-stealth-spine-20.md`](quests/mq-02-stealth-spine-20.md) *(wait-ok)* · вставки: [`quests/mq-02-random-inserts.md`](quests/mq-02-random-inserts.md).  
+mq-02 стелс / круг 2 плана: [`quests/mq-02-stealth-spine-20.md`](quests/mq-02-stealth-spine-20.md) *(ok 2026-09-23)* · вставки: [`quests/mq-02-random-inserts.md`](quests/mq-02-random-inserts.md).  
+Атлас плана: [`../../../plot/canon-lock-2026-09-23-demon-plane-geometry.md`](../../../plot/canon-lock-2026-09-23-demon-plane-geometry.md).  
 mq-04 план мёртвых: [`quests/mq-04-dead-spine-20.md`](quests/mq-04-dead-spine-20.md) · [`mq-04-seryy-prichal.md`](quests/mq-04-seryy-prichal.md) · [`mq-04-random-inserts.md`](quests/mq-04-random-inserts.md).
