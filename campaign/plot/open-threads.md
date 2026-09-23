@@ -88,4 +88,5 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Адмирал **Каэлен Вейл** · порт **Звёздный Причал** · с.2: [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md).  
 Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
 Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
-[`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).
+[`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
+**Карты планов:** Маяк душ **draft v1** ([`mayak-dush/map.md`](../prep/locations/mayak-dush/map.md)) — ждём ok; обзор демонов / мёртвых ещё нет. План: [`../prep/orchestrator/plane-maps-plan.md`](../prep/orchestrator/plane-maps-plan.md).
