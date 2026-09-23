@@ -2,7 +2,7 @@
 id: orch-mq06-ice-city-ladder
 title: "План — mq-06 льды: город Союза + лестница к ~с.6"
 status: wait-ok
-source: gm-2026-09-23 + lock w1 + lock w2
+source: gm-2026-09-23 + lock w1 + lock w2 + map v4
 ---
 
 # План — город Ледяного Союза + лестница к Лианэе
@@ -13,37 +13,34 @@ source: gm-2026-09-23 + lock w1 + lock w2
 
 ## Шаг 0 — canon
 
-- Лок w1: [`../../plot/canon-lock-2026-09-23-mq06-ice-city-ladder.md`](../../plot/canon-lock-2026-09-23-mq06-ice-city-ladder.md)
-- Лок w2: [`../../plot/canon-lock-2026-09-23-mq06-ice-union-w2.md`](../../plot/canon-lock-2026-09-23-mq06-ice-union-w2.md)
-- Власть: **Совет старейшин** (полисы → Союз); воентан нанимает
-- Фронт: **зарождается** у **Старого Разлома**, ещё не двинулся
-- Карта **v2** готова (Разлом на севере + 3 полиса) — **ждём ок / правки имён**
+- Лок w1+w2: Совет старейшин · Гирмхельм · Старый Разлом (верхние ледники)
+- Карта **v4** на ревью (вайб v1 · снежнее · **Кузня Мороза** · Разлом на севере)
 
 ## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
 | 0 | опрос w2 | Союз + карта | **done** |
-| 1 | echo-dawn-state | паспорт `ledyanoy-soyuz` | **done** (имена воентана/полисов — выбрать) |
-| 2 | карта | state-map **v2** | **wait-ok** |
+| 1 | echo-dawn-state | паспорт | **done** |
+| 2 | карта | **v4** | **wait-ok** |
 | 3 | echo-dawn-location | playbook Гирмхельма | wait-ok |
-| 4 | quest | доска миссий (после карты) | wait-ok |
+| 4 | quest | доска миссий | wait-ok |
 
 ## Файлы
 
-- [x] паспорт [`../../world/locations/states/ledyanoy-soyuz.md`](../../world/locations/states/ledyanoy-soyuz.md)
-- [x] карта v2 [`../../assets/maps/ledyanoy-soyuz-map-v2.jpg`](../../assets/maps/ledyanoy-soyuz-map-v2.jpg)
-- [ ] лок карты после «лочим»
+- [x] паспорт `world/locations/states/ledyanoy-soyuz.md`
+- [x] карта v4 `assets/maps/ledyanoy-soyuz-map-v4.jpg`
+- [ ] лок карты
 - [ ] playbook Гирмхельма
-- [ ] доска 4–6 миссий
+- [ ] доска
 
 ## Нужно от мастера
 
-1. Ок / правки **карты v2**  
-2. Ок имён полисов (**Камнерог / Кузня Мороза / Ледопад**) или свои  
-3. Выбор **воентана**  
-4. Затем — playbook + доска
+1. Ок / правки **карты v4**  
+2. Ок имён (**Камнерог / Кузня Мороза / Ледопад**)  
+3. Воентан  
+4. «Лочим» → playbook + доска
 
 ---
 
-**Жду ok по карте v2 / именам.**
+**Жду ok по v4.**

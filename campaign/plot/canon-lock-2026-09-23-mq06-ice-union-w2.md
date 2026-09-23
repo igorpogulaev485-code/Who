@@ -60,16 +60,18 @@ depends: canon-lock-2026-09-23-mq06-ice-city-ladder.md
 2. **Дунгар Седощит**  
 3. **Брига Морозная Кровь**
 
-## Карта v2 (на ревью, не locked)
+## Карта v5 (на ревью, не locked)
 
 | Файл | Роль |
 |---|---|
-| [`../../assets/maps/ledyanoy-soyuz-map-v2-base.jpg`](../../assets/maps/ledyanoy-soyuz-map-v2-base.jpg) | база без текста |
-| [`../../assets/maps/ledyanoy-soyuz-map-v2.jpg`](../../assets/maps/ledyanoy-soyuz-map-v2.jpg) | с подписями |
-| [`../../assets/maps/ledyanoy-soyuz-map.jpg`](../../assets/maps/ledyanoy-soyuz-map.jpg) | рабочая (= v2) |
-| v1 (архив) | `…-map-v1.jpg` / `…-v1-base.jpg` |
+| [`../../assets/maps/ledyanoy-soyuz-map-v5-base.jpg`](../../assets/maps/ledyanoy-soyuz-map-v5-base.jpg) | база без текста |
+| [`../../assets/maps/ledyanoy-soyuz-map-v5.jpg`](../../assets/maps/ledyanoy-soyuz-map-v5.jpg) | с подписями |
+| [`../../assets/maps/ledyanoy-soyuz-map.jpg`](../../assets/maps/ledyanoy-soyuz-map.jpg) | рабочая (= v5) |
+| Архив | v1–v4 |
 | Бриф | [`../prep/locations/ledyanoy-soyuz-map-brief.md`](../prep/locations/ledyanoy-soyuz-map-brief.md) |
 | Wiki | [`../../world/locations/ledyanoy-soyuz-map.md`](../../world/locations/ledyanoy-soyuz-map.md) |
+
+Правило подписей v5: **всегда над объектом**. Нежить только у Старого Разлома.
 
 **Жду ок / правки имён городов + воентана** → лок карты → playbook Гирмхельма + доска.
 
