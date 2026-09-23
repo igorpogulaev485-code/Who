@@ -48,4 +48,4 @@ depends:
 
 ## Дальше
 
-Карта v7 → ревью мастера.
+Карта **v7** готова к ревью: [`../../assets/maps/drakoniy-khrebet-map-v7.jpg`](../../assets/maps/drakoniy-khrebet-map-v7.jpg).
