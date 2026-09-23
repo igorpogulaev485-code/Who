@@ -87,3 +87,8 @@ share_url: https://chat.qwen.ai/s/1594818c-09f3-4713-957c-4a0402e2714b
 Есть какие то вопросы по локациям?
 
 Полный разбор сессии и дорожная карта арки — [`drafts/imports/qwen-ark3-vnutri-razloma.md`](../../drafts/imports/qwen-ark3-vnutri-razloma.md)
+
+## Нить Маэстро (арка 3)
+
+Маэстро **мёртв**. Параллельная нить воскрешения: дневник (не изучен) · план мёртвых · дочь **[Милана](../../world/npcs/milana.md)** (не «Марина»).  
+Может проявиться на похоронах / через дневник / сама выйти на партию — см. маршруты I и Q в [`../plot/arc3-routes-living-world.md`](../plot/arc3-routes-living-world.md).
