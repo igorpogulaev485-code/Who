@@ -89,4 +89,4 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
 Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
 [`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
-**Карты планов:** Маяк **LOCKED v4**. Атлас демонов **LOCKED v24**. План мёртвых — геометрия **LOCKED** (острова = **государства**; Причал = город-микроточка); имена 5 государств draft — [`../prep/locations/dead-plane-gazetteer.md`](../prep/locations/dead-plane-gazetteer.md) · ждём ok.
+**Карты планов:** Маяк **LOCKED v4**. Атлас демонов **LOCKED v24**. План мёртвых — геометрия **LOCKED** (острова = **государства** → потом карты государств → города; Причал = город ⊂ #1); опрос имён [`survey-dead-plane-state-names-v1.md`](survey-dead-plane-state-names-v1.md) · gazetteer [`../prep/locations/dead-plane-gazetteer.md`](../prep/locations/dead-plane-gazetteer.md).

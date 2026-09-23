@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опрос — имена государств плана мёртвых</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #8a9aab; --accent-press: #6b7c8f; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #4b5563; --accent-press: #374151;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  .rec { font-size: 0.8rem; color: var(--accent); margin: -4px 0 8px; }
+  select, textarea {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опрос — имена государств плана мёртвых</h1>
+  <p class="lead">Остров = государство. Города (Серый Причал) — внутри, позже. ★ = рекомендация. Выбери → «Скопировать» → в чат.</p>
+  <div class="locked"><b>Лок:</b> 5 государств-островов в пепельном море · переправы · Причал = город-микроточка во #1 · буря Кардиана не государство · демонов на карте нет.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Свои имена пятёрки, порядок цепи, табу. Или «бери все ★».</p>
+    <textarea id="freeform" rows="5" placeholder="note=…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+<div class="footer">
+  <div class="footer-inner">
+    <button type="button" class="secondary" id="btnLitter">Litterbox ответов</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано</div>
+<script>
+const STORAGE = "echo-dawn-dead-plane-state-names-v1";
+const QUESTIONS = [
+  { id:"a", section:"A · Государство #1 (вход)", title:"Имя государства, внутри которого город Серый Причал?",
+    ctx:"Причал ≠ имя государства на обзоре — только микроточка города.",
+    rec:"★ Берег Памяти",
+    options:[
+      {v:"a_bereg",t:"★ Берег Памяти"},
+      {v:"a_zol",t:"Зольная Волость"},
+      {v:"a_predel",t:"Именной Предел"},
+      {v:"a_reid",t:"Угасший Рейд"},
+      {v:"a_other",t:"Своё → ниже"}
+    ]},
+  { id:"b", section:"B · Государство #2", title:"Что такое «Край» на цепи?",
+    ctx:"Spine: Причал (город) → Край → даль.",
+    rec:"★ Край = отдельное государство #2",
+    options:[
+      {v:"b_kray",t:"★ Край = отдельное государство #2"},
+      {v:"b_inside",t:"Край = район/берег внутри #1 (не гос-во)"},
+      {v:"b_rename",t:"Отдельное гос-во, другое имя → ниже"},
+      {v:"b_other",t:"Своё → ниже"}
+    ]},
+  { id:"c", section:"C · Государство #3", title:"Имя третьего государства-острова?",
+    rec:"★ Молчаливая Коса",
+    options:[
+      {v:"c_kosa",t:"★ Молчаливая Коса"},
+      {v:"c_reys",t:"Пепельный Рейс"},
+      {v:"c_mol",t:"Молчаливый Пролив"},
+      {v:"c_skip",t:"Без сильной подписи #3 на v1"},
+      {v:"c_other",t:"Своё → ниже"}
+    ]},
+  { id:"d", section:"D · #4 Нижние Дворы", title:"Имя государства #4?",
+    options:[
+      {v:"d_ok",t:"★ Оставить Нижние Дворы"},
+      {v:"d_rename",t:"Переименовать → ниже"},
+      {v:"d_other",t:"Своё → ниже"}
+    ]},
+  { id:"e", section:"E · #5 Второй Берег", title:"Имя государства #5?",
+    options:[
+      {v:"e_ok",t:"★ Оставить Второй Берег"},
+      {v:"e_rename",t:"Переименовать → ниже"},
+      {v:"e_other",t:"Своё → ниже"}
+    ]},
+  { id:"f", section:"F · Пакет", title:"После имён — сразу бриф + отрисовка атласа?",
+    options:[
+      {v:"f_pack",t:"★ Бери ★ по A–E → рисуем"},
+      {v:"f_edit",t:"Правки в заметке, потом рисуем"},
+      {v:"f_other",t:"Своё → ниже"}
+    ]}
+];
+function bySection(list){const m=new Map();list.forEach(q=>{if(!m.has(q.section))m.set(q.section,[]);m.get(q.section).push(q);});return m;}
+function showNote(v){return (v||"").endsWith("_other")||v==="b_rename"||v==="d_rename"||v==="e_rename"||v==="f_edit";}
+function render(){
+  const root=document.getElementById("sections");root.innerHTML="";
+  bySection(QUESTIONS).forEach((qs,section)=>{
+    const sec=document.createElement("section");sec.innerHTML=`<h2>${section}</h2>`;
+    qs.forEach(q=>{
+      const div=document.createElement("div");div.className="q";
+      const opts=q.options.map(o=>`<option value="${o.v}">${o.t}</option>`).join("");
+      div.innerHTML=`<span class="title">${q.title}</span>${q.ctx?`<div class="ctx">${q.ctx}</div>`:""}${q.rec?`<p class="rec">${q.rec}</p>`:""}<select data-q="${q.id}"><option value="">— выбери —</option>${opts}</select><textarea class="note" data-note="${q.id}" rows="3" placeholder="Уточнение…"></textarea>`;
+      sec.appendChild(div);
+    });
+    root.appendChild(sec);
+  });
+  root.querySelectorAll("select").forEach(sel=>{
+    sel.addEventListener("change",()=>{
+      const note=root.querySelector(`textarea[data-note="${sel.dataset.q}"]`);
+      if(note) note.classList.toggle("show", showNote(sel.value));
+      persist();updateProgress();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach(t=>t.addEventListener("input",persist));
+  document.getElementById("freeform").addEventListener("input",persist);
+}
+function collect(){
+  const lines=["survey-dead-plane-state-names-v1"];
+  QUESTIONS.forEach(q=>{
+    const sel=document.querySelector(`select[data-q="${q.id}"]`);
+    const note=document.querySelector(`textarea[data-note="${q.id}"]`);
+    lines.push(`${q.id}=${sel?.value||"—"}`);
+    if(note&&note.value.trim()) lines.push(`${q.id}_note=${note.value.trim()}`);
+  });
+  lines.push("note="+(document.getElementById("freeform").value.trim()||"—"));
+  return lines.join("\n");
+}
+function persist(){
+  const answers={};
+  QUESTIONS.forEach(q=>{
+    const sel=document.querySelector(`select[data-q="${q.id}"]`);
+    const note=document.querySelector(`textarea[data-note="${q.id}"]`);
+    answers[q.id]={v:sel?.value||"",note:note?.value||""};
+  });
+  localStorage.setItem(STORAGE,JSON.stringify({answers,free:document.getElementById("freeform").value}));
+}
+function restore(){
+  try{
+    const data=JSON.parse(localStorage.getItem(STORAGE)||"null"); if(!data) return;
+    QUESTIONS.forEach(q=>{
+      const a=data.answers?.[q.id]; if(!a) return;
+      const sel=document.querySelector(`select[data-q="${q.id}"]`);
+      const note=document.querySelector(`textarea[data-note="${q.id}"]`);
+      if(sel) sel.value=a.v||"";
+      if(note){note.value=a.note||"";note.classList.toggle("show",showNote(a.v));}
+    });
+    if(data.free) document.getElementById("freeform").value=data.free;
+  }catch(_){}
+  updateProgress();
+}
+function updateProgress(){
+  let done=0; QUESTIONS.forEach(q=>{const sel=document.querySelector(`select[data-q="${q.id}"]`); if(sel&&sel.value) done++;});
+  document.getElementById("count").textContent=`${done} / ${QUESTIONS.length}`;
+  document.getElementById("bar").style.width=`${(done/QUESTIONS.length)*100}%`;
+}
+function toast(msg){const t=document.getElementById("toast");t.textContent=msg;t.style.display="block";setTimeout(()=>t.style.display="none",1600);}
+async function copyOut(){
+  const text=collect(); const out=document.getElementById("out");
+  out.textContent=text; out.classList.add("show");
+  try{ await navigator.clipboard.writeText(text); toast("Скопировано"); }
+  catch(_){ toast("Скопируй из блока ниже"); }
+}
+async function litterbox(){
+  const text=collect();
+  const blob=new Blob([text],{type:"text/plain"});
+  const fd=new FormData(); fd.append("reqtype","fileupload"); fd.append("time","72h"); fd.append("fileToUpload",blob,"dead-plane-state-names.txt");
+  try{
+    const res=await fetch("https://litterbox.catbox.moe/resources/internals/api.php",{method:"POST",body:fd});
+    const url=await res.text();
+    const out=document.getElementById("out"); out.textContent=url.trim()+"\n\n"+text; out.classList.add("show");
+    try{ await navigator.clipboard.writeText(url.trim()); toast("Ссылка скопирована"); }catch(_){ toast("Ссылка ниже"); }
+  }catch(e){ toast("Litterbox недоступен — скопируй текст"); copyOut(); }
+}
+document.getElementById("btnCopy").addEventListener("click",copyOut);
+document.getElementById("btnLitter").addEventListener("click",litterbox);
+render(); restore(); updateProgress();
+</script>
+</body>
+</html>
