@@ -34,11 +34,11 @@ title: "2 · Сессия 1 — Похороны"
 
 ### 1.0 — Утро в приюте
 
-![Утро в Кузнице Фиалки](../../../../assets/images/locations/loc-h1-kuznitsa-dawn.png)
+![Утро в Кузнице Фиалки](../media/locations/loc-h1-kuznitsa-dawn.png)
 
 > **Кадр:** Утро в Кузнице Фиалки
 
-![Двор Колыбели](../../../../assets/images/locations/loc-h5-kolybel-yard.png)
+![Двор Колыбели](../media/locations/loc-h5-kolybel-yard.png)
 
 > **Кадр:** Двор Колыбели
 
@@ -59,23 +59,23 @@ title: "2 · Сессия 1 — Похороны"
 
 ### 1.1 — Карта скорби
 
-![Город в день похорон](../../../../assets/images/funeral-a-city-establishing.png)
+![Город в день похорон](../media/funeral-a-city-establishing.png)
 
 > **Кадр:** Город в день похорон
 
-![Процессия · Район Пришельцев](../../../../assets/images/funeral-b-outsiders-procession.png)
+![Процессия · Район Пришельцев](../media/funeral-b-outsiders-procession.png)
 
 > **Кадр:** Процессия · Район Пришельцев
 
-![Очаг B · баррикады низа](../../../../assets/images/locations/loc-h2-tar-aminon-barricades.png)
+![Очаг B · баррикады низа](../media/locations/loc-h2-tar-aminon-barricades.png)
 
 > **Кадр:** Очаг B · баррикады низа
 
-![Очаг C · порт](../../../../assets/images/locations/loc-h4-port-pier7.png)
+![Очаг C · порт](../media/locations/loc-h4-port-pier7.png)
 
 > **Кадр:** Очаг C · порт
 
-![Очаг E · Мост Предков / делегации](../../../../assets/images/funeral-f-ancestors-bridge.png)
+![Очаг E · Мост Предков / делегации](../media/funeral-f-ancestors-bridge.png)
 
 > **Кадр:** Очаг E · Мост Предков / делегации
 
@@ -161,64 +161,64 @@ title: "2 · Сессия 1 — Похороны"
 
 ### 1.2 — Центральный помост
 
-![Пепел шатра Маэстро](../../../../assets/images/funeral-c-empty-tent-ash.png)
+![Пепел шатра Маэстро](../media/funeral-c-empty-tent-ash.png)
 
 > **Кадр:** Пепел шатра Маэстро
 
-![Путь по верхней авеню](../../../../assets/images/funeral-d-upper-avenue.png)
+![Путь по верхней авеню](../media/funeral-d-upper-avenue.png)
 
 > **Кадр:** Путь по верхней авеню
 
-![Центральный помост](../../../../assets/images/funeral-e-central-platform.png)
+![Центральный помост](../media/funeral-e-central-platform.png)
 
 > **Кадр:** Центральный помост
 
 #### Селенис Безмолвная
 *речь похорон*
 
-![Селенис Безмолвная](../../../../assets/images/npc/npc-selenis.png)
+![Селенис Безмолвная](../media/npc/npc-selenis.png)
 
 > **Кадр:** Селенис Безмолвная
 
 #### Тандил
 *речь мэра*
 
-![Тандил](../../../../assets/images/npc/npc-tandil-funeral.png)
+![Тандил](../media/npc/npc-tandil-funeral.png)
 
 > **Кадр:** Тандил
 
 #### Тандил · база
 *как выглядел до похоронного варианта*
 
-![Тандил · база](../../../../assets/images/npc-ref/tandil-base.png)
+![Тандил · база](../media/npc-ref/tandil-base.png)
 
 > **Кадр:** Тандил · база
 
 #### Кезарр Тал
 *делегация Хребта*
 
-![Кезарр Тал](../../../../assets/images/npc/npc-kezarr.png)
+![Кезарр Тал](../media/npc/npc-kezarr.png)
 
 > **Кадр:** Кезарр Тал
 
 #### Леди Ириэн
 *венок Сильванары*
 
-![Леди Ириэн](../../../../assets/images/npc/npc-irien.png)
+![Леди Ириэн](../media/npc/npc-irien.png)
 
 > **Кадр:** Леди Ириэн
 
 #### Брорр
 *слух про льды*
 
-![Брорр](../../../../assets/images/npc/npc-brorr.png)
+![Брорр](../media/npc/npc-brorr.png)
 
 > **Кадр:** Брорр
 
 #### Сильванара
 *слух о престоле (не обязательно на площади)*
 
-![Сильванара](../../../../assets/images/npc/npc-silvanara.png)
+![Сильванара](../media/npc/npc-silvanara.png)
 
 > **Кадр:** Сильванара
 
@@ -280,7 +280,7 @@ title: "2 · Сессия 1 — Похороны"
 #### Милана
 *дочь Маэстро · почти-речь · кольцо*
 
-![Милана](../../../../assets/images/npc/npc-milana.png)
+![Милана](../media/npc/npc-milana.png)
 
 > **Кадр:** Милана
 
@@ -304,7 +304,7 @@ Insight DC 13: это она, остановила себя.
 
 ### 1.4 — Двери = выбор направления
 
-![Если смотрят на Купель — подход](../../../../assets/images/locations/loc-h3-kupel-approach.png)
+![Если смотрят на Купель — подход](../media/locations/loc-h3-kupel-approach.png)
 
 > **Кадр:** Если смотрят на Купель — подход
 

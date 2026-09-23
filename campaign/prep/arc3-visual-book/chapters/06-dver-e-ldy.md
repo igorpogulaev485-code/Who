@@ -29,11 +29,11 @@ title: "6 · Дверь E — льды"
 
 ### 2.0 — Толчок Элариона
 
-![Северная ниша](../../../../assets/images/locations/loc-e1-northern-niche.png)
+![Северная ниша](../media/locations/loc-e1-northern-niche.png)
 
 > **Кадр:** Северная ниша
 
-![Зал порталов](../../../../assets/images/locations/loc-d1-portal-hall.png)
+![Зал порталов](../media/locations/loc-d1-portal-hall.png)
 
 > **Кадр:** Зал порталов
 
@@ -48,7 +48,7 @@ title: "6 · Дверь E — льды"
 
 ### 2.1 — Северная ниша
 
-![Маэрис](../../../../assets/images/npc/npc-maeris.png)
+![Маэрис](../media/npc/npc-maeris.png)
 
 > **Кадр:** Маэрис
 
@@ -94,15 +94,15 @@ title: "6 · Дверь E — льды"
 
 ### 2.5 — Лагерь Туманного Щита
 
-![Туманный Щит](../../../../assets/images/locations/loc-e2-mist-shield-camp.png)
+![Туманный Щит](../media/locations/loc-e2-mist-shield-camp.png)
 
 > **Кадр:** Туманный Щит
 
-![Хельда Щитолом](../../../../assets/images/npc/npc-helda.png)
+![Хельда Щитолом](../media/npc/npc-helda.png)
 
 > **Кадр:** Хельда Щитолом
 
-![Брорр](../../../../assets/images/npc/npc-brorr.png)
+![Брорр](../media/npc/npc-brorr.png)
 
 > **Кадр:** Брорр
 
@@ -120,7 +120,7 @@ title: "6 · Дверь E — льды"
 
 ### 2.6 — Стычка (обязательно)
 
-![Линия тумана · стычка](../../../../assets/images/locations/loc-e3-fog-line-skirmish.png)
+![Линия тумана · стычка](../media/locations/loc-e3-fog-line-skirmish.png)
 
 > **Кадр:** Линия тумана · стычка
 
@@ -140,11 +140,11 @@ title: "6 · Дверь E — льды"
 
 ### 2.7 — Клифф
 
-![Силуэт Лианэи](../../../../assets/images/locations/loc-e4-lianeya-ridge.png)
+![Силуэт Лианэи](../media/locations/loc-e4-lianeya-ridge.png)
 
 > **Кадр:** Силуэт Лианэи
 
-![Лианэя](../../../../assets/images/npc/npc-lianeya-silhouette.png)
+![Лианэя](../media/npc/npc-lianeya-silhouette.png)
 
 > **Кадр:** Лианэя · только силуэт
 

@@ -9,27 +9,27 @@ title: "4 · Дверь F — Причал"
 ## Быстрые кадры главы
 
 
-![Чёрная рана Купели](../../../../assets/images/locations/loc-f1-kupel-black-wound.png)
+![Чёрная рана Купели](../media/locations/loc-f1-kupel-black-wound.png)
 
 > **Кадр:** Чёрная рана Купели
 
-![Выброс нежити](../../../../assets/images/locations/loc-f2-kupel-undead-burst.png)
+![Выброс нежити](../media/locations/loc-f2-kupel-undead-burst.png)
 
 > **Кадр:** Выброс нежити
 
-![Чёрный проход](../../../../assets/images/locations/loc-f3-black-passage.png)
+![Чёрный проход](../media/locations/loc-f3-black-passage.png)
 
 > **Кадр:** Чёрный проход
 
-![Площадь Угасших Имён](../../../../assets/images/locations/loc-f4-gray-quay-plaza.png)
+![Площадь Угасших Имён](../media/locations/loc-f4-gray-quay-plaza.png)
 
 > **Кадр:** Площадь Угасших Имён
 
-![Лайра у арки](../../../../assets/images/locations/loc-f5-layra-arch.png)
+![Лайра у арки](../media/locations/loc-f5-layra-arch.png)
 
 > **Кадр:** Лайра у арки
 
-![Ворота Края](../../../../assets/images/locations/loc-f6-edge-gates.png)
+![Ворота Края](../media/locations/loc-f6-edge-gates.png)
 
 > **Кадр:** Ворота Края
 
@@ -40,56 +40,56 @@ title: "4 · Дверь F — Причал"
 #### Лайра Пепельная
 *встречающая*
 
-![Лайра Пепельная](../../../../assets/images/npc/npc-layra.png)
+![Лайра Пепельная](../media/npc/npc-layra.png)
 
 > **Кадр:** Лайра Пепельная
 
 #### Велиан Полутень
 *цель ~с.6*
 
-![Велиан Полутень](../../../../assets/images/npc/npc-velian.png)
+![Велиан Полутень](../media/npc/npc-velian.png)
 
 > **Кадр:** Велиан Полутень
 
 #### Каэлор Крайний
 *ворота*
 
-![Каэлор Крайний](../../../../assets/images/npc/npc-kaelor.png)
+![Каэлор Крайний](../media/npc/npc-kaelor.png)
 
 > **Кадр:** Каэлор Крайний
 
 #### Сильвен
 *отряд*
 
-![Сильвен](../../../../assets/images/npc/npc-silven.png)
+![Сильвен](../media/npc/npc-silven.png)
 
 > **Кадр:** Сильвен
 
 #### Наэра
 *отряд*
 
-![Наэра](../../../../assets/images/npc/npc-naera.png)
+![Наэра](../media/npc/npc-naera.png)
 
 > **Кадр:** Наэра
 
 #### Корел
 *отряд*
 
-![Корел](../../../../assets/images/npc/npc-korel.png)
+![Корел](../media/npc/npc-korel.png)
 
 > **Кадр:** Корел
 
 #### Элисс
 *отряд*
 
-![Элисс](../../../../assets/images/npc/npc-eliss.png)
+![Элисс](../media/npc/npc-eliss.png)
 
 > **Кадр:** Элисс
 
 #### Рэвел
 *отряд*
 
-![Рэвел](../../../../assets/images/npc/npc-revel.png)
+![Рэвел](../media/npc/npc-revel.png)
 
 > **Кадр:** Рэвел
 
@@ -132,11 +132,11 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 
 ### 2.0 — Подход
 
-![Подход](../../../../assets/images/locations/loc-h3-kupel-approach.png)
+![Подход](../media/locations/loc-h3-kupel-approach.png)
 
 > **Кадр:** Подход
 
-![Чёрная рана](../../../../assets/images/locations/loc-f1-kupel-black-wound.png)
+![Чёрная рана](../media/locations/loc-f1-kupel-black-wound.png)
 
 > **Кадр:** Чёрная рана
 
@@ -196,7 +196,7 @@ Insight 13: маги сегодня **напряжены сильнее**, че�
 
 ### 2.2 — Осмотр раны
 
-![Чёрная рана](../../../../assets/images/locations/loc-f1-kupel-black-wound.png)
+![Чёрная рана](../media/locations/loc-f1-kupel-black-wound.png)
 
 > **Кадр:** Чёрная рана
 
@@ -267,7 +267,7 @@ Insight 13: маги сегодня **напряжены сильнее**, че�
 
 ### 2.3 — Открытие потока → выброс (мёртвые)
 
-![Выброс нежити](../../../../assets/images/locations/loc-f2-kupel-undead-burst.png)
+![Выброс нежити](../media/locations/loc-f2-kupel-undead-burst.png)
 
 > **Кадр:** Выброс нежити
 
@@ -295,7 +295,7 @@ Insight 13: маги сегодня **напряжены сильнее**, че�
 
 ### 2.4 — Чёрный проход
 
-![Чёрный проход](../../../../assets/images/locations/loc-f3-black-passage.png)
+![Чёрный проход](../media/locations/loc-f3-black-passage.png)
 
 > **Кадр:** Чёрный проход
 
@@ -347,14 +347,14 @@ Athletics / Acrobatics / Arcana / Religion / Insight — **один** бросо
 
 ### 2.5 — Приземление (площадь, не пустошь)
 
-![Площадь](../../../../assets/images/locations/loc-f4-gray-quay-plaza.png)
+![Площадь](../media/locations/loc-f4-gray-quay-plaza.png)
 
 > **Кадр:** Площадь
 
 #### Лайра
 *встречающая*
 
-![Лайра](../../../../assets/images/npc/npc-layra.png)
+![Лайра](../media/npc/npc-layra.png)
 
 > **Кадр:** Лайра
 
@@ -377,11 +377,11 @@ Dex DC **13** → провал **2к8** дробящего (учесть ×2 / �
 
 ### 2.6 — Лайра / правила / первый след
 
-![Лайра](../../../../assets/images/locations/loc-f5-layra-arch.png)
+![Лайра](../media/locations/loc-f5-layra-arch.png)
 
 > **Кадр:** Лайра
 
-![Лайра Пепельная](../../../../assets/images/npc/npc-layra.png)
+![Лайра Пепельная](../media/npc/npc-layra.png)
 
 > **Кадр:** Лайра Пепельная
 
@@ -443,15 +443,15 @@ Insight 14: про «ищут» — не про партию; про **друг�
 
 ### 2.7 — Клифф
 
-![Ворота Края](../../../../assets/images/locations/loc-f6-edge-gates.png)
+![Ворота Края](../media/locations/loc-f6-edge-gates.png)
 
 > **Кадр:** Ворота Края
 
-![Велиан](../../../../assets/images/npc/npc-velian.png)
+![Велиан](../media/npc/npc-velian.png)
 
 > **Кадр:** Велиан
 
-![Каэлор](../../../../assets/images/npc/npc-kaelor.png)
+![Каэлор](../media/npc/npc-kaelor.png)
 
 > **Кадр:** Каэлор
 
