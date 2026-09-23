@@ -20,4 +20,5 @@
 
 Референсы «до фестиваля»: [`lunnyy-most-festival-ref/`](lunnyy-most-festival-ref/)  
 Промпты похорон: [`../prompts/lunnyy-most-arc3-s1.md`](../prompts/lunnyy-most-arc3-s1.md)  
-Портреты НПС путей: [`npc/`](npc/)
+Портреты НПС путей: [`npc/`](npc/)  
+Локации / сцены после с.1: [`locations/`](locations/)
