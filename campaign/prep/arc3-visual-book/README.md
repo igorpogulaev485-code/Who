@@ -27,8 +27,14 @@ tags: [gm, runbook, arc3]
 | 6 | [Дверь E — льды](chapters/06-dver-e-ldy.md) | mq-06 доспехи |
 | 7 | [Дверь E·меч — Хребет](chapters/07-dver-e-mech.md) | mq-06 меч |
 | 8 | [Дверь E·сапоги — Пыль](chapters/08-dver-e-sapogi.md) | mq-06 сапоги |
-| 9 | [Дверь B — Дневник](chapters/09-dver-b.md) | mq-05 том |
+| 9 | [Дверь B — Дневник](chapters/09-dver-b.md) | mq-05 · **только оглавление** |
 | 10 | [Дверь C — Милана](chapters/10-dver-c.md) | mq-05 дочь |
 | 11 | [Галерея лиц](chapters/11-galereya.md) | портреты + карточки |
+| 12 | [Атлас карт](chapters/12-karty.md) | HTTPS · ⬇ |
+| 13 | [Вставки и жертвы](chapters/13-vstavki-i-zhertvy.md) | mq-01/02/04 · меню F |
+| 14 | [Плейбуки и сайды](chapters/14-playbooks-i-side.md) | Маяк · Причал · Порог · Щит |
+| 15 | [Spine после с.2](chapters/15-spine-posle-s2.md) | mq-01/02 · Гирмхельм |
+| 16 | [Совет друидов](chapters/16-sovet-druidov.md) | Малфурион · Элессар |
 
-Канон: дочь Маэстро = **Милана**.
+Канон: дочь Маэстро = **Милана**.  
+Дневник: страницы **не** пишем — только оглавление в [гл. 9](chapters/09-dver-b.md).
