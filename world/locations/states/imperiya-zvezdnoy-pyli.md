@@ -26,8 +26,8 @@ holes_lock: campaign/plot/canon-lock-2026-09-23-mq06-dust-holes.md
 | Соседи | **Юг через море** — **Союз речных долин**; **С через океан** — **Ульфгард** |
 | Материк / острова | островное государство; фактически **один** большой остров (в народе — «острова»: неравномерный подъём) |
 | Рельеф | парящая суша над прежним контуром; на воде — **внешний порт**; воздушные корабли |
-| Файл карты | [`../zvezdnaya-pyl-map.md`](../zvezdnaya-pyl-map.md) *(v2 на ревью)* |
-| Кроп с мира | [`zvezdnaya-pyl-borders-from-world.jpg`](../../assets/maps/zvezdnaya-pyl-borders-from-world.jpg) |
+| Файл карты | [`../zvezdnaya-pyl-map.md`](../zvezdnaya-pyl-map.md) *(v3 на ревью)* |
+| Кроп с мира | [`zvezdnaya-pyl-borders-from-world-tight.png`](../../assets/maps/zvezdnaya-pyl-borders-from-world-tight.png) |
 
 ## Столица и известные места
 

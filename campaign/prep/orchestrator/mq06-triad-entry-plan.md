@@ -18,13 +18,13 @@ source: gm-2026-09-23 triad + ridge + dust W1/holes
 | 1–3 | state / map / quest | Хребет + с.2 меча | **done** |
 | 4 | echo-dawn-state | паспорт Пыли W1 | **done** |
 | 4b | survey | добивка holes | **done** |
-| 5 | map | карта Пыли | **v2 wait-ok** |
+| 5 | map | карта Пыли | **v3 wait-ok** |
 | 6 | quest-main | с.2 сапог | **done** |
 | 7 | — | двери B / C | open |
 
 ## Ждём
 
-Ok / правки карты **v2**: [`../../../../world/locations/zvezdnaya-pyl-map.md`](../../../../world/locations/zvezdnaya-pyl-map.md)
+Ok / правки карты **v3**: [`../../../../assets/maps/zvezdnaya-pyl-map-v3.jpg`](../../../../assets/maps/zvezdnaya-pyl-map-v3.jpg)
 
 ## Файлы
 
