@@ -98,7 +98,9 @@ defaults_note: "Опрос приоритетов без ответов → во
 - **Провал →** арт(ы) уходят в Разлом / демонам.  
 - **Не взяли →** армия мёртвых и агенты двигаются сами.  
 - **Файл:** `quests/mq-06-tri-na-zemle.md`  
-- **Сессия 2 (дверь E):** [`quests/mq-06-sessions-2-door-e.md`](quests/mq-06-sessions-2-door-e.md) — камень северной линии → лагерь Туманного Щита · лок [`../../../plot/canon-lock-2026-09-22-mq06-ice-holes.md`](../../../plot/canon-lock-2026-09-22-mq06-ice-holes.md)
+- **Сессия 2 (дверь E · льды):** [`quests/mq-06-sessions-2-door-e.md`](quests/mq-06-sessions-2-door-e.md) — камень → Туманный Щит  
+- **Сессия 2 (дверь E · меч):** [`quests/mq-06-sessions-2-door-e-sword.md`](quests/mq-06-sessions-2-door-e-sword.md) — портал → посольство → сведения о пике  
+- Паспорт Хребта: [`../../../../world/locations/states/imperiya-drakonyego-khrebta.md`](../../../../world/locations/states/imperiya-drakonyego-khrebta.md)
 
 ---
 
