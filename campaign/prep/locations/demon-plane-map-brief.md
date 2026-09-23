@@ -1,18 +1,18 @@
 ---
 title: "План демонов — бриф обзорной карты"
-status: draft
-version: v7
+status: locked
+version: v24
 date: 2026-09-23
 ---
 
 # Бриф — атлас 9 кругов
 
-## Статус
+**LOCKED v24** — [`canon-lock-2026-09-23-demon-plane-atlas.md`](../../plot/canon-lock-2026-09-23-demon-plane-atlas.md)
 
-**draft v24** — полная пересборка (v22 patch discarded).  
-Стиль Эха · **5 в центре (Стикс)** · **6 снизу (Ложные Имена)**.
+5 · Кровавый Стикс = центр · 6 · Поля Ложных Имён = низ.
 
 ## Выход
 
-- `assets/maps/demon-plane/demon-plane-atlas-v24.png` (= current)  
+- `assets/maps/demon-plane/demon-plane-atlas-locked.png`  
+- `assets/maps/demon-plane/demon-plane-atlas-v24.png`  
 - `campaign/prep/locations/demon-plane-map.png`

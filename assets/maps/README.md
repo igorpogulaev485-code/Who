@@ -10,4 +10,4 @@ title: Карты
 - [Карта Ледяного Союза](ledyanoy-soyuz-map.jpg) — [`world/locations/ledyanoy-soyuz-map.md`](../../world/locations/ledyanoy-soyuz-map.md) **(LOCKED)**
 - [Серый Причал (план мёртвых)](seryy-prichal/seryy-prichal-map.png) — playbook [`campaign/prep/locations/seryy-prichal/`](../../campaign/prep/locations/seryy-prichal/)
 - [Маяк душ (план демонов)](mayak-dush/mayak-dush-map.png) — **LOCKED v4** · [`campaign/prep/locations/mayak-dush/`](../../campaign/prep/locations/mayak-dush/)
-- [Атлас Девяти Кругов](demon-plane/demon-plane-atlas.png) — **draft v24** · [`campaign/prep/locations/demon-plane-map.md`](../../campaign/prep/locations/demon-plane-map.md)
+- [Атлас Девяти Кругов](demon-plane/demon-plane-atlas-locked.png) — **LOCKED v24** · [`campaign/plot/canon-lock-2026-09-23-demon-plane-atlas.md`](../../campaign/plot/canon-lock-2026-09-23-demon-plane-atlas.md)

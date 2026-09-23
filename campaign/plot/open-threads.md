@@ -89,4 +89,4 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
 Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
 [`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
-**Карты планов:** Маяк **LOCKED v4**. Атлас 9 кругов **draft v24** (новая сборка · 5 центр / 6 низ) — [`demon-plane-map.md`](../prep/locations/demon-plane-map.md) · ждём ok.
+**Карты планов:** Маяк **LOCKED v4**. Атлас Девяти Кругов **LOCKED v24** — [`canon-lock-2026-09-23-demon-plane-atlas.md`](canon-lock-2026-09-23-demon-plane-atlas.md). Дальше — обзор плана мёртвых.

@@ -1,15 +1,16 @@
 ---
 title: "План демонов — gazetteer (9 кругов)"
-status: prep
+status: canon-partial
 date: 2026-09-23
 lock: ../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md
 geometry: ../../plot/canon-lock-2026-09-23-demon-plane-geometry.md
+atlas: ../../plot/canon-lock-2026-09-23-demon-plane-atlas.md
 audience: gm
 ---
 
 # Gazetteer — 9 кругов плана демонов
 
-Имена: лок [`canon-lock-2026-09-23-demon-plane-circle-names-b.md`](../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md) (колонка B).
+Имена: лок B. Атлас: **LOCKED v24**.
 
 ## Государства атласа
 

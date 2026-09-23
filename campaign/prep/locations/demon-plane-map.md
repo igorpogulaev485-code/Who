@@ -1,9 +1,10 @@
 ---
 title: "План демонов — обзорная карта"
-status: draft
+status: locked
 version: v24
 audience: players
 locks:
+  - ../../plot/canon-lock-2026-09-23-demon-plane-atlas.md
   - ../../plot/canon-lock-2026-09-23-demon-plane-geometry.md
   - ../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md
 ---
@@ -12,9 +13,10 @@ locks:
 
 ![Атлас](demon-plane-map.png)
 
-**Статус:** draft **v24** — новая сборка (не патч v22).  
-5 · Кровавый Стикс в центре · 6 · Поля Ложных Имён снизу. Ждём ok.
+**Статус:** **LOCKED v24** · [`canon-lock-2026-09-23-demon-plane-atlas.md`](../../plot/canon-lock-2026-09-23-demon-plane-atlas.md)
 
 ## Цепь
 
-`1→2→3→4→5→6→7→8→9` · Маяка нет.
+`Пепельный Порог → Дворы Желания → Чрево Слизи → Кузница Жадности → Кровавый Стикс → Поля Ложных Имён → Поля Крови Легионов → Злые Щели → Сердце Затмения`
+
+Маяка на обзоре нет.

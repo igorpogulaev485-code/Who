@@ -1,9 +1,10 @@
 ---
 id: orch-demon-plane-map
 title: "План — обзорная карта плана демонов"
-status: in-progress
+status: done
 source: gm-2026-09-23
 gm_ok_names: "2026-09-23 — Берем B"
+gm_ok_atlas: "2026-09-23 — Имба!!! Лоч!!!"
 parent: plane-maps-plan.md
 ---
 
@@ -14,15 +15,9 @@ parent: plane-maps-plan.md
 | | |
 |---|---|
 | Геометрия | LOCKED |
-| Имена 9 кругов | **LOCKED · B** [`canon-lock-2026-09-23-demon-plane-circle-names-b.md`](../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md) |
-| Gazetteer | [`../locations/demon-plane-gazetteer.md`](../locations/demon-plane-gazetteer.md) |
-| Бриф компоновки | done — кольца [`../locations/demon-plane-map-brief.md`](../locations/demon-plane-map-brief.md) |
-| Отрисовка | **draft v24** — новая сборка · 5 центр / 6 низ · ждём ok |
-
-## Whitelist player
-
-`Пепельный Порог` · `Дворы Желания` · `Чрево Слизи` · `Кузница Жадности` · `Кровавый Стикс` · `Поля Ложных Имён` · `Поля Крови Легионов` · `Злые Щели` · `Сердце Затмения` + ворота (без Маяка)
+| Имена 9 кругов | **LOCKED · B** |
+| Отрисовка | **LOCKED v24** [`canon-lock-2026-09-23-demon-plane-atlas.md`](../../plot/canon-lock-2026-09-23-demon-plane-atlas.md) |
 
 ## Дальше
 
-Ждём ok на v24 → LOCK.
+Шаг 3 plane-maps: обзор **плана мёртвых** (после Причала).
