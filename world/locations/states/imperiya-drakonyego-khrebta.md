@@ -27,7 +27,8 @@ map_ref: assets/maps/drakoniy-khrebet-map.jpg
 | Соседи | **С** — Амират, Кланы степи, Пепельные земли, Орден (через северные подступы); дальше Аэлендор |
 | Материк / острова | материк |
 | Рельеф | горы, вулканы, пепел, леса/болота у кромки, ледники на С хребта (Корвар) |
-| Файл карты | [`drakoniy-khrebet-map.jpg`](../../assets/maps/drakoniy-khrebet-map.jpg) |
+| Файл карты | [`drakoniy-khrebet-map.jpg`](../../assets/maps/drakoniy-khrebet-map.jpg) (prep **v4**) |
+| Кроп с мира | [`drakoniy-khrebet-borders-from-world.jpg`](../../assets/maps/drakoniy-khrebet-borders-from-world.jpg) |
 
 ## Столица и известные места
 
