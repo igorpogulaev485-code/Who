@@ -29,7 +29,7 @@ map_ref: assets/maps/drakoniy-khrebet-map.jpg
 | Соседи | **З** через горы — **Амират**; **СВ** полоска суши — **Болота Скорби**; **С** залив к Лесу Хранителей |
 | Материк / острова | полуостров материка + восточный архипелаг/вулкан |
 | Рельеф | горы (стык с материком), хребет, пепел, вулкан на В-острове; **без снежных ледников** на карте государства |
-| Файл карты | [`drakoniy-khrebet-map.jpg`](../../assets/maps/drakoniy-khrebet-map.jpg) (prep **v12b**) |
+| Файл карты | [`drakoniy-khrebet-map.jpg`](../../assets/maps/drakoniy-khrebet-map.jpg) (prep **v12c**) |
 | Кроп с мира | [`drakoniy-khrebet-borders-from-world.jpg`](../../assets/maps/drakoniy-khrebet-borders-from-world.jpg) |
 | Геометрия | [`../../../campaign/plot/canon-lock-2026-09-23-mq06-ridge-geometry.md`](../../../campaign/plot/canon-lock-2026-09-23-mq06-ridge-geometry.md) |
 
