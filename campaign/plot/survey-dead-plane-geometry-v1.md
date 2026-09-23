@@ -1,19 +1,25 @@
 ---
 title: Опрос — геометрия плана мёртвых (обзорная карта)
-status: open
-date: 2026-09-23
-source: orch-dead-plane-map
-plan: ../prep/orchestrator/dead-plane-map-plan.md
----
+**Статус: отвечено** → [`canon-lock-2026-09-23-dead-plane-geometry.md`](canon-lock-2026-09-23-dead-plane-geometry.md)
 
-# Опрос — план мёртвых: геометрия
+## Сводка ответов
 
-Обзор = **атлас всего плана** (как Девять Кругов).  
-Причал уже есть — вопрос «как устроен мир за ним».
+| | id | Суть |
+|---|---|---|
+| A | a_cities | Города-острова в пепельном море |
+| B | b_dot | Причал = микроточка |
+| C | c_5 | 5 островов |
+| D | d_boats | Переправы |
+| E | e_overlay | Буря Кардиана не регион |
+| F | f_named | Нижние Дворы + Второй Берег |
+| G | g_realms | Имена островов + переправы |
+| H | h_none | Без демонов |
+| I | i_prichal | Тон Причала |
+| J | j_spine | Просторно |
+| K | k_path | Причал → Край → намёк на даль |
 
-**★ = моя рекомендация.** Можно выбрать иное или `other` + note.
-
-HTML (телефон): [`survey-dead-plane-geometry-v1.html`](survey-dead-plane-geometry-v1.html)
+HTML: [`survey-dead-plane-geometry-v1.html`](survey-dead-plane-geometry-v1.html)  
+Gazetteer draft: [`../prep/locations/dead-plane-gazetteer.md`](../prep/locations/dead-plane-gazetteer.md)
 
 ---
 
