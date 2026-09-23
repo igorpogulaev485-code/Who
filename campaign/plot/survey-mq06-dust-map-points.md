@@ -26,7 +26,7 @@ depends:
 Нужно **ещё ~4** поселения / якоря на парящей земле.
 
 HTML: [`survey-mq06-dust-map-points.html`](survey-mq06-dust-map-points.html)  
-**Safari (~72 ч):** _(litterbox)_
+**Safari (~72 ч):** https://litter.catbox.moe/3rismw.html
 
 ---
 
