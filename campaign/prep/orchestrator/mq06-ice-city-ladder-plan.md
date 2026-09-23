@@ -30,7 +30,8 @@ source: gm-2026-09-23 (концепт после портала: крупный 
 
 ## Опросы
 
-[`../../plot/survey-mq06-ice-city-ladder.md`](../../plot/survey-mq06-ice-city-ladder.md) · HTML [`../../plot/survey-mq06-ice-city-ladder.html`](../../plot/survey-mq06-ice-city-ladder.html)
+[`../../plot/survey-mq06-ice-city-ladder.md`](../../plot/survey-mq06-ice-city-ladder.md) · HTML [`../../plot/survey-mq06-ice-city-ladder.html`](../../plot/survey-mq06-ice-city-ladder.html)  
+Litterbox (~72 ч): https://litter.catbox.moe/7oifq6.html
 
 ## Файлы-результаты (после ok)
 
