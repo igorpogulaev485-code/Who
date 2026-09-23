@@ -52,7 +52,7 @@ gm_ok_start: "2026-09-23 — да, начнем с маяка"
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
 | 1 | echo-dawn-location (+ map) | Маяк: карта + playbook 6 мест | **LOCKED v4** + углублённый playbook |
-| 2 | опрос оркестратора | Геометрия плана демонов | **open** [`survey-demon-plane-geometry-v1`](../../plot/survey-demon-plane-geometry-v1.md) |
+| 2 | опрос оркестратора | Геометрия плана демонов | **done** → лок + gazetteer draft |
 | 3 | map + lock | Обзор демонов | wait-ok |
 | 4 | опрос → map | Обзор мёртвых (за Причалом) | wait-ok |
 
