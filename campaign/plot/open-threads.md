@@ -89,4 +89,4 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
 Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
 [`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
-**Карты планов:** Маяк **LOCKED v4**. Атлас демонов: **рассуждение** — 9 кругов (структура Данте) + **дендешные** имена (ещё не лок): [`draft-demon-plane-dante-dnd-names.md`](draft-demon-plane-dante-dnd-names.md).
+**Карты планов:** Маяк **LOCKED v4**. Атлас демонов: **9 кругов, имена B LOCKED** ([`canon-lock-2026-09-23-demon-plane-circle-names-b.md`](canon-lock-2026-09-23-demon-plane-circle-names-b.md)) — дальше бриф + отрисовка.
