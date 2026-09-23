@@ -90,6 +90,8 @@ share_url: https://chat.qwen.ai/s/1594818c-09f3-4713-957c-4a0402e2714b
 
 ## Визуал (общий для всех веток)
 
+**Книга для чтения:** [`arc3-visual-book/README.md`](arc3-visual-book/README.md) — оглавление и главы.
+
 **Референсы города «до фестиваля»** (сессия 1 кампании):  
 [`assets/images/lunnyy-most-festival-ref/`](../../assets/images/lunnyy-most-festival-ref/)
 

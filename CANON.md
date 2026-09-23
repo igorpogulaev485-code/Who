@@ -133,6 +133,7 @@
 
 - [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md)
 - [Визуал сессии 1 (Лунный Мост)](assets/prompts/lunnyy-most-arc3-s1.md)
+- [**Книга визуала арки 3**](campaign/prep/arc3-visual-book/README.md) — оглавление, главы со сценами и лицами
 - [Вирра / Гонд — награда за веру](campaign/prep/virra-gond-faith-reward.md)
 - [Битва за Лунный Овраг — механика](campaign/prep/bitva-za-lunnyy-ovrag.md)
 - [Кузница Фиалки](world/locations/lunnyy-most/kuznitsa-fialki.md)
