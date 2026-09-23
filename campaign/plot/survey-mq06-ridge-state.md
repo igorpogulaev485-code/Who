@@ -15,7 +15,7 @@ depends:
 **С карты / overview:** юг материка; горы/пепел/вулканы; драконорождённые + …; гарнизон у Лунного моста; сожгли Камнеград; Разлом внутри; ситуационный союз с Аэлендором.
 
 HTML: [`survey-mq06-ridge-state.html`](survey-mq06-ridge-state.html)  
-**Safari (~72 ч):** *(после заливки)*
+**Safari (~72 ч):** https://litter.catbox.moe/0efh2g.html
 
 ---
 
