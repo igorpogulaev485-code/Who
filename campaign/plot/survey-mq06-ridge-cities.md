@@ -1,8 +1,9 @@
 ---
 title: Опрос — города Империи Драконьего Хребта (карта v6+)
-status: survey
+status: answered
 date: 2026-09-23
 source: gm-2026-09-23 («столица у вулкана» + разобрать города)
+lock: campaign/plot/canon-lock-2026-09-23-mq06-ridge-cities.md
 depends:
   - canon-lock-2026-09-23-mq06-ridge-state.md
   - world/locations/states/imperiya-drakonyego-khrebta.md
@@ -148,4 +149,10 @@ HTML: [`survey-mq06-ridge-cities.html`](survey-mq06-ridge-cities.html)
 
 ---
 
-**Жду ответы** → лок городов → правка паспорта + карта.
+## Ответы мастера (2026-09-23)
+
+`a_island_foot` · `b_8_10` · `c_other` (темы: магия, оппозиция, столица, война/армия, реликвии, предки/боги, торговля, подчинение, быт кобольдов/драконидов/драконорождённых) · `d_in_capital` · `e_other` (город оппозиции в системе государства, не раскол) · `f_city` · `g_other` (нет ледников на карте) · `h_other` → prep **2** порта · `i_shrine_only` · `j_alone` · `k_propose` · `l_rebuild`  
+Уточнение: восточный остров вулкана + мелкие — **оставить**.
+
+Лок: [`canon-lock-2026-09-23-mq06-ridge-cities.md`](canon-lock-2026-09-23-mq06-ridge-cities.md)  
+Дальше: [`survey-mq06-ridge-city-names.md`](survey-mq06-ridge-city-names.md)
