@@ -13,7 +13,7 @@ gazetteer: ../prep/locations/dead-plane-gazetteer.md
 **Лок иерархии:** остров на атласе = **государство**; города (Серый Причал и др.) — **внутри**, отдельные карты позже.
 
 HTML: [`survey-dead-plane-state-names-v1.html`](survey-dead-plane-state-names-v1.html)  
-Litterbox: *(зальём после коммита)*
+Litterbox (Safari): https://litter.catbox.moe/umcv33.html (~72 ч)
 
 ## Уже жёстко
 
