@@ -87,3 +87,14 @@ share_url: https://chat.qwen.ai/s/1594818c-09f3-4713-957c-4a0402e2714b
 Есть какие то вопросы по локациям?
 
 Полный разбор сессии и дорожная карта арки — [`drafts/imports/qwen-ark3-vnutri-razloma.md`](../../drafts/imports/qwen-ark3-vnutri-razloma.md)
+
+## Визуал (общий для всех веток)
+
+Промпты + кадры: [`assets/prompts/lunnyy-most-arc3-s1.md`](../../assets/prompts/lunnyy-most-arc3-s1.md)
+
+| Кадр | Файл | Биты сессии |
+|---|---|---|
+| Город в поминки | [`lunnyy-most-mourning-wide.png`](../../assets/images/lunnyy-most-mourning-wide.png) | карта скорби / establishing |
+| Утро в Кузнице | [`lunnyy-most-kuznitsa-dawn.png`](../../assets/images/lunnyy-most-kuznitsa-dawn.png) | 1.0 старт |
+| Центральный помост | [`lunnyy-most-funeral-plaza.png`](../../assets/images/lunnyy-most-funeral-plaza.png) | 1.2 Селенис + Тандил |
+| Низ у Разлома | [`lunnyy-most-rift-barricades.png`](../../assets/images/lunnyy-most-rift-barricades.png) | очаг B |

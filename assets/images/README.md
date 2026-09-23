@@ -11,3 +11,9 @@
 | `kamnegrad-street-lava.png` | Камнеград — улица / лава | то же |
 | `kamnegrad-dragon-plaza.png` | Камнеград — площадь и дракон | то же |
 | `kamnegrad-elven-enclave.png` | Камнеград — эльфийский анклав | то же |
+| `lunnyy-most-mourning-wide.png` | Лунный Мост — общий план в день похорон | Арка 3, сессия 1 |
+| `lunnyy-most-kuznitsa-dawn.png` | Кузница Фиалки / Колыбель — утро | то же |
+| `lunnyy-most-funeral-plaza.png` | Площадь Нисходящего Луча — центральный помост | то же |
+| `lunnyy-most-rift-barricades.png` | Тар-Аминон — баррикады у края Разлома | то же |
+
+Промпты: [`../prompts/lunnyy-most-arc3-s1.md`](../prompts/lunnyy-most-arc3-s1.md).
