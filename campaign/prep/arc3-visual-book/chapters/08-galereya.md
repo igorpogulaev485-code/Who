@@ -6,235 +6,235 @@ title: "Приложение · Галерея"
 
 ## Адмирал флота Пыли
 
-![Адмирал флота Пыли](media/npc/npc-admiral-star-dust.png)
+![Адмирал флота Пыли](media/npc/npc-admiral-star-dust.jpg)
 
 > **Кадр:** Адмирал флота Пыли
 
 ## Алазар Огненное Сердце
 
-![Алазар Огненное Сердце](media/npc/npc-alazar.png)
+![Алазар Огненное Сердце](media/npc/npc-alazar.jpg)
 
 > **Кадр:** Алазар Огненное Сердце
 
 ## Брорр
 
-![Брорр](media/npc/npc-brorr.png)
+![Брорр](media/npc/npc-brorr.jpg)
 
 > **Кадр:** Брорр
 
 ## Брум Кремнеладонь
 
-![Брум Кремнеладонь](media/npc/npc-brum.png)
+![Брум Кремнеладонь](media/npc/npc-brum.jpg)
 
 > **Кадр:** Брум Кремнеладонь
 
 ## Ваэра Ночной Клинок
 
-![Ваэра Ночной Клинок](media/npc/npc-vaera.png)
+![Ваэра Ночной Клинок](media/npc/npc-vaera.jpg)
 
 > **Кадр:** Ваэра Ночной Клинок
 
 ## Велиан Полутень
 
-![Велиан Полутень](media/npc/npc-velian.png)
+![Велиан Полутень](media/npc/npc-velian.jpg)
 
 > **Кадр:** Велиан Полутень
 
 ## Зариакс Теневой Клык
 
-![Зариакс Теневой Клык](media/npc/npc-zariax.png)
+![Зариакс Теневой Клык](media/npc/npc-zariax.jpg)
 
 > **Кадр:** Зариакс Теневой Клык
 
 ## Илсара Пепельнолист
 
-![Илсара Пепельнолист](media/npc/npc-ilsara.png)
+![Илсара Пепельнолист](media/npc/npc-ilsara.jpg)
 
 > **Кадр:** Илсара Пепельнолист
 
 ## Каэлор Крайний
 
-![Каэлор Крайний](media/npc/npc-kaelor.png)
+![Каэлор Крайний](media/npc/npc-kaelor.jpg)
 
 > **Кадр:** Каэлор Крайний
 
 ## Кезарр Тал
 
-![Кезарр Тал](media/npc/npc-kezarr.png)
+![Кезарр Тал](media/npc/npc-kezarr.jpg)
 
 > **Кадр:** Кезарр Тал
 
 ## Кеш
 
-![Кеш](media/npc/npc-kesh.png)
+![Кеш](media/npc/npc-kesh.jpg)
 
 > **Кадр:** Кеш
 
 ## Корвар Тяжёлая Лапа
 
-![Корвар Тяжёлая Лапа](media/npc/npc-korvar.png)
+![Корвар Тяжёлая Лапа](media/npc/npc-korvar.jpg)
 
 > **Кадр:** Корвар Тяжёлая Лапа
 
 ## Корел Клинок Луны
 
-![Корел Клинок Луны](media/npc/npc-korel.png)
+![Корел Клинок Луны](media/npc/npc-korel.jpg)
 
 > **Кадр:** Корел Клинок Луны
 
 ## Лайра Пепельная
 
-![Лайра Пепельная](media/npc/npc-layra.png)
+![Лайра Пепельная](media/npc/npc-layra.jpg)
 
 > **Кадр:** Лайра Пепельная
 
 ## Леди Ириэн
 
-![Леди Ириэн](media/npc/npc-irien.png)
+![Леди Ириэн](media/npc/npc-irien.jpg)
 
 > **Кадр:** Леди Ириэн
 
 ## Лианэя
 
-![Лианэя](media/npc/npc-lianeya-silhouette.png)
+![Лианэя](media/npc/npc-lianeya-silhouette.jpg)
 
 > **Кадр:** Лианэя
 
 ## Малфурион
 
-![Малфурион](media/npc/npc-malfurion.png)
+![Малфурион](media/npc/npc-malfurion.jpg)
 
 > **Кадр:** Малфурион
 
 ## Маэрис Ключ-в-Камне
 
-![Маэрис Ключ-в-Камне](media/npc/npc-maeris.png)
+![Маэрис Ключ-в-Камне](media/npc/npc-maeris.jpg)
 
 > **Кадр:** Маэрис Ключ-в-Камне
 
 ## Милана
 
-![Милана](media/npc/npc-milana.png)
+![Милана](media/npc/npc-milana.jpg)
 
 > **Кадр:** Милана
 
 ## Наэра Черноперо
 
-![Наэра Черноперо](media/npc/npc-naera.png)
+![Наэра Черноперо](media/npc/npc-naera.jpg)
 
 > **Кадр:** Наэра Черноперо
 
 ## Орра
 
-![Орра](media/npc/npc-orra.png)
+![Орра](media/npc/npc-orra.jpg)
 
 > **Кадр:** Орра
 
 ## Оррен Когтевой Страж
 
-![Оррен Когтевой Страж](media/npc/npc-orren.png)
+![Оррен Когтевой Страж](media/npc/npc-orren.jpg)
 
 > **Кадр:** Оррен Когтевой Страж
 
 ## Рэвел Узлослёд
 
-![Рэвел Узлослёд](media/npc/npc-revel.png)
+![Рэвел Узлослёд](media/npc/npc-revel.jpg)
 
 > **Кадр:** Рэвел Узлослёд
 
 ## Сарель Пепельный Договор
 
-![Сарель Пепельный Договор](media/npc/npc-sarel.png)
+![Сарель Пепельный Договор](media/npc/npc-sarel.jpg)
 
 > **Кадр:** Сарель Пепельный Договор
 
 ## Саэла Троповед
 
-![Саэла Троповед](media/npc/npc-saela.png)
+![Саэла Троповед](media/npc/npc-saela.jpg)
 
 > **Кадр:** Саэла Троповед
 
 ## Саэрис Пепельный
 
-![Саэрис Пепельный](media/npc/npc-saeris.png)
+![Саэрис Пепельный](media/npc/npc-saeris.jpg)
 
 > **Кадр:** Саэрис Пепельный
 
 ## Сборщик Огарков
 
-![Сборщик Огарков](media/npc/npc-collector-embers.png)
+![Сборщик Огарков](media/npc/npc-collector-embers.jpg)
 
 > **Кадр:** Сборщик Огарков
 
 ## Селена Печать-Линий
 
-![Селена Печать-Линий](media/npc/npc-selena-lines.png)
+![Селена Печать-Линий](media/npc/npc-selena-lines.jpg)
 
 > **Кадр:** Селена Печать-Линий
 
 ## Селенис Безмолвная
 
-![Селенис Безмолвная](media/npc/npc-selenis.png)
+![Селенис Безмолвная](media/npc/npc-selenis.jpg)
 
 > **Кадр:** Селенис Безмолвная
 
 ## Сильванара
 
-![Сильванара](media/npc/npc-silvanara.png)
+![Сильванара](media/npc/npc-silvanara.jpg)
 
 > **Кадр:** Сильванара
 
 ## Сильвен Тихий Шаг
 
-![Сильвен Тихий Шаг](media/npc/npc-silven.png)
+![Сильвен Тихий Шаг](media/npc/npc-silven.jpg)
 
 > **Кадр:** Сильвен Тихий Шаг
 
 ## Тандил (похороны)
 
-![Тандил (похороны)](media/npc/npc-tandil-funeral.png)
+![Тандил (похороны)](media/npc/npc-tandil-funeral.jpg)
 
 > **Кадр:** Тандил (похороны)
 
 ## Тэвин Счётчик Чаш
 
-![Тэвин Счётчик Чаш](media/npc/npc-tevin.png)
+![Тэвин Счётчик Чаш](media/npc/npc-tevin.jpg)
 
 > **Кадр:** Тэвин Счётчик Чаш
 
 ## Хельда Щитолом
 
-![Хельда Щитолом](media/npc/npc-helda.png)
+![Хельда Щитолом](media/npc/npc-helda.jpg)
 
 > **Кадр:** Хельда Щитолом
 
 ## Элессар I
 
-![Элессар I](media/npc/npc-elessar.png)
+![Элессар I](media/npc/npc-elessar.jpg)
 
 > **Кадр:** Элессар I
 
 ## Элиан Вечный Узел
 
-![Элиан Вечный Узел](media/npc/npc-elian.png)
+![Элиан Вечный Узел](media/npc/npc-elian.jpg)
 
 > **Кадр:** Элиан Вечный Узел
 
 ## Элисс Пепельная Нить
 
-![Элисс Пепельная Нить](media/npc/npc-eliss.png)
+![Элисс Пепельная Нить](media/npc/npc-eliss.jpg)
 
 > **Кадр:** Элисс Пепельная Нить
 
 ## Эридан Звёздный Зрачок
 
-![Эридан Звёздный Зрачок](media/npc/npc-eridan.png)
+![Эридан Звёздный Зрачок](media/npc/npc-eridan.jpg)
 
 > **Кадр:** Эридан Звёздный Зрачок
 
 ## Тандил · база
 
-![Тандил база](media/npc-ref/tandil-base.png)
+![Тандил база](media/npc-ref/tandil-base.jpg)
 
 > **Кадр:** Тандил база
 
