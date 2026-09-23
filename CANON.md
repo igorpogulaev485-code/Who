@@ -84,6 +84,7 @@
 ## NPC
 
 - [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
+- [Милана](world/npcs/milana.md) — дочь Маэстро (канон имени)
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
@@ -131,6 +132,8 @@
 ## Подготовка (ещё не сыграно)
 
 - [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md)
+- [Визуал сессии 1 (Лунный Мост)](assets/prompts/lunnyy-most-arc3-s1.md)
+- [**Книга визуала арки 3**](campaign/prep/arc3-visual-book/README.md) — оглавление, главы со сценами и лицами
 - [Вирра / Гонд — награда за веру](campaign/prep/virra-gond-faith-reward.md)
 - [Битва за Лунный Овраг — механика](campaign/prep/bitva-za-lunnyy-ovrag.md)
 - [Кузница Фиалки](world/locations/lunnyy-most/kuznitsa-fialki.md)
