@@ -1,41 +1,40 @@
 ---
 id: orch-mq06-triad-entry
 title: "План — mq-06: три входа (доспехи / меч / сапоги)"
-status: blocked-survey
-source: gm-2026-09-23 triad-entry answers
+status: in-progress
+source: gm-2026-09-23 triad + ridge answers
 ---
 
 # План — вариации входа mq-06
 
 ## Цель
 
-Открытый мир: партия сама выбирает первый земной арт. Prep: **меч/Хребет** первым; государства через `echo-dawn-state`.
+Открытый мир; prep меча через state.
 
-## Шаг 0 — canon
+## Готово
 
-- Лок ответов: [`../../plot/canon-lock-2026-09-23-mq06-triad-entry.md`](../../plot/canon-lock-2026-09-23-mq06-triad-entry.md)
-- Льды (акт A) готовы; яйца ≠ меч; Пыль = враги, путь через Розалию
+- [x] Лок triad-entry  
+- [x] Лок ridge-state  
+- [x] Паспорт Хребта W1  
+- [x] Карта v1 (ждёт ok)  
+- [x] С.2 меча (посольство → сведения)
 
 ## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
-| 1 | echo-dawn-state | опрос → паспорт **Драконьего Хребта** | **blocked-survey** |
-| 2 | echo-dawn-quest-main / location | с.2 меча (портал → святыня) | wait |
-| 3 | echo-dawn-state | паспорт **Звёздной Пыли** | wait |
-| 4 | quest / location | с.2 сапог (Розалия → море) | wait |
-| 5 | quest-main | синк mq-06 + open-threads | wait |
+| 1 | echo-dawn-state | паспорт Хребта W1 | **done** |
+| 2 | map | карта v1 | **done** (wait ok) |
+| 3 | quest-main | с.2 меча | **done** |
+| 4 | echo-dawn-state | паспорт **Звёздной Пыли** | next |
+| 5 | quest | с.2 сапог (Розалия → море) | wait |
 
-## Опросы
+## Нужно от мастера
 
-Хребет: [`../../plot/survey-mq06-ridge-state.md`](../../plot/survey-mq06-ridge-state.md)
+1. Ok / правки карты Хребта v1  
+2. Ok имени **Пепельный Гребень** или замена  
+3. Ok → Пыль
 
 ## Не делаем
 
-- Spine ~20  
-- Привязка яиц к мечу  
-- Писать паспорт/с.2 до ответов по Хребту  
-
----
-
-**Жду ответы опроса Хребта.**
+- Spine ~20 · яйца в ветке меча · W2 регионов до запроса  

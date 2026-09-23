@@ -83,7 +83,9 @@ tags: [quest, main, artefacts, kardian, travel]
 | Подступы / аудиенция | с.2 = закрепиться, не изъять |
 | Яйца | **не** связывать с этой веткой (`f_none`) |
 
-Паспорт Империи: опрос [`../../../plot/survey-mq06-ridge-state.md`](../../../plot/survey-mq06-ridge-state.md) → затем `states/…`.
+Паспорт Империи: [`../../../../world/locations/states/imperiya-drakonyego-khrebta.md`](../../../../world/locations/states/imperiya-drakonyego-khrebta.md)  
+С.2 меча: [`mq-06-sessions-2-door-e-sword.md`](mq-06-sessions-2-door-e-sword.md)  
+Карта: [`../../../../world/locations/drakoniy-khrebet-map.md`](../../../../world/locations/drakoniy-khrebet-map.md)
 
 ### Акт C — Сапоги покрова (Звёздная Пыль)
 

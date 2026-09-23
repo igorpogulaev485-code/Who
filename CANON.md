@@ -50,6 +50,8 @@
 - [Государства мира](world/locations/states-overview.md)
 - [Ледяной Союз](world/locations/states/ledyanoy-soyuz.md) (столица **Гирмхельм**; Совет; воентан **Дунгар Седощит**)
 - Prep Гирмхельм: [`campaign/prep/locations/girmhelm/`](campaign/prep/locations/girmhelm/)
+- [Империя Драконьего Хребта](world/locations/states/imperiya-drakonyego-khrebta.md) (столица **Город Пламени**; триумвират + Зариакс)
+- Карта Хребта (prep): [`world/locations/drakoniy-khrebet-map.md`](world/locations/drakoniy-khrebet-map.md)
 - [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)

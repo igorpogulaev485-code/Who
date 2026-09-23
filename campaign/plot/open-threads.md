@@ -80,5 +80,7 @@ source: gm-lock-round2 + player-briefs
 Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + доска q-girm-01…06).  
 План: [`../prep/orchestrator/mq06-ice-city-ladder-plan.md`](../prep/orchestrator/mq06-ice-city-ladder-plan.md)  
 Опционально: районы глубже / скрипты с.3–6.  
-**mq-06 тройка:** открытый мир (любой арт первым). Prep: меч/Хребет → паспорт ([`survey-mq06-ridge-state.md`](survey-mq06-ridge-state.md)). Сапоги: адмирал; путь через Розалию. Лок: [`canon-lock-2026-09-23-mq06-triad-entry.md`](canon-lock-2026-09-23-mq06-triad-entry.md).  
+**mq-06 тройка:** открытый мир. Ветка меча: паспорт W1 + карта v1 + с.2 [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-sword.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-sword.md).  
+Столица **Город Пламени**; триумвират + Зариакс; святыня **Пепельный Гребень*** (proposal).  
+Лок: [`canon-lock-2026-09-23-mq06-ridge-state.md`](canon-lock-2026-09-23-mq06-ridge-state.md). Дальше: ok карты / имени пика · паспорт **Пыли**.  
 Сессии 2 ещё нет: двери **B**, **C**.
