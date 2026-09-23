@@ -52,6 +52,8 @@ tags: [meta]
 | 2026-09-04 | `assets/maps/aelendor-map.jpg` | Карта Аэлендора → `world/locations/aelendor-map.md` |
 | 2026-09-04 | `assets/maps/lunnye-piki-map.jpg` | Карта провинции Лунные Пики → `world/locations/lunnye-piki-map.md` |
 
+| 2026-09-23 | `drafts/imports/audit-early-sessions-qwen-docx.md` + `early-sessions-docx/` | Локальные docx: подготовка + «Прошла … сессия» 1–6 (USER-тексты; сверка с каноном) |
+
 ## Ожидается
 
-Следующие шаринг-ссылки по хронологии.
+Дописать детали сессий 02–04 из аудита; свести имя дочери Маэстро (Милана / Марина).

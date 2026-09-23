@@ -1,10 +1,12 @@
 # Канон — индекс
 
-Живой оглавление. Обновлено после импорта первого шаринга Qwen (сессии 1–8 + side).
+Живой оглавление. Обновлено после аудита ранних docx с Qwen (подготовка + сессии 1–6).
 
 ## Мета
 
 - [Источники](SOURCES.md)
+- [Аудит ранних docx (подготовка + с.1–6)](drafts/imports/audit-early-sessions-qwen-docx.md)
+- [Архив USER-текстов ранних сессий](drafts/imports/early-sessions-docx/)
 - [Архив: прошлые сессии](drafts/imports/qwen-2026-01-15-past-sessions-world.md)
 - [Архив: Иннокентий Баль](drafts/imports/qwen-innokentiy-bal.md)
 - [Архив: Розалия](drafts/imports/qwen-rozaliya.md)
