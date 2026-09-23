@@ -72,5 +72,6 @@ source: gm-lock-round2 + player-briefs
 Камень северной линии: [`../prep/locations/lunnyy-most/quests/q-portal-stone-north.md`](../prep/locations/lunnyy-most/quests/q-portal-stone-north.md)  
 Лагерь: [`../prep/locations/lager-tumannogo-schita/`](../prep/locations/lager-tumannogo-schita/)  
 Лок ответов: [`canon-lock-2026-09-22-mq06-ice-holes.md`](canon-lock-2026-09-22-mq06-ice-holes.md)  
-**Дальше (опрос):** крупный город Союза + лестница гос.квестов + Лианэя ~с.6 / оффер зла — [`survey-mq06-ice-city-ladder.md`](survey-mq06-ice-city-ladder.md) · план [`../prep/orchestrator/mq06-ice-city-ladder-plan.md`](../prep/orchestrator/mq06-ice-city-ladder-plan.md)  
+**Дальше:** волна 1 лок [`canon-lock-2026-09-23-mq06-ice-city-ladder.md`](canon-lock-2026-09-23-mq06-ice-city-ladder.md) (Гирмхельм · тан · доска · Лианэя ~с.6 поле боя).  
+**Опрос w2 (Союз + карта):** [`survey-mq06-ice-union-w2.md`](survey-mq06-ice-union-w2.md) · план [`../prep/orchestrator/mq06-ice-city-ladder-plan.md`](../prep/orchestrator/mq06-ice-city-ladder-plan.md)  
 Сессии 2 ещё нет: двери **B**, **C**.
