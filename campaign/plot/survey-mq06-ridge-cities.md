@@ -22,7 +22,7 @@ depends:
 - **Разлом** — активен, далеко от Меча  
 
 HTML: [`survey-mq06-ridge-cities.html`](survey-mq06-ridge-cities.html)  
-**Safari (~72 ч):** *(после заливки)*
+**Safari (~72 ч):** https://litter.catbox.moe/9odm99.html
 
 ---
 
