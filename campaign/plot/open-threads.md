@@ -73,7 +73,7 @@ source: gm-lock-round2 + player-briefs
 Лагерь: [`../prep/locations/lager-tumannogo-schita/`](../prep/locations/lager-tumannogo-schita/)  
 Лок ответов: [`canon-lock-2026-09-22-mq06-ice-holes.md`](canon-lock-2026-09-22-mq06-ice-holes.md)  
 **Дальше:** лок w1+w2 — **Гирмхельм**, **Совет старейшин**, фронт у **Старого Разлома** (верхние ледники).  
-Карта **v2** на ревью (+ полисы Камнерог / Снеговар / Ледопад).  
+Карта **v2** на ревью (+ полисы Камнерог / Кузня Мороза / Ледопад).  
 Паспорт: [`../../world/locations/states/ledyanoy-soyuz.md`](../../world/locations/states/ledyanoy-soyuz.md) · карта: [`../../world/locations/ledyanoy-soyuz-map.md`](../../world/locations/ledyanoy-soyuz-map.md)  
 Локи: [`canon-lock-2026-09-23-mq06-ice-city-ladder.md`](canon-lock-2026-09-23-mq06-ice-city-ladder.md) · [`canon-lock-2026-09-23-mq06-ice-union-w2.md`](canon-lock-2026-09-23-mq06-ice-union-w2.md)  
 План: [`../prep/orchestrator/mq06-ice-city-ladder-plan.md`](../prep/orchestrator/mq06-ice-city-ladder-plan.md) — жду ок v2 + имена → playbook/доска.  
