@@ -17,7 +17,7 @@ parent: plane-maps-plan.md
 | Имена 9 кругов | **LOCKED · B** [`canon-lock-2026-09-23-demon-plane-circle-names-b.md`](../../plot/canon-lock-2026-09-23-demon-plane-circle-names-b.md) |
 | Gazetteer | [`../locations/demon-plane-gazetteer.md`](../locations/demon-plane-gazetteer.md) |
 | Бриф компоновки | done — кольца [`../locations/demon-plane-map-brief.md`](../locations/demon-plane-map-brief.md) |
-| Отрисовка | **draft v3** (государства + ворота, вытянутый) — ждём ok |
+| Отрисовка | **draft v5** по эскизу (материк + ворота) — ждём ok |
 
 ## Whitelist player
 
