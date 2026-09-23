@@ -2,53 +2,40 @@
 id: orch-mq06-triad-entry
 title: "План — mq-06: три входа (доспехи / меч / сапоги)"
 status: blocked-survey
-source: gm-2026-09-23 («могут начать не с доспехов»)
+source: gm-2026-09-23 triad-entry answers
 ---
 
 # План — вариации входа mq-06
 
 ## Цель
 
-Партия может **начать земную охоту с любого** из трёх артов (не только Доспехи). Дописать ветки **меч (Хребет)** и **сапоги (Пыль)** + хаб выбора.
+Открытый мир: партия сама выбирает первый земной арт. Prep: **меч/Хребет** первым; государства через `echo-dawn-state`.
 
 ## Шаг 0 — canon
 
-- Ветка: `cursor/quest-skill-arc3-bd87`
-- Акт A (льды) готов: скрипт с.2 + Щит + Гирмхельм/доска
-- Лок `d_ice_only` = про **тот** вечер льдов, не запрет других стартов
-- Карточка mq-06 уже пишет «порядок свободный» — детализации B/C нет
-- Дырки: кто держит меч/сапоги; клифф с.2; дорога; яйца; liveliness льдов если ушли в другое
+- Лок ответов: [`../../plot/canon-lock-2026-09-23-mq06-triad-entry.md`](../../plot/canon-lock-2026-09-23-mq06-triad-entry.md)
+- Льды (акт A) готовы; яйца ≠ меч; Пыль = враги, путь через Розалию
 
-## Маршрут (после ответов)
+## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
-| 0 | — | опрос дырок | **blocked-survey** |
-| 1 | echo-dawn-quest-main | обновить mq-06 + акты B/C + хаб выбора | wait-ok |
-| 2 | echo-dawn-quest-main | скрипт с.2 двери E·меч | wait-ok |
-| 3 | echo-dawn-quest-main / location | скрипт с.2 двери E·сапоги (+ seed места) | wait-ok |
-| 4 | echo-dawn-canon | лок + open-threads / дверь E в с.1 | wait-ok |
+| 1 | echo-dawn-state | опрос → паспорт **Драконьего Хребта** | **blocked-survey** |
+| 2 | echo-dawn-quest-main / location | с.2 меча (портал → святыня) | wait |
+| 3 | echo-dawn-state | паспорт **Звёздной Пыли** | wait |
+| 4 | quest / location | с.2 сапог (Розалия → море) | wait |
+| 5 | quest-main | синк mq-06 + open-threads | wait |
 
 ## Опросы
 
-[`../../plot/survey-mq06-triad-entry.md`](../../plot/survey-mq06-triad-entry.md)  
-HTML: [`../../plot/survey-mq06-triad-entry.html`](../../plot/survey-mq06-triad-entry.html)
+Хребет: [`../../plot/survey-mq06-ridge-state.md`](../../plot/survey-mq06-ridge-state.md)
 
-## Файлы-результаты (после ok)
+## Не делаем
 
-- [ ] `canon-lock-…-mq06-triad-entry.md`
-- [ ] правки `mq-06-tri-na-zemle.md` (хаб + B/C)
-- [ ] `mq-06-sessions-2-door-e-sword.md` (или аналог)
-- [ ] `mq-06-sessions-2-door-e-boots.md`
-- [ ] seed локаций по ответам
-- [ ] синк двери E в `mq-01-sessions-1-2-detail.md` / open-threads
-
-## Не делаем в этом плане
-
-- Полные spine ~20 на Хребет/Пыль  
-- Паспорта государств Хребта/Пыли (только если опрос потребует)  
-- Переписывать готовую ветку льдов  
+- Spine ~20  
+- Привязка яиц к мечу  
+- Писать паспорт/с.2 до ответов по Хребту  
 
 ---
 
-**Жду ответы опроса + ok** перед шагами.
+**Жду ответы опроса Хребта.**
