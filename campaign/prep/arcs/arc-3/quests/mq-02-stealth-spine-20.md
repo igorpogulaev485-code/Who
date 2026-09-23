@@ -44,7 +44,7 @@ gm_ok: "2026-09-23 — j_ok + geometry lock (круги плана, не Раз�
 | **3** | Серебряный Филактерий = своё «государство» | mq-01 акт 2 |
 | **4** | Око Затмения | mq-01 акт 3 |
 
-Имена кругов на карте — [`demon-plane-gazetteer.md`](../../../locations/demon-plane-gazetteer.md) (draft).
+Имена кругов на карте — [`demon-plane-gazetteer.md`](../../../locations/demon-plane-gazetteer.md) · атлас **LOCKED v24**.
 
 Артефакты **не** у Маяка — за Первыми Воротами на круге 2.
 
