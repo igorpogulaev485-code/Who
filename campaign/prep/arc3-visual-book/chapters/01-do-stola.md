@@ -52,43 +52,43 @@ title: "1 · До стола"
 Покажи 1–3 кадра, если нужно напомнить «как выглядел Лунный Мост» до траура. Это **не** похороны — для контраста.
 
 
-![Верхняя авеню, лунный луч](../media/festival/01-upper-avenue-moonbeam.jpg)
+![Верхняя авеню, лунный луч](media/festival/01-upper-avenue-moonbeam.jpg)
 
 > **Кадр:** Верхняя авеню, лунный луч
 
-![Район Пришельцев](../media/festival/02-outsiders-quarter-market.jpg)
+![Район Пришельцев](media/festival/02-outsiders-quarter-market.jpg)
 
 > **Кадр:** Район Пришельцев
 
-![Парапет и лотос](../media/festival/03-lotus-railing-spirits.jpg)
+![Парапет и лотос](media/festival/03-lotus-railing-spirits.jpg)
 
 > **Кадр:** Парапет и лотос
 
-![Врата](../media/festival/04-gates-crowd.jpg)
+![Врата](media/festival/04-gates-crowd.jpg)
 
 > **Кадр:** Врата
 
-![Ось улицы к мосту](../media/festival/05-market-bridge-axis.jpg)
+![Ось улицы к мосту](media/festival/05-market-bridge-axis.jpg)
 
 > **Кадр:** Ось улицы к мосту
 
-![Кузнец и писец](../media/festival/06-forge-scribe-street.jpg)
+![Кузнец и писец](media/festival/06-forge-scribe-street.jpg)
 
 > **Кадр:** Кузнец и писец
 
-![Улица к арке моста](../media/festival/07-street-to-bridge.jpg)
+![Улица к арке моста](media/festival/07-street-to-bridge.jpg)
 
 > **Кадр:** Улица к арке моста
 
-![Плацдарм с лотосами](../media/festival/08-lotus-plaza-festival.jpg)
+![Плацдарм с лотосами](media/festival/08-lotus-plaza-festival.jpg)
 
 > **Кадр:** Плацдарм с лотосами
 
-![Ночной дворец и мост](../media/festival/09-cliff-palace-night.jpg)
+![Ночной дворец и мост](media/festival/09-cliff-palace-night.jpg)
 
 > **Кадр:** Ночной дворец и мост
 
-![Павильон и луч](../media/festival/10-open-pavilion-beam.jpg)
+![Павильон и луч](media/festival/10-open-pavilion-beam.jpg)
 
 > **Кадр:** Павильон и луч
 

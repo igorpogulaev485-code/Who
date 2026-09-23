@@ -27,11 +27,11 @@ title: "7 · Дверь E·меч — Хребет"
 
 ### 2.0 — Выбор меча
 
-![Саэрис Пепельный](../media/npc/npc-saeris.png)
+![Саэрис Пепельный](media/npc/npc-saeris.png)
 
 > **Кадр:** Саэрис Пепельный
 
-![Кезарр](../media/npc/npc-kezarr.png)
+![Кезарр](media/npc/npc-kezarr.png)
 
 > **Кадр:** Кезарр
 
@@ -45,7 +45,7 @@ title: "7 · Дверь E·меч — Хребет"
 
 ### 2.1 — Портал
 
-![Прибытие в жар](../media/locations/loc-s1-ridge-portal-arrival.png)
+![Прибытие в жар](media/locations/loc-s1-ridge-portal-arrival.png)
 
 > **Кадр:** Прибытие в жар
 
@@ -59,19 +59,19 @@ title: "7 · Дверь E·меч — Хребет"
 
 ### 2.2 — Дипломатический двор
 
-![Дипломатический двор](../media/locations/loc-s2-diplomatic-court.png)
+![Дипломатический двор](media/locations/loc-s2-diplomatic-court.png)
 
 > **Кадр:** Дипломатический двор
 
-![Алазар](../media/npc/npc-alazar.png)
+![Алазар](media/npc/npc-alazar.png)
 
 > **Кадр:** Алазар · не на приёме гостей
 
-![Эридан](../media/npc/npc-eridan.png)
+![Эридан](media/npc/npc-eridan.png)
 
 > **Кадр:** Эридан · архивы/обсерватория как слух
 
-![Корвар](../media/npc/npc-korvar.png)
+![Корвар](media/npc/npc-korvar.png)
 
 > **Кадр:** Корвар
 
@@ -113,15 +113,15 @@ title: "7 · Дверь E·меч — Хребет"
 4. Разлом Империи **не** у пика — искать меч «у Разлома» = ложный путь.
 
 
-![Зариакс](../media/npc/npc-zariax.png)
+![Зариакс](media/npc/npc-zariax.png)
 
 > **Кадр:** Зариакс · намёк, не встреча
 
-![Адмирал Пыли](../media/npc/npc-admiral-star-dust.png)
+![Адмирал Пыли](media/npc/npc-admiral-star-dust.png)
 
 > **Кадр:** Звёздная Пыль · общий враг (фон)
 
-![Пепельный Гребень](../media/locations/loc-s3-ashen-crest-distant.png)
+![Пепельный Гребень](media/locations/loc-s3-ashen-crest-distant.png)
 
 > **Кадр:** Пепельный Гребень
 
@@ -147,7 +147,7 @@ title: "7 · Дверь E·меч — Хребет"
 
 ### 2.5 — Клифф
 
-![Пепельный Гребень вдали](../media/locations/loc-s3-ashen-crest-distant.png)
+![Пепельный Гребень вдали](media/locations/loc-s3-ashen-crest-distant.png)
 
 > **Кадр:** Пепельный Гребень вдали
 

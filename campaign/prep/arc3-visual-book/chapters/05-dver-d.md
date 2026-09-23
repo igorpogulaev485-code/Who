@@ -29,7 +29,7 @@ title: "5 · Дверь D — Порог"
 
 ### 2.0 — Верхний город
 
-![Зал порталов](../media/locations/loc-d1-portal-hall.png)
+![Зал порталов](media/locations/loc-d1-portal-hall.png)
 
 > **Кадр:** Зал порталов
 
@@ -45,15 +45,15 @@ title: "5 · Дверь D — Порог"
 
 ### 2.1 — Кавил + хранители
 
-![Маэрис](../media/npc/npc-maeris.png)
+![Маэрис](media/npc/npc-maeris.png)
 
 > **Кадр:** Маэрис Ключ-в-Камне
 
-![Брум](../media/npc/npc-brum.png)
+![Брум](media/npc/npc-brum.png)
 
 > **Кадр:** Брум Кремнеладонь
 
-![Селена Печать-Линий](../media/npc/npc-selena-lines.png)
+![Селена Печать-Линий](media/npc/npc-selena-lines.png)
 
 > **Кадр:** Селена Печать-Линий
 
@@ -118,7 +118,7 @@ title: "5 · Дверь D — Порог"
 
 ### 2.4 — Ритуал → прыжок
 
-![Прыжок портала](../media/locations/loc-d2-portal-jump.png)
+![Прыжок портала](media/locations/loc-d2-portal-jump.png)
 
 > **Кадр:** Прыжок портала
 
@@ -132,19 +132,19 @@ title: "5 · Дверь D — Порог"
 
 ### 2.5 — Храм Серебряного Порога
 
-![Порог · высадка](../media/locations/loc-d3-threshold-landing.png)
+![Порог · высадка](media/locations/loc-d3-threshold-landing.png)
 
 > **Кадр:** Порог · высадка
 
-![Илсара](../media/npc/npc-ilsara.png)
+![Илсара](media/npc/npc-ilsara.png)
 
 > **Кадр:** Илсара
 
-![Оррен](../media/npc/npc-orren.png)
+![Оррен](media/npc/npc-orren.png)
 
 > **Кадр:** Оррен
 
-![Тэвин](../media/npc/npc-tevin.png)
+![Тэвин](media/npc/npc-tevin.png)
 
 > **Кадр:** Тэвин
 
@@ -166,11 +166,11 @@ title: "5 · Дверь D — Порог"
 
 ### 2.6 — Подсказки (обязательно)
 
-![Зал имён / чаши](../media/locations/loc-d4-names-cups.png)
+![Зал имён / чаши](media/locations/loc-d4-names-cups.png)
 
 > **Кадр:** Зал имён / чаши
 
-![Саэла](../media/npc/npc-saela.png)
+![Саэла](media/npc/npc-saela.png)
 
 > **Кадр:** Саэла
 
@@ -186,11 +186,11 @@ title: "5 · Дверь D — Порог"
 > Высокородных шлют служить в монастырь на северной чаще. Король Аэлендора там **служил**. Сейчас его там нет уже много лет… но **искать** иногда начинают оттуда.
 
 
-![Элессар I](../media/npc/npc-elessar.png)
+![Элессар I](media/npc/npc-elessar.png)
 
 > **Кадр:** Элессар · только если копают (не вживую)
 
-![Малфурион](../media/npc/npc-malfurion.png)
+![Малфурион](media/npc/npc-malfurion.png)
 
 > **Кадр:** Малфурион · цель тропы, не встреча сегодня
 
@@ -199,7 +199,7 @@ title: "5 · Дверь D — Порог"
 
 ### 2.7 — Клифф
 
-![Три тропы](../media/locations/loc-d5-three-trails.png)
+![Три тропы](media/locations/loc-d5-three-trails.png)
 
 > **Кадр:** Три тропы
 

@@ -31,21 +31,21 @@ title: "3 · Дверь A — Маяк"
 
 ### 2.0 — Подход
 
-![Подход к Купели](../media/locations/loc-h3-kupel-approach.png)
+![Подход к Купели](media/locations/loc-h3-kupel-approach.png)
 
 > **Кадр:** Подход к Купели
 
 #### Элиан Вечный Узел
 *одобрение потока*
 
-![Элиан Вечный Узел](../media/npc/npc-elian.png)
+![Элиан Вечный Узел](media/npc/npc-elian.png)
 
 > **Кадр:** Элиан Вечный Узел
 
 #### Ваэра Ночной Клинок
 *дроу-хранитель*
 
-![Ваэра Ночной Клинок](../media/npc/npc-vaera.png)
+![Ваэра Ночной Клинок](media/npc/npc-vaera.png)
 
 > **Кадр:** Ваэра Ночной Клинок
 
@@ -104,7 +104,7 @@ Perception 12: в лазарете стоны тех, кого обожгло п
 
 ### 2.2 — Осмотр раны
 
-![Фиолетовая рана Зеркала](../media/locations/loc-a1-kupel-violet-wound.png)
+![Фиолетовая рана Зеркала](media/locations/loc-a1-kupel-violet-wound.png)
 
 > **Кадр:** Фиолетовая рана Зеркала
 
@@ -127,7 +127,7 @@ Perception 12: в лазарете стоны тех, кого обожгло п
 
 ### 2.3 — Открытие потока → выброс (демоны)
 
-![Выброс демонов](../media/locations/loc-a2-kupel-demon-burst.png)
+![Выброс демонов](media/locations/loc-a2-kupel-demon-burst.png)
 
 > **Кадр:** Выброс демонов
 
@@ -155,7 +155,7 @@ Perception 12: в лазарете стоны тех, кого обожгло п
 
 ### 2.4 — Проход
 
-![Фиолетовый проход](../media/locations/loc-a3-violet-passage.png)
+![Фиолетовый проход](media/locations/loc-a3-violet-passage.png)
 
 > **Кадр:** Фиолетовый проход
 
@@ -198,7 +198,7 @@ Athletics / Acrobatics / Arcana / Religion / Insight — **один** бросо
 
 ### 2.5 — Приземление
 
-![Пустошь · приземление](../media/locations/loc-a4-wasteland-landing.png)
+![Пустошь · приземление](media/locations/loc-a4-wasteland-landing.png)
 
 > **Кадр:** Пустошь · приземление
 
@@ -212,39 +212,39 @@ Dex DC **13** → провал **2к8** дробящего.
 
 ### 2.6 — Маяк душ
 
-![Маяк и лагерь изгоев](../media/locations/loc-a5-beacon-camp.png)
+![Маяк и лагерь изгоев](media/locations/loc-a5-beacon-camp.png)
 
 > **Кадр:** Маяк и лагерь изгоев
 
-![Бой у клеток](../media/locations/loc-a6-beacon-cages-fight.png)
+![Бой у клеток](media/locations/loc-a6-beacon-cages-fight.png)
 
 > **Кадр:** Бой у клеток
 
 #### Сарель Пепельный Договор
 *лидер изгоев*
 
-![Сарель Пепельный Договор](../media/npc/npc-sarel.png)
+![Сарель Пепельный Договор](media/npc/npc-sarel.png)
 
 > **Кадр:** Сарель Пепельный Договор
 
 #### Кеш
 *молодой изгой*
 
-![Кеш](../media/npc/npc-kesh.png)
+![Кеш](media/npc/npc-kesh.png)
 
 > **Кадр:** Кеш
 
 #### Орра
 *руны*
 
-![Орра](../media/npc/npc-orra.png)
+![Орра](media/npc/npc-orra.png)
 
 > **Кадр:** Орра
 
 #### Сборщик Огарков
 *босс*
 
-![Сборщик Огарков](../media/npc/npc-collector-embers.png)
+![Сборщик Огарков](media/npc/npc-collector-embers.png)
 
 > **Кадр:** Сборщик Огарков
 
@@ -303,7 +303,7 @@ Insight 14: угроза реальна; она не блефует про пр�
 
 ### 2.7 — Клифф
 
-![Клифф · дымы к Алтарному тракту](../media/locations/loc-a7-beacon-cliff.png)
+![Клифф · дымы к Алтарному тракту](media/locations/loc-a7-beacon-cliff.png)
 
 > **Кадр:** Клифф · дымы к Алтарному тракту
 
