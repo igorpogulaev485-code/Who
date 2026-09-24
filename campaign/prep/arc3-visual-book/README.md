@@ -43,6 +43,7 @@ format: index-plus-sheets
 | 16 | [Совет · индекс](chapters/16-index.md) | Малфурион · Элессар |
 | 17 | **[Живой мир · индекс](chapters/17-index.md)** | часы фронтов · тик · интерлюдия |
 | **18** | **[Дверь R · Воскрешение · с.2](chapters/18-index.md)** | Ниша · Торвик/Карим · юг/песок · без Амирата |
+| **19** | **[Сны Кардиана · Грок](chapters/19-index.md)** | Эхо Пепла → деревня · кадры сцен |
 
 ## Канон планов — [карты · индекс](chapters/12-index.md)
 
@@ -52,6 +53,7 @@ format: index-plus-sheets
 | Мёртвые | 5 островов LOCKED | **Берег Памяти** LOCKED | Причал LOCKED |
 
 Дочь Маэстро = **Милана**. Дневник: оглавление в [09](chapters/09-index.md); **открыто в интерлюдии** 16/17/52–55 — [handout](../books/dnevnik-maestro/handout-open-pages.md).  
-**Живой мир:** [гл. 17](chapters/17-index.md). **Воскрешение / крышка:** [гл. 18 · R](chapters/18-index.md) (после стр. 16–17).
+**Живой мир:** [гл. 17](chapters/17-index.md). **Воскрешение / крышка:** [гл. 18 · R](chapters/18-index.md) (после стр. 16–17).  
+**Сны Кардиана (Грок):** [гл. 19](chapters/19-index.md).
 
 Скил: [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md)
