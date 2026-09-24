@@ -89,4 +89,4 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
 Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
 [`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
-**Карты планов:** Маяк **LOCKED v4**. Атлас демонов **LOCKED v24**. План мёртвых **LOCKED v2**. След.: карты входных государств (Порог / Берег Памяти) — опрос [`survey-plane-entry-state-maps-v1.md`](survey-plane-entry-state-maps-v1.md).
+**Карты планов:** Маяк **LOCKED v4**. Атлас демонов **LOCKED v24**. План мёртвых **LOCKED v2**. Карты входных государств **v1 на ревью:** [`Берег Памяти`](../prep/locations/bereg-pamyati/map.md) · [`Пепельный Порог`](../prep/locations/pepelnyy-porog/map.md).
