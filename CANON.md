@@ -104,7 +104,7 @@
 - [Филлер](world/npcs/filler.md)
 - [Веларис](world/npcs/velaris.md)
 - [Элеонора](world/npcs/eleonora.md)
-- [Кардиан](world/npcs/kardian.md)
+- [Кардиан](world/npcs/kardian.md) — антагонист арки 5; жена **Аэлиндра**; сны эмпатии → ранбук [гл. 19](campaign/prep/arc3-visual-book/chapters/19-index.md)
 - [Сильванара](world/npcs/silvanara.md) — мать Люмиэля; слух о престоле
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
 - [Велиан Полутень](world/npcs/velian.md) — жив; план мёртвых, в пути
