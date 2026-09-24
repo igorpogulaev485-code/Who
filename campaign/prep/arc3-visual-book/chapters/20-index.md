@@ -96,7 +96,7 @@ Gazetteer мёртвых: [`dead-plane-gazetteer`](../../locations/dead-plane-ga
 
 | Место | Где | Playbook / дверь |
 |---|---|---|
-| Лунный Мост | Аэлендор | [02 хаб](02-index.md) · [карта 1–58](../../locations/lunnyy-most/places-catalog.md) · [⬇](https://iili.io/nAZ73sS.jpg) |
+| Лунный Мост | Аэлендор | [02 хаб](02-index.md) · [карта 1–58](../../locations/lunnyy-most/places-catalog.md) · [⬇](https://iili.io/nAZ73sS.jpg) · [приют · этажи](../../locations/lunnyy-most/kolybel-rassveta-maps.md) |
 | **Серебряный Страж** | Аэлендор · Лунные Пики | [`serebryanyy-strazh`](../../../../world/locations/serebryanyy-strazh.md) · [карта 1–16](../../locations/serebryanyy-strazh/places-catalog.md) · [⬇](https://iili.io/nAZcRB2.jpg) |
 | **Лунный Овраг** | Аэлендор · южнее Моста | [`lunnyy-ovrag`](../../../../world/locations/lunnyy-ovrag.md) · [карта 1–10](../../locations/lunnyy-ovrag/places-catalog.md) · [⬇](https://iili.io/nAZ0JPp.jpg) |
 | **Камнеград** | Аэлендор · Лунные Пики | [`kamnegrad`](../../../../world/locations/kamnegrad.md) · [карта 1–29](../../locations/kamnegrad/places-catalog.md) · [⬇](https://iili.io/nAZEkcN.jpg) *(сожжён — карта = «как было»)* |
