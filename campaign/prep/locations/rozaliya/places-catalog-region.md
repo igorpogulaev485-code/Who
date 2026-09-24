@@ -22,7 +22,7 @@ map_https: https://iili.io/nAZh1cv.jpg
 | **Красный луг** | [`krasnyy-lug.md`](../../../world/locations/krasnyy-lug.md) |
 | **Лесоверье** | [`lesoverye.md`](../../../world/locations/lesoverye.md) |
 | **Мёртвый город** | [`mertvyy-gorod.md`](../../../world/locations/mertvyy-gorod.md) |
-| **Храм Лолс** *(на карте: «Лоле»)* | руины/храм · см. также арка Оврага; регион. якорь |
+| **Храм Лолс** *(на карте: «Лоле»)* | [`khram-lols.md`](../../../world/locations/khram-lols.md) |
 | **Драконий чертог** | пещера у вулкана · карточка **TBD** |
 | *(безымянный хутор у развилки)* | слот · не подписывать игрокам без нужды |
 
