@@ -70,6 +70,8 @@
 - `npc-aran.jpg` → https://iili.io/nADAbEP.jpg · **Аран**, управляющий приюта
 - `npc-ella.jpg` → https://iili.io/nADaE0B.jpg · **Элла**, повариха приюта
 - `npc-brunhilda.jpg` → https://iili.io/nADlZH7.jpg · **Брунгильда**, нянечка
+- `npc-pippin.jpg` → https://iili.io/nAD1Npt.jpg · **Пиппин** (мёртв · предатель)
+- `npc-lumiel.jpg` → https://iili.io/nADMwvV.jpg · **Люмиэль** (мёртв · таверна инкогнито)
 
 ## Дверь R · с.2
 
