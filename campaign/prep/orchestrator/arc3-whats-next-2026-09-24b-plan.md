@@ -32,4 +32,4 @@ source: gm-2026-09-24 («Огонь! Что делаем дальше?»)
 
 ## Выбрано
 
-_(ждём id)_
+`n_living` → [`arc3-living-world-runbook-plan.md`](arc3-living-world-runbook-plan.md) · каркас гл. 17 + опрос.

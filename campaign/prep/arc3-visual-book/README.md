@@ -40,6 +40,7 @@ format: index-plus-sheets
 | 14 | [Плейбуки · индекс](chapters/14-index.md) | Маяк · Причал · Порог · Щит |
 | 15 | [Spine · индекс](chapters/15-index.md) | после с.2 |
 | 16 | [Совет · индекс](chapters/16-index.md) | Малфурион · Элессар |
+| **17** | **[Живой мир · индекс](chapters/17-index.md)** | часы фронтов · тик · интерлюдия |
 
 ## Канон планов — [карты · индекс](chapters/12-index.md)
 
@@ -48,6 +49,7 @@ format: index-plus-sheets
 | Демоны | 9 кругов LOCKED | **Пепельный Порог** LOCKED v6 | Маяк LOCKED |
 | Мёртвые | 5 островов LOCKED | **Берег Памяти** LOCKED | Причал LOCKED |
 
-Дочь Маэстро = **Милана**. Дневник: оглавление в [09](chapters/09-index.md); **открыто в интерлюдии** 16/17/52–55 — [handout](../books/dnevnik-maestro/handout-open-pages.md).
+Дочь Маэстро = **Милана**. Дневник: оглавление в [09](chapters/09-index.md); **открыто в интерлюдии** 16/17/52–55 — [handout](../books/dnevnik-maestro/handout-open-pages.md).  
+**Живой мир:** [гл. 17](chapters/17-index.md) — тик фронтов между сессиями.
 
 Скил: [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md)

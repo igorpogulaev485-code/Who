@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос — Живой мир (арка 3)</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:740px;margin:2rem auto;padding:0 1rem;line-height:1.45;background:#1a1512;color:#e8e0d5}
+h1{font-size:1.35rem} h2{font-size:1.05rem;margin-top:1.5rem;border-bottom:1px solid #444;padding-bottom:.3rem}
+label{display:block;margin:.35rem 0;padding:.45rem .6rem;background:#2a2320;border-radius:6px;cursor:pointer}
+label:hover{background:#3a322c}
+.note{opacity:.85;font-size:.92rem;margin:1rem 0;padding:.75rem;background:#241f1c;border-left:3px solid #8b6914}
+button{margin-top:1.2rem;padding:.6rem 1.2rem;font-size:1rem;cursor:pointer;background:#8b6914;color:#fff;border:0;border-radius:6px}
+#out{white-space:pre-wrap;background:#111;padding:1rem;margin-top:1rem;border-radius:6px;font-size:.9rem}
+textarea{width:100%;margin-top:.4rem;background:#111;color:#eee;border:1px solid #444;padding:.5rem}
+</style>
+</head>
+<body>
+<h1>Опрос — Живой мир (арка 3)</h1>
+<p class="note">Делаем <b>гл. 17 ранбука</b>. Выбери варианты → «Собрать ответ» → вставь в чат. Рекомендации уже отмечены.</p>
+
+<h2>A · Когда мир тикает?</h2>
+<label><input type="radio" name="A" value="a_end"/> a_end · в конце каждой сессии</label>
+<label><input type="radio" name="A" value="a_inter"/> a_inter · только интерлюдия</label>
+<label><input type="radio" name="A" value="a_both" checked/> a_both · сессия + интерлюдия (рек.)</label>
+<label><input type="radio" name="A" value="a_calendar"/> a_calendar · по игровому календарю</label>
+<label><input type="radio" name="A" value="a_other"/> a_other · другое</label>
+
+<h2>B · Сколько фронтов за тик?</h2>
+<label><input type="radio" name="B" value="b_1"/> b_1 · ровно 1</label>
+<label><input type="radio" name="B" value="b_2" checked/> b_2 · 1–2 фронта (рек.)</label>
+<label><input type="radio" name="B" value="b_2plus"/> b_2plus · 1–2 + обязательная новость партии</label>
+<label><input type="radio" name="B" value="b_other"/> b_other · другое</label>
+
+<h2>C · Горячие сейчас (до 3)</h2>
+<label><input type="checkbox" name="C" value="c_rift" checked/> c_rift · Демоны / Лунный Разлом</label>
+<label><input type="checkbox" name="C" value="c_order" checked/> c_order · Орден у Сильванора</label>
+<label><input type="checkbox" name="C" value="c_ridge" checked/> c_ridge · Хребет у моста</label>
+<label><input type="checkbox" name="C" value="c_ice"/> c_ice · Лианэя / льды</label>
+<label><input type="checkbox" name="C" value="c_milana"/> c_milana · Милана / дневник</label>
+<label><input type="checkbox" name="C" value="c_velian"/> c_velian · Велиан</label>
+<label><input type="checkbox" name="C" value="c_valley"/> c_valley · Теневая Долина</label>
+<label><input type="checkbox" name="C" value="c_elessar"/> c_elessar · Элессар / Лес</label>
+<label><input type="checkbox" name="C" value="c_clone"/> c_clone · Сосуд Двойника</label>
+<label><input type="checkbox" name="C" value="c_other"/> c_other · другое</label>
+
+<h2>D · Старт жара Лунного Разлома</h2>
+<label><input type="radio" name="D" value="d0"/> d0 · давление, город держится</label>
+<label><input type="radio" name="D" value="d1" checked/> d1 · вылазки / жертвы / слухи (рек.)</label>
+<label><input type="radio" name="D" value="d2"/> d2 · уже плохо</label>
+<label><input type="radio" name="D" value="d3"/> d3 · кризис</label>
+<label><input type="radio" name="D" value="d_other"/> d_other · другое</label>
+
+<h2>E · Часы Двойника / крышки</h2>
+<label><input type="radio" name="E" value="e_now"/> e_now · отдельный фронт сейчас</label>
+<label><input type="radio" name="E" value="e_later" checked/> e_later · позже, когда пойдут искать (рек.)</label>
+<label><input type="radio" name="E" value="e_merge"/> e_merge · слить с Миланой / воскрешением</label>
+<label><input type="radio" name="E" value="e_other"/> e_other · другое</label>
+
+<h2>F · Интерлюдия дневника = тик мира?</h2>
+<label><input type="radio" name="F" value="f_yes"/> f_yes · да, 1 тик уже прошёл</label>
+<label><input type="radio" name="F" value="f_no" checked/> f_no · нет, чтение ≠ тик (рек.)</label>
+<label><input type="radio" name="F" value="f_soft"/> f_soft · только мягкий слух</label>
+<label><input type="radio" name="F" value="f_other"/> f_other · другое</label>
+
+<h2>G · Канал новости по умолчанию</h2>
+<label><input type="radio" name="G" value="g_herald"/> g_herald · глашатай / гонец</label>
+<label><input type="radio" name="G" value="g_npc"/> g_npc · знакомый НПС</label>
+<label><input type="radio" name="G" value="g_ring"/> g_ring · кольцо Миланы</label>
+<label><input type="radio" name="G" value="g_mix" checked/> g_mix · чередуем (рек.)</label>
+<label><input type="radio" name="G" value="g_other"/> g_other · другое</label>
+
+<h2>H · Дальше</h2>
+<label><input type="radio" name="H" value="h_lock" checked/> h_lock · лок → дописать трекер/шаги</label>
+<label><input type="radio" name="H" value="h_tweak"/> h_tweak · сначала твик каркаса гл. 17</label>
+<label><input type="radio" name="H" value="h_other"/> h_other · другое</label>
+
+<textarea id="note" rows="3" placeholder="заметка (если *_other)"></textarea>
+<button type="button" id="go">Собрать ответ</button>
+<pre id="out"></pre>
+<script>
+document.getElementById('go').onclick=()=>{
+  const g=n=> (document.querySelector(`input[name="${n}"]:checked`)||{}).value||'?';
+  const cs=[...document.querySelectorAll('input[name="C"]:checked')].map(x=>x.value);
+  const note=document.getElementById('note').value.trim();
+  let s=`A=${g('A')} B=${g('B')} C=${cs.join('+')||'?'} D=${g('D')} E=${g('E')} F=${g('F')} G=${g('G')} H=${g('H')}`;
+  if(note) s+=`\nзаметка: ${note}`;
+  document.getElementById('out').textContent=s;
+  navigator.clipboard?.writeText(s);
+};
+</script>
+</body>
+</html>
