@@ -3,57 +3,91 @@ title: "Ранбук · Арка 3"
 status: active
 tags: [gm, runbook, arc3]
 updated: 2026-09-24
-format: index-plus-sheets
+format: blocks-hub
 ---
 
 # Ранбук · Арка 3
 
 Картинки — публичный HTTPS + **⬇ скачать**. Проверки — по-русски (Сл).  
-**Формат:** индекс главы → **один лист-бит** (сценарий: Как вести · Где · Сказать · Стоп).  
-Эталон плотности: [`chapters/18/02-2.1-три-пути.md`](chapters/18/02-2.1-три-пути.md) · правило: [`chapters/00-kak-vesti.md`](chapters/00-kak-vesti.md).
+**Формат бита:** индекс → лист (Как вести · Где · Сказать · Стоп). Эталон: [`18/02`](chapters/18/02-2.1-три-пути.md).
 
-**Правило синка:** всё LOCKED → сюда (карты · двери · playbook).
+**Ранбук ≠ канон.** Здесь — портал за стол. Истина мира растёт в каноне; сюда — ссылки + сжатые шпаргалки. Prep-биты остаются prep, пока не сыграли.
 
-## Твои 3 шага
+---
+
+## Канон (растёт · не копируем сюда)
+
+| | |
+|---|---|
+| Оглавление мира | [`CANON.md`](../../../CANON.md) |
+| Сейчас | [`open-threads`](../../plot/open-threads.md) · [`timeline`](../../plot/timeline.md) · [`arcs`](../../plot/arcs.md) |
+| Источники | [`SOURCES.md`](../../../SOURCES.md) |
+| Свежие локи | [клон Маэстро](../../plot/canon-lock-2026-09-24-maestro-clone.md) · [хвосты R](../../plot/canon-lock-2026-09-24-resurrection-tails.md) · [живой мир](../../plot/canon-lock-2026-09-24-living-world.md) · [C≠R](../../plot/canon-lock-2026-09-24-milana-vs-clone.md) |
+
+Правило: **сыгранное / локнутое → канон**; то, чем ведёшь вечер → ранбук (и зеркало лока сюда).
+
+---
+
+## Три блока
+
+| Блок | Зачем | Вход |
+|---|---|---|
+| **A · Стол** | Готовимся и ведём сессию (динамично, как живой мир) | ниже |
+| **B · Мир** | Страны → города → карты (вики-навигация) | [**20 · Мир**](chapters/20-index.md) |
+| **C · Лица** | Свои / угрозы · портреты · face-lock | [**11 · Лица**](chapters/11-index.md) |
+
+---
+
+## A · Стол
+
+### Твои 3 шага
 
 1. Закрой старые вкладки.  
-2. Открой **[`chapters/02-index.md`](chapters/02-index.md)**  
-3. Preview → кликай бит в таблице → веди → назад на индекс → после двери — **один** `0N-index.md`
-
-## Оглавление
+2. Открой **[`chapters/02-index.md`](chapters/02-index.md)** (или дверь вечера).  
+3. Preview → кликай бит → веди → назад на индекс.
 
 | | Файл | Путь |
 |---|---|---|
-| 0 | [Как вести](chapters/00-kak-vesti.md) | |
+| 0 | [Как вести](chapters/00-kak-vesti.md) | правила книги |
 | 1 | [До стола](chapters/01-do-stola.md) | слухи |
-| 2 | **[Сессия 1 · индекс](chapters/02-index.md)** | хаб · биты |
-| 3 | [Дверь A · индекс](chapters/03-index.md) | mq-01 · Пепельный Порог |
-| 4 | [Дверь F · индекс](chapters/04-index.md) | mq-04 · Берег Памяти |
-| 5 | [Дверь D · индекс](chapters/05-index.md) | mq-03 Лес |
-| 6 | [E · льды · индекс](chapters/06-index.md) | mq-06 доспехи |
-| 7 | [E · меч · индекс](chapters/07-index.md) | mq-06 меч |
-| 8 | [E · сапоги · индекс](chapters/08-index.md) | mq-06 сапоги |
-| 9 | [Дверь B · индекс](chapters/09-index.md) | дневник · оглавление |
-| 10 | [Дверь C · индекс](chapters/10-index.md) | Милана |
-| 11 | [Галерея · индекс](chapters/11-index.md) | портреты |
-| 12 | [Карты · индекс](chapters/12-index.md) | планы · гос-ва · сайты |
-| 13 | [Вставки · индекс](chapters/13-index.md) | слухи/события/бои на кубах |
-| 14 | [Плейбуки · индекс](chapters/14-index.md) | Маяк · Причал · Порог · Щит |
-| 15 | [Spine · индекс](chapters/15-index.md) | после с.2 |
-| 16 | [Совет · индекс](chapters/16-index.md) | Малфурион · Элессар |
-| 17 | **[Живой мир · индекс](chapters/17-index.md)** | часы фронтов · тик · интерлюдия |
-| **18** | **[Дверь R · Воскрешение · с.2](chapters/18-index.md)** | Ниша · Торвик/Карим · юг/песок · без Амирата |
-| **19** | **[Сны Кардиана · Грок](chapters/19-index.md)** | Эхо Пепла → деревня · кадры сцен |
+| 2 | **[Сессия 1 · хаб](chapters/02-index.md)** | похороны |
+| 3 | [Дверь A](chapters/03-index.md) | Маяк · фиолетовый |
+| 4 | [Дверь F](chapters/04-index.md) | Причал · чёрный |
+| 5 | [Дверь D](chapters/05-index.md) | Лес / Порог |
+| 6–8 | [E · льды](chapters/06-index.md) · [меч](chapters/07-index.md) · [сапоги](chapters/08-index.md) | mq-06 |
+| 9 | [Дверь B](chapters/09-index.md) | дневник |
+| 10 | [Дверь C](chapters/10-index.md) | Милана |
+| **17** | **[Живой мир](chapters/17-index.md)** | тик · фронты · интерлюдия *(внутри Стола)* |
+| **18** | **[Дверь R](chapters/18-index.md)** | воскрешение · с.2 |
+| **19** | **[Сны Кардиана](chapters/19-index.md)** | эмпатия Грока |
 
-## Канон планов — [карты · индекс](chapters/12-index.md)
+**Приложения стола** (не вики мира): [вставки 13](chapters/13-index.md) · [playbook 14](chapters/14-index.md) · [spine 15](chapters/15-index.md) · [совет 16](chapters/16-index.md)
 
-| План | Атлас | Государство входа | Site |
-|---|---|---|---|
-| Демоны | 9 кругов LOCKED | **Пепельный Порог** LOCKED v6 | Маяк LOCKED |
-| Мёртвые | 5 островов LOCKED | **Берег Памяти** LOCKED | Причал LOCKED |
+---
 
-Дочь Маэстро = **Милана**. Дневник: оглавление в [09](chapters/09-index.md); **открыто в интерлюдии** 16/17/52–55 — [handout](../books/dnevnik-maestro/handout-open-pages.md).  
-**Живой мир:** [гл. 17](chapters/17-index.md). **Воскрешение / крышка:** [гл. 18 · R](chapters/18-index.md) (после стр. 16–17).  
-**Сны Кардиана (Грок):** [гл. 19](chapters/19-index.md).
+## B · Мир
 
-Скил: [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md)
+Все государства репо + планы Разлома + сайты арки.  
+**Вход:** [**20 · Мир · индекс**](chapters/20-index.md)  
+Карты HTTPS: [12 · Атлас](chapters/12-index.md) · плейбуки мест: [14](chapters/14-index.md)
+
+---
+
+## C · Лица
+
+Портреты · Кто/Зачем/Стоп · ссылка на `world/npcs/`.  
+**Вход:** [**11 · Лица · индекс**](chapters/11-index.md) (свои / угрозы).  
+Face-lock: [Маэстро](chapters/11/40-маэстро-келебрим.md) · [Кардиан](../../../world/npcs/kardian.md)
+
+---
+
+## Быстрые якоря арки 3
+
+| | |
+|---|---|
+| Дочь Маэстро | **Милана** |
+| Дневник | оглавление [09](chapters/09-index.md); открыто 16/17/52–55 — [handout](../books/dnevnik-maestro/handout-open-pages.md) |
+| Планы | демоны → Порог/Маяк · мёртвые → Берег/Причал — [12](chapters/12-index.md) |
+
+Скил: [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md)  
+Картинки от мастера: [`assets/images/gm-upload/README.md`](../../../assets/images/gm-upload/README.md)
