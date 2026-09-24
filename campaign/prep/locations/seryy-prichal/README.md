@@ -12,7 +12,7 @@ status: prep
 | Статус | `prep` |
 | Скил | `echo-dawn-location` |
 | Арка | mq-04 |
-| Лок | L1+L2 Лианэя · dead-plane B–E |
+| Лок | L1+L2 Лианэя · dead-plane B–E · родитель **Берег Памяти** · атлас плана LOCKED v2 (без Причала) |
 
 ## Файлы
 
@@ -27,7 +27,8 @@ status: prep
 - Seed-кадр: [`../../arcs/arc-3/quests/mq-04-seryy-prichal.md`](../../arcs/arc-3/quests/mq-04-seryy-prichal.md)  
 - Spine: [`../../arcs/arc-3/quests/mq-04-dead-spine-20.md`](../../arcs/arc-3/quests/mq-04-dead-spine-20.md)  
 - Вставки пути: [`../../arcs/arc-3/quests/mq-04-random-inserts.md`](../../arcs/arc-3/quests/mq-04-random-inserts.md)  
-- Сессия 2 дверь F: [`../../arcs/arc-3/quests/mq-04-sessions-2-door-f.md`](../../arcs/arc-3/quests/mq-04-sessions-2-door-f.md)
+- Сессия 2 дверь F: [`../../arcs/arc-3/quests/mq-04-sessions-2-door-f.md`](../../arcs/arc-3/quests/mq-04-sessions-2-door-f.md)  
+- Атлас плана: [`../dead-plane-map.md`](../dead-plane-map.md) · gazetteer [`../dead-plane-gazetteer.md`](../dead-plane-gazetteer.md)
 
 ## Детализировано
 

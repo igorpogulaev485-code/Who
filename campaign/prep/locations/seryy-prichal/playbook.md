@@ -21,7 +21,8 @@ sites_count: 15
 
 > Prep для стола → `playbook.docx`. Небольшой город загробной жизни.  
 > **Карта:** [`map.png`](map.png) · легенда [`map.md`](map.md)  
-> Вход: чёрный поток Купели (mq-04). Канон: [`../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md`](../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md).
+> Вход: чёрный поток Купели (mq-04). Канон входа: [`../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md`](../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md).  
+> Родитель: государство **Берег Памяти** · обзор плана: [`../dead-plane-map.md`](../dead-plane-map.md) (**LOCKED v2**, Причала на атласе нет).
 
 ## Паспорт
 

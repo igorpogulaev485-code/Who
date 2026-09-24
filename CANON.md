@@ -54,6 +54,7 @@
 - [Карта Хребта](world/locations/drakoniy-khrebet-map.md) → [`assets/maps/drakoniy-khrebet-map-locked.jpg`](assets/maps/drakoniy-khrebet-map-locked.jpg) **(LOCKED v12c)**
 - [Империя Звёздной Пыли](world/locations/states/imperiya-zvezdnoy-pyli.md) (столица **Небесный Форт**; Кайрос; **Каэлен Вейл**; парящая земля)
 - [Карта Пыли](world/locations/zvezdnaya-pyl-map.md) → [`assets/maps/zvezdnaya-pyl-map-locked.jpg`](assets/maps/zvezdnaya-pyl-map-locked.jpg) **(LOCKED v4)**
+- **Планы (Разлом):** Маяк душ LOCKED v4 · [атлас демонов LOCKED v24](campaign/prep/locations/demon-plane-map.md) · [атлас мёртвых LOCKED v2](campaign/prep/locations/dead-plane-map.md) → [`assets/maps/dead-plane/dead-plane-atlas-locked.png`](assets/maps/dead-plane/dead-plane-atlas-locked.png) · локи: [геометрия](campaign/plot/canon-lock-2026-09-23-dead-plane-geometry.md) · [имена](campaign/plot/canon-lock-2026-09-24-dead-plane-state-names.md) · [атлас](campaign/plot/canon-lock-2026-09-24-dead-plane-atlas.md) · gazetteer [`campaign/prep/locations/dead-plane-gazetteer.md`](campaign/prep/locations/dead-plane-gazetteer.md)
 - [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)
