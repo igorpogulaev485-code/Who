@@ -5,7 +5,7 @@ tags: [npc, aelendor, servant]
 location: Лунный Мост · дом Финилона / Сады Предвечные
 source: gm-portrait-2026-09-24 + chronicle s.01
 portrait: assets/images/npc/npc-lirael.jpg
-portrait_https: https://iili.io/nAtrupe.jpg
+portrait_https: https://iili.io/nAtpBRf.jpg
 ---
 
 # Лираэль
@@ -18,9 +18,9 @@ portrait_https: https://iili.io/nAtrupe.jpg
 
 Молодая эльфийка; серебристо-светлые волосы до плеч/подбородка; голубые глаза; бледная кожа; остроухие. Тёмно-бордовая туника с золотой вышивкой (ливрея дома поэта). Часто у пруда / среди пергаментов Финилона.
 
-![Лираэль](https://iili.io/nAtrupe.jpg)
+![Лираэль](https://iili.io/nAtpBRf.jpg)
 
-> **Кадр:** Лираэль · [⬇](https://iili.io/nAtrupe.jpg)
+> **Кадр:** Лираэль · [⬇](https://iili.io/nAtpBRf.jpg)
 
 ## В кампании
 
