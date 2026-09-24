@@ -17,6 +17,18 @@ updated: 2026-09-24
 2. Открой `campaign/prep/arc3-visual-book/chapters/02-sessiya-1-pokhorony.md`  
 3. Preview → веди сверху вниз; после двери — **одну** главу ниже.
 
+## Готово к столу · сессия 1
+
+| | |
+|---|---|
+| Слухи | [гл. 1](chapters/01-do-stola.md) выданы игрокам |
+| Скрипт | [гл. 2](chapters/02-sessiya-1-pokhorony.md) · чеклист внизу главы |
+| Портреты | [гл. 11](chapters/11-galereya.md) |
+| Карты A/F | [гл. 12](chapters/12-karty.md) · Порог + Берег LOCKED |
+| Жертва F | [гл. 13](chapters/13-vstavki-i-zhertvy.md) — только чёрный поток |
+
+HTTPS кадров с.1 проверены (200).
+
 ## Оглавление
 
 | | Файл | Путь |
