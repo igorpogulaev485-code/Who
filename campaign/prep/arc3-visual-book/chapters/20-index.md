@@ -96,7 +96,7 @@ Gazetteer мёртвых: [`dead-plane-gazetteer`](../../locations/dead-plane-ga
 
 | Место | Где | Playbook / дверь |
 |---|---|---|
-| Лунный Мост | Аэлендор | [02 хаб](02-index.md) |
+| Лунный Мост | Аэлендор | [02 хаб](02-index.md) · [карта 1–58](../../locations/lunnyy-most/places-catalog.md) · [⬇](https://iili.io/nAZ73sS.jpg) |
 | Маяк душ | Пепельный Порог | [03](03-index.md) · [14](14-index.md) |
 | Серый Причал | Берег Памяти | [04](04-index.md) · [14](14-index.md) |
 | Серебряный Порог | граница Леса | [05](05-index.md) · [12/05](12/05-дверь-d-серебряный-порог.md) |

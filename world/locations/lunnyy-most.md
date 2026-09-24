@@ -34,3 +34,11 @@ faction: Аэлендор
 
 На карте Аэлендора: **СЗ в кольце гор**.  
 Провинция **Лунные Пики**: [`lunnye-piki-map.md`](lunnye-piki-map.md).
+
+## Нумерованная карта (1–58)
+
+![Лунный Мост](https://iili.io/nAZ73sS.jpg)
+
+> **Кадр:** Лунный Мост · [⬇](https://iili.io/nAZ73sS.jpg)
+
+Каталог точек (prep): [`../../campaign/prep/locations/lunnyy-most/places-catalog.md`](../../campaign/prep/locations/lunnyy-most/places-catalog.md) · файл: [`assets/maps/lunnyy-most-map-numbered.jpg`](../../assets/maps/lunnyy-most-map-numbered.jpg)

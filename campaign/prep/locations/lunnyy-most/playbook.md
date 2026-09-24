@@ -16,7 +16,8 @@ attitude_axes:
 # Лунный Мост — playbook
 
 > Prep для стола. Канон города: [`world/locations/lunnyy-most.md`](../../../world/locations/lunnyy-most.md).  
-> **Маэстро Келебрим мёртв** — шатёр фестиваля = пепел, не штаб.
+> **Маэстро Келебрим мёртв** — шатёр фестиваля = пепел, не штаб.  
+> **Карта 1–58:** [`places-catalog.md`](places-catalog.md) · HTTPS `https://iili.io/nAZ73sS.jpg`
 
 ## Паспорт
 
