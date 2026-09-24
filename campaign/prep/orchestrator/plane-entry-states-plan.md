@@ -32,7 +32,15 @@ parent: plane-maps-plan.md
 - Лок опроса: [`../../plot/canon-lock-2026-09-24-plane-entry-state-maps.md`](../../plot/canon-lock-2026-09-24-plane-entry-state-maps.md)  
 - Лок Берега: [`../../plot/canon-lock-2026-09-24-bereg-pamyati-map.md`](../../plot/canon-lock-2026-09-24-bereg-pamyati-map.md)
 
+## Статус: DONE (оба входных гос-ва LOCKED)
+
+| | |
+|---|---|
+| Опрос | **LOCKED** |
+| Берег Памяти | **LOCKED v1** |
+| Пепельный Порог | **LOCKED v6** |
+| Ранбук гл. 12 | **синк** |
+
 ## Дальше
 
-Ok мастера на **Порог v3** → LOCK карты Порога + строка в гл. 12.  
-Потом (отдельно): детализация регионов.
+Не детализация регионов автоматически — меню: [`arc3-whats-next-2026-09-24-plan.md`](arc3-whats-next-2026-09-24-plan.md).
