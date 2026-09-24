@@ -66,6 +66,7 @@
 - `npc-eleonora.jpg` → https://iili.io/nAtto4s.jpg · **Элеонора**, сценаристка / Теневая Долина
 - `npc-velaris.jpg` → https://iili.io/nADHzVp.jpg · **Лейтенант Веларис** (мёртв)
 - `npc-elian.jpg` → https://iili.io/nAD2qJ9.jpg · **Капитан Элиан** (FrostWarden / Вечный Узел)
+- `npc-morvin.jpg` → https://iili.io/nADqVHB.jpg · **Морвин**, травница
 
 ## Дверь R · с.2
 
