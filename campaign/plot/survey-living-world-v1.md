@@ -1,19 +1,19 @@
 ---
 title: Опрос — Живой мир (часы арки 3)
-status: survey
+status: locked
 date: 2026-09-24
 source: orch-arc3-living-world-runbook
+lock: canon-lock-2026-09-24-living-world.md
 ---
 
-# Опрос — Живой мир v1
+# Опрос — Живой мир v1 · ОТВЕТ ЗАЛОЧЕН
 
-База уже в [`arc3-routes-living-world.md`](arc3-routes-living-world.md).  
-Делаем **гл. 17 ранбука** — нужны локи системы, не сюжетный рельс.
+```
+A=a_both B=b_2plus C=c_rift+c_order+c_ridge+c_ice+c_velian+c_valley+c_elessar
+D=d1 E=e_later F=f_no G=g_mix H=h_lock
+```
 
-**HTML:** [`survey-living-world-v1.html`](survey-living-world-v1.html)  
-**Safari (~72 ч):** https://litter.catbox.moe/3ks9q0.html
-
-→ выбрать → «Собрать ответ» → вставить в чат.
+→ [`canon-lock-2026-09-24-living-world.md`](canon-lock-2026-09-24-living-world.md) · ранбук [гл. 17](../prep/arc3-visual-book/chapters/17-index.md)
 
 ---
 

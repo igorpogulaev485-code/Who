@@ -120,8 +120,7 @@
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
-- [Арка 3: меню маршрутов + живой мир](campaign/plot/arc3-routes-living-world.md) *(draft → стол: [гл. 17 ранбука](campaign/prep/arc3-visual-book/chapters/17-index.md))*
-- [Опрос — локи часов живого мира](campaign/plot/survey-living-world-v1.md)
+- [Арка 3: меню маршрутов + живой мир](campaign/plot/arc3-routes-living-world.md) · стол: [гл. 17](campaign/prep/arc3-visual-book/chapters/17-index.md) · [лок часов](campaign/plot/canon-lock-2026-09-24-living-world.md)
 - [Гипотетический коридор арок 3–5](campaign/plot/arc-roadmap-hypothesis.md) *(draft)*
 - [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
 - [Канон-лок раунд 2](campaign/plot/canon-lock-2026-09-04-round2.md)
