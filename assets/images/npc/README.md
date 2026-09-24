@@ -67,6 +67,7 @@
 - `npc-velaris.jpg` → https://iili.io/nADHzVp.jpg · **Лейтенант Веларис** (мёртв)
 - `npc-elian.jpg` → https://iili.io/nAD2qJ9.jpg · **Капитан Элиан** (FrostWarden / Вечный Узел)
 - `npc-morvin.jpg` → https://iili.io/nADqVHB.jpg · **Морвин**, травница
+- `npc-aran.jpg` → https://iili.io/nADAbEP.jpg · **Аран**, управляющий приюта
 
 ## Дверь R · с.2
 
