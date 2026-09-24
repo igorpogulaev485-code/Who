@@ -16,7 +16,12 @@ source: drafts/imports/qwen-kardian-essence-dreams.md
 
 Ледяной Союз · запретное знание · цена. Имени Кардиана нет.
 
-Кадр: Свитки во льдах — `https://iili.io/nAPAQcl.jpg`
+Кадры (серия · вложи Гроку по порядку):
+
+1. Метель / путь — `https://iili.io/nAPNDEx.jpg`
+2. Свитки во льдах — `https://iili.io/nAPAQcl.jpg`
+3. Ледяной дракон — `https://iili.io/nAPNp2V.jpg`
+4. Исчезающая любимая — `https://iili.io/nAPO9kP.jpg`
 
 ## Текст для отправки игроку
 

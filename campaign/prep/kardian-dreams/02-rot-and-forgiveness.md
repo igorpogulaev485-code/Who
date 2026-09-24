@@ -16,7 +16,12 @@ source: drafts/imports/qwen-kardian-essence-dreams.md
 
 Три холмика · дождь · «прости» друга · пустота. Имени Кардиана нет.
 
-Кадр: Три могилы — `https://iili.io/nAPAiPf.jpg`
+Кадры (серия · вложи Гроку по порядку):
+
+1. Три могилы — `https://iili.io/nAPAiPf.jpg`
+2. Магия-жижа гаснет — `https://iili.io/nAPN47S.jpg`
+3. Келебрим с лилиями — `https://iili.io/nAPNPp9.jpg`
+4. Щелчок человечности — `https://iili.io/nAPNQLb.jpg`
 
 ## Текст для отправки игроку
 
