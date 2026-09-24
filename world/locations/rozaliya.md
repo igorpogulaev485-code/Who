@@ -17,6 +17,12 @@ faction: Аэлендор
 
 ## Локации (список мастера)
 
+Нумерация = карта города ([⬇](https://iili.io/nAZNHFa.jpg) · каталог [`places-catalog-city`](../../campaign/prep/locations/rozaliya/places-catalog-city.md)).
+
+![Розалия · город](https://iili.io/nAZNHFa.jpg)
+
+> **Кадр:** Розалия · город 1–20 · [⬇](https://iili.io/nAZNHFa.jpg)
+
 1. Пограничная служба Аэлендора  
 2. Таверна «Блуждающий моряк»  
 3. Склады  
