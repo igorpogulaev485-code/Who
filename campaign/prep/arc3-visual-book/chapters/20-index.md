@@ -99,6 +99,7 @@ Gazetteer мёртвых: [`dead-plane-gazetteer`](../../locations/dead-plane-ga
 | Лунный Мост | Аэлендор | [02 хаб](02-index.md) · [карта 1–58](../../locations/lunnyy-most/places-catalog.md) · [⬇](https://iili.io/nAZ73sS.jpg) |
 | **Серебряный Страж** | Аэлендор · Лунные Пики | [`serebryanyy-strazh`](../../../../world/locations/serebryanyy-strazh.md) · [карта 1–16](../../locations/serebryanyy-strazh/places-catalog.md) · [⬇](https://iili.io/nAZcRB2.jpg) |
 | **Лунный Овраг** | Аэлендор · южнее Моста | [`lunnyy-ovrag`](../../../../world/locations/lunnyy-ovrag.md) · [карта 1–10](../../locations/lunnyy-ovrag/places-catalog.md) · [⬇](https://iili.io/nAZ0JPp.jpg) |
+| **Камнеград** | Аэлендор · Лунные Пики | [`kamnegrad`](../../../../world/locations/kamnegrad.md) · [карта 1–29](../../locations/kamnegrad/places-catalog.md) · [⬇](https://iili.io/nAZEkcN.jpg) *(сожжён — карта = «как было»)* |
 | Маяк душ | Пепельный Порог | [03](03-index.md) · [14](14-index.md) |
 | Серый Причал | Берег Памяти | [04](04-index.md) · [14](14-index.md) |
 | Серебряный Порог | граница Леса | [05](05-index.md) · [12/05](12/05-дверь-d-серебряный-порог.md) |
