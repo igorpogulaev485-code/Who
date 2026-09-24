@@ -11,6 +11,7 @@ tags: [book, diary]
 | **[`00-toc-v3-blocks.md`](00-toc-v3-blocks.md)** | **Оглавление 58 стр. — КАНОН** |
 | [`toc-telegram.txt`](toc-telegram.txt) | Текст оглавления для игроков |
 | [`handout-open-pages.md`](handout-open-pages.md) | Открытые страницы — раздатка |
+| [`telegra-authors-open.md`](telegra-authors-open.md) | Поле «Автор» для Telegraph |
 
 Дочь: **Фириэсса** · Полное имя: **Келебрим Иллуминар** · Класс: **чародей**
 
