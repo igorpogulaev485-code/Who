@@ -44,3 +44,8 @@
 | `npc-admiral-star-dust.png` | Адмирал флота Пыли *(имя не локнуто)* | сапоги покрова |
 
 План: [`../../../campaign/prep/arc3-npc-visual-plan.md`](../../../campaign/prep/arc3-npc-visual-plan.md)
+
+## Маэстро (2026-09-24)
+
+- `maestro-kelebrim-portrait.png` → временно https://litter.catbox.moe/9solbk.png (~72ч) — перезалить на iili
+- `../locations/maestro-tent-interior.png` → https://litter.catbox.moe/lmc9dn.png

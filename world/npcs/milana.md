@@ -23,11 +23,17 @@ portrait: assets/images/npc/npc-milana.png
 
 ## Сейчас (арка 3 / похороны)
 
-Маэстро мёртв. **Милана** действует **параллельно**: нить воскрешения / дневник / Разлом.  
+Маэстро мёртв. **Милана** действует **параллельно**.
 
-**Vision с.1:** партия уже в связи через кольцо; на центральных похоронах **почти заговорит** — прервётся / уйдёт. Хочет с помоста — **не станет**.  
-Дверь **C**: ночь / склады — полный скрипт [`../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md`](../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
-Дверь **B**: дневник — [`../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md`](../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md).
+**Её путь воскрешения (лок):** через **богов** и **великих заклинателей** — **не** через сосуды Двойника отца.  
+Это **принципиально** другая дверь, чем **R** (крышка / Амират).  
+Лок: [`../../campaign/plot/canon-lock-2026-09-24-milana-vs-clone.md`](../../campaign/plot/canon-lock-2026-09-24-milana-vs-clone.md).
+
+Про сосуды знает лишь намёком (`f_hint`) — не ведёт партию к Амирату как к своему плану.
+
+**Vision с.1:** связь через кольцо; на похоронах **почти заговорит**.  
+Дверь **C**: [`../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md`](../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md) · ранбук [10](../../campaign/prep/arc3-visual-book/chapters/10-index.md).  
+Дверь **R** (не её метод): [18](../../campaign/prep/arc3-visual-book/chapters/18-index.md).
 
 ## Связи
 

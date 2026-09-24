@@ -32,7 +32,9 @@ source: gm-lock-round2 + player-briefs
 
 ## Милана
 
-Связь с партией через **кольцо Маэстро**; на похоронах почти-речь. [`../../world/npcs/milana.md`](../../world/npcs/milana.md) · лок: [`canon-lock-2026-09-23-milana.md`](canon-lock-2026-09-23-milana.md)
+Связь через **кольцо**; на похоронах почти-речь.  
+**Путь воскрешения ≠ сосуды:** боги + великие заклинатели (дверь **C**). Сосуды = дверь **R**.  
+Лок: [`canon-lock-2026-09-24-milana-vs-clone.md`](canon-lock-2026-09-24-milana-vs-clone.md). [`../../world/npcs/milana.md`](../../world/npcs/milana.md) · лок: [`canon-lock-2026-09-23-milana.md`](canon-lock-2026-09-23-milana.md)
 
 ## Лианэя (тайна)
 
