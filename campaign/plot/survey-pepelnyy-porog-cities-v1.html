@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос — города Пепельного Порога</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:720px;margin:2rem auto;padding:0 1rem;line-height:1.45;background:#1a1512;color:#e8e0d5}
+h1{font-size:1.35rem} h2{font-size:1.05rem;margin-top:1.5rem;border-bottom:1px solid #444;padding-bottom:.3rem}
+label{display:block;margin:.35rem 0;padding:.45rem .6rem;background:#2a2320;border-radius:6px;cursor:pointer}
+label:hover{background:#3a322c}
+.note{opacity:.85;font-size:.92rem;margin:1rem 0;padding:.75rem;background:#241f1c;border-left:3px solid #8b6914}
+button{margin-top:1.2rem;padding:.6rem 1.2rem;font-size:1rem;cursor:pointer;background:#8b6914;color:#fff;border:0;border-radius:6px}
+#out{white-space:pre-wrap;background:#111;padding:1rem;margin-top:1rem;border-radius:6px;font-size:.9rem}
+</style>
+</head>
+<body>
+<h1>Опрос — города Пепельного Порога</h1>
+<p class="note">v5 уже в ранбуке (гл. 12) с пакетом имён <b>b_ash</b> на ревью. Отметь и скопируй ответ в чат — залочим.</p>
+
+<h2>A · Сколько городов?</h2>
+<label><input type="radio" name="A" value="a_2"/> a_2 · 2 города + Маяк + ворота/гряды</label>
+<label><input type="radio" name="A" value="a_3" checked/> a_3 · 3 города (рекомендую)</label>
+<label><input type="radio" name="A" value="a_4"/> a_4 · 4–5 городов</label>
+<label><input type="radio" name="A" value="a_other"/> a_other · другое</label>
+
+<h2>B · Пакет имён</h2>
+<label><input type="radio" name="B" value="b_ash" checked/> b_ash · Зольный Шрам · Станок Пепла · Клети · Дымовой Посад (+ Маяк · Ворота)</label>
+<label><input type="radio" name="B" value="b_legion"/> b_legion · Шрам Легиона · Рынок Цепей · Форт Пепла · Жертвенный Посад</label>
+<label><input type="radio" name="B" value="b_keep"/> b_keep · старые топонимы v3, но нарисовать города</label>
+<label><input type="radio" name="B" value="b_other"/> b_other · свои имена</label>
+<textarea id="bnote" rows="2" placeholder="если b_other — имена сюда" style="width:100%;margin-top:.4rem;background:#111;color:#eee;border:1px solid #444;padding:.5rem"></textarea>
+
+<h2>C · Плотность</h2>
+<label><input type="radio" name="C" value="c_roads" checked/> c_roads · города + дороги + дымы</label>
+<label><input type="radio" name="C" value="c_sparse"/> c_sparse · города есть, пустошь доминирует</label>
+<label><input type="radio" name="C" value="c_other"/> c_other · другое</label>
+
+<h2>D · Первые Ворота</h2>
+<label><input type="radio" name="D" value="d_city" checked/> d_city · город-ворота</label>
+<label><input type="radio" name="D" value="d_gate"/> d_gate · только арка</label>
+<label><input type="radio" name="D" value="d_other"/> d_other · другое</label>
+
+<h2>E · Дальше</h2>
+<label><input type="radio" name="E" value="e_draw" checked/> e_draw · ок → лок v5 / правки</label>
+<label><input type="radio" name="E" value="e_brief"/> e_brief · сначала только бриф</label>
+
+<button type="button" id="go">Собрать ответ</button>
+<pre id="out"></pre>
+<script>
+document.getElementById('go').onclick=()=>{
+  const g=n=> (document.querySelector(`input[name="${n}"]:checked`)||{}).value||'?';
+  const note=document.getElementById('bnote').value.trim();
+  let s=`A=${g('A')} B=${g('B')} C=${g('C')} D=${g('D')} E=${g('E')}`;
+  if(note) s+=`\nзаметка: ${note}`;
+  document.getElementById('out').textContent=s;
+  navigator.clipboard?.writeText(s);
+};
+</script>
+</body>
+</html>
