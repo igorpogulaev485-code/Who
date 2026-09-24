@@ -1,27 +1,28 @@
 ---
 title: "Пепельный Порог — карта государства"
 status: review
-version: v2
+version: v3
 audience: players
 date: 2026-09-24
 ---
 
-# Карта — Пепельный Порог (**v2 на ревью**)
+# Карта — Пепельный Порог (**v3 на ревью**)
 
-![Пепельный Порог v2](../../../../assets/maps/pepelnyy-porog/pepelnyy-porog-map-v2.png)
+![Пепельный Порог v3](../../../../assets/maps/pepelnyy-porog/pepelnyy-porog-map-v3.png)
 
-Копия: [`map.png`](map.png)
+Копия: [`map.png`](map.png)  
+**За стол:** [`../../arc3-visual-book/chapters/12-karty.md`](../../arc3-visual-book/chapters/12-karty.md)
 
-## Центры регионов
+## Центры регионов (бриф сверки)
 
 | # | Подпись |
 |---:|---|
 | 1 | **Маяк душ** |
-| 2 | **Клетки Договора** |
+| 2 | **Рваный Берег** |
 | 3 | **Пепельная Пустошь** |
 | 4 | **Жертвенные Гряды** |
 | 5 | **Дымный Тракт** |
 | 6 | **Первые Ворота** |
 
-Site Маяка: [`../mayak-dush/map.md`](../mayak-dush/map.md)  
-Ранбук: [`../../arc3-visual-book/chapters/12-karty.md`](../../arc3-visual-book/chapters/12-karty.md)
+Кириллица заголовка: **Пепельный Порог**.  
+Site Маяка (не путать регионы): [`../mayak-dush/map.md`](../mayak-dush/map.md)

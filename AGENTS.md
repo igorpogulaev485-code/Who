@@ -19,6 +19,8 @@
    Лок: [`skill-lock-artifact-v1.md`](campaign/plot/skill-lock-artifact-v1.md) · шаблоны [`artifact.md`](templates/artifact.md) / [`artifact-set.md`](templates/artifact-set.md) · реестр [`world/artifacts/roster.md`](world/artifacts/roster.md) · сеты/карточки в `world/artifacts/`
 7. **Главы книг:** [`.cursor/skills/echo-dawn-book-chapter/SKILL.md`](.cursor/skills/echo-dawn-book-chapter/SKILL.md)  
    Лок: [`skill-lock-book-chapter-v1.md`](campaign/plot/skill-lock-book-chapter-v1.md) · шаблоны [`book-chapter.md`](templates/book-chapter.md) / [`book-codex.md`](templates/book-codex.md) · книги в `world/player-books/<book>/` · GM: `world/player-books/gm-codex/`
+8. **Визуальный ранбук (стол):** [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](.cursor/skills/echo-dawn-visual-runbook/SKILL.md)  
+   Эталон: [`campaign/prep/arc3-visual-book/`](campaign/prep/arc3-visual-book/) · **каждый новый лок обязан попасть в книгу** · карты HTTPS в гл. 12
 
 Базовая волна скилов **закрыта**. Новые узкие (NPC, энкаунтер…) — через оркестратор: макс-опрос → топовый скил.
 

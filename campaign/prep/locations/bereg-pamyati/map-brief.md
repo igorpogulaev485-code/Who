@@ -1,18 +1,20 @@
 ---
 title: "Берег Памяти — бриф карты государства"
-status: ready
+status: locked
 date: 2026-09-24
 state: Берег Памяти
 plane: план мёртвых
 audience: players
 lock_survey: ../../plot/canon-lock-2026-09-24-plane-entry-state-maps.md
+lock_map: ../../plot/canon-lock-2026-09-24-bereg-pamyati-map.md
 atlas: dead-plane-map.md
 ---
 
 # Бриф — карта государства Берег Памяти
 
-Один остров-государство в пепельном море. **Игрокам.**  
-Не атлас всего плана — zoom государства.
+**LOCKED** (мастер: «огонь»). Один остров-государство в пепельном море. **Игрокам.**  
+Не атлас всего плана — zoom государства.  
+Ранбук: `arc3-visual-book/chapters/12-karty.md`.
 
 ## 6 центров регионов (подписи)
 
