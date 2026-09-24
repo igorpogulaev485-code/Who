@@ -16,8 +16,8 @@ title: "9 · Дверь B — Дневник"
 
 > **Канон (интерлюдия):** стр. **16, 17, 52, 53, 54, 55** уже изучены игроками.  
 > Раздатка: [`../../books/dnevnik-maestro/handout-open-pages.md`](../../books/dnevnik-maestro/handout-open-pages.md)  
-> TOC telegra: https://telegra.ph/Moi-znaniya---moya-zhizn-09-21  
-> Лок: [`../../../plot/canon-lock-2026-09-24-diary-interlude-open.md`](../../../plot/canon-lock-2026-09-24-diary-interlude-open.md)
+> После 16–17 открыта **[дверь R · Воскрешение](../18-index.md)** (не путать с чтением тома).  
+> Лок клона: [`../../../plot/canon-lock-2026-09-24-maestro-clone.md`](../../../plot/canon-lock-2026-09-24-maestro-clone.md)
 
 ## Биты
 

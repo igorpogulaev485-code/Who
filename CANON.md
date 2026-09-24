@@ -92,7 +92,8 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник **частично изучен** (16/17/52–55, интерлюдия); дочь **Милана** — параллель
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник частично; **дверь R** / сосуд в Амирате; душа у демонов; дочь **Милана**
+- [Лок — Двойник / крышка](campaign/plot/canon-lock-2026-09-24-maestro-clone.md) · ранбук [18](campaign/prep/arc3-visual-book/chapters/18-index.md)
 - [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса)
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
