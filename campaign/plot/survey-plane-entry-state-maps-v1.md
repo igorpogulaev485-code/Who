@@ -18,7 +18,7 @@ plan: ../prep/orchestrator/plane-entry-states-plan.md
 | Мёртвые | **Берег Памяти** | площадь **Серого Причала** |
 
 HTML: [`survey-plane-entry-state-maps-v1.html`](survey-plane-entry-state-maps-v1.html)  
-Litterbox: *(заливка после коммита)*
+Litterbox (Safari): https://litter.catbox.moe/ndjz5p.html (~72 ч)
 
 ## A · Сколько карт сейчас?
 
