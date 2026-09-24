@@ -60,6 +60,8 @@
 
 - `npc-finilon.jpg` → https://iili.io/nAtvEPI.jpg · **Финилон**, придворный поэт
 - `npc-lirael.jpg` → https://iili.io/nAtrupe.jpg · **Лираэль**, служанка Финилона
+- `npc-vendig.jpg` → https://iili.io/nAtiWSp.jpg · **Вендиг** + банда («Хвост скорпиона»)
+- `npc-lenora.jpg` → https://iili.io/nAtijRI.jpg · **Ленора**, Silent Assassin
 
 ## Дверь R · с.2
 
