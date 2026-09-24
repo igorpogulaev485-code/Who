@@ -56,6 +56,10 @@
 - Правило: во всех снах / воспоминаниях до арки 5, где видно лицо «его» — это лицо. Маэстро **не** путать (эльф, платина, уши, без бороды).
 - Сны: `../dreams/kardian-dream-*.jpg` · реестр `campaign/prep/arc3-visual-book/image-urls.json`
 
+## Прочие портреты (gm-upload)
+
+- `npc-finilon.jpg` → https://iili.io/nAtvEPI.jpg · **Финилон**, придворный поэт
+
 ## Дверь R · с.2
 
 - `npc-torvik-kamnezub.jpg` → https://iili.io/nA4jH7e.jpg · **Торвик Камнезуб**
