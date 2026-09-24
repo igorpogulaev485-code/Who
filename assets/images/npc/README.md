@@ -10,7 +10,8 @@
 | `npc-kezarr.png` | Кезарр Тал | хаб / Хребет |
 | `npc-irien.png` | Леди Ириэн | хаб |
 | `npc-brorr.png` | Брорр | хаб → льды |
-| `npc-elian.png` | Элиан Вечный Узел | Купель A/F |
+| `npc-elian.png` | Элиан Вечный Узел | Купель A/F (альт) |
+| `npc-elian.jpg` | Капитан Элиан · FrostWarden | https://iili.io/nAD2qJ9.jpg · канон лицо |
 | `npc-vaera.png` | Ваэра Ночной Клинок | Купель A/F |
 | `npc-maeris.png` | Маэрис Ключ-в-Камне | портал D/E |
 | `npc-brum.png` | Брум Кремнеладонь | портал D/E |
@@ -64,6 +65,7 @@
 - `npc-lenora.jpg` → https://iili.io/nAtijRI.jpg · **Ленора**, Silent Assassin
 - `npc-eleonora.jpg` → https://iili.io/nAtto4s.jpg · **Элеонора**, сценаристка / Теневая Долина
 - `npc-velaris.jpg` → https://iili.io/nADHzVp.jpg · **Лейтенант Веларис** (мёртв)
+- `npc-elian.jpg` → https://iili.io/nAD2qJ9.jpg · **Капитан Элиан** (FrostWarden / Вечный Узел)
 
 ## Дверь R · с.2
 
