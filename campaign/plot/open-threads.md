@@ -38,7 +38,9 @@ source: gm-lock-round2 + player-briefs
 
 ## Воскрешение Маэстро
 
-Дневник не изучен · план мёртвых · дочь параллельно.  
+Дневник **частично** изучен в **интерлюдии** (стр. 16, 17, 52–55) · план мёртвых · дочь параллельно.  
+Открытое: [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md) · лок: [`canon-lock-2026-09-24-diary-interlude-open.md`](canon-lock-2026-09-24-diary-interlude-open.md).  
+Ключ с 16–17: **Двойник** — искать **крышку сосуда**, не могилу.  
 Похороны объявлены глашатаем (верхний город открыт на время).
 
 ## Война (после Стража)

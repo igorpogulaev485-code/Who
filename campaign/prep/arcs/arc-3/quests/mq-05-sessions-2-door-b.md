@@ -25,7 +25,8 @@ mq-05: [`mq-05-pepel-maestro.md`](mq-05-pepel-maestro.md)
 Оглавление (prep): [`../../../books/dnevnik-maestro/00-lock-and-toc-v2.md`](../../../books/dnevnik-maestro/00-lock-and-toc-v2.md)  
 Страница 1: [`../../../books/dnevnik-maestro/pages/01.md`](../../../books/dnevnik-maestro/pages/01.md)
 
-**Лок:** похороны = общий старт · B = mq-05 ядро · дочь = **Милана** · чтение = трата игрового времени.
+**Лок:** похороны = общий старт · B = mq-05 ядро · дочь = **Милана** · чтение = трата игрового времени / интерлюдии.  
+**Уже open (интерлюдия):** стр. 16, 17, 52–55 — [`../../../books/dnevnik-maestro/handout-open-pages.md`](../../../books/dnevnik-maestro/handout-open-pages.md).
 
 ## Биты
 

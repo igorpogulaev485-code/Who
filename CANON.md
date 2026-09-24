@@ -92,7 +92,7 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь **Милана** — параллель
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник **частично изучен** (16/17/52–55, интерлюдия); дочь **Милана** — параллель
 - [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса)
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
@@ -127,7 +127,8 @@
 - [Канон-лок 2026-09-10: Лианэя / Велиан / старт арки 3](campaign/plot/canon-lock-2026-09-10-arc3-start.md)
 - [Канон-лок cold open](campaign/plot/canon-lock-2026-09-10-cold-open.md)
 - [Дневник Маэстро — оглавление 58 стр. (канон)](campaign/prep/books/dnevnik-maestro/00-toc-v3-blocks.md)
-- [Оглавление дневника для игроков](campaign/prep/books/dnevnik-maestro/toc-telegram.txt)
+- [Открытые страницы (интерлюдия 16/17/52–55)](campaign/prep/books/dnevnik-maestro/handout-open-pages.md) · [лок](campaign/plot/canon-lock-2026-09-24-diary-interlude-open.md)
+- [Оглавление дневника для игроков](campaign/prep/books/dnevnik-maestro/toc-telegram.txt) · [Telegraph](https://telegra.ph/Moi-znaniya---moya-zhizn-09-21)
 - [Слухи накануне (игрокам)](campaign/prep/briefs/arc3-rumors-eve.md)
 - [Сессия 1 cold open](campaign/prep/arc3-session-01-cold-open.md)
 - [Сообщения игрокам: Страж + глашатай](campaign/sessions/player-briefs-silver-guard-and-herald.md)

@@ -11,7 +11,7 @@ source: gm-lock-2026-09-04 + round2
 
 ## Воскрешение (канон-хуки)
 
-1. Партия нашла **дневник** Маэстро с личными записями — **ещё не изучали**; там будет ответ / путь.  
+1. Партия нашла **дневник** Маэстро — **частично изучен в интерлюдии** (стр. **16, 17, 52–55**). Стр. 16–17 = **Двойник** (*Clone*): сосуд / «ищи крышку», не могилу. Handout: [`../../campaign/prep/books/dnevnik-maestro/handout-open-pages.md`](../../campaign/prep/books/dnevnik-maestro/handout-open-pages.md) · лок: [`../../campaign/plot/canon-lock-2026-09-24-diary-interlude-open.md`](../../campaign/plot/canon-lock-2026-09-24-diary-interlude-open.md).  
 2. При обыске сгоревшего шатра также взяли **писчее перо** Маэстро.  
 3. Второй шанс — в Разломе на **плане мёртвых**.  
 4. У Маэстро есть **дочь** — **Милана**; со временем она найдёт решение **параллельно** событиям партии. [`milana.md`](milana.md) · лок: [`../../campaign/plot/canon-lock-2026-09-23-milana.md`](../../campaign/plot/canon-lock-2026-09-23-milana.md)

@@ -48,6 +48,6 @@ format: index-plus-sheets
 | Демоны | 9 кругов LOCKED | **Пепельный Порог** LOCKED v6 | Маяк LOCKED |
 | Мёртвые | 5 островов LOCKED | **Берег Памяти** LOCKED | Причал LOCKED |
 
-Дочь Маэстро = **Милана**. Дневник: страницы не пишем — оглавление в [09](chapters/09-index.md).
+Дочь Маэстро = **Милана**. Дневник: оглавление в [09](chapters/09-index.md); **открыто в интерлюдии** 16/17/52–55 — [handout](../books/dnevnik-maestro/handout-open-pages.md).
 
 Скил: [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md)
