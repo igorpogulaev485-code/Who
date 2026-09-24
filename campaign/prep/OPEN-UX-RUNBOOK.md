@@ -1,37 +1,29 @@
-# СЮДА · UX-ранбук (эксперимент)
+# Куда смотреть UX-ранбук
 
-Оригинал **не** трогаем. Смотри **другую** папку.
+## Ты открыл НЕ то
 
-## Открой этот файл
-
-```
-campaign/prep/arc3-visual-book-ux/README.md
-```
-
-В Cursor слева (Explorer):
-
-1. `campaign` → `prep` → **`arc3-visual-book-ux`** (с суффиксом **`-ux`**)
-2. Кликни `README.md`
-3. Справа сверху: **Preview** (Open Preview / иконка книжки)
-
-Потом в README кликни **Сессия 1**  
-или сразу:
+На скрине путь был:
 
 ```
-campaign/prep/arc3-visual-book-ux/chapters/02-sessiya-1-pokhorony.md
+campaign > prep > arc3-visual-book > chapters > 02-…
 ```
 
-+ снова **Preview**.
+Это **оригинал**. Нужна папка с **`-ux`**:
 
-## Как отличить
+```
+campaign > prep > arc3-visual-book-ux > chapters > 02-index.md
+```
 
-| | Папка |
-|---|---|
-| Оригинал (портянка) | `arc3-visual-book` |
-| Эксперимент | `arc3-visual-book-ux` ← **эта** |
+## Сделай так
 
-Вверху главы UX: *«UX-копия · оригинал не трогаем»*.
+1. Закрой вкладку `02-sessiya-1-pokhorony` из папки **без** `-ux`.  
+2. Слева найди **`arc3-visual-book-ux`**.  
+3. Открой: `chapters` → **`02-index.md`**.  
+4. Preview.  
+5. Кликай бит в таблице (например `01-1.0-утро-в-приюте.md`).
 
-## Если видишь сырой текст `<details>` и ничего не сворачивается
+Там будет надпись **«Битый лист UX»** / **«UX-копия»**.
 
-Напиши в чат: `ux_bits` — сделаем отдельные короткие файлы на каждый бит (для Cursor это надёжнее).
+## Если папки `-ux` не видно
+
+Pull / обнови ветку `cursor/quest-skill-arc3-bd87`, затем снова Explorer.
