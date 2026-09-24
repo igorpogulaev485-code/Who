@@ -13,7 +13,7 @@ depends:
 Уже лок: сосуды/Амират/душа у демонов · Милана ≠ клон · рано только улики · портрет+шатёр в галерее.
 
 **HTML:** [`survey-resurrection-tails-v1.html`](survey-resurrection-tails-v1.html)  
-**Safari:** 
+**Safari (~72 ч):** https://litter.catbox.moe/qt3tq4.html 
 
 ---
 
