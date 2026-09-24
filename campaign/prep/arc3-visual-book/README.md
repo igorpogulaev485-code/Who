@@ -3,31 +3,21 @@ title: "Ранбук · Арка 3"
 status: active
 tags: [gm, runbook, arc3]
 updated: 2026-09-24
+format: index-plus-sheets
 ---
 
 # Ранбук · Арка 3
 
-Картинки — публичный HTTPS + **⬇ скачать** на второй экран. Проверки — по-русски (Сл).
+Картинки — публичный HTTPS + **⬇ скачать**. Проверки — по-русски (Сл).  
+**Формат:** индекс главы → **один короткий лист** (не портянка).
 
-**Правило синка:** всё, что **LOCKED** в `campaign/plot/canon-lock-*`, **обязано** попасть сюда (карты → [гл. 12](chapters/12-karty.md); двери → главы 3–10; playbook → [гл. 14](chapters/14-playbooks-i-side.md)).
+**Правило синка:** всё LOCKED → сюда (карты · двери · playbook).
 
 ## Твои 3 шага
 
-1. Закрой старые вкладки глав.  
-2. Открой `campaign/prep/arc3-visual-book/chapters/02-sessiya-1-pokhorony.md`  
-3. Preview → веди сверху вниз; после двери — **одну** главу ниже.
-
-## Готово к столу · сессия 1
-
-| | |
-|---|---|
-| Слухи | [гл. 1](chapters/01-do-stola.md) выданы игрокам |
-| Скрипт | [гл. 2](chapters/02-sessiya-1-pokhorony.md) · чеклист внизу главы |
-| Портреты | [гл. 11](chapters/11-galereya.md) |
-| Карты A/F | [гл. 12](chapters/12-karty.md) · Порог + Берег LOCKED |
-| Жертва F | [гл. 13](chapters/13-vstavki-i-zhertvy.md) — только чёрный поток |
-
-HTTPS кадров с.1 проверены (200).
+1. Закрой старые вкладки.  
+2. Открой **[`chapters/02-index.md`](chapters/02-index.md)**  
+3. Preview → кликай бит в таблице → веди → назад на индекс → после двери — **один** `0N-index.md`
 
 ## Оглавление
 
@@ -35,34 +25,29 @@ HTTPS кадров с.1 проверены (200).
 |---|---|---|
 | 0 | [Как вести](chapters/00-kak-vesti.md) | |
 | 1 | [До стола](chapters/01-do-stola.md) | слухи |
-| 2 | **[Сессия 1 — Похороны](chapters/02-sessiya-1-pokhorony.md)** | общий хаб |
-| 3 | [Дверь A — Маяк](chapters/03-dver-a.md) | mq-01 · **Пепельный Порог** · фиолет |
-| 4 | [Дверь F — Причал](chapters/04-dver-f.md) | mq-04 · **Берег Памяти** · чёрный |
-| 5 | [Дверь D — Порог](chapters/05-dver-d.md) | mq-03 Лес |
-| 6 | [Дверь E — льды](chapters/06-dver-e-ldy.md) | mq-06 доспехи |
-| 7 | [Дверь E·меч — Хребет](chapters/07-dver-e-mech.md) | mq-06 меч |
-| 8 | [Дверь E·сапоги — Пыль](chapters/08-dver-e-sapogi.md) | mq-06 сапоги |
-| 9 | [Дверь B — Дневник](chapters/09-dver-b.md) | mq-05 · **только оглавление** |
-| 10 | [Дверь C — Милана](chapters/10-dver-c.md) | mq-05 дочь |
-| 11 | [Галерея лиц](chapters/11-galereya.md) | портреты + карточки |
-| 12 | **[Атлас карт](chapters/12-karty.md)** | мир · **планы 9/5** · государства · сайты |
-| 13 | [Вставки и жертвы](chapters/13-vstavki-i-zhertvy.md) | **слухи/события/бои на кубах** · все двери · жертва F |
-| 14 | [Плейбуки и сайды](chapters/14-playbooks-i-side.md) | Маяк · Причал · Порог · Щит |
-| 15 | [Spine после с.2](chapters/15-spine-posle-s2.md) | mq-01/02 · Гирмхельм |
-| 16 | [Совет друидов](chapters/16-sovet-druidov.md) | Малфурион · Элессар |
+| 2 | **[Сессия 1 · индекс](chapters/02-index.md)** | хаб · биты |
+| 3 | [Дверь A · индекс](chapters/03-index.md) | mq-01 · Пепельный Порог |
+| 4 | [Дверь F · индекс](chapters/04-index.md) | mq-04 · Берег Памяти |
+| 5 | [Дверь D · индекс](chapters/05-index.md) | mq-03 Лес |
+| 6 | [E · льды · индекс](chapters/06-index.md) | mq-06 доспехи |
+| 7 | [E · меч · индекс](chapters/07-index.md) | mq-06 меч |
+| 8 | [E · сапоги · индекс](chapters/08-index.md) | mq-06 сапоги |
+| 9 | [Дверь B · индекс](chapters/09-index.md) | дневник · оглавление |
+| 10 | [Дверь C · индекс](chapters/10-index.md) | Милана |
+| 11 | [Галерея · индекс](chapters/11-index.md) | портреты |
+| 12 | [Карты · индекс](chapters/12-index.md) | планы · гос-ва · сайты |
+| 13 | [Вставки · индекс](chapters/13-index.md) | слухи/события/бои на кубах |
+| 14 | [Плейбуки · индекс](chapters/14-index.md) | Маяк · Причал · Порог · Щит |
+| 15 | [Spine · индекс](chapters/15-index.md) | после с.2 |
+| 16 | [Совет · индекс](chapters/16-index.md) | Малфурион · Элессар |
 
-## Канон планов (лок 2026-09) — всё в [гл. 12](chapters/12-karty.md)
+## Канон планов — [карты · индекс](chapters/12-index.md)
 
-| План | Атлас | Государство входа | Карта гос-ва | Site |
-|---|---|---|---|---|
-| Демоны | **9** кругов · LOCKED v24 | **Пепельный Порог** | **LOCKED v6** (3 города + ворота · читаемые подписи) | **Маяк душ** LOCKED v4 |
-| Мёртвые | **5** островов · LOCKED v2 | **Берег Памяти** | **LOCKED v1** (огонь) | **Серый Причал** LOCKED |
+| План | Атлас | Государство входа | Site |
+|---|---|---|---|
+| Демоны | 9 кругов LOCKED | **Пепельный Порог** LOCKED v6 | Маяк LOCKED |
+| Мёртвые | 5 островов LOCKED | **Берег Памяти** LOCKED | Причал LOCKED |
 
-Правило слоя: атлас → государство (5–8 центров регионов) → site.  
-Новый `canon-lock-*` → **сразу** правка этой книги.
+Дочь Маэстро = **Милана**. Дневник: страницы не пишем — оглавление в [09](chapters/09-index.md).
 
-Канон: дочь Маэстро = **Милана**.  
-Дневник: страницы **не** пишем — только оглавление в [гл. 9](chapters/09-dver-b.md).
-
-Скил пайплайна:  
-[`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md) · лок [`skill-lock-visual-runbook-v1.md`](../../plot/skill-lock-visual-runbook-v1.md).
+Скил: [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md)
