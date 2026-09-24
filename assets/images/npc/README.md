@@ -69,6 +69,7 @@
 - `npc-morvin.jpg` → https://iili.io/nADqVHB.jpg · **Морвин**, травница
 - `npc-aran.jpg` → https://iili.io/nADAbEP.jpg · **Аран**, управляющий приюта
 - `npc-ella.jpg` → https://iili.io/nADaE0B.jpg · **Элла**, повариха приюта
+- `npc-brunhilda.jpg` → https://iili.io/nADlZH7.jpg · **Брунгильда**, нянечка
 
 ## Дверь R · с.2
 

@@ -98,6 +98,7 @@
 - [Морвин](world/npcs/morvin.md) — травница; зелье арки 1; «Колыбель Рассвета»; тайный вход в Овраг
 - [Аран](world/npcs/aran.md) — минотавр; управляющий приюта «Колыбель Рассвета»
 - [Элла](world/npcs/ella.md) — повариха приюта (≠ Эллианэ «Туман» в Розалии)
+- [Брунгильда](world/npcs/brunhilda.md) — нянечка приюта «Колыбель Рассвета»
 - [Вендиг](world/npcs/vendig.md) · [Ленора](world/npcs/lenora.md) — «Хвост скорпиона»; **мертвы** (арка 1, Дранник)
 - [Лок — Двойник / крышка](campaign/plot/canon-lock-2026-09-24-maestro-clone.md) · [хвосты воскрешения](campaign/plot/canon-lock-2026-09-24-resurrection-tails.md) · ранбук [18 · с.2](campaign/prep/arc3-visual-book/chapters/18-index.md) · скрипт [`mq-05-sessions-2-door-r`](campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-r.md)
 - [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса); путь богов/кастеров; гонка один-победитель
