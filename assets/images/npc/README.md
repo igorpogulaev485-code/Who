@@ -47,5 +47,12 @@
 
 ## Маэстро (2026-09-24)
 
-- `maestro-kelebrim-portrait.png` → временно https://litter.catbox.moe/9solbk.png (~72ч) — перезалить на iili
-- `../locations/maestro-tent-interior.png` → https://litter.catbox.moe/lmc9dn.png
+- `maestro-kelebrim-portrait.png` → https://iili.io/nA4jAhv.png
+- `../locations/maestro-tent-interior.png` → https://iili.io/nA4jl2t.png
+
+## Дверь R · с.2
+
+- `npc-torvik-kamnezub.jpg` → https://iili.io/nA4jH7e.jpg · **Торвик Камнезуб**
+- `npc-karim-sandtrail.jpg` → https://iili.io/nA4jBEB.jpg · **Карим Песчаный След**
+- `../locations/door-r-niche-undercroft.jpg` → https://iili.io/nA4hbB2.jpg
+- `../handouts/door-r-handout-lid-seal.jpg` → https://iili.io/nA4jxYF.jpg

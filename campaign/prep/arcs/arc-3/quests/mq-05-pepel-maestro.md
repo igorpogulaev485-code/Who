@@ -142,6 +142,7 @@ B: тишина; дочь считает Героев соучастниками
 | mq-04 | пепел/свидетели ухода Велиана | синергия |
 | с.2 дверь B | [`mq-05-sessions-2-door-b.md`](mq-05-sessions-2-door-b.md) | чтение |
 | с.2 дверь C | [`mq-05-sessions-2-door-c.md`](mq-05-sessions-2-door-c.md) | встреча |
+| с.2 дверь R | [`mq-05-sessions-2-door-r.md`](mq-05-sessions-2-door-r.md) | крышка / ниша (без с.3) |
 | дочь | [`../../../../world/npcs/milana.md`](../../../../world/npcs/milana.md) | |
 
 ## Якоря локаций

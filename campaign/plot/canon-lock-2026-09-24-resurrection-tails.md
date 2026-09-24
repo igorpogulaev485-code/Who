@@ -36,5 +36,6 @@ D=one-winner E=Amirat desert temple ~s.15 F=f_lock
 
 ## Визуал
 
-- Портрет: `assets/images/npc/maestro-kelebrim-portrait.png` · галерея [11/40](../prep/arc3-visual-book/chapters/11/40-маэстро-келебрим.md)  
-- Шатёр: `assets/images/locations/maestro-tent-interior.png` · [11/41](../prep/arc3-visual-book/chapters/11/41-маэстро-шатёр.md)
+- Портрет: `assets/images/npc/maestro-kelebrim-portrait.png` · https://iili.io/nA4jAhv.png · [11/40](../prep/arc3-visual-book/chapters/11/40-маэстро-келебрим.md)  
+- Шатёр: `assets/images/locations/maestro-tent-interior.png` · https://iili.io/nA4jl2t.png · [11/41](../prep/arc3-visual-book/chapters/11/41-маэстро-шатёр.md)  
+- С.2 R: ниша https://iili.io/nA4hbB2.jpg · Торвик · Карим · handout — [18](../prep/arc3-visual-book/chapters/18-index.md)

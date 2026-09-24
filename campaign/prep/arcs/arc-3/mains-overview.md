@@ -89,7 +89,10 @@ defaults_note: "Опрос приоритетов без ответов → во
 - **Направление:** верхний город / архив / следы дочери — не обязательно уезжать.  
 - **Провал →** нить воскрешения рвётся или уходит врагу.  
 - **Не взяли →** дочь и план мёртвых идут без Героев.  
-- **Файл:** `quests/mq-05-pepel-maestro.md`
+- **Файл:** `quests/mq-05-pepel-maestro.md`  
+- **Сессия 2 · B:** [`quests/mq-05-sessions-2-door-b.md`](quests/mq-05-sessions-2-door-b.md)  
+- **Сессия 2 · C:** [`quests/mq-05-sessions-2-door-c.md`](quests/mq-05-sessions-2-door-c.md)  
+- **Сессия 2 · R:** [`quests/mq-05-sessions-2-door-r.md`](quests/mq-05-sessions-2-door-r.md) — ниша / улики (без с.3) · ранбук [18](../../arc3-visual-book/chapters/18-index.md)
 
 ### mq-06 — Три на земле
 
