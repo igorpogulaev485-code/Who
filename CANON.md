@@ -106,7 +106,7 @@
 - [Малфурион (Ярость Бури)](world/npcs/malfurion-yarost-buri.md) — полубог-друид; совет в Лесу (~1 мес.)
 - [Филлер](world/npcs/filler.md)
 - [Веларис](world/npcs/velaris.md)
-- [Элеонора](world/npcs/eleonora.md)
+- [Элеонора](world/npcs/eleonora.md) — сценаристка «Зеркала Судьбы»; агент Теневой Долины; раскрыта Болтаном → убита Велианом
 - [Кардиан](world/npcs/kardian.md) — антагонист арки 5; жена **Аэлиндра**; сны эмпатии → ранбук [гл. 19](campaign/prep/arc3-visual-book/chapters/19-index.md)
 - [Сильванара](world/npcs/silvanara.md) — мать Люмиэля; слух о престоле
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
