@@ -1,16 +1,18 @@
 ---
 title: "План мёртвых — бриф обзорной карты"
-status: ready
+status: review
 version: v1
 date: 2026-09-24
 geometry: ../../plot/canon-lock-2026-09-23-dead-plane-geometry.md
 names: ../../plot/canon-lock-2026-09-24-dead-plane-state-names.md
 gazetteer: dead-plane-gazetteer.md
+asset: ../../../../assets/maps/dead-plane/dead-plane-atlas-v1.png
 ---
 
 # Бриф — атлас 5 государств плана мёртвых
 
-Имена: **LOCKED**. Отрисовка **v1** по этому брифу.
+**v1 нарисован** → [`dead-plane-map.md`](dead-plane-map.md) · asset `assets/maps/dead-plane/dead-plane-atlas-v1.png`  
+Ждём ok мастера → LOCK.
 
 ## Иерархия
 

@@ -4,7 +4,8 @@ title: "План — обзорная карта плана мёртвых"
 status: in-progress
 source: gm-2026-09-23
 gm_ok_survey: "2026-09-23 — survey answers"
-gm_clarify_states: "2026-09-23 — острова = государства; города внутри (Причал); потом карты государств"
+gm_clarify_states: "2026-09-23 — острова = государства"
+gm_ok_names: "2026-09-24 — survey-dead-plane-state-names-v1 + f_pack"
 parent: plane-maps-plan.md
 ---
 
@@ -12,36 +13,37 @@ parent: plane-maps-plan.md
 
 ## Цель
 
-Обзорный атлас: **5 государств-островов** в пепельном море.  
-Города (Серый Причал и др.) — внутри государств.  
-Дальше отдельными заходами: карты государств → города.
+Обзорный атлас: **5 государств-островов** в пепельном море.
 
 ## Статус
 
 | | |
 |---|---|
 | Геометрия + иерархия | **LOCKED** |
-| Имена 5 государств | опрос **open** |
-| Бриф | draft готов |
-| Отрисовка / LOCK атласа | wait |
+| Имена 5 государств | **LOCKED** |
+| Бриф | **ready** |
+| Отрисовка v1 | **review** — ждём ok |
+| LOCK атласа | wait |
+
+## Пятёрка
+
+1. Берег Памяти (+ микро Серый Причал)  
+2. Край  
+3. Молчаливый Пролив  
+4. Вечный Путь  
+5. Устье Забвения  
 
 ## Маршрут
 
 | # | Шаг | Статус |
 |---|---|---|
-| 1–2 | Опрос + лок геометрии | **done** |
-| 3 | Уточнение: остров = государство → город | **done** |
-| 4 | Опрос имён государств | **wait-ok** → [`../../plot/survey-dead-plane-state-names-v1.md`](../../plot/survey-dead-plane-state-names-v1.md) |
-| 5 | Бриф + отрисовка атласа | бриф draft · wait имён |
-| 6 | LOCK атласа | wait |
-| later | Карты государств → города · паспорта `echo-dawn-state` | вне этого захода |
+| 1–3 | Геометрия + иерархия | **done** |
+| 4 | Опрос/лок имён | **done** |
+| 5 | Бриф + отрисовка v1 | **done** · review |
+| 6 | LOCK атласа | **wait-ok** |
+| later | Карты государств → города | вне |
 
 ## Файлы
 
-- Лок: [`../../plot/canon-lock-2026-09-23-dead-plane-geometry.md`](../../plot/canon-lock-2026-09-23-dead-plane-geometry.md)  
-- Gazetteer: [`../locations/dead-plane-gazetteer.md`](../locations/dead-plane-gazetteer.md)  
+- Лок имён: [`../../plot/canon-lock-2026-09-24-dead-plane-state-names.md`](../../plot/canon-lock-2026-09-24-dead-plane-state-names.md)  
 - Бриф: [`../locations/dead-plane-map-brief.md`](../locations/dead-plane-map-brief.md)
-
----
-
-**Жду ответы опроса имён** (A–F). После — сразу отрисовка.
