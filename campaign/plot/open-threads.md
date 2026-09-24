@@ -33,8 +33,10 @@ source: gm-lock-round2 + player-briefs
 ## Милана
 
 Связь через **кольцо**; на похоронах почти-речь.  
-**Путь воскрешения ≠ сосуды:** боги + великие заклинатели (дверь **C**). Сосуды = дверь **R**.  
-Лок: [`canon-lock-2026-09-24-milana-vs-clone.md`](canon-lock-2026-09-24-milana-vs-clone.md). [`../../world/npcs/milana.md`](../../world/npcs/milana.md) · лок: [`canon-lock-2026-09-23-milana.md`](canon-lock-2026-09-23-milana.md)
+**Путь воскрешения ≠ сосуды:** боги + великие заклинатели (дверь **C**). Сейчас — **сбор информации**, кто поможет.  
+Союз с трением; не идёт в Амират своим планом. Сосуды = дверь **R**.  
+Лок: [`canon-lock-2026-09-24-milana-vs-clone.md`](canon-lock-2026-09-24-milana-vs-clone.md) · хвосты [`canon-lock-2026-09-24-resurrection-tails.md`](canon-lock-2026-09-24-resurrection-tails.md).  
+[`../../world/npcs/milana.md`](../../world/npcs/milana.md) · [`canon-lock-2026-09-23-milana.md`](canon-lock-2026-09-23-milana.md)
 
 ## Лианэя (тайна)
 
@@ -44,9 +46,9 @@ source: gm-lock-round2 + player-briefs
 ## Воскрешение Маэстро
 
 Дневник **частично** изучен (стр. 16, 17, 52–55).  
-**Двойник:** лок [`canon-lock-2026-09-24-maestro-clone.md`](canon-lock-2026-09-24-maestro-clone.md) · стол [гл. 18 · R](../prep/arc3-visual-book/chapters/18-index.md).  
-Готовый сосуд — **Амират** (точку рано не давать); душа у **демонов**; план мёртвых ≠ душа Маэстро.  
-Милана — намёк, не карта. Похороны объявлены; верхний город открыт на время.
+**Двойник:** лок [`canon-lock-2026-09-24-maestro-clone.md`](canon-lock-2026-09-24-maestro-clone.md) · хвосты [`canon-lock-2026-09-24-resurrection-tails.md`](canon-lock-2026-09-24-resurrection-tails.md) · стол [гл. 18 · R](../prep/arc3-visual-book/chapters/18-index.md).  
+Готовый сосуд — **храм в пустыне Амирата** (~с.**15**); растущий — **Кузад-Дум**; душа у **демонов**; план мёртвых ≠ душа Маэстро.  
+**Один победитель** путей C/R. Милана — намёк, не карта. Похороны объявлены; верхний город открыт на время.
 
 ## Война (после Стража)
 

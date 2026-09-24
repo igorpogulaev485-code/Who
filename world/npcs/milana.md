@@ -26,10 +26,13 @@ portrait: assets/images/npc/npc-milana.png
 Маэстро мёртв. **Милана** действует **параллельно**.
 
 **Её путь воскрешения (лок):** через **богов** и **великих заклинателей** — **не** через сосуды Двойника отца.  
-Это **принципиально** другая дверь, чем **R** (крышка / Амират).  
-Лок: [`../../campaign/plot/canon-lock-2026-09-24-milana-vs-clone.md`](../../campaign/plot/canon-lock-2026-09-24-milana-vs-clone.md).
+Это **принципиально** другая дверь, чем **R** (крышка / храм пустыни Амирата ~с.15).  
+Локи: [`../../campaign/plot/canon-lock-2026-09-24-milana-vs-clone.md`](../../campaign/plot/canon-lock-2026-09-24-milana-vs-clone.md) · [`../../campaign/plot/canon-lock-2026-09-24-resurrection-tails.md`](../../campaign/plot/canon-lock-2026-09-24-resurrection-tails.md).
 
-Про сосуды знает лишь намёком (`f_hint`) — не ведёт партию к Амирату как к своему плану.
+**Сейчас:** ищет **кто поможет** — сбор информации, не финальный ритуал.  
+**Союз:** с трением — может помочь уликам, **не** идёт в Амират своим планом.  
+Про сосуды — намёк (`f_hint`), не GPS.  
+**Гонка:** побеждает **один** путь (если сосуд раньше — она останавливается; если она раньше — сосуд сохраняется).
 
 **Vision с.1:** связь через кольцо; на похоронах **почти заговорит**.  
 Дверь **C**: [`../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md`](../../campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md) · ранбук [10](../../campaign/prep/arc3-visual-book/chapters/10-index.md).  

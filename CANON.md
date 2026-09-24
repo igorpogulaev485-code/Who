@@ -92,9 +92,9 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник частично; **дверь R** / сосуд в Амирате; душа у демонов; дочь **Милана**
-- [Лок — Двойник / крышка](campaign/plot/canon-lock-2026-09-24-maestro-clone.md) · ранбук [18](campaign/prep/arc3-visual-book/chapters/18-index.md)
-- [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса)
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник частично; **дверь R** / храм Амирата (~с.15) + растущий в **Кузад-Думе**; душа у демонов; дочь **Милана**
+- [Лок — Двойник / крышка](campaign/plot/canon-lock-2026-09-24-maestro-clone.md) · [хвосты воскрешения](campaign/plot/canon-lock-2026-09-24-resurrection-tails.md) · ранбук [18](campaign/prep/arc3-visual-book/chapters/18-index.md)
+- [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса); путь богов/кастеров; гонка один-победитель
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
