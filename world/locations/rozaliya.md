@@ -48,3 +48,12 @@ faction: Аэлендор
 - [Расширение локаций](rozaliya/locations-detail.md)
 
 Архив: `drafts/imports/qwen-rozaliya.md`
+
+## Регион (карта окрестностей)
+
+![Регион Розалия](https://iili.io/nAZh1cv.jpg)
+
+> **Кадр:** Регион Розалия · [⬇](https://iili.io/nAZh1cv.jpg)
+
+На карте: Розалия · Булат · Красный луг · Лесоверье · Мёртвый город · Храм Лолс · Драконий чертог.  
+Каталог: [`../../campaign/prep/locations/rozaliya/places-catalog-region.md`](../../campaign/prep/locations/rozaliya/places-catalog-region.md) · файл: [`assets/maps/rozaliya-region-map.jpg`](../../assets/maps/rozaliya-region-map.jpg)
