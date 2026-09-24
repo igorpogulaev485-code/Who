@@ -138,7 +138,7 @@
 - [Канон-лок 2026-09-10: Лианэя / Велиан / старт арки 3](campaign/plot/canon-lock-2026-09-10-arc3-start.md)
 - [Канон-лок cold open](campaign/plot/canon-lock-2026-09-10-cold-open.md)
 - [Дневник Маэстро — оглавление 58 стр. (канон)](campaign/prep/books/dnevnik-maestro/00-toc-v3-blocks.md)
-- [Открытые страницы (интерлюдия 16/17/52–55)](campaign/prep/books/dnevnik-maestro/handout-open-pages.md) · [лок](campaign/plot/canon-lock-2026-09-24-diary-interlude-open.md)
+- [Открытые страницы (интерлюдии 16/17/29–32/52–55)](campaign/prep/books/dnevnik-maestro/handout-open-pages.md) · [лок #1](campaign/plot/canon-lock-2026-09-24-diary-interlude-open.md) · [лок #2 · 29–32](campaign/plot/canon-lock-2026-09-24-diary-pages-29-32.md)
 - [Оглавление дневника для игроков](campaign/prep/books/dnevnik-maestro/toc-telegram.txt) · [Telegraph](https://telegra.ph/Moi-znaniya---moya-zhizn-09-21)
 - [Слухи накануне (игрокам)](campaign/prep/briefs/arc3-rumors-eve.md)
 - [Сессия 1 cold open](campaign/prep/arc3-session-01-cold-open.md)

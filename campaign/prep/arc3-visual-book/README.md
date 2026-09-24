@@ -86,7 +86,7 @@ Face-lock: [Маэстро](chapters/11/40-маэстро-келебрим.md) �
 | | |
 |---|---|
 | Дочь Маэстро | **Милана** |
-| Дневник | оглавление [09](chapters/09-index.md); открыто 16/17/52–55 — [handout](../books/dnevnik-maestro/handout-open-pages.md) |
+| Дневник | оглавление [09](chapters/09-index.md); открыто **16/17/29–32/52–55** — [handout](../books/dnevnik-maestro/handout-open-pages.md) |
 | Планы | демоны → Порог/Маяк · мёртвые → Берег/Причал — [12](chapters/12-index.md) |
 
 Скил: [`.cursor/skills/echo-dawn-visual-runbook/SKILL.md`](../../../.cursor/skills/echo-dawn-visual-runbook/SKILL.md)  

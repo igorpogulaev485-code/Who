@@ -11,7 +11,7 @@ source: gm-chat
 | Решение | Деталь |
 |---|---|
 | **Интерлюдия** | Между сессиями партия **начала читать** дневник Маэстро (не сессия двери B) |
-| Открыто игрокам | стр. **16, 17, 52, 53, 54, 55** = жёсткий канон |
+| Открыто игрокам | стр. **16, 17, 52, 53, 54, 55** = жёсткий канон *(позже +29–32 → [`canon-lock-2026-09-24-diary-pages-29-32.md`](canon-lock-2026-09-24-diary-pages-29-32.md))* |
 | Раздатка | [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md) |
 | Файлы страниц | [`../prep/books/dnevnik-maestro/pages/`](../prep/books/dnevnik-maestro/pages/) |
 | Telegraph TOC | https://telegra.ph/Moi-znaniya---moya-zhizn-09-21 — метки «Страница изучена вами» на этих номерах |

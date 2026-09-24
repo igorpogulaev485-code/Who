@@ -11,7 +11,7 @@ source: gm-lock-2026-09-04 + round2 + clone-lock-2026-09-24
 
 ## Воскрешение (канон-хуки)
 
-1. **Дневник** — частично изучен (стр. **16, 17, 52–55**). Стр. 16–17 = **Двойник**. Лок: [`../../campaign/plot/canon-lock-2026-09-24-maestro-clone.md`](../../campaign/plot/canon-lock-2026-09-24-maestro-clone.md).  
+1. **Дневник** — частично изучен (стр. **16, 17, 29–32, 52–55**). Стр. 16–17 = **Двойник**; 29–32 = Первый Разлом / семья Кардиана. Лок: [`../../campaign/plot/canon-lock-2026-09-24-maestro-clone.md`](../../campaign/plot/canon-lock-2026-09-24-maestro-clone.md) · [`../../campaign/plot/canon-lock-2026-09-24-diary-pages-29-32.md`](../../campaign/plot/canon-lock-2026-09-24-diary-pages-29-32.md).  
 2. **Дверь R** (ранбук [гл. 18](../../campaign/prep/arc3-visual-book/chapters/18-index.md)): путь через сосуд.  
    - За жизнь: **7** успешных сосудов; переездов души **2–4**.  
    - **Готовый:** храм в пустыне **Амирата** (~с.**15**; ловушки / путь).  
