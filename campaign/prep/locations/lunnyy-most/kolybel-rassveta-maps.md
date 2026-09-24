@@ -72,4 +72,4 @@ canon_note: Колыбель = Кузница Фиалки (одно здани�
 
 - Сессия / ранбук: [02 · 1.0 Утро в приюте](../../arc3-visual-book/chapters/02/01-1.0-утро-в-приюте.md)  
 - Канон города: [`lunnyy-most`](../../../../world/locations/lunnyy-most.md)  
-- НПС: [`morvin`](../../../../world/npcs/morvin.md) · [`aran`](../../../../world/npcs/aran.md) (управляющий)
+- НПС: [`morvin`](../../../../world/npcs/morvin.md) · [`aran`](../../../../world/npcs/aran.md) (управляющий) · [`ella`](../../../../world/npcs/ella.md) (повариха)

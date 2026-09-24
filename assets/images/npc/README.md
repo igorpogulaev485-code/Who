@@ -68,6 +68,7 @@
 - `npc-elian.jpg` → https://iili.io/nAD2qJ9.jpg · **Капитан Элиан** (FrostWarden / Вечный Узел)
 - `npc-morvin.jpg` → https://iili.io/nADqVHB.jpg · **Морвин**, травница
 - `npc-aran.jpg` → https://iili.io/nADAbEP.jpg · **Аран**, управляющий приюта
+- `npc-ella.jpg` → https://iili.io/nADaE0B.jpg · **Элла**, повариха приюта
 
 ## Дверь R · с.2
 

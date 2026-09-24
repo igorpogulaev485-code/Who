@@ -77,6 +77,7 @@ status: active
 | 45 | **Лираэль** | [45](11/45-лираэль.md) | [`lirael`](../../../../world/npcs/lirael.md) |
 | 50 | **Морвин** | [50](11/50-морвин.md) | [`morvin`](../../../../world/npcs/morvin.md) |
 | 51 | **Аран** | [51](11/51-аран.md) | [`aran`](../../../../world/npcs/aran.md) |
+| 52 | **Элла** | [52](11/52-элла.md) | [`ella`](../../../../world/npcs/ella.md) |
 
 ---
 
