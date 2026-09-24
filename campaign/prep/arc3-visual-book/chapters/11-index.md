@@ -74,6 +74,7 @@ status: active
 | 42 | **Торвик Камнезуб** | [42](11/42-торвик-камнезуб.md) | [`torvik`](../../../../world/npcs/torvik-kamnezub.md) |
 | 43 | **Карим Песчаный След** | [43](11/43-карим-песчаный-след.md) | [`karim`](../../../../world/npcs/karim-peschaniy-sled.md) |
 | 44 | **Финилон** | [44](11/44-финилон.md) | [`finilon`](../../../../world/npcs/finilon.md) |
+| 45 | **Лираэль** | [45](11/45-лираэль.md) | [`lirael`](../../../../world/npcs/lirael.md) |
 
 ---
 

@@ -24,5 +24,6 @@ portrait_https: https://iili.io/nAtvEPI.jpg
 
 - Квест арки 1: вернуть вдохновение / ода (Маэстро сулил золото).  
 - Маэстро **принял оду** партии → Финилон **лишился почестей**.  
+- Служанка: [`Лираэль`](lirael.md).  
 
 Ранбук: [11/44](../../campaign/prep/arc3-visual-book/chapters/11/44-финилон.md) *(если есть)* · галерея [11](../../campaign/prep/arc3-visual-book/chapters/11-index.md)

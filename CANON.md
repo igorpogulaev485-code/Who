@@ -93,6 +93,8 @@
 ## NPC
 
 - [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник частично; **дверь R** / храм Амирата (~с.15) + растущий в **Кузад-Думе**; душа у демонов; дочь **Милана**
+- [Финилон](world/npcs/finilon.md) — придворный поэт Маэстро; арка 1 (ода / муза)
+- [Лираэль](world/npcs/lirael.md) — служанка Финилона; арка 1 (правда о стихах / зелье Морвин)
 - [Лок — Двойник / крышка](campaign/plot/canon-lock-2026-09-24-maestro-clone.md) · [хвосты воскрешения](campaign/plot/canon-lock-2026-09-24-resurrection-tails.md) · ранбук [18 · с.2](campaign/prep/arc3-visual-book/chapters/18-index.md) · скрипт [`mq-05-sessions-2-door-r`](campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-r.md)
 - [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса); путь богов/кастеров; гонка один-победитель
 - [Торвик Камнезуб](world/npcs/torvik-kamnezub.md) · [Карим Песчаный След](world/npcs/karim-peschaniy-sled.md) — prep НПС двери R с.2

@@ -59,6 +59,7 @@
 ## Прочие портреты (gm-upload)
 
 - `npc-finilon.jpg` → https://iili.io/nAtvEPI.jpg · **Финилон**, придворный поэт
+- `npc-lirael.jpg` → https://iili.io/nAtrupe.jpg · **Лираэль**, служанка Финилона
 
 ## Дверь R · с.2
 
