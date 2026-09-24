@@ -18,10 +18,10 @@ source: drafts/imports/qwen-kardian-essence-dreams.md
 
 Кадры (серия · вложи Гроку по порядку):
 
-1. Три могилы — `https://iili.io/nAPAiPf.jpg`
-2. Магия-жижа гаснет — `https://iili.io/nAPN47S.jpg`
-3. Келебрим с лилиями — `https://iili.io/nAPNPp9.jpg`
-4. Щелчок человечности — `https://iili.io/nAPNQLb.jpg`
+1. Три могилы — `https://iili.io/nAPpOSp.jpg`
+2. Магия-жижа гаснет — `https://iili.io/nAPpSDX.jpg`
+3. Келебрим с лилиями — `https://iili.io/nAPp4iG.jpg`
+4. Щелчок человечности — `https://iili.io/nAPpPff.jpg`
 
 ## Текст для отправки игроку
 

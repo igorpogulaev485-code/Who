@@ -19,9 +19,9 @@ source: drafts/imports/qwen-kardian-essence-dreams.md
 Кадры (серия · вложи Гроку по порядку):
 
 1. Пепел дома — `https://iili.io/nAPAgwX.jpg`
-2. Отказ Келебрима — `https://iili.io/nAPNkLG.jpg`
-3. Врата Совета — `https://iili.io/nAPNUrl.jpg`
-4. Клятва на мостовой — `https://iili.io/nAPNr22.jpg`
+2. Отказ Келебрима — `https://iili.io/nAPpXVa.jpg`
+3. Врата Совета — `https://iili.io/nAPphiJ.jpg`
+4. Клятва на мостовой — `https://iili.io/nAPpNlR.jpg`
 
 ## Текст для отправки игроку
 

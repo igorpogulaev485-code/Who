@@ -18,10 +18,10 @@ source: drafts/imports/qwen-kardian-essence-dreams.md
 
 Кадры (серия · вложи Гроку по порядку):
 
-1. Метель / путь — `https://iili.io/nAPNDEx.jpg`
-2. Свитки во льдах — `https://iili.io/nAPAQcl.jpg`
-3. Ледяной дракон — `https://iili.io/nAPNp2V.jpg`
-4. Исчезающая любимая — `https://iili.io/nAPO9kP.jpg`
+1. Метель / путь — `https://iili.io/nAPpsUl.jpg`
+2. Свитки во льдах — `https://iili.io/nAPpZRS.jpg`
+3. Ледяной дракон — `https://iili.io/nAPyJ0x.jpg`
+4. Исчезающая любимая — `https://iili.io/nAPyxqJ.jpg`
 
 ## Текст для отправки игроку
 

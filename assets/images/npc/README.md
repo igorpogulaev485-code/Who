@@ -50,6 +50,12 @@
 - `maestro-kelebrim-portrait.png` → https://iili.io/nA4jAhv.png
 - `../locations/maestro-tent-interior.png` → https://iili.io/nA4jl2t.png
 
+## Кардиан (face-lock 2026-09-24)
+
+- `kardian-portrait-canon.jpg` → https://iili.io/nAPZ5ba.jpg · **человек ~40–45**, тёмные волосы + седина у висков, серо-зелёные глаза, щетина  
+- Правило: во всех снах / воспоминаниях до арки 5, где видно лицо «его» — это лицо. Маэстро **не** путать (эльф, платина, уши, без бороды).
+- Сны: `../dreams/kardian-dream-*.jpg` · реестр `campaign/prep/arc3-visual-book/image-urls.json`
+
 ## Дверь R · с.2
 
 - `npc-torvik-kamnezub.jpg` → https://iili.io/nA4jH7e.jpg · **Торвик Камнезуб**

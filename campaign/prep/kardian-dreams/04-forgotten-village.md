@@ -15,11 +15,11 @@ source: gm-2026-09-22
 
 Кадры (серия · вложи Гроку по порядку):
 
-1. Кольца соли — `https://iili.io/nAPOHp1.jpg`
-2. Ночная орда — `https://iili.io/nAPOKCJ.jpg`
-3. Ребёнок / демон — `https://iili.io/nAPOq4R.jpg`
-4. Арест / пожар — `https://iili.io/nAPRHMb.jpg`
-· запас · Оборона у колодца — `https://iili.io/nAPAbA7.jpg`
+1. Кольца соли — `https://iili.io/nAPyEg4.jpg`
+2. Ночная орда — `https://iili.io/nAPyjI9.jpg`
+3. Ребёнок / демон — `https://iili.io/nAPyvrx.jpg`
+4. Арест / пожар — `https://iili.io/nAPyrmP.jpg`
+· запас · Оборона у колодца — `https://iili.io/nAPyeqb.jpg`
 
 ---
 
