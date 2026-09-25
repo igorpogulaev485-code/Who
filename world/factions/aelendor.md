@@ -9,7 +9,7 @@ source: migrated-to-states-2026-09-25
 
 Канон страны перенесён в паспорт по скилу `echo-dawn-state`:
 
-**[`../locations/states/aelendor.md`](../locations/states/aelendor.md)** (`fill_wave: 1`)
+**[`../locations/states/aelendor.md`](../locations/states/aelendor.md)** (`fill_wave: 3`)
 
 Карта: [`../locations/aelendor-map.md`](../locations/aelendor-map.md) · центры: [`../locations/aelendor-centers.md`](../locations/aelendor-centers.md)
 
