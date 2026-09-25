@@ -59,7 +59,7 @@ Gazetteer мёртвых: [`dead-plane-gazetteer`](../../locations/dead-plane-ga
 | Государство | Паспорт / карта | Стол / заметка |
 |---|---|---|
 | **Тёмные леса вечной тени** | overview | паспорт **TBD** |
-| **Аэлендор** | [`aelendor-map`](../../../../world/locations/aelendor-map.md) · [`lunnyy-most`](../../../../world/locations/lunnyy-most.md) | столица **Сильванор**; хаб похорон [02](02-index.md) |
+| **Аэлендор** | карта [`aelendor-map`](../../../../world/locations/aelendor-map.md) · центры [`aelendor-centers`](../../../../world/locations/aelendor-centers.md) · черновик [`factions/aelendor`](../../../../world/factions/aelendor.md) · **паспорт `states/` TBD** | столица **Сильванор**; хаб похорон [02](02-index.md) · Мост / Пики — ниже в сайтах |
 | **Орден пламенеющей стали** | overview | паспорт **TBD** |
 | **Союз речных долин** | overview | паспорт **TBD** |
 | **Империя Звёздной Пыли** | [`imperiya-zvezdnoy-pyli`](../../../../world/locations/states/imperiya-zvezdnoy-pyli.md) · [`zvezdnaya-pyl-map`](../../../../world/locations/zvezdnaya-pyl-map.md) **LOCKED v4** | Небесный Форт · **E · сапоги** [08](08-index.md) · [12/07](12/07-дверь-e-три-фронта.md) |
