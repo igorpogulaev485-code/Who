@@ -13,7 +13,8 @@ html: survey-aelendor-w2-tail.html
 Паспорт уже **`fill_wave: 2`**: [`states/aelendor.md`](../../world/locations/states/aelendor.md)  
 Лок волны: [`canon-lock-2026-09-25-aelendor-w2.md`](canon-lock-2026-09-25-aelendor-w2.md)
 
-👉 **Открыть:** *(URL ниже в чате / после заливки)*  
+👉 **Открыть сейчас:** https://hawaii-celebrity-printers-from.trycloudflare.com  
+
 HTML: [`survey-aelendor-w2-tail.html`](survey-aelendor-w2-tail.html)
 
 ## Блоки
