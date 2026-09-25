@@ -127,7 +127,7 @@ survey_w3_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w3.md
 |---:|---|---|---|
 | 1 | **Лунные Пики** | Лунный Мост | Священный град; единственный Разлом страны; база партии |
 | 2 | **Северный рубеж** | Розалия | Порт; фронт Долины |
-| 3 | **Столичный край** | Сильванор | Столица; Орден у стен; совет / «королева» · **след. playbook** |
+| 3 | **Столичный край** | Сильванор | Столица; Орден у стен; совет / «королева» · [playbook](../../../campaign/prep/locations/silvanor/) |
 | 4 | **Златоцветские земли** | Златоцвет | СВ река; торговля |
 | 5 | **Элиандорский край** | Элиандор | Центр–восток |
 | 6 | **Вратные земли** | Вратный град | ЮЗ; Тёмные леса |
@@ -194,5 +194,5 @@ survey_w3_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w3.md
 | Локи опросов | [`state-survey`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-state-survey.md) · [`w1-deep`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md) · [`w2`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w2.md) · [`w2-tail`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w2-tail.md) · [`w3`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w3.md) |
 | Карта · центры · overview | [`aelendor-map`](../aelendor-map.md) · [`aelendor-centers`](../aelendor-centers.md) · [`states-overview`](../states-overview.md) |
 | Stub фракции | [`../../factions/aelendor.md`](../../factions/aelendor.md) → этот паспорт |
-| Prep (отдельно) | playbook **Сильванор** — следующий по ok · Лунный Мост уже есть |
+| Prep (отдельно) | playbook **Сильванор** — [`silvanor/`](../../../campaign/prep/locations/silvanor/) · Лунный Мост уже есть |
 | Ранбук 20 | [`../../../campaign/prep/arc3-visual-book/chapters/20-index.md`](../../../campaign/prep/arc3-visual-book/chapters/20-index.md) |

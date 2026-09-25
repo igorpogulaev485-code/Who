@@ -19,6 +19,6 @@ source: gm-2026-09-25
 
 | # | Скил | Зачем | Статус |
 |---:|---|---|---|
-| 4 | `echo-dawn-location` | playbook **Сильванор** / Столичный край | **wait-ok** |
+| 4 | `echo-dawn-location` | playbook **Сильванор** / Столичный край | **done** |
 
-План: [`silvanor-playbook-plan.md`](silvanor-playbook-plan.md) (если ещё нет — создать при ok).
+План: [`silvanor-playbook-plan.md`](silvanor-playbook-plan.md) · файлы: `campaign/prep/locations/silvanor/`

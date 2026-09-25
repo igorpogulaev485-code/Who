@@ -1,26 +1,29 @@
 ---
 id: orch-silvanor-playbook
 title: "План — playbook Сильванор"
-status: wait-ok
-source: gm-survey-aelendor-w3-b_silvanor
+status: done
+source: gm-ok-2026-09-25
 ---
 
 # Сильванор (playbook)
 
 ## Цель
 
-По локу W3 (`b_silvanor`): playbook столицы / Столичного края через `echo-dawn-location`.
-
-## Шаг 0
-
-Канон: паспорт [`states/aelendor.md`](../../../world/locations/states/aelendor.md) W3 · [`silvanor.md`](../../../world/locations/silvanor.md) · Орден у стен.
+Playbook столицы через `echo-dawn-location` (ok мастера).
 
 ## Маршрут
 
 | # | Скил | Статус |
 |---:|---|---|
-| 1 | `echo-dawn-location` | **wait-ok** |
+| 1 | `echo-dawn-location` seed · 5 зон | **done** |
 
-## Не делаем
+## Файлы
 
-Пока нет ok — не писать playbook. Квесты — отдельно через quest-скилы.
+`campaign/prep/locations/silvanor/` — playbook.md · playbook.docx · npc-registry · README
+
+## Дальше (по запросу)
+
+| # | Что | Статус |
+|---:|---|---|
+| 2 | expand район / полные side-quests по якорям q-silv-* | wait |
+| 3 | лагерь Ордена за стеной | wait |
