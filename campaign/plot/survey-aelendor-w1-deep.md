@@ -1,29 +1,26 @@
 ---
 title: Опрос — Аэлендор W1 deep (королева · устои · 10 табу)
-status: survey
+status: locked
 tags: [survey, state, aelendor]
 date: 2026-09-25
 depends: canon-lock-2026-09-25-aelendor-state-survey.md
+lock: canon-lock-2026-09-25-aelendor-w1-deep.md
 passport: world/locations/states/aelendor.md
 html: survey-aelendor-w1-deep.html
 ---
 
-# Опрос — Аэлендор · углубление W1
+# Опрос — Аэлендор · углубление W1 · **LOCKED**
 
-Предыдущий лок: [`canon-lock-2026-09-25-aelendor-state-survey.md`](canon-lock-2026-09-25-aelendor-state-survey.md)  
-Паспорт: [`states/aelendor.md`](../../world/locations/states/aelendor.md) — **остаёмся на wave 1**.
+Лок: [`canon-lock-2026-09-25-aelendor-w1-deep.md`](canon-lock-2026-09-25-aelendor-w1-deep.md)  
+Паспорт: [`states/aelendor.md`](../../world/locations/states/aelendor.md)
 
-👉 **Открыть сейчас (Safari / телефон):** https://hawaii-celebrity-printers-from.trycloudflare.com  
+## Ответы
 
-(зеркало cloudflare-туннеля, пока агент жив; litterbox сейчас 500)  
-В репо: [`survey-aelendor-w1-deep.html`](survey-aelendor-w1-deep.html)  
-В чате можно ответить тем же форматом `a=…` `b=…`.
-
-## Блоки
-
-| | |
-|---|---|
-| A | Кто **королева** в спектакле совета |
-| B–D | Устои (светскость · боги/история · «высшие эльфы») |
-| E | 10 законов/табу — **приняты** (лок) · расширение текстов позже |
-| F | Валюта / дефицит экономики (опционально) |
+| | | |
+|---|---|---|
+| A | `a_silvanara` | «Королева» спектакля = **Сильванара** |
+| B | `b_parallel` | Двор ‖ храмы |
+| C | `c_history_liturgy` | История = литургия |
+| D | `d_both` | Магия/эстетика + долгая память |
+| E | `e_all` | 10 табу — верхний уровень |
+| F | `f_both_def` | Дефицит: металл+оружие и еда; валюта TBD |
