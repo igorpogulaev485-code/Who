@@ -1,25 +1,24 @@
 ---
 id: orch-aelendor-state-w3
 title: "План — Аэлендор W3"
-status: wait-survey
+status: done
 source: gm-2026-09-25
 ---
 
 # Аэлендор → W3
 
-## Цель
+## Сделано
 
-По `f_w3` из хвоста — опрос связности (mq · локации · дипломатия · последствия).
-
-## Маршрут
-
-| # | Скил | Статус |
+| # | Что | Статус |
 |---:|---|---|
-| 1 | `echo-dawn-state` — лок w2-tail | **done** |
-| 2 | `echo-dawn-state` — опрос W3 | **wait-survey** |
-| 3 | `echo-dawn-state` — вписать + wave 3 по ответу f | blocked |
+| 1 | Лок w2-tail | done |
+| 2 | Опрос W3 → лок | done |
+| 3 | `fill_wave: 3` + сверка + убрать mq + Ледяной Союз | done |
 
-## Опрос
+## Дальше (отдельный ok)
 
-[`survey-aelendor-w3`](../../plot/survey-aelendor-w3.md)  
-URL: https://hawaii-celebrity-printers-from.trycloudflare.com
+| # | Скил | Зачем | Статус |
+|---:|---|---|---|
+| 4 | `echo-dawn-location` | playbook **Сильванор** / Столичный край | **wait-ok** |
+
+План: [`silvanor-playbook-plan.md`](silvanor-playbook-plan.md) (если ещё нет — создать при ok).

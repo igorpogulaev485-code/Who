@@ -12,8 +12,8 @@ source: gm-upload-2026-09-04
 
 Красный пунктир — внешние границы с соседями. Белый пунктир — внутренние провинции (**8** контуров ≈ баннер-города). Чёрные линии — дороги.
 
-Паспорт государства: [`states/aelendor.md`](states/aelendor.md) (`fill_wave: 1`).  
-**8 провинций** (белый пунктир) — имена **канон** (лок [`canon-lock-2026-09-25-aelendor-state-survey.md`](../../campaign/plot/canon-lock-2026-09-25-aelendor-state-survey.md)). Углубление: [`survey-aelendor-w1-deep`](../../campaign/plot/survey-aelendor-w1-deep.md).
+Паспорт государства: [`states/aelendor.md`](states/aelendor.md) (`fill_wave: 3`).  
+**8 провинций** (белый пунктир) — имена **канон**. Лок W3: [`canon-lock-2026-09-25-aelendor-w3.md`](../../campaign/plot/canon-lock-2026-09-25-aelendor-w3.md).
 
 ## Соседи (подписи на карте)
 
