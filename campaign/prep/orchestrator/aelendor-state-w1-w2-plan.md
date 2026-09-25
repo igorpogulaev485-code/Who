@@ -1,38 +1,26 @@
 ---
 id: orch-aelendor-state-w1-w2
-title: "План — Аэлендор паспорт W1 + опрос W2"
+title: "План — Аэлендор W1 + опросы"
 status: wait-survey
-source: gm-2026-09-25 (ae_all · карта регионов)
+source: gm-2026-09-25
 ---
 
-# Аэлендор — W1 done · ждём опрос W2
+# Аэлендор
 
 ## Сделано
 
 | # | Что | Статус |
 |---:|---|---|
-| 1 | Аудит | done |
-| 2 | Ранбук 20 TBD→паспорт | done |
-| 3 | `states/aelendor.md` **fill_wave: 1** | done |
-| 4 | Регионы с карты: 8 белых контуров + баннеры; **Лунные Пики** канон | done |
-| 5 | `factions/aelendor` → stub | done |
-| 6 | overview · CANON · aelendor-map | done |
-| 7 | Опрос W2 HTML + md + litterbox | done · **ждём ответы** |
+| 1 | Паспорт W1 | done |
+| 2 | Опрос #1 ответы → лок | done |
+| 3 | Паспорт углублён (провинции · власть-ширма · экономика · сила · Разлом только Мост) | done |
+| 4 | `fill_wave` **остаётся 1** (h_other) | done |
+| 5 | Deep-опрос (королева · устои · 10 табу) | **wait** |
 
-## Опрос
+## Лок
 
-- MD: [`survey-aelendor-state-w2.md`](../../plot/survey-aelendor-state-w2.md)  
-- HTML: https://litter.catbox.moe/ddm2fj.html  
-- Репо: `campaign/plot/survey-aelendor-state-w2.html`
+[`canon-lock-2026-09-25-aelendor-state-survey.md`](../../plot/canon-lock-2026-09-25-aelendor-state-survey.md)
 
-## После ответов
+## Сейчас ждём
 
-1. Лок `canon-lock-2026-09-25-aelendor-state-w2.md`  
-2. Поднять паспорт до `fill_wave: 2`  
-3. Обновить centers / map имена провинций  
-
-## Не делали
-
-- table-prep  
-- выдуманная экономика без ok  
-- docx (нет pandoc / по запросу)
+Deep: [`survey-aelendor-w1-deep.md`](../../plot/survey-aelendor-w1-deep.md)
