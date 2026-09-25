@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Опрос — бюджет сессий арки 3</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead, .hint { color: var(--muted); font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  select, textarea {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опрос — бюджет сессий арки 3</h1>
+  <p class="lead">Направление ≈ 2 сессии прогресса. Арка 15–20 сессий. Скопируй ответы в чат.</p>
+  <div class="locked"><b>Контекст:</b> mq-01…06 уже набросаны. Нужен темп и приоритет, чтобы перешить акты под S1/S2 и начать стол-ready prep.</div>
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Хозяева артов, имя дочери, ландмарки Разлома, что точно не трогать.</p>
+    <textarea id="freeform" rows="7" placeholder="Заметки…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+<div class="footer">
+  <div class="footer-inner">
+    <button type="button" class="secondary" id="btnLitter">Litterbox</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано</div>
+<script>
+const QUESTIONS = [
+  {
+    id: "A1", section: "Темп",
+    title: "Правило «2 сессии на направление» — как читать?",
+    ctx: "Партия за одну сессию не должна уйти дальше, чем задумано на две.",
+    options: [
+      { v: "hard-2", t: "Жёстко: каждый mq = ровно блок S1+S2 (закрытие или явная пауза)" },
+      { v: "soft-2", t: "Мягко: ~2 сессии прогресса; можно вернуться позже ещё на 2" },
+      { v: "cap-one-session", t: "Главное — потолок за вечер: не больше «половины» двухсессионного блока" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "A2", section: "Темп",
+    title: "Длина арки 3",
+    ctx: "Ты сказал 15–20.",
+    options: [
+      { v: "15", t: "Ориентир 15" },
+      { v: "18", t: "Ориентир 18" },
+      { v: "20", t: "Ориентир 20" },
+      { v: "15-20-flex", t: "Гибко 15–20, финал когда демоны сломаны" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "B1", section: "Исключения",
+    title: "mq-06 «Три на земле» (3 государства)",
+    ctx: "Если 2 сессии на ВСЮ охоту — успеют ~1 арт. Если 2 на каждый — до 6 сессий.",
+    options: [
+      { v: "2-total", t: "2 сессии на всё направление (успех = 1 арт + след на остальные)" },
+      { v: "2-per-art", t: "2 сессии на каждый арт (до 6)" },
+      { v: "2-plus-returns", t: "2 на первый арт сейчас; остальные — отдельные возвраты по 2" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "B2", section: "Исключения",
+    title: "mq-01 «Клык» (spine победы арки)",
+    ctx: "Сломать напор демонов за 2 сессии — туго; можно 2 сейчас + 2 в финале арки.",
+    options: [
+      { v: "hard-2", t: "Тоже жёстко 2 (сильный удар, не полная победа арки)" },
+      { v: "2-plus-2", t: "Блок 2 + финальный блок 2 позже" },
+      { v: "4-spine", t: "Исключение: 4 сессии подряд на spine" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "B3", section: "Исключения",
+    title: "mq-05 «Пепел Маэстро» (похороны ~2 дня)",
+    ctx: "Может быть короче двух полных сессий.",
+    options: [
+      { v: "1-session", t: "1 сессия (или полторы)" },
+      { v: "2-session", t: "2 сессии как остальные" },
+      { v: "half-plus-hook", t: "Полсессии на похороны + чтение дневника влито в другой mq" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "C1", section: "Старт prep",
+    title: "Какое направление готовить первым к столу (сессии 1–2)?",
+    ctx: "Глубокий prep только на выбранное + 1 новость с другого фронта.",
+    options: [
+      { v: "mq-05", t: "mq-05 Пепел (похороны/дневник) — логичный cold open" },
+      { v: "mq-01", t: "mq-01 Клык (Разлом/демоны)" },
+      { v: "mq-04", t: "mq-04 Велиан" },
+      { v: "mq-03", t: "mq-03 Лес/Элессар" },
+      { v: "mq-02", t: "mq-02 Трофеи в Разломе" },
+      { v: "mq-06", t: "mq-06 Три на земле" },
+      { v: "menu-night", t: "Сессия-меню: слухи + выбор, без delve" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "C2", section: "Старт prep",
+    title: "Второе направление держать «наготове» (если свернут с первого)",
+    ctx: "Не полная простыня — каркас S1/S2.",
+    options: [
+      { v: "mq-01", t: "mq-01 Клык" },
+      { v: "mq-04", t: "mq-04 Велиан" },
+      { v: "mq-03", t: "mq-03 Лес" },
+      { v: "mq-02", t: "mq-02 Трофеи" },
+      { v: "mq-06", t: "mq-06 Земля" },
+      { v: "mq-05", t: "mq-05 Пепел" },
+      { v: "none", t: "Хватит одного глубокого" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "D1", section: "Слоты арки",
+    title: "Из 15–20 сессий сколько под «чистые» mq-блоки?",
+    ctx: "Остальное — хаб, побочки, новости фронтов, дорога, финал.",
+    options: [
+      { v: "10-12", t: "10–12 (≈5–6 направлений ×2)" },
+      { v: "12-14", t: "12–14" },
+      { v: "8-10", t: "8–10 (больше хаба/войны)" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "E1", section: "Канон-дыры (можно seed)",
+    title: "Земные арты — хозяева сейчас",
+    ctx: "Доспехи/Льды, меч/Хребет, сапоги/Пыль. Можно «пока seed — уточню».",
+    options: [
+      { v: "seed-ok", t: "Пиши seed-хозяев сам, я поправлю" },
+      { v: "ask-later", t: "Пока без имён хозяев — только государство/тип силы" },
+      { v: "will-type", t: "Напишу хозяев в свободном тексте / litterbox" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "E2", section: "Канон-дыры (можно seed)",
+    title: "Велиан (mq-04) — что фиксируем в prep?",
+    ctx: "Не обязательно лок исхода за столом — меню для мастера.",
+    options: [
+      { v: "menu-3", t: "Меню: жив / мёртв / искажён — ветки в файле" },
+      { v: "lock-alive", t: "Лок: пока жив (окно спасения)" },
+      { v: "lock-dead", t: "Лок: уже мёртв (квест = правда + карта)" },
+      { v: "lock-warped", t: "Лок: искажён" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "E3", section: "Канон-дыры (можно seed)",
+    title: "Дочь Маэстро",
+    ctx: "Имя и тон для mq-05.",
+    options: [
+      { v: "seed-name", t: "Придумай seed-имя и тон — поправлю" },
+      { v: "no-name-yet", t: "Без имени; только «дочь», появление в толпе" },
+      { v: "will-type", t: "Имя/тон в свободном тексте" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  },
+  {
+    id: "F1", section: "Ok",
+    title: "После ответов — сразу перешивать mq под S1/S2?",
+    ctx: "Сначала выбранное направление глубоко, остальные — короткие S1/S2 каркасы.",
+    options: [
+      { v: "ok-go", t: "Да, ok — начинай" },
+      { v: "ok-first-only", t: "Ok только на первое направление" },
+      { v: "wait", t: "Сначала обсудим ответы в чате" },
+      { v: "other", t: "Другое → litterbox" }
+    ]
+  }
+];
+
+const root = document.getElementById("sections");
+const bySection = {};
+QUESTIONS.forEach((q) => { (bySection[q.section] ||= []).push(q); });
+Object.entries(bySection).forEach(([name, qs]) => {
+  const sec = document.createElement("section");
+  sec.innerHTML = `<h2>${name}</h2>`;
+  qs.forEach((q) => {
+    const div = document.createElement("div");
+    div.className = "q";
+    const opts = q.options.map((o) => `<option value="${o.v}">${o.t}</option>`).join("");
+    div.innerHTML = `<span class="title">${q.id}. ${q.title}</span><div class="ctx">${q.ctx}</div>
+      <select data-q="${q.id}"><option value="">— выбери —</option>${opts}</select>
+      <textarea class="note" data-note="${q.id}" rows="3" placeholder="Уточнение…"></textarea>`;
+    sec.appendChild(div);
+  });
+  root.appendChild(sec);
+});
+
+const bar = document.getElementById("bar");
+const countEl = document.getElementById("count");
+const total = QUESTIONS.length;
+function updateProgress() {
+  let n = 0;
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    if (sel && sel.value) n++;
+  });
+  countEl.textContent = `${n} / ${total}`;
+  bar.style.width = `${(n / total) * 100}%`;
+}
+function save() {
+  try {
+    localStorage.setItem("echo-dawn-arc3-budget-v1", JSON.stringify({
+      answers: Object.fromEntries(QUESTIONS.map((q) => {
+        const sel = document.querySelector(`select[data-q="${q.id}"]`);
+        const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+        return [q.id, { v: sel?.value || "", note: note?.value || "" }];
+      })),
+      free: document.getElementById("freeform").value
+    }));
+  } catch (_) {}
+}
+function restore() {
+  try {
+    const data = JSON.parse(localStorage.getItem("echo-dawn-arc3-budget-v1") || "null");
+    if (!data) return;
+    QUESTIONS.forEach((q) => {
+      const a = data.answers?.[q.id];
+      if (!a) return;
+      const sel = document.querySelector(`select[data-q="${q.id}"]`);
+      const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+      if (sel) sel.value = a.v || "";
+      if (note) { note.value = a.note || ""; note.classList.toggle("show", a.v === "other" || a.v === "will-type"); }
+    });
+    if (data.free) document.getElementById("freeform").value = data.free;
+  } catch (_) {}
+  updateProgress();
+}
+document.querySelectorAll("select[data-q]").forEach((sel) => {
+  sel.addEventListener("change", () => {
+    const note = document.querySelector(`textarea[data-note="${sel.dataset.q}"]`);
+    if (note) note.classList.toggle("show", sel.value === "other" || sel.value === "will-type");
+    updateProgress(); save();
+  });
+});
+document.getElementById("freeform").addEventListener("input", save);
+document.querySelectorAll("textarea.note").forEach((t) => t.addEventListener("input", save));
+function collect() {
+  const lines = ["# Ответы — бюджет сессий арки 3", ""];
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    const v = sel?.value || "(пусто)";
+    const label = q.options.find((o) => o.v === v)?.t || v;
+    lines.push(`${q.id}: ${v} — ${label}`);
+    if (note?.value.trim() && (v === "other" || v === "will-type")) lines.push(`  note: ${note.value.trim()}`);
+  });
+  const free = document.getElementById("freeform").value.trim();
+  if (free) { lines.push("", "## Свободный текст", free); }
+  return lines.join("\n");
+}
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.style.display = "block";
+  setTimeout(() => { t.style.display = "none"; }, 1600);
+}
+document.getElementById("btnCopy").addEventListener("click", async () => {
+  const text = collect();
+  const out = document.getElementById("out");
+  out.textContent = text; out.classList.add("show");
+  try { await navigator.clipboard.writeText(text); toast("Скопировано"); }
+  catch (_) { toast("Выдели текст ниже"); }
+});
+document.getElementById("btnLitter").addEventListener("click", async () => {
+  const text = collect();
+  const fd = new FormData();
+  fd.append("reqtype", "fileupload");
+  fd.append("time", "72h");
+  fd.append("fileToUpload", new Blob([text], { type: "text/plain" }), "arc3-budget.txt");
+  try {
+    const url = await (await fetch("https://litterbox.catbox.moe/resources/internals/api.php", { method: "POST", body: fd })).text();
+    const out = document.getElementById("out");
+    out.textContent = text + "\n\n# litterbox\n" + url; out.classList.add("show");
+    try { await navigator.clipboard.writeText(url); } catch (_) {}
+    toast("Litterbox готов");
+  } catch (_) { toast("Litterbox недоступен"); }
+});
+restore(); updateProgress();
+</script>
+</body>
+</html>

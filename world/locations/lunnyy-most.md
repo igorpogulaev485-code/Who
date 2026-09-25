@@ -22,9 +22,11 @@ faction: Аэлендор
 - Плацдарм Приготовлений (шатёр Маэстро)
 - Театр «Зеркало Судьбы»
 - Поющие Стоки
-- Район Пришельцев — приют «Колыбель Рассвета»
+- Район Пришельцев — приют «Колыбель Рассвета» (= **Кузница Фиалки**; точка **35**)
+  - Карты этажей (prep): [`kolybel-rassveta-maps.md`](../../campaign/prep/locations/lunnyy-most/kolybel-rassveta-maps.md)  
+    · общий [⬇](https://iili.io/nADobEu.jpg) · учёба [⬇](https://iili.io/nADxHkQ.jpg) · дормы [⬇](https://iili.io/nADx2TB.jpg)
 - Тайный храм Хельма (очищен героями)
-- **Кузница Фиалки** — база партии / улучшения ([карточка](lunnyy-most/kuznitsa-fialki.md))
+- **Кузница Фиалки** — база партии / улучшения ([карточка](lunnyy-most/kuznitsa-fialki.md)) · **то же здание**, что Колыбель
 
 ## История в кампании
 
@@ -34,3 +36,11 @@ faction: Аэлендор
 
 На карте Аэлендора: **СЗ в кольце гор**.  
 Провинция **Лунные Пики**: [`lunnye-piki-map.md`](lunnye-piki-map.md).
+
+## Нумерованная карта (1–58)
+
+![Лунный Мост](https://iili.io/nAZ73sS.jpg)
+
+> **Кадр:** Лунный Мост · [⬇](https://iili.io/nAZ73sS.jpg)
+
+Каталог точек (prep): [`../../campaign/prep/locations/lunnyy-most/places-catalog.md`](../../campaign/prep/locations/lunnyy-most/places-catalog.md) · файл: [`assets/maps/lunnyy-most-map-numbered.jpg`](../../assets/maps/lunnyy-most-map-numbered.jpg)

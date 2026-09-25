@@ -1,0 +1,46 @@
+---
+title: Опрос — скил оркестратора v1
+status: answered
+tags: [skill, orchestrator, survey]
+created: 2026-09-05
+---
+
+# Опросник: скил `echo-dawn-orchestrator`
+
+**Ответы залочены:** [`skill-lock-orchestrator-v1.md`](skill-lock-orchestrator-v1.md) · скил: [`.cursor/skills/echo-dawn-orchestrator/SKILL.md`](../../.cursor/skills/echo-dawn-orchestrator/SKILL.md).
+
+**Приватный репо:** raw/htmlpreview **не открыть**. Mirror (Safari ok):
+
+👉 **https://litter.catbox.moe/02leou.html** (~72 ч)
+
+Локально: [`skill-survey-orchestrator-v1.html`](skill-survey-orchestrator-v1.html)  
+Заполни → «Скопировать ответы» → вставь в чат.
+
+**Контекст:** финал базовой волны. Уже есть 7 скилов. Оркестратор — дирижёр.
+
+---
+
+## A. Роль
+**A1** router / planner+router / +короткие сводки / другое  
+**A2** всегда первым / составные и неясные / только явно / другое  
+**A3** canon→orch / orch включает canon / orch entrypoint / другое  
+
+## B. Маршрут
+**B1** жёсткая таблица / таблица+опрос / всегда спросить / другое  
+**B2** по порядку / параллель ок / один скил за заход / другое  
+**B3** нет скила: опрос+ad-hoc / парковать / ближайший / другое  
+
+## C. Опросы и канон
+**C1** orch на стыках / все опросы через orch / только специалисты / другое  
+**C2** лок пишет специалист / orch / оба / другое  
+**C3** строго опрос / prep ок canon нет / soft living world / другое  
+
+## D. Выходы
+**D1** plan-файл / чеклист в чате / open-threads / другое  
+**D2** пакет сессии / ждать session-скил / лёгкая повестка / другое  
+**D3** поток рекапа / ждать recap-скил / только текст мастера / другое  
+
+## E. Приоритеты
+**E1** спросить фронт / open-threads сверху / партия first / другое  
+**E2** бесит: простыня плана / обход скилов / лишние вопросы / другое  
+**E3** plan+go / plan ждать ok / опрос если дырка иначе go / другое  

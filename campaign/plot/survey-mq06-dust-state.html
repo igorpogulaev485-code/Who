@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опрос — Звёздная Пыль (паспорт + сапоги)</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  .rec { font-size: 0.8rem; color: var(--accent); margin: -4px 0 8px; }
+  select, textarea {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опрос — Звёздная Пыль</h1>
+  <p class="lead">Паспорт империи → потом с.2 сапог. Выбери → «Скопировать» → в чат.</p>
+  <div class="locked"><b>Лок:</b> Небесный Форт · Вентариус IV / Кайрос · сапоги = адмирал/флот · враги · Розалия→море · портал закрыт. Хребет/меч к с.2 готов.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Имя адмирала, флагмана, мотив предательства — если уже есть в голове.</p>
+    <textarea id="freeform" rows="5" placeholder="note=…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+
+<div class="footer">
+  <div class="footer-inner">
+    <button type="button" class="secondary" id="btnLitter">Litterbox ответов</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано</div>
+
+<script>
+const STORAGE = "echo-dawn-mq06-dust-state-v1";
+const QUESTIONS = [
+  {
+    id: "a",
+    section: "A · Столица",
+    title: "Небесный Форт — где стоит?",
+    ctx: "Имя столицы уже канон (five-capitals). Нужна геометрия для паспорта и карты.",
+    options: [
+      { v: "a_ground", t: "На земле острова (порт + город)" },
+      { v: "a_sky", t: "На летающем острове над империей" },
+      { v: "a_split", t: "Форт в небе; порты/флот внизу" },
+      { v: "a_propose", t: "Предложи схему → выберу" },
+      { v: "a_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "b",
+    section: "B · Летающие острова",
+    title: "Как устроены летающие острова?",
+    ctx: "Есть в overview / архиве стран. Не писать до ответа.",
+    options: [
+      { v: "b_many", t: "Много островов; столица один из них / над ними" },
+      { v: "b_few", t: "2–4 ключевых; остальное легенда" },
+      { v: "b_one", t: "Только столичный небо-остров; остальное суша" },
+      { v: "b_metaphor", t: "Метафора / полёт — не острова на карте" },
+      { v: "b_later", t: "Уточним после W1 / на карте" },
+      { v: "b_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "c",
+    section: "C · Адмирал",
+    title: "Адмирал vs Кайрос?",
+    ctx: "Лок: сапоги у адмирала/флота. Кайрос = фактический правитель.",
+    options: [
+      { v: "c_loyal", t: "Верный Кайросу; флот = рука магистра" },
+      { v: "c_faction", t: "Своя фракция флота; с Кайросом торг" },
+      { v: "c_shadow", t: "Де-факто сила рядом со «спящим» императором" },
+      { v: "c_propose", t: "Предложи имя + схему → выберу" },
+      { v: "c_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "d",
+    section: "D · Сапоги",
+    title: "Где сапоги сейчас?",
+    ctx: "Нужно для с.2 и рычага mq-06.",
+    options: [
+      { v: "d_flagship", t: "На флагмане (носит / каюта)" },
+      { v: "d_admiralty", t: "В адмиралтействе Небесного Форта" },
+      { v: "d_rift_watch", t: "Флот у Разлома Пыли — сапоги там" },
+      { v: "d_moving", t: "В пути к Разлому / на передачу агентам" },
+      { v: "d_propose", t: "Предложи" },
+      { v: "d_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "e",
+    section: "E · Предательство",
+    title: "Одна строка мотива для паспорта?",
+    options: [
+      { v: "e_deal_dark", t: "Сделка с Долиной / тьмой ради силы/артов" },
+      { v: "e_veil_break", t: "Отказ от клятвы Завесы / Пяти Жертв" },
+      { v: "e_boots_hunt", t: "Чтобы забрать / удержать арты Кардиана" },
+      { v: "e_propose", t: "Предложи 1–2 формулировки → выберу" },
+      { v: "e_later", t: "В W1 только «предала»; мотив позже" },
+      { v: "e_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "f",
+    section: "F · Разлом",
+    title: "Разлом Пыли vs Форт / флот?",
+    options: [
+      { v: "f_far", t: "Далеко — фон" },
+      { v: "f_near_fort", t: "Близко к столице" },
+      { v: "f_near_fleet", t: "Флот держит периметр Разлома" },
+      { v: "f_linked_boots", t: "Сапоги/адмирал связаны с Разломом" },
+      { v: "f_later", t: "Уточним в W3" },
+      { v: "f_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "g",
+    section: "G · Волна паспорта",
+    title: "Насколько глубоко паспорт сейчас?",
+    options: [
+      { v: "g_w1", t: "Только W1 (хватит для с.2)" },
+      { v: "g_w2", t: "Сразу W2 (власть, регионы, экономика)" },
+      { v: "g_w2_light", t: "W2, регионы proposal — ок имён позже" },
+      { v: "g_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "h",
+    section: "H · Карта государства",
+    title: "Нужна карта Пыли сейчас?",
+    options: [
+      { v: "h_yes", t: "Да, как у Союза / Хребта" },
+      { v: "h_later", t: "После паспорта / с.2" },
+      { v: "h_no", t: "Только паспорт + seed флота" },
+      { v: "h_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "i",
+    section: "I · Клифф с.2",
+    title: "Чем кончается первый вечер ветки сапог?",
+    ctx: "Сапоги ЕЩЁ НЕ у партии (как Туманный Щит ≠ Лианэя).",
+    rec: "Рекомендация: Розалия→ход ИЛИ берег/узнать где адмирал.",
+    options: [
+      { v: "i_rozalia_berth", t: "Розалия: найти/сесть на ход к флоту" },
+      { v: "i_coast_sight", t: "Берег Пыли / вид Форта — узнать где адмирал" },
+      { v: "i_fleet_refuse", t: "Контакт с флотом: отказ / цена" },
+      { v: "i_agent", t: "Агент демонов у флота — гонка" },
+      { v: "i_propose", t: "Предложи" },
+      { v: "i_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "j",
+    section: "J · Сила / экономика",
+    title: "Акцент силы Империи в W1?",
+    options: [
+      { v: "j_navy", t: "Флот + морская торговля" },
+      { v: "j_sky", t: "Воздушный флот / летающие острова" },
+      { v: "j_arcane", t: "Магистры / астрал / Кайрос; флот инструмент" },
+      { v: "j_mixed", t: "Флот + магия поровну" },
+      { v: "j_other", t: "Другое → уточни ниже" }
+    ]
+  }
+];
+
+function bySection(list) {
+  const map = new Map();
+  list.forEach((q) => {
+    if (!map.has(q.section)) map.set(q.section, []);
+    map.get(q.section).push(q);
+  });
+  return map;
+}
+
+function showNote(v) {
+  return (v || "").endsWith("_other") || (v || "").endsWith("_propose");
+}
+
+function render() {
+  const root = document.getElementById("sections");
+  root.innerHTML = "";
+  bySection(QUESTIONS).forEach((qs, section) => {
+    const sec = document.createElement("section");
+    sec.innerHTML = `<h2>${section}</h2>`;
+    qs.forEach((q) => {
+      const div = document.createElement("div");
+      div.className = "q";
+      const opts = q.options.map((o) => `<option value="${o.v}">${o.t}</option>`).join("");
+      div.innerHTML = `
+        <span class="title">${q.title}</span>
+        <div class="ctx">${q.ctx || ""}</div>
+        ${q.rec ? `<div class="rec">${q.rec}</div>` : ""}
+        <select data-q="${q.id}"><option value="">— выбери —</option>${opts}</select>
+        <textarea class="note" data-note="${q.id}" rows="3" placeholder="Уточнение…"></textarea>`;
+      sec.appendChild(div);
+    });
+    root.appendChild(sec);
+  });
+  root.querySelectorAll("select").forEach((sel) => {
+    sel.addEventListener("change", () => {
+      const note = root.querySelector(`textarea[data-note="${sel.dataset.q}"]`);
+      if (note) note.classList.toggle("show", showNote(sel.value));
+      persist(); updateProgress();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach((t) => t.addEventListener("input", persist));
+  document.getElementById("freeform").addEventListener("input", persist);
+}
+
+function collect() {
+  const lines = ["survey-mq06-dust-state"];
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    lines.push(`${q.id}=${sel?.value || "—"}`);
+    if (note && note.value.trim()) lines.push(`${q.id}_note=${note.value.trim()}`);
+  });
+  lines.push("note=" + (document.getElementById("freeform").value.trim() || "—"));
+  return lines.join("\n");
+}
+
+function persist() {
+  const answers = {};
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    answers[q.id] = { v: sel?.value || "", note: note?.value || "" };
+  });
+  localStorage.setItem(STORAGE, JSON.stringify({
+    answers, free: document.getElementById("freeform").value
+  }));
+}
+
+function restore() {
+  try {
+    const data = JSON.parse(localStorage.getItem(STORAGE) || "null");
+    if (!data) return;
+    QUESTIONS.forEach((q) => {
+      const a = data.answers?.[q.id];
+      if (!a) return;
+      const sel = document.querySelector(`select[data-q="${q.id}"]`);
+      const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+      if (sel) sel.value = a.v || "";
+      if (note) {
+        note.value = a.note || "";
+        note.classList.toggle("show", showNote(a.v));
+      }
+    });
+    if (data.free) document.getElementById("freeform").value = data.free;
+  } catch (_) {}
+  updateProgress();
+}
+
+function updateProgress() {
+  let done = 0;
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    if (sel && sel.value) done++;
+  });
+  document.getElementById("count").textContent = `${done} / ${QUESTIONS.length}`;
+  document.getElementById("bar").style.width = `${(done / QUESTIONS.length) * 100}%`;
+}
+
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.style.display = "block";
+  setTimeout(() => { t.style.display = "none"; }, 1600);
+}
+
+document.getElementById("btnCopy").addEventListener("click", async () => {
+  const text = collect();
+  const out = document.getElementById("out");
+  out.textContent = text;
+  out.classList.add("show");
+  try {
+    await navigator.clipboard.writeText(text);
+    toast("Скопировано — вставь в чат");
+  } catch (_) {
+    toast("Выдели текст ниже");
+  }
+});
+
+document.getElementById("btnLitter").addEventListener("click", async () => {
+  const text = collect();
+  const blob = new Blob([text], { type: "text/plain" });
+  const fd = new FormData();
+  fd.append("reqtype", "fileupload");
+  fd.append("time", "72h");
+  fd.append("fileToUpload", blob, "mq06-dust-answers.txt");
+  try {
+    const res = await fetch("https://litterbox.catbox.moe/resources/internals/api.php", { method: "POST", body: fd });
+    const url = await res.text();
+    const out = document.getElementById("out");
+    out.textContent = text + "\n\n# litterbox\n" + url;
+    out.classList.add("show");
+    try { await navigator.clipboard.writeText(url); } catch (_) {}
+    toast("Litterbox ответов готов");
+  } catch (_) {
+    toast("Litterbox недоступен");
+  }
+});
+
+render();
+restore();
+updateProgress();
+</script>
+</body>
+</html>

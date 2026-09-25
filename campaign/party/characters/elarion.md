@@ -21,5 +21,7 @@ sheet: assets/character-sheets/elarion.pdf
 
 Новый персонаж относительно сессий 1–8. Посох силы; Звёздный шаг; черта «Затронутый тенью».
 
+**Сестра:** [`Лианэя`](../../../world/npcs/lianeya.md) — в бэке мертва; цель на листе — вернуть её. Тайна мастера: воскрешена злом, армия мёртвых во льдах, **Доспехи смерти**.
+
 Лист игрока: [`assets/character-sheets/elarion.pdf`](../../../assets/character-sheets/elarion.pdf)  
 Текст извлечения: [`assets/character-sheets/elarion.txt`](../../../assets/character-sheets/elarion.txt)

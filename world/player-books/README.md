@@ -21,6 +21,7 @@ status: active
 | **Зеркало Памяти** | https://telegra.ph/ZERKALO-PAMYATI-HRONIKI-RAZORVANNOGO-MIRA-12-05-3 | [`zerkalo-pamyati.md`](zerkalo-pamyati.md) — **17 открытых** |
 | **Трактат о флоре** | https://telegra.ph/Traktat-o-Flore-Planov-i-Predelov-12-08 | все разделы со ссылками в оглавлении (флора/алхимия) |
 | **Энциклопедия драконов** | https://telegra.ph/EHNCIKLOPEDIYA-DRAKONOV-POLNYJ-ZOOLOGICHESKIJ-SPRAVOCHNIK-05-14 | открытые: холод, яд, яйца, инкубация, вылупление, вирмлинги (+ свод в [`entsiklopediya-drakonov.md`](entsiklopediya-drakonov.md)) |
+| **Дневник Маэстро** | https://telegra.ph/Moi-znaniya---moya-zhizn-09-21 | [`../prep/books/dnevnik-maestro/`](../prep/books/dnevnik-maestro/) — **open:** 16, 17, 52–55 ([handout](../prep/books/dnevnik-maestro/handout-open-pages.md)) |
 
 Своды: [`zerkalo-pamyati-telegra.md`](zerkalo-pamyati-telegra.md) · [`traktat-o-flore-planov.md`](traktat-o-flore-planov.md) · [`entsiklopediya-drakonov.md`](entsiklopediya-drakonov.md)  
 Сырой HTML: [`telegra-raw/`](telegra-raw/)
