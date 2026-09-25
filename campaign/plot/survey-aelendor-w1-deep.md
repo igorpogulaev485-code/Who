@@ -13,7 +13,10 @@ html: survey-aelendor-w1-deep.html
 Предыдущий лок: [`canon-lock-2026-09-25-aelendor-state-survey.md`](canon-lock-2026-09-25-aelendor-state-survey.md)  
 Паспорт: [`states/aelendor.md`](../../world/locations/states/aelendor.md) — **остаёмся на wave 1**.
 
-**HTML:** [`survey-aelendor-w1-deep.html`](survey-aelendor-w1-deep.html) (открой локально / из репо; litterbox сейчас 500)  
+👉 **Открыть сейчас (Safari / телефон):** https://hawaii-celebrity-printers-from.trycloudflare.com  
+
+(зеркало cloudflare-туннеля, пока агент жив; litterbox сейчас 500)  
+В репо: [`survey-aelendor-w1-deep.html`](survey-aelendor-w1-deep.html)  
 В чате можно ответить тем же форматом `a=…` `b=…`.
 
 ## Блоки
