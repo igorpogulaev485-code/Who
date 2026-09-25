@@ -1,39 +1,15 @@
 ---
 title: Опрос — Аэлендор паспорт W2
-status: survey
+status: superseded
 tags: [survey, state, aelendor]
 date: 2026-09-25
 passport: world/locations/states/aelendor.md
 html: survey-aelendor-state-w2.html
+superseded_by: canon-lock-2026-09-25-aelendor-w2.md
 ---
 
-# Опрос — Аэлендор W2
+# Опрос — Аэлендор W2 · **superseded**
 
-Паспорт **W1** уже в [`states/aelendor.md`](../../world/locations/states/aelendor.md).  
-Карта: белый пунктир = провинции; баннеры = главные города.
+Ответы закрыты через [`state-survey`](canon-lock-2026-09-25-aelendor-state-survey.md) + [`w1-deep`](canon-lock-2026-09-25-aelendor-w1-deep.md); волна поднята: [`w2`](canon-lock-2026-09-25-aelendor-w2.md).
 
-**HTML:** [`survey-aelendor-state-w2.html`](survey-aelendor-state-w2.html)  
-**Litterbox (~72 ч):** https://litter.catbox.moe/ddm2fj.html
-
-## Уже в W1 (не переспрашиваем)
-
-- Границы / соседи с карты  
-- 8 баннер-городов + Сильванор столица  
-- Провинция **Лунные Пики** (имя канон)  
-- Элессар I · Люмиэль† · Филлер · Тандил · «Сейчас» войны  
-- Разлом-якорь = Купель Моста  
-
-## Что закрываем опросом
-
-| id | Тема |
-|---|---|
-| a | Имена 7 провинций (кроме Пиков) |
-| b | Кто «правит сейчас» в паспорте (военное время) |
-| c | Устои (1–3) |
-| d | Экономика (экспорт / дефицит / валюта) |
-| e | Сила vs Орден / Долина |
-| f | Законы / табу кратко |
-| g | Разлом: только Мост на карте Аэлендора или ещё точки? |
-| h | Дожать W2 сразу или ещё волна |
-
-Скопируй ответы из HTML → вставь в чат.
+Хвосты: [`survey-aelendor-w2-tail`](survey-aelendor-w2-tail.md).

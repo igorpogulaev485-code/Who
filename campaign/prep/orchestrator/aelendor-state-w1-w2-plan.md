@@ -1,7 +1,7 @@
 ---
 id: orch-aelendor-state-w1-w2
 title: "План — Аэлендор W1 + опросы"
-status: wait-survey
+status: done
 source: gm-2026-09-25
 ---
 
@@ -12,15 +12,10 @@ source: gm-2026-09-25
 | # | Что | Статус |
 |---:|---|---|
 | 1 | Паспорт W1 | done |
-| 2 | Опрос #1 ответы → лок | done |
-| 3 | Паспорт углублён (провинции · власть-ширма · экономика · сила · Разлом только Мост) | done |
-| 4 | `fill_wave` **остаётся 1** (h_other) | done |
-| 5 | Deep-опрос (королева · устои · 10 табу) | **wait** |
+| 2 | Опрос #1 → лок | done |
+| 3 | Deep (королева · устои · табу) | done |
+| 4 | ok → **fill_wave: 2** | done |
 
-## Лок
+## Дальше
 
-[`canon-lock-2026-09-25-aelendor-state-survey.md`](../../plot/canon-lock-2026-09-25-aelendor-state-survey.md)
-
-## Сейчас ждём
-
-Deep: [`survey-aelendor-w1-deep.md`](../../plot/survey-aelendor-w1-deep.md)
+Хвост: [`survey-aelendor-w2-tail`](../../plot/survey-aelendor-w2-tail.md) · план W2: [`aelendor-state-w2-plan.md`](aelendor-state-w2-plan.md)

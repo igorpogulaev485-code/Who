@@ -81,7 +81,7 @@
 
 ## Фракции
 
-- [Аэлендор](world/locations/states/aelendor.md) — паспорт **W1**; карта [`aelendor-map`](world/locations/aelendor-map.md); stub [`factions/aelendor`](world/factions/aelendor.md)
+- [Аэлендор](world/locations/states/aelendor.md) — паспорт **W2**; карта [`aelendor-map`](world/locations/aelendor-map.md); stub [`factions/aelendor`](world/factions/aelendor.md)
 - [Теневая Долина](world/factions/tenevaya-dolina.md)
 - [Тёмные леса вечной тени](world/factions/temnye-lesa.md)
 - [Орден пламенеющей стали](world/factions/orden-plameneyushchey-stali.md)

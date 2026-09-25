@@ -2,15 +2,16 @@
 id: state-aelendor
 title: "Аэлендор"
 status: canon
-fill_wave: 1
+fill_wave: 2
 type: "эльфийское королевство (светское)"
 region: "центр материка"
 rules: dnd-5e-2014
 tags: [state, elves, aelendor]
-source: gm-map-aelendor + survey-lock-2026-09-25 + w1-deep-lock + aelendor-centers + open-threads
+source: gm-map-aelendor + survey-locks-2026-09-25 + aelendor-centers + open-threads
 map_ref: assets/maps/aelendor-map.jpg
 survey_lock: campaign/plot/canon-lock-2026-09-25-aelendor-state-survey.md
 survey_deep_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md
+survey_w2_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w2.md
 ---
 
 # Аэлендор
@@ -20,8 +21,8 @@ survey_deep_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md
 
 **Легенда карты:** красный пунктир = внешняя граница; **белый пунктир = 8 провинций**; чёрные линии = дороги; баннеры = главные города.
 
-> `fill_wave: 1` (углублённый контур; **не** W2 без ok).  
-> Локи: [`state-survey`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-state-survey.md) · [`w1-deep`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md).
+> `fill_wave: **2**` (тело). Локи: [`state-survey`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-state-survey.md) · [`w1-deep`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md) · [`w2`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w2.md).  
+> Хвосты: [`survey-aelendor-w2-tail`](../../../campaign/plot/survey-aelendor-w2-tail.md).
 
 ## На карте
 
@@ -93,6 +94,7 @@ survey_deep_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md
 | Война / Долина | контрнаступление | снабжение обрублено |
 | Орден пламенеющей стали | враг у столицы | у стен Сильванора |
 | Тёмные леса | перемирие | атташе |
+| Союз речных долин | сосед СВ | *(уточнить в w2-tail)* |
 | Драконий Хребет | ситуационный союзник | гарнизон у Моста |
 | Звёздная Пыль | предала | сделка с тьмой/Долиной |
 | Лес Хранителей | отдельное гос-во | Элессар там |
@@ -100,19 +102,15 @@ survey_deep_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md
 
 ## Экономика
 
-(Без level-gate. Лок `d_other`.)
+(Без level-gate. Локи `d_other` · `f_both_def`.)
 
 | Тема | Суть |
 |---|---|
-| Оружие / кузни | **Камнеград** (сожжён — удар по производству; до войны — опора) |
-| Магия | одни из **лучших магов** материка |
-| Знание | древние знания / архивы / школы |
-| Лес | древесина / ресурсы леса |
-| Еда | пшено и продовольствие |
-| Артефакты | производство / оборот (осторожно) |
-| Паломничество | потоки к **Лунному Мосту** |
-| Дефицит сейчас | **Металл / оружие** (Камнеград†) **и** напряжение **еды** на фронтах |
-| Валюта | TBD (лок: не блокер W1) |
+| Ресурсы / экспорт | оружие (Камнеград†), магия/знание, лес, пшено/еда, артефакты (осторожно), паломничество к Мосту |
+| Импорт / дефицит сейчас | **металл/оружие** после Камнеграда†; напряжение **еды** на фронтах |
+| Торговля / валюта | узлы: Сильванор · Розалия · Златоцвет; **валюта TBD** |
+| Кто богатеет | *(уточнить в w2-tail)* — кандидаты: совет/двор, маги Купели, купцы Златоцвета/Розалии, паломнический Мост |
+| Услуги государства | *(уточнить в w2-tail)* — кандидаты: печать/лицензии, эскорт, доступ к архивам/Купели, титул «Герои» |
 
 ## Сила
 
@@ -155,7 +153,7 @@ survey_deep_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md
 
 ## Рычаг для партии
 
-Герои Аэлендора; база Колыбель; знание, что «королева» = ширма, а король = Элессар (если откроют); Разлом только здесь.
+Герои Аэлендора; база Колыбель; знание, что «королева» = **Сильванара**-ширма, а король = Элессар (если откроют); Разлом только здесь.
 
 ## Последствия
 
@@ -189,5 +187,7 @@ survey_deep_lock: campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md
 |---|---|
 | Лок опроса | [`canon-lock-2026-09-25-aelendor-state-survey.md`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-state-survey.md) |
 | Лок W1 deep | [`canon-lock-2026-09-25-aelendor-w1-deep.md`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w1-deep.md) |
+| Лок W2 | [`canon-lock-2026-09-25-aelendor-w2.md`](../../../campaign/plot/canon-lock-2026-09-25-aelendor-w2.md) |
+| Хвост W2 | [`survey-aelendor-w2-tail.md`](../../../campaign/plot/survey-aelendor-w2-tail.md) |
 | Карта · центры · overview · stub faction | см. выше |
 | Ранбук 20 | [`../../../campaign/prep/arc3-visual-book/chapters/20-index.md`](../../../campaign/prep/arc3-visual-book/chapters/20-index.md) |
