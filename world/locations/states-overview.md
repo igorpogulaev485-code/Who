@@ -40,7 +40,7 @@ map: assets/maps/world-map-echo-dawn.jpg
 Леса. Эльфы всех видов, дварфы, гномы, сатиры, полуэльфы.  
 **Столица: Сильванор** (возвращена и укреплена в войне).  
 Лунный Мост — священный град внутри королевства.  
-Карта: [`aelendor-map.md`](aelendor-map.md) · центры: [`aelendor-centers.md`](aelendor-centers.md) · черновик: [`../factions/aelendor.md`](../factions/aelendor.md) · **паспорт `states/aelendor.md` — TBD** (миграция по `echo-dawn-state`).
+**Паспорт W1:** [`states/aelendor.md`](states/aelendor.md) · карта: [`aelendor-map.md`](aelendor-map.md) · центры: [`aelendor-centers.md`](aelendor-centers.md) · опрос W2: [`../../campaign/plot/survey-aelendor-state-w2.md`](../../campaign/plot/survey-aelendor-state-w2.md)
 
 ### Орден пламенеющей стали
 Поля, леса; крупная река на карте. Багбиры, кенку, сатиры, люди, хадози, хобгоблины, чейнджлинги, шифтеры.

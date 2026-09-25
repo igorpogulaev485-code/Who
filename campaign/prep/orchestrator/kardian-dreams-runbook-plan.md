@@ -1,27 +1,18 @@
 ---
 id: orch-kardian-dreams-runbook
 title: "План — сны Кардиана в ранбук + визуал"
-status: in-progress
+status: done
 source: gm-2026-09-24
 ---
 
-# План — сны Кардиана → ранбук
+# DONE — сны Кардиана → ранбук
 
-## Цель
+## Источник
 
-Сны про Кардиана (уже в репо / составленные) → глава ранбука с текстом **и** кадрами сцен.
+Ветка `cursor/kardian-dreams-import-c8cd` + Qwen-архив + сон 4 (канон).
 
-## Шаг 0
+## Файлы
 
-Найти: `kardian` dreams, imports, locks, prep.
-
-## Маршрут
-
-| # | Скил | Зачем | Статус |
-|---|---|---|---|
-| 1 | canon | собрать корпус снов | in-progress |
-| 2 | visual-runbook | глава + HTTPS кадры | wait |
-
-## Не делаем
-
-Новые локи сюжета без текста снов; полный данж.
+- `campaign/prep/kardian-dreams/01…04`
+- Ранбук **гл. 19** + 5 кадров iili
+- Синк `kardian.md` · `grok.md` · README · CANON
