@@ -13,8 +13,8 @@ html: survey-aelendor-w1-deep.html
 Предыдущий лок: [`canon-lock-2026-09-25-aelendor-state-survey.md`](canon-lock-2026-09-25-aelendor-state-survey.md)  
 Паспорт: [`states/aelendor.md`](../../world/locations/states/aelendor.md) — **остаёмся на wave 1**.
 
-**HTML:** [`survey-aelendor-w1-deep.html`](survey-aelendor-w1-deep.html)  
-**Litterbox:** *(после заливки)*
+**HTML:** [`survey-aelendor-w1-deep.html`](survey-aelendor-w1-deep.html) (открой локально / из репо; litterbox сейчас 500)  
+В чате можно ответить тем же форматом `a=…` `b=…`.
 
 ## Блоки
 
