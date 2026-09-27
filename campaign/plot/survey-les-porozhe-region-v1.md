@@ -1,6 +1,6 @@
 ---
 title: Опрос — регион у Серебряного Порога (карта)
-status: survey
+status: locked
 date: 2026-09-27
 tags: [survey, arc3, map, les-khraniteley, porozhe]
 plan: ../prep/orchestrator/les-porozhe-region-plan.md
