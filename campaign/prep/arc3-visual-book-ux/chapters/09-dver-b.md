@@ -32,9 +32,9 @@ title: "9 · Дверь B — Дневник"
 <details>
 <summary><strong>2.0 — Выбор дневника</strong></summary>
 
-![Тандил](https://iili.io/nACqYuf.jpg)
+![Тандил](https://litter.catbox.moe/ad84bm.jpg)
 
-> **Кадр:** Тандил · [⬇ скачать](https://iili.io/nACqYuf.jpg)
+> **Кадр:** Тандил · [⬇ скачать](https://litter.catbox.moe/ad84bm.jpg)
 
 **Сказать (Тандил / Фиалка):**
 
@@ -47,13 +47,13 @@ title: "9 · Дверь B — Дневник"
 <details>
 <summary><strong>2.1 — Место чтения</strong></summary>
 
-![Кузница Фиалки](https://iili.io/nACF49f.jpg)
+![Кузница Фиалки](https://litter.catbox.moe/jw1loo.jpg)
 
-> **Кадр:** Кузница Фиалки · [⬇ скачать](https://iili.io/nACF49f.jpg)
+> **Кадр:** Кузница Фиалки · [⬇ скачать](https://litter.catbox.moe/jw1loo.jpg)
 
-![Двор Колыбели](https://iili.io/nACKfKF.jpg)
+![Двор Колыбели](https://litter.catbox.moe/anoz4y.jpg)
 
-> **Кадр:** Двор Колыбели · [⬇ скачать](https://iili.io/nACKfKF.jpg)
+> **Кадр:** Двор Колыбели · [⬇ скачать](https://litter.catbox.moe/anoz4y.jpg)
 
 **Где:** Кузница / Колыбель. Не на площади. Seed: «третья стража — не при чужих».
 
@@ -219,9 +219,9 @@ title: "9 · Дверь B — Дневник"
 
 Не форсить C в том же вечере, если хотят только книгу.
 
-![Кезарр (если давит)](https://iili.io/nACfRzQ.jpg)
+![Кезарр (если давит)](https://litter.catbox.moe/lrb1xg.jpg)
 
-> **Кадр:** Кезарр (если давит) · [⬇ скачать](https://iili.io/nACfRzQ.jpg)
+> **Кадр:** Кезарр (если давит) · [⬇ скачать](https://litter.catbox.moe/lrb1xg.jpg)
 
 </details>
 

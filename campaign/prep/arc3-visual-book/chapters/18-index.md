@@ -14,9 +14,9 @@ source: mq-05-sessions-2-door-r + resurrection locks
 **Скрипт:** [`../../arcs/arc-3/quests/mq-05-sessions-2-door-r.md`](../../arcs/arc-3/quests/mq-05-sessions-2-door-r.md)  
 **Локи:** [клон](../../../plot/canon-lock-2026-09-24-maestro-clone.md) · [хвосты](../../../plot/canon-lock-2026-09-24-resurrection-tails.md) · [C≠R](../../../plot/canon-lock-2026-09-24-milana-vs-clone.md)
 
-![Ниша под Лунным мостом](https://iili.io/nA4hbB2.jpg)
+![Ниша под Лунным мостом](https://litter.catbox.moe/qpbygy.jpg)
 
-> **Кадр:** Ниша (пусто) · [⬇](https://iili.io/nA4hbB2.jpg) · печать: [handout](18/08-handout-печать.md) · Маэстро: [11/40](../11/40-маэстро-келебрим.md)
+> **Кадр:** Ниша (пусто) · [⬇](https://litter.catbox.moe/qpbygy.jpg) · печать: [handout](18/08-handout-печать.md) · Маэстро: [11/40](../11/40-маэстро-келебрим.md)
 
 ## Цель вечера
 

@@ -13,7 +13,7 @@ source: kardian-dreams + face-lock maestro/kardian
 **Лица (лок):**
 | Кто | Канон | Портрет |
 |---|---|---|
-| **Он** (сны) | [Кардиан · внешность](../../../../world/npcs/kardian.md) | ![Кардиан](https://iili.io/nAPZ5ba.jpg) [⬇](https://iili.io/nAPZ5ba.jpg) |
+| **Он** (сны) | [Кардиан · внешность](../../../../world/npcs/kardian.md) | ![Кардиан](https://litter.catbox.moe/9xs4z4.jpg) [⬇](https://litter.catbox.moe/9xs4z4.jpg) |
 | **Келебрим** | эльф, платина, уши; **без** бороды | [11/40](../11/40-маэстро-келебрим.md) |
 
 **Порядок:** 1 Эхо Пепла → 2 Гниль → 3 Цена Знания → 4 Забытая деревня.  
@@ -33,23 +33,23 @@ source: kardian-dreams + face-lock maestro/kardian
 
 | Сон | Сцена | ⬇ |
 |---:|---|---|
-| 1 | Пепел (POV) | [nAPAgwX](https://iili.io/nAPAgwX.jpg) |
-| 1 | Отказ Келебрима | [nAPpXVa](https://iili.io/nAPpXVa.jpg) |
-| 1 | Врата Совета | [nAPphiJ](https://iili.io/nAPphiJ.jpg) |
-| 1 | Клятва | [nAPpNlR](https://iili.io/nAPpNlR.jpg) |
-| 2 | Могилы | [nAPpOSp](https://iili.io/nAPpOSp.jpg) |
-| 2 | Жижа | [nAPpSDX](https://iili.io/nAPpSDX.jpg) |
-| 2 | Лилии | [nAPp4iG](https://iili.io/nAPp4iG.jpg) |
-| 2 | Щелчок | [nAPpPff](https://iili.io/nAPpPff.jpg) |
-| 3 | Метель | [nAPpsUl](https://iili.io/nAPpsUl.jpg) |
-| 3 | Свитки | [nAPpZRS](https://iili.io/nAPpZRS.jpg) |
-| 3 | Дракон | [nAPyJ0x](https://iili.io/nAPyJ0x.jpg) |
-| 3 | Исчезающая | [nAPyxqJ](https://iili.io/nAPyxqJ.jpg) |
-| 4 | Соль | [nAPyEg4](https://iili.io/nAPyEg4.jpg) |
-| 4 | Орда | [nAPyjI9](https://iili.io/nAPyjI9.jpg) |
-| 4 | Колодец | [nAPyeqb](https://iili.io/nAPyeqb.jpg) |
-| 4 | Ребёнок/демон | [nAPyvrx](https://iili.io/nAPyvrx.jpg) |
-| 4 | Арест | [nAPyrmP](https://iili.io/nAPyrmP.jpg) |
+| 1 | Пепел (POV) | [nAPAgwX](https://litter.catbox.moe/sfqtaa.jpg) |
+| 1 | Отказ Келебрима | [nAPpXVa](https://litter.catbox.moe/jtz1b3.jpg) |
+| 1 | Врата Совета | [nAPphiJ](https://litter.catbox.moe/7c1hdr.jpg) |
+| 1 | Клятва | [nAPpNlR](https://litter.catbox.moe/2uzjiy.jpg) |
+| 2 | Могилы | [nAPpOSp](https://litter.catbox.moe/69vuao.jpg) |
+| 2 | Жижа | [nAPpSDX](https://litter.catbox.moe/63z5yg.jpg) |
+| 2 | Лилии | [nAPp4iG](https://litter.catbox.moe/7zrsre.jpg) |
+| 2 | Щелчок | [nAPpPff](https://litter.catbox.moe/ub1cyc.jpg) |
+| 3 | Метель | [nAPpsUl](https://litter.catbox.moe/brnr3j.jpg) |
+| 3 | Свитки | [nAPpZRS](https://litter.catbox.moe/byshbe.jpg) |
+| 3 | Дракон | [nAPyJ0x](https://litter.catbox.moe/bselnq.jpg) |
+| 3 | Исчезающая | [nAPyxqJ](https://litter.catbox.moe/udlsyx.jpg) |
+| 4 | Соль | [nAPyEg4](https://litter.catbox.moe/3mxu4w.jpg) |
+| 4 | Орда | [nAPyjI9](https://litter.catbox.moe/of15gp.jpg) |
+| 4 | Колодец | [nAPyeqb](https://litter.catbox.moe/8ugx3j.jpg) |
+| 4 | Ребёнок/демон | [nAPyvrx](https://litter.catbox.moe/f4s6f2.jpg) |
+| 4 | Арест | [nAPyrmP](https://litter.catbox.moe/7r3qui.jpg) |
 
 ---
 

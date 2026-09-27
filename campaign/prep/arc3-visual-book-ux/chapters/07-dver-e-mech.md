@@ -30,13 +30,13 @@ title: "7 · Дверь E·меч — Хребет"
 <details>
 <summary><strong>2.0 — Выбор меча</strong></summary>
 
-![Саэрис Пепельный](https://iili.io/nACqd41.jpg)
+![Саэрис Пепельный](https://litter.catbox.moe/h7rg67.jpg)
 
-> **Кадр:** Саэрис Пепельный · [⬇ скачать](https://iili.io/nACqd41.jpg)
+> **Кадр:** Саэрис Пепельный · [⬇ скачать](https://litter.catbox.moe/h7rg67.jpg)
 
-![Кезарр](https://iili.io/nACfRzQ.jpg)
+![Кезарр](https://litter.catbox.moe/lrb1xg.jpg)
 
-> **Кадр:** Кезарр · [⬇ скачать](https://iili.io/nACfRzQ.jpg)
+> **Кадр:** Кезарр · [⬇ скачать](https://litter.catbox.moe/lrb1xg.jpg)
 
 Партия сама выбрала меч. Кавил/Тандил: портал к Хребту **есть** — союзный канал. Не обещают «отдадут меч».
 
@@ -49,9 +49,9 @@ title: "7 · Дверь E·меч — Хребет"
 <details>
 <summary><strong>2.1 — Портал</strong></summary>
 
-![Прибытие в жар](https://iili.io/nACKBSa.jpg)
+![Прибытие в жар](https://litter.catbox.moe/lijz8j.jpg)
 
-> **Кадр:** Прибытие в жар · [⬇ скачать](https://iili.io/nACKBSa.jpg)
+> **Кадр:** Прибытие в жар · [⬇ скачать](https://litter.catbox.moe/lijz8j.jpg)
 
 Не украденный камень (это льды/Лес). **Союзный** портал: зал Элиэлора / узел гарнизона.
 
@@ -64,21 +64,21 @@ title: "7 · Дверь E·меч — Хребет"
 <details>
 <summary><strong>2.2 — Дипломатический двор</strong></summary>
 
-![Дипломатический двор](https://iili.io/nACKztp.jpg)
+![Дипломатический двор](https://litter.catbox.moe/ftw6kc.jpg)
 
-> **Кадр:** Дипломатический двор · [⬇ скачать](https://iili.io/nACKztp.jpg)
+> **Кадр:** Дипломатический двор · [⬇ скачать](https://litter.catbox.moe/ftw6kc.jpg)
 
-![Алазар](https://iili.io/nACKhle.jpg)
+![Алазар](https://litter.catbox.moe/oi92cz.jpg)
 
-> **Кадр:** Алазар · не на приёме гостей · [⬇ скачать](https://iili.io/nACKhle.jpg)
+> **Кадр:** Алазар · не на приёме гостей · [⬇ скачать](https://litter.catbox.moe/oi92cz.jpg)
 
-![Эридан](https://iili.io/nACfd5G.jpg)
+![Эридан](https://litter.catbox.moe/o86h9v.jpg)
 
-> **Кадр:** Эридан · архивы/обсерватория как слух · [⬇ скачать](https://iili.io/nACfd5G.jpg)
+> **Кадр:** Эридан · архивы/обсерватория как слух · [⬇ скачать](https://litter.catbox.moe/o86h9v.jpg)
 
-![Корвар](https://iili.io/nACflrF.jpg)
+![Корвар](https://litter.catbox.moe/dzen7i.jpg)
 
-> **Кадр:** Корвар · [⬇ скачать](https://iili.io/nACflrF.jpg)
+> **Кадр:** Корвар · [⬇ скачать](https://litter.catbox.moe/dzen7i.jpg)
 
 Встречают **вежливо и холодно**. Не трон Алазара — приёмная для чужих.
 
@@ -119,17 +119,17 @@ title: "7 · Дверь E·меч — Хребет"
 4. Разлом Империи **не** у пика — искать меч «у Разлома» = ложный путь.
 
 
-![Зариакс](https://iili.io/nACqg8g.jpg)
+![Зариакс](https://litter.catbox.moe/ryn043.jpg)
 
-> **Кадр:** Зариакс · намёк, не встреча · [⬇ скачать](https://iili.io/nACqg8g.jpg)
+> **Кадр:** Зариакс · намёк, не встреча · [⬇ скачать](https://litter.catbox.moe/ryn043.jpg)
 
-![Адмирал Пыли](https://iili.io/nACKGx2.jpg)
+![Адмирал Пыли](https://litter.catbox.moe/jtvdeg.jpg)
 
-> **Кадр:** Звёздная Пыль · общий враг (фон) · [⬇ скачать](https://iili.io/nACKGx2.jpg)
+> **Кадр:** Звёздная Пыль · общий враг (фон) · [⬇ скачать](https://litter.catbox.moe/jtvdeg.jpg)
 
-![Пепельный Гребень](https://iili.io/nACKAPt.jpg)
+![Пепельный Гребень](https://litter.catbox.moe/gsqmud.jpg)
 
-> **Кадр:** Пепельный Гребень · [⬇ скачать](https://iili.io/nACKAPt.jpg)
+> **Кадр:** Пепельный Гребень · [⬇ скачать](https://litter.catbox.moe/gsqmud.jpg)
 
 
 </details>
@@ -146,7 +146,7 @@ title: "7 · Дверь E·меч — Хребет"
 
 | Кто | Статы |
 |---|---|
-| 2× драконорождённых стража | Veteran ([dnd.su](https://dnd.su/bestiary/veteran/)) |
+| 2× драконорождённых стража | Veteran ([dnd.su](https://dnd.su/bestiary/421-veteran/)) |
 
 Не обязательна.
 
@@ -155,9 +155,9 @@ title: "7 · Дверь E·меч — Хребет"
 <details>
 <summary><strong>2.5 — Клифф</strong></summary>
 
-![Пепельный Гребень вдали](https://iili.io/nACKAPt.jpg)
+![Пепельный Гребень вдали](https://litter.catbox.moe/gsqmud.jpg)
 
-> **Кадр:** Пепельный Гребень вдали · [⬇ скачать](https://iili.io/nACKAPt.jpg)
+> **Кадр:** Пепельный Гребень вдали · [⬇ скачать](https://litter.catbox.moe/gsqmud.jpg)
 
 **Сказать:**
 

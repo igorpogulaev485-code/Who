@@ -32,9 +32,9 @@ title: "8 · Дверь E·сапоги — Пыль"
 <details>
 <summary><strong>2.0 — Выбор сапог</strong></summary>
 
-![Тандил](https://iili.io/nACqYuf.jpg)
+![Тандил](https://litter.catbox.moe/ad84bm.jpg)
 
-> **Кадр:** Тандил · [⬇ скачать](https://iili.io/nACqYuf.jpg)
+> **Кадр:** Тандил · [⬇ скачать](https://litter.catbox.moe/ad84bm.jpg)
 
 
 Кавил/Тандил: портал **в Пыль закрыт**. Есть канал в **Розалию** — дальше морем. Не обещают «сапоги за один прыжок».
@@ -50,13 +50,13 @@ title: "8 · Дверь E·сапоги — Пыль"
 <details>
 <summary><strong>2.1 — Портал → Розалия</strong></summary>
 
-![Портал / прибытие](https://iili.io/nACKBSa.jpg)
+![Портал / прибытие](https://litter.catbox.moe/lijz8j.jpg)
 
-> **Кадр:** Портал / прибытие · [⬇ скачать](https://iili.io/nACKBSa.jpg)
+> **Кадр:** Портал / прибытие · [⬇ скачать](https://litter.catbox.moe/lijz8j.jpg)
 
-![Доки / набережная](https://iili.io/nACKJtV.jpg)
+![Доки / набережная](https://litter.catbox.moe/5km8k3.jpg)
 
-> **Кадр:** Доки / набережная · [⬇ скачать](https://iili.io/nACKJtV.jpg)
+> **Кадр:** Доки / набережная · [⬇ скачать](https://litter.catbox.moe/5km8k3.jpg)
 
 
 Королевский / гарнизонный узел → **Розалия**. Соль и смола вместо серы.
@@ -79,9 +79,9 @@ title: "8 · Дверь E·сапоги — Пыль"
 | **Йоррен «Серый Трюм»** | посредник серого хода; золото и молчание |
 | **Мираэла Вейн** (опц.) | «торговец»; Проницательность **15** — чужая выправка Пыли |
 
-![Адмирал Каэлен Вейл (якорь угрозы, не face сегодня)](https://iili.io/nACKGx2.jpg)
+![Адмирал Каэлен Вейл (якорь угрозы, не face сегодня)](https://litter.catbox.moe/jtvdeg.jpg)
 
-> **Кадр:** Адмирал Каэлен Вейл (якорь угрозы, не face сегодня) · [⬇ скачать](https://iili.io/nACKGx2.jpg)
+> **Кадр:** Адмирал Каэлен Вейл (якорь угрозы, не face сегодня) · [⬇ скачать](https://litter.catbox.moe/jtvdeg.jpg)
 
 
 | | |

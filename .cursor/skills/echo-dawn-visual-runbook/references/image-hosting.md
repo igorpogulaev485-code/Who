@@ -170,3 +170,17 @@ curl -sI "https://iili.io/XXXX.jpg" | head
 3. Зафиксировать в коммите, какой хост каноничен сейчас.
 
 Не плодить три хоста на одну книгу без миграции.
+
+---
+
+## Инцидент 2026-09-27 · CDN `iili.io` (весь ранбук)
+
+Симптом: Preview / curl на `https://iili.io/<id>.jpg` — **таймаут**, 0 байт.  
+Freeimage HTML жив, upload API — `Internal upload error`.
+
+**Обход (весь Arc 3 visual book + UX-копия):** все кадры перезалиты на **litterbox**  
+`https://litter.catbox.moe/…` (TTL **168h / 7 дней**). Реестр: `campaign/prep/arc3-visual-book/image-urls.json`.  
+Исходники — `assets/images/**` и `assets/maps/**` (JPEG из git `a3b150b` восстановлены).
+
+Пока iili мёртв — **не** возвращать URL на iili без свежего `curl` 200.  
+До истечения TTL: перезалить на постоянный хост или снова на litterbox с assets.

@@ -32,9 +32,9 @@ title: "5 · Дверь D — Порог"
 <details>
 <summary><strong>2.0 — Верхний город</strong></summary>
 
-![Зал порталов](https://iili.io/nAC3ZYJ.jpg)
+![Зал порталов](https://litter.catbox.moe/acfa4w.jpg)
 
-> **Кадр:** Зал порталов · [⬇ скачать](https://iili.io/nAC3ZYJ.jpg)
+> **Кадр:** Зал порталов · [⬇ скачать](https://litter.catbox.moe/acfa4w.jpg)
 
 **Сказать:**
 
@@ -49,17 +49,17 @@ title: "5 · Дверь D — Порог"
 <details>
 <summary><strong>2.1 — Кавил + хранители</strong></summary>
 
-![Маэрис](https://iili.io/nACfOrX.jpg)
+![Маэрис](https://litter.catbox.moe/lqah0x.jpg)
 
-> **Кадр:** Маэрис Ключ-в-Камне · [⬇ скачать](https://iili.io/nACfOrX.jpg)
+> **Кадр:** Маэрис Ключ-в-Камне · [⬇ скачать](https://litter.catbox.moe/lqah0x.jpg)
 
-![Брум](https://iili.io/nACK8xV.jpg)
+![Брум](https://litter.catbox.moe/47gn4n.jpg)
 
-> **Кадр:** Брум Кремнеладонь · [⬇ скачать](https://iili.io/nACK8xV.jpg)
+> **Кадр:** Брум Кремнеладонь · [⬇ скачать](https://litter.catbox.moe/47gn4n.jpg)
 
-![Селена Печать-Линий](https://iili.io/nACqBTv.jpg)
+![Селена Печать-Линий](https://litter.catbox.moe/fr69nv.jpg)
 
-> **Кадр:** Селена Печать-Линий · [⬇ скачать](https://iili.io/nACqBTv.jpg)
+> **Кадр:** Селена Печать-Линий · [⬇ скачать](https://litter.catbox.moe/fr69nv.jpg)
 
 | Кто | Роль |
 |---|---|
@@ -111,9 +111,9 @@ title: "5 · Дверь D — Порог"
 
 | Роль | Кто | Статы (5e 2014) | Заметки |
 |---|---|---|---|
-| Лидер | 1× **Spy** | [dnd.su/Spy](https://dnd.su/bestiary/spy/) | легенда «купцы с юга» |
-| Мясо | 2× **Thug** | [dnd.su/Thug](https://dnd.su/bestiary/thug/) | |
-| Погоня (опц.) | 1× **Scout** | если бегут по крышам | Атлетика/Акробатика Сл 14 |
+| Лидер | 1× **Spy** | [dnd.su · Шпион](https://dnd.su/bestiary/444-spy/) | легенда «купцы с юга» |
+| Мясо | 2× **Thug** | [dnd.su · Головорез](https://dnd.su/bestiary/424-thug/) | |
+| Погоня (опц.) | 1× **Scout** | [dnd.su · Разведчик](https://dnd.su/bestiary/439-scout/) | если бегут по крышам · Атлетика/Акробатика Сл 14 |
 
 **Допрос (успех):** «Не пускать адъютантов / Героев в Лес.»  
 **Стоп:** не выдавать план большого вторжения в Элдерин.
@@ -125,9 +125,9 @@ title: "5 · Дверь D — Порог"
 <details>
 <summary><strong>2.4 — Ритуал → прыжок</strong></summary>
 
-![Прыжок портала](https://iili.io/nAC3DpR.jpg)
+![Прыжок портала](https://litter.catbox.moe/uk0x1b.jpg)
 
-> **Кадр:** Прыжок портала · [⬇ скачать](https://iili.io/nAC3DpR.jpg)
+> **Кадр:** Прыжок портала · [⬇ скачать](https://litter.catbox.moe/uk0x1b.jpg)
 
 Камень в нишу. 1 минута серебряного света.
 
@@ -140,21 +140,21 @@ title: "5 · Дверь D — Порог"
 <details>
 <summary><strong>2.5 — Храм Серебряного Порога</strong></summary>
 
-![Порог · высадка](https://iili.io/nAC3mIp.jpg)
+![Порог · высадка](https://litter.catbox.moe/aezak3.jpg)
 
-> **Кадр:** Порог · высадка · [⬇ скачать](https://iili.io/nAC3mIp.jpg)
+> **Кадр:** Порог · высадка · [⬇ скачать](https://litter.catbox.moe/aezak3.jpg)
 
-![Илсара](https://iili.io/nACfqsS.jpg)
+![Илсара](https://litter.catbox.moe/ynpxxr.jpg)
 
-> **Кадр:** Илсара · [⬇ скачать](https://iili.io/nACfqsS.jpg)
+> **Кадр:** Илсара · [⬇ скачать](https://litter.catbox.moe/ynpxxr.jpg)
 
-![Оррен](https://iili.io/nACfmTx.jpg)
+![Оррен](https://litter.catbox.moe/4pzlba.jpg)
 
-> **Кадр:** Оррен · [⬇ скачать](https://iili.io/nACfmTx.jpg)
+> **Кадр:** Оррен · [⬇ скачать](https://litter.catbox.moe/4pzlba.jpg)
 
-![Тэвин](https://iili.io/nACqcZl.jpg)
+![Тэвин](https://litter.catbox.moe/4ac62s.jpg)
 
-> **Кадр:** Тэвин · [⬇ скачать](https://iili.io/nACqcZl.jpg)
+> **Кадр:** Тэвин · [⬇ скачать](https://litter.catbox.moe/4ac62s.jpg)
 
 | НПС | |
 |---|---|
@@ -175,13 +175,13 @@ title: "5 · Дверь D — Порог"
 <details>
 <summary><strong>2.6 — Подсказки (обязательно)</strong></summary>
 
-![Зал имён / чаши](https://iili.io/nAC3yQI.jpg)
+![Зал имён / чаши](https://litter.catbox.moe/y71xsb.jpg)
 
-> **Кадр:** Зал имён / чаши · [⬇ скачать](https://iili.io/nAC3yQI.jpg)
+> **Кадр:** Зал имён / чаши · [⬇ скачать](https://litter.catbox.moe/y71xsb.jpg)
 
-![Саэла](https://iili.io/nACqHCB.jpg)
+![Саэла](https://litter.catbox.moe/58sm4k.jpg)
 
-> **Кадр:** Саэла · [⬇ скачать](https://iili.io/nACqHCB.jpg)
+> **Кадр:** Саэла · [⬇ скачать](https://litter.catbox.moe/58sm4k.jpg)
 
 После записи / чая **Илсара** или **Саэла**:
 
@@ -195,13 +195,13 @@ title: "5 · Дверь D — Порог"
 > Высокородных шлют служить в монастырь на северной чаще. Король Аэлендора там **служил**. Сейчас его там нет уже много лет… но **искать** иногда начинают оттуда.
 
 
-![Элессар I](https://iili.io/nACKtxp.jpg)
+![Элессар I](https://litter.catbox.moe/7o5fcu.jpg)
 
-> **Кадр:** Элессар · только если копают (не вживую) · [⬇ скачать](https://iili.io/nACKtxp.jpg)
+> **Кадр:** Элессар · только если копают (не вживую) · [⬇ скачать](https://litter.catbox.moe/7o5fcu.jpg)
 
-![Малфурион](https://iili.io/nACfPBS.jpg)
+![Малфурион](https://litter.catbox.moe/6b88b8.jpg)
 
-> **Кадр:** Малфурион · цель тропы, не встреча сегодня · [⬇ скачать](https://iili.io/nACfPBS.jpg)
+> **Кадр:** Малфурион · цель тропы, не встреча сегодня · [⬇ скачать](https://litter.catbox.moe/6b88b8.jpg)
 
 
 </details>
@@ -209,9 +209,9 @@ title: "5 · Дверь D — Порог"
 <details>
 <summary><strong>2.7 — Клифф</strong></summary>
 
-![Три тропы](https://iili.io/nACFJEX.jpg)
+![Три тропы](https://litter.catbox.moe/i1o318.jpg)
 
-> **Кадр:** Три тропы · [⬇ скачать](https://iili.io/nACFJEX.jpg)
+> **Кадр:** Три тропы · [⬇ скачать](https://litter.catbox.moe/i1o318.jpg)
 
 **Сказать:**
 

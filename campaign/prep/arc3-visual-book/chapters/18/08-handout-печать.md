@@ -6,9 +6,9 @@ title: "Handout — печать"
 
 > ← [18-index.md](../18-index.md)
 
-![Печать и выемка крышки](https://iili.io/nA4jxYF.jpg)
+![Печать и выемка крышки](https://litter.catbox.moe/d05te8.jpg)
 
-> **Кадр:** Handout печать · [⬇](https://iili.io/nA4jxYF.jpg)
+> **Кадр:** Handout печать · [⬇](https://litter.catbox.moe/d05te8.jpg)
 
 Покажи, когда нашли осколок в нише или при обыске сводов.
 
