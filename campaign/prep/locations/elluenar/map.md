@@ -1,7 +1,7 @@
 ---
 title: "Эллуэнар — карта региона"
 status: prep
-version: v6
+version: v7
 audience: players+gm
 date: 2026-09-27
 lock: ../../plot/canon-lock-2026-09-27-les-elluenar-region.md
@@ -9,11 +9,11 @@ lock_directions: ../../plot/canon-lock-2026-09-27-elluenar-map-directions.md
 brief: map-brief.md
 ---
 
-# Карта — Эллуэнар (v6)
+# Карта — Эллуэнар (v7)
 
-![Эллуэнар v6](map.png)
+![Эллуэнар v7](map.png)
 
-Asset: [`../../../../assets/maps/elluenar/elluenar-region-map-v6.png`](../../../../assets/maps/elluenar/elluenar-region-map-v6.png)
+Asset: [`../../../../assets/maps/elluenar/elluenar-region-map-v7.png`](../../../../assets/maps/elluenar/elluenar-region-map-v7.png)
 
 Регион Леса Хранителей вокруг **Серебряного Порога**.  
 Силванию / Древо / Рубеж **не** рисуем внутри — только стрелки по карте страны.
@@ -40,12 +40,12 @@ Asset: [`../../../../assets/maps/elluenar/elluenar-region-map-v6.png`](../../../
 |---|---|---|
 | **→ Силвания** | **восток (В)** | столица восточнее Порога, внутрь полога |
 | **→ Мировое Древо** | **ВСВ / СВ** | севернее-центральнее страны; не путать со столицей |
-| **→ Пепельный Рубеж** (+ **монастырь**) | **юг (Ю)** | на карте страны Рубеж южнее Порога у гор |
+| **→ Пепельный Рубеж** | **юг (Ю)** | на карте страны Рубеж южнее Порога у гор *(монастырь — только знание мастера, не на карте)* |
 
 Лок: [`canon-lock-2026-09-27-elluenar-map-directions.md`](../../plot/canon-lock-2026-09-27-elluenar-map-directions.md)
 
 ## Заметки
 
 - Порчу на карту не наносям.  
-- Монастырь высокородных = **Пепельный Рубеж** (не «северная чаща»).  
+- Монастырь высокородных = в **Пепельном Рубеже** (мастер; на карте региона не писать).  
 - Site храма: [`../serebryanyy-porog/`](../serebryanyy-porog/).
