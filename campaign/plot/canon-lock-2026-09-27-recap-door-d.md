@@ -47,5 +47,6 @@ source: gm-recap-2026-09-27 + survey answers
 | Друиды | Прибывают на совет |
 | Монастырь | Разграблен; публично — тайна, без короля |
 | Книги | Прочитано **16 глав**; какие — TBD |
+| Порча у портала | У **Порога** чернеет земля, запах некромантии; Лес ищет героев |
 
 Player-facing: [`../sessions/player-briefs-forest-tick-after-s1s2.md`](../sessions/player-briefs-forest-tick-after-s1s2.md).
