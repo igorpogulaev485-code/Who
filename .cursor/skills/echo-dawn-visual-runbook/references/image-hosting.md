@@ -173,11 +173,14 @@ curl -sI "https://iili.io/XXXX.jpg" | head
 
 ---
 
-## Инцидент 2026-09-27 · CDN `iili.io`
+## Инцидент 2026-09-27 · CDN `iili.io` (весь ранбук)
 
 Симптом: Preview / curl на `https://iili.io/<id>.jpg` — **таймаут**, 0 байт.  
-`https://freeimage.host/i/<id>` открывается (HTML), но прямая отдача картинок с CDN не идёт. Upload API freeimage — `Internal upload error`.
+Freeimage HTML жив, upload API — `Internal upload error`.
 
-**Обход для двери D (лес / Порог):** кадры перезалиты на **litterbox** (`https://litter.catbox.moe/…`, TTL **168h / 7 дней**). Исходники снова в `assets/images/locations/loc-d*.jpg` и `assets/images/npc/npc-{maeris,brum,…}.jpg`. Пока iili мёртв — не возвращать эти URL на iili без свежего `curl` 200.
+**Обход (весь Arc 3 visual book + UX-копия):** все кадры перезалиты на **litterbox**  
+`https://litter.catbox.moe/…` (TTL **168h / 7 дней**). Реестр: `campaign/prep/arc3-visual-book/image-urls.json`.  
+Исходники — `assets/images/**` и `assets/maps/**` (JPEG из git `a3b150b` восстановлены).
 
-После восстановления freeimage: перезалить с локальных assets → обновить `image-urls.json` + главы.
+Пока iili мёртв — **не** возвращать URL на iili без свежего `curl` 200.  
+До истечения TTL: перезалить на постоянный хост или снова на litterbox с assets.

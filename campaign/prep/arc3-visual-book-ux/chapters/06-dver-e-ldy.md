@@ -32,9 +32,9 @@ title: "6 · Дверь E — льды"
 <details>
 <summary><strong>2.0 — Толчок Элариона</strong></summary>
 
-![Северная ниша](https://iili.io/nACF32s.jpg)
+![Северная ниша](https://litter.catbox.moe/ex1dzz.jpg)
 
-> **Кадр:** Северная ниша · [⬇ скачать](https://iili.io/nACF32s.jpg)
+> **Кадр:** Северная ниша · [⬇ скачать](https://litter.catbox.moe/ex1dzz.jpg)
 
 ![Зал порталов](https://litter.catbox.moe/acfa4w.jpg)
 
@@ -101,17 +101,17 @@ title: "6 · Дверь E — льды"
 <details>
 <summary><strong>2.5 — Лагерь Туманного Щита</strong></summary>
 
-![Туманный Щит](https://iili.io/nACFFYG.jpg)
+![Туманный Щит](https://litter.catbox.moe/62r173.jpg)
 
-> **Кадр:** Туманный Щит · [⬇ скачать](https://iili.io/nACFFYG.jpg)
+> **Кадр:** Туманный Щит · [⬇ скачать](https://litter.catbox.moe/62r173.jpg)
 
-![Хельда Щитолом](https://iili.io/nACfKzl.jpg)
+![Хельда Щитолом](https://litter.catbox.moe/nzp5wf.jpg)
 
-> **Кадр:** Хельда Щитолом · [⬇ скачать](https://iili.io/nACfKzl.jpg)
+> **Кадр:** Хельда Щитолом · [⬇ скачать](https://litter.catbox.moe/nzp5wf.jpg)
 
-![Брорр](https://iili.io/nACKeOx.jpg)
+![Брорр](https://litter.catbox.moe/06mopg.jpg)
 
-> **Кадр:** Брорр · [⬇ скачать](https://iili.io/nACKeOx.jpg)
+> **Кадр:** Брорр · [⬇ скачать](https://litter.catbox.moe/06mopg.jpg)
 
 Удивление дварфов («портал без гонца»). Комендант **Хельда Щитолом**; **Брорр** если с моста.
 
@@ -128,9 +128,9 @@ title: "6 · Дверь E — льды"
 <details>
 <summary><strong>2.6 — Стычка (обязательно)</strong></summary>
 
-![Линия тумана · стычка](https://iili.io/nACFxC7.jpg)
+![Линия тумана · стычка](https://litter.catbox.moe/5jrsp3.jpg)
 
-> **Кадр:** Линия тумана · стычка · [⬇ скачать](https://iili.io/nACFxC7.jpg)
+> **Кадр:** Линия тумана · стычка · [⬇ скачать](https://litter.catbox.moe/5jrsp3.jpg)
 
 **Разведка тумана** лезет к частоколу / к дыре в дозоре.
 
@@ -149,13 +149,13 @@ title: "6 · Дверь E — льды"
 <details>
 <summary><strong>2.7 — Клифф</strong></summary>
 
-![Силуэт Лианэи](https://iili.io/nACFu3u.jpg)
+![Силуэт Лианэи](https://litter.catbox.moe/v9vjog.jpg)
 
-> **Кадр:** Силуэт Лианэи · [⬇ скачать](https://iili.io/nACFu3u.jpg)
+> **Кадр:** Силуэт Лианэи · [⬇ скачать](https://litter.catbox.moe/v9vjog.jpg)
 
-![Лианэя](https://iili.io/nACfXXp.jpg)
+![Лианэя](https://litter.catbox.moe/k10wfw.jpg)
 
-> **Кадр:** Лианэя · только силуэт · [⬇ скачать](https://iili.io/nACfXXp.jpg)
+> **Кадр:** Лианэя · только силуэт · [⬇ скачать](https://litter.catbox.moe/k10wfw.jpg)
 
 **Сказать:**
 
