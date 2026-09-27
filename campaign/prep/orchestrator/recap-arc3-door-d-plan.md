@@ -31,7 +31,7 @@ source: gm-request-2026-09-27
 
 ## Опросы
 
-→ [`../plot/survey-recap-arc3-door-d.md`](../../plot/survey-recap-arc3-door-d.md) + HTML
+→ [`survey-recap-arc3-door-d.md`](../../plot/survey-recap-arc3-door-d.md) · HTML mirror: https://litter.catbox.moe/cpr36f.html
 
 ## Файлы-результаты (после ok)
 
