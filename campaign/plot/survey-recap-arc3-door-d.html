@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Опрос — рекап арка 3 · дверь D</title>
+<style>
+  :root { --bg:#1a1f1c; --card:#243028; --fg:#e8efe6; --mut:#9aab9a; --acc:#6b9b6b; }
+  body { font-family: Georgia, "Times New Roman", serif; background: var(--bg); color: var(--fg);
+         max-width: 42rem; margin: 0 auto; padding: 1.5rem; line-height: 1.45; }
+  h1 { font-size: 1.35rem; margin: 0 0 .5rem; }
+  h2 { font-size: 1.05rem; color: var(--acc); margin: 1.4rem 0 .5rem; }
+  p, li { color: var(--mut); }
+  .card { background: var(--card); border-radius: 8px; padding: 1rem 1.1rem; margin: .7rem 0; }
+  label { display: block; margin: .35rem 0; color: var(--fg); }
+  select, textarea { width: 100%; box-sizing: border-box; margin-top: .25rem;
+    background: #151a16; color: var(--fg); border: 1px solid #3a4a3a; border-radius: 6px; padding: .45rem; }
+  textarea { min-height: 4.5rem; }
+  button { background: var(--acc); color: #0e140e; border: 0; border-radius: 6px;
+           padding: .55rem 1rem; font-weight: 700; cursor: pointer; margin-top: .8rem; }
+  #out { white-space: pre-wrap; font-family: ui-monospace, monospace; font-size: .85rem;
+         background: #101410; padding: .8rem; border-radius: 6px; margin-top: .8rem; }
+</style>
+</head>
+<body>
+<h1>Рекап арка 3 · дверь D</h1>
+<p>Закрытые варианты. В конце — «Собрать ответы» → скопируй блок в чат агенту.</p>
+
+<div class="card">
+  <h2>Q1 · Состав за столом</h2>
+  <select id="q1">
+    <option value="q1_default5">Балтан · Грок · Кавил · Плач звезды · Эларион (Вирра+Дранник в приюте)</option>
+    <option value="q1_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q2 · Имя зайцегонши</h2>
+  <select id="q2">
+    <option value="q2_tbd_placeholder">Пока без имени (seed позже)</option>
+    <option value="q2_name_note">Имя есть → в заметке</option>
+    <option value="q2_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q3 · Камень планов после суда</h2>
+  <select id="q3">
+    <option value="q3_returned">Вернули ей</option>
+    <option value="q3_court">У суда / властей Леса</option>
+    <option value="q3_unknown">Не зафиксировали — дыра</option>
+    <option value="q3_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q4 · Кольцо Грока</h2>
+  <select id="q4">
+    <option value="q4_green">Кольцо зелёного дракона → Лесу</option>
+    <option value="q4_other_ring">Другое кольцо → в заметке</option>
+    <option value="q4_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q5 · Арты в штраф 3000</h2>
+  <select id="q5">
+    <option value="q5_list_note">Список в заметке</option>
+    <option value="q5_only_cash_plus_gifts">Добор только подарками Грока/Балтана</option>
+    <option value="q5_later">Список позже; в лок TBD</option>
+    <option value="q5_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q6 · Где партия сейчас</h2>
+  <select id="q6">
+    <option value="q6_porog">У Храма / Порога</option>
+    <option value="q6_silvania">В / у Силвании</option>
+    <option value="q6_split">Плач в Разломе Леса; остальные свободны в Лесу</option>
+    <option value="q6_bridge">Ушли к Лунному мосту</option>
+    <option value="q6_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q7 · Метка в timeline</h2>
+  <select id="q7">
+    <option value="q7_s1s2">Одна игра = с.1 похороны + с.2 дверь D</option>
+    <option value="q7_s2_only">Это с.2 (похороны уже были)</option>
+    <option value="q7_label_note">Своя метка → в заметке</option>
+    <option value="q7_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q8 · Тик живого мира (1–2 ★)</h2>
+  <select id="q8">
+    <option value="q8_order">★ Орден (ячейка/корабль)</option>
+    <option value="q8_razlom_forest">★ Разлом в Лесу</option>
+    <option value="q8_silvanor">★ Сильванор / Орден у стен</option>
+    <option value="q8_pick2_note">Два фронта → в заметке</option>
+    <option value="q8_skip">Тик пропустить</option>
+    <option value="q8_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Q9 · Репутация −4</h2>
+  <select id="q9">
+    <option value="q9_four_free">−4 у Балтан·Грок·Кавил·Эларион</option>
+    <option value="q9_include_absent">−4 также если Вирра/Дранник позже приедут в Лес</option>
+    <option value="q9_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Заметка</h2>
+  <textarea id="note" placeholder="Имена, список артов штрафа, два ★, уточнения…"></textarea>
+  <button type="button" onclick="collect()">Собрать ответы</button>
+  <div id="out"></div>
+</div>
+
+<script>
+function collect(){
+  const ids=['q1','q2','q3','q4','q5','q6','q7','q8','q9'];
+  const lines=['## Ответы рекап door-D',''];
+  ids.forEach(id=>{
+    const el=document.getElementById(id);
+    lines.push('- **'+id.toUpperCase()+'**: `'+el.value+'`');
+  });
+  const note=document.getElementById('note').value.trim();
+  lines.push('');
+  lines.push('**Заметка:** '+(note||'(пусто)'));
+  document.getElementById('out').textContent=lines.join('\n');
+}
+</script>
+</body>
+</html>
