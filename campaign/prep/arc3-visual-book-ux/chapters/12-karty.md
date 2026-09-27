@@ -160,9 +160,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#серый-причал). Вс�
 
 ## Дверь D · Серебряный Порог
 
-![Храм Серебряного Порога](https://iili.io/nACmliG.jpg)
+![Храм Серебряного Порога](https://litter.catbox.moe/y2abqg.jpg)
 
-> **Кадр:** Серебряный Порог · [⬇ скачать](https://iili.io/nACmliG.jpg)
+> **Кадр:** Серебряный Порог · [⬇ скачать](https://litter.catbox.moe/y2abqg.jpg)
 
 **Зоны 1–5:** площадка портала → зал имён → двор чаш → крыло → тропы (Силвания / Малфурион / глушь).  
 Playbook: [глава 14](14-playbooks-i-side.md#серебряный-порог). Совет: [глава 16](16-sovet-druidov.md).
@@ -171,9 +171,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#серебряный-порог
 
 ## Лес Хранителей (реф · после Порога)
 
-![Лес Хранителей](https://iili.io/nACmg5B.jpg)
+![Лес Хранителей](https://litter.catbox.moe/0bljxo.jpg)
 
-> **Кадр:** Лес Хранителей · [⬇ скачать](https://iili.io/nACmg5B.jpg)
+> **Кадр:** Лес Хранителей · [⬇ скачать](https://litter.catbox.moe/0bljxo.jpg)
 
 **Когда:** дорога после Порога; таймер совета друидов.
 

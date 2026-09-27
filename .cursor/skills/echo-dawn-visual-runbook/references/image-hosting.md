@@ -170,3 +170,14 @@ curl -sI "https://iili.io/XXXX.jpg" | head
 3. Зафиксировать в коммите, какой хост каноничен сейчас.
 
 Не плодить три хоста на одну книгу без миграции.
+
+---
+
+## Инцидент 2026-09-27 · CDN `iili.io`
+
+Симптом: Preview / curl на `https://iili.io/<id>.jpg` — **таймаут**, 0 байт.  
+`https://freeimage.host/i/<id>` открывается (HTML), но прямая отдача картинок с CDN не идёт. Upload API freeimage — `Internal upload error`.
+
+**Обход для двери D (лес / Порог):** кадры перезалиты на **litterbox** (`https://litter.catbox.moe/…`, TTL **168h / 7 дней**). Исходники снова в `assets/images/locations/loc-d*.jpg` и `assets/images/npc/npc-{maeris,brum,…}.jpg`. Пока iili мёртв — не возвращать эти URL на iili без свежего `curl` 200.
+
+После восстановления freeimage: перезалить с локальных assets → обновить `image-urls.json` + главы.

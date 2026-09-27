@@ -36,9 +36,9 @@ title: "6 · Дверь E — льды"
 
 > **Кадр:** Северная ниша · [⬇ скачать](https://iili.io/nACF32s.jpg)
 
-![Зал порталов](https://iili.io/nAC3ZYJ.jpg)
+![Зал порталов](https://litter.catbox.moe/acfa4w.jpg)
 
-> **Кадр:** Зал порталов · [⬇ скачать](https://iili.io/nAC3ZYJ.jpg)
+> **Кадр:** Зал порталов · [⬇ скачать](https://litter.catbox.moe/acfa4w.jpg)
 
 **Сказать:**
 
@@ -52,9 +52,9 @@ title: "6 · Дверь E — льды"
 <details>
 <summary><strong>2.1 — Северная ниша</strong></summary>
 
-![Маэрис](https://iili.io/nACfOrX.jpg)
+![Маэрис](https://litter.catbox.moe/lqah0x.jpg)
 
-> **Кадр:** Маэрис · [⬇ скачать](https://iili.io/nACfOrX.jpg)
+> **Кадр:** Маэрис · [⬇ скачать](https://litter.catbox.moe/lqah0x.jpg)
 
 Те же хранители: **Маэрис**, **Брум**, **Селена**.
 

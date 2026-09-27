@@ -71,9 +71,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Брум Кремнеладонь</strong></summary>
 
-![Брум Кремнеладонь](https://iili.io/nACK8xV.jpg)
+![Брум Кремнеладонь](https://litter.catbox.moe/47gn4n.jpg)
 
-> **Кадр:** Брум Кремнеладонь · [⬇ скачать](https://iili.io/nACK8xV.jpg)
+> **Кадр:** Брум Кремнеладонь · [⬇ скачать](https://litter.catbox.moe/47gn4n.jpg)
 
 | | |
 |---|---|
@@ -135,9 +135,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Илсара Пепельнолист</strong></summary>
 
-![Илсара Пепельнолист](https://iili.io/nACfqsS.jpg)
+![Илсара Пепельнолист](https://litter.catbox.moe/ynpxxr.jpg)
 
-> **Кадр:** Илсара Пепельнолист · [⬇ скачать](https://iili.io/nACfqsS.jpg)
+> **Кадр:** Илсара Пепельнолист · [⬇ скачать](https://litter.catbox.moe/ynpxxr.jpg)
 
 | | |
 |---|---|
@@ -280,9 +280,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Малфурион</strong></summary>
 
-![Малфурион](https://iili.io/nACfPBS.jpg)
+![Малфурион](https://litter.catbox.moe/6b88b8.jpg)
 
-> **Кадр:** Малфурион · [⬇ скачать](https://iili.io/nACfPBS.jpg)
+> **Кадр:** Малфурион · [⬇ скачать](https://litter.catbox.moe/6b88b8.jpg)
 
 | | |
 |---|---|
@@ -296,9 +296,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Маэрис Ключ-в-Камне</strong></summary>
 
-![Маэрис Ключ-в-Камне](https://iili.io/nACfOrX.jpg)
+![Маэрис Ключ-в-Камне](https://litter.catbox.moe/lqah0x.jpg)
 
-> **Кадр:** Маэрис Ключ-в-Камне · [⬇ скачать](https://iili.io/nACfOrX.jpg)
+> **Кадр:** Маэрис Ключ-в-Камне · [⬇ скачать](https://litter.catbox.moe/lqah0x.jpg)
 
 | | |
 |---|---|
@@ -360,9 +360,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Оррен Когтевой Страж</strong></summary>
 
-![Оррен Когтевой Страж](https://iili.io/nACfmTx.jpg)
+![Оррен Когтевой Страж](https://litter.catbox.moe/4pzlba.jpg)
 
-> **Кадр:** Оррен Когтевой Страж · [⬇ скачать](https://iili.io/nACfmTx.jpg)
+> **Кадр:** Оррен Когтевой Страж · [⬇ скачать](https://litter.catbox.moe/4pzlba.jpg)
 
 | | |
 |---|---|
@@ -408,9 +408,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Саэла Троповед</strong></summary>
 
-![Саэла Троповед](https://iili.io/nACqHCB.jpg)
+![Саэла Троповед](https://litter.catbox.moe/58sm4k.jpg)
 
-> **Кадр:** Саэла Троповед · [⬇ скачать](https://iili.io/nACqHCB.jpg)
+> **Кадр:** Саэла Троповед · [⬇ скачать](https://litter.catbox.moe/58sm4k.jpg)
 
 | | |
 |---|---|
@@ -456,9 +456,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Селена Печать-Линий</strong></summary>
 
-![Селена Печать-Линий](https://iili.io/nACqBTv.jpg)
+![Селена Печать-Линий](https://litter.catbox.moe/fr69nv.jpg)
 
-> **Кадр:** Селена Печать-Линий · [⬇ скачать](https://iili.io/nACqBTv.jpg)
+> **Кадр:** Селена Печать-Линий · [⬇ скачать](https://litter.catbox.moe/fr69nv.jpg)
 
 | | |
 |---|---|
@@ -536,9 +536,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Тэвин Счётчик Чаш</strong></summary>
 
-![Тэвин Счётчик Чаш](https://iili.io/nACqcZl.jpg)
+![Тэвин Счётчик Чаш](https://litter.catbox.moe/4ac62s.jpg)
 
-> **Кадр:** Тэвин Счётчик Чаш · [⬇ скачать](https://iili.io/nACqcZl.jpg)
+> **Кадр:** Тэвин Счётчик Чаш · [⬇ скачать](https://litter.catbox.moe/4ac62s.jpg)
 
 | | |
 |---|---|
@@ -568,9 +568,9 @@ title: "Приложение · Галерея"
 <details>
 <summary><strong>Элессар I</strong></summary>
 
-![Элессар I](https://iili.io/nACKtxp.jpg)
+![Элессар I](https://litter.catbox.moe/7o5fcu.jpg)
 
-> **Кадр:** Элессар I · [⬇ скачать](https://iili.io/nACKtxp.jpg)
+> **Кадр:** Элессар I · [⬇ скачать](https://litter.catbox.moe/7o5fcu.jpg)
 
 | | |
 |---|---|
