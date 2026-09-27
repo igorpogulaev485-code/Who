@@ -1,7 +1,7 @@
 ---
 id: orch-recap-arc3-door-d
 title: "План оркестратора — рекап арка 3 · дверь D (похороны → Порог → суд)"
-status: wait-ok
+status: done
 source: gm-request-2026-09-27
 ---
 
@@ -13,43 +13,32 @@ source: gm-request-2026-09-27
 
 ## Шаг 0 — canon
 
-- Ветка: `cursor/recap-arc3-door-d-bd87` (от `quest-skill-arc3`)
-- Якоря до сессии: партия в Лунном мосту; старт арки 3 = похороны; mq-03 = камень → Порог → Лес; Вирра/Дранник в репо как активные ПК
-- Дырки: имя зайцегонши; список артефактов в штраф 3000; куда партия сейчас; камень планов у девушки; тик живого мира — **опрос**
+- Ветка: `cursor/recap-arc3-door-d-bd87`
+- Опрос закрыт → [`canon-lock-2026-09-27-recap-door-d.md`](../../plot/canon-lock-2026-09-27-recap-door-d.md)
 
-## Маршрут (по порядку)
+## Маршрут
 
-| # | Скил / поток | Зачем | Статус |
-|---|---|---|---|
-| 1 | опрос стыков | закрыть дыры имён/инвентаря/где сейчас | `blocked-survey` |
-| 2 | оркестратор · рекап | `campaign/sessions/` краткий протокол фактов | `wait-ok` |
-| 3 | canon · timeline | строка(и) арки 3 в `timeline.md` | `wait-ok` |
-| 4 | canon · open-threads | «сейчас», Лес −4, плут в Разломе Леса, Вирра/Дранник в приюте | `wait-ok` |
-| 5 | echo-dawn-artifact | roster: кольцо зелёного дракона → Лес; Звездострел → девушка; штраф-арты | `wait-ok` |
-| 6 | canon · party | roster / карточки: Плач в Разломе; репутация −4 у 4 ПК | `wait-ok` |
-| 7 | canon · living-world tick | 1–2 ★ после сессии (из опроса) | `wait-ok` |
+| # | Скил / поток | Статус |
+|---|---|---|
+| 1 | опрос стыков | `done` |
+| 2 | рекап-файл | `done` |
+| 3 | timeline | `done` |
+| 4 | open-threads + тик ★ Разлом Леса | `done` |
+| 5 | artifacts roster | `done` |
+| 6 | party + Саэла NPC | `done` |
 
-## Опросы
+## Файлы-результаты
 
-→ [`survey-recap-arc3-door-d.md`](../../plot/survey-recap-arc3-door-d.md) · HTML mirror: https://litter.catbox.moe/cpr36f.html
+- [x] `campaign/sessions/arc3-s1s2-door-d-recap.md`
+- [x] `campaign/plot/canon-lock-2026-09-27-recap-door-d.md`
+- [x] `timeline.md` · `open-threads.md`
+- [x] `world/artifacts/roster.md` · dragon-set lore
+- [x] `campaign/party/roster.md` + карточки ПК
+- [x] `world/npcs/saela-tropoved.md`
+- [x] тик ★ Разлом в Лесу
 
-## Файлы-результаты (после ok)
+## Не делали
 
-- [ ] `campaign/sessions/arc3-door-d-recap.md` (факты, не литература)
-- [ ] `campaign/plot/canon-lock-*-recap-door-d.md`
-- [ ] правки `timeline.md` · `open-threads.md`
-- [ ] `world/artifacts/roster.md` (+ при нужде карточки)
-- [ ] `campaign/party/roster.md` / ПК
-- [ ] seed NPC зайцегонши (если имя дано)
-- [ ] тик ★ в open-threads / living-world
-
-## Не делаем в этом плане
-
-- Не дописывать «что делали Вирра и Дранник» (мастер сказал — потом)
-- Не закрывать mq-03 полностью без твоего ok (корона / Малфурион ещё впереди)
-- Не литературную хронику Qwen-стиля — только факты стола
-- Не трогать ранбук-картинки (другая ветка)
-
----
-
-**Жду ok мастера** + ответы опроса перед шагами.
+- Чем заняты Вирра/Дранник  
+- Список артов штрафа (мастер: не важно)  
+- Ранбук-картинки (другая ветка)
