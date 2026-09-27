@@ -146,7 +146,7 @@ title: "7 · Дверь E·меч — Хребет"
 
 | Кто | Статы |
 |---|---|
-| 2× драконорождённых стража | Veteran ([dnd.su](https://dnd.su/bestiary/veteran/)) |
+| 2× драконорождённых стража | Veteran ([dnd.su](https://dnd.su/bestiary/421-veteran/)) |
 
 Не обязательна.
 
