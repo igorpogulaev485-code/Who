@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос — регион у Серебряного Порога</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:740px;margin:2rem auto;padding:0 1rem;line-height:1.45;background:#142018;color:#e4ebe4}
+h1{font-size:1.3rem} h2{font-size:1.02rem;margin-top:1.4rem;border-bottom:1px solid #2f4a38;padding-bottom:.3rem;color:#b8d4b8}
+label{display:block;margin:.35rem 0;padding:.45rem .6rem;background:#1c2a22;border-radius:6px;cursor:pointer}
+label:hover{background:#243830}
+.note{opacity:.9;font-size:.92rem;margin:1rem 0;padding:.75rem;background:#1a241e;border-left:3px solid #5a8f6a}
+button{margin-top:1.2rem;padding:.6rem 1.2rem;font-size:1rem;cursor:pointer;background:#3d6b4a;color:#fff;border:0;border-radius:6px}
+#out{white-space:pre-wrap;background:#0d1410;padding:1rem;margin-top:1rem;border-radius:6px;font-size:.9rem}
+textarea{width:100%;margin-top:.4rem;background:#0d1410;color:#eee;border:1px solid #2f4a38;padding:.5rem;border-radius:4px}
+</style>
+</head>
+<body>
+<h1>Опрос — регион у портала (Порожье)</h1>
+<p class="note">Карта <b>страны</b> Леса locked. Нужен зум региона вокруг Храма Серебряного Порога.
+Силвания = столица государства, не автоматически «центр региона».
+Тик: порча / некромантия у Порога. Отметь → «Собрать» → вставь в чат.</p>
+
+<h2>A · Имя региона</h2>
+<label><input type="radio" name="A" value="a_porozhe" checked/> a_porozhe · Порожье</label>
+<label><input type="radio" name="A" value="a_gost"/> a_gost · Гостевой Порог (как в паспорте)</label>
+<label><input type="radio" name="A" value="a_serebro"/> a_serebro · Сребролесье</label>
+<label><input type="radio" name="A" value="a_other"/> a_other · другое</label>
+<textarea id="anote" rows="1" placeholder="если a_other — имя сюда"></textarea>
+
+<h2>B · Пакет поселений (центр · 2 города · деревни · заброшка)</h2>
+<label><input type="radio" name="B" value="b_leaf" checked/> b_leaf · Листоврат · Тихая Крона · Моховой Брод · Три Корня · Росинка · Пеньковый Угол · Чернокорнь</label>
+<label><input type="radio" name="B" value="b_silver"/> b_silver · Среброречье · Ивовый Щит · Камнелист · Светлый Пень · Туманный Брод · Олений Луг · Пепельная Роща</label>
+<label><input type="radio" name="B" value="b_guest"/> b_guest · Гостевой Венец · Нижний Порог · Зелёный Стан · Чаша Росы · Две Тропы · Корневой Посад · Молчаливый Храм</label>
+<label><input type="radio" name="B" value="b_other"/> b_other · свои имена</label>
+<textarea id="bnote" rows="2" placeholder="если b_other — имена сюда"></textarea>
+
+<h2>C · Храм / портал vs центр</h2>
+<label><input type="radio" name="C" value="c_edge" checked/> c_edge · храм на краю центрального города</label>
+<label><input type="radio" name="C" value="c_out"/> c_out · храм вне стен (½–1 день), город = хаб</label>
+<label><input type="radio" name="C" value="c_in"/> c_in · храм внутри города</label>
+<label><input type="radio" name="C" value="c_other"/> c_other · другое</label>
+
+<h2>D · Интересные места (+ порча)</h2>
+<label><input type="radio" name="D" value="d_blight" checked/> d_blight · Пятно Порчи · Круг Стражей · Тропа Гонцов</label>
+<label><input type="radio" name="D" value="d_ruin"/> d_ruin · Порча · Разбитый монастырь-спутник · Серебряный Ключ</label>
+<label><input type="radio" name="D" value="d_wild"/> d_wild · Порча · Логово Шептуна · Зеркальная заводь</label>
+<label><input type="radio" name="D" value="d_other"/> d_other · свои</label>
+<textarea id="dnote" rows="2" placeholder="если d_other — места сюда"></textarea>
+
+<h2>E · Силвания на карте региона</h2>
+<label><input type="radio" name="E" value="e_arrow" checked/> e_arrow · только стрелка «к Силвании»</label>
+<label><input type="radio" name="E" value="e_edge"/> e_edge · силуэт на краю листа</label>
+<label><input type="radio" name="E" value="e_off"/> e_off · не показывать</label>
+<label><input type="radio" name="E" value="e_other"/> e_other · другое</label>
+
+<h2>F · Композиция</h2>
+<label><input type="radio" name="F" value="f_west" checked/> f_west · Порог запад → дуга городов внутрь леса</label>
+<label><input type="radio" name="F" value="f_hub"/> f_hub · портал в центре листа, кольцо поселений</label>
+<label><input type="radio" name="F" value="f_road"/> f_road · дорога гонцов через центр</label>
+<label><input type="radio" name="F" value="f_other"/> f_other · другое</label>
+
+<h2>G · Дальше</h2>
+<label><input type="radio" name="G" value="g_map" checked/> g_map · лок → бриф + карта → seed центра</label>
+<label><input type="radio" name="G" value="g_brief"/> g_brief · сначала только текстовый бриф</label>
+<label><input type="radio" name="G" value="g_other"/> g_other · другое</label>
+
+<button type="button" id="go">Собрать ответ</button>
+<pre id="out"></pre>
+<script>
+document.getElementById('go').onclick=()=>{
+  const g=n=> (document.querySelector(`input[name="${n}"]:checked`)||{}).value||'?';
+  const notes=[];
+  const a=document.getElementById('anote').value.trim();
+  const b=document.getElementById('bnote').value.trim();
+  const d=document.getElementById('dnote').value.trim();
+  if(a) notes.push('A: '+a);
+  if(b) notes.push('B: '+b);
+  if(d) notes.push('D: '+d);
+  let s=`A=${g('A')} B=${g('B')} C=${g('C')} D=${g('D')} E=${g('E')} F=${g('F')} G=${g('G')}`;
+  if(notes.length) s+='\nзаметки:\n'+notes.join('\n');
+  document.getElementById('out').textContent=s;
+  navigator.clipboard?.writeText(s);
+};
+</script>
+</body>
+</html>
