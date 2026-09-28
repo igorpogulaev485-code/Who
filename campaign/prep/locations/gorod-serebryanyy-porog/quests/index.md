@@ -15,8 +15,9 @@ status: prep
 | q-gorod-03 | Гонца нет третий день | arclet | critical | soft-arc | [`q-gorod-03.md`](q-gorod-03.md) |
 | q-gorod-04 | Песня, которую просили не петь | micro | medium | soft-arc | [`q-gorod-04.md`](q-gorod-04.md) |
 | q-gorod-05 | Тропа, которая переломилась | session | high | soft-arc | [`q-gorod-05.md`](q-gorod-05.md) |
+| q-gorod-06 | Гость, которого не было | arclet | critical | soft-arc | [`q-gorod-06.md`](q-gorod-06.md) |
 
-Храм (другой slug): [`../../serebryanyy-porog/quests/`](../../serebryanyy-porog/quests/) · порча — следующий шаг плана (не здесь).
+Храм (другой slug): [`../../serebryanyy-porog/quests/`](../../serebryanyy-porog/quests/) · порча: [`q-porcha-01`](../../serebryanyy-porog/quests/q-porcha-01.md).
 
 ## Пачка одним вечером
 
@@ -25,4 +26,6 @@ status: prep
 | 01 ↔ 02 | серая сеть рынка / печатей |
 | 03 ↔ 04 | гонец → запретная песня |
 | 03 ↔ 05 | больная тропа |
-| 05 → Храм | отчёт о порче |
+| 01·02 → **06** | та же сеть → труп в Архиве |
+| **06** → q-porcha-01 | чёрная земля / Дэрис кормит Корень |
+| 05 → Храм | отчёт о порче → q-porcha-01 |

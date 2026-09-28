@@ -22,11 +22,11 @@ status: prep
 | [`playbook.md`](playbook.md) / `.docx` | места 1–24 · 1к6 · НПС |
 | [`places-catalog.md`](places-catalog.md) | легенда карты |
 | [`npc-registry.md`](npc-registry.md) · [`npc-extras.md`](npc-extras.md) | имена |
-| [`quests/`](quests/) · [`quests-bundle.md`](quests-bundle.md) / `.docx` | 5 полных side |
+| [`quests/`](quests/) · [`quests-bundle.md`](quests-bundle.md) / `.docx` | 6 полных side · флагман **q-gorod-06** |
 
 ## Порядок дальше
 
 1. ~~Город~~  
-2. ~~Квесты города~~  
-3. **Порча** (Храм)  
+2. ~~Квесты города (01–06)~~  
+3. ~~Порча~~ → [`../serebryanyy-porog/quests/q-porcha-01.md`](../serebryanyy-porog/quests/q-porcha-01.md)  
 4. Точки Эллуэнара  

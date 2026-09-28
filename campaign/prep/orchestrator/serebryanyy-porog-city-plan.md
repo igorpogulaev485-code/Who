@@ -21,7 +21,8 @@ lock: ../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md
 | 1 | `echo-dawn-location` | Карта 1–24 + playbook мест/НПС/1к6 | `done` |
 | 1c | `echo-dawn-location` | `city-rules` + доп. НПС ключевых мест | `done` |
 | 2 | `echo-dawn-quest-side` | `q-gorod-01…05` + bundle | `done` |
-| 3 | `echo-dawn-quest-side` / location | Порча (Храм; город = слухи/наём) | `wait-ok` |
+| 2b | `echo-dawn-quest-side` | **q-gorod-06** флагманское расследование города | `done` |
+| 3 | `echo-dawn-quest-side` | **q-porcha-01** сыск → бой Чёрного Корня (Храм) | `done` |
 | 4 | `echo-dawn-location` | Остальные точки Эллуэнара | `wait` |
 
 ## Файлы города (готово)
@@ -30,11 +31,16 @@ lock: ../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md
 - [x] playbook 24 места  
 - [x] city-rules (+ docx)  
 - [x] npc-registry + npc-extras  
-- [x] quests 01–05 + bundle (+ docx)  
+- [x] quests 01–06 + bundle (+ docx)  
+
+## Файлы порчи (готово)
+
+- [x] `serebryanyy-porog/quests/q-porcha-01.md` — расследование ≥3 улик → бой 3 такта  
+- [x] якоря в playbook Храма + города · ранбук 05/13 · 14/03 · 14/08  
 
 ## Не делаем сейчас
 
-- Полный данж порчи  
+- Полный данж порчи (очаг локальный у арки — закрыт q-porcha-01)  
 - Силвания / Древо / монастырь целиком  
 
 ## Боком
