@@ -1,22 +1,21 @@
 ---
 title: "Эллуэнар — карта региона"
-status: prep
+status: locked
 version: v11
 audience: players+gm
 date: 2026-09-28
-lock: ../../plot/canon-lock-2026-09-27-les-elluenar-region.md
+lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
 lock_directions: ../../plot/canon-lock-2026-09-27-elluenar-map-directions.md
 brief: map-brief.md
 ---
 
-# Карта — Эллуэнар (v11)
+# Карта — Эллуэнар (**LOCKED v11**)
 
 ![Эллуэнар v11](map.png)
 
 Asset: [`../../../../assets/maps/elluenar/elluenar-region-map-v11.png`](../../../../assets/maps/elluenar/elluenar-region-map-v11.png)
 
-Чистая пересборка с нуля (без накопившихся правок поверх старых слоёв).  
-Силванию / Древо / Рубеж **не** рисуем внутри — только стрелки.
+Ок мастера 2026-09-28. Силванию / Древо / Рубеж **не** рисуем внутри — только стрелки.
 
 ## Легенда
 
