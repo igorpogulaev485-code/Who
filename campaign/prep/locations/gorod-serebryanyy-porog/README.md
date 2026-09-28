@@ -7,25 +7,26 @@ status: prep
 
 | | |
 |---|---|
-| Масштаб | **город · волна 1** — 24 места, 5 районов |
+| Масштаб | город · **24 места** · глубина «как Камнеград» (правила + квесты + НПС) |
 | Статус | `prep` |
-| Карта города | [`map.png`](map.png) · asset v1 |
-| Карта региона | [`../elluenar/`](../elluenar/) **LOCKED v11** |
-| Храм (site) | [`../serebryanyy-porog/`](../serebryanyy-porog/) — **не** этот slug |
-| Лок опроса | [`../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md`](../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md) |
+| Карта | [`map.png`](map.png) |
+| Регион | [`../elluenar/`](../elluenar/) LOCKED v11 |
+| Храм | [`../serebryanyy-porog/`](../serebryanyy-porog/) |
+| Лок | [`../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md`](../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md) |
 
-## Файлы
+## Файлы для стола
 
-| Файл | |
+| Файл | Зачем |
 |---|---|
-| [`playbook.md`](playbook.md) / [`playbook.docx`](playbook.docx) | ведение |
-| [`places-catalog.md`](places-catalog.md) | каталог 1–24 |
-| [`npc-registry.md`](npc-registry.md) | 24 НПС |
-| [`map.png`](map.png) | numbered v1 |
+| [`city-rules.md`](city-rules.md) / `.docx` | **правила, −4, цены, запреты, возможности** |
+| [`playbook.md`](playbook.md) / `.docx` | места 1–24 · 1к6 · НПС |
+| [`places-catalog.md`](places-catalog.md) | легенда карты |
+| [`npc-registry.md`](npc-registry.md) · [`npc-extras.md`](npc-extras.md) | имена |
+| [`quests/`](quests/) · [`quests-bundle.md`](quests-bundle.md) / `.docx` | 5 полных side |
 
-## Порядок дальше (лок G)
+## Порядок дальше
 
-1. ~~Собрать город~~ (волна 1 — done)  
-2. **Квесты** `q-gorod-*` (quest-side)  
-3. **Порча** (из Храма; город = слухи/наём)  
-4. Остальные точки Эллуэнара  
+1. ~~Город~~  
+2. ~~Квесты города~~  
+3. **Порча** (Храм)  
+4. Точки Эллуэнара  

@@ -1,7 +1,7 @@
 ---
 id: orch-serebryanyy-porog-city
 title: "План — регион Эллуэнар: город Серебряный Порог (полный)"
-status: in-progress # волна 1a/1b city assembled; next = quests
+status: in-progress
 source: gm-2026-09-28
 branch: cursor/serebryanyy-porog-city-bd87
 survey: ../../plot/survey-serebryanyy-porog-city-v1.md
@@ -12,46 +12,31 @@ lock: ../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md
 
 ## Цель
 
-Подготовить **Эллуэнар**. Старт — **город Серебряный Порог**: крупный хаб (~столица по шуму), ~20–25 мест, чтобы партия захотела задержаться.
-
-## Шаг 0 — canon
-
-- Лок опроса: [`canon-lock-2026-09-28-serebryanyy-porog-city-survey.md`](../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md)
-- Порядок: город → квесты → порча (Храм) → точки региона
+Город **как Камнеград**: карта, места, НПС, 1к6, **свод правил**, **полные побочки** — чтобы партия могла застрять. Дальше — порча (Храм) → точки региона.
 
 ## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
-| 1a | `echo-dawn-location` | Карта numbered + каталог 24 места + паспорт/районы | `done` |
-| 1b | `echo-dawn-location` | Детализация всех 24 мест (НПС + 1к6 + якоря) | `done` |
-| 2 | `echo-dawn-quest-side` | Квесты города с НПС (`q-gorod-*`) | `wait-ok` |
-| 3 | `echo-dawn-quest-side` / location | Порча (из Храма; город = слухи/наём) | `wait` |
+| 1 | `echo-dawn-location` | Карта 1–24 + playbook мест/НПС/1к6 | `done` |
+| 1c | `echo-dawn-location` | `city-rules` + доп. НПС ключевых мест | `done` |
+| 2 | `echo-dawn-quest-side` | `q-gorod-01…05` + bundle | `done` |
+| 3 | `echo-dawn-quest-side` / location | Порча (Храм; город = слухи/наём) | `wait-ok` |
 | 4 | `echo-dawn-location` | Остальные точки Эллуэнара | `wait` |
 
-## Лок ответов (кратко)
+## Файлы города (готово)
 
-| | |
-|---|---|
-| Волны · ~20–25 мест | A |
-| Районы есть; число ≠ размер | B |
-| Живое дерево | C |
-| −4 soft | D |
-| Порча → Храм | E |
-| Карта + каталог | F |
-| Город→квесты→порча→регион | G |
-| Почти = Силвания по масштабу | H |
-
-## Файлы-результаты (волна 1)
-
-- [x] `places-catalog.md` + numbered map v1
-- [x] `playbook.md` — 24 места
-- [x] `npc-registry.md` — 24 НПС
-- [x] `playbook.docx`
-- [x] README · лок опроса
+- [x] map + places-catalog  
+- [x] playbook 24 места  
+- [x] city-rules (+ docx)  
+- [x] npc-registry + npc-extras  
+- [x] quests 01–05 + bundle (+ docx)  
 
 ## Не делаем сейчас
 
-- Полные квесты (шаг 2)  
-- Порча полностью (шаг 3)  
-- Силвания / Древо / монастырь  
+- Полный данж порчи  
+- Силвания / Древо / монастырь целиком  
+
+## Боком
+
+Мысли Грока о Кардиане (архив, не лок): [`../../sessions/feedback-groc-kardian-third-path.md`](../../sessions/feedback-groc-kardian-third-path.md)
