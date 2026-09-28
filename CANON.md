@@ -104,6 +104,8 @@
 - [Мёртвый Лист](campaign/party/characters/mertvyy-list.md) — мёртв; не герой; добрая память
 - [Тиара](campaign/party/characters/tiara.md) — ипостась Балтана; предательница (демоны); розыск; пала у Лунного Оврага
 - [Радонаар](campaign/party/characters/radonaar.md) — выгнан; служит Драконьему Хребту; встреча впереди
+- [Уораг](campaign/party/characters/uorag.md) — эпизод; нейтральное упоминание
+- [Зеварду](campaign/party/characters/zevardu.md) — разбил Зеркало Разлома; помощник Кардиана в объявлениях
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
 - [Листы PDF](assets/character-sheets/README.md)
 

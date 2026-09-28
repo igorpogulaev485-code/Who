@@ -25,5 +25,7 @@ source: assets/character-sheets/*.pdf + gm-canon-art
 | `mertvyy-list.png` | Мёртвый Лист | Канон-арт по описанию (LSS пока нет) |
 | `tiara.png` | Тиара | Канон-арт (на LSS портрет пустой) · лист [`../../character-sheets/tiara.pdf`](../../character-sheets/tiara.pdf) |
 | `radonaar.png` | Радонаар | LSS [`../../character-sheets/radonaar.pdf`](../../character-sheets/radonaar.pdf) |
+| `uorag.png` | Уораг | LSS [`../../character-sheets/uorag.pdf`](../../character-sheets/uorag.pdf) |
+| `zevardu.png` | Зеварду | Канон-арт (на LSS портрет пустой) · лист [`../../character-sheets/zevardu.pdf`](../../character-sheets/zevardu.pdf) |
 
 Правило: для пергаментных объявлений героев брать эти файлы как `reference_image_paths`, не выдумывать новый дизайн.
