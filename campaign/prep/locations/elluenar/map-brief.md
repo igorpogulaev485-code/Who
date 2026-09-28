@@ -1,7 +1,7 @@
 ---
 title: "Эллуэнар — бриф карты региона"
 status: prep
-version: v6
+version: v11
 date: 2026-09-27
 region: Эллуэнар
 state: Лес Хранителей
