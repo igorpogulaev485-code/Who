@@ -19,6 +19,7 @@ source: gm
 | `01-heroes-grok.png` | Грок |
 | `02-heroes-virra.png` | Вирра (мастер доводит сам) |
 | `03-heroes-baltan.png` | Балтан |
+| `04-heroes-drannik.png` | Дранник |
 
 Промпты: [`assets/prompts/parchment-posters.md`](../assets/prompts/parchment-posters.md)  
 Референсы лиц: [`assets/images/portraits/`](../assets/images/portraits/)
