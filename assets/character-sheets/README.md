@@ -25,5 +25,6 @@ source: gm-upload-2026-09-04 + gm-upload-2026-09-28
 | [`uorag.pdf`](uorag.pdf) | Уораг — эпизод |
 | [`zevardu.pdf`](zevardu.pdf) | Зеварду — помощник Кардиана (зеркало) |
 | [`heskan.pdf`](heskan.pdf) | Хескан — проходной |
+| [`fioletovyy-zhab.pdf`](fioletovyy-zhab.pdf) | Фиолетовый Жаб — основатель; сейчас не играет |
 
 Рядом `.txt` — текстовое извлечение из PDF для поиска.

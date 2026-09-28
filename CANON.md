@@ -107,6 +107,7 @@
 - [Уораг](campaign/party/characters/uorag.md) — эпизод; нейтральное упоминание
 - [Зеварду](campaign/party/characters/zevardu.md) — разбил Зеркало Разлома; помощник Кардиана в объявлениях
 - [Хескан](campaign/party/characters/heskan.md) — проходной; нейтральное упоминание
+- [Фиолетовый Жаб](campaign/party/characters/fioletovyy-zhab.md) — основатель «Бродяги»; сейчас не играет; честь партии
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
 - [Листы PDF](assets/character-sheets/README.md)
 

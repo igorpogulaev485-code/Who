@@ -28,5 +28,6 @@ source: assets/character-sheets/*.pdf + gm-canon-art
 | `uorag.png` | Уораг | LSS [`../../character-sheets/uorag.pdf`](../../character-sheets/uorag.pdf) |
 | `zevardu.png` | Зеварду | Канон-арт (на LSS портрет пустой) · лист [`../../character-sheets/zevardu.pdf`](../../character-sheets/zevardu.pdf) |
 | `heskan.png` | Хескан | Канон-арт (на LSS портрет пустой) · лист [`../../character-sheets/heskan.pdf`](../../character-sheets/heskan.pdf) |
+| `fioletovyy-zhab.png` | Фиолетовый Жаб | **Канон** · LSS-арт плохой → архив `fioletovyy-zhab-lss-sheet.png` · лист [`../../character-sheets/fioletovyy-zhab.pdf`](../../character-sheets/fioletovyy-zhab.pdf) |
 
 Правило: для пергаментных объявлений героев брать эти файлы как `reference_image_paths`, не выдумывать новый дизайн.
