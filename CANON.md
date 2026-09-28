@@ -146,7 +146,7 @@
 - [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md) → [картинка](assets/images/scorpion-tail-mark.png)
 - [Ритуальный клинок Кардиана](assets/prompts/kardian-ritual-dagger.md) → [картинка](assets/images/kardian-ritual-dagger.png)
 - [Камнеград](assets/prompts/kamnegrad.md) → 4 кадра в `assets/images/kamnegrad-*.png`
-- [Пергаментные объявления (герои/злодеи)](assets/prompts/parchment-posters.md) *(draft)* → [Кардиан](assets/images/wanted-kardian-parchment-ru.png), [Вирра](assets/images/heroes-virra-parchment-ru.png)
+- [Пергаментные объявления (герои/злодеи)](assets/prompts/parchment-posters.md) *(draft)* → [Кардиан](assets/images/wanted-kardian-parchment-ru.png), [Вирра](assets/images/heroes-virra-parchment-ru.png), [Грок](assets/images/heroes-grok-parchment-ru.png)
 - [Портреты партии из чарников](assets/images/portraits/README.md)
 - [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
 - [03 — Разлом](campaign/sessions/03-razlom.md)

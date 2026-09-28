@@ -53,7 +53,23 @@ source: gm
 
 ![Вирра](../images/heroes-virra-parchment-ru.png)
 
+### 3. Герои Аэлендора — Грок
+
+**Референс внешности:** [`../images/portraits/grok.png`](../images/portraits/grok.png) (из `grok.pdf`, стр. 2).  
+Тортл-паладин: зелёная чешуя, панцирь, золотой нагрудник-пластрон, голубой плащ, секира Правосудия.
+
+Текст на листе:
+
+- ГЕРОИ АЭЛЕНДОРА
+- ГРОК
+- Паладин Смотрителей. За доблесть у Лунного Оврага.
+- Титул дарован Серебряным Стражем.
+
+> Vertical fantasy hero proclamation on aged parchment. Russian Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ГРОК. Under portrait: Паладин Смотрителей. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Tortle paladin matching sheet: light green scaly skin, brown shell, golden-bronze plastron breastplate, sky-blue cloak, gold chain with diamond pendant, double-headed silver battleaxe. Warm forest dusk background without purple cast. Blue wax seal with crescent. No English.
+
+![Грок](../images/heroes-grok-parchment-ru.png)
+
 ## Кандидаты на серию
 
-**Герои:** Вирра (проба), Грок, Балтан, Дранник, Кавил, Плач звезды, Эларион, общая афиша «Бродяга».  
+**Герои:** Вирра (проба), Грок (проба), Балтан, Дранник, Кавил, Плач звезды, Эларион, общая афиша «Бродяга».  
 **Злодеи:** Кардиан (проба), Пиппин, Багал, Хвост Скорпиона, Культ Лолс, Константин III.

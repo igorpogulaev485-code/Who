@@ -13,4 +13,5 @@
 | `kamnegrad-elven-enclave.png` | Камнеград — эльфийский анклав | то же |
 | `wanted-kardian-parchment-ru.png` | Розыск Кардиана (пергамент, RU; лицо из арта снов) | [`../prompts/parchment-posters.md`](../prompts/parchment-posters.md) |
 | `heroes-virra-parchment-ru.png` | Прокламация: Вирра (пергамент, RU; портрет из чарника) | то же |
+| `heroes-grok-parchment-ru.png` | Прокламация: Грок (пергамент, RU; портрет из чарника) | то же |
 | `portraits/*.png` | Портреты партии со 2-й стр. PDF-листов | [`portraits/README.md`](portraits/README.md) |
