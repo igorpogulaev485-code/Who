@@ -66,7 +66,7 @@ source: gm-lock-round2 + player-briefs
 
 ## Воскрешение Маэстро
 
-Дневник **частично** изучен (стр. **16, 17, 29–40, 46, 47, 52–57**). Лок волны 2: [`canon-lock-2026-09-28-diary-pages-wave2.md`](canon-lock-2026-09-28-diary-pages-wave2.md).  
+Дневник **частично** изучен (стр. **9–12, 16, 17, 29–40, 46, 47, 52–57**). Локи: [`canon-lock-2026-09-28-diary-pages-wave2.md`](canon-lock-2026-09-28-diary-pages-wave2.md) · [`canon-lock-2026-09-28-diary-pages-09-12.md`](canon-lock-2026-09-28-diary-pages-09-12.md).  
 Раздатка: [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md) · лок [`canon-lock-2026-09-24-diary-pages-29-32.md`](canon-lock-2026-09-24-diary-pages-29-32.md).  
 **Двойник:** лок [`canon-lock-2026-09-24-maestro-clone.md`](canon-lock-2026-09-24-maestro-clone.md) · хвосты [`canon-lock-2026-09-24-resurrection-tails.md`](canon-lock-2026-09-24-resurrection-tails.md) · стол [гл. 18 · R](../prep/arc3-visual-book/chapters/18-index.md).  
 Готовый сосуд — **храм в пустыне Амирата** (~с.**15**); растущий — **Кузад-Дум**; душа у **демонов**; план мёртвых ≠ душа Маэстро.  

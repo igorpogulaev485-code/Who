@@ -23,6 +23,10 @@ updated: 2026-09-28
 
 | Стр. | Заголовок | Файл | Статус |
 |---:|---|---|---|
+| 9 | Ученье без книги | [`pages/09.md`](pages/09.md) | **open** |
+| 10 | Я сильнее, чем должен | [`pages/10.md`](pages/10.md) | **open** |
+| 11 | Кардиан | [`pages/11.md`](pages/11.md) | **open** · длиннее |
+| 12 | Два огня | [`pages/12.md`](pages/12.md) | **open** |
 | 16 | Копии | [`pages/16.md`](pages/16.md) | **open** |
 | 17 | Шутка, ставшая щитом | [`pages/17.md`](pages/17.md) | **open** |
 | 29 | Когда небо лопнуло | [`pages/29.md`](pages/29.md) | **open** |
@@ -46,6 +50,6 @@ updated: 2026-09-28
 | 56 | Экспедиция | [`pages/56.md`](pages/56.md) | **open** · волна 2 |
 | 57 | Письмо не отправленное | [`pages/57.md`](pages/57.md) | **open** · волна 2 |
 
-Локи: [`canon-lock-2026-09-24-diary-interlude-open.md`](../../plot/canon-lock-2026-09-24-diary-interlude-open.md) · [`canon-lock-2026-09-24-diary-pages-29-32.md`](../../plot/canon-lock-2026-09-24-diary-pages-29-32.md) · [`canon-lock-2026-09-28-diary-pages-wave2.md`](../../plot/canon-lock-2026-09-28-diary-pages-wave2.md)
+Локи: [`canon-lock-2026-09-24-diary-interlude-open.md`](../../plot/canon-lock-2026-09-24-diary-interlude-open.md) · [`canon-lock-2026-09-24-diary-pages-29-32.md`](../../plot/canon-lock-2026-09-24-diary-pages-29-32.md) · [`canon-lock-2026-09-28-diary-pages-wave2.md`](../../plot/canon-lock-2026-09-28-diary-pages-wave2.md) · [`canon-lock-2026-09-28-diary-pages-09-12.md`](../../plot/canon-lock-2026-09-28-diary-pages-09-12.md)
 
 Стр. 1 — черновик тона ([`pages/01.md`](pages/01.md)); переписать под детство по запросу.
