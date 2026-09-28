@@ -94,11 +94,13 @@
 - [Кардиан](world/npcs/kardian.md)
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
 - [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
-- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
+- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала; бил руками
 
 ## Партия
 
 - [Состав (актуальные листы)](campaign/party/roster.md)
+- [Невил](campaign/party/characters/nevil.md) — следопыт; временно away (свадебное путешествие); тот же игрок, что у Кеши
+- [Иннокентий Баль — карточка ПК](campaign/party/characters/innokentiy-bal.md)
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
 - [Листы PDF](assets/character-sheets/README.md)
 

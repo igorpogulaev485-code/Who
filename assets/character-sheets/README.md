@@ -1,12 +1,12 @@
 ---
 title: Листы персонажей (LSS)
 status: canon
-source: gm-upload-2026-09-04
+source: gm-upload-2026-09-04 + gm-upload-2026-09-28
 ---
 
 # Листы персонажей
 
-Снимок от мастера: актуальные ПК за столом (Long Story Short).
+Снимки от мастера: ПК за столом (Long Story Short).
 
 | Файл | Персонаж |
 |---|---|
@@ -17,5 +17,7 @@ source: gm-upload-2026-09-04
 | [`kavil.pdf`](kavil.pdf) | Кавил МакАндрик |
 | [`plach-zvezdy.pdf`](plach-zvezdy.pdf) | Плач звезды |
 | [`elarion.pdf`](elarion.pdf) | Эларион |
+| [`nevil.pdf`](nevil.pdf) | Невил (временно away — свадебное путешествие) |
+| [`innokentiy-bal.pdf`](innokentiy-bal.pdf) | Иннокентий Баль (Кеша) — мёртв |
 
 Рядом `.txt` — текстовое извлечение из PDF для поиска.
