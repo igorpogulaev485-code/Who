@@ -38,14 +38,17 @@ source: gm
 
 ### 2. Герои Аэлендора — Вирра
 
+**Референс внешности:** [`../images/portraits/virra.png`](../images/portraits/virra.png) (из `virra.pdf`, стр. 2).  
+Сиреневый мех, янтарные глаза, шрам-молния на ухе + золотой ромб, пламенная эмблема Гонда на накидке.
+
 Текст на листе:
 
 - ГЕРОИ АЭЛЕНДОРА
 - ВИРРА
-- Жрец кузни Гонда. За доблесть у Лунного Оврага.
+- Жрица кузни Гонда. За доблесть у Лунного Оврага.
 - Титул дарован Серебряным Стражем.
 
-> Vertical fantasy hero proclamation on warm aged parchment. All text RUSSIAN Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ВИРРА. Below: Жрец кузни Гонда. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Female harengon forge cleric: brown fur, long rabbit ears, forge hammer, warm ember light, circular medallion. Blue wax seal with crescent. No English.
+> Vertical fantasy hero proclamation on warm aged parchment. All text RUSSIAN Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ВИРРА. Below: Жрица кузни Гонда. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Portrait MUST match character-sheet reference: female harengon with light PURPLE/lavender fur, glowing amber-orange eyes, dark lightning scar on left ear with golden diamond pendant, purple capelet with glowing yellow-orange geometric flame emblem of Gond, leather straps and gauntlets. Circular medallion, blue wax seal with crescent. No English. No brown fur.
 
 ![Вирра](../images/heroes-virra-parchment-ru.png)
 
