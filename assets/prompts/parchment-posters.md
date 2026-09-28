@@ -48,7 +48,7 @@ source: gm
 - Жрица кузни Гонда. За доблесть у Лунного Оврага.
 - Титул дарован Серебряным Стражем.
 
-> Vertical fantasy hero proclamation on warm aged parchment. All text RUSSIAN Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ВИРРА. Below: Жрица кузни Гонда. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Portrait MUST match character-sheet reference: female harengon with light PURPLE/lavender fur, glowing amber-orange eyes, dark lightning scar on left ear with golden diamond pendant, purple capelet with glowing yellow-orange geometric flame emblem of Gond, leather straps and gauntlets. Circular medallion, blue wax seal with crescent. No English. No brown fur.
+> Vertical fantasy hero proclamation on warm aged parchment. All text RUSSIAN Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ВИРРА. Below: Жрица кузни Гонда. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Portrait MUST match character-sheet reference: female harengon with vivid saturated LIGHT PURPLE / LAVENDER / VIOLET fur (not brown, not grey, not sepia-washed), deep rich purple capelet, glowing amber-orange eyes, dark lightning scar on left ear with golden diamond pendant, yellow-orange geometric flame emblem of Gond, leather straps and gauntlets. Paper may be aged tan, but character colors stay vivid purple. Circular medallion, blue wax seal with crescent. No English.
 
 ![Вирра](../images/heroes-virra-parchment-ru.png)
 
