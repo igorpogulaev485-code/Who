@@ -70,6 +70,6 @@ source: gm-lock-2026-09-04
 
 ## Интерлюдия (до сессии 1 арки 3 / между сессиями)
 
-Партия **читает дневник** Маэстро вне сессии (интерлюдии). Открыты стр. **16, 17, 29, 30, 31, 32, 52, 53, 54, 55** (канон).  
+Партия **читает дневник** Маэстро вне сессии (интерлюдии). Открыты стр. **16, 17, 29–40, 46, 47, 52–57** (канон).  
 Telegra TOC: https://telegra.ph/Moi-znaniya---moya-zhizn-09-21  
-Лок: [`canon-lock-2026-09-24-diary-interlude-open.md`](canon-lock-2026-09-24-diary-interlude-open.md) · handout: [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md)
+Локи: [`canon-lock-2026-09-24-diary-interlude-open.md`](canon-lock-2026-09-24-diary-interlude-open.md) · [`canon-lock-2026-09-28-diary-pages-wave2.md`](canon-lock-2026-09-28-diary-pages-wave2.md) · handout: [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md)

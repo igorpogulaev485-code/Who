@@ -1,7 +1,7 @@
 ---
 id: orch-diary-pages-33-57
 title: "План — дневник Маэстро: новые открытые страницы"
-status: in-progress
+status: done
 source: gm-2026-09-28
 ---
 
@@ -16,8 +16,8 @@ source: gm-2026-09-28
 | # | Скил | Статус |
 |---|---|---|
 | 0 | canon + TOC v3 | `done` |
-| 1 | `echo-dawn-book-chapter` (дневник) | `in-progress` |
-| 2 | handout / индекс / timeline | `wait` |
+| 1 | `echo-dawn-book-chapter` (дневник) | `done` |
+| 2 | handout / индекс / timeline | `done` |
 
 ## Страницы
 
