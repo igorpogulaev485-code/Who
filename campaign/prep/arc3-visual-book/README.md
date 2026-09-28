@@ -53,7 +53,7 @@ format: blocks-hub
 | 2 | **[Сессия 1 · хаб](chapters/02-index.md)** | похороны |
 | 3 | [Дверь A](chapters/03-index.md) | Маяк · фиолетовый |
 | 4 | [Дверь F](chapters/04-index.md) | Причал · чёрный |
-| 5 | [Дверь D](chapters/05-index.md) | Лес / Порог |
+| 5 | [Дверь D](chapters/05-index.md) | Лес / Порог · **+ город / Эллуэнар (продолжение)** |
 | 6–8 | [E · льды](chapters/06-index.md) · [меч](chapters/07-index.md) · [сапоги](chapters/08-index.md) | mq-06 |
 | 9 | [Дверь B](chapters/09-index.md) | дневник |
 | 10 | [Дверь C](chapters/10-index.md) | Милана |
