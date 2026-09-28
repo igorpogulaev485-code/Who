@@ -24,5 +24,6 @@ source: gm-upload-2026-09-04 + gm-upload-2026-09-28
 | [`radonaar.pdf`](radonaar.pdf) | Радонаар — выгнан; служит Драконьему Хребту |
 | [`uorag.pdf`](uorag.pdf) | Уораг — эпизод |
 | [`zevardu.pdf`](zevardu.pdf) | Зеварду — помощник Кардиана (зеркало) |
+| [`heskan.pdf`](heskan.pdf) | Хескан — проходной |
 
 Рядом `.txt` — текстовое извлечение из PDF для поиска.

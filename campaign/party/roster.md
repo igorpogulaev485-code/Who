@@ -34,6 +34,7 @@ PDF: [`assets/character-sheets/`](../../assets/character-sheets/) · карто�
 | **Кеша (Иннокентий Баль)** | Раскрыт как вампир и **убит**; бил руками, без оружия. Лист + канон-портрет: [`characters/innokentiy-bal.md`](characters/innokentiy-bal.md) |
 | **Уораг** | Эпизодический дроу-монах; нейтральное упоминание. [`characters/uorag.md`](characters/uorag.md) |
 | **Зеварду** | Эпизод; **помощник Кардиана** (разбил Зеркало Разлома совой). [`characters/zevardu.md`](characters/zevardu.md) |
+| **Хескан** | Проходной; нейтральное упоминание. [`characters/heskan.md`](characters/heskan.md) |
 | **Тиара** | Ипостась Балтана; **переметнулась к демонам** → розыск; пала у Лунного Оврага. [`characters/tiara.md`](characters/tiara.md) |
 | **Багал** | Бывший ПК игрока Элариона; скрытый антагонист; **убит Кешей**. Мёртв. ≠ Балтан. Лист + розыск: [`characters/bagal.md`](characters/bagal.md) |
 

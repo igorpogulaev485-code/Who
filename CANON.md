@@ -106,6 +106,7 @@
 - [Радонаар](campaign/party/characters/radonaar.md) — выгнан; служит Драконьему Хребту; встреча впереди
 - [Уораг](campaign/party/characters/uorag.md) — эпизод; нейтральное упоминание
 - [Зеварду](campaign/party/characters/zevardu.md) — разбил Зеркало Разлома; помощник Кардиана в объявлениях
+- [Хескан](campaign/party/characters/heskan.md) — проходной; нейтральное упоминание
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
 - [Листы PDF](assets/character-sheets/README.md)
 

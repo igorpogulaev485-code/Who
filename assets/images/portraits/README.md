@@ -27,5 +27,6 @@ source: assets/character-sheets/*.pdf + gm-canon-art
 | `radonaar.png` | Радонаар | LSS [`../../character-sheets/radonaar.pdf`](../../character-sheets/radonaar.pdf) |
 | `uorag.png` | Уораг | LSS [`../../character-sheets/uorag.pdf`](../../character-sheets/uorag.pdf) |
 | `zevardu.png` | Зеварду | Канон-арт (на LSS портрет пустой) · лист [`../../character-sheets/zevardu.pdf`](../../character-sheets/zevardu.pdf) |
+| `heskan.png` | Хескан | Канон-арт (на LSS портрет пустой) · лист [`../../character-sheets/heskan.pdf`](../../character-sheets/heskan.pdf) |
 
 Правило: для пергаментных объявлений героев брать эти файлы как `reference_image_paths`, не выдумывать новый дизайн.
