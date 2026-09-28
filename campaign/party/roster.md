@@ -28,6 +28,7 @@ PDF: [`assets/character-sheets/`](../../assets/character-sheets/) · карто�
 
 | Персонаж | Статус |
 |---|---|
+| **Радонаар** | **Выгнан**; служит **Драконьему Хребту**; не герой; пути ещё пересекутся. [`characters/radonaar.md`](characters/radonaar.md) |
 | **Мёртвый Лист** | **Мёртв**; табакси-плут (убийца); не герой Аэлендора; добрый спутник. Память: [`characters/mertvyy-list.md`](characters/mertvyy-list.md) |
 | **Фиолетовый Жаб** | **Вышел** |
 | **Кеша (Иннокентий Баль)** | Раскрыт как вампир и **убит**; бил руками, без оружия. Лист + канон-портрет: [`characters/innokentiy-bal.md`](characters/innokentiy-bal.md) |
