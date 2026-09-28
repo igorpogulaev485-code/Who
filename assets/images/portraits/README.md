@@ -21,5 +21,6 @@ source: assets/character-sheets/*.pdf + gm-canon-art
 | `nevil.png` | Невил | Канон-арт (на LSS портрет пустой) · лист [`../../character-sheets/nevil.pdf`](../../character-sheets/nevil.pdf) |
 | `innokentiy-bal.png` | Иннокентий Баль (Кеша) | Канон-арт под лор Аэлендора (безоружный боец) · лист [`../../character-sheets/innokentiy-bal.pdf`](../../character-sheets/innokentiy-bal.pdf) |
 | `innokentiy-bal-lss-sheet.png` | Кеша — архив LSS | Арт с листа **не канон** для мира |
+| `bagal.png` | Багал | LSS [`../../character-sheets/bagal.pdf`](../../character-sheets/bagal.pdf) |
 
 Правило: для пергаментных объявлений героев брать эти файлы как `reference_image_paths`, не выдумывать новый дизайн.
