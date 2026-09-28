@@ -102,6 +102,7 @@
 - [Невил](campaign/party/characters/nevil.md) — следопыт; временно away (свадебное путешествие); тот же игрок, что у Кеши
 - [Иннокентий Баль — карточка ПК](campaign/party/characters/innokentiy-bal.md)
 - [Мёртвый Лист](campaign/party/characters/mertvyy-list.md) — мёртв; не герой; добрая память
+- [Тиара](campaign/party/characters/tiara.md) — ипостась Балтана; предательница (демоны); розыск; пала у Лунного Оврага
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
 - [Листы PDF](assets/character-sheets/README.md)
 

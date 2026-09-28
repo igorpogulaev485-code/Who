@@ -51,6 +51,7 @@ tags: [meta]
 | 2026-09-28 | `assets/character-sheets/{innokentiy-bal,nevil}.*` + portraits + party cards | Листы LSS: Иннокентий Баль (Кеша) и Невил (один игрок); канон-портреты под лор |
 | 2026-09-28 | `assets/character-sheets/bagal.*` + portrait + wanted poster | Лист LSS Багала (бывший ПК игрока Элариона; убит; розыск) |
 | 2026-09-28 | `portraits/mertvyy-list.png` + `11-memory-mertvyy-list.png` | Мёртвый Лист: портрет и афиша «Добрая память» (чарник не найден; описание мастера) |
+| 2026-09-28 | `assets/character-sheets/tiara.*` + portrait + wanted poster | Тиара: лист LSS; переметнулась к демонам → розыск |
 | 2026-09-04 | `assets/maps/world-map-echo-dawn.jpg` | Карта мира от мастера → `world/locations/world-map.md` |
 | 2026-09-04 | `assets/maps/aelendor-map.jpg` | Карта Аэлендора → `world/locations/aelendor-map.md` |
 | 2026-09-04 | `assets/maps/lunnye-piki-map.jpg` | Карта провинции Лунные Пики → `world/locations/lunnye-piki-map.md` |
