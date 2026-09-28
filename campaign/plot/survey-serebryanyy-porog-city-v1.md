@@ -1,6 +1,6 @@
 ---
 title: Опрос — город Серебряный Порог (полный playbook)
-status: survey
+status: locked
 date: 2026-09-28
 tags: [survey, arc3, location, elluenar, serebryanyy-porog]
 plan: ../prep/orchestrator/serebryanyy-porog-city-plan.md
@@ -16,7 +16,7 @@ html: survey-serebryanyy-porog-city-v1.html
 Ответ: в чат `A=… B=… … H=…` или HTML → «Собрать ответы».
 
 HTML: [`survey-serebryanyy-porog-city-v1.html`](survey-serebryanyy-porog-city-v1.html)  
-Mirror (litterbox, ~72ч): *(зальётся при пуше / ниже в PR)*
+Mirror (litterbox, ~72ч): https://litter.catbox.moe/2ica45.html
 
 ---
 

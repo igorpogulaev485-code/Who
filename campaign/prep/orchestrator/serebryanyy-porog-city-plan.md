@@ -1,54 +1,57 @@
 ---
 id: orch-serebryanyy-porog-city
 title: "План — регион Эллуэнар: город Серебряный Порог (полный)"
-status: wait-ok
+status: in-progress # волна 1a/1b city assembled; next = quests
 source: gm-2026-09-28
 branch: cursor/serebryanyy-porog-city-bd87
 survey: ../../plot/survey-serebryanyy-porog-city-v1.md
+lock: ../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md
 ---
 
 # План — Серебряный Порог (город) + дальше регион
 
 ## Цель
 
-Подготовить **Эллуэнар** к сессии внутри региона. Старт — **город Серебряный Порог**: крупный хаб с плотными активностями, чтобы партия **захотела задержаться**, если зайдёт. Дальше (после города) — остальной регион по вилке Силвания / Древо / монастырь (Рубеж).
+Подготовить **Эллуэнар**. Старт — **город Серебряный Порог**: крупный хаб (~столица по шуму), ~20–25 мест, чтобы партия захотела задержаться.
 
 ## Шаг 0 — canon
 
-- Ветка: `cursor/serebryanyy-porog-city-bd87` ← `cursor/les-porozhe-region-bd87`
-- Сейчас: партия у **Храма** Порога; репутация **−4**; тик — **порча/некромантия** у портала; вилка **Силвания / Малфурион / монастырь (слух, Рубеж)**
-- Есть: карта Эллуэнар **LOCKED v11**; seed города [`../locations/gorod-serebryanyy-porog/`](../locations/gorod-serebryanyy-porog/); site Храма [`../locations/serebryanyy-porog/`](../locations/serebryanyy-porog/)
-- Дырки → опрос [`../../plot/survey-serebryanyy-porog-city-v1.md`](../../plot/survey-serebryanyy-porog-city-v1.md)
+- Лок опроса: [`canon-lock-2026-09-28-serebryanyy-porog-city-survey.md`](../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md)
+- Порядок: город → квесты → порча (Храм) → точки региона
 
-## Маршрут (по порядку)
+## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---|---|---|---|
-| 1 | `echo-dawn-location` | Город Порог: seed → **полный** playbook (районы / места / НПС / 1к6 / якоря), ± карта города | `blocked-survey` |
-| 2 | `echo-dawn-quest-side` | Порча у портала (+ другие якоря города по опросу) | `wait-ok` |
-| 3 | `echo-dawn-location` | След. точки региона (Тириэлас / деревни / места / seed Силвании…) — **после** города, отдельный мини-план | `wait-ok` |
-| 4 | `echo-dawn-location` / later | Древо · монастырь (Рубеж) — не в этой волне текста города | `wait-ok` |
+| 1a | `echo-dawn-location` | Карта numbered + каталог 24 места + паспорт/районы | `done` |
+| 1b | `echo-dawn-location` | Детализация всех 24 мест (НПС + 1к6 + якоря) | `done` |
+| 2 | `echo-dawn-quest-side` | Квесты города с НПС (`q-gorod-*`) | `wait-ok` |
+| 3 | `echo-dawn-quest-side` / location | Порча (из Храма; город = слухи/наём) | `wait` |
+| 4 | `echo-dawn-location` | Остальные точки Эллуэнара | `wait` |
 
-## Опросы
+## Лок ответов (кратко)
 
-Стыки масштаба/тона/−4/порчи/карты: [`survey-serebryanyy-porog-city-v1`](../../plot/survey-serebryanyy-porog-city-v1.md).
+| | |
+|---|---|
+| Волны · ~20–25 мест | A |
+| Районы есть; число ≠ размер | B |
+| Живое дерево | C |
+| −4 soft | D |
+| Порча → Храм | E |
+| Карта + каталог | F |
+| Город→квесты→порча→регион | G |
+| Почти = Силвания по масштабу | H |
 
-## Файлы-результаты (после ok + ответов)
+## Файлы-результаты (волна 1)
 
-- [ ] `campaign/prep/locations/gorod-serebryanyy-porog/playbook.md` (+ docx) — полная глубина
-- [ ] `npc-registry.md` без дублей
-- [ ] README масштаб обновлён
-- [ ] опц. numbered map + каталог мест
-- [ ] лок ответов опроса
-- [ ] якоря квестов; полные side — шаг 2
+- [x] `places-catalog.md` + numbered map v1
+- [x] `playbook.md` — 24 места
+- [x] `npc-registry.md` — 24 НПС
+- [x] `playbook.docx`
+- [x] README · лок опроса
 
-## Не делаем в этом плане
+## Не делаем сейчас
 
-- Полные тексты квестов до шага 2  
-- Playbook Силвании / Древа / монастыря (только порядок в опросе G)  
-- Перерисовка региональной карты v11  
-- Канон «партия уже в городе» — они у Храма, пока не сыграли вход  
-
----
-
-**Жду ok + ответы опроса** перед шагом 1.
+- Полные квесты (шаг 2)  
+- Порча полностью (шаг 3)  
+- Силвания / Древо / монастырь  
