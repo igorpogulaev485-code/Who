@@ -9,18 +9,16 @@ source: gm
 
 Мастер: украсить место для игры — объявления о героях и злодеях **на пергаменте**.
 
-## Вердикт
+## Где лежат арты
 
-Стиль работает. Правки после первой пробы:
+Всё в одном месте: [`assets/images/parchment-posters/`](../assets/images/parchment-posters/)
 
-1. Текст — **только русский**.
-2. Кардиан — лицо из **артов снов** (человек в тёмно-синем с золотой вышивкой), не «эльф-некромант».
-3. Вторая афиша — **Вирра** по портрету из чарника (`assets/images/portraits/virra.png`: сиреневый мех, шрам на ухе, эмблема Гонда).
+| Файл | Кто |
+|---|---|
+| `00-wanted-kardian.png` | Кардиан |
+| `01-heroes-grok.png` | Грок |
+| `02-heroes-virra.png` | Вирра (мастер доводит сам) |
+| `03-heroes-baltan.png` | Балтан |
 
-Файлы:
-
-- [`assets/images/wanted-kardian-parchment-ru.png`](../assets/images/wanted-kardian-parchment-ru.png)
-- [`assets/images/heroes-virra-parchment-ru.png`](../assets/images/heroes-virra-parchment-ru.png) — мастер доводит сам
-- [`assets/images/heroes-grok-parchment-ru.png`](../assets/images/heroes-grok-parchment-ru.png)
-
-Промпты: [`assets/prompts/parchment-posters.md`](../assets/prompts/parchment-posters.md)
+Промпты: [`assets/prompts/parchment-posters.md`](../assets/prompts/parchment-posters.md)  
+Референсы лиц: [`assets/images/portraits/`](../assets/images/portraits/)

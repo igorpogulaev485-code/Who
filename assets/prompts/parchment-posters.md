@@ -9,67 +9,62 @@ source: gm
 
 Идея мастера: развесить по комнате объявления о героях и злодеях **как на пергаменте**.
 
+**Готовые арты:** [`../images/parchment-posters/`](../images/parchment-posters/)  
+**Портреты из чарников:** [`../images/portraits/`](../images/portraits/)
+
 ## Визуальный канон серии
 
-- Носитель: **состаренный пергамент** (рваные/подпалённые края, пятна, трещины, сепия).
-- Текст на афише: **только русский** (кириллица).
-- Портрет: гравюра / чернильный набросок / медальон.
-- Печать: сургуч (Аэлендор / Серебряный Страж).
-- Формат: **вертикаль 3:4**.
-- **Кардиан:** лицо и костюм брать из арта снов (`assets/images/dreams/kardian-dream-*.jpg` на ветках арки 3) — человек, тёмные короткие волосы, щетина, тёмно-синий камзол с золотой вышивкой. **Не** эльф с серебряными волосами.
+- Носитель: **состаренный пергамент** (рваные/подпалённые края, пятна, трещины).
+- Текст: **только русский**.
+- Вёрстка текста (единый шаблон героев):
+  1. Сверху: `ГЕРОИ АЭЛЕНДОРА` → **ИМЯ**
+  2. Портрет (без текста поверх)
+  3. Снизу три строки: класс/роль · «За доблесть у Лунного Оврага.» · «Титул дарован Серебряным Стражем.»
+  4. Синий сургуч с полумесяцем
+- Герои партии: внешность **строго** из [`../images/portraits/`](../images/portraits/).
+- Кардиан: лицо из артов снов.
 
-## Актуальные пробы
+## Афиши
 
-### 1. Розыск — Кардиан
+### 0. Розыск — Кардиан
 
-Референсы лица: `kardian-dream-02-humanity-breaks.jpg`, `kardian-dream-02-three-graves.jpg`, `kardian-dream-03-ice-scrolls.jpg`, `kardian-dream-01-kelebrim-refuse.jpg`.
+![розыск Кардиан](../images/parchment-posters/00-wanted-kardian.png)
 
-Текст на листе:
+### 1. Герои — Грок
 
-- РОЗЫСК
-- КАРДИАН
-- Некромант Мёртвого города.
-- Награда — шесть артефактов Падения.
-- Печать: ПЕЧАТЬ АЭЛЕНДОРА
+Референс: [`../images/portraits/grok.png`](../images/portraits/grok.png)
 
-> Vertical fantasy WANTED poster on aged parchment, photoreal paper texture, torn burnt edges, stains, cracks. All text clear readable RUSSIAN Cyrillic only. Top: РОЗЫСК. Name: КАРДИАН. Under portrait: Некромант Мёртвого города. Then: Награда — шесть артефактов Падения. Portrait must match dream-art references: human man late 30s–40s, short dark messy hair, light stubble, gaunt face with dark circles, dark navy coat with gold-bronze floral embroidery on lapels. Ink/sepia woodcut on parchment. NOT an elf, NOT silver hair. Red wax seal: ПЕЧАТЬ АЭЛЕНДОРА. No English.
+Текст:
 
-![розыск Кардиан](../images/wanted-kardian-parchment-ru.png)
-
-### 2. Герои Аэлендора — Вирра
-
-**Референс внешности:** [`../images/portraits/virra.png`](../images/portraits/virra.png) (из `virra.pdf`, стр. 2).  
-**Важно:** мех — насыщенный **фиолетовый / лавандовый** (как в чарнике). Не перерисовывать генератором в сепию: для афиши портрет **вшит** из листа на пергаментный фон.  
-Шрам-молния на ухе + золотой ромб, пламенная эмблема Гонда на накидке.
-
-Текст на листе:
-
-- ГЕРОИ АЭЛЕНДОРА
-- ВИРРА
-- Жрица кузни Гонда. За доблесть у Лунного Оврага.
+- ГЕРОИ АЭЛЕНДОРА / ГРОК
+- Паладин Смотрителей.
+- За доблесть у Лунного Оврага.
 - Титул дарован Серебряным Стражем.
 
-> Vertical fantasy hero proclamation on warm aged parchment. All text RUSSIAN Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ВИРРА. Below: Жрица кузни Гонда. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Portrait MUST match character-sheet reference: female harengon with vivid saturated LIGHT PURPLE / LAVENDER / VIOLET fur (not brown, not grey, not sepia-washed), deep rich purple capelet, glowing amber-orange eyes, dark lightning scar on left ear with golden diamond pendant, yellow-orange geometric flame emblem of Gond, leather straps and gauntlets. Paper may be aged tan, but character colors stay vivid purple. Circular medallion, blue wax seal with crescent. No English.
+![Грок](../images/parchment-posters/01-heroes-grok.png)
 
-![Вирра](../images/heroes-virra-parchment-ru.png)
+### 2. Герои — Вирра
 
-### 3. Герои Аэлендора — Грок
+Референс: [`../images/portraits/virra.png`](../images/portraits/virra.png)  
+Фиолетовый мех. Мастер доводит афишу сам.
 
-**Референс внешности:** [`../images/portraits/grok.png`](../images/portraits/grok.png) (из `grok.pdf`, стр. 2).  
-Тортл-паладин: зелёная чешуя, панцирь, золотой нагрудник-пластрон, голубой плащ, секира Правосудия.
+![Вирра](../images/parchment-posters/02-heroes-virra.png)
 
-Текст на листе:
+### 3. Герои — Балтан
 
-- ГЕРОИ АЭЛЕНДОРА
-- ГРОК
-- Паладин Смотрителей. За доблесть у Лунного Оврага.
+Референс: [`../images/portraits/baltan.png`](../images/portraits/baltan.png)  
+Серо-белый харенгон-бард, пурпурный плащ с зелёной подкладкой, лютня с виноградом.
+
+Текст:
+
+- ГЕРОИ АЭЛЕНДОРА / БАЛТАН
+- Бард Коллегии созидания.
+- За доблесть у Лунного Оврага.
 - Титул дарован Серебряным Стражем.
 
-> Vertical fantasy hero proclamation on aged parchment. Russian Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ГРОК. Under portrait: Паладин Смотрителей. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Tortle paladin matching sheet: light green scaly skin, brown shell, golden-bronze plastron breastplate, sky-blue cloak, gold chain with diamond pendant, double-headed silver battleaxe. Warm forest dusk background without purple cast. Blue wax seal with crescent. No English.
+![Балтан](../images/parchment-posters/03-heroes-baltan.png)
 
-![Грок](../images/heroes-grok-parchment-ru.png)
+## Кандидаты дальше
 
-## Кандидаты на серию
-
-**Герои:** Вирра (проба), Грок (проба), Балтан, Дранник, Кавил, Плач звезды, Эларион, общая афиша «Бродяга».  
-**Злодеи:** Кардиан (проба), Пиппин, Багал, Хвост Скорпиона, Культ Лолс, Константин III.
+**Герои:** Дранник, Кавил, Плач звезды, Эларион, общая афиша «Бродяга».  
+**Злодеи:** Пиппин, Багал, Хвост Скорпиона, Культ Лолс, Константин III.
