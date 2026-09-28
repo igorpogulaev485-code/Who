@@ -101,6 +101,7 @@
 - [Состав (актуальные листы)](campaign/party/roster.md)
 - [Невил](campaign/party/characters/nevil.md) — следопыт; временно away (свадебное путешествие); тот же игрок, что у Кеши
 - [Иннокентий Баль — карточка ПК](campaign/party/characters/innokentiy-bal.md)
+- [Мёртвый Лист](campaign/party/characters/mertvyy-list.md) — мёртв; не герой; добрая память
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
 - [Листы PDF](assets/character-sheets/README.md)
 

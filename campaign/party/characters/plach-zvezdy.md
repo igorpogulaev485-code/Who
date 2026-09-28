@@ -19,7 +19,7 @@ sheet: assets/character-sheets/plach-zvezdy.pdf
 
 ## Заметки
 
-Вероятная замена Мёртвого Листа (оба табакси-плуты). Лук клятвы.
+Новый ПК после смерти **Мёртвого Листа** (оба табакси-плуты; разные персонажи). Лук клятвы.
 
 Лист игрока: [`assets/character-sheets/plach-zvezdy.pdf`](../../../assets/character-sheets/plach-zvezdy.pdf)  
 Текст извлечения: [`assets/character-sheets/plach-zvezdy.txt`](../../../assets/character-sheets/plach-zvezdy.txt)
