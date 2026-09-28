@@ -49,6 +49,7 @@ tags: [meta]
 | 2026-09-04 | `world/player-books/` (Telegraph) | https://telegra.ph/Traktat-o-Flore-Planov-i-Predelov-12-08 + Зеркало Памяти + Энциклопедия драконов |
 | 2026-09-04 | `assets/character-sheets/` + `campaign/party/` | Листы игроков LSS (Вирра, Грок, Балтан, Дранник, Кавил, Плач звезды, Эларион) |
 | 2026-09-28 | `assets/character-sheets/{innokentiy-bal,nevil}.*` + portraits + party cards | Листы LSS: Иннокентий Баль (Кеша) и Невил (один игрок); канон-портреты под лор |
+| 2026-09-28 | `assets/character-sheets/bagal.*` + portrait + wanted poster | Лист LSS Багала (бывший ПК игрока Элариона; убит; розыск) |
 | 2026-09-04 | `assets/maps/world-map-echo-dawn.jpg` | Карта мира от мастера → `world/locations/world-map.md` |
 | 2026-09-04 | `assets/maps/aelendor-map.jpg` | Карта Аэлендора → `world/locations/aelendor-map.md` |
 | 2026-09-04 | `assets/maps/lunnye-piki-map.jpg` | Карта провинции Лунные Пики → `world/locations/lunnye-piki-map.md` |

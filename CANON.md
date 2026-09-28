@@ -85,7 +85,7 @@
 
 - [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
-- [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
+- [Багал](world/npcs/bagal.md) — мёртв (убил Кеша); бывший ПК игрока Элариона; не герой Аэлендора
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
 - [Элессар I](world/npcs/elessar-i.md) — истинный король
 - [Филлер](world/npcs/filler.md)
