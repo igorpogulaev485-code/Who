@@ -11,5 +11,5 @@
 | `kamnegrad-street-lava.png` | Камнеград — улица / лава | то же |
 | `kamnegrad-dragon-plaza.png` | Камнеград — площадь и дракон | то же |
 | `kamnegrad-elven-enclave.png` | Камнеград — эльфийский анклав | то же |
-| `sample-wanted-kardian-parchment.png` | Проба: розыск Кардиана на пергаменте | [`../prompts/parchment-posters.md`](../prompts/parchment-posters.md) |
-| `sample-heroes-virra-parchment.png` | Проба: прокламация Героев Аэлендора (Вирра) | то же |
+| `wanted-kardian-parchment-ru.png` | Розыск Кардиана (пергамент, RU; лицо из арта снов) | [`../prompts/parchment-posters.md`](../prompts/parchment-posters.md) |
+| `heroes-virra-parchment-ru.png` | Прокламация: Вирра — Герои Аэлендора (пергамент, RU) | то же |

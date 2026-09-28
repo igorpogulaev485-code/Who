@@ -7,55 +7,49 @@ source: gm
 
 # Пергаментные объявления для игровой комнаты
 
-Идея мастера: развесить по комнате объявления о героях и злодеях **как на пергаменте** — таверные/городские афиши мира «Эхо рассвета».
+Идея мастера: развесить по комнате объявления о героях и злодеях **как на пергаменте**.
 
 ## Визуальный канон серии
 
-- Носитель: **состаренный пергамент** (не глянцевый постер, не современная бумага).
-- Края: рваные / подпалённые / «гвоздём к доске».
-- Фактура: пятна, трещины, сепия, следы воска.
-- Портрет: гравюра / чернильный набросок / медальон в рамке.
-- Печать: сургуч (Аэлендор / Серебряный Страж / фракция).
-- Формат печати: **вертикаль 3:4** (удобно вешать).
-- Язык на картинке (пробы): английский для читаемости генератора; для финала можно накладывать кириллицу в вёрстке или перегенерировать под конкретные надписи.
+- Носитель: **состаренный пергамент** (рваные/подпалённые края, пятна, трещины, сепия).
+- Текст на афише: **только русский** (кириллица).
+- Портрет: гравюра / чернильный набросок / медальон.
+- Печать: сургуч (Аэлендор / Серебряный Страж).
+- Формат: **вертикаль 3:4**.
+- **Кардиан:** лицо и костюм брать из арта снов (`assets/images/dreams/kardian-dream-*.jpg` на ветках арки 3) — человек, тёмные короткие волосы, щетина, тёмно-синий камзол с золотой вышивкой. **Не** эльф с серебряными волосами.
 
-## Пара промптов (пробы)
+## Актуальные пробы
 
 ### 1. Розыск — Кардиан
 
-> Vertical fantasy wanted poster printed on aged parchment paper. Irregular torn edges, coffee-brown stains, foxing spots, subtle cracks in the surface, as if hung for years in a tavern. Top header in ornate dark-ink calligraphy reading WANTED, beneath it the name KARDIAN. Center: half-length portrait of a pale aristocratic elven necromancer with hollow eyes, black ceremonial robes, faint silver veins of magic, a teardrop blood-red crystal amulet, candlelit from below. Thin ink sketch hatching around the portrait like a medieval woodcut. Bottom text lines in old quill handwriting: Necromancer of the Dead City. Reward: six artifacts of ruin. Seal of Aelendor wax stamp in the corner, cracked red wax. Mood: dark fantasy Dungeons and Dragons prop, photoreal parchment texture, no modern paper, no glossy poster look, no purple neon glow.
+Референсы лица: `kardian-dream-02-humanity-breaks.jpg`, `kardian-dream-02-three-graves.jpg`, `kardian-dream-03-ice-scrolls.jpg`, `kardian-dream-01-kelebrim-refuse.jpg`.
 
-![wanted Kardian](../images/sample-wanted-kardian-parchment.png)
+Текст на листе:
+
+- РОЗЫСК
+- КАРДИАН
+- Некромант Мёртвого города.
+- Награда — шесть артефактов Падения.
+- Печать: ПЕЧАТЬ АЭЛЕНДОРА
+
+> Vertical fantasy WANTED poster on aged parchment, photoreal paper texture, torn burnt edges, stains, cracks. All text clear readable RUSSIAN Cyrillic only. Top: РОЗЫСК. Name: КАРДИАН. Under portrait: Некромант Мёртвого города. Then: Награда — шесть артефактов Падения. Portrait must match dream-art references: human man late 30s–40s, short dark messy hair, light stubble, gaunt face with dark circles, dark navy coat with gold-bronze floral embroidery on lapels. Ink/sepia woodcut on parchment. NOT an elf, NOT silver hair. Red wax seal: ПЕЧАТЬ АЭЛЕНДОРА. No English.
+
+![розыск Кардиан](../images/wanted-kardian-parchment-ru.png)
 
 ### 2. Герои Аэлендора — Вирра
 
-> Vertical fantasy royal proclamation poster on warm aged parchment. Soft cream-to-amber paper with deckled edges, faint watermark grain, mild burn marks at corners, as if nailed to a village board. Top ornate calligraphy header reading HEROES OF AELENDOR. Center portrait medallion of a proud harefolk (harengon) cleric-forge priestess named Virra: tall rabbit-eared warrior-priestess in burnished forge-blessed armor, holy hammer, warm golden forge light, noble heroic expression. Surrounding decorative ink flourishes of moonbridge motifs and a small silver crescent pin. Quill-written lines below: For valor at the Moon Ravine. Title granted by the Silver Guard. Small cracked blue wax seal. Style: medieval illuminated manuscript meets D&D tavern notice, rich parchment texture, hand-drawn ink and sepia wash, no modern graphic design, no cards, no neon, no purple.
+Текст на листе:
 
-![heroes Virra](../images/sample-heroes-virra-parchment.png)
+- ГЕРОИ АЭЛЕНДОРА
+- ВИРРА
+- Жрец кузни Гонда. За доблесть у Лунного Оврага.
+- Титул дарован Серебряным Стражем.
+
+> Vertical fantasy hero proclamation on warm aged parchment. All text RUSSIAN Cyrillic only. Header: ГЕРОИ АЭЛЕНДОРА. Name: ВИРРА. Below: Жрец кузни Гонда. За доблесть у Лунного Оврага. Footer: Титул дарован Серебряным Стражем. Female harengon forge cleric: brown fur, long rabbit ears, forge hammer, warm ember light, circular medallion. Blue wax seal with crescent. No English.
+
+![Вирра](../images/heroes-virra-parchment-ru.png)
 
 ## Кандидаты на серию
 
-**Герои / прокламации**
-
-| Тема | Заметка |
-|---|---|
-| Вирра | жрец кузни, Лассо Гонда — проба готова |
-| Грок | паладин, секира «Кровавая Эшонай» |
-| Балтан | бард; можно «афиша театра Зеркало Судьбы» |
-| Дранник / Кавил / Плач звезды / Эларион | отдельные медальоны или общая афиша партии |
-| Контактный зоопарк «Бродяга» | групповое объявление «Герои Аэлендора» |
-
-**Злодеи / розыск**
-
-| Тема | Заметка |
-|---|---|
-| Кардиан | главный антагонист — проба готова |
-| Пиппин | предатель (мёртв) — «архив закрытого дела» |
-| Багал | мёртв; интрига вокруг имени |
-| Хвост Скорпиона | не портрет, а знак + награда |
-| Культ Лолс | жуткая листовка без лица |
-| Константин III | ложная корона — политический розыск |
-
-## Печать
-
-Для комнаты: PDF A3/A4 на **матовой бумаге** цвета ivory / parchment, или обычная печать + лёгкая тонировка чаем/кофе по краям. Сургуч и нить — опционально как физический декор поверх принта.
+**Герои:** Вирра (проба), Грок, Балтан, Дранник, Кавил, Плач звезды, Эларион, общая афиша «Бродяга».  
+**Злодеи:** Кардиан (проба), Пиппин, Багал, Хвост Скорпиона, Культ Лолс, Константин III.
