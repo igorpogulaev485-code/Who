@@ -16,6 +16,10 @@ note: "Флагманское расследование города. Игро�
 
 ## Hook (30 сек)
 
+![](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-gorod-06-body-archive.jpg)
+
+> **Кадр:** труп в Архиве · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-gorod-06-body-archive.jpg)
+
 В Архиве троп (#16) находят **тело**: гость с «чистой» печатью без красной нити — но в книге гостей **такого имени нет**. **Аэлин** зовёт партию (или Ниару, а та — вас): «Либо вы умеете искать ложь, либо завтра Орлан повесит это на −4». Рядом на полу — чёрная земля, как у портала.
 
 ## Якорь
@@ -41,6 +45,10 @@ note: "Флагманское расследование города. Игро�
 3. Решить: сдать Одвина/серых Орлану или выжать долг молчанием.
 
 ## Карта улик (расследование)
+
+![](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-gorod-06-false-seal.jpg)
+
+> **Кадр:** печать с двойной смолой · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-gorod-06-false-seal.jpg)
 
 Давай улики **пачками**, не одной проверкой. Нужно **≥3** из списка, чтобы назвать виновного без боязни ошибки.
 
