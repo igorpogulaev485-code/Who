@@ -20,6 +20,7 @@ source: gm
 | `02-heroes-virra.png` | Вирра (мастер доводит сам) |
 | `03-heroes-baltan.png` | Балтан |
 | `04-heroes-drannik.png` | Дранник |
+| `05-heroes-kavil.png` | Кавил |
 
 Промпты: [`assets/prompts/parchment-posters.md`](../assets/prompts/parchment-posters.md)  
 Референсы лиц: [`assets/images/portraits/`](../assets/images/portraits/)
