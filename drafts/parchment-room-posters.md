@@ -20,6 +20,7 @@ source: gm
 Файлы:
 
 - [`assets/images/wanted-kardian-parchment-ru.png`](../assets/images/wanted-kardian-parchment-ru.png)
-- [`assets/images/heroes-virra-parchment-ru.png`](../assets/images/heroes-virra-parchment-ru.png)
+- [`assets/images/heroes-virra-parchment-ru.png`](../assets/images/heroes-virra-parchment-ru.png) — мастер доводит сам
+- [`assets/images/heroes-grok-parchment-ru.png`](../assets/images/heroes-grok-parchment-ru.png)
 
 Промпты: [`assets/prompts/parchment-posters.md`](../assets/prompts/parchment-posters.md)
