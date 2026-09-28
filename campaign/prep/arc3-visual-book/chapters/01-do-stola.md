@@ -52,45 +52,45 @@ title: "1 · До стола"
 Покажи 1–3 кадра, если нужно напомнить «как выглядел Лунный Мост» до траура. Это **не** похороны — для контраста.
 
 
-![Верхняя авеню, лунный луч](https://iili.io/nAC2y0u.jpg)
+![Верхняя авеню, лунный луч](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/01-upper-avenue-moonbeam.jpg)
 
-> **Кадр:** Верхняя авеню, лунный луч · [⬇ скачать](https://iili.io/nAC2y0u.jpg)
+> **Кадр:** Верхняя авеню, лунный луч · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/01-upper-avenue-moonbeam.jpg)
 
-![Район Пришельцев](https://iili.io/nAC39Ub.jpg)
+![Район Пришельцев](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/02-outsiders-quarter-market.jpg)
 
-> **Кадр:** Район Пришельцев · [⬇ скачать](https://iili.io/nAC39Ub.jpg)
+> **Кадр:** Район Пришельцев · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/02-outsiders-quarter-market.jpg)
 
-![Парапет и лотос](https://iili.io/nAC3JJj.jpg)
+![Парапет и лотос](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/03-lotus-railing-spirits.jpg)
 
-> **Кадр:** Парапет и лотос · [⬇ скачать](https://iili.io/nAC3JJj.jpg)
+> **Кадр:** Парапет и лотос · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/03-lotus-railing-spirits.jpg)
 
-![Врата](https://iili.io/nAC33bV.jpg)
+![Врата](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/04-gates-crowd.jpg)
 
-> **Кадр:** Врата · [⬇ скачать](https://iili.io/nAC33bV.jpg)
+> **Кадр:** Врата · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/04-gates-crowd.jpg)
 
-![Ось улицы к мосту](https://iili.io/nAC3qs1.jpg)
+![Ось улицы к мосту](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/05-market-bridge-axis.jpg)
 
-> **Кадр:** Ось улицы к мосту · [⬇ скачать](https://iili.io/nAC3qs1.jpg)
+> **Кадр:** Ось улицы к мосту · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/05-market-bridge-axis.jpg)
 
-![Кузнец и писец](https://iili.io/nAC3CqF.jpg)
+![Кузнец и писец](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/06-forge-scribe-street.jpg)
 
-> **Кадр:** Кузнец и писец · [⬇ скачать](https://iili.io/nAC3CqF.jpg)
+> **Кадр:** Кузнец и писец · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/06-forge-scribe-street.jpg)
 
-![Улица к арке моста](https://iili.io/nAC3n0g.jpg)
+![Улица к арке моста](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/07-street-to-bridge.jpg)
 
-> **Кадр:** Улица к арке моста · [⬇ скачать](https://iili.io/nAC3n0g.jpg)
+> **Кадр:** Улица к арке моста · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/07-street-to-bridge.jpg)
 
-![Плацдарм с лотосами](https://iili.io/nAC3zdJ.jpg)
+![Плацдарм с лотосами](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/08-lotus-plaza-festival.jpg)
 
-> **Кадр:** Плацдарм с лотосами · [⬇ скачать](https://iili.io/nAC3zdJ.jpg)
+> **Кадр:** Плацдарм с лотосами · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/08-lotus-plaza-festival.jpg)
 
-![Ночной дворец и мост](https://iili.io/nAC3ubp.jpg)
+![Ночной дворец и мост](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/09-cliff-palace-night.jpg)
 
-> **Кадр:** Ночной дворец и мост · [⬇ скачать](https://iili.io/nAC3ubp.jpg)
+> **Кадр:** Ночной дворец и мост · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/09-cliff-palace-night.jpg)
 
-![Павильон и луч](https://iili.io/nAC35XI.jpg)
+![Павильон и луч](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/10-open-pavilion-beam.jpg)
 
-> **Кадр:** Павильон и луч · [⬇ скачать](https://iili.io/nAC35XI.jpg)
+> **Кадр:** Павильон и луч · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/festival/10-open-pavilion-beam.jpg)
 
 ---
 

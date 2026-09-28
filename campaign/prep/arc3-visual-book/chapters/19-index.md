@@ -13,7 +13,7 @@ source: kardian-dreams + face-lock maestro/kardian
 **Лица (лок):**
 | Кто | Канон | Портрет |
 |---|---|---|
-| **Он** (сны) | [Кардиан · внешность](../../../../world/npcs/kardian.md) | ![Кардиан](https://iili.io/nAPZ5ba.jpg) [⬇](https://iili.io/nAPZ5ba.jpg) |
+| **Он** (сны) | [Кардиан · внешность](../../../../world/npcs/kardian.md) | ![Кардиан](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/kardian-portrait-canon.jpg) [⬇](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/kardian-portrait-canon.jpg) |
 | **Келебрим** | эльф, платина, уши; **без** бороды | [11/40](../11/40-маэстро-келебрим.md) |
 
 **Порядок:** 1 Эхо Пепла → 2 Гниль → 3 Цена Знания → 4 Забытая деревня.  
@@ -33,23 +33,23 @@ source: kardian-dreams + face-lock maestro/kardian
 
 | Сон | Сцена | ⬇ |
 |---:|---|---|
-| 1 | Пепел (POV) | [nAPAgwX](https://iili.io/nAPAgwX.jpg) |
-| 1 | Отказ Келебрима | [nAPpXVa](https://iili.io/nAPpXVa.jpg) |
-| 1 | Врата Совета | [nAPphiJ](https://iili.io/nAPphiJ.jpg) |
-| 1 | Клятва | [nAPpNlR](https://iili.io/nAPpNlR.jpg) |
-| 2 | Могилы | [nAPpOSp](https://iili.io/nAPpOSp.jpg) |
-| 2 | Жижа | [nAPpSDX](https://iili.io/nAPpSDX.jpg) |
-| 2 | Лилии | [nAPp4iG](https://iili.io/nAPp4iG.jpg) |
-| 2 | Щелчок | [nAPpPff](https://iili.io/nAPpPff.jpg) |
-| 3 | Метель | [nAPpsUl](https://iili.io/nAPpsUl.jpg) |
-| 3 | Свитки | [nAPpZRS](https://iili.io/nAPpZRS.jpg) |
-| 3 | Дракон | [nAPyJ0x](https://iili.io/nAPyJ0x.jpg) |
-| 3 | Исчезающая | [nAPyxqJ](https://iili.io/nAPyxqJ.jpg) |
-| 4 | Соль | [nAPyEg4](https://iili.io/nAPyEg4.jpg) |
-| 4 | Орда | [nAPyjI9](https://iili.io/nAPyjI9.jpg) |
-| 4 | Колодец | [nAPyeqb](https://iili.io/nAPyeqb.jpg) |
-| 4 | Ребёнок/демон | [nAPyvrx](https://iili.io/nAPyvrx.jpg) |
-| 4 | Арест | [nAPyrmP](https://iili.io/nAPyrmP.jpg) |
+| 1 | Пепел (POV) | [nAPAgwX](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-01-ash-hands.jpg) |
+| 1 | Отказ Келебрима | [nAPpXVa](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-01-kelebrim-refuse.jpg) |
+| 1 | Врата Совета | [nAPphiJ](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-01-council-gates.jpg) |
+| 1 | Клятва | [nAPpNlR](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-01-oath-pavement.jpg) |
+| 2 | Могилы | [nAPpOSp](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-02-three-graves.jpg) |
+| 2 | Жижа | [nAPpSDX](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-02-failed-magic.jpg) |
+| 2 | Лилии | [nAPp4iG](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-02-kelebrim-lilies.jpg) |
+| 2 | Щелчок | [nAPpPff](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-02-humanity-breaks.jpg) |
+| 3 | Метель | [nAPpsUl](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-03-blizzard-trek.jpg) |
+| 3 | Свитки | [nAPpZRS](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-03-ice-scrolls.jpg) |
+| 3 | Дракон | [nAPyJ0x](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-03-frost-dragon.jpg) |
+| 3 | Исчезающая | [nAPyxqJ](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-03-wife-vanishes.jpg) |
+| 4 | Соль | [nAPyEg4](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-04-salt-rings.jpg) |
+| 4 | Орда | [nAPyjI9](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-04-night-horde.jpg) |
+| 4 | Колодец | [nAPyeqb](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-04-village-defense.jpg) |
+| 4 | Ребёнок/демон | [nAPyvrx](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-04-child-and-demon.jpg) |
+| 4 | Арест | [nAPyrmP](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/dreams/kardian-dream-04-arrest-burn.jpg) |
 
 ---
 

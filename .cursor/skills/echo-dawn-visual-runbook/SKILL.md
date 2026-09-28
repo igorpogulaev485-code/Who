@@ -33,8 +33,8 @@ description: >
 
 1. Тон похорон/хаба = **язык фестиваля Лунного моста** + траур; **не** grimdark.  
 2. Дочь Маэстро = **Милана** (не Фириэсса / не Марина).  
-3. Картинки в Preview **только** публичный **HTTPS** (локальные `../`, `media/`, data URI, symlinks — **ломаются**).  
-4. На каждый кадр: `![…](https://…)` + строка **⬇ скачать** с тем же URL.  
+3. Картинки в Preview **только** публичный **HTTPS**. Репо публичный → предпочтительно **`raw.githubusercontent.com/…/assets/…`** (не iili/litter). Локальные `../`, data URI — **ломаются**.  
+4. На каждый кадр: `![…](https://raw.githubusercontent.com/…)` + строка **⬇ скачать** с тем же URL.  
 5. Речь / «Сказать» — **сразу под** портретом этого НПС (не отдельным блоком в конце).  
 6. Проверки — **по-русски**: Сл, Внимательность, Проницательность, Анализ, Убеждение, Скрытность, Выживание…  
 7. Workflow: глава Preview на ноутбуке · фото **⬇** на планшет/второй монитор.  
@@ -59,7 +59,7 @@ description: >
 0. Canon-ритуал + найти скрипты дверей (quest-ветка / arcs/)
 1. План визуала: NPC + локации (что face-to-face на с.1–2) → ok мастера порциями
 2. Стиль-рефы + промпты → генерация → assets/images/ (+ prompts/)
-3. Хостинг: залить кадры → image-urls.json (ключ → https://iili.io/…)
+3. Хостинг: исходник в `assets/` → image-urls.json (ключ → raw.githubusercontent.com/…/assets/…)
 4. Каркас книги: README + главы 00… (хаб → двери → галерея)
 5. Вшить кадры в биты: портрет → ⬇ → речь; локация в нужный момент
 6. RU-проверки; бои; чеклисты мастера в конце главы
@@ -170,24 +170,25 @@ Cursor / GitHub markdown Preview:
 | symlinks `media/` | игнор / не резолвятся |
 | `data:image/…` в md | **вырезаются** |
 | «скачай файл сам» | мастер устаёт; путь тупиковый |
-| **HTTPS на iili.io (freeimage.host)** | **работает** |
+| **HTTPS raw GitHub** (`raw.githubusercontent.com/…/assets/…`) | **работает** (репо public) |
+| iili / litter | устарело; не использовать |
 
-### Пайплайн заливки
+### Пайплайн
 
-1. Собрать список файлов кадров.  
-2. Залить на **freeimage.host / iili.io** (catbox/0x0 в облаке могут быть заблокированы — пробовать запасной).  
-3. Записать `image-urls.json`: ключ (логический путь) → `https://iili.io/….jpg`.  
-4. В главах — **только** эти URL.  
-5. После заливки: HTTP 200 + `Content-Type: image/*` на каждый URL.
+1. Кадр в git: `assets/images/…` или `assets/maps/…` (ранбук: часто ещё `assets/images/runbook/`).  
+2. `image-urls.json`: ключ → `https://raw.githubusercontent.com/<org>/<repo>/<branch>/assets/…`.  
+3. В главах — **только** эти URL.  
+4. Проверка: HTTP 200 + `Content-Type: image/*`.  
+5. После merge в `main` — обновить сегмент ветки в URL / json.
 
-Подробности и антипаттерны: [`references/image-hosting.md`](references/image-hosting.md).
+Подробности: [`references/image-hosting.md`](references/image-hosting.md).
 
 ### Обязательный блок кадра в md
 
 ```markdown
-![Короткое имя](https://iili.io/XXXX.jpg)
+![Короткое имя](https://raw.githubusercontent.com/igorpogulaev485-code/Who/<branch>/assets/images/….jpg)
 
-> **Кадр:** Короткое имя · [⬇ скачать](https://iili.io/XXXX.jpg)
+> **Кадр:** Короткое имя · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/<branch>/assets/images/….jpg)
 ```
 
 Под портретом НПС — сразу **Сказать:** / реплика этого лица.

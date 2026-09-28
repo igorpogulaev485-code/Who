@@ -15,9 +15,9 @@ source: mq-04-sessions-2-door-f + mq04 locks
 **Локи:** [вход A](../../../plot/canon-lock-2026-09-22-mq04-entry-a.md) · [B–E](../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md) · [жертва + пятёрка](../../../plot/canon-lock-2026-09-22-mq04-sacrifice-squad.md) · [карта Причала](../../../plot/canon-lock-2026-09-22-seryy-prichal-map.md)  
 **Жертвы (карточка):** [`mq-04-passage-sacrifice`](../../arcs/arc-3/quests/mq-04-passage-sacrifice.md) · **отряд:** [`mq-04-velian-squad`](../../arcs/arc-3/quests/mq-04-velian-squad.md)
 
-![Чёрная рана Купели](https://iili.io/nACFRvj.jpg)
+![Чёрная рана Купели](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f1-kupel-black-wound.jpg)
 
-> **Кадр:** Чёрная рана · [⬇](https://iili.io/nACFRvj.jpg) · Лайра: ниже · карты: [гл. 12](12-index.md#дверь-f--берег-памяти-государство--причал)
+> **Кадр:** Чёрная рана · [⬇](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f1-kupel-black-wound.jpg) · Лайра: ниже · карты: [гл. 12](12-index.md#дверь-f--берег-памяти-государство--причал)
 
 ## Цель вечера
 
@@ -66,29 +66,29 @@ source: mq-04-sessions-2-door-f + mq04 locks
 
 | Бит | Кадр | ⬇ |
 |---|---|---|
-| 2.0–2.2 | Чёрная рана | [nACFRvj](https://iili.io/nACFRvj.jpg) |
-| 2.3 | Выброс нежити | [nACFYTQ](https://iili.io/nACFYTQ.jpg) |
-| 2.4 | Чёрный проход | [nACF1G1](https://iili.io/nACF1G1.jpg) |
-| 2.5 | Площадь Угасших Имён | [nACFM3g](https://iili.io/nACFM3g.jpg) |
-| 2.6 | Лайра у арки | [nACFjuR](https://iili.io/nACFjuR.jpg) |
-| 2.7 | Ворота Края | [nACFkGt](https://iili.io/nACFkGt.jpg) |
+| 2.0–2.2 | Чёрная рана | [nACFRvj](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f1-kupel-black-wound.jpg) |
+| 2.3 | Выброс нежити | [nACFYTQ](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f2-kupel-undead-burst.jpg) |
+| 2.4 | Чёрный проход | [nACF1G1](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f3-black-passage.jpg) |
+| 2.5 | Площадь Угасших Имён | [nACFM3g](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f4-gray-quay-plaza.jpg) |
+| 2.6 | Лайра у арки | [nACFjuR](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f5-layra-arch.jpg) |
+| 2.7 | Ворота Края | [nACFkGt](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-f6-edge-gates.jpg) |
 
 ## Лица (якоря · не все face сегодня)
 
 | Кто | Роль с.2 | Портрет |
 |---|---|---|
-| **Лайра Пепельная** | встречающая · правила · ориентиры | ![Лайра](https://iili.io/nACfGkJ.jpg) [⬇](https://iili.io/nACfGkJ.jpg) |
-| **Велиан Полутень** | цель ~с.6 · сегодня только след | ![Велиан](https://iili.io/nACqSF1.jpg) [⬇](https://iili.io/nACqSF1.jpg) |
-| **Каэлор Крайний** | отряд / ворота · не face | ![Каэлор](https://iili.io/nACfzdu.jpg) [⬇](https://iili.io/nACfzdu.jpg) |
+| **Лайра Пепельная** | встречающая · правила · ориентиры | ![Лайра](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-layra.jpg) [⬇](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-layra.jpg) |
+| **Велиан Полутень** | цель ~с.6 · сегодня только след | ![Велиан](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-velian.jpg) [⬇](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-velian.jpg) |
+| **Каэлор Крайний** | отряд / ворота · не face | ![Каэлор](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-kaelor.jpg) [⬇](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-kaelor.jpg) |
 | Сильвен · Наэра · Корел · Элисс · Рэвел | пятёрка Велиана · след, не throng | [лок](../../../plot/canon-lock-2026-09-22-mq04-sacrifice-squad.md) · портреты в листах 2.7 / squad |
 
 | Пятёрка | Спец | ⬇ |
 |---|---|---|
-| Сильвен Тихий Шаг | следопыт | [nACqRvs](https://iili.io/nACqRvs.jpg) |
-| Наэра Черноперо | легенды / документы | [nACfQ2e](https://iili.io/nACfQ2e.jpg) |
-| Корел Клинок Луны | удар | [nACfaqP](https://iili.io/nACfaqP.jpg) |
-| Элисс Пепельная Нить | ловушки | [nACKbsI](https://iili.io/nACKbsI.jpg) |
-| Рэвел Узлослёд | связь | [nACfyQV](https://iili.io/nACfyQV.jpg) |
+| Сильвен Тихий Шаг | следопыт | [nACqRvs](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-silven.jpg) |
+| Наэра Черноперо | легенды / документы | [nACfQ2e](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-naera.jpg) |
+| Корел Клинок Луны | удар | [nACfaqP](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-korel.jpg) |
+| Элисс Пепельная Нить | ловушки | [nACKbsI](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-eliss.jpg) |
+| Рэвел Узлослёд | связь | [nACfyQV](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/npc-revel.jpg) |
 
 ## Чеклист (коротко)
 

@@ -15,7 +15,7 @@ status: active
 | Кто | Роль | Портрет / канон |
 |---|---|---|
 | **Маэстро Келебрим** | эльф · платина · уши · без бороды | [11/40](11/40-маэстро-келебрим.md) · [`maestro`](../../../../world/npcs/maestro-kelebrim.md) |
-| **Кардиан** | антагонист · лицо снов | [`kardian`](../../../../world/npcs/kardian.md) · [⬇ портрет](https://iili.io/nAPZ5ba.jpg) · сны [19](19-index.md) |
+| **Кардиан** | антагонист · лицо снов | [`kardian`](../../../../world/npcs/kardian.md) · [⬇ портрет](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/npc/kardian-portrait-canon.jpg) · сны [19](19-index.md) |
 
 ## Как искать
 
