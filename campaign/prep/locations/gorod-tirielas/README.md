@@ -24,9 +24,10 @@ status: prep
 |---|---|
 | [`playbook.md`](playbook.md) / `.docx` | 12 мест · 1к6 · НПС |
 | [`places-catalog.md`](places-catalog.md) · [`map-brief.md`](map-brief.md) | легенда карты |
+| [`map-tirielas-numbered.jpg`](../../../assets/images/runbook/maps/map-tirielas-numbered.jpg) | **карта города** numbered |
 | [`npc-registry.md`](npc-registry.md) | имена |
 | [`quests/`](quests/) · [`quests-bundle.md`](quests-bundle.md) | **5** side |
-| Ранбук spine **05/18→22** | «открыл и ведёшь» |
+| Ранбук **05/18→22** | spine + карта + вход |
 
 ## Репутация
 

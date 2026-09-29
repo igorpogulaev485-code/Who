@@ -20,4 +20,4 @@ status: prep
 | 11 | **Дом Архистратига** | власть | **Каэнор** · часто **Вирэна** |
 | 12 | **Святилище Клятвы Копья-Листа** | святыня | **Руваэла** · клятва строя |
 
-Карта: [`map-brief.md`](map-brief.md)
+Карта: [`map-brief.md`](map-brief.md) · арт [`map-tirielas-numbered.jpg`](../../../assets/images/runbook/maps/map-tirielas-numbered.jpg) · ранбук [22](../../arc3-visual-book/chapters/05/22-тириэлас-карта.md)

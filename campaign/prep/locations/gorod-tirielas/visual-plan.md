@@ -1,6 +1,6 @@
 ---
 title: "Тириэлас — план визуала"
-status: wait-ok
+status: wave-a-done
 date: 2026-09-29
 loc: gorod-tirielas
 runbook: ../../arc3-visual-book/chapters/05/18-тириэлас-spine.md
@@ -46,6 +46,10 @@ runbook: ../../arc3-visual-book/chapters/05/18-тириэлас-spine.md
 | 19 | `loc-tir-04-crown-towers.jpg` | #4 Дозорные кроны |
 | 20 | `map-tirielas-numbered.jpg` | numbered map 1–12 |
 
-## Ok
+## Статус
 
-`го а` · `го b` · `го c` (как у Порога).
+| Волна | Статус |
+|---|---|
+| **A** + карта | **done** · вшито в 18/19/22 |
+| B | wait · `го b` |
+| C (квесты; карта уже есть) | wait · `го c` |

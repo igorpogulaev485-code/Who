@@ -12,6 +12,7 @@ title: "Тириэлас · spine (открыл и ведёшь)"
 
 Тириэлас = **Спарта Леса**: кузница элиты (жрецы · друиды · следопыты). Партия с −4 **soft**. Цель вечера — **залипнуть в припонах подготовки к войне** и выйти к **Испытанию** (ключ mq-03 на восток).
 
+0. **[22 · Карта](22-тириэлас-карта.md)** — numbered 1–12 (покажи сразу).  
 1. **[19 · Вход](19-тириэлас-вход.md)** — ворота, три пароля, двор.  
 2. Меню припонов (ниже) — они берут нити.  
 3. Желательно снять **≥2 припона** (01–04), затем **[20 · Испытание](20-тириэлас-испытание.md)**.  
@@ -26,6 +27,14 @@ title: "Тириэлас · spine (открыл и ведёшь)"
 
 Тропа от Порога → **#1 Ворота «Три пароля»**. Башни в кронах. Запах смолы и пота.
 
+![Карта Тириэласа](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/maps/map-tirielas-numbered.jpg)
+
+> **Кадр:** карта города · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/maps/map-tirielas-numbered.jpg) · лист [22](22-тириэлас-карта.md)
+
+![Ворота](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-tir-01-gates.jpg)
+
+> **Кадр:** #1 Ворота · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/loc-tir-01-gates.jpg)
+
 ---
 
 ## Меню в мире (5 квестов)
@@ -38,6 +47,7 @@ title: "Тириэлас · spine (открыл и ведёшь)"
 
 | Им говоришь | Лист / квест |
 |---|---|
+| «Показать карту города» | → [22](22-тириэлас-карта.md) |
 | «Войти, ночлег, тон −4» | → [19](19-тириэлас-вход.md) |
 | «Пропала Лиэсса» | → [21](21-тириэлас-квесты.md#q-tir-01) · `q-tir-01` |
 | «Печать / политика» | → [21](21-тириэлас-квесты.md#q-tir-02) · `q-tir-02` |
