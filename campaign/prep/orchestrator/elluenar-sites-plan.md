@@ -29,7 +29,7 @@ map_lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
 |---:|---|---|---|---|
 | 1 | Серебряный Порог | город | city 24 | **done** |
 | 2 | Храм Серебряного Порога | site | site 5 | **done** |
-| **3** | **Тириэлас** | мелкий город | **следующий** · district/small-city | `wait-ok` |
+| **3** | **Тириэлас** | мелкий город | **следующий** · district/small-city | `survey-open` · [`survey-tirielas-v1`](../../plot/survey-tirielas-v1.md) |
 | 4 | Линдэван | мелкий город | district/small-city | wait |
 | 5 | Нимралас | деревня | site / village | wait |
 | 6 | Эрелас | деревня | site / village | wait |
@@ -61,10 +61,11 @@ map_lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
 - Полный playbook Силвании / Мирового Древа / монастыря Рубежа  
 - Перерисовка LOCKED v11  
 
-## Опрос перед Тириэласом (коротко)
+## Опрос перед Тириэласом
 
-Если ok на старт — один мини-опрос: тон дозора (строгий / гостеприимный / паранойя из‑за −4), 1 якорь к mq-03 или standalone, масштаб мест (~6–12 vs seed).
+Открыт: [`survey-tirielas-v1.md`](../../plot/survey-tirielas-v1.md) · HTML [`survey-tirielas-v1.html`](../../plot/survey-tirielas-v1.html).  
+Блоки A–J: масштаб, тон дозора, роль, −4, mq-03, кризис, side, карта, очередь.
 
 ---
 
-**Жду ok:** `го Тириэлас` (или другой # из очереди первым).
+**Жду ответы:** `A=… J=…` или HTML «Собрать ответы».

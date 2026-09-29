@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Опрос — Тириэлас (Эллуэнар #3)</title>
+<style>
+  :root { --bg:#1a1f1c; --card:#243028; --fg:#e8efe6; --mut:#9aab9a; --acc:#6b9b6b; }
+  body { font-family: Georgia, "Times New Roman", serif; background: var(--bg); color: var(--fg);
+         max-width: 42rem; margin: 0 auto; padding: 1.5rem; line-height: 1.45; }
+  h1 { font-size: 1.35rem; margin: 0 0 .5rem; }
+  h2 { font-size: 1.05rem; color: var(--acc); margin: 1.4rem 0 .5rem; }
+  p, li { color: var(--mut); }
+  .card { background: var(--card); border-radius: 8px; padding: 1rem 1.1rem; margin: .7rem 0; }
+  label { display: block; margin: .35rem 0; color: var(--fg); }
+  select, textarea { width: 100%; box-sizing: border-box; margin-top: .25rem;
+    background: #151a16; color: var(--fg); border: 1px solid #3a4a3a; border-radius: 6px; padding: .45rem; }
+  textarea { min-height: 4.5rem; }
+  button { background: var(--acc); color: #0e140e; border: 0; border-radius: 6px;
+           padding: .55rem 1rem; font-weight: 700; cursor: pointer; margin-top: .8rem; }
+  #out { white-space: pre-wrap; font-family: ui-monospace, monospace; font-size: .85rem;
+         background: #101410; padding: .8rem; border-radius: 6px; margin-top: .8rem; }
+</style>
+</head>
+<body>
+<h1>Тириэлас — мелкий город (#3)</h1>
+<p>Эллуэнар v11. Дозорные кроны / деревянные башни. Восток от Порога. Выбери → «Собрать ответы» → в чат агенту.</p>
+
+<div class="card">
+  <h2>A · Масштаб первой волны</h2>
+  <select id="a">
+    <option value="a_full">Сразу весь мелкий город + ранбук-бит</option>
+    <option value="a_core">Ядро ~6–8 мест; остальное волной</option>
+    <option value="a_map_first">Сначала карта + каталог мест</option>
+    <option value="a_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>B · Размер / число мест</h2>
+  <select id="b">
+    <option value="b_small6">Компактно ~6 мест</option>
+    <option value="b_mid10">Средний ~10–12 мест</option>
+    <option value="b_dense16">Плотно ~14–16 мест</option>
+    <option value="b_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>C · Тон города</h2>
+  <select id="c">
+    <option value="c_watch">Строгий дозор (пароли, башни)</option>
+    <option value="c_warm">Тёплый посад-дозор</option>
+    <option value="c_paranoid">Паранойя: чужих почти не пускают</option>
+    <option value="c_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>D · Роль в регионе</h2>
+  <select id="d">
+    <option value="d_gate_east">Ворота внутрь леса / к Силвании</option>
+    <option value="d_scout_hub">Хаб дозорных крон</option>
+    <option value="d_trade">Торговый перевалочный (дозор — фон)</option>
+    <option value="d_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>E · Репутация партии (−4)</h2>
+  <select id="e">
+    <option value="e_soft">Слухи есть — активности открыты за услугу</option>
+    <option value="e_gate">Часть башен/услуг закрыта без поручителя</option>
+    <option value="e_hard">Почти не пускают без печати/провода</option>
+    <option value="e_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>F · Связь с mq-03 / аркой</h2>
+  <select id="f">
+    <option value="f_mq03">Жёсткий якорь к mq-03</option>
+    <option value="f_bridge">Мост: 1 нитка от Порога + слухи</option>
+    <option value="f_standalone">Своя линия; mq-03 фоном</option>
+    <option value="f_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>G · Местный кризис «сейчас»</h2>
+  <select id="g">
+    <option value="g_fake_seals">Поддельные печати уже здесь</option>
+    <option value="g_blight_echo">Отголосок порчи на тропах/кронах</option>
+    <option value="g_ambush">Засада / пропавшие разведчики</option>
+    <option value="g_mix">Печати + засада; порча — слух</option>
+    <option value="g_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>H · Side-квесты в первой волне</h2>
+  <select id="h">
+    <option value="h_two">2 полных side + бит ранбука</option>
+    <option value="h_one">1 flagship side + якоря</option>
+    <option value="h_anchors">Только якоря; quest позже</option>
+    <option value="h_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>I · Карта поселения</h2>
+  <select id="i">
+    <option value="i_yes">Numbered map + каталог</option>
+    <option value="i_later">Сначала текст + ранбук; карта волной</option>
+    <option value="i_region">Хватит региональной v11 + схемы зон</option>
+    <option value="i_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>J · После Тириэласа</h2>
+  <select id="j">
+    <option value="j_lindewan">Сразу #4 Линдэван</option>
+    <option value="j_tir_only">Сначала добить Тириэлас до «открыл и ведёшь»</option>
+    <option value="j_villages">Потом деревни #5–7 пакетом</option>
+    <option value="j_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Заметка</h2>
+  <textarea id="note" placeholder="Обязательные НПС, тон дозора, что должно «залипать», запреты…"></textarea>
+  <button type="button" onclick="collect()">Собрать ответы</button>
+  <div id="out"></div>
+</div>
+
+<script>
+function collect(){
+  const ids=['a','b','c','d','e','f','g','h','i','j'];
+  const lines=['## Ответы — Тириэлас (#3)',''];
+  ids.forEach(id=>{
+    const el=document.getElementById(id);
+    lines.push('- **'+id.toUpperCase()+'**: `'+el.value+'`');
+  });
+  const note=document.getElementById('note').value.trim();
+  lines.push('');
+  lines.push('**Заметка:** '+(note||'(пусто)'));
+  document.getElementById('out').textContent=lines.join('\n');
+}
+</script>
+</body>
+</html>
