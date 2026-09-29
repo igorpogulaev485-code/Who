@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Игровой стол — чертежи</title>
+  <style>
+    :root {
+      --bg: #1c1814;
+      --panel: #2a241e;
+      --ink: #f3ebe0;
+      --muted: #b5a894;
+      --accent: #c4a574;
+      --line: #4a3f34;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Georgia", "Times New Roman", serif;
+      background:
+        radial-gradient(ellipse at 20% 0%, #3a2f24 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 100%, #2a3328 0%, transparent 45%),
+        var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+    }
+    header {
+      padding: 1.5rem 1.5rem 0.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    header h1 {
+      font-size: clamp(1.6rem, 3vw, 2.2rem);
+      font-weight: 700;
+      margin: 0 0 0.35rem;
+      letter-spacing: 0.02em;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 40rem;
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      max-width: 1100px;
+      margin: 1rem auto;
+      padding: 0 1.5rem;
+    }
+    nav button {
+      font-family: inherit;
+      background: var(--panel);
+      color: var(--ink);
+      border: 1px solid var(--line);
+      padding: 0.45rem 0.85rem;
+      cursor: pointer;
+      border-radius: 2px;
+      font-size: 0.85rem;
+    }
+    nav button[aria-current="true"] {
+      background: var(--accent);
+      color: #1c1814;
+      border-color: var(--accent);
+      font-weight: 700;
+    }
+    nav button:hover { border-color: var(--accent); }
+    main {
+      max-width: 1100px;
+      margin: 0 auto 2rem;
+      padding: 0 1.5rem;
+    }
+    .frame {
+      background: #f5f2eb;
+      border: 1px solid var(--line);
+      border-radius: 4px;
+      overflow: auto;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.35);
+    }
+    .frame object, .frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      min-height: 420px;
+    }
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 0.75rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    .meta a { color: var(--accent); }
+    footer {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 1.5rem 2rem;
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Игровой стол «Эхо рассвета»</h1>
+    <p>Технические чертежи DIY: ниша под миниатюры, зона мастера, накладные мини-столики, съёмный топпер. Без встроенного ТВ.</p>
+  </header>
+  <nav id="nav" aria-label="Чертежи"></nav>
+  <main>
+    <div class="frame" id="frame"></div>
+    <div class="meta">
+      <span id="caption"></span>
+      <a id="raw" href="#" target="_blank" rel="noopener">Открыть SVG</a>
+      <a href="README.md">Документация</a>
+      <a href="03-bom.md">Смета / Леман ПРО</a>
+    </div>
+  </main>
+  <footer>drafts/gaming-table · размеры в мм · распечатать: Ctrl+P на открытом SVG</footer>
+  <script>
+    const sheets = [
+      { id: "01-plan.svg", title: "01 План сверху" },
+      { id: "02-section.svg", title: "02 Разрез А–А" },
+      { id: "03-player-tray.svg", title: "03 Мини-столик игрока" },
+      { id: "04-dm-tray.svg", title: "04 Станция мастера" },
+      { id: "05-dice-tray.svg", title: "05 Кубы: лоток и башня" },
+      { id: "06-topper.svg", title: "06 Топпер" },
+      { id: "07-rail-cleat.svg", title: "07 Узел клита" },
+      { id: "08-explode.svg", title: "08 Взорванная сборка" },
+    ];
+    const nav = document.getElementById("nav");
+    const frame = document.getElementById("frame");
+    const caption = document.getElementById("caption");
+    const raw = document.getElementById("raw");
+    let current = 0;
+
+    function show(i) {
+      current = i;
+      const s = sheets[i];
+      const src = "drawings/" + s.id;
+      frame.innerHTML = '<object type="image/svg+xml" data="' + src + '" title="' + s.title + '"></object>';
+      caption.textContent = s.title;
+      raw.href = src;
+      [...nav.querySelectorAll("button")].forEach((b, idx) => {
+        b.setAttribute("aria-current", idx === i ? "true" : "false");
+      });
+    }
+
+    sheets.forEach((s, i) => {
+      const b = document.createElement("button");
+      b.type = "button";
+      b.textContent = s.title.replace(/^\d+\s*/, "");
+      b.addEventListener("click", () => show(i));
+      nav.appendChild(b);
+    });
+    show(0);
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowRight") show((current + 1) % sheets.length);
+      if (e.key === "ArrowLeft") show((current - 1 + sheets.length) % sheets.length);
+    });
+  </script>
+</body>
+</html>

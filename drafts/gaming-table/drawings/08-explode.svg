@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Segoe UI, Arial, sans-serif">
+  <title>08  7>@20==0O A1>@:0</title>
+  <rect width="1000" height="700" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700">08  !1>@:0 (27>@20==K9 284)</text>
+  <text x="40" y="58" font-size="13" fill="#555">>@O4>: A=87C 225@E · A<. B0:65 05-assembly.md</text>
+
+  <g transform="translate(200,80)" opacity="0.95">
+    <!-- Layer labels left -->
+    <!-- Topper -->
+    <rect x="40" y="0" width="400" height="28" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5" transform="skewX(-20)"/>
+    <text x="520" y="20" font-size="13" fill="#333">8. ">??5@ T1T3</text>
+
+    <!-- Trays -->
+    <rect x="-30" y="50" width="80" height="40" fill="#d4b896" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <rect x="450" y="50" width="60" height="50" fill="#e8d5b5" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="75" font-size="13" fill="#333">7. 0:;04:8 (DM + 83@>:8)</text>
+
+    <!-- Rail -->
+    <rect x="20" y="110" width="440" height="36" fill="#c4a574" stroke="#5c4030" stroke-width="1.5" transform="skewX(-20)"/>
+    <text x="520" y="135" font-size="13" fill="#333">6.  59:0 + ledge</text>
+
+    <!-- Felt -->
+    <rect x="60" y="165" width="360" height="14" fill="#2a4a4a" stroke="#1a2a2a" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="178" font-size="13" fill="#333">5. !C:=> / =5>?@5=</text>
+
+    <!-- Floor -->
+    <rect x="60" y="195" width="360" height="16" fill="#a08060" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="210" font-size="13" fill="#333">4. => =8H8 12 <<</text>
+
+    <!-- Vault walls -->
+    <rect x="40" y="230" width="400" height="40" fill="#b8956a" stroke="#5c4030" stroke-width="1.5" transform="skewX(-20)"/>
+    <text x="520" y="255" font-size="13" fill="#333">3. !B5=:8 =8H8 + F0@38</text>
+
+    <!-- Legs frame -->
+    <rect x="50" y="290" width="30" height="100" fill="#8b7355" stroke="#5c4030" stroke-width="1"/>
+    <rect x="380" y="290" width="30" height="100" fill="#8b7355" stroke="#5c4030" stroke-width="1"/>
+    <rect x="60" y="280" width="340" height="20" fill="#9a8060" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="340" font-size="13" fill="#333">2. >6:8 + =86=OO >12O7:0</text>
+
+    <!-- Floor -->
+    <line x1="0" y1="420" x2="450" y2="420" stroke="#bbb" stroke-dasharray="6 4"/>
+    <text x="520" y="425" font-size="13" fill="#777">1. >; / <5AB> CAB0=>2:8</text>
+  </g>
+
+  <g transform="translate(40,540)">
+    <text font-size="13" font-weight="600">@8B8G5A:89 ?>@O4>:</text>
+    <text y="22" font-size="12" fill="#444">0@:0A 2 :204@0B ’ 4=> ’ AC:=> ’ @59:0 A ledge 2 >4=>9 ?;>A:>AB8 ’ B>??5@ ?> D0:BC ’ =0:;04:8.</text>
+    <text y="44" font-size="12" fill="#444">$8=8H (<0A;>/;0:)  4> >:;59:8 AC:=>< 8 4> =025H820=8O =5@6025NI8E ?>4AB0:0==8:>2.</text>
+    <text y="66" font-size="12" fill="#444">>;=0O 8=AB@C:F8O: 05-assembly.md</text>
+  </g>
+</svg>
