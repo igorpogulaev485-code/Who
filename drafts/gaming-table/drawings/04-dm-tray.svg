@@ -1,54 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 680" font-family="Segoe UI, Arial, sans-serif">
-  <title>04  !B0=F8O <0AB5@0</title>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 680" font-family="Arial, sans-serif">
+  <title>04 - Станция мастера</title>
   <rect width="950" height="680" fill="#f5f2eb"/>
-  <text x="40" y="36" font-size="22" font-weight="700">04  0:;04=0O AB0=F8O <0AB5@0</text>
-  <text x="40" y="58" font-size="13" fill="#555">550 Ч 400 << · =>CB1C: · H8@<0 · 70<5B:8 · ;>B>: :C1>2 · A;>B</text>
-
+  <text x="40" y="36" font-size="22" font-weight="700">04 - Накладная станция мастера</text>
+  <text x="40" y="58" font-size="13" fill="#555">550 x 400 мм; ноутбук; ширма; заметки; лоток кубов; слот</text>
   <g transform="translate(60,90)">
     <rect x="0" y="0" width="550" height="400" fill="#d4b896" stroke="#5c4030" stroke-width="2" rx="3"/>
-
-    <!-- Laptop zone -->
     <rect x="20" y="30" width="320" height="220" fill="#c4a574" stroke="#4a90a4" stroke-width="1.5" stroke-dasharray="5 3" rx="2"/>
     <rect x="50" y="70" width="260" height="160" rx="4" fill="#2c2c2c"/>
     <rect x="60" y="80" width="240" height="130" rx="2" fill="#1a3a4a"/>
-    <text x="180" y="155" font-size="12" text-anchor="middle" fill="#8af">=>CB1C: 14163</text>
-    <text x="180" y="20" font-size="11" text-anchor="middle" fill="#4a90a4">A2>1>4=0O ?;>A:>ABL</text>
-
-    <!-- Screen resting zone on far edge (toward table) -->
+    <text x="180" y="155" font-size="12" text-anchor="middle" fill="#8af">ноутбук 14-16"</text>
+    <text x="180" y="20" font-size="11" text-anchor="middle" fill="#4a90a4">свободная плоскость</text>
     <rect x="20" y="270" width="320" height="50" fill="none" stroke="#8b4513" stroke-width="1.5" stroke-dasharray="4 2"/>
-    <text x="180" y="300" font-size="12" text-anchor="middle" fill="#8b4513">7>=0 >?>@K ?5@5=>A=>9 H8@<K</text>
-
-    <!-- Notes -->
+    <text x="180" y="300" font-size="12" text-anchor="middle" fill="#8b4513">зона опоры переносной ширмы</text>
     <rect x="20" y="340" width="140" height="40" fill="#f8f4e8" stroke="#aaa" stroke-width="1"/>
-    <text x="90" y="365" font-size="11" text-anchor="middle" fill="#666">70<5B:8 A5</text>
-
-    <!-- Phone/initiative slot -->
+    <text x="90" y="365" font-size="11" text-anchor="middle" fill="#666">заметки A5</text>
     <rect x="360" y="30" width="160" height="10" fill="#3d2b1f" rx="1"/>
-    <text x="440" y="22" font-size="11" text-anchor="middle">A;>B B5;5D>= / 8=8F80B820</text>
-
-    <!-- Dice tray recessed -->
+    <text x="440" y="22" font-size="11" text-anchor="middle">слот телефон / инициатива</text>
     <rect x="360" y="60" width="160" height="200" rx="4" fill="#2a4a4a" stroke="#5c4030" stroke-width="1.5"/>
-    <text x="440" y="155" font-size="12" text-anchor="middle" fill="#cde">;>B>: :C1>2</text>
-    <text x="440" y="175" font-size="10" text-anchor="middle" fill="#9ab">160Ч200Ч40</text>
-    <!-- dice icons -->
+    <text x="440" y="155" font-size="12" text-anchor="middle" fill="#cde">лоток кубов</text>
+    <text x="440" y="175" font-size="10" text-anchor="middle" fill="#9ab">160x200x40</text>
     <rect x="390" y="200" width="22" height="22" rx="2" fill="#eee" transform="rotate(12 401 211)"/>
     <rect x="430" y="210" width="22" height="22" rx="2" fill="#eee" transform="rotate(-8 441 221)"/>
     <rect x="470" y="195" width="22" height="22" rx="2" fill="#eee" transform="rotate(5 481 206)"/>
-
-    <!-- Optional cup -->
     <circle cx="440" cy="340" r="32" fill="none" stroke="#888" stroke-width="2"/>
     <circle cx="440" cy="340" r="26" fill="#c0c0c0" opacity="0.7"/>
-    <text x="440" y="390" font-size="11" text-anchor="middle">?>4AB0:0==8: (>?F.)</text>
-
-    <!-- Dims -->
+    <text x="440" y="390" font-size="11" text-anchor="middle">подстаканник (опц.)</text>
     <line x1="0" y1="420" x2="550" y2="420" stroke="#333"/>
     <text x="275" y="438" font-size="13" text-anchor="middle" font-weight="600">550</text>
     <line x1="570" y1="0" x2="570" y2="400" stroke="#333"/>
     <text x="590" y="200" font-size="13" font-weight="600">400</text>
   </g>
-
   <g transform="translate(60,580)">
-    <text font-size="12" fill="#444">5H05BAO =0 @0AH8@5==CN @59:C <0AB5@0 (350 <<) B5< 65 :;8B><.</text>
-    <text y="20" font-size="12" fill="#444">(8@<0 =5 :@5?8BAO  B>;L:> 7>=0 >?>@K.  >75B:8  C4;8=8B5;L C =>38 AB>;0, =5 2@5705<.</text>
+    <text font-size="12" fill="#444">Вешается на расширенную рейку мастера (350 мм) тем же клитом.</text>
+    <text y="20" font-size="12" fill="#444">Ширма не крепится - только зона опоры. Розетки - удлинитель у ноги стола.</text>
   </g>
 </svg>

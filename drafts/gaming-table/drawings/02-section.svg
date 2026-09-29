@@ -1,82 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" font-family="Segoe UI, Arial, sans-serif">
-  <title>02   07@57 </title>
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" font-family="Arial, sans-serif">
+  <title>02 - Разрез А-А</title>
   <rect width="1100" height="620" fill="#f5f2eb"/>
-  <text x="40" y="36" font-size="22" font-weight="700" fill="#1a1a1a">02   07@57  (?>?5@5G=K9)</text>
-  <text x="40" y="58" font-size="13" fill="#555"> 59:0 · ledge · =8H0 90 << · AC:=> · B>??5@ 70?>4;8F> · :;8B =0:;04:8</text>
-
-  <!-- Scale: 1mm drawing = 1.2mm real roughly; section width 1100mm -> ~660 -->
+  <text x="40" y="36" font-size="22" font-weight="700" fill="#1a1a1a">02 - Разрез А-А (поперечный)</text>
+  <text x="40" y="58" font-size="13" fill="#555">Рейка, полка, ниша 90 мм, сукно, топпер заподлицо, клит накладки</text>
   <g transform="translate(80,100)">
-    <!-- Floor line -->
     <line x1="-20" y1="420" x2="900" y2="420" stroke="#999" stroke-width="1" stroke-dasharray="6 4"/>
-    <text x="-20" y="438" font-size="11" fill="#777">?>;</text>
-
-    <!-- Left leg -->
+    <text x="-20" y="438" font-size="11" fill="#777">пол</text>
     <rect x="40" y="200" width="36" height="220" fill="#8b7355" stroke="#5c4030" stroke-width="1.5"/>
-    <!-- Right leg -->
     <rect x="820" y="200" width="36" height="220" fill="#8b7355" stroke="#5c4030" stroke-width="1.5"/>
-
-    <!-- Apron / side rails of vault walls -->
     <rect x="40" y="160" width="816" height="50" fill="#c4a574" stroke="#5c4030" stroke-width="1.5"/>
-
-    <!-- Vault floor -->
     <rect x="120" y="185" width="656" height="12" fill="#a08060" stroke="#5c4030" stroke-width="1"/>
-    <!-- Felt -->
     <rect x="120" y="176" width="656" height="9" fill="#2a4a4a"/>
-
-    <!-- Left rail top (200mm wide -> ~120) -->
     <rect x="40" y="100" width="120" height="40" fill="#c4a574" stroke="#5c4030" stroke-width="1.5"/>
-    <!-- Right rail -->
     <rect x="736" y="100" width="120" height="40" fill="#c4a574" stroke="#5c4030" stroke-width="1.5"/>
-
-    <!-- Vault inner walls -->
     <rect x="120" y="140" width="16" height="45" fill="#b8956a" stroke="#5c4030" stroke-width="1"/>
     <rect x="760" y="140" width="16" height="45" fill="#b8956a" stroke="#5c4030" stroke-width="1"/>
-
-    <!-- Ledge -->
     <rect x="136" y="148" width="12" height="12" fill="#8b6914" stroke="#5c4030" stroke-width="0.8"/>
     <rect x="748" y="148" width="12" height="12" fill="#8b6914" stroke="#5c4030" stroke-width="0.8"/>
-
-    <!-- Topper panels (dashed when removed, solid when on) -->
-    <rect x="148" y="100" width="588" height="18" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5" opacity="0.95"/>
-    <text x="442" y="113" font-size="11" text-anchor="middle" fill="#3d2b1f">B>??5@ 18 <<  70?>4;8F> A @59:>9</text>
-
-    <!-- Dimension vault depth -->
+    <rect x="148" y="100" width="588" height="18" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5"/>
+    <text x="442" y="113" font-size="11" text-anchor="middle" fill="#3d2b1f">топпер 18 мм - заподлицо с рейкой</text>
     <line x1="100" y1="100" x2="100" y2="185" stroke="#c0392b" stroke-width="1.2"/>
     <text x="88" y="150" font-size="12" fill="#c0392b" text-anchor="end" font-weight="600">90</text>
-
-    <!-- Dimension rail -->
     <line x1="40" y1="80" x2="160" y2="80" stroke="#333" stroke-width="1"/>
     <text x="100" y="74" font-size="11" text-anchor="middle">200</text>
-
-    <!-- Height overall -->
     <line x1="900" y1="100" x2="900" y2="420" stroke="#333" stroke-width="1.2"/>
     <text x="920" y="270" font-size="13" font-weight="600">750</text>
-
-    <!-- Cleat + player tray on right -->
-    <path d="M856,100 L856,100 L920,100 L920,130 L880,130 L880,145 L856,145 Z" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5"/>
+    <path d="M856,100 L920,100 L920,130 L880,130 L880,145 L856,145 Z" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5"/>
     <text x="888" y="118" font-size="10" text-anchor="middle" fill="#3d2b1f">tray</text>
-    <!-- cleat hook under -->
     <path d="M856,140 L870,140 L870,155 L840,155 L840,125 L856,125" fill="none" stroke="#c0392b" stroke-width="1.5"/>
-    <text x="910" y="165" font-size="10" fill="#c0392b">:;8B</text>
-
-    <!-- Callouts -->
+    <text x="910" y="165" font-size="10" fill="#c0392b">клит</text>
     <line x1="400" y1="180" x2="400" y2="250" stroke="#555" stroke-width="0.8"/>
-    <text x="400" y="268" font-size="12" text-anchor="middle" fill="#222">AC:=> / =5>?@5= 34 <<</text>
+    <text x="400" y="268" font-size="12" text-anchor="middle" fill="#222">сукно / неопрен 3-4 мм</text>
     <line x1="250" y1="191" x2="250" y2="300" stroke="#555" stroke-width="0.8"/>
-    <text x="250" y="318" font-size="12" text-anchor="middle" fill="#222">4=> =8H8 12 <<</text>
+    <text x="250" y="318" font-size="12" text-anchor="middle" fill="#222">дно ниши 12 мм</text>
     <line x1="142" y1="154" x2="200" y2="340" stroke="#8b6914" stroke-width="0.8"/>
-    <text x="200" y="358" font-size="12" text-anchor="middle" fill="#8b6914">ledge 12Ч12</text>
-
-    <!-- Mini terrain silhouette -->
+    <text x="200" y="358" font-size="12" text-anchor="middle" fill="#8b6914">полка 12x12</text>
     <rect x="300" y="155" width="40" height="21" fill="#888" opacity="0.5"/>
     <rect x="360" y="145" width="25" height="31" fill="#777" opacity="0.5"/>
-    <text x="340" y="140" font-size="9" text-anchor="middle" fill="#666">B8@@59= d70</text>
+    <text x="340" y="140" font-size="9" text-anchor="middle" fill="#666">тиррейн до 70</text>
   </g>
-
   <g transform="translate(40,540)">
-    <text font-size="12" fill="#333" font-weight="600">@8<5G0=8O</text>
-    <text y="20" font-size="12" fill="#444">" ">??5@ ;568B =0 ledge; 25@E B>??5@0 = 25@E @59:8.</text>
-    <text y="38" font-size="12" fill="#444">" ;C18=0 =8H8 90 <<: ~70 << ?>4 <8=80BN@K + 70?0A ?>4 B>??5@.</text>
-    <text y="56" font-size="12" fill="#444">" ;8B =0:;04:8 >?8@05BAO =0 2=5H=NN :@><:C @59:8  157 28=B>2 2 :0@:0A.</text>
+    <text font-size="12" fill="#333" font-weight="600">Примечания</text>
+    <text y="20" font-size="12" fill="#444">1) Топпер лежит на полке; верх топпера = верх рейки.</text>
+    <text y="38" font-size="12" fill="#444">2) Глубина ниши 90 мм: около 70 мм под миниатюры + запас под топпер.</text>
+    <text y="56" font-size="12" fill="#444">3) Клит накладки опирается на внешнюю кромку рейки - без винтов в каркас.</text>
   </g>
 </svg>
