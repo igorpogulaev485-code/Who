@@ -46,6 +46,10 @@ note: "Сначала расследование, потом бой. Игрок�
 
 # Фаза A · Расследование (обязательна до «хорошего» боя)
 
+![](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-porcha-edge-circles.jpg)
+
+> **Кадр:** кромка · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-porcha-edge-circles.jpg)
+
 Без ≥**3 улик** Илсара **запрещает** штурм («слепой огонь = хуже»). Можно ослушаться — см. путь D.
 
 ## Улики
@@ -76,6 +80,10 @@ note: "Сначала расследование, потом бой. Игрок�
 
 # Фаза B · Интересный бой
 
+![](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-porcha-01-black-root.jpg)
+
+> **Кадр:** Чёрный Корень · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-porcha-01-black-root.jpg)
+
 ## Когда начинать
 
 После ≥3 улик **или** осознанный A4.  
@@ -94,6 +102,10 @@ note: "Сначала расследование, потом бой. Игрок�
 | **I · Щупальца** | старт | 2× **щупальца-корня** + 2× **упырь** (ghoul); земля = difficult terrain для не-лесных |
 | **II · Голод** | Корень ≤½ HP **или** убит узел-маркер | появляется **Гниловест** (жрец-паразит) *или* усиление: aura 10 фт necrotic 1d6 в начале хода (Con DC 14 half); серебро глушит ауру в радиусе 5 фт от серебряного оружия |
 | **III · Делёж** | Корень при 0 HP **без** сожжения сердца | 1d3 раунда — **два малых корня** (HP 30); если сжечь сердце (огонь / *sacred flame* / масло+факел) за это окно — делёжа нет |
+
+![](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-porcha-01-heart-burn.jpg)
+
+> **Кадр:** сердце · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/locations/scene-porcha-01-heart-burn.jpg)
 
 **Сердце Корня:** после «0 HP» видно угольное ядро (AC 15, HP 20, immunity poison; vulnerability fire и radiant). Действие: огонь/radiant по ядру или Athletics DC 14 вырвать + действие союзнику поджечь.
 

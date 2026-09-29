@@ -1,7 +1,7 @@
 ---
 id: visual-gorod-serebryanyy-porog
 title: "План визуала — город Серебряный Порог + порча"
-status: wave-a-done
+status: wave-a-b-done
 source: gm-2026-09-28
 branch: cursor/serebryanyy-porog-city-bd87
 skill: echo-dawn-visual-runbook
@@ -140,7 +140,7 @@ skill: echo-dawn-visual-runbook
 | Волна | Кадров | Статус |
 |---|---:|---|
 | A | 17 | **done** · вшито 05/12 · 14/05 · 14/08 · 14/09 |
-| B | 8 (+1 опц.) | wait-ok |
+| B | 8 (+1 опц.) | **done** · вшито 05/13 · 14/03 · 14/09 |
 | C | ~10 | wait |
 | Уже есть | карта + D-локи + 4 НПС Храма | done |
 
