@@ -6,15 +6,17 @@ tags: [survey, parchment]
 
 # Опрос: тексты на афишах
 
-**На iPhone / Safari:** https://2d7eb8b5de21cd.lhr.life/poster-text-survey.html  
+**На iPhone / Safari (Cloudflare):** https://alberta-soul-yoga-speak.trycloudflare.com/poster-text-survey.html  
+
+Запасной туннель: https://1753352da948bc.lhr.life/poster-text-survey.html  
 
 Заполни → «Скопировать ответы» → вставь в чат Cursor.
 
-Файл в репо: [`poster-text-survey.html`](poster-text-survey.html)  
-(Репо приватное — GitHub raw / htmlpreview без доступа не откроют форму.)
+Файл в репо: [`poster-text-survey.html`](poster-text-survey.html)
 
-Запасной zip (скачать → открыть html): https://tmpfiles.org/dl/w9Agw3tZnFvK/poster-text-survey.zip  
-Ещё: https://filebin.net/fd71a0fc/poster-text-survey.html · https://gofile.io/d/ADSBjyfP
+Скачать html (если туннели лягут):
+- https://gofile.io/d/qzbzF3VR — скачать → открыть в Safari  
+- zip: https://tmpfiles.org/dl/w3AWwyb6kkZP/poster-text-survey.zip
 
 ---
 
