@@ -19,7 +19,7 @@ sheet: assets/character-sheets/baltan.pdf
 
 ## Заметки
 
-Черта «Красноречивый»; арбалет «Звездострел». Ипостась Тиара погибла в Лунном Овраге.
+Черта «Красноречивый»; арбалет «Звездострел». Ипостась **Тиара** переметнулась к демонам и пала у Лунного Оврага (розыск: [`tiara.md`](tiara.md)).
 
 Лист игрока: [`assets/character-sheets/baltan.pdf`](../../../assets/character-sheets/baltan.pdf)  
 Текст извлечения: [`assets/character-sheets/baltan.txt`](../../../assets/character-sheets/baltan.txt)

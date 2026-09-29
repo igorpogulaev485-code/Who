@@ -85,7 +85,7 @@
 
 - [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
 - [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
-- [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
+- [Багал](world/npcs/bagal.md) — мёртв (убил Кеша); бывший ПК игрока Элариона; не герой Аэлендора
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
 - [Элессар I](world/npcs/elessar-i.md) — истинный король
 - [Филлер](world/npcs/filler.md)
@@ -94,11 +94,20 @@
 - [Кардиан](world/npcs/kardian.md)
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
 - [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
-- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
+- [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала; бил руками
 
 ## Партия
 
 - [Состав (актуальные листы)](campaign/party/roster.md)
+- [Невил](campaign/party/characters/nevil.md) — следопыт; временно away (свадебное путешествие); тот же игрок, что у Кеши
+- [Иннокентий Баль — карточка ПК](campaign/party/characters/innokentiy-bal.md)
+- [Мёртвый Лист](campaign/party/characters/mertvyy-list.md) — мёртв; не герой; добрая память
+- [Тиара](campaign/party/characters/tiara.md) — ипостась Балтана; предательница (демоны); розыск; пала у Лунного Оврага
+- [Радонаар](campaign/party/characters/radonaar.md) — выгнан; служит Драконьему Хребту; встреча впереди
+- [Уораг](campaign/party/characters/uorag.md) — эпизод; нейтральное упоминание
+- [Зеварду](campaign/party/characters/zevardu.md) — разбил Зеркало Разлома; помощник Кардиана в объявлениях
+- [Хескан](campaign/party/characters/heskan.md) — проходной; нейтральное упоминание
+- [Фиолетовый Жаб](campaign/party/characters/fioletovyy-zhab.md) — основатель «Бродяги»; сейчас не играет; честь партии
 - [Бэкстори (заготовка)](campaign/party/backstories.md)
 - [Листы PDF](assets/character-sheets/README.md)
 
@@ -146,6 +155,8 @@
 - [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md) → [картинка](assets/images/scorpion-tail-mark.png)
 - [Ритуальный клинок Кардиана](assets/prompts/kardian-ritual-dagger.md) → [картинка](assets/images/kardian-ritual-dagger.png)
 - [Камнеград](assets/prompts/kamnegrad.md) → 4 кадра в `assets/images/kamnegrad-*.png`
+- [Пергаментные объявления (герои/злодеи)](assets/prompts/parchment-posters.md) *(draft)* → папка [`assets/images/parchment-posters/`](assets/images/parchment-posters/)
+- [Портреты партии из чарников](assets/images/portraits/README.md)
 - [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
 - [03 — Разлом](campaign/sessions/03-razlom.md)
 - [04 — Колыбель Рассвета](campaign/sessions/04-kolybel-rassveta.md)

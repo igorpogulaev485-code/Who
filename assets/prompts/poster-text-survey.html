@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опрос — тексты пергаментных афиш</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 720px; margin: 0 auto; padding: 20px var(--pad) 140px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  .lines { display: grid; gap: 8px; margin-top: 8px; }
+  .lines label { font-size: 0.8rem; color: var(--muted); display: block; margin-bottom: 4px; }
+  select, textarea, input[type=text] {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 720px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опрос — тексты афиш</h1>
+  <p class="lead">Правь строки под героями (и при желании остальных). В конце — «Скопировать ответы» → вставь в чат Cursor. После ответов выровняю визуал по 4 шаблонам.</p>
+  <div class="locked"><b>4 шаблона:</b> A Герои (синий) · B Розыск (красный) · C Объявление (бронза) · D Память. Эталон шрифтов — Вирра. «Герои Аэлендора» только у группы A.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Общие правки по серии, кого перегенерировать первым, что бесит в разнобое.</p>
+    <textarea id="freeform" rows="6" placeholder="Например: у всех героев одинаковые 2–3 строки ок / Вирру выровнять под синий сургуч…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+
+<div class="footer">
+  <div class="footer-inner">
+    <button class="secondary" type="button" id="btnClear">Сброс</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано — вставь в чат Cursor</div>
+
+<script>
+const HEROES = [
+  { id: "grok", name: "Грок",
+    nameNow: "Грок",
+    l1: "Паладин Смотрителей.",
+    l2: "За доблесть у Лунного Оврага.",
+    l3: "Титул дарован Серебряным Стражем." },
+  { id: "virra", name: "Вирра",
+    nameNow: "Вирра",
+    note: "Сейчас на афише 2 строки + фиолетовый сургуч (не синий как у остальных).",
+    l1: "Жрица кузни Гонда. За доблесть у Лунного Оврага.",
+    l2: "Титул дарован Серебряным Стражем.",
+    l3: "" },
+  { id: "baltan", name: "Балтан",
+    nameNow: "Балтан",
+    l1: "Бард Коллегии созидания.",
+    l2: "За доблесть у Лунного Оврага.",
+    l3: "Титул дарован Серебряным Стражем." },
+  { id: "drannik", name: "Дранник",
+    nameNow: "Дранник",
+    l1: "Друид Круга мутации.",
+    l2: "За доблесть у Лунного Оврага.",
+    l3: "Титул дарован Серебряным Стражем." },
+  { id: "kavil", name: "Кавил",
+    nameNow: "Кавил",
+    note: "Можно Кавил МакАндрик / добавить адъютанта.",
+    l1: "Друид Круга дикого огня.",
+    l2: "За доблесть у Лунного Оврага.",
+    l3: "Титул дарован Серебряным Стражем." },
+  { id: "elarion", name: "Эларион",
+    nameNow: "Эларион",
+    l1: "Чародей драконьей крови.",
+    l2: "За доблесть у Лунного Оврага.",
+    l3: "Титул дарован Серебряным Стражем." },
+  { id: "plach", name: "Плач звезды",
+    nameNow: "Плач звезды",
+    l1: "Мистический ловкач.",
+    l2: "За доблесть у Лунного Оврага.",
+    l3: "Титул дарован Серебряным Стражем." },
+];
+
+const OTHERS = [
+  { id: "kardian", group: "B", header: "РОЗЫСК", name: "Кардиан",
+    lines: ["Некромант Мёртвого города.", "Награда — шесть артефактов Падения.", ""] },
+  { id: "kesha", group: "B", header: "РОЗЫСК / ОСОБО ОПАСЕН", name: "Иннокентий Баль",
+    lines: ["Также известен как Кеша.", "Вампир. Бьётся голыми руками.", "Не доверять. Не приближаться."] },
+  { id: "bagal", group: "B", header: "РОЗЫСК", name: "Багал",
+    lines: ["Аасимар-колдун. Пакт исчадия.", "Скрытый антагонист.", "Убит Кешей."] },
+  { id: "tiara", group: "B", header: "РОЗЫСК / ПРЕДАТЕЛЬНИЦА", name: "Тиара",
+    lines: ["Колдун. Пакт исчадия.", "Переметнулась на сторону демонов.", "Ипостась Балтана. Пала у Лунного Оврага."] },
+  { id: "zevardu", group: "B", header: "РОЗЫСК / ПОМОЩНИК КАРДИАНА", name: "Зеварду",
+    lines: ["Друид Круга земли. Полуорк.", "Разбил Зеркало Разлома — призвал сову.", "Соучастник катастрофы Лунного Моста."] },
+  { id: "nevil", group: "C", header: "РЕКОМЕНДАЦИЯ", name: "Невил",
+    lines: ["Городской охотник. Убийца монстров.", "Достоин доверия путников и стражи.", "Временно в пути — свадебное путешествие."] },
+  { id: "radonaar", group: "C", header: "СЛУЖИТ ХРЕБТУ", name: "Радонаар",
+    lines: ["Драконорожденный-жрец. Домен войны.", "Авангард Империи Драконьего Хребта.", "Вне партии. Пути ещё пересекутся."] },
+  { id: "uorag", group: "C", header: "ИЗВЕСТЕН", name: "Уораг",
+    lines: ["Дроу-монах. Эпизодический спутник.", "Ученик монастыря Кулака Луны.", "Пути партии касался редко."] },
+  { id: "heskan", group: "C", header: "ИЗВЕСТЕН", name: "Хескан",
+    lines: ["Драконорожденный-паладин. Пират.", "Эпизодический спутник.", "Пути партии касался редко."] },
+  { id: "zhab", group: "C", header: "ЧЕСТЬ «БРОДЯГИ»", name: "Фиолетовый Жаб",
+    lines: ["Грунг-плут. Дуэлянт.", "Друзьям — всё. Основатель партии.", "Имя в чести. Ждём возвращения."] },
+  { id: "list", group: "D", header: "ДОБРАЯ ПАМЯТЬ", name: "Мёртвый Лист",
+    lines: ["Табакси-плут. Убийца по ремеслу — друг по сердцу.", "Воспитанник Приюта «Колыбель Рассвета».", "Павший в пути. Помним."] },
+];
+
+const KEY = "echo-dawn-poster-text-survey-v1";
+function $(id) { return document.getElementById(id); }
+
+function heroBlock(h) {
+  return `
+    <div class="q" data-hero="${h.id}">
+      <label class="title">${h.name}</label>
+      <div class="ctx">Сейчас на афише:
+Имя: ${h.nameNow}
+1) ${h.l1 || "—"}
+2) ${h.l2 || "—"}
+3) ${h.l3 || "— (пусто)"}${h.note ? "\n\n" + h.note : ""}</div>
+      <label>Вердикт по тексту</label>
+      <select data-f="verdict" data-id="${h.id}">
+        <option value="">— выбери —</option>
+        <option value="keep">Оставить как есть</option>
+        <option value="edit">Править строки ниже</option>
+        <option value="rewrite">Переписать с нуля (в заметке)</option>
+      </select>
+      <div class="lines">
+        <div><label>Имя на афише</label><input type="text" data-f="name" data-id="${h.id}" value="${h.nameNow}" /></div>
+        <div><label>Строка 1 (класс / роль)</label><input type="text" data-f="l1" data-id="${h.id}" value="${h.l1}" /></div>
+        <div><label>Строка 2</label><input type="text" data-f="l2" data-id="${h.id}" value="${h.l2}" /></div>
+        <div><label>Строка 3</label><input type="text" data-f="l3" data-id="${h.id}" value="${h.l3}" placeholder="можно оставить пустой" /></div>
+        <div><label>Заметка</label><textarea data-f="note" data-id="${h.id}" rows="2" placeholder="Уточнение…"></textarea></div>
+      </div>
+    </div>`;
+}
+
+function otherBlock(o) {
+  return `
+    <div class="q" data-other="${o.id}">
+      <label class="title">${o.name} <span style="color:var(--muted);font-weight:400">· ${o.group}</span></label>
+      <div class="ctx">Заголовок: ${o.header}
+1) ${o.lines[0] || "—"}
+2) ${o.lines[1] || "—"}
+3) ${o.lines[2] || "—"}</div>
+      <select data-f="verdict" data-id="${o.id}">
+        <option value="">— выбери —</option>
+        <option value="keep">Оставить как есть</option>
+        <option value="edit">Править ниже</option>
+        <option value="skip">Пока не трогать</option>
+      </select>
+      <div class="lines">
+        <div><label>Заголовок</label><input type="text" data-f="header" data-id="${o.id}" value="${o.header}" /></div>
+        <div><label>Имя</label><input type="text" data-f="name" data-id="${o.id}" value="${o.name}" /></div>
+        <div><label>Строка 1</label><input type="text" data-f="l1" data-id="${o.id}" value="${o.lines[0]}" /></div>
+        <div><label>Строка 2</label><input type="text" data-f="l2" data-id="${o.id}" value="${o.lines[1]}" /></div>
+        <div><label>Строка 3</label><input type="text" data-f="l3" data-id="${o.id}" value="${o.lines[2]}" /></div>
+        <div><label>Заметка</label><textarea data-f="note" data-id="${o.id}" rows="2"></textarea></div>
+      </div>
+    </div>`;
+}
+
+function build() {
+  const root = $("sections");
+  root.innerHTML = `
+    <section>
+      <h2>A. Герои Аэлендора</h2>
+      <p class="hint">Главное — правь эти нижние строки. Пустые поля = как сейчас.</p>
+      ${HEROES.map(heroBlock).join("")}
+    </section>
+    <section>
+      <h2>Общие вопросы по героям</h2>
+      <div class="q">
+        <label class="title">Строки 2–3 («За доблесть…» / «Титул…»)</label>
+        <select id="q_shared">
+          <option value="">— выбери —</option>
+          <option value="same">Оставить всем одинаковыми</option>
+          <option value="personal">Персонализировать (см. правки выше)</option>
+          <option value="drop_one">Убрать одну из общих строк</option>
+          <option value="other">Другое — в свободном тексте</option>
+        </select>
+      </div>
+      <div class="q">
+        <label class="title">Вирра: выровнять под остальных (3 строки + синий сургуч)?</label>
+        <select id="q_virra_align">
+          <option value="">— выбери —</option>
+          <option value="yes_blue">Да — синий полумесяц + 3 строки</option>
+          <option value="keep_purple">Оставить фиолетовый сургуч (особый эталон)</option>
+          <option value="other">Другое</option>
+        </select>
+      </div>
+      <div class="q">
+        <label class="title">Имя Кавила на афише</label>
+        <select id="q_kavil_name">
+          <option value="">— выбери —</option>
+          <option value="kavil">Кавил</option>
+          <option value="full">Кавил МакАндрик</option>
+          <option value="other">Другое</option>
+        </select>
+      </div>
+    </section>
+    <section>
+      <h2>B–D. Остальные (по желанию)</h2>
+      <p class="hint">Можно пропустить — сначала герои. Группа C: разные статус-слова, один визуал.</p>
+      <div class="q">
+        <label class="title">Группа C (Невил / Радонаар / Уораг / Хескан / Жаб): один визуальный шаблон?</label>
+        <select id="q_group_c">
+          <option value="">— выбери —</option>
+          <option value="yes">Да — один шаблон, разные статус-слова</option>
+          <option value="split">Нет — Жаба / Невила выделить сильнее</option>
+          <option value="other">Другое</option>
+        </select>
+      </div>
+      ${OTHERS.map(otherBlock).join("")}
+    </section>`;
+
+  root.querySelectorAll("select, input, textarea").forEach((el) => {
+    el.addEventListener("change", () => { save(); updateProgress(); });
+    el.addEventListener("input", () => { save(); updateProgress(); });
+  });
+  ["q_shared","q_virra_align","q_kavil_name","q_group_c"].forEach((id) => {
+    const el = $(id);
+    if (el) el.addEventListener("change", () => { save(); updateProgress(); });
+  });
+  $("freeform").addEventListener("input", save);
+}
+
+function verdictSelects() {
+  return [...document.querySelectorAll('select[data-f="verdict"]')];
+}
+
+function updateProgress() {
+  const sels = verdictSelects();
+  const general = ["q_shared","q_virra_align","q_kavil_name","q_group_c"]
+    .map((id) => $(id)).filter(Boolean);
+  const all = [...sels, ...general];
+  let n = 0;
+  all.forEach((s) => { if (s.value) n++; });
+  $("count").textContent = `${n} / ${all.length}`;
+  $("bar").style.width = `${all.length ? (n / all.length) * 100 : 0}%`;
+}
+
+function field(id, f) {
+  return document.querySelector(`[data-f="${f}"][data-id="${id}"]`);
+}
+
+function collect() {
+  const data = {
+    version: 1,
+    freeform: $("freeform").value.trim(),
+    general: {
+      shared_lines: $("q_shared").value,
+      shared_lines_text: $("q_shared").selectedOptions[0]?.text || "",
+      virra_align: $("q_virra_align").value,
+      virra_align_text: $("q_virra_align").selectedOptions[0]?.text || "",
+      kavil_name: $("q_kavil_name").value,
+      kavil_name_text: $("q_kavil_name").selectedOptions[0]?.text || "",
+      group_c: $("q_group_c").value,
+      group_c_text: $("q_group_c").selectedOptions[0]?.text || "",
+    },
+    heroes: {},
+    others: {},
+  };
+  HEROES.forEach((h) => {
+    const v = field(h.id, "verdict");
+    data.heroes[h.id] = {
+      name: field(h.id, "name")?.value.trim() || h.nameNow,
+      l1: field(h.id, "l1")?.value.trim() || "",
+      l2: field(h.id, "l2")?.value.trim() || "",
+      l3: field(h.id, "l3")?.value.trim() || "",
+      note: field(h.id, "note")?.value.trim() || "",
+      verdict: v?.value || "",
+      verdict_text: v && v.value ? v.options[v.selectedIndex].text : "",
+    };
+  });
+  OTHERS.forEach((o) => {
+    const v = field(o.id, "verdict");
+    data.others[o.id] = {
+      header: field(o.id, "header")?.value.trim() || o.header,
+      name: field(o.id, "name")?.value.trim() || o.name,
+      l1: field(o.id, "l1")?.value.trim() || "",
+      l2: field(o.id, "l2")?.value.trim() || "",
+      l3: field(o.id, "l3")?.value.trim() || "",
+      note: field(o.id, "note")?.value.trim() || "",
+      verdict: v?.value || "",
+      verdict_text: v && v.value ? v.options[v.selectedIndex].text : "",
+    };
+  });
+  return data;
+}
+
+function save() { localStorage.setItem(KEY, JSON.stringify(collect())); }
+
+function load() {
+  try {
+    const raw = localStorage.getItem(KEY);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    if (data.freeform) $("freeform").value = data.freeform;
+    const g = data.general || {};
+    if (g.shared_lines) $("q_shared").value = g.shared_lines;
+    if (g.virra_align) $("q_virra_align").value = g.virra_align;
+    if (g.kavil_name) $("q_kavil_name").value = g.kavil_name;
+    if (g.group_c) $("q_group_c").value = g.group_c;
+    Object.entries(data.heroes || {}).forEach(([id, a]) => {
+      ["verdict","name","l1","l2","l3","note"].forEach((f) => {
+        const el = field(id, f);
+        if (el && a[f] != null) el.value = a[f];
+      });
+    });
+    Object.entries(data.others || {}).forEach(([id, a]) => {
+      ["verdict","header","name","l1","l2","l3","note"].forEach((f) => {
+        const el = field(id, f);
+        if (el && a[f] != null) el.value = a[f];
+      });
+    });
+  } catch (e) {}
+}
+
+function format(data) {
+  let out = "=== Опрос — тексты пергаментных афиш (ответы мастера) ===\n\n";
+  out += "## Общие\n";
+  out += `- Строки 2–3: ${data.general.shared_lines_text || "—"}\n`;
+  out += `- Вирра: ${data.general.virra_align_text || "—"}\n`;
+  out += `- Имя Кавила: ${data.general.kavil_name_text || "—"}\n`;
+  out += `- Группа C: ${data.general.group_c_text || "—"}\n\n`;
+  out += "## A. Герои\n";
+  HEROES.forEach((h) => {
+    const a = data.heroes[h.id] || {};
+    out += `### ${h.name}\n`;
+    out += `- вердикт: ${a.verdict_text || "—"}\n`;
+    out += `- имя: ${a.name || "—"}\n`;
+    out += `- 1) ${a.l1 || "—"}\n`;
+    out += `- 2) ${a.l2 || "—"}\n`;
+    out += `- 3) ${a.l3 || "—"}\n`;
+    if (a.note) out += `- заметка: ${a.note}\n`;
+    out += "\n";
+  });
+  out += "## B–D. Остальные\n";
+  OTHERS.forEach((o) => {
+    const a = data.others[o.id] || {};
+    if (!a.verdict || a.verdict === "skip") {
+      out += `- ${o.name}: ${a.verdict_text || "не трогали"}\n`;
+      return;
+    }
+    out += `### ${o.name}\n`;
+    out += `- вердикт: ${a.verdict_text || "—"}\n`;
+    out += `- заголовок: ${a.header || "—"}\n`;
+    out += `- имя: ${a.name || "—"}\n`;
+    out += `- 1) ${a.l1 || "—"}\n`;
+    out += `- 2) ${a.l2 || "—"}\n`;
+    out += `- 3) ${a.l3 || "—"}\n`;
+    if (a.note) out += `- заметка: ${a.note}\n`;
+    out += "\n";
+  });
+  if (data.freeform) out += `\n## Свободный текст\n${data.freeform}\n`;
+  return out;
+}
+
+$("btnCopy").onclick = async () => {
+  const data = collect();
+  const text = format(data);
+  $("out").textContent = text;
+  $("out").classList.add("show");
+  try {
+    await navigator.clipboard.writeText(text);
+    const t = $("toast");
+    t.style.display = "block";
+    setTimeout(() => { t.style.display = "none"; }, 2000);
+  } catch (e) {
+    alert("Скопируй текст вручную из блока ниже");
+  }
+};
+
+$("btnClear").onclick = () => {
+  if (!confirm("Сбросить ответы на этом устройстве?")) return;
+  localStorage.removeItem(KEY);
+  location.reload();
+};
+
+build();
+load();
+updateProgress();
+</script>
+</body>
+</html>
