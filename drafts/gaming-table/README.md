@@ -47,10 +47,9 @@ tags: [meta, diy, gaming-table, furniture]
 
 ### Как открыть чертежи на компьютере
 
-1. Скачай [`viewer-standalone.html`](viewer-standalone.html) **целиком** (Raw → Save as…).
-2. Файл должен называться `….html`, не `.txt`.
-3. Открой двойным кликом в Chrome / Edge / Firefox.
-4. Если видишь код — переименуй в `.html` или в «Сохранить как» выбери тип HTML.
+**Проще всего:** скачай [`chertezhi-stola.zip`](chertezhi-stola.zip) → распакуй → двойной клик по `viewer-standalone.html`.
+
+Если видишь код HTML вместо картинок — файл сохранился как `.txt`. Подробно: [`HOW-TO-OPEN-DRAWINGS.md`](HOW-TO-OPEN-DRAWINGS.md) и [`ОТКРЫТЬ-ЧЕРТЕЖИ.txt`](ОТКРЫТЬ-ЧЕРТЕЖИ.txt).
 
 ## Краткие параметры
 
