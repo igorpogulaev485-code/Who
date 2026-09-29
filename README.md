@@ -42,3 +42,5 @@ templates/      # шаблоны новых записей
 Оглавление канона: [`CANON.md`](CANON.md).  
 Правила импорта из Qwen: [`SOURCES.md`](SOURCES.md).  
 Полные тексты шарингов лежат в `drafts/imports/` — на ссылки не опираемся.
+
+Физический стол для миниатюр (черновик DIY): [`drafts/gaming-table/`](drafts/gaming-table/README.md).

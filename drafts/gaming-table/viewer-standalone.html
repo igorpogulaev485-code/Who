@@ -1,0 +1,400 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Игровой стол - чертежи</title>
+<style>
+:root { --bg:#1c1814; --panel:#2a241e; --ink:#f3ebe0; --muted:#b5a894; --accent:#c4a574; --line:#4a3f34; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: Arial, sans-serif; background: var(--bg); color:var(--ink); }
+header, nav, main, footer { max-width:1100px; margin:0 auto; padding:0 1.25rem; }
+header { padding-top:1.5rem; }
+h1 { margin:0 0 .35rem; font-size:clamp(1.4rem,3vw,2rem); }
+.note { color:var(--muted); font-size:.9rem; }
+nav { display:flex; flex-wrap:wrap; gap:.45rem; margin:1rem auto; }
+nav button { font-family:inherit; background:var(--panel); color:var(--ink); border:1px solid var(--line); padding:.4rem .75rem; cursor:pointer; border-radius:2px; font-size:.85rem; }
+nav button[aria-current="true"] { background:var(--accent); color:#1c1814; font-weight:700; border-color:var(--accent); }
+.frame { background:#f5f2eb; border:1px solid var(--line); border-radius:4px; overflow:auto; padding:.5rem; }
+.frame svg { display:block; width:100%; height:auto; }
+.panel[hidden] { display:none !important; }
+footer { color:var(--muted); font-size:.8rem; padding:1rem 1.25rem 2rem; }
+.warn { background:#3a2a18; border:1px solid var(--accent); padding:.75rem 1rem; border-radius:4px; margin:1rem 0; font-size:.9rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Игровой стол "Эхо рассвета" - чертежи</h1>
+  <p class="note">Все чертежи вшиты в этот файл. Интернет не нужен.</p>
+  <div class="warn"><b>Как открыть:</b> файл должен иметь расширение <b>.html</b> (не .txt). Двойной клик в Chrome / Edge / Firefox.</div>
+</header>
+<nav id="nav"><button type="button" data-i="0">01 План</button>
+<button type="button" data-i="1">02 Разрез</button>
+<button type="button" data-i="2">03 Столик игрока</button>
+<button type="button" data-i="3">04 Станция мастера</button>
+<button type="button" data-i="4">05 Кубы</button>
+<button type="button" data-i="5">06 Топпер</button>
+<button type="button" data-i="6">07 Клит</button>
+<button type="button" data-i="7">08 Сборка</button></nav>
+<main><div class="frame"><div class="panel" id="p0" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="Arial, sans-serif">
+  <title>01 - План сверху</title>
+  <defs>
+    <pattern id="felt" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="#2a4a4a"/>
+      <circle cx="2" cy="2" r="0.6" fill="#355555"/>
+    </pattern>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#333"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="700" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700" fill="#1a1a1a">01 - План сверху (масштаб ~1:20)</text>
+  <text x="40" y="58" font-size="13" fill="#555">Габарит 2200 x 1100 мм; ниша 1800 x 700; зона мастера слева</text>
+  <g transform="translate(160,120)">
+    <rect x="0" y="0" width="880" height="440" fill="#c4a574" stroke="#5c4030" stroke-width="2"/>
+    <rect x="140" y="80" width="720" height="280" fill="url(#felt)" stroke="#3d2b1f" stroke-width="1.5"/>
+    <rect x="136" y="76" width="728" height="288" fill="none" stroke="#8b6914" stroke-width="1" stroke-dasharray="4 3"/>
+    <line x1="140" y1="390" x2="860" y2="390" stroke="#333" stroke-width="1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="500" y="408" font-size="12" text-anchor="middle" fill="#222">1800</text>
+    <line x1="900" y1="80" x2="900" y2="360" stroke="#333" stroke-width="1" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="920" y="230" font-size="12" text-anchor="middle" fill="#222" transform="rotate(90 920 230)">700</text>
+    <line x1="0" y1="-30" x2="880" y2="-30" stroke="#333" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="440" y="-38" font-size="13" text-anchor="middle" font-weight="600">2200</text>
+    <line x1="-40" y1="0" x2="-40" y2="440" stroke="#333" stroke-width="1.2" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+    <text x="-52" y="220" font-size="13" text-anchor="middle" font-weight="600" transform="rotate(-90 -52 220)">1100</text>
+    <text x="70" y="230" font-size="11" text-anchor="middle" fill="#3d2b1f" font-weight="600" transform="rotate(-90 70 230)">МАСТЕР 350</text>
+    <text x="440" y="45" font-size="11" text-anchor="middle" fill="#3d2b1f">рейка 200</text>
+    <text x="440" y="420" font-size="11" text-anchor="middle" fill="#3d2b1f">рейка 200</text>
+    <text x="820" y="230" font-size="11" text-anchor="middle" fill="#3d2b1f" transform="rotate(90 820 230)">рейка 200</text>
+    <g fill="#e8d5b5" stroke="#5c4030" stroke-width="1">
+      <rect x="200" y="-55" width="120" height="55" rx="2"/>
+      <rect x="380" y="-55" width="120" height="55" rx="2"/>
+      <rect x="560" y="-55" width="120" height="55" rx="2"/>
+      <rect x="200" y="440" width="120" height="55" rx="2"/>
+      <rect x="380" y="440" width="120" height="55" rx="2"/>
+      <rect x="560" y="440" width="120" height="55" rx="2"/>
+      <rect x="880" y="100" width="55" height="100" rx="2"/>
+      <rect x="880" y="240" width="55" height="100" rx="2"/>
+    </g>
+    <rect x="-70" y="120" width="70" height="200" rx="2" fill="#d4b896" stroke="#5c4030" stroke-width="1.5"/>
+    <text x="-35" y="230" font-size="10" text-anchor="middle" fill="#3d2b1f" transform="rotate(-90 -35 230)">DM tray</text>
+    <g fill="none" stroke="#888" stroke-width="1">
+      <circle cx="230" cy="-28" r="8"/><circle cx="410" cy="-28" r="8"/><circle cx="590" cy="-28" r="8"/>
+      <circle cx="230" cy="468" r="8"/><circle cx="410" cy="468" r="8"/><circle cx="590" cy="468" r="8"/>
+    </g>
+    <rect x="20" y="160" width="90" height="60" rx="3" fill="#2c2c2c" opacity="0.85"/>
+    <text x="65" y="195" font-size="9" text-anchor="middle" fill="#eee">ноутбук</text>
+    <rect x="25" y="100" width="80" height="8" fill="#4a3728"/>
+    <text x="65" y="90" font-size="9" text-anchor="middle" fill="#3d2b1f">ширма</text>
+  </g>
+  <g transform="translate(40,600)">
+    <rect width="14" height="14" fill="#c4a574" stroke="#5c4030"/>
+    <text x="22" y="12" font-size="12" fill="#333">рейка / каркас</text>
+    <rect x="160" width="14" height="14" fill="#2a4a4a"/>
+    <text x="182" y="12" font-size="12" fill="#333">ниша + сукно</text>
+    <rect x="320" width="14" height="14" fill="#e8d5b5" stroke="#5c4030"/>
+    <text x="342" y="12" font-size="12" fill="#333">накладки игроков (8)</text>
+    <rect x="520" width="14" height="14" fill="#d4b896" stroke="#5c4030"/>
+    <text x="542" y="12" font-size="12" fill="#333">станция мастера</text>
+    <line x1="700" y1="7" x2="740" y2="7" stroke="#8b6914" stroke-dasharray="4 3"/>
+    <text x="750" y="12" font-size="12" fill="#333">полка под топпер</text>
+  </g>
+  <text x="40" y="670" font-size="11" fill="#777">Эхо рассвета - drafts/gaming-table - размеры мм</text>
+</svg></div>
+<div class="panel" id="p1" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" font-family="Arial, sans-serif">
+  <title>02 - Разрез А-А</title>
+  <rect width="1100" height="620" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700" fill="#1a1a1a">02 - Разрез А-А (поперечный)</text>
+  <text x="40" y="58" font-size="13" fill="#555">Рейка, полка, ниша 90 мм, сукно, топпер заподлицо, клит накладки</text>
+  <g transform="translate(80,100)">
+    <line x1="-20" y1="420" x2="900" y2="420" stroke="#999" stroke-width="1" stroke-dasharray="6 4"/>
+    <text x="-20" y="438" font-size="11" fill="#777">пол</text>
+    <rect x="40" y="200" width="36" height="220" fill="#8b7355" stroke="#5c4030" stroke-width="1.5"/>
+    <rect x="820" y="200" width="36" height="220" fill="#8b7355" stroke="#5c4030" stroke-width="1.5"/>
+    <rect x="40" y="160" width="816" height="50" fill="#c4a574" stroke="#5c4030" stroke-width="1.5"/>
+    <rect x="120" y="185" width="656" height="12" fill="#a08060" stroke="#5c4030" stroke-width="1"/>
+    <rect x="120" y="176" width="656" height="9" fill="#2a4a4a"/>
+    <rect x="40" y="100" width="120" height="40" fill="#c4a574" stroke="#5c4030" stroke-width="1.5"/>
+    <rect x="736" y="100" width="120" height="40" fill="#c4a574" stroke="#5c4030" stroke-width="1.5"/>
+    <rect x="120" y="140" width="16" height="45" fill="#b8956a" stroke="#5c4030" stroke-width="1"/>
+    <rect x="760" y="140" width="16" height="45" fill="#b8956a" stroke="#5c4030" stroke-width="1"/>
+    <rect x="136" y="148" width="12" height="12" fill="#8b6914" stroke="#5c4030" stroke-width="0.8"/>
+    <rect x="748" y="148" width="12" height="12" fill="#8b6914" stroke="#5c4030" stroke-width="0.8"/>
+    <rect x="148" y="100" width="588" height="18" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5"/>
+    <text x="442" y="113" font-size="11" text-anchor="middle" fill="#3d2b1f">топпер 18 мм - заподлицо с рейкой</text>
+    <line x1="100" y1="100" x2="100" y2="185" stroke="#c0392b" stroke-width="1.2"/>
+    <text x="88" y="150" font-size="12" fill="#c0392b" text-anchor="end" font-weight="600">90</text>
+    <line x1="40" y1="80" x2="160" y2="80" stroke="#333" stroke-width="1"/>
+    <text x="100" y="74" font-size="11" text-anchor="middle">200</text>
+    <line x1="900" y1="100" x2="900" y2="420" stroke="#333" stroke-width="1.2"/>
+    <text x="920" y="270" font-size="13" font-weight="600">750</text>
+    <path d="M856,100 L920,100 L920,130 L880,130 L880,145 L856,145 Z" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5"/>
+    <text x="888" y="118" font-size="10" text-anchor="middle" fill="#3d2b1f">tray</text>
+    <path d="M856,140 L870,140 L870,155 L840,155 L840,125 L856,125" fill="none" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="910" y="165" font-size="10" fill="#c0392b">клит</text>
+    <line x1="400" y1="180" x2="400" y2="250" stroke="#555" stroke-width="0.8"/>
+    <text x="400" y="268" font-size="12" text-anchor="middle" fill="#222">сукно / неопрен 3-4 мм</text>
+    <line x1="250" y1="191" x2="250" y2="300" stroke="#555" stroke-width="0.8"/>
+    <text x="250" y="318" font-size="12" text-anchor="middle" fill="#222">дно ниши 12 мм</text>
+    <line x1="142" y1="154" x2="200" y2="340" stroke="#8b6914" stroke-width="0.8"/>
+    <text x="200" y="358" font-size="12" text-anchor="middle" fill="#8b6914">полка 12x12</text>
+    <rect x="300" y="155" width="40" height="21" fill="#888" opacity="0.5"/>
+    <rect x="360" y="145" width="25" height="31" fill="#777" opacity="0.5"/>
+    <text x="340" y="140" font-size="9" text-anchor="middle" fill="#666">тиррейн до 70</text>
+  </g>
+  <g transform="translate(40,540)">
+    <text font-size="12" fill="#333" font-weight="600">Примечания</text>
+    <text y="20" font-size="12" fill="#444">1) Топпер лежит на полке; верх топпера = верх рейки.</text>
+    <text y="38" font-size="12" fill="#444">2) Глубина ниши 90 мм: около 70 мм под миниатюры + запас под топпер.</text>
+    <text y="56" font-size="12" fill="#444">3) Клит накладки опирается на внешнюю кромку рейки - без винтов в каркас.</text>
+  </g>
+</svg></div>
+<div class="panel" id="p2" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" font-family="Arial, sans-serif">
+  <title>03 - Мини-столик игрока</title>
+  <rect width="900" height="700" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700">03 - Накладной мини-столик игрока</text>
+  <text x="40" y="58" font-size="13" fill="#555">380 x 300 x 18 мм; слот гаджета; карман; подстаканник; клит</text>
+  <g transform="translate(80,100)">
+    <text x="0" y="-10" font-size="14" font-weight="600">Вид сверху</text>
+    <rect x="0" y="0" width="380" height="300" fill="#e8d5b5" stroke="#5c4030" stroke-width="2" rx="3"/>
+    <rect x="20" y="40" width="210" height="240" fill="none" stroke="#4a90a4" stroke-width="1.5" stroke-dasharray="6 4"/>
+    <text x="125" y="165" font-size="12" text-anchor="middle" fill="#4a90a4">зона A4</text>
+    <text x="125" y="182" font-size="10" text-anchor="middle" fill="#4a90a4">210 x 297</text>
+    <rect x="250" y="40" width="110" height="8" fill="#3d2b1f" rx="1"/>
+    <text x="305" y="30" font-size="11" text-anchor="middle" fill="#333">слот 8x120</text>
+    <rect x="250" y="70" width="80" height="80" fill="#c4b090" stroke="#5c4030" stroke-width="1" rx="2"/>
+    <text x="290" y="115" font-size="11" text-anchor="middle" fill="#333">карман</text>
+    <text x="290" y="130" font-size="10" text-anchor="middle" fill="#555">80x80x15</text>
+    <circle cx="305" cy="230" r="42" fill="none" stroke="#888" stroke-width="3"/>
+    <circle cx="305" cy="230" r="36" fill="#c0c0c0" stroke="#666" stroke-width="1"/>
+    <circle cx="305" cy="230" r="28" fill="#f5f2eb"/>
+    <text x="305" y="285" font-size="11" text-anchor="middle" fill="#333">D90-95 нерж.</text>
+    <line x1="0" y1="320" x2="380" y2="320" stroke="#333"/>
+    <text x="190" y="338" font-size="13" text-anchor="middle" font-weight="600">380</text>
+    <line x1="400" y1="0" x2="400" y2="300" stroke="#333"/>
+    <text x="418" y="150" font-size="13" font-weight="600">300</text>
+  </g>
+  <g transform="translate(80,500)">
+    <text x="0" y="-10" font-size="14" font-weight="600">Вид сбоку - клит на рейке</text>
+    <rect x="100" y="0" width="80" height="28" fill="#c4a574" stroke="#5c4030" stroke-width="1.5"/>
+    <text x="140" y="-4" font-size="10" text-anchor="middle" fill="#555">рейка стола</text>
+    <rect x="60" y="-2" width="160" height="14" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5"/>
+    <path d="M175,12 L175,40 L95,40 L95,12 L108,12 L108,28 L162,28 L162,12 Z" fill="#d4b896" stroke="#c0392b" stroke-width="1.5"/>
+    <text x="200" y="35" font-size="11" fill="#c0392b">клит (крюк)</text>
+    <text x="60" y="70" font-size="11" fill="#444">Накладка снимается вверх-наружу. Без винтов в каркас.</text>
+  </g>
+  <text x="520" y="120" font-size="13" fill="#333">Комплект: x8 шт.</text>
+  <text x="520" y="145" font-size="12" fill="#555">При 3 игроках - вешаем 3.</text>
+  <text x="520" y="168" font-size="12" fill="#555">Фреза: паз слота, карман,</text>
+  <text x="520" y="188" font-size="12" fill="#555">отверстие подстаканника</text>
+  <text x="520" y="208" font-size="12" fill="#555">коронкой D93-95.</text>
+</svg></div>
+<div class="panel" id="p3" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 680" font-family="Arial, sans-serif">
+  <title>04 - Станция мастера</title>
+  <rect width="950" height="680" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700">04 - Накладная станция мастера</text>
+  <text x="40" y="58" font-size="13" fill="#555">550 x 400 мм; ноутбук; ширма; заметки; лоток кубов; слот</text>
+  <g transform="translate(60,90)">
+    <rect x="0" y="0" width="550" height="400" fill="#d4b896" stroke="#5c4030" stroke-width="2" rx="3"/>
+    <rect x="20" y="30" width="320" height="220" fill="#c4a574" stroke="#4a90a4" stroke-width="1.5" stroke-dasharray="5 3" rx="2"/>
+    <rect x="50" y="70" width="260" height="160" rx="4" fill="#2c2c2c"/>
+    <rect x="60" y="80" width="240" height="130" rx="2" fill="#1a3a4a"/>
+    <text x="180" y="155" font-size="12" text-anchor="middle" fill="#8af">ноутбук 14-16"</text>
+    <text x="180" y="20" font-size="11" text-anchor="middle" fill="#4a90a4">свободная плоскость</text>
+    <rect x="20" y="270" width="320" height="50" fill="none" stroke="#8b4513" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <text x="180" y="300" font-size="12" text-anchor="middle" fill="#8b4513">зона опоры переносной ширмы</text>
+    <rect x="20" y="340" width="140" height="40" fill="#f8f4e8" stroke="#aaa" stroke-width="1"/>
+    <text x="90" y="365" font-size="11" text-anchor="middle" fill="#666">заметки A5</text>
+    <rect x="360" y="30" width="160" height="10" fill="#3d2b1f" rx="1"/>
+    <text x="440" y="22" font-size="11" text-anchor="middle">слот телефон / инициатива</text>
+    <rect x="360" y="60" width="160" height="200" rx="4" fill="#2a4a4a" stroke="#5c4030" stroke-width="1.5"/>
+    <text x="440" y="155" font-size="12" text-anchor="middle" fill="#cde">лоток кубов</text>
+    <text x="440" y="175" font-size="10" text-anchor="middle" fill="#9ab">160x200x40</text>
+    <rect x="390" y="200" width="22" height="22" rx="2" fill="#eee" transform="rotate(12 401 211)"/>
+    <rect x="430" y="210" width="22" height="22" rx="2" fill="#eee" transform="rotate(-8 441 221)"/>
+    <rect x="470" y="195" width="22" height="22" rx="2" fill="#eee" transform="rotate(5 481 206)"/>
+    <circle cx="440" cy="340" r="32" fill="none" stroke="#888" stroke-width="2"/>
+    <circle cx="440" cy="340" r="26" fill="#c0c0c0" opacity="0.7"/>
+    <text x="440" y="390" font-size="11" text-anchor="middle">подстаканник (опц.)</text>
+    <line x1="0" y1="420" x2="550" y2="420" stroke="#333"/>
+    <text x="275" y="438" font-size="13" text-anchor="middle" font-weight="600">550</text>
+    <line x1="570" y1="0" x2="570" y2="400" stroke="#333"/>
+    <text x="590" y="200" font-size="13" font-weight="600">400</text>
+  </g>
+  <g transform="translate(60,580)">
+    <text font-size="12" fill="#444">Вешается на расширенную рейку мастера (350 мм) тем же клитом.</text>
+    <text y="20" font-size="12" fill="#444">Ширма не крепится - только зона опоры. Розетки - удлинитель у ноги стола.</text>
+  </g>
+</svg></div>
+<div class="panel" id="p4" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" font-family="Arial, sans-serif">
+  <title>05 - Лоток и башня кубов</title>
+  <defs>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#c0392b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="720" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700">05 - Кубы: лоток и башня</text>
+  <text x="40" y="58" font-size="13" fill="#555">Этап 1 - механика без электроники; куб выкатывается гранью вверх</text>
+  <g transform="translate(60,100)">
+    <text x="0" y="-12" font-size="15" font-weight="600">А. Мягкий лоток (базовый)</text>
+    <rect x="0" y="0" width="250" height="180" fill="#2a4a4a" stroke="#5c4030" stroke-width="2" rx="4"/>
+    <rect x="0" y="0" width="250" height="180" fill="none" stroke="#c4a574" stroke-width="10" rx="4" opacity="0.5"/>
+    <rect x="8" y="8" width="234" height="164" fill="#2a4a4a" rx="2"/>
+    <text x="125" y="90" font-size="12" text-anchor="middle" fill="#cde">неопрен</text>
+    <rect x="100" y="110" width="28" height="28" rx="3" fill="#eee" transform="rotate(15 114 124)"/>
+    <text x="118" y="128" font-size="10" text-anchor="middle" fill="#333">6</text>
+    <line x1="0" y1="200" x2="250" y2="200" stroke="#333"/>
+    <text x="125" y="218" font-size="12" text-anchor="middle">250 x 180 x борт 45</text>
+    <text x="0" y="245" font-size="12" fill="#444">Навешивается клитом или стоит на рейке.</text>
+    <text x="0" y="265" font-size="12" fill="#444">Куб не улетает, грань читается.</text>
+  </g>
+  <g transform="translate(400,90)">
+    <text x="0" y="-12" font-size="15" font-weight="600">Б. Башня мастера (опционально)</text>
+    <rect x="80" y="20" width="70" height="220" fill="#c4a574" stroke="#5c4030" stroke-width="2"/>
+    <line x1="80" y1="70" x2="130" y2="90" stroke="#5c4030" stroke-width="3"/>
+    <line x1="100" y1="120" x2="150" y2="140" stroke="#5c4030" stroke-width="3"/>
+    <line x1="80" y1="170" x2="130" y2="190" stroke="#5c4030" stroke-width="3"/>
+    <path d="M70,20 L160,20 L145,5 L85,5 Z" fill="#b8956a" stroke="#5c4030" stroke-width="1.5"/>
+    <text x="115" y="-5" font-size="11" text-anchor="middle">вход куба</text>
+    <rect x="40" y="240" width="150" height="50" fill="#2a4a4a" stroke="#5c4030" stroke-width="2" rx="3"/>
+    <rect x="100" y="255" width="24" height="24" rx="2" fill="#eee"/>
+    <text x="112" y="272" font-size="10" text-anchor="middle" fill="#333">4</text>
+    <text x="115" y="310" font-size="12" text-anchor="middle">смотровой лоток</text>
+    <path d="M115,30 L115,55" stroke="#c0392b" stroke-width="1.5" fill="none" marker-end="url(#arr)"/>
+    <text x="170" y="100" font-size="11" fill="#c0392b">перекаты по полкам</text>
+    <text x="170" y="120" font-size="11" fill="#c0392b">выпадает гранью вверх</text>
+    <text x="0" y="350" font-size="12" fill="#444">Внутренние полки под ~35-40 град.</text>
+    <text x="0" y="370" font-size="12" fill="#444">Высота башни ~280-320 мм.</text>
+    <text x="0" y="390" font-size="12" fill="#444">Крепится к рейке мастера или стоит</text>
+    <text x="0" y="410" font-size="12" fill="#444">отдельно на станции DM.</text>
+  </g>
+  <g transform="translate(60,480)">
+    <rect width="880" height="180" rx="6" fill="#eee8dc" stroke="#c4a574" stroke-width="1"/>
+    <text x="20" y="30" font-size="14" font-weight="600">Этап 2 (не в базовой смете) - авточтение значений</text>
+    <text x="20" y="55" font-size="12" fill="#444">Камера над смотровым лотком + приложение OCR или готовый электронный трей.</text>
+    <text x="20" y="78" font-size="12" fill="#444">В каркас стола ничего не встраиваем: нет ТВ, нет скрытой проводки под кубы.</text>
+    <text x="20" y="101" font-size="12" fill="#444">Питание - USB power bank или удлинитель у ноги мастера.</text>
+    <text x="20" y="130" font-size="12" fill="#333" font-weight="600">Рекомендация:</text>
+    <text x="130" y="130" font-size="12" fill="#444">сначала лоток + башня; электронику - только если реально не хватает.</text>
+    <text x="20" y="155" font-size="12" fill="#444">В DIY "выдают значения" = башня выкатывает куб в лоток лицом вверх.</text>
+  </g>
+</svg></div>
+<div class="panel" id="p5" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" font-family="Arial, sans-serif">
+  <title>06 - Съёмный топпер</title>
+  <rect width="1000" height="620" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700">06 - Съёмный верхний стол (топпер)</text>
+  <text x="40" y="58" font-size="13" fill="#555">3 панели 18 мм; лежат на полке; заподлицо с рейкой</text>
+  <g transform="translate(80,100)">
+    <rect x="0" y="0" width="840" height="400" fill="none" stroke="#c4a574" stroke-width="20" opacity="0.4"/>
+    <rect x="20" y="20" width="800" height="360" fill="none" stroke="#8b6914" stroke-width="1" stroke-dasharray="4 3"/>
+    <rect x="30" y="30" width="250" height="340" fill="#e8d5b5" stroke="#5c4030" stroke-width="2"/>
+    <rect x="295" y="30" width="250" height="340" fill="#e8d5b5" stroke="#5c4030" stroke-width="2"/>
+    <rect x="560" y="30" width="250" height="340" fill="#e8d5b5" stroke="#5c4030" stroke-width="2"/>
+    <text x="155" y="200" font-size="14" text-anchor="middle" fill="#3d2b1f" font-weight="600">T1 мастер</text>
+    <text x="155" y="220" font-size="12" text-anchor="middle" fill="#555">~598 x 736</text>
+    <text x="420" y="200" font-size="14" text-anchor="middle" fill="#3d2b1f" font-weight="600">T2 центр</text>
+    <text x="420" y="220" font-size="12" text-anchor="middle" fill="#555">~598 x 736</text>
+    <text x="685" y="200" font-size="14" text-anchor="middle" fill="#3d2b1f" font-weight="600">T3 дальняя</text>
+    <text x="685" y="220" font-size="12" text-anchor="middle" fill="#555">~598 x 736</text>
+    <circle cx="285" cy="100" r="5" fill="#888"/>
+    <circle cx="285" cy="200" r="5" fill="#888"/>
+    <circle cx="285" cy="300" r="5" fill="#888"/>
+    <circle cx="550" cy="100" r="5" fill="#888"/>
+    <circle cx="550" cy="200" r="5" fill="#888"/>
+    <circle cx="550" cy="300" r="5" fill="#888"/>
+    <text x="420" y="390" font-size="11" text-anchor="middle" fill="#666">шканты D8 между панелями (3 на стык)</text>
+    <line x1="30" y1="420" x2="280" y2="420" stroke="#333"/>
+    <text x="155" y="438" font-size="12" text-anchor="middle">~598</text>
+    <line x1="860" y1="30" x2="860" y2="370" stroke="#333"/>
+    <text x="880" y="200" font-size="12" font-weight="600">~736</text>
+  </g>
+  <g transform="translate(40,560)">
+    <text font-size="12" fill="#444">Свет ниши 1800x700 - панели с зазором 2 мм по периметру и 2-3 мм на стыках.</text>
+    <text y="20" font-size="12" fill="#444">Уточнить размеры после сборки каркаса - снять фактический проём.</text>
+    <text y="40" font-size="12" fill="#444">Опционально: гравировка герба кампании на T2.</text>
+  </g>
+</svg></div>
+<div class="panel" id="p6" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="Arial, sans-serif">
+  <title>07 - Узел клита</title>
+  <rect width="900" height="580" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700">07 - Узел крепления накладки (клит)</text>
+  <text x="40" y="58" font-size="13" fill="#555">Профиль рейки и крюка; без винтов в каркас</text>
+  <g transform="translate(80,120)">
+    <rect x="200" y="80" width="160" height="70" fill="#c4a574" stroke="#5c4030" stroke-width="2"/>
+    <text x="280" y="120" font-size="13" text-anchor="middle" fill="#3d2b1f">рейка</text>
+    <text x="280" y="138" font-size="11" text-anchor="middle" fill="#555">толщина пакета ~40</text>
+    <rect x="80" y="78" width="320" height="22" fill="#e8d5b5" stroke="#5c4030" stroke-width="2"/>
+    <text x="140" y="94" font-size="11" fill="#3d2b1f">накладка 18</text>
+    <path d="M300,100 L300,175 L200,175 L200,100 L220,100 L220,155 L280,155 L280,100 Z" fill="#d4b896" stroke="#c0392b" stroke-width="2"/>
+    <text x="250" y="195" font-size="12" text-anchor="middle" fill="#c0392b" font-weight="600">клит</text>
+    <line x1="200" y1="100" x2="200" y2="155" stroke="#333" stroke-width="1"/>
+    <text x="185" y="130" font-size="11" text-anchor="end">зазор 1-2</text>
+    <line x1="220" y1="175" x2="280" y2="175" stroke="#333"/>
+    <text x="250" y="215" font-size="11" text-anchor="middle">захват от 45 мм по глубине</text>
+    <line x1="380" y1="80" x2="380" y2="150" stroke="#333"/>
+    <text x="400" y="120" font-size="12">~40</text>
+    <line x1="200" y1="50" x2="360" y2="50" stroke="#333"/>
+    <text x="280" y="42" font-size="12" text-anchor="middle">ширина рейки 200 (у мастера 350)</text>
+  </g>
+  <g transform="translate(80,400)">
+    <text font-size="14" font-weight="600">Изготовление клита</text>
+    <text y="24" font-size="12" fill="#444">1. Две полосы фанеры 18 мм: горизонтальная полка + вертикальная губа.</text>
+    <text y="46" font-size="12" fill="#444">2. Склеить / стянуть конфирматами в П-профиль под толщину рейки + 1-2 мм.</text>
+    <text y="68" font-size="12" fill="#444">3. Прикрутить снизу к накладке (винты 4x30 снизу вверх, потай).</text>
+    <text y="90" font-size="12" fill="#444">4. Войлочные наклейки внутри клита - не царапает рейку.</text>
+    <text y="112" font-size="12" fill="#444">Альтернатива: алюминиевый C-профиль - дороже, тоньше, долговечнее.</text>
+  </g>
+</svg></div>
+<div class="panel" id="p7" hidden><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Arial, sans-serif">
+  <title>08 - Взорванная сборка</title>
+  <rect width="1000" height="700" fill="#f5f2eb"/>
+  <text x="40" y="36" font-size="22" font-weight="700">08 - Сборка (взорванный вид)</text>
+  <text x="40" y="58" font-size="13" fill="#555">Порядок снизу вверх; см. также 05-assembly.md</text>
+  <g transform="translate(200,80)" opacity="0.95">
+    <rect x="40" y="0" width="400" height="28" fill="#e8d5b5" stroke="#5c4030" stroke-width="1.5" transform="skewX(-20)"/>
+    <text x="520" y="20" font-size="13" fill="#333">8. Топпер T1-T3</text>
+    <rect x="-30" y="50" width="80" height="40" fill="#d4b896" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <rect x="450" y="50" width="60" height="50" fill="#e8d5b5" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="75" font-size="13" fill="#333">7. Накладки (DM + игроки)</text>
+    <rect x="20" y="110" width="440" height="36" fill="#c4a574" stroke="#5c4030" stroke-width="1.5" transform="skewX(-20)"/>
+    <text x="520" y="135" font-size="13" fill="#333">6. Рейка + полка (ledge)</text>
+    <rect x="60" y="165" width="360" height="14" fill="#2a4a4a" stroke="#1a2a2a" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="178" font-size="13" fill="#333">5. Сукно / неопрен</text>
+    <rect x="60" y="195" width="360" height="16" fill="#a08060" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="210" font-size="13" fill="#333">4. Дно ниши 12 мм</text>
+    <rect x="40" y="230" width="400" height="40" fill="#b8956a" stroke="#5c4030" stroke-width="1.5" transform="skewX(-20)"/>
+    <text x="520" y="255" font-size="13" fill="#333">3. Стенки ниши + царги</text>
+    <rect x="50" y="290" width="30" height="100" fill="#8b7355" stroke="#5c4030" stroke-width="1"/>
+    <rect x="380" y="290" width="30" height="100" fill="#8b7355" stroke="#5c4030" stroke-width="1"/>
+    <rect x="60" y="280" width="340" height="20" fill="#9a8060" stroke="#5c4030" stroke-width="1" transform="skewX(-20)"/>
+    <text x="520" y="340" font-size="13" fill="#333">2. Ножки + нижняя обвязка</text>
+    <line x1="0" y1="420" x2="450" y2="420" stroke="#bbb" stroke-dasharray="6 4"/>
+    <text x="520" y="425" font-size="13" fill="#777">1. Пол / место установки</text>
+  </g>
+  <g transform="translate(40,540)">
+    <text font-size="13" font-weight="600">Критический порядок</text>
+    <text y="22" font-size="12" fill="#444">Каркас в квадрат - дно - сукно - рейка с полкой в одной плоскости - топпер по факту - накладки.</text>
+    <text y="44" font-size="12" fill="#444">Финиш (масло/лак) - до оклейки сукном и до установки подстаканников.</text>
+    <text y="66" font-size="12" fill="#444">Полная инструкция: 05-assembly.md</text>
+  </g>
+</svg></div></div></main>
+<footer>drafts/gaming-table - размеры в мм - стрелки влево/вправо переключают листы</footer>
+<script>
+const panels=[...document.querySelectorAll('.panel')];
+const buttons=[...document.querySelectorAll('nav button')];
+let cur=0;
+function show(i){
+  cur=i;
+  panels.forEach((p,idx)=>p.hidden=idx!==i);
+  buttons.forEach((b,idx)=>b.setAttribute('aria-current', idx===i?'true':'false'));
+}
+buttons.forEach(b=>b.addEventListener('click',()=>show(+b.dataset.i)));
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight') show((cur+1)%panels.length);
+  if(e.key==='ArrowLeft') show((cur-1+panels.length)%panels.length);
+});
+show(0);
+</script>
+</body>
+</html>
