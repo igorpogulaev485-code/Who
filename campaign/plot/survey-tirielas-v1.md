@@ -1,6 +1,6 @@
 ---
 title: Опрос — Тириэлас (мелкий город · Эллуэнар #3)
-status: open
+status: locked
 date: 2026-09-29
 tags: [survey, arc3, location, elluenar, tirielas]
 plan: ../prep/orchestrator/elluenar-sites-plan.md

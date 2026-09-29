@@ -29,7 +29,7 @@ map_lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
 |---:|---|---|---|---|
 | 1 | Серебряный Порог | город | city 24 | **done** |
 | 2 | Храм Серебряного Порога | site | site 5 | **done** |
-| **3** | **Тириэлас** | мелкий город | **следующий** · district/small-city | `survey-open` · [`survey-tirielas-v1`](../../plot/survey-tirielas-v1.md) |
+| **3** | **Тириэлас** | мелкий город · **Спарта Леса** | full · 12 мест · 5 side · spine 18–21 | **done** · [`gorod-tirielas`](../locations/gorod-tirielas/) · лок [`canon-lock-2026-09-29-tirielas-survey`](../../plot/canon-lock-2026-09-29-tirielas-survey.md) |
 | 4 | Линдэван | мелкий город | district/small-city | wait |
 | 5 | Нимралас | деревня | site / village | wait |
 | 6 | Эрелас | деревня | site / village | wait |
