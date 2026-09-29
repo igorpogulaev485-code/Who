@@ -1,7 +1,7 @@
 ---
 title: Промпты — город Серебряный Порог (визуал)
 status: active
-wave: A
+wave: A+B
 branch: cursor/serebryanyy-porog-city-bd87
 ---
 
