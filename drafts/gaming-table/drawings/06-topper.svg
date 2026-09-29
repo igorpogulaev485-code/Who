@@ -2,7 +2,7 @@
   <title>06  !JQ<=K9 B>??5@</title>
   <rect width="1000" height="620" fill="#f5f2eb"/>
   <text x="40" y="36" font-size="22" font-weight="700">06  !JQ<=K9 25@E=89 AB>; (B>??5@)</text>
-  <text x="40" y="58" font-size="13" fill="#555">3 ?0=5;8 18 << · ;560B =0 ledge · 70?>4;8F> A @59:>9</text>
+  <text x="40" y="58" font-size="13" fill="#555">3 ?0=5;8 18 << Â· ;560B =0 ledge Â· 70?>4;8F> A @59:>9</text>
 
   <g transform="translate(80,100)">
     <!-- Outer rail ghost -->
@@ -15,11 +15,11 @@
     <rect x="560" y="30" width="250" height="340" fill="#e8d5b5" stroke="#5c4030" stroke-width="2"/>
 
     <text x="155" y="200" font-size="14" text-anchor="middle" fill="#3d2b1f" font-weight="600">T1 <0AB5@</text>
-    <text x="155" y="220" font-size="12" text-anchor="middle" fill="#555">~598 × 736</text>
+    <text x="155" y="220" font-size="12" text-anchor="middle" fill="#555">~598 Ð§ 736</text>
     <text x="420" y="200" font-size="14" text-anchor="middle" fill="#3d2b1f" font-weight="600">T2 F5=B@</text>
-    <text x="420" y="220" font-size="12" text-anchor="middle" fill="#555">~598 × 736</text>
+    <text x="420" y="220" font-size="12" text-anchor="middle" fill="#555">~598 Ð§ 736</text>
     <text x="685" y="200" font-size="14" text-anchor="middle" fill="#3d2b1f" font-weight="600">T3 40;L=OO</text>
-    <text x="685" y="220" font-size="12" text-anchor="middle" fill="#555">~598 × 736</text>
+    <text x="685" y="220" font-size="12" text-anchor="middle" fill="#555">~598 Ð§ 736</text>
 
     <!-- Dowels between panels -->
     <circle cx="285" cy="100" r="5" fill="#888"/>
@@ -28,7 +28,7 @@
     <circle cx="550" cy="100" r="5" fill="#888"/>
     <circle cx="550" cy="200" r="5" fill="#888"/>
     <circle cx="550" cy="300" r="5" fill="#888"/>
-    <text x="420" y="390" font-size="11" text-anchor="middle" fill="#666">H:0=BK Ø8 <564C ?0=5;O<8 (3 =0 ABK:)</text>
+    <text x="420" y="390" font-size="11" text-anchor="middle" fill="#666">H:0=BK Ð¨8 <564C ?0=5;O<8 (3 =0 ABK:)</text>
 
     <!-- Dims -->
     <line x1="30" y1="420" x2="280" y2="420" stroke="#333"/>
@@ -38,8 +38,8 @@
   </g>
 
   <g transform="translate(40,560)">
-    <text font-size="12" fill="#444">!25B =8H8 1800×700 ’ ?0=5;8 A 707>@>< 2 << ?> ?5@8<5B@C 8 23 << =0 ABK:0E.</text>
+    <text font-size="12" fill="#444">!25B =8H8 1800Ð§700 â€™ ?0=5;8 A 707>@>< 2 << ?> ?5@8<5B@C 8 23 << =0 ABK:0E.</text>
     <text y="20" font-size="12" fill="#444">#B>G=8BL @07<5@K ?>A;5 A1>@:8 :0@:0A0  A=OBL D0:B8G5A:89 ?@>Q< 8 ?>4>3=0BL B>??5@ ?> <5ABC.</text>
-    <text y="40" font-size="12" fill="#444">?F8>=0;L=>: 3@028@>2:0 35@10 :0<?0=88 =0 T2 (;075@ / '#)  A<. <5@G «-E> @0AA25B0».</text>
+    <text y="40" font-size="12" fill="#444">?F8>=0;L=>: 3@028@>2:0 35@10 :0<?0=88 =0 T2 (;075@ / '#)  A<. <5@G Â«-E> @0AA25B0Â».</text>
   </g>
 </svg>
