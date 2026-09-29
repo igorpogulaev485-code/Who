@@ -10,7 +10,7 @@ tags: [visual, merch, parchment]
 Промпты и правила серии: [`../../prompts/parchment-posters.md`](../../prompts/parchment-posters.md)  
 Портреты-референсы из чарников: [`../portraits/`](../portraits/)
 
-Опрос текстов: [`../../prompts/poster-text-survey.md`](../../prompts/poster-text-survey.md)
+Опрос: [`../../prompts/poster-text-survey.md`](../../prompts/poster-text-survey.md) · ответы [`../../prompts/poster-text-answers-2026-09-29.md`](../../prompts/poster-text-answers-2026-09-29.md)
 
 ### A. Герои Аэлендора — синий сургуч
 
@@ -24,11 +24,11 @@ tags: [visual, merch, parchment]
 | `06-heroes-elarion.png` | Эларион |
 | `07-heroes-plach-zvezdy.png` | Плач звезды |
 
-### B. Розыск — красный сургуч
+### B. Особо опасен — красный сургуч
 
 | Файл | Кто |
 |---|---|
-| `00-wanted-kardian.png` | Кардиан |
+| `00-wanted-kardian.png` | Кардиан · особо опасен |
 | `08-wanted-innokentiy-bal.png` | Кеша · особо опасен |
 | `10-wanted-bagal.png` | Багал |
 | `12-wanted-tiara.png` | Тиара · предательница |
@@ -38,11 +38,11 @@ tags: [visual, merch, parchment]
 
 | Файл | Кто | Статус-слово |
 |---|---|---|
-| `09-notice-nevil.png` | Невил | РЕКОМЕНДАЦИЯ |
-| `13-notice-radonaar.png` | Радонаар | СЛУЖИТ ХРЕБТУ |
-| `14-notice-uorag.png` | Уораг | ИЗВЕСТЕН |
-| `16-notice-heskan.png` | Хескан | ИЗВЕСТЕН |
-| `17-honor-fioletovyy-zhab.png` | Фиолетовый Жаб | ЧЕСТЬ «БРОДЯГИ» |
+| `09-notice-nevil.png` | Невил | УВАЖАЕМЫЕ ГРАЖДАНЕ |
+| `13-notice-radonaar.png` | Радонаар | УВАЖАЕМЫЕ ГРАЖДАНЕ |
+| `14-notice-uorag.png` | Уораг | УВАЖАЕМЫЕ ГРАЖДАНЕ |
+| `16-notice-heskan.png` | Хескан | УВАЖАЕМЫЕ ГРАЖДАНЕ |
+| `17-honor-fioletovyy-zhab.png` | Фиолетовый Жаб | УВАЖАЕМЫЕ ГРАЖДАНЕ · честь «Бродяги» в тексте |
 
 ### D. Память
 

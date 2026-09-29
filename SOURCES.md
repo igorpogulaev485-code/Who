@@ -56,6 +56,7 @@ tags: [meta]
 | 2026-09-28 | `assets/character-sheets/{uorag,zevardu}.*` + portraits + posters | Уораг (нейтрально) и Зеварду (помощник Кардиана; зеркало/сова) |
 | 2026-09-28 | `assets/character-sheets/heskan.*` + portrait + notice | Хескан: проходной; нейтральное упоминание |
 | 2026-09-28 | `assets/character-sheets/fioletovyy-zhab.*` + canon portrait + honor poster | Фиолетовый Жаб: лист; LSS-арт архив; честь «Бродяги» |
+| 2026-09-29 | `assets/prompts/poster-text-answers-2026-09-29.md` + posters regen | Опрос текстов афиш; перегенерация A/B/C |
 | 2026-09-04 | `assets/maps/world-map-echo-dawn.jpg` | Карта мира от мастера → `world/locations/world-map.md` |
 | 2026-09-04 | `assets/maps/aelendor-map.jpg` | Карта Аэлендора → `world/locations/aelendor-map.md` |
 | 2026-09-04 | `assets/maps/lunnye-piki-map.jpg` | Карта провинции Лунные Пики → `world/locations/lunnye-piki-map.md` |
