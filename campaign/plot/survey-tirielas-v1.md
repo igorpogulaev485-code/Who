@@ -17,7 +17,8 @@ map: ../prep/locations/elluenar/map-brief.md
 Ответ: в чат `A=… B=… … J=…` или HTML → «Собрать ответы».
 
 HTML: [`survey-tirielas-v1.html`](survey-tirielas-v1.html)  
-Mirror (litterbox, ~72ч): *(залить после commit)*
+Mirror: litterbox с этой среды сейчас **412** — отвечай в чат `A=… J=…` или открой HTML из репо.  
+Запас (сырой HTML, ~3 дня): https://dpaste.com/GCWF36ME9.txt
 
 ---
 
