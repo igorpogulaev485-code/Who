@@ -17,6 +17,7 @@ tags: [meta, diy, gaming-table, furniture]
 | [03-bom.md](03-bom.md) | Спецификация материалов, смета, где купить (Леман ПРО + другое) |
 | [04-tools.md](04-tools.md) | Инструменты и расходники |
 | [05-assembly.md](05-assembly.md) | Порядок сборки, допуски, финиш |
+| [external-plans.md](external-plans.md) | Чужие чертежи/планы из интернета (бесплатные и платные) |
 | [viewer-standalone.html](viewer-standalone.html) | **Открывать этот файл** — чертежи вшиты, работает без интернета |
 | [viewer.html](viewer.html) | Упрощённый просмотр (нужны файлы из `drawings/`) |
 
