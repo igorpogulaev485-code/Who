@@ -23,7 +23,8 @@ lock: ../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md
 | 2 | `echo-dawn-quest-side` | `q-gorod-01…05` + bundle | `done` |
 | 2b | `echo-dawn-quest-side` | **q-gorod-06** флагманское расследование города | `done` |
 | 3 | `echo-dawn-quest-side` | **q-porcha-01** сыск → бой Чёрного Корня (Храм) | `done` |
-| 3v | `echo-dawn-visual-runbook` | Картинки города + сыск + порча → ранбук | `A+B+C done` |
+| 3v | `echo-dawn-visual-runbook` | Картинки города + сыск + порча → ранбук | `A+B+C done` |  
+| 3s | `echo-dawn-visual-runbook` | **Плотный spine вечера** 05/14→17 | `done` |  
 | 4 | `echo-dawn-location` | Остальные точки Эллуэнара | `wait` |
 
 ## Файлы города (готово)
