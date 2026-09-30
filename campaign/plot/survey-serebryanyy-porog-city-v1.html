@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Опрос — Серебряный Порог (город)</title>
+<style>
+  :root { --bg:#1a1f1c; --card:#243028; --fg:#e8efe6; --mut:#9aab9a; --acc:#6b9b6b; }
+  body { font-family: Georgia, "Times New Roman", serif; background: var(--bg); color: var(--fg);
+         max-width: 42rem; margin: 0 auto; padding: 1.5rem; line-height: 1.45; }
+  h1 { font-size: 1.35rem; margin: 0 0 .5rem; }
+  h2 { font-size: 1.05rem; color: var(--acc); margin: 1.4rem 0 .5rem; }
+  p, li { color: var(--mut); }
+  .card { background: var(--card); border-radius: 8px; padding: 1rem 1.1rem; margin: .7rem 0; }
+  label { display: block; margin: .35rem 0; color: var(--fg); }
+  select, textarea { width: 100%; box-sizing: border-box; margin-top: .25rem;
+    background: #151a16; color: var(--fg); border: 1px solid #3a4a3a; border-radius: 6px; padding: .45rem; }
+  textarea { min-height: 4.5rem; }
+  button { background: var(--acc); color: #0e140e; border: 0; border-radius: 6px;
+           padding: .55rem 1rem; font-weight: 700; cursor: pointer; margin-top: .8rem; }
+  #out { white-space: pre-wrap; font-family: ui-monospace, monospace; font-size: .85rem;
+         background: #101410; padding: .8rem; border-radius: 6px; margin-top: .8rem; }
+</style>
+</head>
+<body>
+<h1>Серебряный Порог — полный город</h1>
+<p>Партия у Храма. Нужен крупный город-песочница в Эллуэнаре. Выбери варианты → «Собрать ответы» → в чат агенту.</p>
+
+<div class="card">
+  <h2>A · Глубина первой волны</h2>
+  <select id="a">
+    <option value="a_full">Сразу весь город как Камнеград</option>
+    <option value="a_wave3">3 приоритетных района сейчас; остальное волной</option>
+    <option value="a_map_first">Сначала карта + каталог ~20 мест</option>
+    <option value="a_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>B · Размер / число зон</h2>
+  <select id="b">
+    <option value="b_seed5">Углубить 5 районов из seed</option>
+    <option value="b_big8">~8 районов (крупный хаб)</option>
+    <option value="b_kamne">Масштаб Камнеграда: ~20+ мест</option>
+    <option value="b_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>C · Тон города</h2>
+  <select id="c">
+    <option value="c_wood">Живое дерево / серебро коры (как seed)</option>
+    <option value="c_mixed">Эльфы + караваны / чужие кварталы</option>
+    <option value="c_gate">Крепость-ворота Леса</option>
+    <option value="c_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>D · Репутация −4</h2>
+  <select id="d">
+    <option value="d_soft">Цены/взгляды — активности открыты</option>
+    <option value="d_gate">Часть услуг закрыта без услуги/искупления</option>
+    <option value="d_hard">Почти всё закрыто; открыты порча и «грязная» работа</option>
+    <option value="d_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>E · Порча у портала</h2>
+  <select id="e">
+    <option value="e_side_now">Якорь + сразу quest-side после playbook</option>
+    <option value="e_anchor">Только якорь; quest позже</option>
+    <option value="e_temple">Вести из Храма; в городе слухи/наём</option>
+    <option value="e_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>F · Карта города</h2>
+  <select id="f">
+    <option value="f_yes">Numbered map + каталог (как Камнеград)</option>
+    <option value="f_later">Сначала текст; карта следующей волной</option>
+    <option value="f_no">Без карты города — хватит региональной</option>
+    <option value="f_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>G · После города</h2>
+  <select id="g">
+    <option value="g_city_only">Только город до следующего ok</option>
+    <option value="g_corruption">Город → порча → поселения</option>
+    <option value="g_seeds">Город + лёгкие seed по стрелкам</option>
+    <option value="g_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>H · Относительно Силвании</h2>
+  <select id="h">
+    <option value="h_hub">Крупный хаб; столица выше по статусу</option>
+    <option value="h_rival">Почти сопоставим со столицей (второй город)</option>
+    <option value="h_other">Другое / уточню в заметке</option>
+  </select>
+</div>
+
+<div class="card">
+  <h2>Заметка</h2>
+  <textarea id="note" placeholder="Приоритетные районы, обязательные активности, тон, что должно «залипать»…"></textarea>
+  <button type="button" onclick="collect()">Собрать ответы</button>
+  <div id="out"></div>
+</div>
+
+<script>
+function collect(){
+  const ids=['a','b','c','d','e','f','g','h'];
+  const lines=['## Ответы — Серебряный Порог (город)',''];
+  ids.forEach(id=>{
+    const el=document.getElementById(id);
+    lines.push('- **'+id.toUpperCase()+'**: `'+el.value+'`');
+  });
+  const note=document.getElementById('note').value.trim();
+  lines.push('');
+  lines.push('**Заметка:** '+(note||'(пусто)'));
+  document.getElementById('out').textContent=lines.join('\n');
+}
+</script>
+</body>
+</html>

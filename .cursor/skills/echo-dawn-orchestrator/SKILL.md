@@ -136,7 +136,10 @@ pandoc campaign/prep/orchestrator/<slug>-plan.md -o campaign/prep/orchestrator/<
 3. После ok — по порядку, например:  
    - `location` (playbook зоны)  
    - `quest-side` / `quest-main` (якоря + файлы)  
+   - `echo-dawn-visual-runbook` — **плотный вечерний spine/биты** (обязательный итог)  
    - при необходимости `artifact` / `state` / `book-chapter`  
+
+**Лок итога (2026-09-29):** пакет не `done`, пока в `arc*-visual-book` нет листа «открыл → ведёшь» (Как вести · Где · Сказать · RU · Стык · Стоп). Playbook/bundle — справочник, не замена spine. Эталон: дверь D `05/14`→`15`→`16`→`17`.
 4. В plan — чеклист файлов «готово к столу»
 
 NPC без отдельного скила: пока якоря в location playbook / quest; если объём большой → B3 (новый скил).

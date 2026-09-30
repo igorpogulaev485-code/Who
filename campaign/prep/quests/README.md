@@ -22,7 +22,8 @@ status: prep
 |---|---|---|---|
 | **A** · Купель (ворота) | q-kupel-01…02 | [`lunnyy-most/quests/`](../locations/lunnyy-most/quests/) | standalone / soft-arc |
 | **A** · Маяк душ | q-mayak-01…03 | [`mayak-dush/quests/`](../locations/mayak-dush/quests/) | standalone / soft-arc |
-| **D** · Серебряный Порог | q-porog-01…03 | **есть** | soft-arc |
+| **D** · Храм Серебряный Порог | q-porog-01…03 · **q-porcha-01** | **есть** | soft / hard-arc (порча) |
+| **D** · город Серебряный Порог | q-gorod-01…**06** | **есть** | soft-arc |
 | **F** · Серый Причал | q-prichal-01…03 | **есть** | standalone / soft-arc |
 | Лунный мост · камень | q-portal-stone | **есть** (вход mq-03) | hard-arc к двери D |
 
