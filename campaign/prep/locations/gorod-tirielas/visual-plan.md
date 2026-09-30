@@ -1,6 +1,6 @@
 ---
 title: "Тириэлас — план визуала"
-status: wave-b-done
+status: done
 date: 2026-09-29
 loc: gorod-tirielas
 runbook: ../../arc3-visual-book/chapters/05/18-тириэлас-spine.md
@@ -52,4 +52,4 @@ runbook: ../../arc3-visual-book/chapters/05/18-тириэлас-spine.md
 |---|---|
 | **A** + карта | **done** · вшито в 18/19/22 |
 | **B** | **done** · вшито в 20/21 |
-| C (квесты; карта уже есть) | wait · `го c` |
+| **C** | **done** · стан/склад/обломок/зал/кроны в 20/21 |
