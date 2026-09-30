@@ -38,4 +38,4 @@ Numbered map **v1** готова:
 - JPEG: [`../../../assets/images/runbook/maps/map-tirielas-numbered.jpg`](../../../assets/images/runbook/maps/map-tirielas-numbered.jpg)  
 - Копия: [`../../../assets/maps/gorod-tirielas/tirielas-city-map-v1.jpg`](../../../assets/maps/gorod-tirielas/tirielas-city-map-v1.jpg)  
 
-На карте — **только номера**; русские имена — в легенде листа 22 / [`places-catalog.md`](places-catalog.md).
+На карте: номера **+ панель легенды** (русские имена 1–12). Кто/квест — лист [22](../../arc3-visual-book/chapters/05/22-тириэлас-карта.md) / [`places-catalog.md`](places-catalog.md).
