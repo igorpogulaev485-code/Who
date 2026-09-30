@@ -1,11 +1,12 @@
 ---
 id: orch-elluenar-sites
 title: "План — все точки Эллуэнара (кроме уже готовых 1–2)"
-status: wait-ok
-source: gm-2026-09-29
+status: in-progress
+source: gm-2026-09-30
 branch: cursor/serebryanyy-porog-city-bd87
 map: ../locations/elluenar/map.md
 map_lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
+active: lindewan-plan.md
 ---
 
 # План — точки региона Эллуэнар
@@ -18,7 +19,7 @@ map_lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
 ## Шаг 0 · канон
 
 - Карта **LOCKED v11**: 11 точек + 3 указателя.  
-- Готово: **#1** город [`gorod-serebryanyy-porog`](../locations/gorod-serebryanyy-porog/) · **#2** Храм [`serebryanyy-porog`](../locations/serebryanyy-porog/) · вечер spine 05/14–17.  
+- Готово: **#1** город [`gorod-serebryanyy-porog`](../locations/gorod-serebryanyy-porog/) · **#2** Храм [`serebryanyy-porog`](../locations/serebryanyy-porog/) · **#3** [`gorod-tirielas`](../locations/gorod-tirielas/).  
 - Имена точек — [`canon-lock-2026-09-27-les-elluenar-region.md`](../../plot/canon-lock-2026-09-27-les-elluenar-region.md).
 
 ## Очередь (без исключений)
@@ -29,8 +30,8 @@ map_lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
 |---:|---|---|---|---|
 | 1 | Серебряный Порог | город | city 24 | **done** |
 | 2 | Храм Серебряного Порога | site | site 5 | **done** |
-| **3** | **Тириэлас** | мелкий город · **Спарта Леса** | full · 12 мест · 5 side · spine 18–21 | **done** · [`gorod-tirielas`](../locations/gorod-tirielas/) · лок [`canon-lock-2026-09-29-tirielas-survey`](../../plot/canon-lock-2026-09-29-tirielas-survey.md) |
-| 4 | Линдэван | мелкий город | district/small-city | wait |
+| 3 | Тириэлас | мелкий город · **Спарта Леса** | full · 12 мест · 5 side · spine 18–22 | **done** · [`gorod-tirielas`](../locations/gorod-tirielas/) · лок [`canon-lock-2026-09-29-tirielas-survey`](../../plot/canon-lock-2026-09-29-tirielas-survey.md) |
+| **4** | **Линдэван** | мелкий город · речной/песенный посад | small-city | **опрос** · [`lindewan-plan.md`](lindewan-plan.md) · [`survey-lindewan-v1`](../../plot/survey-lindewan-v1.md) |
 | 5 | Нимралас | деревня | site / village | wait |
 | 6 | Эрелас | деревня | site / village | wait |
 | 7 | Лаэлин | деревня | site / village | wait |
@@ -50,22 +51,22 @@ map_lock: ../../plot/canon-lock-2026-09-28-elluenar-map-v11.md
 
 Итог точки ≠ playbook alone → **бит «открыл и ведёшь»**.
 
-## Почему следующая = Тириэлас
+## Почему сейчас = Линдэван
 
-- На тропе **Храм ↔ город ↔ Тириэлас / Линдэван**.  
-- Ближайший **новый** населённый пункт внутрь леса / к стрелке Силвания.  
-- Линдэван (#4) — сразу после него (вторая дуга).
+- Тириэлас **done**.  
+- На тропе **город ↔ Тириэлас / Линдэван** — второй мелкий город дуги.  
+- Силуэт: **речной/песенный посад** (контраст Спарте).
 
 ## Не делаем в этом плане
 
 - Полный playbook Силвании / Мирового Древа / монастыря Рубежа  
 - Перерисовка LOCKED v11  
 
-## Опрос перед Тириэласом
+## Опрос перед Линдэваном
 
-Открыт: [`survey-tirielas-v1.md`](../../plot/survey-tirielas-v1.md) · HTML [`survey-tirielas-v1.html`](../../plot/survey-tirielas-v1.html).  
-Блоки A–J: масштаб, тон дозора, роль, −4, mq-03, кризис, side, карта, очередь.
+Открыт: [`survey-lindewan-v1.md`](../../plot/survey-lindewan-v1.md) · HTML [`survey-lindewan-v1.html`](../../plot/survey-lindewan-v1.html).  
+Блоки A–J: масштаб, тон песни/реки, роль vs Тириэлас, −4, mq-03, кризис, side, карта, очередь.
 
 ---
 
-**Жду ответы:** `A=… J=…` или HTML «Собрать ответы».
+**Жду ответы по #4:** `A=… J=…` или HTML «Скопировать ответы».
