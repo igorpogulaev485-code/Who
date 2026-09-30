@@ -31,7 +31,7 @@ active: lindewan-plan.md
 | 1 | Серебряный Порог | город | city 24 | **done** |
 | 2 | Храм Серебряного Порога | site | site 5 | **done** |
 | 3 | Тириэлас | мелкий город · **Спарта Леса** | full · 12 мест · 5 side · spine 18–22 | **done** · [`gorod-tirielas`](../locations/gorod-tirielas/) · лок [`canon-lock-2026-09-29-tirielas-survey`](../../plot/canon-lock-2026-09-29-tirielas-survey.md) |
-| **4** | **Линдэван** | мелкий город · речной/песенный посад | small-city | **опрос** · [`lindewan-plan.md`](lindewan-plan.md) · [`survey-lindewan-v1`](../../plot/survey-lindewan-v1.md) |
+| **4** | **Линдэван** | мелкий город · приют + разведка | full · 12 мест · 5 side | **in-progress** · [`gorod-lindewan`](../locations/gorod-lindewan/) · лок [`canon-lock-2026-09-30-lindewan-survey`](../../plot/canon-lock-2026-09-30-lindewan-survey.md) · [`lindewan-plan.md`](lindewan-plan.md) |
 | 5 | Нимралас | деревня | site / village | wait |
 | 6 | Эрелас | деревня | site / village | wait |
 | 7 | Лаэлин | деревня | site / village | wait |
