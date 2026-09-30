@@ -19,7 +19,7 @@ runbook: ../../arc3-visual-book/chapters/05/18-тириэлас-spine.md
 | 2 | `loc-tir-02-guest-yard.jpg` | #2 двор «Сухой лист» |
 | 3 | `loc-tir-03-agoge.jpg` | #3 Плац Агогэ |
 | 4 | `npc-tir-kaenor.jpg` | Каэнор Железный Корень |
-| 5 | `npc-tir-iluен.jpg` | Илуэн Колючий Щит |
+| 5 | `npc-tir-iluen.jpg` | Илуэн Колючий Щит |
 | 6 | `npc-tir-saeris.jpg` | Саэрис Гостевой |
 | 7 | `npc-tir-brennol.jpg` | Бреннол Кулак Мха |
 
