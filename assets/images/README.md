@@ -11,3 +11,10 @@
 | `kamnegrad-street-lava.png` | Камнеград — улица / лава | то же |
 | `kamnegrad-dragon-plaza.png` | Камнеград — площадь и дракон | то же |
 | `kamnegrad-elven-enclave.png` | Камнеград — эльфийский анклав | то же |
+| `lunnyy-most.jpg` | Лунный Мост — парящий священный град | генерация для набора |
+| `les-khraniteley.jpg` | Лес Хранителей — лесное государство | то же |
+| `plan-mertvykh.jpg` | План мёртвых внутри Разлома | то же |
+| `mertvyy-gorod.jpg` | Мёртвый город — время замерло | то же |
+| `imperiya-drakonyego-khrebta.jpg` | Империя Драконьего Хребта — город Пламени | то же |
+| `tg-channel-avatar.jpg` | Аватар Telegram-канала | генерация для канала |
+| `tg-channel-banner.jpg` | Баннер Telegram-канала | то же |
