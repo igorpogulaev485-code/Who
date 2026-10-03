@@ -16,3 +16,5 @@
 | `plan-mertvykh.jpg` | План мёртвых внутри Разлома | то же |
 | `mertvyy-gorod.jpg` | Мёртвый город — время замерло | то же |
 | `imperiya-drakonyego-khrebta.jpg` | Империя Драконьего Хребта — город Пламени | то же |
+| `tg-channel-avatar.jpg` | Аватар Telegram-канала | генерация для канала |
+| `tg-channel-banner.jpg` | Баннер Telegram-канала | то же |
