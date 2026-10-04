@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Festival pavilion tents for 28mm terrain — hollow interiors + removable roofs.
+"""Festival pavilion tents for 32mm terrain — hollow interiors + removable roofs.
 
 Inspired by festival/tournament pavilion style. Each tent exports:
   - *_walls.stl  : hollow shell, open bottom, large doorway(s), roof ledge
   - *_roof.stl   : removable lid so minis can be placed inside
   - *_preview.stl: walls+roof assembled (visual only)
 
-Clearance target for 28mm minis on 25mm bases:
-  door >= 26×34 mm, interior height under roof ledge >= 36 mm.
+Clearance target for 32mm minis (bases up to 28–32 mm):
+  door >= 32×42 mm, interior height under roof ledge >= 46 mm.
 """
 
 from __future__ import annotations
@@ -22,14 +22,14 @@ from trimesh.creation import box, cone, cylinder
 OUT = Path(__file__).resolve().parent / "stl"
 ENGINE = "manifold"
 
-# --- playability constants (mm) ---
-WALL_T = 2.0
-DOOR_W = 26.0
-DOOR_H = 34.0
-CLEAR_H = 38.0  # interior clear height to roof ledge
-LEDGE = 1.6  # roof seating ledge inward
-ROOF_OVERHANG = 1.5
-ROOF_THICK = 1.8
+# --- playability constants (mm), sized for 32mm miniatures ---
+WALL_T = 2.2
+DOOR_W = 32.0
+DOOR_H = 42.0
+CLEAR_H = 46.0  # interior clear height to roof ledge
+LEDGE = 1.8  # roof seating ledge inward
+ROOF_OVERHANG = 1.8
+ROOF_THICK = 2.0
 
 
 def U(parts: list[trimesh.Trimesh]) -> trimesh.Trimesh:
@@ -176,7 +176,7 @@ def fabric_ribs_circle(R: float, H: float, n: int = 16, door_angles: list[float]
     """Skip ribs near door angle(s) in degrees (0= +X, 90=+Y, default door at -Y = 270)."""
     ribs = []
     door_angles = door_angles if door_angles is not None else [270.0]
-    keepout = 28.0  # degrees
+    keepout = 40.0  # degrees — wide enough for 32mm door on small round tent
 
     def near_door(ang: float) -> bool:
         for d in door_angles:
@@ -475,52 +475,52 @@ def make_set(prefix: str, walls: trimesh.Trimesh, roof: trimesh.Trimesh) -> None
 
 
 def tent_01_small_round() -> None:
-    """Top-left: small conical round pavilion."""
-    R, H = 22.0, CLEAR_H
+    """Top-left: small conical round pavilion (fits one 32mm mini)."""
+    R, H = 28.0, CLEAR_H
     walls = circle_walls(R, H, door_count=1)
-    roof = circle_roof(R, peak_h=18, style="cone", finials="flag")
+    roof = circle_roof(R, peak_h=22, style="cone", finials="flag")
     make_set("01_small_round", walls, roof)
 
 
 def tent_02_long_double() -> None:
     """Top-middle: elongated double-peak with two doors."""
-    L, W, H = 70.0, 36.0, CLEAR_H
-    doors = [(-16.0, 0, -1), (16.0, 0, -1)]
+    L, W, H = 86.0, 46.0, CLEAR_H
+    doors = [(-20.0, 0, -1), (20.0, 0, -1)]
     walls = rect_walls(L, W, H, doors=doors)
-    roof = rect_roof(L, W, peak_h=16, style="double", finials="flag")
+    roof = rect_roof(L, W, peak_h=20, style="double", finials="flag")
     make_set("02_long_double", walls, roof)
 
 
 def tent_03_grand_awning() -> None:
     """Top-right: large round with front awning."""
-    R, H = 32.0, CLEAR_H + 2
+    R, H = 40.0, CLEAR_H + 2
     walls = circle_walls(R, H, door_count=1, awning=True)
-    roof = circle_roof(R, peak_h=14, style="multi", finials="ball")
+    roof = circle_roof(R, peak_h=18, style="multi", finials="ball")
     make_set("03_grand_awning", walls, roof)
 
 
 def tent_04_small_square() -> None:
     """Bottom-left: compact square single-peak."""
-    L = W = 34.0
+    L = W = 42.0
     H = CLEAR_H
     walls = rect_walls(L, W, H, doors=[(0.0, 0, -1)])
-    roof = rect_roof(L, W, peak_h=16, style="pyramid", finials="flag")
+    roof = rect_roof(L, W, peak_h=20, style="pyramid", finials="flag")
     make_set("04_small_square", walls, roof)
 
 
 def tent_05_ridge() -> None:
     """Bottom-middle: rectangular ridge with ball finials."""
-    L, W, H = 48.0, 34.0, CLEAR_H
+    L, W, H = 58.0, 42.0, CLEAR_H
     walls = rect_walls(L, W, H, doors=[(0.0, 0, -1)])
-    roof = rect_roof(L, W, peak_h=15, style="ridge", finials="ball")
+    roof = rect_roof(L, W, peak_h=18, style="ridge", finials="ball")
     make_set("05_ridge", walls, roof)
 
 
 def tent_06_triple() -> None:
     """Bottom-right: complex multi-peak rectangular."""
-    L, W, H = 56.0, 38.0, CLEAR_H + 1
+    L, W, H = 68.0, 46.0, CLEAR_H + 1
     walls = rect_walls(L, W, H, doors=[(0.0, 0, -1)])
-    roof = rect_roof(L, W, peak_h=17, style="triple", finials="ball")
+    roof = rect_roof(L, W, peak_h=20, style="triple", finials="ball")
     make_set("06_triple", walls, roof)
 
 
@@ -529,12 +529,12 @@ def camp_layout() -> None:
     specs = []
     # load previews if exist after generation — rebuild lightly
     positions = [
-        ("01", -80, 50),
-        ("02", 10, 55),
-        ("03", 95, 45),
-        ("04", -75, -45),
-        ("05", 5, -50),
-        ("06", 85, -45),
+        ("01", -100, 60),
+        ("02", 15, 65),
+        ("03", 120, 55),
+        ("04", -95, -55),
+        ("05", 10, -60),
+        ("06", 110, -55),
     ]
     # regenerate compact previews from functions by reading exported files
     parts = []
