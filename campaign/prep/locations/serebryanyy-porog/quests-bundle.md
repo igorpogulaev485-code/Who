@@ -6,7 +6,7 @@
 | q-porog-01 | Свиток, которого нет | micro | medium | soft-arc | [`q-porog-01.md`](q-porog-01.md) |
 | q-porog-02 | Не трогай камень | micro | medium | soft-arc | [`q-porog-02.md`](q-porog-02.md) |
 | q-porog-03 | Письмо в Силванию | session | medium | soft-arc | [`q-porog-03.md`](q-porog-03.md) |
-| q-porcha-01 | Чёрный корень у арки | arclet | critical | hard-arc | [`q-porcha-01.md`](q-porcha-01.md) |
+| q-porcha-01 | Чёрный корень у арки | arclet | critical | hard-arc | [`q-porcha-01.md`](q-porcha-01.md) **played · с.3** |
 
 Сборник: [`quests-bundle.md`](../quests-bundle.md)
 
@@ -301,7 +301,7 @@ tags: [quest, side, temple, silvania]
 ---
 id: q-porcha-01
 title: "Чёрный корень у арки"
-status: prep
+status: played
 loc_slug: serebryanyy-porog
 place: "1 · Площадка Порога · кромка порчи · городской наём"
 size_hint: arclet

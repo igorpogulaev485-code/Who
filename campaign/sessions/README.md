@@ -5,3 +5,4 @@
 | Файл | Что |
 |---|---|
 | [`arc3-s1s2-door-d-recap.md`](arc3-s1s2-door-d-recap.md) | Арка 3 · с.1–2 (похороны → Порог → суд) |
+| [`arc3-s3-serebryanyy-porog-city.md`](arc3-s3-serebryanyy-porog-city.md) | Арка 3 · с.3 (город Порог · порча · репутация) |
