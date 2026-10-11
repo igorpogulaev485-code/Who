@@ -49,7 +49,7 @@ source: gm-lock-round2 + player-briefs
 | Пробирка порчи | У партии → сдать друидам |
 | Плач / Разлом Леса | Всё ещё внутри; разведданные не получены |
 | Дранник | Не за столом |
-| ★ **Беженцы** | В **Серебряный Порог** прибывают беженцы из‑за войны в **Аэлендоре**; жителей это **пугает**. Player-facing: [`../sessions/player-briefs-porog-after-s3.md`](../sessions/player-briefs-porog-after-s3.md) |
+| Рынок / Грок | Просьба милостыни как **Герой Аэлендора** — народ **распугал**. Player-facing: [`../sessions/player-briefs-porog-after-s3.md`](../sessions/player-briefs-porog-after-s3.md) |
 
 ### Интерлюдия · книги
 
