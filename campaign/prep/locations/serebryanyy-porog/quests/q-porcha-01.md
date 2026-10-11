@@ -1,7 +1,7 @@
 ---
 id: q-porcha-01
 title: "Чёрный корень у арки"
-status: prep
+status: played
 loc_slug: serebryanyy-porog
 place: "1 · Площадка Порога · кромка порчи · городской наём"
 size_hint: arclet
@@ -9,7 +9,9 @@ priority: critical
 arc_link: hard-arc
 rules: dnd-5e-2014
 tags: [quest, side, temple, blight, investigation, combat]
-note: "Сначала расследование, потом бой. Игроки могут сжать/растянуть."
+note: "Сыгран на арке 3 с.3 — успех. Образцы порчи взяты в пробирку (друидам ещё не сданы). Детали улиц/боя TBD."
+played_session: arc3-s3
+lock: ../../../../plot/canon-lock-2026-10-11-arc3-s3.md
 ---
 
 # q-porcha-01 — Чёрный корень у арки

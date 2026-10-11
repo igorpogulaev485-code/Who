@@ -159,6 +159,7 @@
 - [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
 - [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
 - [Арка 3 · с.1–2 — дверь D / суд на Пороге](campaign/sessions/arc3-s1s2-door-d-recap.md) · [лок](campaign/plot/canon-lock-2026-09-27-recap-door-d.md)
+- [Арка 3 · с.3 — город Порог / порча](campaign/sessions/arc3-s3-serebryanyy-porog-city.md) · [лок](campaign/plot/canon-lock-2026-10-11-arc3-s3.md)
 - [Саэла Троповед](world/npcs/saela-tropoved.md)
 
 ## Подготовка (ещё не сыграно)
