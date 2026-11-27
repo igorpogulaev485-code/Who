@@ -90,6 +90,11 @@
 - [Культ Лолс](world/factions/kult-lols.md)
 - [Хвост Скорпиона](world/factions/khvost-skorpiona.md)
 - [Империя Драконьего Хребта](world/factions/imperiya-drakonyego-khrebta.md)
+- [Империя Звёздной Пыли](world/factions/imperiya-zvezdnoy-pyli.md) (карточка фракции; паспорт — в `states/`)
+- [Хостия](world/factions/khostiya.md)
+- [Дом Владыки](world/factions/dom-vladyki.md) · [9 кругов](world/locations/dom-vladyki-nine-circles.md) · [обитатели](world/locations/dom-vladyki-inhabitants.md)
+- [Хранители Граней](world/factions/khraniteli-graney.md) · [Столпы Мира](world/locations/stolpy-mira.md) (строго 4; Древо ≠ Столп)
+- [Верховный трибунал](world/factions/verkhovnyy-tribunal.md) · [Чёрная Просека](world/factions/chernaya-proseka.md) · [Паутина Росы](world/factions/pautina-rosy.md) · [Пепельный Договор](world/factions/pepelnyy-dogovor.md)
 
 ## NPC
 
@@ -150,6 +155,12 @@
 - [Вопросы мастеру](campaign/plot/canon-questions-for-gm.md)
 - [Канон-лок TG↔канон v3 (2026-09-05)](campaign/plot/canon-lock-2026-09-05-telegram-v3.md)
 - [Сверка вопросов TG](campaign/plot/canon-questions-telegram-reconcile.md) · [опрос v3](campaign/plot/canon-survey-v3-telegram.html)
+- [Фронты войны — старт арки 3](campaign/plot/war-fronts-arc3.md)
+- [Граница прошлого и будущего](campaign/plot/past-present-boundary.md) *(лок 2026-09-05)*
+- Локи Аэлендора 2026-09-05: [r1](campaign/plot/canon-lock-2026-09-05-aelendor-r1.md) · [r2](campaign/plot/canon-lock-2026-09-05-aelendor-r2.md) · [r3](campaign/plot/canon-lock-2026-09-05-aelendor-r3.md) · [синклит](campaign/plot/canon-lock-2026-09-05-aelendor-synklit.md) · [тень государства](campaign/plot/canon-lock-2026-09-05-aelendor-shadow-state.md) · [банды/трибунал](campaign/plot/canon-lock-2026-09-05-aelendor-gangs-tribunal.md) · [религия](campaign/plot/canon-lock-2026-09-05-aelendor-religion.md) · [пантеон](campaign/plot/canon-lock-2026-09-05-aelendor-pantheon.md) · [идентичность](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) · [касты](campaign/plot/canon-lock-2026-09-05-aelendor-caste-look.md) · [праздники](campaign/plot/canon-lock-2026-09-05-aelendor-festivals.md) · [народности](campaign/plot/canon-lock-2026-09-05-aelendor-peoples.md) · [языки](campaign/plot/canon-lock-2026-09-05-aelendor-languages.md) · [двор](campaign/plot/canon-lock-2026-09-05-aelendor-court.md) · [армия](campaign/plot/canon-lock-2026-09-05-aelendor-army.md) · [флот](campaign/plot/canon-lock-2026-09-05-aelendor-fleet.md) · [экономика](campaign/plot/canon-lock-2026-09-05-aelendor-economy.md) · [гражданство](campaign/plot/canon-lock-2026-09-05-aelendor-citizenship.md) · [образование](campaign/plot/canon-lock-2026-09-05-aelendor-education.md) · [быт Лунного Моста](campaign/plot/canon-lock-2026-09-05-lunnyy-most-atmosphere.md) · [Хранители Граней](campaign/plot/canon-lock-2026-09-05-khraniteli-graney.md)
+- Локи Дома Владыки / Разлома: [вход](campaign/plot/canon-lock-2026-09-05-razlom-entry.md) · [круги](campaign/plot/canon-lock-2026-09-05-razlom-to-circles.md) · [идентичность](campaign/plot/canon-lock-2026-09-05-demon-plane-identity.md) · [Асмодей](campaign/plot/canon-lock-2026-09-05-demon-plane-asmodey.md) · [космология](campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка](campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md) · [ворота](campaign/plot/canon-lock-2026-09-05-demon-plane-gates.md) · [обитатели](campaign/plot/canon-lock-2026-09-05-demon-plane-inhabitants.md) · [тифлинги](campaign/plot/canon-lock-2026-09-06-demon-plane-tieflings.md) · [города](campaign/plot/canon-lock-2026-09-06-demon-plane-cities-approach.md) · [ракурсы портрета](campaign/plot/canon-lock-2026-09-06-sense-portrait-angles.md)
+- Skills: [form-state](.cursor/skills/form-state/SKILL.md) · [form-city](.cursor/skills/form-city/SKILL.md)
+
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md) *(арка Кеши закрыта — мёртв)*
 
 ## Книги для игроков
