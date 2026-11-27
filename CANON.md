@@ -214,6 +214,16 @@
 - [Камнеград — дракон / глашатай](campaign/prep/kamnegrad-dragon.md)
 - [Бой 3 — Разлом Седого Пепла](rules/encounters/03-ashrime-rift-white-dragon.md)
 
+## Визуальный пакет (стол)
+
+- [Ранбук арки 3](campaign/prep/arc3-visual-book/README.md) (хаб: индекс + листы)
+- [Скил визуального ранбука](.cursor/skills/echo-dawn-visual-runbook/SKILL.md) · [лок v1](campaign/plot/skill-lock-visual-runbook-v1.md)
+- [План визуалов НПС арки 3](campaign/prep/arc3-npc-visual-plan.md) · [план локаций](campaign/prep/arc3-location-visual-plan.md)
+- [Промпты: Лунный Мост, с.1](assets/prompts/lunnyy-most-arc3-s1.md) · [локации арки 3](assets/prompts/arc3-locations.md)
+- Референсы фестиваля: [`assets/images/lunnyy-most-festival-ref/`](assets/images/lunnyy-most-festival-ref/)
+- Портреты / локации: [`assets/images/npc/`](assets/images/npc/) · [`assets/images/locations/`](assets/images/locations/)
+- Экспорт скилов в D&D: [`campaign/prep/SKILLS-EXPORT-TO-DND.md`](campaign/prep/SKILLS-EXPORT-TO-DND.md)
+
 ## Визуальные промпты
 
 - [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md) → [картинка](assets/images/scorpion-tail-mark.png)
