@@ -1,14 +1,23 @@
 ---
 title: Дебафы артефактов Кардиана — варианты на 3 шт.
-status: draft
+status: superseded
 tags: [artifacts, rules]
 source: qwen-proposal
 share_url: https://chat.qwen.ai/s/990659a6-170d-45ab-9e34-123b38249eb3
+superseded_by: world/lore/artefacts-kardian.md
 ---
 
-# Черновик: постоянные дебафы за 3 артефакта
+# Снято: черновик дебафов за 3 артефакта
 
-Мастер: дебафы должны быть **постоянными** (не через спасброски «отменить»). Выбор варианта **ещё не сделан**.
+**Статус:** superseded (2026-09-07).
+
+Мастер зафиксировал полную шкалу 1–6 в каноне: [`world/lore/artefacts-kardian.md`](../world/lore/artefacts-kardian.md).
+
+Архив чата Qwen с ранними вариантами: `drafts/imports/qwen-kardian-artifacts-debuffs.md`.
+
+---
+
+Ниже — старый текст черновика (не использовать в игре).
 
 ## Вариант 1: «Отравленная кровь жизни»
 
@@ -27,5 +36,3 @@ share_url: https://chat.qwen.ai/s/990659a6-170d-45ab-9e34-123b38249eb3
 - Постоянная **помеха на все проверки Ловкости**  
 - **Реакция недоступна**  
 - Нарратив: часы сбиваются; «зависание» вокруг  
-
-Полный архив чата (включая ранние таблицы 1–6 и не-постоянные варианты): `drafts/imports/qwen-kardian-artifacts-debuffs.md`.

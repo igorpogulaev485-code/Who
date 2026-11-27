@@ -15,6 +15,7 @@
 - [Архив: ваншот Первого Разлома](drafts/imports/qwen-oneshot-first-razlom.md)
 - [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
 - [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
+- [Архив (сырой JSON): Кардиан — суть и сны](drafts/imports/qwen-kardian-essence-dreams.json) · текст: [`qwen-kardian-essence-dreams.md`](drafts/imports/qwen-kardian-essence-dreams.md)
 - [Архив: региональные центры Аэлендора](drafts/imports/qwen-aelendor-regional-centers.md)
 - [Архив: визуализация Камнеграда](drafts/imports/qwen-kamnegrad-viz.md)
 - [Архив: глашатай о драконе](drafts/imports/qwen-herald-dragon.md)
@@ -119,6 +120,7 @@
 - [Элиан Вечный Узел](world/npcs/elian.md) — капитан (FrostWarden); маг Купели; двери A/F
 - [Элеонора](world/npcs/eleonora.md) — сценаристка «Зеркала Судьбы»; агент Теневой Долины; раскрыта Болтаном → убита Велианом
 - [Кардиан](world/npcs/kardian.md) — антагонист арки 5; жена **Аэлиндра**; сны эмпатии → ранбук [гл. 19](campaign/prep/arc3-visual-book/chapters/19-index.md)
+- [Ретро-диалог Грок ↔ Маэстро](campaign/prep/grok-maestro-retrospective.md) *(draft)*
 - [Сильванара](world/npcs/silvanara.md) — мать Люмиэля; слух о престоле
 - [Люмиэль](world/npcs/lumiel.md) — король Аэлендора; **мёртв** (зеркало/портал → Разлом); кадр: инкогнито в таверне
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
