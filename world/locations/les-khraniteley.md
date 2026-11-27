@@ -13,7 +13,7 @@ source: gm-lock-round2
 **Столица:** **Силвания** (лок 2026-09-22).  
 Не путать с **Сильванор** (столица Аэлендора). В открытых книгах «Сильвания» часто = древний эльфийский край / Мировое Древо — тот же культурный корень; актуальная столица государства пишем **Силвания**.
 
-Карта: [`world-map.md`](world-map.md)
+Карта мира: [`world-map.md`](world-map.md) · карта государства: [`les-khraniteley-map.md`](les-khraniteley-map.md) → [`../../assets/maps/les-khraniteley-map-locked.jpg`](../../assets/maps/les-khraniteley-map-locked.jpg)
 
 ## Устои
 

@@ -47,6 +47,7 @@
 - [Карта Аэлендора](world/locations/aelendor-map.md) → [`assets/maps/aelendor-map.jpg`](assets/maps/aelendor-map.jpg)
 - [Карта Лунных Пиков](world/locations/lunnye-piki-map.md) → [`assets/maps/lunnye-piki-map.jpg`](assets/maps/lunnye-piki-map.jpg)
 - [Карта Ледяного Союза](world/locations/ledyanoy-soyuz-map.md) → [`assets/maps/ledyanoy-soyuz-map-locked.jpg`](assets/maps/ledyanoy-soyuz-map-locked.jpg) **(LOCKED)**
+- [Карта Леса Хранителей](world/locations/les-khraniteley-map.md) → [`assets/maps/les-khraniteley-map-locked.jpg`](assets/maps/les-khraniteley-map-locked.jpg) · контур [`les-khraniteley-contour-locked.jpg`](assets/maps/les-khraniteley-contour-locked.jpg) **(LOCKED 2026-09-22)**
 - [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
 - [Государства мира](world/locations/states-overview.md)
 - [Ледяной Союз](world/locations/states/ledyanoy-soyuz.md) (столица **Гирмхельм**; Совет; воентан **Дунгар Седощит**)
@@ -64,7 +65,7 @@
 - [Камнеград](world/locations/kamnegrad.md)
 - [Белый шип](world/locations/belyy-ship.md) · [Туманный клык](world/locations/tumannyy-klyk.md) · [Тихий брод](world/locations/tikhiy-brod.md)
 - [Чаша Шепотов](world/locations/chasha-shepotov.md) · [Поле павших героев](world/locations/pole-pavshikh-geroev.md)
-- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор; столица **Силвания**)
+- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор; столица **Силвания**) · паспорт [`states/les-khraniteley.md`](world/locations/states/les-khraniteley.md)
 - [Элдеринская гавань](world/locations/elderinskaya-gavan.md) (отдельное государство; ≠ Ульфгард)
 - [Розалия](world/locations/rozaliya.md)
   - [НПС](world/locations/rozaliya/npcs.md)
@@ -162,6 +163,8 @@
 - Локи Аэлендора 2026-09-05: [r1](campaign/plot/canon-lock-2026-09-05-aelendor-r1.md) · [r2](campaign/plot/canon-lock-2026-09-05-aelendor-r2.md) · [r3](campaign/plot/canon-lock-2026-09-05-aelendor-r3.md) · [синклит](campaign/plot/canon-lock-2026-09-05-aelendor-synklit.md) · [тень государства](campaign/plot/canon-lock-2026-09-05-aelendor-shadow-state.md) · [банды/трибунал](campaign/plot/canon-lock-2026-09-05-aelendor-gangs-tribunal.md) · [религия](campaign/plot/canon-lock-2026-09-05-aelendor-religion.md) · [пантеон](campaign/plot/canon-lock-2026-09-05-aelendor-pantheon.md) · [идентичность](campaign/plot/canon-lock-2026-09-05-aelendor-identity.md) · [касты](campaign/plot/canon-lock-2026-09-05-aelendor-caste-look.md) · [праздники](campaign/plot/canon-lock-2026-09-05-aelendor-festivals.md) · [народности](campaign/plot/canon-lock-2026-09-05-aelendor-peoples.md) · [языки](campaign/plot/canon-lock-2026-09-05-aelendor-languages.md) · [двор](campaign/plot/canon-lock-2026-09-05-aelendor-court.md) · [армия](campaign/plot/canon-lock-2026-09-05-aelendor-army.md) · [флот](campaign/plot/canon-lock-2026-09-05-aelendor-fleet.md) · [экономика](campaign/plot/canon-lock-2026-09-05-aelendor-economy.md) · [гражданство](campaign/plot/canon-lock-2026-09-05-aelendor-citizenship.md) · [образование](campaign/plot/canon-lock-2026-09-05-aelendor-education.md) · [быт Лунного Моста](campaign/plot/canon-lock-2026-09-05-lunnyy-most-atmosphere.md) · [Хранители Граней](campaign/plot/canon-lock-2026-09-05-khraniteli-graney.md)
 - Локи Дома Владыки / Разлома: [вход](campaign/plot/canon-lock-2026-09-05-razlom-entry.md) · [круги](campaign/plot/canon-lock-2026-09-05-razlom-to-circles.md) · [идентичность](campaign/plot/canon-lock-2026-09-05-demon-plane-identity.md) · [Асмодей](campaign/plot/canon-lock-2026-09-05-demon-plane-asmodey.md) · [космология](campaign/plot/canon-lock-2026-09-05-demon-plane-cosmology.md) · [девятка](campaign/plot/canon-lock-2026-09-05-demon-plane-nine-circles.md) · [ворота](campaign/plot/canon-lock-2026-09-05-demon-plane-gates.md) · [обитатели](campaign/plot/canon-lock-2026-09-05-demon-plane-inhabitants.md) · [тифлинги](campaign/plot/canon-lock-2026-09-06-demon-plane-tieflings.md) · [города](campaign/plot/canon-lock-2026-09-06-demon-plane-cities-approach.md) · [ракурсы портрета](campaign/plot/canon-lock-2026-09-06-sense-portrait-angles.md)
 - Skills: [form-state](.cursor/skills/form-state/SKILL.md) · [form-city](.cursor/skills/form-city/SKILL.md)
+- Локи карты Леса Хранителей (2026-09-22): [полный locked](campaign/plot/canon-lock-2026-09-22-les-khraniteley-full-map.md) · [контур](campaign/plot/canon-lock-2026-09-22-les-khraniteley-contour.md) · [terrain 1.1](campaign/plot/canon-lock-2026-09-22-les-khraniteley-stage1-1-terrain.md) · этапы [`les-khraniteley-map-stages.md`](campaign/prep/locations/les-khraniteley-map-stages.md)
+
 
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md) *(арка Кеши закрыта — мёртв)*
 
