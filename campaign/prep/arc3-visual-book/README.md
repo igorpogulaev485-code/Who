@@ -2,14 +2,14 @@
 title: "Ранбук · Арка 3"
 status: active
 tags: [gm, runbook, arc3]
-updated: 2026-09-24
+updated: 2026-09-28
 format: blocks-hub
 ---
 
 # Ранбук · Арка 3
 
-Картинки — публичный HTTPS + **⬇ скачать**. Проверки — по-русски (Сл).  
-**Формат бита:** индекс → лист (Как вести · Где · Сказать · Стоп). Эталон: [`18/02`](chapters/18/02-2.1-три-пути.md).
+Картинки — **публичный raw GitHub** (`raw.githubusercontent.com/…/assets/…`) + **⬇ скачать**. Без iili/litter.  
+Проверки — по-русски (Сл). **Формат бита:** индекс → лист. Эталон: [`18/02`](chapters/18/02-2.1-три-пути.md).
 
 **Ранбук ≠ канон.** Здесь — портал за стол. Истина мира растёт в каноне; сюда — ссылки + сжатые шпаргалки. Prep-биты остаются prep, пока не сыграли.
 
@@ -53,7 +53,7 @@ format: blocks-hub
 | 2 | **[Сессия 1 · хаб](chapters/02-index.md)** | похороны |
 | 3 | [Дверь A](chapters/03-index.md) | Маяк · фиолетовый |
 | 4 | [Дверь F](chapters/04-index.md) | Причал · чёрный |
-| 5 | [Дверь D](chapters/05-index.md) | Лес / Порог |
+| 5 | [Дверь D](chapters/05-index.md) | Лес / Порог · вечер: **[05/14 spine](chapters/05/14-вечер-spine.md)** → 15→16→17 |
 | 6–8 | [E · льды](chapters/06-index.md) · [меч](chapters/07-index.md) · [сапоги](chapters/08-index.md) | mq-06 |
 | 9 | [Дверь B](chapters/09-index.md) | дневник |
 | 10 | [Дверь C](chapters/10-index.md) | Милана |
@@ -61,7 +61,7 @@ format: blocks-hub
 | **18** | **[Дверь R](chapters/18-index.md)** | воскрешение · с.2 |
 | **19** | **[Сны Кардиана](chapters/19-index.md)** | эмпатия Грока |
 
-**Приложения стола** (не вики мира): [вставки 13](chapters/13-index.md) · [playbook 14](chapters/14-index.md) · [spine 15](chapters/15-index.md) · [совет 16](chapters/16-index.md)
+**Приложения стола** (не вики мира): [вставки 13](chapters/13-index.md) · [playbook 14](chapters/14-index.md) *(Храм + **город** Порог 05–09)* · [spine 15](chapters/15-index.md) · [совет 16](chapters/16-index.md)
 
 ---
 

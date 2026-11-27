@@ -18,9 +18,9 @@ title: "Планы Разлома (LOCKED)"
 
 ### Атлас плана демонов · 9 государств (LOCKED v24)
 
-![Атлас демонов v24](https://litter.catbox.moe/ai8w0e.jpg)
+![Атлас демонов v24](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/maps/demon-plane/demon-plane-atlas-locked.jpg)
 
-> **Кадр:** Атлас Девяти Кругов · LOCKED v24 · [⬇ скачать](https://litter.catbox.moe/ai8w0e.jpg)
+> **Кадр:** Атлас Девяти Кругов · LOCKED v24 · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/maps/demon-plane/demon-plane-atlas-locked.jpg)
 
 | # | Государство |
 |---:|---|
@@ -40,9 +40,9 @@ title: "Планы Разлома (LOCKED)"
 
 ### Атлас плана мёртвых · 5 государств (LOCKED v2)
 
-![Атлас мёртвых v2](https://litter.catbox.moe/v5o8yt.jpg)
+![Атлас мёртвых v2](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/maps/dead-plane/dead-plane-atlas-locked.jpg)
 
-> **Кадр:** Атлас плана мёртвых · LOCKED v2 · [⬇ скачать](https://litter.catbox.moe/v5o8yt.jpg)
+> **Кадр:** Атлас плана мёртвых · LOCKED v2 · [⬇ скачать](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/maps/dead-plane/dead-plane-atlas-locked.jpg)
 
 | # | Государство |
 |---:|---|

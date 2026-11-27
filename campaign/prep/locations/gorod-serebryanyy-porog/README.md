@@ -7,20 +7,26 @@ status: prep
 
 | | |
 |---|---|
-| Масштаб | **seed** — город-центр Эллуэнара |
+| Масштаб | город · **24 места** · глубина «как Камнеград» (правила + квесты + НПС) |
 | Статус | `prep` |
-| Карта региона | [`../elluenar/`](../elluenar/) **LOCKED v11** |
-| Храм (site) | [`../serebryanyy-porog/`](../serebryanyy-porog/) — **не** этот slug |
+| Карта | [`map.png`](map.png) |
+| Регион | [`../elluenar/`](../elluenar/) LOCKED v11 |
+| Храм | [`../serebryanyy-porog/`](../serebryanyy-porog/) |
+| Лок | [`../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md`](../../plot/canon-lock-2026-09-28-serebryanyy-porog-city-survey.md) |
 
-## Файлы
+## Файлы для стола
 
-| Файл | |
+| Файл | Зачем |
 |---|---|
-| [`playbook.md`](playbook.md) | seed города |
-| [`npc-registry.md`](npc-registry.md) | имена |
-| `playbook.docx` | если собрался pandoc |
+| [`city-rules.md`](city-rules.md) / `.docx` | **правила, −4, цены, запреты, возможности** |
+| [`playbook.md`](playbook.md) / `.docx` | места 1–24 · 1к6 · НПС |
+| [`places-catalog.md`](places-catalog.md) | легенда карты |
+| [`npc-registry.md`](npc-registry.md) · [`npc-extras.md`](npc-extras.md) | имена |
+| [`quests/`](quests/) · [`quests-bundle.md`](quests-bundle.md) / `.docx` | 6 полных side · флагман **q-gorod-06** |
 
-## Дальше
+## Порядок дальше
 
-- district: Ворота Порога или Кронный рынок  
-- quest-side: порча у портала (после ok мастера)  
+1. ~~Город~~  
+2. ~~Квесты города (01–06)~~  
+3. ~~Порча~~ → [`../serebryanyy-porog/quests/q-porcha-01.md`](../serebryanyy-porog/quests/q-porcha-01.md)  
+4. Точки Эллуэнара  

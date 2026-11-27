@@ -19,8 +19,18 @@ status: prep
 | [`map-brief.md`](map-brief.md) | бриф композиции |
 | `../../../../assets/maps/elluenar/` | PNG v3/v4 |
 
+## Город
+
+- Playbook города **Серебряный Порог** (волна 1): [`../gorod-serebryanyy-porog/`](../gorod-serebryanyy-porog/) — карта 1–24 + места/НПС
+
+## Точки prep
+
+| # | | Статус |
+|---:|---|---|
+| 1–2 | город + Храм | **done** |
+| 3–11 | Тириэлас … Ущелье Илуэн | план [`../../orchestrator/elluenar-sites-plan.md`](../../orchestrator/elluenar-sites-plan.md) |
+
 ## Ещё не
 
-- Seed playbook города **Серебряный Порог** (после ok карты)  
-- Углубление деревень / Дуатласа  
+- Углубление #3–11 (очередь в плане)  
 - Правка паспорта страны (регион 3 → Эллуэнар), когда паспорт на ветке  

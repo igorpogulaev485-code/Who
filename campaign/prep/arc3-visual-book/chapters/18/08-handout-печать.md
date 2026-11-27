@@ -6,9 +6,9 @@ title: "Handout — печать"
 
 > ← [18-index.md](../18-index.md)
 
-![Печать и выемка крышки](https://iili.io/nA4jxYF.jpg)
+![Печать и выемка крышки](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/handouts/door-r-handout-lid-seal.jpg)
 
-> **Кадр:** Handout печать · [⬇](https://iili.io/nA4jxYF.jpg)
+> **Кадр:** Handout печать · [⬇](https://raw.githubusercontent.com/igorpogulaev485-code/Who/cursor/serebryanyy-porog-city-bd87/assets/images/runbook/handouts/door-r-handout-lid-seal.jpg)
 
 Покажи, когда нашли осколок в нише или при обыске сводов.
 
