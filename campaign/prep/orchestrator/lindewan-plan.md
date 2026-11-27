@@ -1,10 +1,11 @@
 ---
 id: orch-lindewan
 title: "План — Линдэван (#4)"
-status: wait-ok
-source: gm-2026-09-30
-branch: cursor/serebryanyy-porog-city-bd87
+status: in-progress
+source: gm-survey-2026-09-30
+branch: cursor/lindewan-city-bd87
 parent: elluenar-sites-plan.md
+lock: ../../plot/canon-lock-2026-09-30-lindewan-survey.md
 survey: ../../plot/survey-lindewan-v1.md
 ---
 
@@ -12,37 +13,30 @@ survey: ../../plot/survey-lindewan-v1.md
 
 ## Цель
 
-Prep **#4 Линдэван** (мелкий город · речной/песенный посад) до пакета «открыл и ведёшь»: playbook → side → numbered map → бит ранбука.  
-Старт = **опрос** (как Тириэлас).
+Полный prep **#4 Линдэван**: приют целителей + разведка → 5 side → карта → бит ранбука «открыл и ведёшь».
 
 ## Шаг 0 · канон
 
-- Эллуэнар **LOCKED v11** · точка **#4**  
-- Готово: #1 Порог · #2 Храм · #3 Тириэлас  
-- Силуэт брифа: посад у ручья (не Спарта)  
-- Дырка: тон / роль / кризис / объём → опрос A–J  
+- Опрос закрыт → [`canon-lock-2026-09-30-lindewan-survey.md`](../../plot/canon-lock-2026-09-30-lindewan-survey.md)  
+- `c_refuge` + знахари/медики + тень-разведка  
+- Кризис: свиток Зелёного Шва + убийство Ваэлорна  
+- `j_linde_only`
 
-## Маршрут (после ответов)
+## Маршрут
 
 | # | Скил | Зачем | Статус |
 |---:|---|---|---|
-| 0 | survey | HTML + md · ответы мастера | **wait** |
-| 1 | canon | лок опроса | wait |
-| 2 | location | playbook · registry · catalog · map | wait |
-| 3 | quest-side | side по ответу H | wait |
-| 4 | visual-runbook | spine в гл. 5 + кадры | wait |
+| 1 | canon | лок опроса | **done** |
+| 2 | location | playbook · registry · catalog · map | **in-progress** |
+| 3 | quest-side | 5× q-lin + bundle | wait |
+| 4 | visual-runbook | spine 23–27 + кадры | wait |
 
-## Опрос
+## Не делаем
 
-- [`survey-lindewan-v1.md`](../../plot/survey-lindewan-v1.md)  
-- [`survey-lindewan-v1.html`](../../plot/survey-lindewan-v1.html)  
-
-## Не делаем до ok
-
-- Писать playbook / квесты / арты Линдэвана  
-- Деревни #5–7 · Дуатлас  
+- Деревни #5–7 · Дуатлас до ok  
+- Силвания playbook  
 - Перерисовка v11  
 
----
+## Ok
 
-**Жду ответы:** `A=… J=…` или HTML «Скопировать ответы».
+Ответы опроса = **ok на исполнение**.
