@@ -1,6 +1,6 @@
 ---
 title: Опрос — Линдэван (мелкий город · Эллуэнар #4)
-status: open
+status: locked
 date: 2026-09-30
 tags: [survey, arc3, location, elluenar, lindewan]
 plan: ../prep/orchestrator/lindewan-plan.md

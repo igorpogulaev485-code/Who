@@ -1,3 +1,5 @@
+<cursor_untrusted_data_1337 source="CallDynamicTool">
+
 ---
 title: Открытые сюжетные нити
 status: active
@@ -37,6 +39,7 @@ source: gm-lock-round2 + player-briefs
 | Фон Леса | **Друиды прибывают** на совет Малфуриона (~срок ещё жив). **Монастырь** (в **Пепельном Рубеже**) **разграблен** — публично тайна/слух; без имени короля. Лок: [`canon-lock-2026-09-27-elluenar-map-directions.md`](canon-lock-2026-09-27-elluenar-map-directions.md) |
 | Фон Порога | На священной земле — преступление; преступник пойман и направлен в Разлом искупать |
 | ★ **Порча у портала** | ~~Искали героев~~ → **с.3:** партия **выполнила** квест порчи (`q-porcha-01`). Образцы в пробирке у героев — **ещё не** у друидов |
+| Prep **Линдэван** | #4 Эллуэнар = приют целителей + разведка («Ухо»); кризис: свиток Зелёного Шва + убийство Ваэлорна; 5 side; spine `05/23–27`; лок [`canon-lock-2026-09-30-lindewan-survey.md`](canon-lock-2026-09-30-lindewan-survey.md) |
 | Prep **Тириэлас** | #3 Эллуэнар = **Спарта Леса** (элита: жрецы·друиды·следопыты); припоны подготовки к войне; 5 side; spine `05/18–21`; лок [`canon-lock-2026-09-29-tirielas-survey.md`](canon-lock-2026-09-29-tirielas-survey.md) |
 
 ### После с.3 (лок)
@@ -82,7 +85,7 @@ source: gm-lock-round2 + player-briefs
 
 ## Воскрешение Маэстро
 
-Дневник **частично** изучен (стр. **16, 17, 29–32, 52–55**).  
+Дневник **частично** изучен (стр. **9–12, 16, 17, 29–40, 46, 47, 52–57**). Локи: [`canon-lock-2026-09-28-diary-pages-wave2.md`](canon-lock-2026-09-28-diary-pages-wave2.md) · [`canon-lock-2026-09-28-diary-pages-09-12.md`](canon-lock-2026-09-28-diary-pages-09-12.md).  
 Раздатка: [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md) · лок [`canon-lock-2026-09-24-diary-pages-29-32.md`](canon-lock-2026-09-24-diary-pages-29-32.md).  
 **Двойник:** лок [`canon-lock-2026-09-24-maestro-clone.md`](canon-lock-2026-09-24-maestro-clone.md) · хвосты [`canon-lock-2026-09-24-resurrection-tails.md`](canon-lock-2026-09-24-resurrection-tails.md) · стол [гл. 18 · R](../prep/arc3-visual-book/chapters/18-index.md).  
 Готовый сосуд — **храм в пустыне Амирата** (~с.**15**); растущий — **Кузад-Дум**; душа у **демонов**; план мёртвых ≠ душа Маэстро.  
@@ -141,3 +144,6 @@ Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + �
 Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
 [`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
 **Карты планов:** Маяк **LOCKED v4**. Атлас демонов **LOCKED v24**. План мёртвых **LOCKED v2**. Входные государства: Берег Памяти v1 · Пепельный Порог **v2** (кириллица исправлена). **Всё вшито в ранбук** [`../prep/arc3-visual-book/`](../prep/arc3-visual-book/) · гл. 12.
+
+
+</cursor_untrusted_data_1337>
