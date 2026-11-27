@@ -16,6 +16,7 @@
 - [Архив: Храм Лолс](drafts/imports/qwen-khram-lols.md)
 - [Архив: дебафы артефактов Кардиана](drafts/imports/qwen-kardian-artifacts-debuffs.md)
 - [Архив (сырой JSON): Кардиан — суть и сны](drafts/imports/qwen-kardian-essence-dreams.json) · текст: [`qwen-kardian-essence-dreams.md`](drafts/imports/qwen-kardian-essence-dreams.md)
+- [Аудит ранних docx (подготовка + с.1–6)](drafts/imports/audit-early-sessions-qwen-docx.md) · [USER-тексты](drafts/imports/early-sessions-docx/)
 - [Архив: региональные центры Аэлендора](drafts/imports/qwen-aelendor-regional-centers.md)
 - [Архив: визуализация Камнеграда](drafts/imports/qwen-kamnegrad-viz.md)
 - [Архив: глашатай о драконе](drafts/imports/qwen-herald-dragon.md)
