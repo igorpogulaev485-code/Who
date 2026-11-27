@@ -52,45 +52,45 @@ title: "1 · До стола"
 Покажи 1–3 кадра, если нужно напомнить «как выглядел Лунный Мост» до траура. Это **не** похороны — для контраста.
 
 
-![Верхняя авеню, лунный луч](https://iili.io/nAC2y0u.jpg)
+![Верхняя авеню, лунный луч](https://litter.catbox.moe/yul1p0.jpg)
 
-> **Кадр:** Верхняя авеню, лунный луч · [⬇ скачать](https://iili.io/nAC2y0u.jpg)
+> **Кадр:** Верхняя авеню, лунный луч · [⬇ скачать](https://litter.catbox.moe/yul1p0.jpg)
 
-![Район Пришельцев](https://iili.io/nAC39Ub.jpg)
+![Район Пришельцев](https://litter.catbox.moe/uq14tb.jpg)
 
-> **Кадр:** Район Пришельцев · [⬇ скачать](https://iili.io/nAC39Ub.jpg)
+> **Кадр:** Район Пришельцев · [⬇ скачать](https://litter.catbox.moe/uq14tb.jpg)
 
-![Парапет и лотос](https://iili.io/nAC3JJj.jpg)
+![Парапет и лотос](https://litter.catbox.moe/2fkmn4.jpg)
 
-> **Кадр:** Парапет и лотос · [⬇ скачать](https://iili.io/nAC3JJj.jpg)
+> **Кадр:** Парапет и лотос · [⬇ скачать](https://litter.catbox.moe/2fkmn4.jpg)
 
-![Врата](https://iili.io/nAC33bV.jpg)
+![Врата](https://litter.catbox.moe/surbb1.jpg)
 
-> **Кадр:** Врата · [⬇ скачать](https://iili.io/nAC33bV.jpg)
+> **Кадр:** Врата · [⬇ скачать](https://litter.catbox.moe/surbb1.jpg)
 
-![Ось улицы к мосту](https://iili.io/nAC3qs1.jpg)
+![Ось улицы к мосту](https://litter.catbox.moe/p6gbz6.jpg)
 
-> **Кадр:** Ось улицы к мосту · [⬇ скачать](https://iili.io/nAC3qs1.jpg)
+> **Кадр:** Ось улицы к мосту · [⬇ скачать](https://litter.catbox.moe/p6gbz6.jpg)
 
-![Кузнец и писец](https://iili.io/nAC3CqF.jpg)
+![Кузнец и писец](https://litter.catbox.moe/vujliw.jpg)
 
-> **Кадр:** Кузнец и писец · [⬇ скачать](https://iili.io/nAC3CqF.jpg)
+> **Кадр:** Кузнец и писец · [⬇ скачать](https://litter.catbox.moe/vujliw.jpg)
 
-![Улица к арке моста](https://iili.io/nAC3n0g.jpg)
+![Улица к арке моста](https://litter.catbox.moe/uf585t.jpg)
 
-> **Кадр:** Улица к арке моста · [⬇ скачать](https://iili.io/nAC3n0g.jpg)
+> **Кадр:** Улица к арке моста · [⬇ скачать](https://litter.catbox.moe/uf585t.jpg)
 
-![Плацдарм с лотосами](https://iili.io/nAC3zdJ.jpg)
+![Плацдарм с лотосами](https://litter.catbox.moe/3vlk6q.jpg)
 
-> **Кадр:** Плацдарм с лотосами · [⬇ скачать](https://iili.io/nAC3zdJ.jpg)
+> **Кадр:** Плацдарм с лотосами · [⬇ скачать](https://litter.catbox.moe/3vlk6q.jpg)
 
-![Ночной дворец и мост](https://iili.io/nAC3ubp.jpg)
+![Ночной дворец и мост](https://litter.catbox.moe/c1m56n.jpg)
 
-> **Кадр:** Ночной дворец и мост · [⬇ скачать](https://iili.io/nAC3ubp.jpg)
+> **Кадр:** Ночной дворец и мост · [⬇ скачать](https://litter.catbox.moe/c1m56n.jpg)
 
-![Павильон и луч](https://iili.io/nAC35XI.jpg)
+![Павильон и луч](https://litter.catbox.moe/6j18p7.jpg)
 
-> **Кадр:** Павильон и луч · [⬇ скачать](https://iili.io/nAC35XI.jpg)
+> **Кадр:** Павильон и луч · [⬇ скачать](https://litter.catbox.moe/6j18p7.jpg)
 
 ---
 

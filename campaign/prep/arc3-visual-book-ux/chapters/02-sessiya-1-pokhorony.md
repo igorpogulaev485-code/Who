@@ -39,13 +39,13 @@ title: "2 · Сессия 1 — Похороны"
 <details>
 <summary><strong>1.0 — Утро в приюте</strong></summary>
 
-![Утро в Кузнице Фиалки](https://iili.io/nACF49f.jpg)
+![Утро в Кузнице Фиалки](https://litter.catbox.moe/jw1loo.jpg)
 
-> **Кадр:** Утро в Кузнице Фиалки · [⬇ скачать](https://iili.io/nACF49f.jpg)
+> **Кадр:** Утро в Кузнице Фиалки · [⬇ скачать](https://litter.catbox.moe/jw1loo.jpg)
 
-![Двор Колыбели](https://iili.io/nACKfKF.jpg)
+![Двор Колыбели](https://litter.catbox.moe/anoz4y.jpg)
 
-> **Кадр:** Двор Колыбели · [⬇ скачать](https://iili.io/nACKfKF.jpg)
+> **Кадр:** Двор Колыбели · [⬇ скачать](https://litter.catbox.moe/anoz4y.jpg)
 
 
 **Сказать:**
@@ -65,25 +65,25 @@ title: "2 · Сессия 1 — Похороны"
 <details>
 <summary><strong>1.1 — Карта скорби</strong></summary>
 
-![Город в день похорон](https://iili.io/nAC37st.jpg)
+![Город в день похорон](https://litter.catbox.moe/d9o9i1.jpg)
 
-> **Кадр:** Город в день похорон · [⬇ скачать](https://iili.io/nAC37st.jpg)
+> **Кадр:** Город в день похорон · [⬇ скачать](https://litter.catbox.moe/d9o9i1.jpg)
 
-![Процессия · Район Пришельцев](https://iili.io/nAC3c1n.jpg)
+![Процессия · Район Пришельцев](https://litter.catbox.moe/blporz.jpg)
 
-> **Кадр:** Процессия · Район Пришельцев · [⬇ скачать](https://iili.io/nAC3c1n.jpg)
+> **Кадр:** Процессия · Район Пришельцев · [⬇ скачать](https://litter.catbox.moe/blporz.jpg)
 
-![Очаг B · баррикады низа](https://iili.io/nACFQM7.jpg)
+![Очаг B · баррикады низа](https://litter.catbox.moe/y2dq20.jpg)
 
-> **Кадр:** Очаг B · баррикады низа · [⬇ скачать](https://iili.io/nACFQM7.jpg)
+> **Кадр:** Очаг B · баррикады низа · [⬇ скачать](https://litter.catbox.moe/y2dq20.jpg)
 
-![Очаг C · порт](https://iili.io/nACKJtV.jpg)
+![Очаг C · порт](https://litter.catbox.moe/5km8k3.jpg)
 
-> **Кадр:** Очаг C · порт · [⬇ скачать](https://iili.io/nACKJtV.jpg)
+> **Кадр:** Очаг C · порт · [⬇ скачать](https://litter.catbox.moe/5km8k3.jpg)
 
-![Очаг E · Мост Предков / делегации](https://iili.io/nAC3hL7.jpg)
+![Очаг E · Мост Предков / делегации](https://litter.catbox.moe/8ygt2g.jpg)
 
-> **Кадр:** Очаг E · Мост Предков / делегации · [⬇ скачать](https://iili.io/nAC3hL7.jpg)
+> **Кадр:** Очаг E · Мост Предков / делегации · [⬇ скачать](https://litter.catbox.moe/8ygt2g.jpg)
 
 
 **Сказать:**
@@ -199,17 +199,17 @@ title: "2 · Сессия 1 — Похороны"
 <details>
 <summary>Кадры площади</summary>
 
-![Пепел шатра Маэстро](https://iili.io/nAC31dG.jpg)
+![Пепел шатра Маэстро](https://litter.catbox.moe/zfyz5h.jpg)
 
-> **Кадр:** Пепел шатра Маэстро · [⬇ скачать](https://iili.io/nAC31dG.jpg)
+> **Кадр:** Пепел шатра Маэстро · [⬇ скачать](https://litter.catbox.moe/zfyz5h.jpg)
 
-![Путь по верхней авеню](https://iili.io/nAC3Mml.jpg)
+![Путь по верхней авеню](https://litter.catbox.moe/seek0r.jpg)
 
-> **Кадр:** Путь по верхней авеню · [⬇ скачать](https://iili.io/nAC3Mml.jpg)
+> **Кадр:** Путь по верхней авеню · [⬇ скачать](https://litter.catbox.moe/seek0r.jpg)
 
-![Центральный помост](https://iili.io/nAC3WI2.jpg)
+![Центральный помост](https://litter.catbox.moe/ttveow.jpg)
 
-> **Кадр:** Центральный помост · [⬇ скачать](https://iili.io/nAC3WI2.jpg)
+> **Кадр:** Центральный помост · [⬇ скачать](https://litter.catbox.moe/ttveow.jpg)
 
 **Атмосфера — Сказать:**
 
@@ -222,9 +222,9 @@ title: "2 · Сессия 1 — Похороны"
 
 *речь похорон · первая*
 
-![Селенис Безмолвная](https://iili.io/nACqxCN.jpg)
+![Селенис Безмолвная](https://litter.catbox.moe/54mkco.jpg)
 
-> **Кадр:** Селенис Безмолвная · [⬇ скачать](https://iili.io/nACqxCN.jpg)
+> **Кадр:** Селенис Безмолвная · [⬇ скачать](https://litter.catbox.moe/54mkco.jpg)
 
 | | |
 |---|---|
@@ -247,13 +247,13 @@ title: "2 · Сессия 1 — Похороны"
 
 *речь мэра · сразу после тишины*
 
-![Тандил](https://iili.io/nACqYuf.jpg)
+![Тандил](https://litter.catbox.moe/ad84bm.jpg)
 
-> **Кадр:** Тандил (похороны) · [⬇ скачать](https://iili.io/nACqYuf.jpg)
+> **Кадр:** Тандил (похороны) · [⬇ скачать](https://litter.catbox.moe/ad84bm.jpg)
 
-![Тандил · база](https://iili.io/nACKlRf.jpg)
+![Тандил · база](https://litter.catbox.moe/xpfkum.jpg)
 
-> **Кадр:** Тандил до похорон (если спросят «как выглядел») · [⬇ скачать](https://iili.io/nACKlRf.jpg)
+> **Кадр:** Тандил до похорон (если спросят «как выглядел») · [⬇ скачать](https://litter.catbox.moe/xpfkum.jpg)
 
 | | |
 |---|---|
@@ -286,9 +286,9 @@ title: "2 · Сессия 1 — Похороны"
 
 *делегация Хребта · на краю площади*
 
-![Кезарр Тал](https://iili.io/nACfRzQ.jpg)
+![Кезарр Тал](https://litter.catbox.moe/lrb1xg.jpg)
 
-> **Кадр:** Кезарр Тал · [⬇ скачать](https://iili.io/nACfRzQ.jpg)
+> **Кадр:** Кезарр Тал · [⬇ скачать](https://litter.catbox.moe/lrb1xg.jpg)
 
 | | |
 |---|---|
@@ -312,9 +312,9 @@ title: "2 · Сессия 1 — Похороны"
 
 *венок Сильванары*
 
-![Леди Ириэн](https://iili.io/nACfCq7.jpg)
+![Леди Ириэн](https://litter.catbox.moe/v10sgj.jpg)
 
-> **Кадр:** Леди Ириэн · [⬇ скачать](https://iili.io/nACfCq7.jpg)
+> **Кадр:** Леди Ириэн · [⬇ скачать](https://litter.catbox.moe/v10sgj.jpg)
 
 | | |
 |---|---|
@@ -333,9 +333,9 @@ title: "2 · Сессия 1 — Похороны"
 
 *слух про льды · можно после порта / здесь если уже знаком*
 
-![Брорр](https://iili.io/nACKeOx.jpg)
+![Брорр](https://litter.catbox.moe/06mopg.jpg)
 
-> **Кадр:** Брорр · [⬇ скачать](https://iili.io/nACKeOx.jpg)
+> **Кадр:** Брорр · [⬇ скачать](https://litter.catbox.moe/06mopg.jpg)
 
 | | |
 |---|---|
@@ -354,9 +354,9 @@ title: "2 · Сессия 1 — Похороны"
 
 *только если показывают «о ком шепчутся» — сама не на площади*
 
-![Сильванара](https://iili.io/nACqu3X.jpg)
+![Сильванара](https://litter.catbox.moe/q6wjcd.jpg)
 
-> **Кадр:** Сильванара · [⬇ скачать](https://iili.io/nACqu3X.jpg)
+> **Кадр:** Сильванара · [⬇ скачать](https://litter.catbox.moe/q6wjcd.jpg)
 
 | | |
 |---|---|
@@ -393,9 +393,9 @@ title: "2 · Сессия 1 — Похороны"
 
 *дочь Маэстро · почти-речь · кольцо*
 
-![Милана](https://iili.io/nACfs49.jpg)
+![Милана](https://litter.catbox.moe/w18uhl.jpg)
 
-> **Кадр:** Милана · [⬇ скачать](https://iili.io/nACfs49.jpg)
+> **Кадр:** Милана · [⬇ скачать](https://litter.catbox.moe/w18uhl.jpg)
 
 | | |
 |---|---|
@@ -424,9 +424,9 @@ title: "2 · Сессия 1 — Похороны"
 <details>
 <summary><strong>1.4 — Двери = выбор направления</strong></summary>
 
-![Если смотрят на Купель — подход](https://iili.io/nACFm8b.jpg)
+![Если смотрят на Купель — подход](https://litter.catbox.moe/63ogak.jpg)
 
-> **Кадр:** Если смотрят на Купель — подход · [⬇ скачать](https://iili.io/nACFm8b.jpg)
+> **Кадр:** Если смотрят на Купель — подход · [⬇ скачать](https://litter.catbox.moe/63ogak.jpg)
 
 
 **Сказать (Тандил после церемонии — сам, не гонец):**

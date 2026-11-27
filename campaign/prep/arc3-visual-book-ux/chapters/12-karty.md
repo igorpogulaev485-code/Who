@@ -16,9 +16,9 @@ title: "12 · Атлас карт"
 
 ### Карта мира · Echo Dawn
 
-![Карта мира](https://iili.io/nACmIlR.jpg)
+![Карта мира](https://litter.catbox.moe/h3sd7v.jpg)
 
-> **Кадр:** Карта мира · [⬇ скачать](https://iili.io/nACmIlR.jpg)
+> **Кадр:** Карта мира · [⬇ скачать](https://litter.catbox.moe/h3sd7v.jpg)
 
 **Когда:** ориентация «где мы на материке»; порталы; дальние фронты (Лес, льды, Хребет, Пыль).
 
@@ -26,9 +26,9 @@ title: "12 · Атлас карт"
 
 ### Карта Аэлендора
 
-![Карта Аэлендора](https://iili.io/nACmTSp.jpg)
+![Карта Аэлендора](https://litter.catbox.moe/s34hom.jpg)
 
-> **Кадр:** Карта Аэлендора · [⬇ скачать](https://iili.io/nACmTSp.jpg)
+> **Кадр:** Карта Аэлендора · [⬇ скачать](https://litter.catbox.moe/s34hom.jpg)
 
 **Когда:** Лунный мост, Сильванор, внутренние дороги; хаб похорон.
 
@@ -36,9 +36,9 @@ title: "12 · Атлас карт"
 
 ### Лунные Пики
 
-![Лунные Пики](https://iili.io/nACmiWg.jpg)
+![Лунные Пики](https://litter.catbox.moe/lwudnf.jpg)
 
-> **Кадр:** Лунные Пики · [⬇ скачать](https://iili.io/nACmiWg.jpg)
+> **Кадр:** Лунные Пики · [⬇ скачать](https://litter.catbox.moe/lwudnf.jpg)
 
 **Когда:** фон столицы / горный пояс Аэлендора; не сайт сессии 2.
 
@@ -149,9 +149,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#маяк-душ). Скрипт:
 
 ### Site · Серый Причал (LOCKED)
 
-![Карта Серого Причала](https://iili.io/nACm7DX.jpg)
+![Карта Серого Причала](https://litter.catbox.moe/ii1mc4.jpg)
 
-> **Кадр:** Серый Причал · [⬇ скачать](https://iili.io/nACm7DX.jpg)
+> **Кадр:** Серый Причал · [⬇ скачать](https://litter.catbox.moe/ii1mc4.jpg)
 
 **15 мест** (номера на карте): площадь → писцы → край → низы.  
 Playbook: [глава 14](14-playbooks-i-side.md#серый-причал). Вставки: [глава 13 · M/N/P](13-vstavki-i-zhertvy.md). Скрипт: [4 · Дверь F](04-dver-f.md).
@@ -160,9 +160,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#серый-причал). Вс�
 
 ## Дверь D · Серебряный Порог
 
-![Храм Серебряного Порога](https://iili.io/nACmliG.jpg)
+![Храм Серебряного Порога](https://litter.catbox.moe/y2abqg.jpg)
 
-> **Кадр:** Серебряный Порог · [⬇ скачать](https://iili.io/nACmliG.jpg)
+> **Кадр:** Серебряный Порог · [⬇ скачать](https://litter.catbox.moe/y2abqg.jpg)
 
 **Зоны 1–5:** площадка портала → зал имён → двор чаш → крыло → тропы (Силвания / Малфурион / глушь).  
 Playbook: [глава 14](14-playbooks-i-side.md#серебряный-порог). Совет: [глава 16](16-sovet-druidov.md).
@@ -171,9 +171,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#серебряный-порог
 
 ## Лес Хранителей (реф · после Порога)
 
-![Лес Хранителей](https://iili.io/nACmg5B.jpg)
+![Лес Хранителей](https://litter.catbox.moe/0bljxo.jpg)
 
-> **Кадр:** Лес Хранителей · [⬇ скачать](https://iili.io/nACmg5B.jpg)
+> **Кадр:** Лес Хранителей · [⬇ скачать](https://litter.catbox.moe/0bljxo.jpg)
 
 **Когда:** дорога после Порога; таймер совета друидов.
 
@@ -183,9 +183,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#серебряный-порог
 
 ### Драконий Хребет (меч)
 
-![Драконий Хребет](https://iili.io/nACmEl4.jpg)
+![Драконий Хребет](https://litter.catbox.moe/vquh0y.jpg)
 
-> **Кадр:** Драконий Хребет · locked · [⬇ скачать](https://iili.io/nACmEl4.jpg)
+> **Кадр:** Драконий Хребет · locked · [⬇ скачать](https://litter.catbox.moe/vquh0y.jpg)
 
 **Дверь:** [7 · E·меч](07-dver-e-mech.md).
 
@@ -193,9 +193,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#серебряный-порог
 
 ### Ледяной Союз (доспехи)
 
-![Ледяной Союз](https://iili.io/nACmXO7.jpg)
+![Ледяной Союз](https://litter.catbox.moe/rmw5ol.jpg)
 
-> **Кадр:** Ледяной Союз · locked · [⬇ скачать](https://iili.io/nACmXO7.jpg)
+> **Кадр:** Ледяной Союз · locked · [⬇ скачать](https://litter.catbox.moe/rmw5ol.jpg)
 
 **Дверь:** [6 · E·льды](06-dver-e-ldy.md). Лагерь Щита → позже **Гирмхельм** ([гл. 15](15-spine-posle-s2.md#гирмхельм)).
 
@@ -203,9 +203,9 @@ Playbook: [глава 14](14-playbooks-i-side.md#серебряный-порог
 
 ### Звёздная Пыль (сапоги)
 
-![Звёздная Пыль](https://iili.io/nACmv0x.jpg)
+![Звёздная Пыль](https://litter.catbox.moe/zcwwy3.jpg)
 
-> **Кадр:** Звёздная Пыль · locked · [⬇ скачать](https://iili.io/nACmv0x.jpg)
+> **Кадр:** Звёздная Пыль · locked · [⬇ скачать](https://litter.catbox.moe/zcwwy3.jpg)
 
 **Дверь:** [8 · E·сапоги](08-dver-e-sapogi.md).
 

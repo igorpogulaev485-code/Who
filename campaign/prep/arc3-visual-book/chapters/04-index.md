@@ -15,9 +15,9 @@ source: mq-04-sessions-2-door-f + mq04 locks
 **Локи:** [вход A](../../../plot/canon-lock-2026-09-22-mq04-entry-a.md) · [B–E](../../../plot/canon-lock-2026-09-22-mq04-dead-plane-be.md) · [жертва + пятёрка](../../../plot/canon-lock-2026-09-22-mq04-sacrifice-squad.md) · [карта Причала](../../../plot/canon-lock-2026-09-22-seryy-prichal-map.md)  
 **Жертвы (карточка):** [`mq-04-passage-sacrifice`](../../arcs/arc-3/quests/mq-04-passage-sacrifice.md) · **отряд:** [`mq-04-velian-squad`](../../arcs/arc-3/quests/mq-04-velian-squad.md)
 
-![Чёрная рана Купели](https://iili.io/nACFRvj.jpg)
+![Чёрная рана Купели](https://litter.catbox.moe/w33q33.jpg)
 
-> **Кадр:** Чёрная рана · [⬇](https://iili.io/nACFRvj.jpg) · Лайра: ниже · карты: [гл. 12](12-index.md#дверь-f--берег-памяти-государство--причал)
+> **Кадр:** Чёрная рана · [⬇](https://litter.catbox.moe/w33q33.jpg) · Лайра: ниже · карты: [гл. 12](12-index.md#дверь-f--берег-памяти-государство--причал)
 
 ## Цель вечера
 
@@ -66,29 +66,29 @@ source: mq-04-sessions-2-door-f + mq04 locks
 
 | Бит | Кадр | ⬇ |
 |---|---|---|
-| 2.0–2.2 | Чёрная рана | [nACFRvj](https://iili.io/nACFRvj.jpg) |
-| 2.3 | Выброс нежити | [nACFYTQ](https://iili.io/nACFYTQ.jpg) |
-| 2.4 | Чёрный проход | [nACF1G1](https://iili.io/nACF1G1.jpg) |
-| 2.5 | Площадь Угасших Имён | [nACFM3g](https://iili.io/nACFM3g.jpg) |
-| 2.6 | Лайра у арки | [nACFjuR](https://iili.io/nACFjuR.jpg) |
-| 2.7 | Ворота Края | [nACFkGt](https://iili.io/nACFkGt.jpg) |
+| 2.0–2.2 | Чёрная рана | [nACFRvj](https://litter.catbox.moe/w33q33.jpg) |
+| 2.3 | Выброс нежити | [nACFYTQ](https://litter.catbox.moe/nlfl09.jpg) |
+| 2.4 | Чёрный проход | [nACF1G1](https://litter.catbox.moe/h0tjqd.jpg) |
+| 2.5 | Площадь Угасших Имён | [nACFM3g](https://litter.catbox.moe/yy27gc.jpg) |
+| 2.6 | Лайра у арки | [nACFjuR](https://litter.catbox.moe/z699q9.jpg) |
+| 2.7 | Ворота Края | [nACFkGt](https://litter.catbox.moe/250xre.jpg) |
 
 ## Лица (якоря · не все face сегодня)
 
 | Кто | Роль с.2 | Портрет |
 |---|---|---|
-| **Лайра Пепельная** | встречающая · правила · ориентиры | ![Лайра](https://iili.io/nACfGkJ.jpg) [⬇](https://iili.io/nACfGkJ.jpg) |
-| **Велиан Полутень** | цель ~с.6 · сегодня только след | ![Велиан](https://iili.io/nACqSF1.jpg) [⬇](https://iili.io/nACqSF1.jpg) |
-| **Каэлор Крайний** | отряд / ворота · не face | ![Каэлор](https://iili.io/nACfzdu.jpg) [⬇](https://iili.io/nACfzdu.jpg) |
+| **Лайра Пепельная** | встречающая · правила · ориентиры | ![Лайра](https://litter.catbox.moe/sxrza8.jpg) [⬇](https://litter.catbox.moe/sxrza8.jpg) |
+| **Велиан Полутень** | цель ~с.6 · сегодня только след | ![Велиан](https://litter.catbox.moe/q4f981.jpg) [⬇](https://litter.catbox.moe/q4f981.jpg) |
+| **Каэлор Крайний** | отряд / ворота · не face | ![Каэлор](https://litter.catbox.moe/327p7w.jpg) [⬇](https://litter.catbox.moe/327p7w.jpg) |
 | Сильвен · Наэра · Корел · Элисс · Рэвел | пятёрка Велиана · след, не throng | [лок](../../../plot/canon-lock-2026-09-22-mq04-sacrifice-squad.md) · портреты в листах 2.7 / squad |
 
 | Пятёрка | Спец | ⬇ |
 |---|---|---|
-| Сильвен Тихий Шаг | следопыт | [nACqRvs](https://iili.io/nACqRvs.jpg) |
-| Наэра Черноперо | легенды / документы | [nACfQ2e](https://iili.io/nACfQ2e.jpg) |
-| Корел Клинок Луны | удар | [nACfaqP](https://iili.io/nACfaqP.jpg) |
-| Элисс Пепельная Нить | ловушки | [nACKbsI](https://iili.io/nACKbsI.jpg) |
-| Рэвел Узлослёд | связь | [nACfyQV](https://iili.io/nACfyQV.jpg) |
+| Сильвен Тихий Шаг | следопыт | [nACqRvs](https://litter.catbox.moe/vjicom.jpg) |
+| Наэра Черноперо | легенды / документы | [nACfQ2e](https://litter.catbox.moe/450wqg.jpg) |
+| Корел Клинок Луны | удар | [nACfaqP](https://litter.catbox.moe/ypcxd8.jpg) |
+| Элисс Пепельная Нить | ловушки | [nACKbsI](https://litter.catbox.moe/783bkr.jpg) |
+| Рэвел Узлослёд | связь | [nACfyQV](https://litter.catbox.moe/8gx4w5.jpg) |
 
 ## Чеклист (коротко)
 

@@ -34,9 +34,9 @@ title: "10 · Дверь C — Милана"
 <details>
 <summary><strong>2.0 — Выбор Миланы</strong></summary>
 
-![Милана](https://iili.io/nACfs49.jpg)
+![Милана](https://litter.catbox.moe/w18uhl.jpg)
 
-> **Кадр:** Милана · [⬇ скачать](https://iili.io/nACfs49.jpg)
+> **Кадр:** Милана · [⬇ скачать](https://litter.catbox.moe/w18uhl.jpg)
 
 
 | | |
@@ -55,9 +55,9 @@ title: "10 · Дверь C — Милана"
 <details>
 <summary><strong>2.1 — Путь</strong></summary>
 
-![Ночной город / авеню](https://iili.io/nAC3Mml.jpg)
+![Ночной город / авеню](https://litter.catbox.moe/seek0r.jpg)
 
-> **Кадр:** Ночной город / авеню · [⬇ скачать](https://iili.io/nAC3Mml.jpg)
+> **Кадр:** Ночной город / авеню · [⬇ скачать](https://litter.catbox.moe/seek0r.jpg)
 
 
 **Где:** северные склады (пакгаузы, смола, пыль).  
@@ -72,9 +72,9 @@ title: "10 · Дверь C — Милана"
 <details>
 <summary><strong>2.2 — Встреча</strong></summary>
 
-![Милана](https://iili.io/nACfs49.jpg)
+![Милана](https://litter.catbox.moe/w18uhl.jpg)
 
-> **Кадр:** Милана · [⬇ скачать](https://iili.io/nACfs49.jpg)
+> **Кадр:** Милана · [⬇ скачать](https://litter.catbox.moe/w18uhl.jpg)
 
 
 Выходит **сама**. Устала. Злая на город и на себя за помост.
@@ -136,9 +136,9 @@ title: "10 · Дверь C — Милана"
 
 Максимум 1 стычка — не большой бой.
 
-![Кезарр (если патруль)](https://iili.io/nACfRzQ.jpg)
+![Кезарр (если патруль)](https://litter.catbox.moe/lrb1xg.jpg)
 
-> **Кадр:** Кезарр (если патруль) · [⬇ скачать](https://iili.io/nACfRzQ.jpg)
+> **Кадр:** Кезарр (если патруль) · [⬇ скачать](https://litter.catbox.moe/lrb1xg.jpg)
 
 
 </details>

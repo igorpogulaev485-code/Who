@@ -21,29 +21,29 @@ title: "4 · Дверь F — Причал"
 ## Быстрые кадры главы
 
 
-![Чёрная рана Купели](https://iili.io/nACFRvj.jpg)
+![Чёрная рана Купели](https://litter.catbox.moe/w33q33.jpg)
 
-> **Кадр:** Чёрная рана Купели · [⬇ скачать](https://iili.io/nACFRvj.jpg)
+> **Кадр:** Чёрная рана Купели · [⬇ скачать](https://litter.catbox.moe/w33q33.jpg)
 
-![Выброс нежити](https://iili.io/nACFYTQ.jpg)
+![Выброс нежити](https://litter.catbox.moe/nlfl09.jpg)
 
-> **Кадр:** Выброс нежити · [⬇ скачать](https://iili.io/nACFYTQ.jpg)
+> **Кадр:** Выброс нежити · [⬇ скачать](https://litter.catbox.moe/nlfl09.jpg)
 
-![Чёрный проход](https://iili.io/nACF1G1.jpg)
+![Чёрный проход](https://litter.catbox.moe/h0tjqd.jpg)
 
-> **Кадр:** Чёрный проход · [⬇ скачать](https://iili.io/nACF1G1.jpg)
+> **Кадр:** Чёрный проход · [⬇ скачать](https://litter.catbox.moe/h0tjqd.jpg)
 
-![Площадь Угасших Имён](https://iili.io/nACFM3g.jpg)
+![Площадь Угасших Имён](https://litter.catbox.moe/yy27gc.jpg)
 
-> **Кадр:** Площадь Угасших Имён · [⬇ скачать](https://iili.io/nACFM3g.jpg)
+> **Кадр:** Площадь Угасших Имён · [⬇ скачать](https://litter.catbox.moe/yy27gc.jpg)
 
-![Лайра у арки](https://iili.io/nACFjuR.jpg)
+![Лайра у арки](https://litter.catbox.moe/z699q9.jpg)
 
-> **Кадр:** Лайра у арки · [⬇ скачать](https://iili.io/nACFjuR.jpg)
+> **Кадр:** Лайра у арки · [⬇ скачать](https://litter.catbox.moe/z699q9.jpg)
 
-![Ворота Края](https://iili.io/nACFkGt.jpg)
+![Ворота Края](https://litter.catbox.moe/250xre.jpg)
 
-> **Кадр:** Ворота Края · [⬇ скачать](https://iili.io/nACFkGt.jpg)
+> **Кадр:** Ворота Края · [⬇ скачать](https://litter.catbox.moe/250xre.jpg)
 
 
 ## Лица главы
@@ -54,9 +54,9 @@ title: "4 · Дверь F — Причал"
 
 *встречающая*
 
-![Лайра Пепельная](https://iili.io/nACfGkJ.jpg)
+![Лайра Пепельная](https://litter.catbox.moe/sxrza8.jpg)
 
-> **Кадр:** Лайра Пепельная · [⬇ скачать](https://iili.io/nACfGkJ.jpg)
+> **Кадр:** Лайра Пепельная · [⬇ скачать](https://litter.catbox.moe/sxrza8.jpg)
 </details>
 
 <details>
@@ -64,9 +64,9 @@ title: "4 · Дверь F — Причал"
 
 *цель ~с.6*
 
-![Велиан Полутень](https://iili.io/nACqSF1.jpg)
+![Велиан Полутень](https://litter.catbox.moe/q4f981.jpg)
 
-> **Кадр:** Велиан Полутень · [⬇ скачать](https://iili.io/nACqSF1.jpg)
+> **Кадр:** Велиан Полутень · [⬇ скачать](https://litter.catbox.moe/q4f981.jpg)
 </details>
 
 <details>
@@ -74,9 +74,9 @@ title: "4 · Дверь F — Причал"
 
 *ворота*
 
-![Каэлор Крайний](https://iili.io/nACfzdu.jpg)
+![Каэлор Крайний](https://litter.catbox.moe/327p7w.jpg)
 
-> **Кадр:** Каэлор Крайний · [⬇ скачать](https://iili.io/nACfzdu.jpg)
+> **Кадр:** Каэлор Крайний · [⬇ скачать](https://litter.catbox.moe/327p7w.jpg)
 </details>
 
 <details>
@@ -84,9 +84,9 @@ title: "4 · Дверь F — Причал"
 
 *отряд*
 
-![Сильвен](https://iili.io/nACqRvs.jpg)
+![Сильвен](https://litter.catbox.moe/vjicom.jpg)
 
-> **Кадр:** Сильвен · [⬇ скачать](https://iili.io/nACqRvs.jpg)
+> **Кадр:** Сильвен · [⬇ скачать](https://litter.catbox.moe/vjicom.jpg)
 </details>
 
 <details>
@@ -94,9 +94,9 @@ title: "4 · Дверь F — Причал"
 
 *отряд*
 
-![Наэра](https://iili.io/nACfQ2e.jpg)
+![Наэра](https://litter.catbox.moe/450wqg.jpg)
 
-> **Кадр:** Наэра · [⬇ скачать](https://iili.io/nACfQ2e.jpg)
+> **Кадр:** Наэра · [⬇ скачать](https://litter.catbox.moe/450wqg.jpg)
 </details>
 
 <details>
@@ -104,9 +104,9 @@ title: "4 · Дверь F — Причал"
 
 *отряд*
 
-![Корел](https://iili.io/nACfaqP.jpg)
+![Корел](https://litter.catbox.moe/ypcxd8.jpg)
 
-> **Кадр:** Корел · [⬇ скачать](https://iili.io/nACfaqP.jpg)
+> **Кадр:** Корел · [⬇ скачать](https://litter.catbox.moe/ypcxd8.jpg)
 </details>
 
 <details>
@@ -114,9 +114,9 @@ title: "4 · Дверь F — Причал"
 
 *отряд*
 
-![Элисс](https://iili.io/nACKbsI.jpg)
+![Элисс](https://litter.catbox.moe/783bkr.jpg)
 
-> **Кадр:** Элисс · [⬇ скачать](https://iili.io/nACKbsI.jpg)
+> **Кадр:** Элисс · [⬇ скачать](https://litter.catbox.moe/783bkr.jpg)
 </details>
 
 <details>
@@ -124,9 +124,9 @@ title: "4 · Дверь F — Причал"
 
 *отряд*
 
-![Рэвел](https://iili.io/nACfyQV.jpg)
+![Рэвел](https://litter.catbox.moe/8gx4w5.jpg)
 
-> **Кадр:** Рэвел · [⬇ скачать](https://iili.io/nACfyQV.jpg)
+> **Кадр:** Рэвел · [⬇ скачать](https://litter.catbox.moe/8gx4w5.jpg)
 
 
 ## Полный скрипт
@@ -167,13 +167,13 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 <details>
 <summary><strong>2.0 — Подход</strong></summary>
 
-![Подход](https://iili.io/nACFm8b.jpg)
+![Подход](https://litter.catbox.moe/63ogak.jpg)
 
-> **Кадр:** Подход · [⬇ скачать](https://iili.io/nACFm8b.jpg)
+> **Кадр:** Подход · [⬇ скачать](https://litter.catbox.moe/63ogak.jpg)
 
-![Чёрная рана](https://iili.io/nACFRvj.jpg)
+![Чёрная рана](https://litter.catbox.moe/w33q33.jpg)
 
-> **Кадр:** Чёрная рана · [⬇ скачать](https://iili.io/nACFRvj.jpg)
+> **Кадр:** Чёрная рана · [⬇ скачать](https://litter.catbox.moe/w33q33.jpg)
 
 
 **Сказать:**
@@ -241,9 +241,9 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 <details>
 <summary><strong>2.2 — Осмотр раны</strong></summary>
 
-![Чёрная рана](https://iili.io/nACFRvj.jpg)
+![Чёрная рана](https://litter.catbox.moe/w33q33.jpg)
 
-> **Кадр:** Чёрная рана · [⬇ скачать](https://iili.io/nACFRvj.jpg)
+> **Кадр:** Чёрная рана · [⬇ скачать](https://litter.catbox.moe/w33q33.jpg)
 
 **Сказать:**
 
@@ -320,9 +320,9 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 <details>
 <summary><strong>2.3 — Открытие потока → выброс (мёртвые)</strong></summary>
 
-![Выброс нежити](https://iili.io/nACFYTQ.jpg)
+![Выброс нежити](https://litter.catbox.moe/nlfl09.jpg)
 
-> **Кадр:** Выброс нежити · [⬇ скачать](https://iili.io/nACFYTQ.jpg)
+> **Кадр:** Выброс нежити · [⬇ скачать](https://litter.catbox.moe/nlfl09.jpg)
 
 
 **После жертв.** Элиан + 2 мага тянут **чёрную** нить. Партия у ступеней / рун.
@@ -351,9 +351,9 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 <details>
 <summary><strong>2.4 — Чёрный проход</strong></summary>
 
-![Чёрный проход](https://iili.io/nACF1G1.jpg)
+![Чёрный проход](https://litter.catbox.moe/h0tjqd.jpg)
 
-> **Кадр:** Чёрный проход · [⬇ скачать](https://iili.io/nACF1G1.jpg)
+> **Кадр:** Чёрный проход · [⬇ скачать](https://litter.catbox.moe/h0tjqd.jpg)
 
 
 **Сказать при входе:**
@@ -410,9 +410,9 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 <details>
 <summary><strong>2.5 — Приземление (площадь, не пустошь)</strong></summary>
 
-![Площадь](https://iili.io/nACFM3g.jpg)
+![Площадь](https://litter.catbox.moe/yy27gc.jpg)
 
-> **Кадр:** Площадь · [⬇ скачать](https://iili.io/nACFM3g.jpg)
+> **Кадр:** Площадь · [⬇ скачать](https://litter.catbox.moe/yy27gc.jpg)
 </details>
 
 <details>
@@ -420,9 +420,9 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 
 *встречающая*
 
-![Лайра](https://iili.io/nACfGkJ.jpg)
+![Лайра](https://litter.catbox.moe/sxrza8.jpg)
 
-> **Кадр:** Лайра · [⬇ скачать](https://iili.io/nACfGkJ.jpg)
+> **Кадр:** Лайра · [⬇ скачать](https://litter.catbox.moe/sxrza8.jpg)
 
 
 **Сказать:**
@@ -444,13 +444,13 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 <details>
 <summary><strong>2.6 — Лайра / правила / первый след</strong></summary>
 
-![Лайра](https://iili.io/nACFjuR.jpg)
+![Лайра](https://litter.catbox.moe/z699q9.jpg)
 
-> **Кадр:** Лайра · [⬇ скачать](https://iili.io/nACFjuR.jpg)
+> **Кадр:** Лайра · [⬇ скачать](https://litter.catbox.moe/z699q9.jpg)
 
-![Лайра Пепельная](https://iili.io/nACfGkJ.jpg)
+![Лайра Пепельная](https://litter.catbox.moe/sxrza8.jpg)
 
-> **Кадр:** Лайра Пепельная · [⬇ скачать](https://iili.io/nACfGkJ.jpg)
+> **Кадр:** Лайра Пепельная · [⬇ скачать](https://litter.catbox.moe/sxrza8.jpg)
 
 **Место 1 playbook — Площадь Угасших Имён.**  
 НПС: **Лайра Пепельная**.
@@ -519,17 +519,17 @@ Playbook: *(playbook Причала — сценарий уже в этой гл
 <details>
 <summary><strong>2.7 — Клифф</strong></summary>
 
-![Ворота Края](https://iili.io/nACFkGt.jpg)
+![Ворота Края](https://litter.catbox.moe/250xre.jpg)
 
-> **Кадр:** Ворота Края · [⬇ скачать](https://iili.io/nACFkGt.jpg)
+> **Кадр:** Ворота Края · [⬇ скачать](https://litter.catbox.moe/250xre.jpg)
 
-![Велиан](https://iili.io/nACqSF1.jpg)
+![Велиан](https://litter.catbox.moe/q4f981.jpg)
 
-> **Кадр:** Велиан · [⬇ скачать](https://iili.io/nACqSF1.jpg)
+> **Кадр:** Велиан · [⬇ скачать](https://litter.catbox.moe/q4f981.jpg)
 
-![Каэлор](https://iili.io/nACfzdu.jpg)
+![Каэлор](https://litter.catbox.moe/327p7w.jpg)
 
-> **Кадр:** Каэлор · [⬇ скачать](https://iili.io/nACfzdu.jpg)
+> **Кадр:** Каэлор · [⬇ скачать](https://litter.catbox.moe/327p7w.jpg)
 
 **Сказать:**
 

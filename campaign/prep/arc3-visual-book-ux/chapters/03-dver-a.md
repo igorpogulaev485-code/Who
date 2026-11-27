@@ -43,18 +43,18 @@ title: "3 · Дверь A — Маяк"
 <details>
 <summary><strong>2.0 — Подход</strong></summary>
 
-![Подход к Купели](https://iili.io/nACFm8b.jpg)
+![Подход к Купели](https://litter.catbox.moe/63ogak.jpg)
 
-> **Кадр:** Подход к Купели · [⬇ скачать](https://iili.io/nACFm8b.jpg)
+> **Кадр:** Подход к Купели · [⬇ скачать](https://litter.catbox.moe/63ogak.jpg)
 
 <details>
 <summary>Элиан Вечный Узел</summary>
 
 *одобрение потока*
 
-![Элиан Вечный Узел](https://iili.io/nACKDWN.jpg)
+![Элиан Вечный Узел](https://litter.catbox.moe/syrtih.jpg)
 
-> **Кадр:** Элиан Вечный Узел · [⬇ скачать](https://iili.io/nACKDWN.jpg)
+> **Кадр:** Элиан Вечный Узел · [⬇ скачать](https://litter.catbox.moe/syrtih.jpg)
 </details>
 
 <details>
@@ -62,9 +62,9 @@ title: "3 · Дверь A — Маяк"
 
 *дроу-хранитель*
 
-![Ваэра Ночной Клинок](https://iili.io/nACqVae.jpg)
+![Ваэра Ночной Клинок](https://litter.catbox.moe/zrh4tz.jpg)
 
-> **Кадр:** Ваэра Ночной Клинок · [⬇ скачать](https://iili.io/nACqVae.jpg)
+> **Кадр:** Ваэра Ночной Клинок · [⬇ скачать](https://litter.catbox.moe/zrh4tz.jpg)
 
 
 **Сказать:**
@@ -131,9 +131,9 @@ title: "3 · Дверь A — Маяк"
 <details>
 <summary><strong>2.2 — Осмотр раны</strong></summary>
 
-![Фиолетовая рана Зеркала](https://iili.io/nAC3Oru.jpg)
+![Фиолетовая рана Зеркала](https://litter.catbox.moe/tblxks.jpg)
 
-> **Кадр:** Фиолетовая рана Зеркала · [⬇ скачать](https://iili.io/nAC3Oru.jpg)
+> **Кадр:** Фиолетовая рана Зеркала · [⬇ скачать](https://litter.catbox.moe/tblxks.jpg)
 
 
 **Сказать:**
@@ -155,9 +155,9 @@ title: "3 · Дверь A — Маяк"
 <details>
 <summary><strong>2.3 — Открытие потока → выброс (демоны)</strong></summary>
 
-![Выброс демонов](https://iili.io/nAC3kdb.jpg)
+![Выброс демонов](https://litter.catbox.moe/dxs6xw.jpg)
 
-> **Кадр:** Выброс демонов · [⬇ скачать](https://iili.io/nAC3kdb.jpg)
+> **Кадр:** Выброс демонов · [⬇ скачать](https://litter.catbox.moe/dxs6xw.jpg)
 
 
 **После одобрения.** Элиан + 2 мага тянут фиолетовую нить. Партия стоит у ступеней / рун (Ваэра: «не в плетение»).
@@ -186,9 +186,9 @@ title: "3 · Дверь A — Маяк"
 <details>
 <summary><strong>2.4 — Проход</strong></summary>
 
-![Фиолетовый проход](https://iili.io/nAC3v7j.jpg)
+![Фиолетовый проход](https://litter.catbox.moe/zk5cvm.jpg)
 
-> **Кадр:** Фиолетовый проход · [⬇ скачать](https://iili.io/nAC3v7j.jpg)
+> **Кадр:** Фиолетовый проход · [⬇ скачать](https://litter.catbox.moe/zk5cvm.jpg)
 
 
 **Сказать при входе:**
@@ -234,9 +234,9 @@ title: "3 · Дверь A — Маяк"
 <details>
 <summary><strong>2.5 — Приземление</strong></summary>
 
-![Пустошь · приземление](https://iili.io/nAC34LP.jpg)
+![Пустошь · приземление](https://litter.catbox.moe/99a1ah.jpg)
 
-> **Кадр:** Пустошь · приземление · [⬇ скачать](https://iili.io/nAC34LP.jpg)
+> **Кадр:** Пустошь · приземление · [⬇ скачать](https://litter.catbox.moe/99a1ah.jpg)
 
 
 **Сказать:** «Вас выплёвывает в воздух над чужой землёй.»
@@ -249,13 +249,13 @@ title: "3 · Дверь A — Маяк"
 <details>
 <summary><strong>2.6 — Маяк душ</strong></summary>
 
-![Маяк и лагерь изгоев](https://iili.io/nAC3PB1.jpg)
+![Маяк и лагерь изгоев](https://litter.catbox.moe/zvd3sh.jpg)
 
-> **Кадр:** Маяк и лагерь изгоев · [⬇ скачать](https://iili.io/nAC3PB1.jpg)
+> **Кадр:** Маяк и лагерь изгоев · [⬇ скачать](https://litter.catbox.moe/zvd3sh.jpg)
 
-![Бой у клеток](https://iili.io/nAC3iEF.jpg)
+![Бой у клеток](https://litter.catbox.moe/ei5gfb.jpg)
 
-> **Кадр:** Бой у клеток · [⬇ скачать](https://iili.io/nAC3iEF.jpg)
+> **Кадр:** Бой у клеток · [⬇ скачать](https://litter.catbox.moe/ei5gfb.jpg)
 </details>
 
 <details>
@@ -263,9 +263,9 @@ title: "3 · Дверь A — Маяк"
 
 *лидер изгоев*
 
-![Сарель Пепельный Договор](https://iili.io/nACqFYg.jpg)
+![Сарель Пепельный Договор](https://litter.catbox.moe/84dmj2.jpg)
 
-> **Кадр:** Сарель Пепельный Договор · [⬇ скачать](https://iili.io/nACqFYg.jpg)
+> **Кадр:** Сарель Пепельный Договор · [⬇ скачать](https://litter.catbox.moe/84dmj2.jpg)
 </details>
 
 <details>
@@ -273,9 +273,9 @@ title: "3 · Дверь A — Маяк"
 
 *молодой изгой*
 
-![Кеш](https://iili.io/nACfI5b.jpg)
+![Кеш](https://litter.catbox.moe/n6n4t9.jpg)
 
-> **Кадр:** Кеш · [⬇ скачать](https://iili.io/nACfI5b.jpg)
+> **Кадр:** Кеш · [⬇ скачать](https://litter.catbox.moe/n6n4t9.jpg)
 </details>
 
 <details>
@@ -283,9 +283,9 @@ title: "3 · Дверь A — Маяк"
 
 *руны*
 
-![Орра](https://iili.io/nACfDpj.jpg)
+![Орра](https://litter.catbox.moe/cb28ke.jpg)
 
-> **Кадр:** Орра · [⬇ скачать](https://iili.io/nACfDpj.jpg)
+> **Кадр:** Орра · [⬇ скачать](https://litter.catbox.moe/cb28ke.jpg)
 </details>
 
 <details>
@@ -293,9 +293,9 @@ title: "3 · Дверь A — Маяк"
 
 *босс*
 
-![Сборщик Огарков](https://iili.io/nACKiJa.jpg)
+![Сборщик Огарков](https://litter.catbox.moe/m1vh1z.jpg)
 
-> **Кадр:** Сборщик Огарков · [⬇ скачать](https://iili.io/nACKiJa.jpg)
+> **Кадр:** Сборщик Огарков · [⬇ скачать](https://litter.catbox.moe/m1vh1z.jpg)
 
 
 **Side (не spine):** seed [`../../../locations/mayak-dush/`](../../../locations/mayak-dush/) · q-mayak-01…03. Ворота Купели: q-kupel-01…02 в [`../../../locations/lunnyy-most/quests/`](../../../locations/lunnyy-most/quests/).
@@ -359,9 +359,9 @@ title: "3 · Дверь A — Маяк"
 <details>
 <summary><strong>2.7 — Клифф</strong></summary>
 
-![Клифф · дымы к Алтарному тракту](https://iili.io/nAC3srg.jpg)
+![Клифф · дымы к Алтарному тракту](https://litter.catbox.moe/e683zh.jpg)
 
-> **Кадр:** Клифф · дымы к Алтарному тракту · [⬇ скачать](https://iili.io/nAC3srg.jpg)
+> **Кадр:** Клифф · дымы к Алтарному тракту · [⬇ скачать](https://litter.catbox.moe/e683zh.jpg)
 
 
 **Сказать:**
