@@ -64,6 +64,7 @@
 - [Белый шип](world/locations/belyy-ship.md) · [Туманный клык](world/locations/tumannyy-klyk.md) · [Тихий брод](world/locations/tikhiy-brod.md)
 - [Чаша Шепотов](world/locations/chasha-shepotov.md) · [Поле павших героев](world/locations/pole-pavshikh-geroev.md)
 - [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор; столица **Силвания**)
+- [Элдеринская гавань](world/locations/elderinskaya-gavan.md) (отдельное государство; ≠ Ульфгард)
 - [Розалия](world/locations/rozaliya.md)
   - [НПС](world/locations/rozaliya/npcs.md)
   - [Суда](world/locations/rozaliya/ships.md)
@@ -119,6 +120,7 @@
 - [Велиан Полутень](world/npcs/velian.md) — жив; план мёртвых, в пути
 - [Лианэя](world/npcs/lianeya.md) — сестра Элариона; армия мёртвых; Доспехи смерти *(secret)*
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
+- [Невил](world/npcs/nevil.md) — важный ПК; сейчас на свадебном путешествии (за столом не играет)
 
 ## Партия
 
@@ -146,6 +148,8 @@
 - [Награды за Страж](campaign/party/rewards-silver-guard.md)
 - [Кандидаты 4 Разломов](campaign/plot/rift-candidates.md)
 - [Вопросы мастеру](campaign/plot/canon-questions-for-gm.md)
+- [Канон-лок TG↔канон v3 (2026-09-05)](campaign/plot/canon-lock-2026-09-05-telegram-v3.md)
+- [Сверка вопросов TG](campaign/plot/canon-questions-telegram-reconcile.md) · [опрос v3](campaign/plot/canon-survey-v3-telegram.html)
 - Черновик: [драконий сет Кеши](drafts/kesha-dragon-artifact-set.md) *(арка Кеши закрыта — мёртв)*
 
 ## Книги для игроков
@@ -153,6 +157,7 @@
 - [Оглавление + правило «открытая глава = канон»](world/player-books/README.md)
 - [Зеркало Памяти — 17 открытых глав](world/player-books/zerkalo-pamyati.md)
 - [Артефакты Кардиана](world/lore/artefacts-kardian.md) ← гл. 44 «Артефакты Падения»
+- [GM-кодексы (заготовка)](world/player-books/gm-codex/README.md)
 
 ## Сессии
 
