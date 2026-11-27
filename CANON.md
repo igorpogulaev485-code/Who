@@ -1,6 +1,6 @@
 # Канон — индекс
 
-Живой оглавление. Обновлено после импорта первого шаринга Qwen (сессии 1–8 + side).
+Живой оглавление канона. Сыгранные сессии: 01–08 и арка 3 · с.1–3.
 
 ## Мета
 
@@ -158,6 +158,15 @@
 
 - [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
 - [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
+- [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
+- [03 — Разлом](campaign/sessions/03-razlom.md)
+- [04 — Колыбель Рассвета](campaign/sessions/04-kolybel-rassveta.md)
+- [05 — Лунный Овраг и Пиппин](campaign/sessions/05-lunnyy-ovrag-pippin.md)
+- [06 — Битва за Лунный Овраг](campaign/sessions/06-bitva-za-lunnyy-ovrag.md)
+- [06b — Балтан / Элеонора](campaign/sessions/06b-baltan-eleonora.md)
+- [07 — Дорога на Розалию](campaign/sessions/07-doroga-na-rozaliyu.md)
+- [07b — Храм Хельма](campaign/sessions/07b-khram-khelma.md)
+- [08 — Мёртвый город](campaign/sessions/08-mertvyy-gorod.md)
 - [Арка 3 · с.1–2 — дверь D / суд на Пороге](campaign/sessions/arc3-s1s2-door-d-recap.md) · [лок](campaign/plot/canon-lock-2026-09-27-recap-door-d.md)
 - [Арка 3 · с.3 — город Порог / порча](campaign/sessions/arc3-s3-serebryanyy-porog-city.md) · [лок](campaign/plot/canon-lock-2026-10-11-arc3-s3.md)
 - [Вестник Порога — после с.3 (ТГ)](campaign/sessions/player-briefs-porog-after-s3.md)
@@ -188,12 +197,3 @@
 - [Знак «Хвоста Скорпиона»](assets/prompts/scorpion-tail-mark.md) → [картинка](assets/images/scorpion-tail-mark.png)
 - [Ритуальный клинок Кардиана](assets/prompts/kardian-ritual-dagger.md) → [картинка](assets/images/kardian-ritual-dagger.png)
 - [Камнеград](assets/prompts/kamnegrad.md) → 4 кадра в `assets/images/kamnegrad-*.png`
-- [02 — Последний гонец](campaign/sessions/02-posledniy-gonets.md)
-- [03 — Разлом](campaign/sessions/03-razlom.md)
-- [04 — Колыбель Рассвета](campaign/sessions/04-kolybel-rassveta.md)
-- [05 — Лунный Овраг и Пиппин](campaign/sessions/05-lunnyy-ovrag-pippin.md)
-- [06 — Битва за Лунный Овраг](campaign/sessions/06-bitva-za-lunnyy-ovrag.md)
-- [06b — Балтан / Элеонора](campaign/sessions/06b-baltan-eleonora.md)
-- [07 — Дорога на Розалию](campaign/sessions/07-doroga-na-rozaliyu.md)
-- [07b — Храм Хельма](campaign/sessions/07b-khram-khelma.md)
-- [08 — Мёртвый город](campaign/sessions/08-mertvyy-gorod.md)
