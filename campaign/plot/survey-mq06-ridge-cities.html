@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опрос — города Драконьего Хребта</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  .rec { font-size: 0.8rem; color: var(--accent); margin: -4px 0 8px; }
+  select, textarea {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опрос — города Хребта</h1>
+  <p class="lead">Столица у вулкана + какие поселения на карте. Выбери → «Скопировать» → в чат.</p>
+  <div class="locked"><b>v6 вайб ок.</b> Столицу переносим к вулкану (восток). Книги: Город Пламени · Обсерватория · Теневые Каньоны · Ледники Корвара · Пепельный Гребень · Разлом активен.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Список городов своими словами, имена, запреты.</p>
+    <textarea id="freeform" rows="5" placeholder="note=…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+
+<div class="footer">
+  <div class="footer-inner">
+    <button type="button" class="secondary" id="btnLitter">Litterbox ответов</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано</div>
+
+<script>
+const STORAGE = "echo-dawn-mq06-ridge-cities-v1";
+const QUESTIONS = [
+  {
+    id: "a",
+    section: "A · Столица и вулкан",
+    title: "Где именно Город Пламени?",
+    ctx: "На карте мира вулкан — восточный конец архипелага. Книги: столица в огненном биоме.",
+    rec: "Рекомендация: остров вулкана у подножия — и жар, и читаемый город.",
+    options: [
+      { v: "a_island_crater", t: "На острове вулкана, у кратера" },
+      { v: "a_island_foot", t: "На острове вулкана, у подножия" },
+      { v: "a_mainland_facing", t: "На основной ленте у востока, лицом к вулкану" },
+      { v: "a_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "b",
+    section: "B · Сколько подписей",
+    title: "Сколько поселений подписываем на карте?",
+    ctx: "Лес ≈ 6. Союз — столица + полисы + лагерь.",
+    options: [
+      { v: "b_4_5", t: "4–5 крупных" },
+      { v: "b_6_7", t: "6–7 (как Лес)" },
+      { v: "b_8_10", t: "8–10 (плотнее)" },
+      { v: "b_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "c",
+    section: "C · Набор ролей",
+    title: "Какой обязательный набор кроме столицы?",
+    options: [
+      { v: "c_core", t: "Дипл.двор + порт + город Зариакса" },
+      { v: "c_triumvir", t: "По зоне каждого из триумвирата + оппозиция" },
+      { v: "c_trade", t: "2 порта + кузнечный город" },
+      { v: "c_propose", t: "Предложи пакет 6–7 → выберу" },
+      { v: "c_other", t: "Свой список → в заметке" }
+    ]
+  },
+  {
+    id: "d",
+    section: "D · Дипл. двор",
+    title: "Где выход портала союзников?",
+    ctx: "С.2 меча начинается здесь.",
+    options: [
+      { v: "d_in_capital", t: "Квартал внутри Города Пламени" },
+      { v: "d_suburb", t: "Пригород у столицы (своя иконка)" },
+      { v: "d_west_gate", t: "Отдельный город на западе ленты" },
+      { v: "d_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "e",
+    section: "E · Зариакс",
+    title: "Теневые Каньоны — что на карте?",
+    options: [
+      { v: "e_city", t: "Полноценный город оппозиции" },
+      { v: "e_fort", t: "Только крепость / логово" },
+      { v: "e_region", t: "Только регион, без иконки" },
+      { v: "e_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "f",
+    section: "F · Эридан",
+    title: "Обсерватория Звёздного Склона?",
+    options: [
+      { v: "f_city", t: "Город-архив вокруг" },
+      { v: "f_icon", t: "Только здание-иконка" },
+      { v: "f_hidden", t: "Не на карте государства" },
+      { v: "f_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "g",
+    section: "G · Корвар",
+    title: "Северные Ледники на этой карте?",
+    ctx: "На южной ленте = северные склоны / западный стык.",
+    options: [
+      { v: "g_city", t: "Ледниковый город / форт" },
+      { v: "g_outpost", t: "Застава" },
+      { v: "g_region", t: "Только подпись региона" },
+      { v: "g_skip", t: "Не выносить на эту карту" },
+      { v: "g_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "h",
+    section: "H · Порты",
+    title: "Сколько портов?",
+    options: [
+      { v: "h_one_capital", t: "Один — при столице у вулкана" },
+      { v: "h_two", t: "Два: столичный (В) + западный" },
+      { v: "h_three", t: "Три: В / центр / З" },
+      { v: "h_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "i",
+    section: "I · Пепельный Гребень",
+    title: "Святыня Меча на карте?",
+    options: [
+      { v: "i_shrine_only", t: "Только пик / святыня" },
+      { v: "i_shrine_town", t: "Святыня + город стражи" },
+      { v: "i_forbidden", t: "Пик есть, без подписи про Меч" },
+      { v: "i_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "j",
+    section: "J · Разлом",
+    title: "Разлом и поселения?",
+    ctx: "Активен; далеко от Меча.",
+    options: [
+      { v: "j_alone", t: "Один, без города рядом" },
+      { v: "j_watch", t: "Рядом застава / дозор" },
+      { v: "j_dead_city", t: "Рядом мёртвый / эвакуированный город" },
+      { v: "j_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "k",
+    section: "K · Имена",
+    title: "Как даём имена новым городам?",
+    options: [
+      { v: "k_propose", t: "Предложи 2–3 на слот → выберу" },
+      { v: "k_mine", t: "Дам имена в заметке" },
+      { v: "k_later", t: "Сначала роли, имена потом" },
+      { v: "k_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "l",
+    section: "L · Карта после ответов",
+    title: "Как правим карту?",
+    options: [
+      { v: "l_rebuild", t: "Пересобрать v7 (вайб v6, новый расклад)" },
+      { v: "l_patch", t: "Точечно: столица к вулкану + докинуть города" },
+      { v: "l_other", t: "Другое → уточни ниже" }
+    ]
+  }
+];
+
+function bySection(list) {
+  const map = new Map();
+  list.forEach((q) => {
+    if (!map.has(q.section)) map.set(q.section, []);
+    map.get(q.section).push(q);
+  });
+  return map;
+}
+function showNote(v) {
+  return (v || "").endsWith("_other") || (v || "").endsWith("_propose") || (v || "").endsWith("_mine");
+}
+function render() {
+  const root = document.getElementById("sections");
+  root.innerHTML = "";
+  bySection(QUESTIONS).forEach((qs, section) => {
+    const sec = document.createElement("section");
+    sec.innerHTML = `<h2>${section}</h2>`;
+    qs.forEach((q) => {
+      const div = document.createElement("div");
+      div.className = "q";
+      const opts = q.options.map((o) => `<option value="${o.v}">${o.t}</option>`).join("");
+      div.innerHTML = `
+        <span class="title">${q.title}</span>
+        <div class="ctx">${q.ctx || ""}</div>
+        ${q.rec ? `<div class="rec">${q.rec}</div>` : ""}
+        <select data-q="${q.id}"><option value="">— выбери —</option>${opts}</select>
+        <textarea class="note" data-note="${q.id}" rows="3" placeholder="Уточнение…"></textarea>`;
+      sec.appendChild(div);
+    });
+    root.appendChild(sec);
+  });
+  root.querySelectorAll("select").forEach((sel) => {
+    sel.addEventListener("change", () => {
+      const note = root.querySelector(`textarea[data-note="${sel.dataset.q}"]`);
+      if (note) note.classList.toggle("show", showNote(sel.value));
+      persist(); updateProgress();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach((t) => t.addEventListener("input", persist));
+  document.getElementById("freeform").addEventListener("input", persist);
+}
+function collect() {
+  const lines = ["survey-mq06-ridge-cities"];
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    lines.push(`${q.id}=${sel?.value || "—"}`);
+    if (note && note.value.trim()) lines.push(`${q.id}_note=${note.value.trim()}`);
+  });
+  lines.push("note=" + (document.getElementById("freeform").value.trim() || "—"));
+  return lines.join("\n");
+}
+function persist() {
+  const answers = {};
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    answers[q.id] = { v: sel?.value || "", note: note?.value || "" };
+  });
+  localStorage.setItem(STORAGE, JSON.stringify({ answers, free: document.getElementById("freeform").value }));
+}
+function restore() {
+  try {
+    const data = JSON.parse(localStorage.getItem(STORAGE) || "null");
+    if (!data) return;
+    QUESTIONS.forEach((q) => {
+      const a = data.answers?.[q.id];
+      if (!a) return;
+      const sel = document.querySelector(`select[data-q="${q.id}"]`);
+      const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+      if (sel) sel.value = a.v || "";
+      if (note) { note.value = a.note || ""; note.classList.toggle("show", showNote(a.v)); }
+    });
+    if (data.free) document.getElementById("freeform").value = data.free;
+  } catch (_) {}
+  updateProgress();
+}
+function updateProgress() {
+  let done = 0;
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    if (sel && sel.value) done++;
+  });
+  document.getElementById("count").textContent = `${done} / ${QUESTIONS.length}`;
+  document.getElementById("bar").style.width = `${(done / QUESTIONS.length) * 100}%`;
+}
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg; t.style.display = "block";
+  setTimeout(() => { t.style.display = "none"; }, 1600);
+}
+document.getElementById("btnCopy").addEventListener("click", async () => {
+  const text = collect();
+  const out = document.getElementById("out");
+  out.textContent = text; out.classList.add("show");
+  try { await navigator.clipboard.writeText(text); toast("Скопировано — вставь в чат"); }
+  catch (_) { toast("Выдели текст ниже"); }
+});
+document.getElementById("btnLitter").addEventListener("click", async () => {
+  const text = collect();
+  const blob = new Blob([text], { type: "text/plain" });
+  const fd = new FormData();
+  fd.append("reqtype", "fileupload"); fd.append("time", "72h");
+  fd.append("fileToUpload", blob, "mq06-ridge-cities.txt");
+  try {
+    const res = await fetch("https://litterbox.catbox.moe/resources/internals/api.php", { method: "POST", body: fd });
+    const url = await res.text();
+    const out = document.getElementById("out");
+    out.textContent = text + "\n\n# litterbox\n" + url; out.classList.add("show");
+    try { await navigator.clipboard.writeText(url); } catch (_) {}
+    toast("Litterbox ответов готов");
+  } catch (_) { toast("Litterbox недоступен"); }
+});
+render(); restore(); updateProgress();
+</script>
+</body>
+</html>

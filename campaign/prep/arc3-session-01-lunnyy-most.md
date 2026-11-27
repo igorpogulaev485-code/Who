@@ -1,10 +1,14 @@
 ---
 title: Prep — 3 арка, сессия 1 (Лунный Мост)
 status: prep
-tags: [prep, arc3]
+tags: [prep, arc3, stale]
 source: gm
 share_url: https://chat.qwen.ai/s/1594818c-09f3-4713-957c-4a0402e2714b
 ---
+
+> **STALE (2026-09-07):** Маэстро Келебрим **мёртв**; шатёр фестиваля — не живой штаб.  
+> Актуальный пакет направлений: [`arcs/arc-3/mains-overview.md`](arcs/arc-3/mains-overview.md) · playbook хаба: [`locations/lunnyy-most/playbook.md`](locations/lunnyy-most/playbook.md).  
+> Этот файл оставляем как каталог локаций города (имена мест ещё полезны).
 
 # Сессия 1 третьей арки — старт в Лунном Мосту
 

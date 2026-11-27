@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос — хвосты воскрешения</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:740px;margin:2rem auto;padding:0 1rem 3rem;line-height:1.45;background:#1a1512;color:#e8e0d5}
+h1{font-size:1.3rem} h2{font-size:1.05rem;margin-top:1.4rem;border-bottom:1px solid #444;padding-bottom:.3rem}
+.note{font-size:.92rem;margin:1rem 0;padding:.75rem;background:#241f1c;border-left:3px solid #8b6914}
+label{display:block;margin:.3rem 0;padding:.4rem .55rem;background:#2a2320;border-radius:6px;cursor:pointer}
+label:hover{background:#3a322c}
+button{margin-top:1.2rem;padding:.65rem 1.3rem;font-size:1rem;cursor:pointer;background:#8b6914;color:#fff;border:0;border-radius:6px}
+#out{white-space:pre-wrap;background:#111;padding:1rem;margin-top:1rem;border-radius:6px;font-size:.88rem}
+textarea{width:100%;margin-top:.5rem;background:#111;color:#eee;border:1px solid #444;padding:.5rem}
+</style>
+</head>
+<body>
+<h1>Опрос — хвосты воскрешения</h1>
+<p class="note">Уже лок: C = боги/заклинатели · R = сосуд/Амират · душа у демонов. Закроем стыки.</p>
+
+<h2>A · Партия→сосуды, Милана→боги?</h2>
+<label><input type="radio" name="A" value="a_ally_tense" checked/> a_ally_tense · союз с трением (рек.)</label>
+<label><input type="radio" name="A" value="a_split"/> a_split · могут разойтись путями</label>
+<label><input type="radio" name="A" value="a_oppose"/> a_oppose · она мешает сосудам</label>
+<label><input type="radio" name="A" value="a_later"/> a_later · у стола</label>
+<label><input type="radio" name="A" value="a_other"/> a_other · другое</label>
+
+<h2>B · Конкретика её богов/магов сейчас?</h2>
+<label><input type="radio" name="B" value="b_vague"/> b_vague · туман для партии</label>
+<label><input type="radio" name="B" value="b_one_god"/> b_one_god · один бог (заметка)</label>
+<label><input type="radio" name="B" value="b_casters"/> b_casters · 1–3 имени (заметка)</label>
+<label><input type="radio" name="B" value="b_prep_later" checked/> b_prep_later · метод лок; имена позже (рек.)</label>
+<label><input type="radio" name="B" value="b_other"/> b_other · другое</label>
+
+<h2>C · Где растёт второй сосуд?</h2>
+<label><input type="radio" name="C" value="c_amirat_same" checked/> c_amirat_same · тоже Амират (рек.)</label>
+<label><input type="radio" name="C" value="c_bridge"/> c_bridge · у Лунного моста</label>
+<label><input type="radio" name="C" value="c_elsewhere"/> c_elsewhere · другое гос-во</label>
+<label><input type="radio" name="C" value="c_secret"/> c_secret · долго секрет</label>
+<label><input type="radio" name="C" value="c_other"/> c_other · другое</label>
+
+<h2>D · Оба пути могут победить?</h2>
+<label><input type="radio" name="D" value="d_one"/> d_one · только один Маэстро</label>
+<label><input type="radio" name="D" value="d_merge"/> d_merge · синтез</label>
+<label><input type="radio" name="D" value="d_fail_ok"/> d_fail_ok · один может провалиться</label>
+<label><input type="radio" name="D" value="d_later" checked/> d_later · у стола (рек.)</label>
+<label><input type="radio" name="D" value="d_other"/> d_other · другое</label>
+
+<h2>E · Точка в Амирате</h2>
+<label><input type="radio" name="E" value="e_wait" checked/> e_wait · когда пойдут на юг (рек.)</label>
+<label><input type="radio" name="E" value="e_alharima"/> e_alharima · заготовка Аль-Харима (не игрокам)</label>
+<label><input type="radio" name="E" value="e_name_now"/> e_name_now · залочить сейчас</label>
+<label><input type="radio" name="E" value="e_other"/> e_other · другое</label>
+
+<h2>F · Портрет + шатёр = канон-внешность?</h2>
+<label><input type="radio" name="F" value="f_lock" checked/> f_lock · да, оба (рек.)</label>
+<label><input type="radio" name="F" value="f_tent_only"/> f_tent_only · только шатёр</label>
+<label><input type="radio" name="F" value="f_face_only"/> f_face_only · только лицо</label>
+<label><input type="radio" name="F" value="f_other"/> f_other · другое</label>
+
+<textarea id="note" rows="3" placeholder="заметка: бог, имена магов, место роста…"></textarea>
+<button type="button" id="go">Собрать ответ</button>
+<pre id="out"></pre>
+<script>
+document.getElementById('go').onclick=()=>{
+  const g=n=>(document.querySelector(`input[name="${n}"]:checked`)||{}).value||'?';
+  const note=document.getElementById('note').value.trim();
+  let s=['A','B','C','D','E','F'].map(x=>`${x}=${g(x)}`).join(' ');
+  if(note) s+=`\nзаметка: ${note}`;
+  document.getElementById('out').textContent=s;
+  navigator.clipboard?.writeText(s);
+};
+</script>
+</body>
+</html>

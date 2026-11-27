@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Опрос — Двойник Маэстро</title>
+<style>
+body{font-family:system-ui,sans-serif;max-width:780px;margin:2rem auto;padding:0 1rem 3rem;line-height:1.45;background:#1a1512;color:#e8e0d5}
+h1{font-size:1.35rem} h2{font-size:1.05rem;margin-top:1.6rem;border-bottom:1px solid #444;padding-bottom:.3rem}
+.ctx{opacity:.88;font-size:.9rem;margin:.4rem 0 .6rem;padding:.55rem .7rem;background:#241f1c;border-left:3px solid #6b5a3a}
+.note{opacity:.9;font-size:.92rem;margin:1rem 0;padding:.75rem;background:#241f1c;border-left:3px solid #8b6914}
+label{display:block;margin:.3rem 0;padding:.4rem .55rem;background:#2a2320;border-radius:6px;cursor:pointer;font-size:.95rem}
+label:hover{background:#3a322c}
+button{margin-top:1.2rem;padding:.65rem 1.3rem;font-size:1rem;cursor:pointer;background:#8b6914;color:#fff;border:0;border-radius:6px}
+#out{white-space:pre-wrap;background:#111;padding:1rem;margin-top:1rem;border-radius:6px;font-size:.88rem}
+textarea{width:100%;margin-top:.5rem;background:#111;color:#eee;border:1px solid #444;padding:.5rem;border-radius:4px}
+.canon{font-size:.88rem;opacity:.85}
+</style>
+</head>
+<body>
+<h1>Опрос — Двойник Маэстро (крышка)</h1>
+<p class="note">Стр. 16–17 уже open. Лочим правду на случай «ищем крышку завтра». Рекомендации отмечены. → «Собрать ответ» → в чат.</p>
+<p class="canon"><b>Канон:</b> 3 провала юности · первый зрелый под мостом · 1 смерть→клон · «держу сосуд» · ищи крышку.</p>
+
+<h2>A · Сколько успешных переездов души? (смерть→клон)</h2>
+<p class="ctx">Минимум 1 (юность). «Меняю плоть для двора» = намёк на повторы.</p>
+<label><input type="radio" name="A" value="a_1"/> a_1 · только тот один</label>
+<label><input type="radio" name="A" value="a_few" checked/> a_few · 2–4 за жизнь (рек.)</label>
+<label><input type="radio" name="A" value="a_dozen"/> a_dozen · ~5–12 (регулярный сброс)</label>
+<label><input type="radio" name="A" value="a_many"/> a_many · &gt;12 / рутина</label>
+<label><input type="radio" name="A" value="a_unknown"/> a_unknown · точное число партия не узнает</label>
+<label><input type="radio" name="A" value="a_other"/> a_other · другое</label>
+
+<h2>B · Сколько успешных сосудов вырастил за жизнь?</h2>
+<p class="ctx">Не считая 3 юношеских провала. Обычно один запасной за цикл.</p>
+<label><input type="radio" name="B" value="b_1"/> b_1 · всего 1 (юношеский); дальше без запаса</label>
+<label><input type="radio" name="B" value="b_2" checked/> b_2 · 2: юношеский израсходован + один взрослый (рек.)</label>
+<label><input type="radio" name="B" value="b_cycle"/> b_cycle · по одному на каждый цикл (≈ A)</label>
+<label><input type="radio" name="B" value="b_hoard"/> b_hoard · несколько сосудов сразу</label>
+<label><input type="radio" name="B" value="b_other"/> b_other · другое</label>
+
+<h2>C · Сколько готовых сосудов в момент убийства демонами?</h2>
+<label><input type="radio" name="C" value="c_0"/> c_0 · ноль (клон-путь закрыт/пустая крышка)</label>
+<label><input type="radio" name="C" value="c_1" checked/> c_1 · ровно один (рек.)</label>
+<label><input type="radio" name="C" value="c_multi"/> c_multi · больше одного</label>
+<label><input type="radio" name="C" value="c_growing"/> c_growing · один ещё растёт (&lt;120 дней)</label>
+<label><input type="radio" name="C" value="c_other"/> c_other · другое</label>
+
+<h2>D · Где актуальный сосуд?</h2>
+<label><input type="radio" name="D" value="d_bridge" checked/> d_bridge · ниша под Лунным мостом (рек. для быстрого крюка)</label>
+<label><input type="radio" name="D" value="d_moved_city"/> d_moved_city · другое место в городе</label>
+<label><input type="radio" name="D" value="d_outside"/> d_outside · вне моста</label>
+<label><input type="radio" name="D" value="d_destroyed"/> d_destroyed · уничтожен</label>
+<label><input type="radio" name="D" value="d_unknown_party"/> d_unknown_party · сначала только улики, не точка</label>
+<label><input type="radio" name="D" value="d_other"/> d_other · другое</label>
+
+<h2>E · Кто второй из «двое знали»?</h2>
+<label><input type="radio" name="E" value="e_kardian"/> e_kardian · Кардиан</label>
+<label><input type="radio" name="E" value="e_kardian_dead" checked/> e_kardian_dead · Кардиан, и он пал (рек.)</label>
+<label><input type="radio" name="E" value="e_milana"/> e_milana · линия Миланы / она</label>
+<label><input type="radio" name="E" value="e_servant"/> e_servant · слуга/маг (имя в заметке)</label>
+<label><input type="radio" name="E" value="e_none_now"/> e_none_now · второй мёртв; никто из живых не знает</label>
+<label><input type="radio" name="E" value="e_other"/> e_other · другое</label>
+
+<h2>F · Знает ли Милана?</h2>
+<label><input type="radio" name="F" value="f_no"/> f_no · нет</label>
+<label><input type="radio" name="F" value="f_hint" checked/> f_hint · догадывается / запрет отца (рек.)</label>
+<label><input type="radio" name="F" value="f_yes_place"/> f_yes_place · знает что и где</label>
+<label><input type="radio" name="F" value="f_yes_what"/> f_yes_what · знает что, не где</label>
+<label><input type="radio" name="F" value="f_other"/> f_other · другое</label>
+
+<h2>G · Душа сейчас — может переехать?</h2>
+<p class="ctx">Clone требует свободную и согласную душу. Демоны + план мёртвых = часто блок.</p>
+<label><input type="radio" name="G" value="g_free"/> g_free · свободна → клон сработает</label>
+<label><input type="radio" name="G" value="g_trapped_demon" checked/> g_trapped_demon · держат демоны (рек.)</label>
+<label><input type="radio" name="G" value="g_dead_plane"/> g_dead_plane · на плане мёртвых</label>
+<label><input type="radio" name="G" value="g_split"/> g_split · нужны оба пути</label>
+<label><input type="radio" name="G" value="g_refuse"/> g_refuse · свободна, но не согласна</label>
+<label><input type="radio" name="G" value="g_other"/> g_other · другое</label>
+
+<h2>H · Связь клон ↔ план мёртвых</h2>
+<label><input type="radio" name="H" value="h_clone_only"/> h_clone_only · клон = главный путь</label>
+<label><input type="radio" name="H" value="h_dead_only"/> h_dead_only · клон = тупик; правда у мёртвых</label>
+<label><input type="radio" name="H" value="h_both" checked/> h_both · нужны оба (рек.)</label>
+<label><input type="radio" name="H" value="h_race"/> h_race · гонка партий/Миланы/демонов</label>
+<label><input type="radio" name="H" value="h_other"/> h_other · другое</label>
+
+<h2>I · Первая вылазка героев — что находят?</h2>
+<label><input type="radio" name="I" value="i_empty_niche"/> i_empty_niche · ниша есть, сосуд унесён + улика</label>
+<label><input type="radio" name="I" value="i_sealed" checked/> i_sealed · запечатанный сосуд (рек. клифф)</label>
+<label><input type="radio" name="I" value="i_broken"/> i_broken · разбит</label>
+<label><input type="radio" name="I" value="i_guarded"/> i_guarded · стерегут</label>
+<label><input type="radio" name="I" value="i_trap"/> i_trap · ловушка Маэстро</label>
+<label><input type="radio" name="I" value="i_not_yet"/> i_not_yet · точку рано не найти (только улики)</label>
+<label><input type="radio" name="I" value="i_other"/> i_other · другое</label>
+
+<h2>J · Если клон сработает — какой Маэстро встаёт?</h2>
+<label><input type="radio" name="J" value="j_full"/> j_full · полный (как в правилах)</label>
+<label><input type="radio" name="J" value="j_damaged" checked/> j_damaged · повреждён (дыры памяти/слабость) (рек.)</label>
+<label><input type="radio" name="J" value="j_wrong"/> j_wrong · «не тот» / примесь</label>
+<label><input type="radio" name="J" value="j_shell"/> j_shell · оболочка без души</label>
+<label><input type="radio" name="J" value="j_other"/> j_other · другое</label>
+
+<h2>K · Провалы сосудов сверх юношеских трёх?</h2>
+<label><input type="radio" name="K" value="k_0" checked/> k_0 · больше не проваливал (рек.)</label>
+<label><input type="radio" name="K" value="k_rare"/> k_rare · ещё 1–2</label>
+<label><input type="radio" name="K" value="k_habit"/> k_habit · периодически / «кладбище»</label>
+<label><input type="radio" name="K" value="k_other"/> k_other · другое</label>
+
+<h2>L · Какой prep писать после лока?</h2>
+<label><input type="radio" name="L" value="l_hook" checked/> l_hook · якорь в ранбуке + 1 сцена (рек.)</label>
+<label><input type="radio" name="L" value="l_site"/> l_site · playbook ниши</label>
+<label><input type="radio" name="L" value="l_full"/> l_full · ветка на 1–2 сессии</label>
+<label><input type="radio" name="L" value="l_wait"/> l_wait · только лок; текст когда пойдут</label>
+<label><input type="radio" name="L" value="l_other"/> l_other · другое</label>
+
+<textarea id="note" rows="4" placeholder="Заметка: точное место, имя второго, возраст тела, закрытые стр. дневника…"></textarea>
+<button type="button" id="go">Собрать ответ</button>
+<pre id="out"></pre>
+<script>
+document.getElementById('go').onclick=()=>{
+  const g=n=>(document.querySelector(`input[name="${n}"]:checked`)||{}).value||'?';
+  const note=document.getElementById('note').value.trim();
+  let s=['A','B','C','D','E','F','G','H','I','J','K','L'].map(x=>`${x}=${g(x)}`).join(' ');
+  if(note) s+=`\nзаметка: ${note}`;
+  document.getElementById('out').textContent=s;
+  navigator.clipboard?.writeText(s);
+};
+</script>
+</body>
+</html>

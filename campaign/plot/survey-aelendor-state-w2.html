@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опрос — Аэлендор паспорт W2</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  .rec { font-size: 0.8rem; color: var(--accent); margin: -4px 0 8px; }
+  select, textarea {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опрос — Аэлендор · паспорт W2</h1>
+  <p class="lead">Выбери → «Скопировать ответы» → вставь в чат Cursor. Сохраняется на устройстве.</p>
+  <div class="locked"><b>W1 уже в репо:</b> карта (красный/белый пунктир) · 8 баннер-городов · столица Сильванор · провинция <b>Лунные Пики</b> · Элессар I / Люмиэль† / Филлер / Тандил · война / Разлом-Купель · рычаг «Герои Аэлендора». <b>Сейчас:</b> имена провинций 2–8, власть «сейчас», устои, экономика, сила, законы, точки Разлома на карте страны.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Имена провинций своими словами · устои · экспорт · что бесит в черновике паспорта.</p>
+    <textarea id="freeform" rows="5" placeholder="note=…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+
+<div class="footer">
+  <div class="footer-inner">
+    <button type="button" class="secondary" id="btnLitter">Litterbox ответов</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано</div>
+
+<script>
+const STORAGE = "echo-dawn-aelendor-state-w2-v1";
+const QUESTIONS = [
+  {
+    id: "a",
+    section: "A · Провинции (белый пунктир)",
+    title: "Как назвать 7 провинций кроме Лунных Пиков?",
+    ctx: "На карте ~8 белых контуров + баннер в каждом.\nПредложение агента (рабочие имена):\n2 Северный рубеж → Розалия\n3 Столичный край → Сильванор\n4 Златоцветские земли → Златоцвет\n5 Элиандорский край → Элиандор\n6 Вратные земли → Вратный град\n7 Южный страж → Хранитель пик\n8 Рубеж Предела → Серебряный предел",
+    options: [
+      { v: "a_ok", t: "Принять рабочие имена как канон" },
+      { v: "a_city", t: "Провинция = имя главного города (Провинция Розалия и т.д.)" },
+      { v: "a_edit", t: "В целом ок — поправлю 1–2 имени в заметке / freeform" },
+      { v: "a_list", t: "Свой список 7–8 имён — в freeform" },
+      { v: "a_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "b",
+    section: "B · Власть «сейчас»",
+    title: "Кто в паспорте строка «правит сейчас» (военное время)?",
+    ctx: "Формально Элессар I (в Лесу). Люмиэль мёртв. Филлер = верховный адъютант. Тандил = мэр Моста.",
+    options: [
+      { v: "b_elessar", t: "Элессар I (король в изгнании/Лесу); на местах — советы" },
+      { v: "b_filler", t: "Филлер / Совет адъютантов = фактическая власть" },
+      { v: "b_dual", t: "Двойная строка: король Элессар + военный совет Филлера" },
+      { v: "b_silvanara", t: "Сильванара снова у руля до возвращения сына" },
+      { v: "b_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "c",
+    section: "C · Устои",
+    title: "Три принципа Аэлендора (культура государства)",
+    ctx: "Скил требует 1–3. Не путать с устоями Леса Хранителей («единение с природой / деревни»).",
+    options: [
+      { v: "c_propose", t: "Принять предложение агента (см. rec) — правь в freeform" },
+      { v: "c_you", t: "Назову свои 1–3 в freeform" },
+      { v: "c_later", t: "Пока оставь дыру — только W1" },
+      { v: "c_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "d",
+    section: "D · Экономика",
+    title: "Чем Аэлендор живёт / торгует?",
+    ctx: "Без level-gate. Черновик слотов: лес · серебро/металл · ритуал/паломничество Моста · порт Розалии · река Златоцвета.",
+    options: [
+      { v: "d_propose", t: "Разверни предложение агента в паспорт — я поправлю" },
+      { v: "d_you", t: "Сам опишу экспорт/дефицит/валюту в freeform" },
+      { v: "d_war", t: "Сейчас всё = военная экономика; мирный уклад — фон" },
+      { v: "d_later", t: "Экономику на следующую волну" },
+      { v: "d_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "e",
+    section: "E · Сила",
+    title: "Качество армии / магии vs соседей?",
+    ctx: "Контрнаступление vs Долина; Орден у Сильванора; гарнизон Хребта у Моста.",
+    options: [
+      { v: "e_strong_magi", t: "Сильны магией/ритуалом Моста; армия средняя" },
+      { v: "e_balanced", t: "Сбалансированы; держат два фронта с трудом" },
+      { v: "e_stretched", t: "Растянуты — без героев/союзников столица под риском" },
+      { v: "e_you", t: "Опишу в freeform" },
+      { v: "e_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "f",
+    section: "F · Законы / табу",
+    title: "Что чужаку нельзя / нельзя в королевстве?",
+    ctx: "Кратко 2–4 пункта. Примеры: осквернение Моста · некромантия без лицензии · убийство эльфа · чужой культ.",
+    options: [
+      { v: "f_propose", t: "Предложи 3 табу — я правлю" },
+      { v: "f_you", t: "Свои табу в freeform" },
+      { v: "f_later", t: "Позже" },
+      { v: "f_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "g",
+    section: "G · Разлом на карте Аэлендора",
+    title: "Кроме Купели Моста — есть ли ещё Разлом внутри красной границы?",
+    ctx: "В мире 5 активных. На карте Аэлендора подписан только контекст Моста/Пиков.",
+    options: [
+      { v: "g_only_moon", t: "На карте страны сюжетно важен только Мост" },
+      { v: "g_second", t: "Есть второй — укажу где в freeform" },
+      { v: "g_marks", t: "Отметь кандидатов (Поле павших / Предел / …) — я выберу" },
+      { v: "g_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "h",
+    section: "H · Волна",
+    title: "После ответов что делать с fill_wave?",
+    ctx: "Скил: W2 = тело (регионы, экономика, сила, НПС, законы).",
+    options: [
+      { v: "h_w2_now", t: "Сразу поднять паспорт до fill_wave: 2" },
+      { v: "h_w1_plus", t: "Дописать дыры, но оставить wave 1 до моей правки имён" },
+      { v: "h_pause", t: "Только зафиксировать ответы локом — паспорт позже" },
+      { v: "h_other", t: "Другое → уточни ниже" }
+    ]
+  }
+];
+
+function render() {
+  const root = document.getElementById("sections");
+  let cur = "";
+  QUESTIONS.forEach((q) => {
+    if (q.section !== cur) {
+      cur = q.section;
+      const h = document.createElement("section");
+      h.innerHTML = `<h2>${cur}</h2><p class="hint">Выпадающий список · при «Другое» откроется поле</p>`;
+      root.appendChild(h);
+    }
+    const host = root.lastElementChild;
+    const div = document.createElement("div");
+    div.className = "q";
+    let opts = `<option value="">— выбери —</option>`;
+    q.options.forEach((o) => { opts += `<option value="${o.v}">${o.t}</option>`; });
+    let rec = "";
+    if (q.id === "c") {
+      rec = `<p class="rec">Предложение устоев: (1) Мост свят — корона служит Завесе; (2) Эльфийский двор и советы, не «один тиран»; (3) Чужое зло у границы — война законна.</p>`;
+    }
+    if (q.id === "a") {
+      rec = `<p class="rec">Рек.: a_edit или a_city — белый пунктир уже канон географии.</p>`;
+    }
+    div.innerHTML = `
+      <span class="title">${q.title}</span>
+      <div class="ctx">${q.ctx}</div>
+      ${rec}
+      <select data-q="${q.id}">${opts}</select>
+      <textarea class="note" data-note="${q.id}" rows="3" placeholder="уточнение…"></textarea>`;
+    host.appendChild(div);
+  });
+  root.querySelectorAll("select").forEach((sel) => {
+    sel.addEventListener("change", () => {
+      const id = sel.getAttribute("data-q");
+      const note = document.querySelector(`textarea[data-note="${id}"]`);
+      const v = sel.value || "";
+      note.classList.toggle("show", v.endsWith("_other") || v === "a_list" || v === "a_edit" || v === "c_you" || v === "d_you" || v === "e_you" || v === "f_you" || v === "g_second" || v === "g_marks");
+      persist();
+      updateProgress();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach((t) => {
+    t.addEventListener("input", persist);
+  });
+  document.getElementById("freeform").addEventListener("input", persist);
+}
+
+function collect() {
+  const lines = ["# survey-aelendor-state-w2", ""];
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    const v = sel?.value || "";
+    const n = (note?.value || "").trim();
+    lines.push(`${q.id}=${v || "—"}`);
+    if (n) lines.push(`${q.id}_note=${n}`);
+  });
+  const free = (document.getElementById("freeform").value || "").trim();
+  if (free) lines.push("", "freeform=", free);
+  return lines.join("\n");
+}
+
+function persist() {
+  const answers = {};
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    answers[q.id] = { v: sel?.value || "", note: note?.value || "" };
+  });
+  localStorage.setItem(STORAGE, JSON.stringify({
+    answers,
+    free: document.getElementById("freeform").value || ""
+  }));
+}
+
+function restore() {
+  try {
+    const raw = localStorage.getItem(STORAGE);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    QUESTIONS.forEach((q) => {
+      const a = data.answers?.[q.id];
+      if (!a) return;
+      const sel = document.querySelector(`select[data-q="${q.id}"]`);
+      const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+      if (sel) sel.value = a.v || "";
+      if (note) {
+        note.value = a.note || "";
+        const v = a.v || "";
+        note.classList.toggle("show", v.endsWith("_other") || v === "a_list" || v === "a_edit" || v === "c_you" || v === "d_you" || v === "e_you" || v === "f_you" || v === "g_second" || v === "g_marks");
+      }
+    });
+    if (data.free) document.getElementById("freeform").value = data.free;
+  } catch (_) {}
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = QUESTIONS.length;
+  let done = 0;
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    if (sel && sel.value) done++;
+  });
+  document.getElementById("count").textContent = `${done} / ${total}`;
+  document.getElementById("bar").style.width = `${(done / total) * 100}%`;
+}
+
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.style.display = "block";
+  setTimeout(() => { t.style.display = "none"; }, 1600);
+}
+
+document.getElementById("btnCopy").addEventListener("click", async () => {
+  const text = collect();
+  const out = document.getElementById("out");
+  out.textContent = text;
+  out.classList.add("show");
+  try {
+    await navigator.clipboard.writeText(text);
+    toast("Скопировано — вставь в чат");
+  } catch (_) {
+    toast("Выдели текст ниже");
+  }
+});
+
+document.getElementById("btnLitter").addEventListener("click", async () => {
+  const text = collect();
+  const blob = new Blob([text], { type: "text/plain" });
+  const fd = new FormData();
+  fd.append("reqtype", "fileupload");
+  fd.append("time", "72h");
+  fd.append("fileToUpload", blob, "aelendor-state-w2-answers.txt");
+  try {
+    const res = await fetch("https://litterbox.catbox.moe/resources/internals/api.php", { method: "POST", body: fd });
+    const url = await res.text();
+    const out = document.getElementById("out");
+    out.textContent = text + "\n\n# litterbox\n" + url;
+    out.classList.add("show");
+    try { await navigator.clipboard.writeText(url); } catch (_) {}
+    toast("Litterbox ответов готов");
+  } catch (_) {
+    toast("Litterbox недоступен — скопируй текст");
+  }
+});
+
+render();
+restore();
+updateProgress();
+</script>
+</body>
+</html>

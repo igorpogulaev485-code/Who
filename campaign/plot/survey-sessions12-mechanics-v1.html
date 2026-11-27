@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Мини-опрос — проход / маяк / Купель</title>
+<style>
+  :root { color-scheme: light dark; --bg:#0f1115; --card:#1a1d24; --text:#f2f3f5; --muted:#9aa3b2;
+    --line:#2a303b; --accent:#5b8cff; --ok:#3d9a6a; --ctx:#2a3344; --pad:max(16px,env(safe-area-inset-left)); }
+  @media (prefers-color-scheme: light) {
+    :root { --bg:#f4f5f7; --card:#fff; --text:#14171c; --muted:#667085; --line:#e4e7ec; --accent:#2563eb; --ctx:#eef2f8; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+  main { max-width:680px; margin:0 auto; padding:20px var(--pad) 120px; }
+  h1 { font-size:1.3rem; margin:0 0 8px; }
+  .lead,.hint { color:var(--muted); font-size:0.9rem; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; margin:12px 0; }
+  .q { padding:12px 0; border-top:1px solid var(--line); }
+  .q:first-of-type { border-top:0; padding-top:0; }
+  .title { font-weight:600; display:block; margin-bottom:6px; }
+  .ctx { background:var(--ctx); border-radius:10px; padding:10px; font-size:0.84rem; color:var(--muted); margin-bottom:8px; white-space:pre-wrap; }
+  select, textarea { width:100%; font:inherit; color:var(--text); background:var(--bg); border:1px solid var(--line); border-radius:10px; padding:12px; }
+  .note { display:none; margin-top:8px; } .note.show { display:block; }
+  .footer { position:fixed; left:0; right:0; bottom:0; border-top:1px solid var(--line); background:color-mix(in srgb,var(--bg) 92%,transparent);
+    padding:10px var(--pad) calc(10px + env(safe-area-inset-bottom)); }
+  .footer-inner { max-width:680px; margin:0 auto; display:flex; gap:8px; }
+  button { flex:1; border:0; border-radius:12px; padding:14px; font:inherit; font-weight:600; color:#fff; background:var(--accent); }
+  button.secondary { background:transparent; color:var(--text); border:1px solid var(--line); }
+  #toast { display:none; position:fixed; left:50%; bottom:90px; transform:translateX(-50%); background:var(--ok); color:#fff; padding:10px 14px; border-radius:999px; }
+  #out { display:none; white-space:pre-wrap; background:var(--bg); border:1px solid var(--line); border-radius:12px; padding:12px; font-size:0.85rem; margin-top:12px; }
+  #out.show { display:block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Мини-опрос: проход / маяк / Купель</h1>
+  <p class="lead">Proposal уже в скрипте сессий 1–2. Здесь — только ok / правка дыр. Скопируй → в чат.</p>
+  <div id="sections"></div>
+  <section>
+    <h2>Свободный текст</h2>
+    <textarea id="freeform" rows="8" placeholder="Правки речей, маяка, имён…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+<div class="footer"><div class="footer-inner">
+  <button class="secondary" type="button" id="btnClear">Сброс</button>
+  <button type="button" id="btnCopy">Скопировать ответы</button>
+</div></div>
+<div id="toast">Скопировано</div>
+<script>
+const SECTIONS = [
+  { title: "Сейвы и проход", questions: [
+    { id: "saves_dc", label: "Con 14 / Int 14 / Wis 15 + дебаффы до длинного отдыха",
+      ctx: "Con: истощение или тошнота\nInt: помеха Int + концентрация\nWis: помеха Wis saves; fear 1 раунд в первом бою vs демон",
+      options: [["ok","Ок как proposal"],["softer","Мягче (все ~13)"],["harder","Жёстче (15/15/16)"],["custom","Свои DC/дебаффы — в заметке"],["other","Другое"]] },
+    { id: "zero_g", label: "Невесомость: skill challenge 5 до 3, DC 13",
+      ctx: "Athletics / Acrobatics / Arcana / Religion / Insight",
+      options: [["ok","Ок"],["individual","Только индивидуальные проверки"],["custom","Свой вариант — в заметке"],["other","Другое"]] },
+    { id: "dex_land", label: "Ловкость DC 13; провал 2к8",
+      ctx: "Как ты задал урон; DC — proposal",
+      options: [["ok","Ок"],["dc_other","Другой DC — в заметке"],["other","Другое"]] },
+  ]},
+  { title: "Маяк и НПС", questions: [
+    { id: "beacon", label: "Маяк = Осколок Купели / Маяк Изгоев",
+      ctx: "Фрагмент сдерживающей звезды; демоны обходят свет; тифлинги держат договор",
+      options: [["ok","Ок имя и суть"],["rename","Другое имя/суть — в заметке"],["other","Другое"]] },
+    { id: "tiefling", label: "Лидер Сарель Пепельный Договор",
+      ctx: "Изгои; проводники; торг",
+      options: [["ok","Ок"],["rename","Своё имя/характер — в заметке"],["other","Другое"]] },
+    { id: "mage_drow", label: "Маг Элиан Вечный Узел; дроу Ваэра Ночной Клинок",
+      ctx: "Храм: архив обрушен, святилище стоит (proposal)",
+      options: [["ok","Ок имена + разрушение"],["rename","Свои имена — в заметке"],["damage_other","Имена ок, разрушение иначе — в заметке"],["other","Другое"]] },
+    { id: "priest", label: "Жрец похорон: Селенис Безмолвная",
+      ctx: "Собор Безмолвного Звона",
+      options: [["ok","Ок"],["rename","Своё имя — в заметке"],["other","Другое"]] },
+  ]},
+];
+const KEY = "echo-dawn-sessions12-mechanics-v1";
+function $(id){return document.getElementById(id)}
+function allQ(){return SECTIONS.flatMap(s=>s.questions)}
+function build(){
+  const root=$("sections"); root.innerHTML="";
+  SECTIONS.forEach(sec=>{
+    const el=document.createElement("section");
+    el.innerHTML=`<h2>${sec.title}</h2>`;
+    sec.questions.forEach(q=>{
+      const wrap=document.createElement("div"); wrap.className="q";
+      wrap.innerHTML=`<label class="title">${q.label}</label><div class="ctx">${q.ctx||""}</div>
+        <select data-id="${q.id}"><option value="">— выбери —</option>${q.options.map(([v,t])=>`<option value="${v}">${t}</option>`).join("")}</select>
+        <textarea class="note" data-note="${q.id}" rows="3" placeholder="Заметка"></textarea>`;
+      el.appendChild(wrap);
+    });
+    root.appendChild(el);
+  });
+  root.querySelectorAll("select").forEach(sel=>{
+    sel.addEventListener("change",()=>{
+      const n=root.querySelector(`textarea[data-note="${sel.dataset.id}"]`);
+      if(n) n.classList.toggle("show",!!sel.value); save();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach(t=>t.addEventListener("input",save));
+  $("freeform").addEventListener("input",save);
+}
+function save(){
+  const data={freeform:$("freeform").value,answers:{},notes:{}};
+  allQ().forEach(q=>{
+    const sel=document.querySelector(`select[data-id="${q.id}"]`);
+    const note=document.querySelector(`textarea[data-note="${q.id}"]`);
+    if(sel) data.answers[q.id]=sel.value;
+    if(note) data.notes[q.id]=note.value;
+  });
+  try{localStorage.setItem(KEY,JSON.stringify(data))}catch(e){}
+}
+function load(){
+  try{
+    const data=JSON.parse(localStorage.getItem(KEY)||"null"); if(!data) return;
+    if(data.freeform) $("freeform").value=data.freeform;
+    allQ().forEach(q=>{
+      const sel=document.querySelector(`select[data-id="${q.id}"]`);
+      const note=document.querySelector(`textarea[data-note="${q.id}"]`);
+      if(sel&&data.answers?.[q.id]){sel.value=data.answers[q.id]; if(note) note.classList.add("show")}
+      if(note&&data.notes?.[q.id]) note.value=data.notes[q.id];
+    });
+  }catch(e){}
+}
+function format(){
+  const lines=["# Ответы: sessions12-mechanics-v1",""];
+  SECTIONS.forEach(sec=>{
+    lines.push("## "+sec.title);
+    sec.questions.forEach(q=>{
+      const sel=document.querySelector(`select[data-id="${q.id}"]`);
+      const note=document.querySelector(`textarea[data-note="${q.id}"]`);
+      const val=sel?.value||"";
+      const label=val?(q.options.find(([v])=>v===val)||[val,val])[1]:"—";
+      lines.push(`- **${q.id}**: ${val||"—"} — ${label}`);
+      if(note?.value.trim()) lines.push(`  - заметка: ${note.value.trim()}`);
+    });
+    lines.push("");
+  });
+  lines.push("## Свободный текст", $("freeform").value.trim()||"(пусто)","");
+  return lines.join("\n");
+}
+$("btnCopy").onclick=async()=>{
+  const text=format(); $("out").textContent=text; $("out").classList.add("show");
+  try{await navigator.clipboard.writeText(text); $("toast").style.display="block"; setTimeout(()=>$("toast").style.display="none",2000)}catch(e){}
+};
+$("btnClear").onclick=()=>{localStorage.removeItem(KEY); $("freeform").value=""; build(); $("out").classList.remove("show")};
+build(); load();
+</script>
+</body>
+</html>

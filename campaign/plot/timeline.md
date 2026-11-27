@@ -53,3 +53,9 @@ source: gm-lock-2026-09-04
 Гипотетический маршрут: [`arc-roadmap-hypothesis.md`](arc-roadmap-hypothesis.md)
 
 **5 активных Разломов:** Лунный мост · Ледяной Союз · Звёздная Пыль · Драконий Хребет · Хостия.
+
+## Интерлюдия (до сессии 1 арки 3 / между сессиями)
+
+Партия **читает дневник** Маэстро вне сессии (интерлюдии). Открыты стр. **16, 17, 29, 30, 31, 32, 52, 53, 54, 55** (канон).  
+Telegra TOC: https://telegra.ph/Moi-znaniya---moya-zhizn-09-21  
+Лок: [`canon-lock-2026-09-24-diary-interlude-open.md`](canon-lock-2026-09-24-diary-interlude-open.md) · handout: [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md)

@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<title>Опрос mq-06 — город Союза + лестница к с.6</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #0f1115; --card: #1a1d24; --text: #f2f3f5; --muted: #9aa3b2;
+    --line: #2a303b; --accent: #5b8cff; --accent-press: #3d6fe0; --ok: #3d9a6a;
+    --ctx: #2a3344; --pad: max(16px, env(safe-area-inset-left));
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg: #f4f5f7; --card: #fff; --text: #14171c; --muted: #667085;
+      --line: #e4e7ec; --accent: #2563eb; --accent-press: #1d4ed8;
+      --ok: #15803d; --ctx: #eef2f8;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-size: 16px; line-height: 1.45; }
+  main { max-width: 680px; margin: 0 auto; padding: 20px var(--pad) 130px; }
+  h1 { font-size: 1.35rem; margin: 0 0 6px; }
+  .lead { color: var(--muted); margin: 0 0 16px; font-size: 0.95rem; }
+  .locked { background: var(--ctx); border-radius: 12px; padding: 10px 12px;
+    font-size: 0.85rem; color: var(--muted); margin: 0 0 16px; }
+  .progress { position: sticky; top: 0; z-index: 5; background: var(--bg);
+    padding: 10px 0; margin: 0 0 12px; border-bottom: 1px solid var(--line); }
+  .bar { height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .bar > span { display: block; height: 100%; width: 0; background: var(--accent); transition: width .2s; }
+  .meta { display: flex; justify-content: space-between; color: var(--muted); font-size: 0.85rem; margin-top: 6px; }
+  section { background: var(--card); border: 1px solid var(--line); border-radius: 14px;
+    padding: 14px; margin: 0 0 14px; }
+  section h2 { font-size: 1.05rem; margin: 0 0 6px; }
+  .hint { color: var(--muted); font-size: 0.85rem; margin: 0 0 10px; }
+  .q { padding: 14px 0; border-top: 1px solid var(--line); }
+  .q:first-of-type { border-top: 0; padding-top: 0; }
+  .q .title { display: block; font-weight: 600; margin-bottom: 6px; }
+  .ctx { background: var(--ctx); border-radius: 10px; padding: 10px 12px;
+    font-size: 0.84rem; color: var(--muted); margin: 0 0 10px; white-space: pre-wrap; }
+  .rec { font-size: 0.8rem; color: var(--accent); margin: -4px 0 8px; }
+  select, textarea {
+    width: 100%; font: inherit; color: var(--text); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 10px; padding: 12px;
+    -webkit-appearance: none; appearance: none;
+  }
+  select { background-image: linear-gradient(45deg, transparent 50%, var(--muted) 50%),
+    linear-gradient(135deg, var(--muted) 50%, transparent 50%);
+    background-position: calc(100% - 18px) calc(50% - 3px), calc(100% - 12px) calc(50% - 3px);
+    background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 36px; }
+  textarea.note { margin-top: 8px; display: none; }
+  textarea.note.show { display: block; }
+  .footer {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--line);
+    padding: 10px var(--pad) calc(10px + env(safe-area-inset-bottom));
+  }
+  .footer-inner { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; }
+  button {
+    flex: 1; border: 0; border-radius: 12px; padding: 14px 12px; font: inherit;
+    font-weight: 600; color: #fff; background: var(--accent);
+  }
+  button:active { background: var(--accent-press); }
+  button.secondary { background: transparent; color: var(--text); border: 1px solid var(--line); }
+  #toast {
+    display: none; position: fixed; left: 50%; bottom: 90px; transform: translateX(-50%);
+    background: var(--ok); color: #fff; padding: 10px 14px; border-radius: 999px;
+    font-size: 0.9rem; z-index: 20; white-space: nowrap;
+  }
+  #out {
+    display: none; white-space: pre-wrap; word-break: break-word;
+    background: var(--bg); border: 1px solid var(--line); border-radius: 12px;
+    padding: 12px; font-size: 0.85rem; margin-top: 12px;
+  }
+  #out.show { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Опрос — mq-06 · город Союза + лестница к с.6</h1>
+  <p class="lead">Выбери варианты → «Скопировать ответы» → вставь в чат Cursor. Ответы сохраняются на устройстве.</p>
+  <div class="locked"><b>Контекст:</b> с.2 готова (камень → Туманный Щит). Дальше — крупный город Ледяного Союза (возможно столица), государство уже готовится к мёртвым, гос.квесты на пути к цели, встреча с Лианэей ~с.6 = короткий разговор + оффер зла.</div>
+
+  <div class="progress">
+    <div class="bar"><span id="bar"></span></div>
+    <div class="meta"><span id="count">0 / 0</span><span>на устройстве</span></div>
+  </div>
+  <div id="sections"></div>
+
+  <section>
+    <h2>Свободный текст</h2>
+    <p class="hint">Имя города / правителя; обязательный кадр; запрет (напр. не называть Кардиана; не отдавать Доспехи в первой встрече).</p>
+    <textarea id="freeform" rows="5" placeholder="note=…"></textarea>
+  </section>
+  <pre id="out"></pre>
+</main>
+
+<div class="footer">
+  <div class="footer-inner">
+    <button type="button" class="secondary" id="btnLitter">Litterbox ответов</button>
+    <button type="button" id="btnCopy">Скопировать ответы</button>
+  </div>
+</div>
+<div id="toast">Скопировано</div>
+
+<script>
+const STORAGE = "echo-dawn-mq06-ice-city-ladder-v1";
+const QUESTIONS = [
+  {
+    id: "a",
+    section: "A · Какой город",
+    title: "Выход «в цивилизацию» — какой тип города?",
+    ctx: "С.2 = южная кромка (Туманный Щит). Нужен крупный город. В репо нет playbook столицы; якоря: Храм Ледяного Сердца / Гирмхельм.",
+    rec: "Рекомендация: столица+фронт или фронтовой хаб (не столица).",
+    options: [
+      { v: "a_capital", t: "Столица Союза" },
+      { v: "a_war_hub", t: "Крупный фронтовой город (не столица)" },
+      { v: "a_capital_front", t: "Столица = и хаб мобилизации" },
+      { v: "a_two_step", t: "Сначала второй город → столица ближе к с.5–6" },
+      { v: "a_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "b",
+    section: "B · Имя города",
+    title: "Идентичность / имя",
+    ctx: "Можно опереться на якоря five-capitals / книг или завести новое имя в заметке.",
+    options: [
+      { v: "b_heart", t: "Храм Ледяного Сердца (Фростара)" },
+      { v: "b_girmhelm", t: "Гирмхельм как городской узел" },
+      { v: "b_new", t: "Новое имя → напиши в note" },
+      { v: "b_later", t: "Имя после первой волны playbook" },
+      { v: "b_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "c",
+    section: "C · Стык с.2→с.3",
+    title: "Как из Туманного Щита в город?",
+    ctx: "Портал уже на лагерь. Нужен мост: эскорт, приказ, дорога, второй прыжок.",
+    options: [
+      { v: "c_escort", t: "Дварфы эскортируют / караван" },
+      { v: "c_summons", t: "Официальный вызов государства" },
+      { v: "c_road", t: "Сами идут по дороге/слухам" },
+      { v: "c_portal2", t: "Ещё один портал/магия (цена)" },
+      { v: "c_mix", t: "Эскорт + чиновник у ворот" },
+      { v: "c_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "d",
+    section: "D · Угроза мёртвых",
+    title: "Как «Союз уже знает» ощущается?",
+    ctx: "Ты хочешь: угрозу легко узнать. Какой слой её несёт?",
+    options: [
+      { v: "d_open_war", t: "Открытая мобилизация на улице" },
+      { v: "d_brief", t: "Закрытый брифинг двору/жрице" },
+      { v: "d_street", t: "Улица/таверна сама выдаёт всё" },
+      { v: "d_mix", t: "Улица знает + официальный заказ" },
+      { v: "d_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "e",
+    section: "E · Кто нанимает",
+    title: "Кто предлагает работать на государство?",
+    ctx: "Союз = дварфы/гномы/ледяные; five-capitals даёт Фростару. Кто голос заказа?",
+    options: [
+      { v: "e_frostar", t: "Фростара / жречество Храма" },
+      { v: "e_thane", t: "Дварфийский тан / военный совет" },
+      { v: "e_court", t: "Смешанный двор Союза" },
+      { v: "e_brorr", t: "Через Брорра / Туманный Щит" },
+      { v: "e_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "f",
+    section: "F · Лестница с.3–5",
+    title: "Форма квестов на пути к цели",
+    ctx: "«Множество квестов» до встречи сестры ~с.6 пути льдов.",
+    options: [
+      { v: "f_board", t: "Хаб-доска: 4–6 миссий" },
+      { v: "f_chain", t: "Линейная цепь 3–4 шага" },
+      { v: "f_two", t: "Две параллельные линии" },
+      { v: "f_light", t: "2 обязательных + пул опций" },
+      { v: "f_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "g",
+    section: "G · Упор миссий",
+    title: "Что готовят к бою с мёртвыми?",
+    ctx: "Слой гос.работы в хабе.",
+    options: [
+      { v: "g_military", t: "Укрепления / разведка / вылазки" },
+      { v: "g_civic", t: "Снабжение / беженцы / мораль" },
+      { v: "g_arcane", t: "Печати / Разлом / ритуалы льда" },
+      { v: "g_mix", t: "Микс слоёв" },
+      { v: "g_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "h",
+    section: "H · Встреча ~с.6",
+    title: "Форма короткого разговора с Лианэей",
+    ctx: "Не финал акта A. Короткий контакт + оффер зла.",
+    options: [
+      { v: "h_parley", t: "Короткий парлей (нейтральная полоса)" },
+      { v: "h_field", t: "Пауза на поле боя" },
+      { v: "h_city_edge", t: "У ворот/стен города" },
+      { v: "h_dream_body", t: "Зов/сон → короткая явь" },
+      { v: "h_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "i",
+    section: "I · Оффер принят",
+    title: "Если перейдут на сторону зла",
+    ctx: "Ты сказал: всё меняется. Насколько ломаем prep сейчас?",
+    options: [
+      { v: "i_full_flip", t: "Полный флип арки (ветка spine)" },
+      { v: "i_split", t: "Раскол партии — обязательный узел" },
+      { v: "i_grey", t: "Серая зона (шпион / условный союз)" },
+      { v: "i_defer", t: "Лок «меняется»; детали — опросом после с.5" },
+      { v: "i_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "j",
+    section: "J · Оффер отклонён",
+    title: "Если не перейдут",
+    ctx: "Концепт: она готовит следующую встречу.",
+    options: [
+      { v: "j_prepare", t: "Только готовит следующую встречу" },
+      { v: "j_front", t: "Готовит + фронт усиливается" },
+      { v: "j_elarion", t: "Давление в основном на Элариона" },
+      { v: "j_mix", t: "Клифф подготовки + лёгкий тик фронта" },
+      { v: "j_other", t: "Другое → уточни ниже" }
+    ]
+  },
+  {
+    id: "k",
+    section: "K · Глубина prep",
+    title: "Сколько пишем после ответов?",
+    ctx: "Паспорт государства / город / лестница — что в первой волне.",
+    options: [
+      { v: "k_full", t: "Паспорт + город + лестница с.3–6" },
+      { v: "k_city_ladder", t: "Город + лестница (паспорт позже)" },
+      { v: "k_ladder", t: "Только spine/лестница; город = seed" },
+      { v: "k_wave2", t: "Ещё волна вопросов сначала" },
+      { v: "k_other", t: "Другое → уточни ниже" }
+    ]
+  }
+];
+
+function bySection(qs) {
+  const m = new Map();
+  qs.forEach((q) => {
+    if (!m.has(q.section)) m.set(q.section, []);
+    m.get(q.section).push(q);
+  });
+  return m;
+}
+
+function render() {
+  const root = document.getElementById("sections");
+  root.innerHTML = "";
+  bySection(QUESTIONS).forEach((qs, section) => {
+    const sec = document.createElement("section");
+    sec.innerHTML = `<h2>${section}</h2>`;
+    qs.forEach((q) => {
+      const div = document.createElement("div");
+      div.className = "q";
+      const opts = q.options.map((o) => `<option value="${o.v}">${o.t}</option>`).join("");
+      div.innerHTML = `
+        <span class="title">${q.title}</span>
+        <div class="ctx">${q.ctx}</div>
+        ${q.rec ? `<div class="rec">${q.rec}</div>` : ""}
+        <select data-q="${q.id}"><option value="">— выбери —</option>${opts}</select>
+        <textarea class="note" data-note="${q.id}" rows="3" placeholder="Уточнение (если «Другое»)…"></textarea>`;
+      sec.appendChild(div);
+    });
+    root.appendChild(sec);
+  });
+  root.querySelectorAll("select").forEach((sel) => {
+    sel.addEventListener("change", () => {
+      const note = root.querySelector(`textarea[data-note="${sel.dataset.q}"]`);
+      if (note) note.classList.toggle("show", sel.value.endsWith("_other") || sel.value === "b_new");
+      persist(); updateProgress();
+    });
+  });
+  root.querySelectorAll("textarea.note").forEach((t) => t.addEventListener("input", persist));
+  document.getElementById("freeform").addEventListener("input", persist);
+}
+
+function collect() {
+  const lines = ["survey-mq06-ice-city-ladder"];
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    const v = sel?.value || "—";
+    lines.push(`${q.id}=${v}`);
+    if (note && note.value.trim()) lines.push(`${q.id}_note=${note.value.trim()}`);
+  });
+  const free = document.getElementById("freeform").value.trim();
+  lines.push("note=" + (free || "—"));
+  return lines.join("\n");
+}
+
+function persist() {
+  const answers = {};
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+    answers[q.id] = { v: sel?.value || "", note: note?.value || "" };
+  });
+  localStorage.setItem(STORAGE, JSON.stringify({
+    answers,
+    free: document.getElementById("freeform").value
+  }));
+}
+
+function restore() {
+  try {
+    const raw = localStorage.getItem(STORAGE);
+    if (!raw) return;
+    const data = JSON.parse(raw);
+    QUESTIONS.forEach((q) => {
+      const a = data.answers?.[q.id];
+      if (!a) return;
+      const sel = document.querySelector(`select[data-q="${q.id}"]`);
+      const note = document.querySelector(`textarea[data-note="${q.id}"]`);
+      if (sel) sel.value = a.v || "";
+      if (note) {
+        note.value = a.note || "";
+        note.classList.toggle("show", (a.v || "").endsWith("_other") || a.v === "b_new");
+      }
+    });
+    if (data.free) document.getElementById("freeform").value = data.free;
+  } catch (_) {}
+  updateProgress();
+}
+
+function updateProgress() {
+  const total = QUESTIONS.length;
+  let done = 0;
+  QUESTIONS.forEach((q) => {
+    const sel = document.querySelector(`select[data-q="${q.id}"]`);
+    if (sel && sel.value) done++;
+  });
+  document.getElementById("count").textContent = `${done} / ${total}`;
+  document.getElementById("bar").style.width = `${(done / total) * 100}%`;
+}
+
+function toast(msg) {
+  const t = document.getElementById("toast");
+  t.textContent = msg;
+  t.style.display = "block";
+  setTimeout(() => { t.style.display = "none"; }, 1600);
+}
+
+document.getElementById("btnCopy").addEventListener("click", async () => {
+  const text = collect();
+  const out = document.getElementById("out");
+  out.textContent = text;
+  out.classList.add("show");
+  try {
+    await navigator.clipboard.writeText(text);
+    toast("Скопировано — вставь в чат");
+  } catch (_) {
+    toast("Выдели текст ниже");
+  }
+});
+
+document.getElementById("btnLitter").addEventListener("click", async () => {
+  const text = collect();
+  const blob = new Blob([text], { type: "text/plain" });
+  const fd = new FormData();
+  fd.append("reqtype", "fileupload");
+  fd.append("time", "72h");
+  fd.append("fileToUpload", blob, "mq06-ice-city-ladder-answers.txt");
+  try {
+    const res = await fetch("https://litterbox.catbox.moe/resources/internals/api.php", { method: "POST", body: fd });
+    const url = await res.text();
+    const out = document.getElementById("out");
+    out.textContent = text + "\n\n# litterbox\n" + url;
+    out.classList.add("show");
+    try { await navigator.clipboard.writeText(url); } catch (_) {}
+    toast("Litterbox ответов готов");
+  } catch (_) {
+    toast("Litterbox недоступен — скопируй текст");
+  }
+});
+
+render();
+restore();
+updateProgress();
+</script>
+</body>
+</html>

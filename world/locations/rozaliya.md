@@ -17,6 +17,12 @@ faction: Аэлендор
 
 ## Локации (список мастера)
 
+Нумерация = карта города ([⬇](https://iili.io/nAZNHFa.jpg) · каталог [`places-catalog-city`](../../campaign/prep/locations/rozaliya/places-catalog-city.md)).
+
+![Розалия · город](https://iili.io/nAZNHFa.jpg)
+
+> **Кадр:** Розалия · город 1–20 · [⬇](https://iili.io/nAZNHFa.jpg)
+
 1. Пограничная служба Аэлендора  
 2. Таверна «Блуждающий моряк»  
 3. Склады  
@@ -48,3 +54,12 @@ faction: Аэлендор
 - [Расширение локаций](rozaliya/locations-detail.md)
 
 Архив: `drafts/imports/qwen-rozaliya.md`
+
+## Регион (карта окрестностей)
+
+![Регион Розалия](https://iili.io/nAZh1cv.jpg)
+
+> **Кадр:** Регион Розалия · [⬇](https://iili.io/nAZh1cv.jpg)
+
+На карте: Розалия · Булат · Красный луг · Лесоверье · Мёртвый город · Храм Лолс · Драконий чертог.  
+Каталог: [`../../campaign/prep/locations/rozaliya/places-catalog-region.md`](../../campaign/prep/locations/rozaliya/places-catalog-region.md) · файл: [`assets/maps/rozaliya-region-map.jpg`](../../assets/maps/rozaliya-region-map.jpg)

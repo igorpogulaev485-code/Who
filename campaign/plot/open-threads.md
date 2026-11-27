@@ -13,20 +13,44 @@ source: gm-lock-round2 + player-briefs
 Меню маршрутов арки 3 (A–T) + часы живого мира: [`arc3-routes-living-world.md`](arc3-routes-living-world.md).  
 Общий коридор арок 3–5: [`arc-roadmap-hypothesis.md`](arc-roadmap-hypothesis.md).
 
-**Принцип:** мир двигается сам (Орден, Разлом, Хребет, Долина, дочь Маэстро…), даже если партия сидит в таверне.
+**Старт:** партия **физически в Лунном Мосту**.  
+**Сессия 1:** похороны = **общий старт всех направлений** арки 3.  
+**Принцип:** мир двигается сам (Орден, Разлом, Хребет, Долина, дочь Маэстро, **Лианэя во льдах**…), даже если партия сидит в таверне. Длина арки ~15–20 сессий — гибко.  
+**Стол:** [гл. 17 · Живой мир](../prep/arc3-visual-book/chapters/17-index.md) · лок [`canon-lock-2026-09-24-living-world.md`](canon-lock-2026-09-24-living-world.md).  
+★: Разлом · Орден · Хребет · Льды · Велиан · Долина · Элессар.  
+Тик = **после сессии** → 1–2 ★ + новость. Интерлюдия ≠ тик.
 
 ## Разлом
 
 - **5 активных:** Лунный мост · Ледяной Союз · Звёздная Пыль · Драконий Хребет · Хостия.  
 - Во время штурма Стража Разлом в Лунном мосту **расширился**.  
-- **Велиан** + отряд солдат вошли в Разлом закрывать его — **судьба неизвестна**.  
-- У демонов: маска, кинжал, медальон. Мирские: льды / Звёздная Пыль / Хребет.  
+- **Контролируемый вход (лок 2026-09-22):** рана в **Купели Вечных Звёзд** (на месте Зеркала); сдерживают эльфийские маги + дроу-хранители; вход с **одобрения магов (социал)**. Маги открывают **фиолетовый** (демоны) или **чёрный** (мёртвые) поток — разные проходы. При открытии — **выброс врагов** плана в зал. Про два плана говорит **Тандил** (двери после похорон). Лок: [`canon-lock-2026-09-22-mq04-entry-a.md`](canon-lock-2026-09-22-mq04-entry-a.md).  
+- **Велиан:** жив; маги открыли **не тот** поток → план мёртвых; отряд Велиан+5 эльфов-плутов; диверсии; контакт партии ~сессия 6 пути mq-04; встречает как друзей. Prep: Серый Причал, spine, inserts.  
+- **Душа Кардиана (арка 3):** серая песчаная буря при вмешательстве; бафф нежити; душу не убить / не воскресить тело; в проходе незаметен без Perception. Связь с Лианэей — варианты L*, ждать ok.  
+- У демонов: маска, кинжал, медальон. Мирские: **доспехи у Лианэи (льды)** / Звёздная Пыль / Хребет.  
 - Пиппин мёртв (предатель).
+
+## Милана
+
+Связь через **кольцо**; на похоронах почти-речь.  
+**Путь воскрешения ≠ сосуды:** боги + великие заклинатели (дверь **C**). Сейчас — **сбор информации**, кто поможет.  
+Союз с трением; не идёт в Амират своим планом. Сосуды = дверь **R**.  
+Лок: [`canon-lock-2026-09-24-milana-vs-clone.md`](canon-lock-2026-09-24-milana-vs-clone.md) · хвосты [`canon-lock-2026-09-24-resurrection-tails.md`](canon-lock-2026-09-24-resurrection-tails.md).  
+[`../../world/npcs/milana.md`](../../world/npcs/milana.md) · [`canon-lock-2026-09-23-milana.md`](canon-lock-2026-09-23-milana.md)
+
+## Лианэя (тайна)
+
+Сестра Элариона. Воскрешена злом; армия мёртвых в Ледяном Союзе; **Доспехи смерти**.  
+[`../../world/npcs/lianeya.md`](../../world/npcs/lianeya.md) · лок: [`canon-lock-2026-09-10-arc3-start.md`](canon-lock-2026-09-10-arc3-start.md)
 
 ## Воскрешение Маэстро
 
-Дневник не изучен · план мёртвых · дочь параллельно.  
-Похороны объявлены глашатаем (верхний город открыт на время).
+Дневник **частично** изучен (стр. **16, 17, 29–32, 52–55**).  
+Раздатка: [`../prep/books/dnevnik-maestro/handout-open-pages.md`](../prep/books/dnevnik-maestro/handout-open-pages.md) · лок [`canon-lock-2026-09-24-diary-pages-29-32.md`](canon-lock-2026-09-24-diary-pages-29-32.md).  
+**Двойник:** лок [`canon-lock-2026-09-24-maestro-clone.md`](canon-lock-2026-09-24-maestro-clone.md) · хвосты [`canon-lock-2026-09-24-resurrection-tails.md`](canon-lock-2026-09-24-resurrection-tails.md) · стол [гл. 18 · R](../prep/arc3-visual-book/chapters/18-index.md).  
+Готовый сосуд — **храм в пустыне Амирата** (~с.**15**); растущий — **Кузад-Дум**; душа у **демонов**; план мёртвых ≠ душа Маэстро.  
+**Один победитель** путей C/R. Милана — намёк, не карта. Похороны объявлены; верхний город открыт на время.  
+**С.2 двери R (prep):** ниша под мостом · Торвик · Карим · вектор юг/песок — [`mq-05-sessions-2-door-r.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-r.md) · ранбук [гл. 18](../prep/arc3-visual-book/chapters/18-index.md). С.3 ветки **не** писать.
 
 ## Война (после Стража)
 
@@ -47,4 +71,33 @@ source: gm-lock-round2 + player-briefs
 
 ## Лес Хранителей
 
-Отдельное государство; Элессар I. [`les-khraniteley.md`](../../world/locations/les-khraniteley.md)
+Отдельное государство; **Элессар I** (тайное место TBD) + **Малфурион** / совет друидов (~1 мес.).  
+Вход партии с моста: **камень портала** (шпионы Ордена) → **Храм Серебряного Порога** → **Силвания** / Малфурион; король ~с.10 через монастырь.  
+Скрипт с.2: [`../prep/arcs/arc-3/quests/mq-03-sessions-2-door-d.md`](../prep/arcs/arc-3/quests/mq-03-sessions-2-door-d.md)  
+**GM-only:** Орден готовит удар по Элдерину+Лесу — **без намёков** в ранних сессиях пути.  
+Локи: malfurion · wave2 · [`canon-lock-2026-09-22-mq03-wave3.md`](canon-lock-2026-09-22-mq03-wave3.md)
+
+## mq-06 · льды (дверь E)
+
+Скрипт с.2 готов: [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e.md)  
+Камень северной линии: [`../prep/locations/lunnyy-most/quests/q-portal-stone-north.md`](../prep/locations/lunnyy-most/quests/q-portal-stone-north.md)  
+Лагерь: [`../prep/locations/lager-tumannogo-schita/`](../prep/locations/lager-tumannogo-schita/)  
+Лок ответов: [`canon-lock-2026-09-22-mq06-ice-holes.md`](canon-lock-2026-09-22-mq06-ice-holes.md)  
+**Дальше:** лок w1+w2 — **Гирмхельм**, **Совет старейшин**, фронт у **Старого Разлома** (верхние ледники).  
+Карта Ледяного Союза **LOCKED** (v5).  
+Воентан **Дунгар Седощит**; полисы **Камнерог · Кузня Мороза · Ледопад** — канон.  
+Локи: [`canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md`](canon-lock-2026-09-23-ledyanoy-soyuz-full-map.md) · [`canon-lock-2026-09-23-dungar-polisy.md`](canon-lock-2026-09-23-dungar-polisy.md)  
+Паспорт: [`../../world/locations/states/ledyanoy-soyuz.md`](../../world/locations/states/ledyanoy-soyuz.md) · карта: [`../../world/locations/ledyanoy-soyuz-map.md`](../../world/locations/ledyanoy-soyuz-map.md)  
+Prep: [`../prep/locations/girmhelm/`](../prep/locations/girmhelm/) (playbook + доска q-girm-01…06).  
+План: [`../prep/orchestrator/mq06-ice-city-ladder-plan.md`](../prep/orchestrator/mq06-ice-city-ladder-plan.md)  
+Опционально: районы глубже / скрипты с.3–6.  
+**mq-06 тройка:** открытый мир. Ветка меча: паспорт W1 + карта **LOCKED v12c** + с.2 [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-sword.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-sword.md).  
+Столица **Город Пламени** (В-остров); **Пепельный Гребень** выше на том же острове; города: Звёздный Склон · Ночная Чешуя · Пепельный Строй · Кость Империи · Храм Первого Пламени · Купеческий Хребет · Нижняя Узда · Угольная Кровь · форт Тяжёлая Лапа.  
+Локи: [`state`](canon-lock-2026-09-23-mq06-ridge-state.md) · [`geometry`](canon-lock-2026-09-23-mq06-ridge-geometry.md) · [`cities`](canon-lock-2026-09-23-mq06-ridge-cities.md) · [`names`](canon-lock-2026-09-23-mq06-ridge-city-names.md) · [`map`](canon-lock-2026-09-23-mq06-ridge-map.md).  
+Карта: [`../../world/locations/drakoniy-khrebet-map.md`](../../world/locations/drakoniy-khrebet-map.md).  
+Паспорт Пыли **W1:** [`../../world/locations/states/imperiya-zvezdnoy-pyli.md`](../../world/locations/states/imperiya-zvezdnoy-pyli.md) · локи [`dust-state`](canon-lock-2026-09-23-mq06-dust-state.md) · [`holes`](canon-lock-2026-09-23-mq06-dust-holes.md).  
+Адмирал **Каэлен Вейл** · порт **Звёздный Причал** · с.2: [`../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md`](../prep/arcs/arc-3/quests/mq-06-sessions-2-door-e-boots.md).  
+Карта **LOCKED v4:** [`../../world/locations/zvezdnaya-pyl-map.md`](../../world/locations/zvezdnaya-pyl-map.md).  
+Двери **B** (дневник) и **C** (Милана) к с.2 готовы:  
+[`mq-05-sessions-2-door-b.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-b.md) · [`mq-05-sessions-2-door-c.md`](../prep/arcs/arc-3/quests/mq-05-sessions-2-door-c.md).  
+**Карты планов:** Маяк **LOCKED v4**. Атлас демонов **LOCKED v24**. План мёртвых **LOCKED v2**. Входные государства: Берег Памяти v1 · Пепельный Порог **v2** (кириллица исправлена). **Всё вшито в ранбук** [`../prep/arc3-visual-book/`](../prep/arc3-visual-book/) · гл. 12.

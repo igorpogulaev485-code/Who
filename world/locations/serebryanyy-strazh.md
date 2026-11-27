@@ -18,4 +18,12 @@ region: Аэлендор / Лунные Пики
 
 **Не путать** с **Серебряным пределом** (ЮВ Аэлендора на обзорной карте).
 
-Карта: [`lunnye-piki-map.md`](lunnye-piki-map.md)
+Карта провинции: [`lunnye-piki-map.md`](lunnye-piki-map.md)
+
+## План аванпоста (нумерованный)
+
+![Серебряный Страж](https://iili.io/nAZcRB2.jpg)
+
+> **Кадр:** Серебряный Страж · [⬇](https://iili.io/nAZcRB2.jpg)
+
+Каталог 1–16: [`../../campaign/prep/locations/serebryanyy-strazh/places-catalog.md`](../../campaign/prep/locations/serebryanyy-strazh/places-catalog.md) · файл: [`assets/maps/serebryanyy-strazh-map.jpg`](../../assets/maps/serebryanyy-strazh-map.jpg)

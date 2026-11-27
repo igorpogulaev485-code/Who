@@ -21,3 +21,13 @@ region: Аэлендор / Лунные Пики
 
 Карта провинции: [`lunnye-piki-map.md`](lunnye-piki-map.md)  
 Prep глашатая (частично устарел): [`campaign/prep/kamnegrad-dragon.md`](../../campaign/prep/kamnegrad-dragon.md)
+
+## План города (нумерованный · до/как помнят)
+
+![Камнеград](https://iili.io/nAZEkcN.jpg)
+
+> **Кадр:** Камнеград · [⬇](https://iili.io/nAZEkcN.jpg)
+
+Каталог 1–29: [`../../campaign/prep/locations/kamnegrad/places-catalog.md`](../../campaign/prep/locations/kamnegrad/places-catalog.md) · файл: [`assets/maps/kamnegrad-map-numbered.jpg`](../../assets/maps/kamnegrad-map-numbered.jpg)
+
+*Сейчас город почти сожжён — карта = ориентир «как было» / что восстанавливать.*

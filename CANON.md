@@ -45,8 +45,17 @@
 - [Карта мира](world/locations/world-map.md) → [`assets/maps/world-map-echo-dawn.jpg`](assets/maps/world-map-echo-dawn.jpg)
 - [Карта Аэлендора](world/locations/aelendor-map.md) → [`assets/maps/aelendor-map.jpg`](assets/maps/aelendor-map.jpg)
 - [Карта Лунных Пиков](world/locations/lunnye-piki-map.md) → [`assets/maps/lunnye-piki-map.jpg`](assets/maps/lunnye-piki-map.jpg)
+- [Карта Ледяного Союза](world/locations/ledyanoy-soyuz-map.md) → [`assets/maps/ledyanoy-soyuz-map-locked.jpg`](assets/maps/ledyanoy-soyuz-map-locked.jpg) **(LOCKED)**
 - [Реестр центров Аэлендора](world/locations/aelendor-centers.md)
 - [Государства мира](world/locations/states-overview.md)
+- [Ледяной Союз](world/locations/states/ledyanoy-soyuz.md) (столица **Гирмхельм**; Совет; воентан **Дунгар Седощит**)
+- Prep Гирмхельм: [`campaign/prep/locations/girmhelm/`](campaign/prep/locations/girmhelm/)
+- [Империя Драконьего Хребта](world/locations/states/imperiya-drakonyego-khrebta.md) (столица **Город Пламени**; триумвират + Зариакс)
+- [Карта Хребта](world/locations/drakoniy-khrebet-map.md) → [`assets/maps/drakoniy-khrebet-map-locked.jpg`](assets/maps/drakoniy-khrebet-map-locked.jpg) **(LOCKED v12c)**
+- [Империя Звёздной Пыли](world/locations/states/imperiya-zvezdnoy-pyli.md) (столица **Небесный Форт**; Кайрос; **Каэлен Вейл**; парящая земля)
+- [Карта Пыли](world/locations/zvezdnaya-pyl-map.md) → [`assets/maps/zvezdnaya-pyl-map-locked.jpg`](assets/maps/zvezdnaya-pyl-map-locked.jpg) **(LOCKED v4)**
+- **Планы (Разлом):** Маяк душ LOCKED v4 · [атлас демонов LOCKED v24](campaign/prep/locations/demon-plane-map.md) · [атлас мёртвых LOCKED v2](campaign/prep/locations/dead-plane-map.md) → [`assets/maps/dead-plane/dead-plane-atlas-locked.png`](assets/maps/dead-plane/dead-plane-atlas-locked.png) · локи: [геометрия](campaign/plot/canon-lock-2026-09-23-dead-plane-geometry.md) · [имена](campaign/plot/canon-lock-2026-09-24-dead-plane-state-names.md) · [атлас](campaign/plot/canon-lock-2026-09-24-dead-plane-atlas.md) · gazetteer [`campaign/prep/locations/dead-plane-gazetteer.md`](campaign/prep/locations/dead-plane-gazetteer.md)
+- Карты входных государств (review): [Берег Памяти](campaign/prep/locations/bereg-pamyati/map.md) · [Пепельный Порог](campaign/prep/locations/pepelnyy-porog/map.md) · лок опроса [`canon-lock-2026-09-24-plane-entry-state-maps.md`](campaign/plot/canon-lock-2026-09-24-plane-entry-state-maps.md)
 - [Сильванор](world/locations/silvanor.md)
 - [Лунный Мост](world/locations/lunnyy-most.md)
 - [Лунный Овраг](world/locations/lunnyy-ovrag.md)
@@ -54,7 +63,7 @@
 - [Камнеград](world/locations/kamnegrad.md)
 - [Белый шип](world/locations/belyy-ship.md) · [Туманный клык](world/locations/tumannyy-klyk.md) · [Тихий брод](world/locations/tikhiy-brod.md)
 - [Чаша Шепотов](world/locations/chasha-shepotov.md) · [Поле павших героев](world/locations/pole-pavshikh-geroev.md)
-- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор)
+- [Лес Хранителей](world/locations/les-khraniteley.md) (государство ≠ Аэлендор; столица **Силвания**)
 - [Розалия](world/locations/rozaliya.md)
   - [НПС](world/locations/rozaliya/npcs.md)
   - [Суда](world/locations/rozaliya/ships.md)
@@ -72,7 +81,7 @@
 
 ## Фракции
 
-- [Аэлендор](world/factions/aelendor.md)
+- [Аэлендор](world/locations/states/aelendor.md) — паспорт **W3**; карта [`aelendor-map`](world/locations/aelendor-map.md); stub [`factions/aelendor`](world/factions/aelendor.md)
 - [Теневая Долина](world/factions/tenevaya-dolina.md)
 - [Тёмные леса вечной тени](world/factions/temnye-lesa.md)
 - [Орден пламенеющей стали](world/factions/orden-plameneyushchey-stali.md)
@@ -83,17 +92,32 @@
 
 ## NPC
 
-- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник не изучен; дочь — параллель
-- [Пиппин](world/npcs/pippin.md) — мёртв (предатель)
+- [Маэстро Келебрим](world/npcs/maestro-kelebrim.md) — убит демонами; дневник частично; **дверь R** / храм Амирата (~с.15) + растущий в **Кузад-Думе**; душа у демонов; дочь **Милана**
+- [Финилон](world/npcs/finilon.md) — придворный поэт Маэстро; арка 1 (ода / муза)
+- [Лираэль](world/npcs/lirael.md) — служанка Финилона; арка 1 (правда о стихах / зелье Морвин)
+- [Морвин](world/npcs/morvin.md) — травница; зелье арки 1; «Колыбель Рассвета»; тайный вход в Овраг
+- [Аран](world/npcs/aran.md) — минотавр; управляющий приюта «Колыбель Рассвета»
+- [Элла](world/npcs/ella.md) — повариха приюта (≠ Эллианэ «Туман» в Розалии)
+- [Брунгильда](world/npcs/brunhilda.md) — нянечка приюта «Колыбель Рассвета»
+- [Вендиг](world/npcs/vendig.md) · [Ленора](world/npcs/lenora.md) — «Хвост скорпиона»; **мертвы** (арка 1, Дранник)
+- [Лок — Двойник / крышка](campaign/plot/canon-lock-2026-09-24-maestro-clone.md) · [хвосты воскрешения](campaign/plot/canon-lock-2026-09-24-resurrection-tails.md) · ранбук [18 · с.2](campaign/prep/arc3-visual-book/chapters/18-index.md) · скрипт [`mq-05-sessions-2-door-r`](campaign/prep/arcs/arc-3/quests/mq-05-sessions-2-door-r.md)
+- [Милана](world/npcs/milana.md) — дочь Маэстро (канон; ≠ Фириэсса); путь богов/кастеров; гонка один-победитель
+- [Торвик Камнезуб](world/npcs/torvik-kamnezub.md) · [Карим Песчаный След](world/npcs/karim-peschaniy-sled.md) — prep НПС двери R с.2
+- [Пиппин](world/npcs/pippin.md) — мёртв (предатель); портрет `https://iili.io/nAD1Npt.jpg`
 - [Багал](world/npcs/bagal.md) — мёртв (убил Кеша)
 - [Константин III / ложная корона](world/npcs/konstantin-iii.md)
 - [Элессар I](world/npcs/elessar-i.md) — истинный король
+- [Малфурион (Ярость Бури)](world/npcs/malfurion-yarost-buri.md) — полубог-друид; совет в Лесу (~1 мес.)
 - [Филлер](world/npcs/filler.md)
-- [Веларис](world/npcs/velaris.md)
-- [Элеонора](world/npcs/eleonora.md)
-- [Кардиан](world/npcs/kardian.md)
+- [Веларис](world/npcs/velaris.md) — лейтенант / режим Лунного моста; Теневая Долина; побег → **убит** при освобождении Серебряного Стража
+- [Элиан Вечный Узел](world/npcs/elian.md) — капитан (FrostWarden); маг Купели; двери A/F
+- [Элеонора](world/npcs/eleonora.md) — сценаристка «Зеркала Судьбы»; агент Теневой Долины; раскрыта Болтаном → убита Велианом
+- [Кардиан](world/npcs/kardian.md) — антагонист арки 5; жена **Аэлиндра**; сны эмпатии → ранбук [гл. 19](campaign/prep/arc3-visual-book/chapters/19-index.md)
+- [Сильванара](world/npcs/silvanara.md) — мать Люмиэля; слух о престоле
+- [Люмиэль](world/npcs/lumiel.md) — король Аэлендора; **мёртв** (зеркало/портал → Разлом); кадр: инкогнито в таверне
 - [Тандил](world/npcs/tandil.md) — мэр военного времени Лунного моста
-- [Велиан Полутень](world/npcs/velian.md) — ушёл в Разлом
+- [Велиан Полутень](world/npcs/velian.md) — жив; план мёртвых, в пути
+- [Лианэя](world/npcs/lianeya.md) — сестра Элариона; армия мёртвых; Доспехи смерти *(secret)*
 - [Иннокентий Баль (Кеша)](world/npcs/innokentiy-bal.md) — мёртв; убил Багала
 
 ## Партия
@@ -107,10 +131,17 @@
 - [Хронология](campaign/plot/timeline.md)
 - [Пять арок кампании](campaign/plot/arcs.md)
 - [Открытые нити](campaign/plot/open-threads.md)
-- [Арка 3: меню маршрутов + живой мир](campaign/plot/arc3-routes-living-world.md) *(draft)*
+- [Арка 3: меню маршрутов + живой мир](campaign/plot/arc3-routes-living-world.md) · стол: [гл. 17](campaign/prep/arc3-visual-book/chapters/17-index.md) · [лок часов](campaign/plot/canon-lock-2026-09-24-living-world.md)
 - [Гипотетический коридор арок 3–5](campaign/plot/arc-roadmap-hypothesis.md) *(draft)*
 - [Канон-лок 2026-09-04](campaign/plot/canon-lock-2026-09-04.md)
 - [Канон-лок раунд 2](campaign/plot/canon-lock-2026-09-04-round2.md)
+- [Канон-лок 2026-09-10: Лианэя / Велиан / старт арки 3](campaign/plot/canon-lock-2026-09-10-arc3-start.md)
+- [Канон-лок cold open](campaign/plot/canon-lock-2026-09-10-cold-open.md)
+- [Дневник Маэстро — оглавление 58 стр. (канон)](campaign/prep/books/dnevnik-maestro/00-toc-v3-blocks.md)
+- [Открытые страницы (интерлюдии 16/17/29–32/52–55)](campaign/prep/books/dnevnik-maestro/handout-open-pages.md) · [лок #1](campaign/plot/canon-lock-2026-09-24-diary-interlude-open.md) · [лок #2 · 29–32](campaign/plot/canon-lock-2026-09-24-diary-pages-29-32.md)
+- [Оглавление дневника для игроков](campaign/prep/books/dnevnik-maestro/toc-telegram.txt) · [Telegraph](https://telegra.ph/Moi-znaniya---moya-zhizn-09-21)
+- [Слухи накануне (игрокам)](campaign/prep/briefs/arc3-rumors-eve.md)
+- [Сессия 1 cold open](campaign/prep/arc3-session-01-cold-open.md)
 - [Сообщения игрокам: Страж + глашатай](campaign/sessions/player-briefs-silver-guard-and-herald.md)
 - [Награды за Страж](campaign/party/rewards-silver-guard.md)
 - [Кандидаты 4 Разломов](campaign/plot/rift-candidates.md)
@@ -130,7 +161,14 @@
 
 ## Подготовка (ещё не сыграно)
 
-- [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md)
+- [План оркестратора — квесты арки 3](campaign/prep/orchestrator/arc3-quests-plan.md)
+- [План — бюджет сессий арки 3](campaign/prep/orchestrator/arc3-session-budget-plan.md) *(ждёт ответов)*
+- [Опрос: бюджет сессий арки 3](campaign/plot/skill-survey-arc3-session-budget-v1.html)
+- [Арка 3 — основные квесты (overview)](campaign/prep/arcs/arc-3/mains-overview.md) *(prep)*
+- [Playbook Лунного моста (хаб)](campaign/prep/locations/lunnyy-most/playbook.md) *(prep)*
+- [Опрос приоритетов mq арки 3](campaign/plot/skill-survey-arc3-quests-v1.html)
+- [Агенты / скилы](AGENTS.md)
+- [3 арка — сессия 1](campaign/prep/arc3-session-01-lunnyy-most.md) *(stale — Маэстро мёртв; каталог мест)*
 - [Вирра / Гонд — награда за веру](campaign/prep/virra-gond-faith-reward.md)
 - [Битва за Лунный Овраг — механика](campaign/prep/bitva-za-lunnyy-ovrag.md)
 - [Кузница Фиалки](world/locations/lunnyy-most/kuznitsa-fialki.md)
