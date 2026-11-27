@@ -21,5 +21,7 @@ sheet: assets/character-sheets/plach-zvezdy.pdf
 
 Вероятная замена Мёртвого Листа (оба табакси-плуты). Лук клятвы.
 
+**Арка 3 с.1–2:** пытался украсть камень планов **Саэлы** → арест группы → суд. Приговор: отправлен в **Разлом в Лесу Хранителей** — искупить кровью; от него ждут **разведданных**.
+
 Лист игрока: [`assets/character-sheets/plach-zvezdy.pdf`](../../../assets/character-sheets/plach-zvezdy.pdf)  
 Текст извлечения: [`assets/character-sheets/plach-zvezdy.txt`](../../../assets/character-sheets/plach-zvezdy.txt)

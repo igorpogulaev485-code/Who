@@ -23,5 +23,7 @@ sheet: assets/character-sheets/elarion.pdf
 
 **Сестра:** [`Лианэя`](../../../world/npcs/lianeya.md) — в бэке мертва; цель на листе — вернуть её. Тайна мастера: воскрешена злом, армия мёртвых во льдах, **Доспехи смерти**.
 
+**Арка 3 с.1–2:** на Пороге после суда; репутация с жителями Леса Хранителей **−4**.
+
 Лист игрока: [`assets/character-sheets/elarion.pdf`](../../../assets/character-sheets/elarion.pdf)  
 Текст извлечения: [`assets/character-sheets/elarion.txt`](../../../assets/character-sheets/elarion.txt)

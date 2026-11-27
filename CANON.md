@@ -158,6 +158,8 @@
 
 - [01 — Зов Лунного Моста](campaign/sessions/01-lunnyy-most-start.md)
 - [01 — литературная хроника](campaign/sessions/chronicle/01-zov-lunnogo-mosta.md)
+- [Арка 3 · с.1–2 — дверь D / суд на Пороге](campaign/sessions/arc3-s1s2-door-d-recap.md) · [лок](campaign/plot/canon-lock-2026-09-27-recap-door-d.md)
+- [Саэла Троповед](world/npcs/saela-tropoved.md)
 
 ## Подготовка (ещё не сыграно)
 
